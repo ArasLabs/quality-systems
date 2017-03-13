@@ -1,4 +1,4 @@
-<AML>
+﻿<AML>
  <Item type="RelationshipType" id="FC05A3D7534D41A09FAF9B4DEDFE567A" action="add" dependencyLevel="0">
   <auto_search>1</auto_search>
   <behavior>float</behavior>
@@ -49,13 +49,13 @@
       <readonly>0</readonly>
       <sort_order>1</sort_order>
       <source_id keyed_name="Customer Contacts" type="ItemType" name="Customer Contacts">24B7EB0587B2462DAD7BEDD48D3F844C</source_id>
-      </Item>
+     </Item>
     </Relationships>
    </Item>
   </relationship_id>
   <sort_order>128</sort_order>
   <source_id keyed_name="Customer" type="ItemType" name="Customer">E4847F4A706B4285A395C0228A867E0F</source_id>
-  </Item>
+ </Item>
  <Item type="View" action="delete" where="source_id='24B7EB0587B2462DAD7BEDD48D3F844C'"></Item>
  <Item type="Form" action="delete" where="name='Customer Contacts'"></Item>
 </AML>

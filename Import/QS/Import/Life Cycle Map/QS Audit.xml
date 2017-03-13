@@ -1,4 +1,4 @@
-<AML>
+﻿<AML>
  <Item type="Life Cycle Map" id="272BB74747A64AE188421D00054AD45E" action="add">
   <name>QS Audit</name>
   <start_state keyed_name="Planned" type="Life Cycle State">45327B96D9504BDC9B1DAAB3199F7215</start_state>
@@ -12,7 +12,7 @@
     <source_id keyed_name="QS Audit" type="Life Cycle Map">272BB74747A64AE188421D00054AD45E</source_id>
     <x>378</x>
     <y>29</y>
-    </Item>
+   </Item>
    <Item type="Life Cycle State" id="8A71892A8FE849C6BCA9C9760D0BC60D" action="add">
     <image>../images/icons/20x20/20x15_lifecycle.gif</image>
     <name>In Process</name>
@@ -22,7 +22,7 @@
     <source_id keyed_name="QS Audit" type="Life Cycle Map">272BB74747A64AE188421D00054AD45E</source_id>
     <x>234</x>
     <y>29</y>
-    </Item>
+   </Item>
    <Item type="Life Cycle State" id="45327B96D9504BDC9B1DAAB3199F7215" action="add">
     <image>../images/icons/20x20/20x15_lifecycle.gif</image>
     <name>Planned</name>
@@ -32,7 +32,7 @@
     <source_id keyed_name="QS Audit" type="Life Cycle Map">272BB74747A64AE188421D00054AD45E</source_id>
     <x>85</x>
     <y>29</y>
-    </Item>
+   </Item>
    <Item type="Life Cycle Transition" id="3B529EEC3BDE43C5A0520E36049F1EA7" action="add">
     <from_state keyed_name="In Process" type="Life Cycle State">8A71892A8FE849C6BCA9C9760D0BC60D</from_state>
     <get_comment>0</get_comment>
@@ -47,7 +47,7 @@
     <to_state keyed_name="Completed" type="Life Cycle State">F3AC2263219C49D1A091285AD24CFE47</to_state>
     <x>-1</x>
     <y>-1</y>
-    </Item>
+   </Item>
   
    <Item type="Life Cycle Transition" id="B2BC2744A51F4600A1F2803A6AAFBB89" action="add">
     <from_state keyed_name="Planned" type="Life Cycle State">45327B96D9504BDC9B1DAAB3199F7215</from_state>
@@ -63,6 +63,6 @@
     <to_state keyed_name="In Process" type="Life Cycle State">8A71892A8FE849C6BCA9C9760D0BC60D</to_state>
     <x>46</x>
     <y>12</y>
-    </Item></Relationships>
+   </Item></Relationships>
  </Item>
 </AML>

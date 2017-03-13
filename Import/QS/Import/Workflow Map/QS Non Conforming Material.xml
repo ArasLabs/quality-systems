@@ -1,4 +1,4 @@
-<AML>
+﻿<AML>
  <Item type="Workflow Map" id="0D3BA1A6ECF644D4BB88C8104A631D6A" action="add">
   <description>Non Conforming Material workflow</description>
   <name>QS Non Conforming Material</name>
@@ -19,7 +19,7 @@
   <transition_name_color></transition_name_color>
   <transition_name_font></transition_name_font>
   <Relationships>
-   <Item type="Workflow Map Activity" id="462F746DA627459689C3AD6B8B65C758" action="add">
+   <Item type="Workflow Map Activity" id="69B4286FC52140819387A3505FB7CE30" action="add">
     <related_id keyed_name="End" type="Activity Template">
      <Item type="Activity Template" id="6D2F2174E8674324BE7B1F9ACF020106" action="add">
       <can_delegate>0</can_delegate>
@@ -40,12 +40,12 @@
       <wait_for_all_votes>0</wait_for_all_votes>
       <x>725</x>
       <y>20</y>
-      </Item>
+     </Item>
     </related_id>
     <sort_order>128</sort_order>
     <source_id keyed_name="QS Non Conforming Material" type="Workflow Map">0D3BA1A6ECF644D4BB88C8104A631D6A</source_id>
    </Item>
-   <Item type="Workflow Map Activity" id="8C62C921D5E44417925933884C3B34F3" action="add">
+   <Item type="Workflow Map Activity" id="75E963FED9744A41947D9A6C9E5EB6FF" action="add">
     <related_id keyed_name="Initiate Purge Activity" type="Activity Template">
      <Item type="Activity Template" id="3B04DE6555F04FD4BE440DD0DCAECCE4" action="add">
       <can_delegate>1</can_delegate>
@@ -81,14 +81,14 @@
         <source_id keyed_name="Initiate Purge Activity" type="Activity Template">3B04DE6555F04FD4BE440DD0DCAECCE4</source_id>
         <x>35</x>
         <y>-5</y>
-        </Item>
+       </Item>
       </Relationships>
      </Item>
     </related_id>
     <sort_order>640</sort_order>
     <source_id keyed_name="QS Non Conforming Material" type="Workflow Map">0D3BA1A6ECF644D4BB88C8104A631D6A</source_id>
    </Item>
-   <Item type="Workflow Map Activity" id="4F0BFC9DEC5A49CCADA1B02933300D4D" action="add">
+   <Item type="Workflow Map Activity" id="F2E9DDEAC4954BBCB3EF96C872DDBA0A" action="add">
     <related_id keyed_name="Production Approval" type="Activity Template">
      <Item type="Activity Template" id="31EE71C24F82466BB51E35085314E83A" action="add">
       <can_delegate>1</can_delegate>
@@ -124,7 +124,7 @@
         <source_id keyed_name="Production Approval" type="Activity Template">31EE71C24F82466BB51E35085314E83A</source_id>
         <x>16</x>
         <y>-6</y>
-        </Item>
+       </Item>
        <Item type="Workflow Map Path" id="29E0FE41D0A34B63986041A47D0E79F1" action="add">
         <authentication>none</authentication>
         <is_default>0</is_default>
@@ -136,14 +136,14 @@
         <source_id keyed_name="Production Approval" type="Activity Template">31EE71C24F82466BB51E35085314E83A</source_id>
         <x>-85</x>
         <y>-8</y>
-        </Item>
+       </Item>
       </Relationships>
      </Item>
     </related_id>
     <sort_order>384</sort_order>
     <source_id keyed_name="QS Non Conforming Material" type="Workflow Map">0D3BA1A6ECF644D4BB88C8104A631D6A</source_id>
    </Item>
-   <Item type="Workflow Map Activity" id="5B6554045897480AA05A412B2336CC8E" action="add">
+   <Item type="Workflow Map Activity" id="0172A7B040E143358D22FF59DE6D76D7" action="add">
     <related_id keyed_name="Purge Completion" type="Activity Template">
      <Item type="Activity Template" id="65B0F14EC2CC4DF1A63647ADA20F2EFE" action="add">
       <can_delegate>1</can_delegate>
@@ -179,7 +179,7 @@
         <source_id keyed_name="Purge Completion" type="Activity Template">65B0F14EC2CC4DF1A63647ADA20F2EFE</source_id>
         <x>32</x>
         <y>-7</y>
-        </Item>
+       </Item>
       </Relationships>
      </Item>
     </related_id>
@@ -187,7 +187,7 @@
     <source_id keyed_name="QS Non Conforming Material" type="Workflow Map">0D3BA1A6ECF644D4BB88C8104A631D6A</source_id>
    </Item>
   
-   <Item type="Workflow Map Activity" id="959BE98C6A934DB4A51C1E35EE171885" action="add">
+   <Item type="Workflow Map Activity" id="2D40DA7EE9894790A3AA69FEB84B84ED" action="add">
     <related_id keyed_name="Purge Review" type="Activity Template">
      <Item type="Activity Template" id="2E35830A9EB94DB094FCAA36E37AA362" action="add">
       <can_delegate>1</can_delegate>
@@ -223,14 +223,14 @@
         <source_id keyed_name="Purge Review" type="Activity Template">2E35830A9EB94DB094FCAA36E37AA362</source_id>
         <x>43</x>
         <y>55</y>
-        </Item>
+       </Item>
       </Relationships>
      </Item>
     </related_id>
     <sort_order>256</sort_order>
     <source_id keyed_name="QS Non Conforming Material" type="Workflow Map">0D3BA1A6ECF644D4BB88C8104A631D6A</source_id>
    </Item>
-   <Item type="Workflow Map Activity" id="5FB16C4F56BB404F9D7D474A3F142A4E" action="add">
+   <Item type="Workflow Map Activity" id="2BC53A76CDFD49C6A033E55E392D4D78" action="add">
     <related_id keyed_name="Quality Approval" type="Activity Template">
      <Item type="Activity Template" id="D50DDF5F0A6549AB83A54064BC67CCE5" action="add">
       <can_delegate>1</can_delegate>
@@ -266,14 +266,14 @@
         <source_id keyed_name="Quality Approval" type="Activity Template">D50DDF5F0A6549AB83A54064BC67CCE5</source_id>
         <x>33</x>
         <y>-7</y>
-        </Item>
+       </Item>
       </Relationships>
      </Item>
     </related_id>
     <sort_order>512</sort_order>
     <source_id keyed_name="QS Non Conforming Material" type="Workflow Map">0D3BA1A6ECF644D4BB88C8104A631D6A</source_id>
    </Item>
-   <Item type="Workflow Map Activity" id="1E4C8FB812F545B29F8F135782BE38E4" action="add">
+   <Item type="Workflow Map Activity" id="0F415C30D9DE4303B50168B5083CFE60" action="add">
     <related_id keyed_name="Start" type="Activity Template">
      <Item type="Activity Template" id="622684A9FF714227AD640E33BB1D0024" action="add">
       <can_delegate>0</can_delegate>
@@ -306,7 +306,7 @@
         <source_id keyed_name="Start" type="Activity Template">622684A9FF714227AD640E33BB1D0024</source_id>
         <x>31</x>
         <y>-7</y>
-        </Item>
+       </Item>
       </Relationships>
      </Item>
     </related_id>

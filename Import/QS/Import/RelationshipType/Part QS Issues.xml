@@ -1,4 +1,4 @@
-<AML>
+﻿<AML>
  <Item type="RelationshipType" id="3F88B8AB36F54A9CB35F5F2C49744844" action="add" dependencyLevel="0">
   <auto_search>1</auto_search>
   <behavior>float</behavior>
@@ -33,7 +33,7 @@
     <use_src_access>1</use_src_access>
     </Item>
   </relationship_id>
-  <sort_order>650</sort_order>
+  <sort_order>897</sort_order>
   <source_id keyed_name="Part" type="ItemType" name="Part">4F1AC04A2B484F3ABA4E20DB63808A88</source_id>
   <Relationships>
    <Item type="Relationship View" id="FC83D4B4EDC046A4BEBD8DB88A4E304D" action="add">

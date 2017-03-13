@@ -1,4 +1,4 @@
-<AML>
+﻿<AML>
  <Item type="Life Cycle Map" id="E3CD294C43EF4CED9977B5BD140E4697" action="add">
   <name>QS Hold Notice</name>
   <start_state keyed_name="Active" type="Life Cycle State">6D07AA99E7F44170B9E64C8919576631</start_state>
@@ -12,7 +12,7 @@
     <source_id keyed_name="QS Hold Notice" type="Life Cycle Map">E3CD294C43EF4CED9977B5BD140E4697</source_id>
     <x>65</x>
     <y>32</y>
-    </Item>
+   </Item>
    <Item type="Life Cycle State" id="0633EC0677474D10ABA65C90C248E841" action="add">
     <image>../images/icons/20x20/20x15_lifecycle.gif</image>
     <name>Expired</name>
@@ -22,7 +22,7 @@
     <source_id keyed_name="QS Hold Notice" type="Life Cycle Map">E3CD294C43EF4CED9977B5BD140E4697</source_id>
     <x>235</x>
     <y>32</y>
-    </Item>
+   </Item>
    <Item type="Life Cycle Transition" id="EC58678E410046DC8E3F4F80EB381614" action="add">
     <from_state keyed_name="Active" type="Life Cycle State">6D07AA99E7F44170B9E64C8919576631</from_state>
     <get_comment>0</get_comment>
@@ -34,7 +34,7 @@
     <sort_order>128</sort_order>
     <source_id keyed_name="QS Hold Notice" type="Life Cycle Map">E3CD294C43EF4CED9977B5BD140E4697</source_id>
     <to_state keyed_name="Expired" type="Life Cycle State">0633EC0677474D10ABA65C90C248E841</to_state>
-    </Item>
+   </Item>
   </Relationships>
  </Item>
 </AML>

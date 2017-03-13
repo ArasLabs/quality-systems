@@ -29,12 +29,14 @@ Release notes/descriptions for the original project posted on the previous Aras 
 
 Release | Notes
 --------|--------
+[v3.0](https://github.com/ArasLabs/quality-systems/releases/tag/v3.0) | 02.29.2008 updated the package for Innovator 8.2. Resolved may external references that were broken. NOTE this should be considered a good starting point, not a complete solution.
 [v2.1](https://github.com/ArasLabs/quality-systems/releases/tag/v2.1) | 02.01.2007 V2.1 release. Bug fixes and removal of all unused Items, workflows, methods etc.
 
 #### Supported Aras Versions
 
 Project | Aras
 --------|------
+[v3.0](https://github.com/ArasLabs/quality-systems/releases/tag/v3.0) | Aras 8.2.0
 [v2.1](https://github.com/ArasLabs/quality-systems/releases/tag/v2.1) | Aras 8.1.1
 
 > ###### *Please note: Aras Community Projects are provided on an "as-is" basis.*

@@ -1,4 +1,4 @@
-<AML>
+﻿<AML>
  <Item type="ItemType" id="7BA1381F3C284849B4C79E12DAA74BA8" action="add">
   <allow_private_permission>0</allow_private_permission>
   <auto_search>1</auto_search>
@@ -59,7 +59,7 @@
     <sort_order>8</sort_order>
     <source_id keyed_name="FishBone Analysis" type="ItemType" name="FishBone Analysis">7BA1381F3C284849B4C79E12DAA74BA8</source_id>
     <stored_length>128</stored_length>
-    </Item>
+   </Item>
    <Item type="Property" id="B9A3629A9D1C420C9D5C14885D4BD306" action="add">
     <column_alignment>left</column_alignment>
     <column_width>250</column_width>
@@ -78,7 +78,7 @@
     <readonly>0</readonly>
     <sort_order>10</sort_order>
     <source_id keyed_name="FishBone Analysis" type="ItemType" name="FishBone Analysis">7BA1381F3C284849B4C79E12DAA74BA8</source_id>
-    </Item>
+   </Item>
    <Item type="Property" id="F2554D10694B409DAC6039D06F104DB4" action="add">
     <column_alignment>left</column_alignment>
     <column_width>100</column_width>
@@ -97,16 +97,6 @@
     <range_inclusive>0</range_inclusive>
     <readonly>0</readonly>
     <sort_order>1</sort_order>
-    <source_id keyed_name="FishBone Analysis" type="ItemType" name="FishBone Analysis">7BA1381F3C284849B4C79E12DAA74BA8</source_id>
-    </Item>
-   <Item type="TOC Access" id="08859BDE71D14B9F8B9FFB120A66C72D" action="add">
-    <category>Documents</category>
-    <related_id keyed_name="World" type="Identity">
-     <Item type="Identity" action="get" select="id">
-      <name>World</name>
-     </Item>
-    </related_id>
-    <sort_order>128</sort_order>
     <source_id keyed_name="FishBone Analysis" type="ItemType" name="FishBone Analysis">7BA1381F3C284849B4C79E12DAA74BA8</source_id>
    </Item>
    <Item type="View" id="9D85F53ADD8E4943BA3A4481D322EC31" action="add">

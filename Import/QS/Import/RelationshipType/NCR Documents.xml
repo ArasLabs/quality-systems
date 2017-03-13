@@ -1,4 +1,4 @@
-<AML>
+﻿<AML>
  <Item type="RelationshipType" id="70757F56FBA24AE092331E74DF0949F1" action="add" dependencyLevel="0">
   <auto_search>1</auto_search>
   <behavior>float</behavior>
@@ -36,7 +36,7 @@
   </relationship_id>
   <sort_order>256</sort_order>
   <source_id keyed_name="NCR" type="ItemType" name="NCR">58D74CF0E0934E33850CC3CB28361FD9</source_id>
-  </Item>
+ </Item>
  <Item type="View" action="delete" where="source_id='7F5AB1D75A404BC0A61CB4646FE2BE6A'"></Item>
  <Item type="Form" action="delete" where="name='NCR Documents'"></Item>
 </AML>

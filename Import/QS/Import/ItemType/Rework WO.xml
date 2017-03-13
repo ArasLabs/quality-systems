@@ -1,4 +1,4 @@
-<AML>
+﻿<AML>
  <Item type="ItemType" id="CC7DF616067A42768A9A77E603596160" action="add">
   <allow_private_permission>0</allow_private_permission>
   <auto_search>1</auto_search>
@@ -54,7 +54,7 @@
     <sort_order>20</sort_order>
     <source_id keyed_name="Rework WO" type="ItemType" name="Rework WO">CC7DF616067A42768A9A77E603596160</source_id>
     <stored_length>256</stored_length>
-    </Item>
+   </Item>
    <Item type="Property" id="721E0EADAF294AF7BD5AA291520430DF" action="add">
     <column_alignment>left</column_alignment>
     <column_width>100</column_width>
@@ -74,7 +74,7 @@
     <readonly>0</readonly>
     <sort_order>1</sort_order>
     <source_id keyed_name="Rework WO" type="ItemType" name="Rework WO">CC7DF616067A42768A9A77E603596160</source_id>
-    </Item>
+   </Item>
    <Item type="Property" id="E3E15A81B35F402E85F6A003FA91EADF" action="add">
     <column_alignment>left</column_alignment>
     <column_width>100</column_width>
@@ -93,7 +93,17 @@
     <readonly>0</readonly>
     <sort_order>5</sort_order>
     <source_id keyed_name="Rework WO" type="ItemType" name="Rework WO">CC7DF616067A42768A9A77E603596160</source_id>
-    </Item>
+   </Item>
+   <Item type="TOC Access" id="49971D7348374507960508B473A7B871" action="add">
+    <category>Quality</category>
+    <related_id keyed_name="World" type="Identity">
+     <Item type="Identity" action="get" select="id">
+      <name>World</name>
+     </Item>
+    </related_id>
+    <sort_order>128</sort_order>
+    <source_id keyed_name="Rework WO" type="ItemType" name="Rework WO">CC7DF616067A42768A9A77E603596160</source_id>
+   </Item>
    <Item type="View" id="9FEB95312C6D46878CCA5B78EE86D3BD" action="add">
     <client>js</client>
     <related_id keyed_name="Rework WO" type="Form">B09CDBA3D9024DF399EDA17FE35F69B5</related_id>
@@ -108,60 +118,64 @@
    </Item>
   </Relationships>
  </Item>
- <Item type="Property" action="edit" where="source_id='CC7DF616067A42768A9A77E603596160' and name='managed_by_id'">
-  <column_alignment>left</column_alignment>
-  <column_width>100</column_width>
-  <data_source keyed_name="Identity" type="ItemType" name="Identity">E582AB17663F4EF28460015B2BE9E094</data_source>
-  <data_type>item</data_type>
-  <is_hidden>0</is_hidden>
-  <is_hidden2>0</is_hidden2>
-  <is_indexed>0</is_indexed>
-  <is_keyed>0</is_keyed>
-  <is_multi_valued>0</is_multi_valued>
-  <is_required>0</is_required>
-  <item_behavior>float</item_behavior>
-  <label>Reviewer</label>
-  <name>managed_by_id</name>
-  <range_inclusive>0</range_inclusive>
-  <readonly>0</readonly>
-  <sort_order>14</sort_order>
-  <source_id keyed_name="Rework WO" type="ItemType" name="Rework WO">CC7DF616067A42768A9A77E603596160</source_id>
-  </Item>
- <Item type="Property" action="edit" where="source_id='CC7DF616067A42768A9A77E603596160' and name='owned_by_id'">
-  <column_alignment>left</column_alignment>
-  <column_width>100</column_width>
-  <data_source keyed_name="Identity" type="ItemType" name="Identity">E582AB17663F4EF28460015B2BE9E094</data_source>
-  <data_type>item</data_type>
-  <is_hidden>0</is_hidden>
-  <is_hidden2>0</is_hidden2>
-  <is_indexed>0</is_indexed>
-  <is_keyed>0</is_keyed>
-  <is_multi_valued>0</is_multi_valued>
-  <is_required>0</is_required>
-  <item_behavior>float</item_behavior>
-  <label>Author</label>
-  <name>owned_by_id</name>
-  <range_inclusive>0</range_inclusive>
-  <readonly>0</readonly>
-  <sort_order>12</sort_order>
-  <source_id keyed_name="Rework WO" type="ItemType" name="Rework WO">CC7DF616067A42768A9A77E603596160</source_id>
-  </Item>
- <Item type="Property" action="edit" where="source_id='CC7DF616067A42768A9A77E603596160' and name='state'">
-  <column_alignment>center</column_alignment>
-  <column_width>90</column_width>
-  <data_type>string</data_type>
-  <is_hidden>0</is_hidden>
-  <is_hidden2>0</is_hidden2>
-  <is_indexed>0</is_indexed>
-  <is_keyed>0</is_keyed>
-  <is_multi_valued>0</is_multi_valued>
-  <is_required>0</is_required>
-  <label>Status</label>
-  <name>state</name>
-  <range_inclusive>0</range_inclusive>
-  <readonly>1</readonly>
-  <sort_order>2</sort_order>
-  <source_id keyed_name="Rework WO" type="ItemType" name="Rework WO">CC7DF616067A42768A9A77E603596160</source_id>
-  <stored_length>32</stored_length>
-  </Item>
+ <Item type="ItemType" id="CC7DF616067A42768A9A77E603596160" action="edit">
+  <Relationships>
+   <Item type="Property" action="edit" where="source_id='CC7DF616067A42768A9A77E603596160' and name='managed_by_id'">
+    <column_alignment>left</column_alignment>
+    <column_width>100</column_width>
+    <data_source keyed_name="Identity" type="ItemType" name="Identity">E582AB17663F4EF28460015B2BE9E094</data_source>
+    <data_type>item</data_type>
+    <is_hidden>0</is_hidden>
+    <is_hidden2>0</is_hidden2>
+    <is_indexed>0</is_indexed>
+    <is_keyed>0</is_keyed>
+    <is_multi_valued>0</is_multi_valued>
+    <is_required>0</is_required>
+    <item_behavior>float</item_behavior>
+    <label>Reviewer</label>
+    <name>managed_by_id</name>
+    <range_inclusive>0</range_inclusive>
+    <readonly>0</readonly>
+    <sort_order>14</sort_order>
+    <source_id keyed_name="Rework WO" type="ItemType" name="Rework WO">CC7DF616067A42768A9A77E603596160</source_id>
+   </Item>
+   <Item type="Property" action="edit" where="source_id='CC7DF616067A42768A9A77E603596160' and name='owned_by_id'">
+    <column_alignment>left</column_alignment>
+    <column_width>100</column_width>
+    <data_source keyed_name="Identity" type="ItemType" name="Identity">E582AB17663F4EF28460015B2BE9E094</data_source>
+    <data_type>item</data_type>
+    <is_hidden>0</is_hidden>
+    <is_hidden2>0</is_hidden2>
+    <is_indexed>0</is_indexed>
+    <is_keyed>0</is_keyed>
+    <is_multi_valued>0</is_multi_valued>
+    <is_required>0</is_required>
+    <item_behavior>float</item_behavior>
+    <label>Author</label>
+    <name>owned_by_id</name>
+    <range_inclusive>0</range_inclusive>
+    <readonly>0</readonly>
+    <sort_order>12</sort_order>
+    <source_id keyed_name="Rework WO" type="ItemType" name="Rework WO">CC7DF616067A42768A9A77E603596160</source_id>
+   </Item>
+   <Item type="Property" action="edit" where="source_id='CC7DF616067A42768A9A77E603596160' and name='state'">
+    <column_alignment>center</column_alignment>
+    <column_width>90</column_width>
+    <data_type>string</data_type>
+    <is_hidden>0</is_hidden>
+    <is_hidden2>0</is_hidden2>
+    <is_indexed>0</is_indexed>
+    <is_keyed>0</is_keyed>
+    <is_multi_valued>0</is_multi_valued>
+    <is_required>0</is_required>
+    <label>Status</label>
+    <name>state</name>
+    <range_inclusive>0</range_inclusive>
+    <readonly>1</readonly>
+    <sort_order>2</sort_order>
+    <source_id keyed_name="Rework WO" type="ItemType" name="Rework WO">CC7DF616067A42768A9A77E603596160</source_id>
+    <stored_length>32</stored_length>
+   </Item>
+  </Relationships>
+ </Item>
 </AML>

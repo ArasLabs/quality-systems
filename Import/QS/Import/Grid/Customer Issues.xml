@@ -1,7 +1,7 @@
-<AML>
+﻿<AML>
  <Item type="Grid" id="D887C695F5CC476EA59724B55975AFA5" action="add">
   <name>Customer Issues</name>
-  <query><![CDATA[<Item type="Issue" action="get" select="state,item_number,description,customer_id"><customer_id>{id}</customer_id></Item>]]></query>
+  <query><![CDATA[<Item type="QS Issue" action="get" select="state,item_number,description,customer_id"><customer_id>{id}</customer_id></Item>]]></query>
   <Relationships>
    <Item type="Grid Column" id="419B1633D55F41408D33F052F3C2E323" action="add">
     <align>center</align>
@@ -14,7 +14,7 @@
     <visible>1</visible>
     <width>100</width>
     <xpath>.</xpath>
-    </Item>
+   </Item>
    <Item type="Grid Column" id="6460264AEF164ED591CA28D70C5A6F3A" action="add">
     <align>left</align>
     <datatype>default</datatype>
@@ -26,7 +26,7 @@
     <visible>0</visible>
     <width>30</width>
     <xpath>AML/Item</xpath>
-    </Item>
+   </Item>
    <Item type="Grid Column" id="A116302FB68D4587B2685DB7A1F0E29D" action="add">
     <align>left</align>
     <datatype>default</datatype>
@@ -38,7 +38,7 @@
     <visible>1</visible>
     <width>600</width>
     <xpath>.</xpath>
-    </Item>
+   </Item>
   
    <Item type="Grid Column" id="E8F9DD0FB1A140AFA4EAECBBAAC3BF19" action="add">
     <align>left</align>
@@ -51,6 +51,6 @@
     <visible>1</visible>
     <width>100</width>
     <xpath>.</xpath>
-    </Item></Relationships>
+   </Item></Relationships>
  </Item>
 </AML>

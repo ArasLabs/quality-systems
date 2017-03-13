@@ -1,4 +1,4 @@
-<AML>
+﻿<AML>
  <Item type="ItemType" id="F768DEE565D94BFF92BB6D498A5C990A" action="add">
   <allow_private_permission>0</allow_private_permission>
   <auto_search>1</auto_search>
@@ -53,7 +53,7 @@
     <sort_order>8</sort_order>
     <source_id keyed_name="FTA Analysis" type="ItemType" name="FTA Analysis">F768DEE565D94BFF92BB6D498A5C990A</source_id>
     <stored_length>128</stored_length>
-    </Item>
+   </Item>
    <Item type="Property" id="11DB9E0C92314B068B3DD0392F6F92FA" action="add">
     <column_alignment>left</column_alignment>
     <column_width>250</column_width>
@@ -72,7 +72,7 @@
     <readonly>0</readonly>
     <sort_order>10</sort_order>
     <source_id keyed_name="FTA Analysis" type="ItemType" name="FTA Analysis">F768DEE565D94BFF92BB6D498A5C990A</source_id>
-    </Item>
+   </Item>
    <Item type="Property" id="D2030570CC7B428091016483C058613E" action="add">
     <column_alignment>left</column_alignment>
     <column_width>100</column_width>
@@ -91,16 +91,6 @@
     <range_inclusive>0</range_inclusive>
     <readonly>0</readonly>
     <sort_order>1</sort_order>
-    <source_id keyed_name="FTA Analysis" type="ItemType" name="FTA Analysis">F768DEE565D94BFF92BB6D498A5C990A</source_id>
-    </Item>
-   <Item type="TOC Access" id="939438421CB8442792CBA8F8A30ADC68" action="add">
-    <category>Documents</category>
-    <related_id keyed_name="World" type="Identity">
-     <Item type="Identity" action="get" select="id">
-      <name>World</name>
-     </Item>
-    </related_id>
-    <sort_order>128</sort_order>
     <source_id keyed_name="FTA Analysis" type="ItemType" name="FTA Analysis">F768DEE565D94BFF92BB6D498A5C990A</source_id>
    </Item>
    <Item type="View" id="E38101907B6B4988B57E1A09742823A0" action="add">

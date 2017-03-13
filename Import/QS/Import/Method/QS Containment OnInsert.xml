@@ -1,4 +1,4 @@
-<AML>
+﻿<AML>
  <Item type="Method" id="EE13BC7E2BB24232A38EBC84B849F8E7" action="add">
   <comments>Auto populate the part, BU, and Plant from the QAP for to the items in the related Containment items</comments>
   <method_code><![CDATA[var xpath = "//Item/Relationships/Item/related_id/Item[@id='" + relatedID + "']";

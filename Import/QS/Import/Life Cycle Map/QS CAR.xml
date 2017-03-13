@@ -1,4 +1,4 @@
-<AML>
+﻿<AML>
  <Item type="Life Cycle Map" id="58A7C522062E463295F49F917DBBE9BB" action="add">
   <name>QS CAR</name>
   <start_state keyed_name="Open" type="Life Cycle State">A53B040C96E3482AA893B6E8C3F1F893</start_state>
@@ -12,7 +12,7 @@
     <source_id keyed_name="QS CAR" type="Life Cycle Map">58A7C522062E463295F49F917DBBE9BB</source_id>
     <x>233</x>
     <y>48</y>
-    </Item>
+   </Item>
    <Item type="Life Cycle State" id="A53B040C96E3482AA893B6E8C3F1F893" action="add">
     <image>../images/icons/20x20/20x15_lifecycle.gif</image>
     <name>Open</name>
@@ -22,7 +22,7 @@
     <source_id keyed_name="QS CAR" type="Life Cycle Map">58A7C522062E463295F49F917DBBE9BB</source_id>
     <x>63</x>
     <y>48</y>
-    </Item>
+   </Item>
    <Item type="Life Cycle Transition" id="8CF3377AF0254A1E90B6248AF88DBEDE" action="add">
     <from_state keyed_name="Open" type="Life Cycle State">A53B040C96E3482AA893B6E8C3F1F893</from_state>
     <get_comment>0</get_comment>
@@ -34,7 +34,7 @@
     <sort_order>128</sort_order>
     <source_id keyed_name="QS CAR" type="Life Cycle Map">58A7C522062E463295F49F917DBBE9BB</source_id>
     <to_state keyed_name="Closed" type="Life Cycle State">885B906EEA7440BBA5818A3D99E7AF9F</to_state>
-    </Item>
+   </Item>
   </Relationships>
  </Item>
 </AML>

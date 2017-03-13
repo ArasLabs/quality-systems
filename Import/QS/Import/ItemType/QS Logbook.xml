@@ -1,4 +1,4 @@
-<AML>
+﻿<AML>
  <Item type="ItemType" id="9B65EF9CD99F4782A5FD79D0ADA05C13" action="add">
   <allow_private_permission>0</allow_private_permission>
   <auto_search>1</auto_search>
@@ -51,9 +51,9 @@
     <name>build_code</name>
     <range_inclusive>0</range_inclusive>
     <readonly>0</readonly>
-    <sort_order>4352</sort_order>
+    <sort_order>4</sort_order>
     <source_id keyed_name="QS Logbook" type="ItemType" name="QS Logbook">9B65EF9CD99F4782A5FD79D0ADA05C13</source_id>
-    </Item>
+   </Item>
    <Item type="Property" id="BDD1C78F6B04441AA3050C7CFD3D7EE1" action="add">
     <column_alignment>left</column_alignment>
     <column_width>400</column_width>
@@ -71,9 +71,10 @@
     <sort_order>129</sort_order>
     <source_id keyed_name="QS Logbook" type="ItemType" name="QS Logbook">9B65EF9CD99F4782A5FD79D0ADA05C13</source_id>
     <stored_length>300</stored_length>
-    </Item>
+   </Item>
    <Item type="Property" id="76A0EDD891F04E989B5603A31DE4D7FC" action="add">
-    <column_alignment>left</column_alignment>
+    <column_alignment>right</column_alignment>
+    <column_width>50</column_width>
     <data_type>integer</data_type>
     <is_hidden>0</is_hidden>
     <is_hidden2>0</is_hidden2>
@@ -85,9 +86,9 @@
     <name>fail</name>
     <range_inclusive>0</range_inclusive>
     <readonly>0</readonly>
-    <sort_order>4096</sort_order>
+    <sort_order>202</sort_order>
     <source_id keyed_name="QS Logbook" type="ItemType" name="QS Logbook">9B65EF9CD99F4782A5FD79D0ADA05C13</source_id>
-    </Item>
+   </Item>
    <Item type="Property" id="4AAC078F320E4AFB920317F72EA64DF1" action="add">
     <column_alignment>left</column_alignment>
     <column_width>120</column_width>
@@ -107,7 +108,7 @@
     <readonly>0</readonly>
     <sort_order>1</sort_order>
     <source_id keyed_name="QS Logbook" type="ItemType" name="QS Logbook">9B65EF9CD99F4782A5FD79D0ADA05C13</source_id>
-    </Item>
+   </Item>
    <Item type="Property" id="EEE3FE8CF7A04B3E891CA487F94FD320" action="add">
     <column_alignment>left</column_alignment>
     <data_type>string</data_type>
@@ -121,12 +122,13 @@
     <name>lot_code</name>
     <range_inclusive>0</range_inclusive>
     <readonly>0</readonly>
-    <sort_order>4224</sort_order>
+    <sort_order>2</sort_order>
     <source_id keyed_name="QS Logbook" type="ItemType" name="QS Logbook">9B65EF9CD99F4782A5FD79D0ADA05C13</source_id>
     <stored_length>64</stored_length>
-    </Item>
+   </Item>
    <Item type="Property" id="802F7AC4CB8B4F3690560A137B0E8F4B" action="add">
-    <column_alignment>left</column_alignment>
+    <column_alignment>right</column_alignment>
+    <column_width>50</column_width>
     <data_type>integer</data_type>
     <is_hidden>0</is_hidden>
     <is_hidden2>0</is_hidden2>
@@ -138,9 +140,9 @@
     <name>lot_size</name>
     <range_inclusive>0</range_inclusive>
     <readonly>0</readonly>
-    <sort_order>3840</sort_order>
+    <sort_order>200</sort_order>
     <source_id keyed_name="QS Logbook" type="ItemType" name="QS Logbook">9B65EF9CD99F4782A5FD79D0ADA05C13</source_id>
-    </Item>
+   </Item>
    <Item type="Property" id="EEDD068DC0D34CAD8B80B02B1AEC7B76" action="add">
     <column_alignment>center</column_alignment>
     <column_width>120</column_width>
@@ -157,12 +159,12 @@
     <readonly>0</readonly>
     <sort_order>8</sort_order>
     <source_id keyed_name="QS Logbook" type="ItemType" name="QS Logbook">9B65EF9CD99F4782A5FD79D0ADA05C13</source_id>
-    </Item>
+   </Item>
    <Item type="Property" id="0879503042BD4EC0A875843669A4C3C6" action="add">
     <column_alignment>left</column_alignment>
     <data_source keyed_name="Part" type="ItemType" name="Part">4F1AC04A2B484F3ABA4E20DB63808A88</data_source>
     <data_type>item</data_type>
-    <default_value>F123634F3826415787BBDCC52830E8FF</default_value>
+    <default_value></default_value>
     <is_hidden>1</is_hidden>
     <is_hidden2>1</is_hidden2>
     <is_indexed>0</is_indexed>
@@ -176,9 +178,10 @@
     <readonly>0</readonly>
     <sort_order>3712</sort_order>
     <source_id keyed_name="QS Logbook" type="ItemType" name="QS Logbook">9B65EF9CD99F4782A5FD79D0ADA05C13</source_id>
-    </Item>
+   </Item>
    <Item type="Property" id="54639D0F16B34DF58EDE0A64B148C06E" action="add">
-    <column_alignment>left</column_alignment>
+    <column_alignment>right</column_alignment>
+    <column_width>50</column_width>
     <data_type>integer</data_type>
     <is_hidden>0</is_hidden>
     <is_hidden2>0</is_hidden2>
@@ -190,9 +193,9 @@
     <name>pass</name>
     <range_inclusive>0</range_inclusive>
     <readonly>0</readonly>
-    <sort_order>3968</sort_order>
+    <sort_order>201</sort_order>
     <source_id keyed_name="QS Logbook" type="ItemType" name="QS Logbook">9B65EF9CD99F4782A5FD79D0ADA05C13</source_id>
-    </Item>
+   </Item>
    <Item type="Property" id="9F0D1F0874164FDA927986B4BFAB8D21" action="add">
     <class_path></class_path>
     <column_alignment>center</column_alignment>
@@ -209,9 +212,9 @@
     <pattern>MM/dd/yyyy h:m:s a</pattern>
     <range_inclusive>0</range_inclusive>
     <readonly>0</readonly>
-    <sort_order>2</sort_order>
+    <sort_order>6</sort_order>
     <source_id keyed_name="QS Logbook" type="ItemType" name="QS Logbook">9B65EF9CD99F4782A5FD79D0ADA05C13</source_id>
-    </Item>
+   </Item>
    <Item type="TOC Access" id="B9342E4D477842D3BD79BE526CD5B129" action="add">
     <category>Quality</category>
     <related_id keyed_name="World" type="Identity">
@@ -233,6 +236,28 @@
     <sort_order>128</sort_order>
     <source_id keyed_name="QS Logbook" type="ItemType" name="QS Logbook">9B65EF9CD99F4782A5FD79D0ADA05C13</source_id>
     <type>default</type>
+   </Item>
+  </Relationships>
+ </Item>
+ <Item type="ItemType" id="9B65EF9CD99F4782A5FD79D0ADA05C13" action="edit">
+  <Relationships>
+   <Item type="Property" action="edit" where="source_id='9B65EF9CD99F4782A5FD79D0ADA05C13' and name='owned_by_id'">
+    <column_alignment>left</column_alignment>
+    <data_source keyed_name="Identity" type="ItemType" name="Identity">E582AB17663F4EF28460015B2BE9E094</data_source>
+    <data_type>item</data_type>
+    <is_hidden>0</is_hidden>
+    <is_hidden2>0</is_hidden2>
+    <is_indexed>0</is_indexed>
+    <is_keyed>0</is_keyed>
+    <is_multi_valued>0</is_multi_valued>
+    <is_required>0</is_required>
+    <item_behavior>float</item_behavior>
+    <label>Inspector</label>
+    <name>owned_by_id</name>
+    <range_inclusive>0</range_inclusive>
+    <readonly>0</readonly>
+    <sort_order>209</sort_order>
+    <source_id keyed_name="QS Logbook" type="ItemType" name="QS Logbook">9B65EF9CD99F4782A5FD79D0ADA05C13</source_id>
    </Item>
   </Relationships>
  </Item>

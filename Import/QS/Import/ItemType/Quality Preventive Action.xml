@@ -1,6 +1,6 @@
-<AML>
+﻿<AML>
  <Item type="ItemType" id="0C71FA3C21764DF891DC7BBA724D7CCB" action="add">
-  <allow_private_permission>1</allow_private_permission>
+  <allow_private_permission>0</allow_private_permission>
   <auto_search>0</auto_search>
   <default_lifecycle keyed_name="Default" type="Life Cycle Map">2F3B75E17C4E4F2D9599579A965BFA64</default_lifecycle>
   <hide_where_used>0</hide_where_used>
@@ -28,42 +28,6 @@
     <sort_order>128</sort_order>
     <source_id keyed_name="Quality Preventive Action" type="ItemType" name="Quality Preventive Action">0C71FA3C21764DF891DC7BBA724D7CCB</source_id>
    </Item>
-   <Item type="Property" id="D01A5EBBD50C426D95A84ED9CA78199E" action="add">
-    <column_alignment>left</column_alignment>
-    <column_width>100</column_width>
-    <data_type>string</data_type>
-    <is_hidden>0</is_hidden>
-    <is_hidden2>0</is_hidden2>
-    <is_indexed>0</is_indexed>
-    <is_keyed>0</is_keyed>
-    <is_multi_valued>0</is_multi_valued>
-    <is_required>0</is_required>
-    <label>Number</label>
-    <name>item_number</name>
-    <range_inclusive>0</range_inclusive>
-    <readonly>0</readonly>
-    <sort_order>2</sort_order>
-    <source_id keyed_name="Quality Preventive Action" type="ItemType" name="Quality Preventive Action">0C71FA3C21764DF891DC7BBA724D7CCB</source_id>
-    <stored_length>32</stored_length>
-    </Item>
-   <Item type="Property" id="1A6F4A8FF77543E4A6AB37F61FCD9A9E" action="add">
-    <column_alignment>left</column_alignment>
-    <column_width>300</column_width>
-    <data_type>string</data_type>
-    <is_hidden>0</is_hidden>
-    <is_hidden2>0</is_hidden2>
-    <is_indexed>0</is_indexed>
-    <is_keyed>0</is_keyed>
-    <is_multi_valued>0</is_multi_valued>
-    <is_required>0</is_required>
-    <label>Description</label>
-    <name>name</name>
-    <range_inclusive>0</range_inclusive>
-    <readonly>0</readonly>
-    <sort_order>6</sort_order>
-    <source_id keyed_name="Quality Preventive Action" type="ItemType" name="Quality Preventive Action">0C71FA3C21764DF891DC7BBA724D7CCB</source_id>
-    <stored_length>128</stored_length>
-    </Item>
    <Item type="Server Event" id="48C98E68842449959FBA916E09DF1A65" action="add">
     <related_id keyed_name="polymorphic_item_onBeforeAdd" type="Method">
      <Item type="Method" action="get" select="id">
@@ -138,6 +102,80 @@
  </Item>
  <Item type="ItemType" id="0C71FA3C21764DF891DC7BBA724D7CCB" action="edit">
   <Relationships>
+   <Item type="Property" action="edit" where="source_id='0C71FA3C21764DF891DC7BBA724D7CCB' and name='itemtype'">
+    <column_alignment>left</column_alignment>
+    <data_source keyed_name="Quality Preventive Action"><Item type="List" action="get" select="id" page="1" pagesize="1"><name>Quality Preventive Action</name></Item></data_source>
+    <data_type>list</data_type>
+    <is_hidden>0</is_hidden>
+    <is_hidden2>0</is_hidden2>
+    <is_indexed>0</is_indexed>
+    <is_keyed>0</is_keyed>
+    <is_multi_valued>0</is_multi_valued>
+    <is_required>0</is_required>
+    <label>ItemType</label>
+    <name>itemtype</name>
+    <range_inclusive>0</range_inclusive>
+    <readonly>1</readonly>
+    <sort_order>134</sort_order>
+    <source_id keyed_name="Quality Preventive Action" type="ItemType" name="Quality Preventive Action">0C71FA3C21764DF891DC7BBA724D7CCB</source_id>
+   </Item>
+   <Item type="Property" action="edit" where="source_id='0C71FA3C21764DF891DC7BBA724D7CCB' and name='keyed_name'">
+    <column_alignment>left</column_alignment>
+    <column_width>100</column_width>
+    <data_type>string</data_type>
+    <is_hidden>0</is_hidden>
+    <is_hidden2>0</is_hidden2>
+    <is_indexed>0</is_indexed>
+    <is_keyed>0</is_keyed>
+    <is_multi_valued>0</is_multi_valued>
+    <is_required>0</is_required>
+    <label>Number</label>
+    <name>keyed_name</name>
+    <range_inclusive>0</range_inclusive>
+    <readonly>0</readonly>
+    <sort_order>2</sort_order>
+    <source_id keyed_name="Quality Preventive Action" type="ItemType" name="Quality Preventive Action">0C71FA3C21764DF891DC7BBA724D7CCB</source_id>
+    <stored_length>128</stored_length>
+   </Item>
+   <Item type="Property" action="edit" where="source_id='0C71FA3C21764DF891DC7BBA724D7CCB' and name='state'">
+    <column_alignment>center</column_alignment>
+    <column_width>100</column_width>
+    <data_type>string</data_type>
+    <is_hidden>0</is_hidden>
+    <is_hidden2>0</is_hidden2>
+    <is_indexed>0</is_indexed>
+    <is_keyed>0</is_keyed>
+    <is_multi_valued>0</is_multi_valued>
+    <is_required>0</is_required>
+    <label>Status</label>
+    <name>state</name>
+    <range_inclusive>0</range_inclusive>
+    <readonly>1</readonly>
+    <sort_order>4</sort_order>
+    <source_id keyed_name="Quality Preventive Action" type="ItemType" name="Quality Preventive Action">0C71FA3C21764DF891DC7BBA724D7CCB</source_id>
+    <stored_length>32</stored_length>
+   </Item>
+   <Item type="Property" action="edit" where="source_id='0C71FA3C21764DF891DC7BBA724D7CCB' and name='superseded_date'">
+    <column_alignment>left</column_alignment>
+    <data_type>date</data_type>
+    <is_hidden>1</is_hidden>
+    <is_hidden2>1</is_hidden2>
+    <is_indexed>0</is_indexed>
+    <is_keyed>0</is_keyed>
+    <is_multi_valued>0</is_multi_valued>
+    <is_required>0</is_required>
+    <label>Superseded Date</label>
+    <name>superseded_date</name>
+    <pattern>MM/dd/yyyy hh:mm:ss a</pattern>
+    <range_inclusive>0</range_inclusive>
+    <readonly>0</readonly>
+    <sort_order>3462</sort_order>
+    <source_id keyed_name="Quality Preventive Action" type="ItemType" name="Quality Preventive Action">0C71FA3C21764DF891DC7BBA724D7CCB</source_id>
+   </Item>
+  </Relationships>
+ </Item>
+ <Item type="ItemType" id="0C71FA3C21764DF891DC7BBA724D7CCB" action="edit">
+  <Relationships>
    <Item type="Morphae" id="A66E5CAF271B477F857CE95776E5C2A4" action="add">
     <related_id keyed_name="Document" type="ItemType" name="ItemType">B88C14B99EF449828C5D926E39EE8B89</related_id>
     <sort_order>128</sort_order>
@@ -145,24 +183,24 @@
    </Item>
   </Relationships>
  </Item>
+ <Item type="ItemType" id="0C71FA3C21764DF891DC7BBA724D7CCB" action="edit">
+  <Relationships>
+   <Item type="Morphae" id="D26F5C3A84CD4887859028FBED0DAB9A" action="add">
+    <related_id keyed_name="ECR" type="ItemType" name="ItemType">2D4799413792453DA08C1EDE6AA22A76</related_id>
+    <sort_order>256</sort_order>
+    <source_id keyed_name="Quality Preventive Action" type="ItemType" name="Quality Preventive Action">0C71FA3C21764DF891DC7BBA724D7CCB</source_id>
+   </Item>
+  </Relationships>
+ </Item>
+ <Item type="ItemType" id="0C71FA3C21764DF891DC7BBA724D7CCB" action="edit">
+  <Relationships>
+   <Item type="Morphae" id="897286F702344867B86C8B949C73B026" action="add">
+    <related_id keyed_name="Process Planner" type="ItemType" name="ItemType">CB90BE75A6AC424283DE74C7D0406FF8</related_id>
+    <sort_order>384</sort_order>
+    <source_id keyed_name="Quality Preventive Action" type="ItemType" name="Quality Preventive Action">0C71FA3C21764DF891DC7BBA724D7CCB</source_id>
+   </Item>
+  </Relationships>
+ </Item>
 
- <Item type="Property" action="edit" where="source_id='0C71FA3C21764DF891DC7BBA724D7CCB' and name='state'">
-  <column_alignment>center</column_alignment>
-  <column_width>100</column_width>
-  <data_type>string</data_type>
-  <is_hidden>0</is_hidden>
-  <is_hidden2>0</is_hidden2>
-  <is_indexed>0</is_indexed>
-  <is_keyed>0</is_keyed>
-  <is_multi_valued>0</is_multi_valued>
-  <is_required>0</is_required>
-  <label>Status</label>
-  <name>state</name>
-  <range_inclusive>0</range_inclusive>
-  <readonly>1</readonly>
-  <sort_order>4</sort_order>
-  <source_id keyed_name="Quality Preventive Action" type="ItemType" name="Quality Preventive Action">0C71FA3C21764DF891DC7BBA724D7CCB</source_id>
-  <stored_length>32</stored_length>
-  </Item>
  <Item type="View" action="delete" where="source_id='0C71FA3C21764DF891DC7BBA724D7CCB'"></Item>
  <Item type="Form" action="delete" where="name='Quality Preventive Action'"></Item></AML>

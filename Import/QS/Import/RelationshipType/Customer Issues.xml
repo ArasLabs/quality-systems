@@ -1,4 +1,4 @@
-<AML>
+﻿<AML>
  <Item type="RelationshipType" id="E98B1C0A5C7747AEA03A13511E95D99A" action="add" dependencyLevel="0">
   <auto_search>1</auto_search>
   <behavior>float</behavior>
@@ -11,7 +11,6 @@
   <label>Issues</label>
   <name>Customer Issues</name>
   <new_show_related>0</new_show_related>
-  <related_id keyed_name="QS Issue" type="ItemType" name="ItemType">09335878CD6A49C7B33E626A6C2B0040</related_id>
   <related_notnull>0</related_notnull>
   <related_option>2</related_option>
   <relationship_id keyed_name="Customer Issues" type="ItemType" name="Customer Issues">

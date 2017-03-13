@@ -1,6 +1,6 @@
-<AML>
+﻿<AML>
  <Item type="Form" id="0558FC1D363A4D72A33FF83B88DAEFED" action="add">
-  <height>450</height>
+  <height>430</height>
   <name>QAP</name>
   <stylesheet><![CDATA[../styles/default.css]]></stylesheet>
   <width>860</width>
@@ -96,7 +96,27 @@ alert('Done Loading Template');
       <text_align>center</text_align>
       <x>181</x>
       <y>255</y>
-      </Item>
+     </Item>
+     <Item type="Field" id="07C4F0912B664E39857584CBAB96C359" action="add">
+      <bg_color>#FFFFFF</bg_color>
+      <border_width>2</border_width>
+      <field_type>html</field_type>
+      <font_color>#000000</font_color>
+      <font_family>arial, helvetica, sans-serif</font_family>
+      <font_size>8pt</font_size>
+      <font_weight>bold</font_weight>
+      <html_code><![CDATA[<img width="480" height="100" src="../images/icons/other/1x1.gif">]]></html_code>
+      <is_disabled>0</is_disabled>
+      <is_visible>1</is_visible>
+      <list_no_blank>0</list_no_blank>
+      <name>border1</name>
+      <positioning>absolute</positioning>
+      <sort_order>3840</sort_order>
+      <source_id keyed_name="A5F1E44098794709AEF955A768ECB8C4" type="Body">A5F1E44098794709AEF955A768ECB8C4</source_id>
+      <tab_stop>1</tab_stop>
+      <x>173</x>
+      <y>88</y>
+     </Item>
      <Item type="Field" id="F2A27951E044458BA9E5A410F61ED9C1" action="add">
       <bg_color>#FFFFFF</bg_color>
       <border_width>2</border_width>
@@ -119,9 +139,9 @@ alert('Done Loading Template');
       <tab_stop>1</tab_stop>
       <text_align>center</text_align>
       <x>7</x>
-      <y>283</y>
+      <y>256</y>
       <z_index>0</z_index>
-      </Item>
+     </Item>
      <Item type="Field" id="64382D4182FB488EA2B214C9A2EB4085" action="add">
       <bg_color>#FFFFFF</bg_color>
       <border_width>2</border_width>
@@ -142,10 +162,10 @@ alert('Done Loading Template');
       <source_id keyed_name="A5F1E44098794709AEF955A768ECB8C4" type="Body">A5F1E44098794709AEF955A768ECB8C4</source_id>
       <tab_stop>1</tab_stop>
       <text_align>center</text_align>
-      <x>4</x>
-      <y>490</y>
+      <x>8</x>
+      <y>467</y>
       <z_index>0</z_index>
-      </Item>
+     </Item>
      <Item type="Field" id="F7D2DD6CA23E4F9CBBF027DF5B3A5D2B" action="add">
       <bg_color>#FFFFFF</bg_color>
       <border_width>0</border_width>
@@ -166,9 +186,10 @@ alert('Done Loading Template');
       <source_id keyed_name="A5F1E44098794709AEF955A768ECB8C4" type="Body">A5F1E44098794709AEF955A768ECB8C4</source_id>
       <tab_index>6016</tab_index>
       <tab_stop>1</tab_stop>
-      <x>177</x>
-      <y>153</y>
-      </Item>
+      <x>183</x>
+      <y>94</y>
+      <z_index>2</z_index>
+     </Item>
      <Item type="Field" id="34A19BB5D92C4CF39306DB26C6B8A91E" action="add">
       <bg_color>#FFFFFF</bg_color>
       <border_width>0</border_width>
@@ -190,8 +211,32 @@ alert('Done Loading Template');
       <tab_index>9344</tab_index>
       <tab_stop>1</tab_stop>
       <x>183</x>
-      <y>197</y>
-      </Item>
+      <y>145</y>
+      <z_index>2</z_index>
+     </Item>
+     <Item type="Field" id="409A83D835D04DAFAB96C4C820E7B89A" action="add">
+      <bg_color>beige  </bg_color>
+      <border_width>0</border_width>
+      <display_length>12</display_length>
+      <field_type>date</field_type>
+      <font_color>#000000</font_color>
+      <font_family>arial, helvetica, sans-serif</font_family>
+      <font_size>8pt</font_size>
+      <font_weight>bold</font_weight>
+      <is_disabled>0</is_disabled>
+      <is_visible>1</is_visible>
+      <label>Date Initiated</label>
+      <label_position>top</label_position>
+      <list_no_blank>0</list_no_blank>
+      <name>created_on</name>
+      <positioning>absolute</positioning>
+      <sort_order>3968</sort_order>
+      <source_id keyed_name="A5F1E44098794709AEF955A768ECB8C4" type="Body">A5F1E44098794709AEF955A768ECB8C4</source_id>
+      <tab_index>9984</tab_index>
+      <tab_stop>1</tab_stop>
+      <x>432</x>
+      <y>0</y>
+     </Item>
      <Item type="Field" id="FEAF29BC765C40A087E045B30D96E891" action="add">
       <bg_color>#FFFFFF</bg_color>
       <border_width>0</border_width>
@@ -213,9 +258,9 @@ alert('Done Loading Template');
       <source_id keyed_name="A5F1E44098794709AEF955A768ECB8C4" type="Body">A5F1E44098794709AEF955A768ECB8C4</source_id>
       <tab_index>100</tab_index>
       <tab_stop>1</tab_stop>
-      <x>179</x>
-      <y>107</y>
-      </Item>
+      <x>657</x>
+      <y>0</y>
+     </Item>
      <Item type="Field" id="74B8FD87649F485EA9ED9E365AA34CC7" action="add">
       <bg_color>#FFFFFF</bg_color>
       <border_width>0</border_width>
@@ -237,9 +282,9 @@ alert('Done Loading Template');
       <source_id keyed_name="A5F1E44098794709AEF955A768ECB8C4" type="Body">A5F1E44098794709AEF955A768ECB8C4</source_id>
       <tab_index>8960</tab_index>
       <tab_stop>1</tab_stop>
-      <x>422</x>
-      <y>106</y>
-      </Item>
+      <x>657</x>
+      <y>40</y>
+     </Item>
      <Item type="Field" id="93CCF19A227941D6B8C1610A7593E59D" action="add">
       <bg_color>#FFFFFF</bg_color>
       <border_width>0</border_width>
@@ -262,7 +307,7 @@ alert('Done Loading Template');
       <tab_stop>1</tab_stop>
       <x>32</x>
       <y>23</y>
-      </Item>
+     </Item>
      <Item type="Field" id="9B65382832B446F396937C83EBFD3751" action="add">
       <bg_color>#FFFFFF</bg_color>
       <border_width>0</border_width>
@@ -285,10 +330,11 @@ alert('Done Loading Template');
       <tab_stop>1</tab_stop>
       <x>0</x>
       <y>0</y>
-      </Item>
+     </Item>
      <Item type="Field" id="737B0D3696134A45A5FB6E676BF971D7" action="add">
       <bg_color>#FFFFFF</bg_color>
       <border_width>0</border_width>
+      <display_length>12</display_length>
       <field_type>date</field_type>
       <font_color>#000000</font_color>
       <font_family>arial, helvetica, sans-serif</font_family>
@@ -306,9 +352,9 @@ alert('Done Loading Template');
       <source_id keyed_name="A5F1E44098794709AEF955A768ECB8C4" type="Body">A5F1E44098794709AEF955A768ECB8C4</source_id>
       <tab_index>5376</tab_index>
       <tab_stop>1</tab_stop>
-      <x>422</x>
-      <y>8</y>
-      </Item>
+      <x>543</x>
+      <y>0</y>
+     </Item>
      <Item type="Field" id="E8FA604B82EC4D3CA9C41B482355A5B0" action="add">
       <bg_color>#FFFFFF</bg_color>
       <border_width>0</border_width>
@@ -320,9 +366,8 @@ alert('Done Loading Template');
       <html_code><![CDATA[<script>
 function openISO() {
 // find the Controlled Document
-var DocName = "Q-00001";
 var MyResult=top.aras.createXMLDocument();
-MyResult.loadXML( top.aras.applyItem("<Item type='ISO' action='get' levels='0' select='file_name'><item_number>Q-0101</item_number></Item>"))
+MyResult.loadXML( top.aras.applyItem("<Item type='ISO' action='get' levels='0' select='file_name'><item_number>Q-0218</item_number></Item>"))
 var DocItem=MyResult.selectSingleNode("//Item");
 if (DocItem != null) {
    var FileID = top.aras.getItemProperty(DocItem,"file_name");
@@ -343,7 +388,7 @@ if (DocItem != null) {
       <x>60</x>
       <y>130</y>
       <z_index>1</z_index>
-      </Item>
+     </Item>
      <Item type="Field" id="315A21BAD21B439CB97F2194671D52A0" action="add">
       <bg_color>#FFFFFF</bg_color>
       <field_type>html</field_type>
@@ -353,7 +398,7 @@ if (DocItem != null) {
   document.write('<img hspace="20" vspace="20" src="' + top.aras.getItemProperty(document.itemType,'large_icon') + '">');
 </Script>
 </td><td width='150'><p class='vbig'><b>
-Quality<br>Action<br>Plan
+CAPA<br>5-Phase 8D<br>Quality<br>Action Plan
 </b></p>
 </td></tr></table>
 ]]></html_code>
@@ -365,9 +410,9 @@ Quality<br>Action<br>Plan
       <sort_order>384</sort_order>
       <source_id keyed_name="A5F1E44098794709AEF955A768ECB8C4" type="Body">A5F1E44098794709AEF955A768ECB8C4</source_id>
       <tab_stop>0</tab_stop>
-      <x>-2</x>
-      <y>-3</y>
-      </Item>
+      <x>-3</x>
+      <y>0</y>
+     </Item>
      <Item type="Field" id="C0A8CBD4540949EBB10A22186815D043" action="add">
       <bg_color>#FFFFFF</bg_color>
       <border_width>0</border_width>
@@ -389,9 +434,9 @@ Quality<br>Action<br>Plan
       <source_id keyed_name="A5F1E44098794709AEF955A768ECB8C4" type="Body">A5F1E44098794709AEF955A768ECB8C4</source_id>
       <tab_index>1</tab_index>
       <tab_stop>1</tab_stop>
-      <x>181</x>
-      <y>9</y>
-      </Item>
+      <x>180</x>
+      <y>0</y>
+     </Item>
      <Item type="Field" id="3F4B524AE0B54E87A3DE2533D421E29D" action="add">
       <bg_color>#FFFFFF</bg_color>
       <border_width>0</border_width>
@@ -412,9 +457,9 @@ Quality<br>Action<br>Plan
       <source_id keyed_name="A5F1E44098794709AEF955A768ECB8C4" type="Body">A5F1E44098794709AEF955A768ECB8C4</source_id>
       <tab_index>20</tab_index>
       <tab_stop>1</tab_stop>
-      <x>423</x>
-      <y>60</y>
-      </Item>
+      <x>421</x>
+      <y>41</y>
+     </Item>
      <Item type="Field" id="B4C58A2624234F7AB86515B9E7196F6D" action="add">
       <bg_color>#FFFFFF</bg_color>
       <border_width>0</border_width>
@@ -436,13 +481,13 @@ Quality<br>Action<br>Plan
       <source_id keyed_name="A5F1E44098794709AEF955A768ECB8C4" type="Body">A5F1E44098794709AEF955A768ECB8C4</source_id>
       <tab_index>110</tab_index>
       <tab_stop>1</tab_stop>
-      <x>182</x>
-      <y>236</y>
-      </Item>
+      <x>185</x>
+      <y>211</y>
+     </Item>
      <Item type="Field" id="0B5D3286E0E648AFAA453756679365BD" action="add">
       <bg_color>#FFFFFF</bg_color>
       <border_width>0</border_width>
-      <display_length>60</display_length>
+      <display_length>56</display_length>
       <field_type>text</field_type>
       <font_color>#000000</font_color>
       <font_family>arial, helvetica, sans-serif</font_family>
@@ -460,9 +505,9 @@ Quality<br>Action<br>Plan
       <source_id keyed_name="A5F1E44098794709AEF955A768ECB8C4" type="Body">A5F1E44098794709AEF955A768ECB8C4</source_id>
       <tab_index>9088</tab_index>
       <tab_stop>1</tab_stop>
-      <x>422</x>
-      <y>235</y>
-      </Item>
+      <x>359</x>
+      <y>212</y>
+     </Item>
      <Item type="Field" id="F6B0C7597487468092181DD41BC71016" action="add">
       <bg_color>#FFFFFF</bg_color>
       <border_width>0</border_width>
@@ -483,9 +528,10 @@ Quality<br>Action<br>Plan
       <source_id keyed_name="A5F1E44098794709AEF955A768ECB8C4" type="Body">A5F1E44098794709AEF955A768ECB8C4</source_id>
       <tab_index>6144</tab_index>
       <tab_stop>1</tab_stop>
-      <x>420</x>
-      <y>159</y>
-      </Item>
+      <x>426</x>
+      <y>97</y>
+      <z_index>2</z_index>
+     </Item>
      <Item type="Field" id="90DD0AE0671240AD9D11D2F160B09DC9" action="add">
       <bg_color>#FFFFFF</bg_color>
       <border_width>0</border_width>
@@ -509,9 +555,9 @@ Quality<br>Action<br>Plan
       <textarea_cols>110</textarea_cols>
       <textarea_rows>3</textarea_rows>
       <x>180</x>
-      <y>287</y>
+      <y>263</y>
       <z_index>3</z_index>
-      </Item>
+     </Item>
      <Item type="Field" id="03B44D31C66445B392F2A74247EAEC10" action="add">
       <bg_color>#FFFFFF</bg_color>
       <border_width>0</border_width>
@@ -534,10 +580,10 @@ Quality<br>Action<br>Plan
       <tab_stop>1</tab_stop>
       <textarea_cols>110</textarea_cols>
       <textarea_rows>3</textarea_rows>
-      <x>179</x>
-      <y>350</y>
+      <x>181</x>
+      <y>329</y>
       <z_index>3</z_index>
-      </Item>
+     </Item>
      <Item type="Field" id="F77CF7C8915640159F68B347FD9318E9" action="add">
       <bg_color>#FFFFFF</bg_color>
       <border_width>0</border_width>
@@ -560,10 +606,10 @@ Quality<br>Action<br>Plan
       <tab_stop>1</tab_stop>
       <textarea_cols>110</textarea_cols>
       <textarea_rows>3</textarea_rows>
-      <x>178</x>
-      <y>413</y>
+      <x>179</x>
+      <y>392</y>
       <z_index>3</z_index>
-      </Item>
+     </Item>
      <Item type="Field" id="2DE10D1FFD8E43E08A4E4E7D5B3881E4" action="add">
       <bg_color>#FFFFFF</bg_color>
       <border_width>0</border_width>
@@ -584,9 +630,9 @@ Quality<br>Action<br>Plan
       <source_id keyed_name="A5F1E44098794709AEF955A768ECB8C4" type="Body">A5F1E44098794709AEF955A768ECB8C4</source_id>
       <tab_index>9472</tab_index>
       <tab_stop>1</tab_stop>
-      <x>181</x>
-      <y>60</y>
-      </Item>
+      <x>178</x>
+      <y>42</y>
+     </Item>
      <Item type="Field" id="0D37799D02974AB79421EC85B4641D0C" action="add">
       <bg_color>#ffffff</bg_color>
       <border_width>0</border_width>
@@ -607,10 +653,10 @@ Quality<br>Action<br>Plan
       <tab_stop>1</tab_stop>
       <textarea_cols>110</textarea_cols>
       <textarea_rows>3</textarea_rows>
-      <x>181</x>
-      <y>497</y>
+      <x>177</x>
+      <y>474</y>
       <z_index>3</z_index>
-      </Item>
+     </Item>
      <Item type="Field" id="D03972FBDBF245E4B530884EBEC237F4" action="add">
       <bg_color>#FFFFFF</bg_color>
       <border_width>0</border_width>
@@ -633,7 +679,7 @@ Quality<br>Action<br>Plan
       <tab_stop>1</tab_stop>
       <x>21</x>
       <y>13</y>
-      </Item>
+     </Item>
      <Item type="Field" id="1812C4347BF648D2B13D51F8D1181B44" action="add">
       <bg_color>#FFFFFF</bg_color>
       <border_width>0</border_width>
@@ -654,9 +700,9 @@ Quality<br>Action<br>Plan
       <source_id keyed_name="A5F1E44098794709AEF955A768ECB8C4" type="Body">A5F1E44098794709AEF955A768ECB8C4</source_id>
       <tab_index>2</tab_index>
       <tab_stop>1</tab_stop>
-      <x>303</x>
-      <y>9</y>
-      </Item>
+      <x>305</x>
+      <y>0</y>
+     </Item>
      <Item type="Field" id="C3C2ADBDDCD84244AEE1D8B5D852D5B5" action="add">
       <bg_color>#FFFFFF</bg_color>
       <border_width>0</border_width>
@@ -679,10 +725,18 @@ Quality<br>Action<br>Plan
       <tab_stop>1</tab_stop>
       <x>35</x>
       <y>67</y>
-      </Item>
+     </Item>
     </Relationships>
    </Item>
   </Relationships>
+ </Item>
+ <Item type="Field" id="409A83D835D04DAFAB96C4C820E7B89A" action="edit">
+  <propertytype_id>
+   <Item type="Property" action="get" select="id">
+    <name>created_on</name>
+    <source_id type="ItemType" keyed_name="QAP">11D2FEA6F58E47ADA0CFBF63122FA02E</source_id>
+   </Item>
+  </propertytype_id>
  </Item>
  <Item type="Field" id="3F4B524AE0B54E87A3DE2533D421E29D" action="edit">
   <propertytype_id>

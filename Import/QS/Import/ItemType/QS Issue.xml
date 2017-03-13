@@ -1,4 +1,4 @@
-<AML>
+﻿<AML>
  <Item type="ItemType" id="09335878CD6A49C7B33E626A6C2B0040" action="add">
   <allow_private_permission>0</allow_private_permission>
   <auto_search>1</auto_search>
@@ -20,25 +20,7 @@
   <show_parameters_tab>0</show_parameters_tab>
   <unlock_on_logout>0</unlock_on_logout>
   <use_src_access>0</use_src_access>
-  <Relationships><Item type="Property" id="EBA47F6321FE4814B28B7D96F694B0EB" action="add">
-    <column_alignment>left</column_alignment>
-    <column_width>120</column_width>
-    <data_source keyed_name="Part" type="ItemType" name="Part">4F1AC04A2B484F3ABA4E20DB63808A88</data_source>
-    <data_type>item</data_type>
-    <is_hidden>0</is_hidden>
-    <is_hidden2>0</is_hidden2>
-    <is_indexed>0</is_indexed>
-    <is_keyed>0</is_keyed>
-    <is_multi_valued>0</is_multi_valued>
-    <is_required>0</is_required>
-    <item_behavior>float</item_behavior>
-    <label>Part Number</label>
-    <name>part</name>
-    <range_inclusive>0</range_inclusive>
-    <readonly>0</readonly>
-    <sort_order>90</sort_order>
-    <source_id keyed_name="QS Issue" type="ItemType" name="QS Issue">09335878CD6A49C7B33E626A6C2B0040</source_id>
-    </Item>
+  <Relationships>
    <Item type="Allowed Permission" id="1E6F2DC147244A019332302F755469D1" action="add">
     <is_default>1</is_default>
     <related_id keyed_name="Issue" type="Permission">A6C8354904C24CEC87583C8908329C48</related_id>
@@ -89,7 +71,7 @@
     <readonly>0</readonly>
     <sort_order>3970</sort_order>
     <source_id keyed_name="QS Issue" type="ItemType" name="QS Issue">09335878CD6A49C7B33E626A6C2B0040</source_id>
-    </Item>
+   </Item>
    <Item type="Property" id="6B8D6CFFB3984543B8BF9FB4DA0C4B56" action="add">
     <column_alignment>left</column_alignment>
     <column_width>70</column_width>
@@ -108,7 +90,7 @@
     <readonly>0</readonly>
     <sort_order>4738</sort_order>
     <source_id keyed_name="QS Issue" type="ItemType" name="QS Issue">09335878CD6A49C7B33E626A6C2B0040</source_id>
-    </Item>
+   </Item>
    <Item type="Property" id="10C6C2703191441DBAC195FA4100959A" action="add">
     <column_alignment>left</column_alignment>
     <data_source keyed_name="Corporate Plants - not filter">B0AD8FBF9E86489788A0B3ABAA2CC027</data_source>
@@ -125,7 +107,7 @@
     <readonly>0</readonly>
     <sort_order>200</sort_order>
     <source_id keyed_name="QS Issue" type="ItemType" name="QS Issue">09335878CD6A49C7B33E626A6C2B0040</source_id>
-    </Item>
+   </Item>
    <Item type="Property" id="5AB4B54CF81445A3A554968ED0B598B3" action="add">
     <class_path>/QS Issue/Internal</class_path>
     <column_alignment>left</column_alignment>
@@ -145,7 +127,7 @@
     <readonly>0</readonly>
     <sort_order>4098</sort_order>
     <source_id keyed_name="QS Issue" type="ItemType" name="QS Issue">09335878CD6A49C7B33E626A6C2B0040</source_id>
-    </Item>
+   </Item>
    <Item type="Property" id="0D80D76A9E6D4933A59696F03B4A8BCA" action="add">
     <class_path>/QS Issue/Internal</class_path>
     <column_alignment>left</column_alignment>
@@ -165,7 +147,7 @@
     <readonly>0</readonly>
     <sort_order>4226</sort_order>
     <source_id keyed_name="QS Issue" type="ItemType" name="QS Issue">09335878CD6A49C7B33E626A6C2B0040</source_id>
-    </Item>
+   </Item>
    <Item type="Property" id="D0A0A5BC1E9243F9B8231585ABDCF5AE" action="add">
     <class_path>/QS Issue/Customer</class_path>
     <column_alignment>left</column_alignment>
@@ -183,7 +165,7 @@
     <readonly>0</readonly>
     <sort_order>6658</sort_order>
     <source_id keyed_name="QS Issue" type="ItemType" name="QS Issue">09335878CD6A49C7B33E626A6C2B0040</source_id>
-    </Item>
+   </Item>
    <Item type="Property" id="A1A2E33C0C1B4CE0AFDFFC7281571417" action="add">
     <class_path>/QS Issue/Customer</class_path>
     <column_alignment>left</column_alignment>
@@ -202,7 +184,7 @@
     <readonly>0</readonly>
     <sort_order>6530</sort_order>
     <source_id keyed_name="QS Issue" type="ItemType" name="QS Issue">09335878CD6A49C7B33E626A6C2B0040</source_id>
-    </Item>
+   </Item>
    <Item type="Property" id="3F2D8CDD37874BE6935D705DA3EF96FC" action="add">
     <class_path>/QS Issue/Customer</class_path>
     <column_alignment>left</column_alignment>
@@ -220,7 +202,7 @@
     <readonly>0</readonly>
     <sort_order>6402</sort_order>
     <source_id keyed_name="QS Issue" type="ItemType" name="QS Issue">09335878CD6A49C7B33E626A6C2B0040</source_id>
-    </Item>
+   </Item>
    <Item type="Property" id="714DA9211C7B4E0F89B564DDB9F6D790" action="add">
     <class_path>/QS Issue/Customer</class_path>
     <column_alignment>left</column_alignment>
@@ -238,7 +220,7 @@
     <readonly>0</readonly>
     <sort_order>6274</sort_order>
     <source_id keyed_name="QS Issue" type="ItemType" name="QS Issue">09335878CD6A49C7B33E626A6C2B0040</source_id>
-    </Item>
+   </Item>
    <Item type="Property" id="904FCD57979F40B0A7D24D719B13D7F1" action="add">
     <column_alignment>left</column_alignment>
     <column_width>80</column_width>
@@ -257,7 +239,7 @@
     <readonly>0</readonly>
     <sort_order>4866</sort_order>
     <source_id keyed_name="QS Issue" type="ItemType" name="QS Issue">09335878CD6A49C7B33E626A6C2B0040</source_id>
-    </Item>
+   </Item>
    <Item type="Property" id="66D4B48093514AC8AA3A51BC4B6DCC32" action="add">
     <class_path>/QS Issue/Customer</class_path>
     <column_alignment>left</column_alignment>
@@ -275,7 +257,7 @@
     <readonly>0</readonly>
     <sort_order>6146</sort_order>
     <source_id keyed_name="QS Issue" type="ItemType" name="QS Issue">09335878CD6A49C7B33E626A6C2B0040</source_id>
-    </Item>
+   </Item>
    <Item type="Property" id="CBD40B67B8FC40FC9DC021AE8E5FC30D" action="add">
     <class_path>/QS Issue/Customer</class_path>
     <column_alignment>left</column_alignment>
@@ -294,7 +276,7 @@
     <readonly>0</readonly>
     <sort_order>3074</sort_order>
     <source_id keyed_name="QS Issue" type="ItemType" name="QS Issue">09335878CD6A49C7B33E626A6C2B0040</source_id>
-    </Item>
+   </Item>
    <Item type="Property" id="A69B3B98D46F4B1FA5C54CA1BF8840A2" action="add">
     <class_path>/QS Issue/Customer</class_path>
     <column_alignment>left</column_alignment>
@@ -313,7 +295,7 @@
     <readonly>0</readonly>
     <sort_order>6018</sort_order>
     <source_id keyed_name="QS Issue" type="ItemType" name="QS Issue">09335878CD6A49C7B33E626A6C2B0040</source_id>
-    </Item>
+   </Item>
    <Item type="Property" id="1950EF3503184FB9BC7154354399D97A" action="add">
     <class_path>/QS Issue/Customer</class_path>
     <column_alignment>left</column_alignment>
@@ -332,7 +314,7 @@
     <sort_order>5762</sort_order>
     <source_id keyed_name="QS Issue" type="ItemType" name="QS Issue">09335878CD6A49C7B33E626A6C2B0040</source_id>
     <stored_length>32</stored_length>
-    </Item>
+   </Item>
    <Item type="Property" id="C290A06DE38C43D1BC690E9565060106" action="add">
     <class_path>/QS Issue/Customer</class_path>
     <column_alignment>left</column_alignment>
@@ -350,7 +332,7 @@
     <sort_order>260</sort_order>
     <source_id keyed_name="QS Issue" type="ItemType" name="QS Issue">09335878CD6A49C7B33E626A6C2B0040</source_id>
     <stored_length>48</stored_length>
-    </Item>
+   </Item>
    <Item type="Property" id="993EA23F6E314217A186FD405B389CD8" action="add">
     <class_path>/QS Issue/Customer</class_path>
     <column_alignment>left</column_alignment>
@@ -369,7 +351,7 @@
     <sort_order>5634</sort_order>
     <source_id keyed_name="QS Issue" type="ItemType" name="QS Issue">09335878CD6A49C7B33E626A6C2B0040</source_id>
     <stored_length>32</stored_length>
-    </Item>
+   </Item>
    <Item type="Property" id="179EF199C160482E942B062C304E5B47" action="add">
     <class_path>/QS Issue/Customer</class_path>
     <column_alignment>left</column_alignment>
@@ -387,7 +369,7 @@
     <readonly>0</readonly>
     <sort_order>5890</sort_order>
     <source_id keyed_name="QS Issue" type="ItemType" name="QS Issue">09335878CD6A49C7B33E626A6C2B0040</source_id>
-    </Item>
+   </Item>
    <Item type="Property" id="54068099AD4B4F04961D6184B29EE219" action="add">
     <column_alignment>left</column_alignment>
     <column_width>200</column_width>
@@ -405,24 +387,7 @@
     <sort_order>200</sort_order>
     <source_id keyed_name="QS Issue" type="ItemType" name="QS Issue">09335878CD6A49C7B33E626A6C2B0040</source_id>
     <stored_length>128</stored_length>
-    </Item>
-   <Item type="Property" id="F8C55D6F79AA4112ACD36DE56CF1D233" action="add">
-    <column_alignment>left</column_alignment>
-    <data_type>string</data_type>
-    <is_hidden>1</is_hidden>
-    <is_hidden2>1</is_hidden2>
-    <is_indexed>0</is_indexed>
-    <is_keyed>0</is_keyed>
-    <is_multi_valued>0</is_multi_valued>
-    <is_required>0</is_required>
-    <label>Iqt</label>
-    <name>iqt</name>
-    <range_inclusive>0</range_inclusive>
-    <readonly>0</readonly>
-    <sort_order>3458</sort_order>
-    <source_id keyed_name="QS Issue" type="ItemType" name="QS Issue">09335878CD6A49C7B33E626A6C2B0040</source_id>
-    <stored_length>32</stored_length>
-    </Item>
+   </Item>
    <Item type="Property" id="5D4D9D0C7B8246CDBA1F9D96EE307F96" action="add">
     <column_alignment>center</column_alignment>
     <column_width>110</column_width>
@@ -440,29 +405,26 @@
     <readonly>0</readonly>
     <sort_order>140</sort_order>
     <source_id keyed_name="QS Issue" type="ItemType" name="QS Issue">09335878CD6A49C7B33E626A6C2B0040</source_id>
-    </Item>
-   <Item type="Property" id="6180CE8AD9B54A19A03BD0366B1A9012" action="add">
-    <class_path></class_path>
+   </Item>
+   <Item type="Property" id="EBA47F6321FE4814B28B7D96F694B0EB" action="add">
     <column_alignment>left</column_alignment>
-    <column_width>100</column_width>
-    <data_type>string</data_type>
+    <column_width>120</column_width>
+    <data_source keyed_name="Part" type="ItemType" name="Part">4F1AC04A2B484F3ABA4E20DB63808A88</data_source>
+    <data_type>item</data_type>
     <is_hidden>0</is_hidden>
     <is_hidden2>0</is_hidden2>
-    <is_indexed>1</is_indexed>
-    <is_keyed>1</is_keyed>
+    <is_indexed>0</is_indexed>
+    <is_keyed>0</is_keyed>
     <is_multi_valued>0</is_multi_valued>
     <is_required>0</is_required>
-    <keyed_name_order>1</keyed_name_order>
-    <label>Issue Number</label>
-    <name>item_number</name>
-    <order_by>1</order_by>
+    <item_behavior>float</item_behavior>
+    <label>Part Number</label>
+    <name>part</name>
     <range_inclusive>0</range_inclusive>
     <readonly>0</readonly>
-    <sort_order>80</sort_order>
+    <sort_order>90</sort_order>
     <source_id keyed_name="QS Issue" type="ItemType" name="QS Issue">09335878CD6A49C7B33E626A6C2B0040</source_id>
-    <stored_length>36</stored_length>
-    </Item>
-   
+   </Item>
    <Item type="Property" id="879EB83682DF4A388E07426E96DB2694" action="add">
     <column_alignment>left</column_alignment>
     <column_width>70</column_width>
@@ -475,7 +437,7 @@
     <data_type>foreign</data_type>
     <foreign_property>
      <Item type="Property" action="get" select="id">
-      <keyed_name>description</keyed_name>
+      <keyed_name>name</keyed_name>
       <source_id>
        <Item type="ItemType" action="get" select="id">
         <name>Part</name>
@@ -495,7 +457,7 @@
     <readonly>0</readonly>
     <sort_order>4610</sort_order>
     <source_id keyed_name="QS Issue" type="ItemType" name="QS Issue">09335878CD6A49C7B33E626A6C2B0040</source_id>
-    </Item>
+   </Item>
    <Item type="Property" id="0E5482641D6C4B45873D55CD3F33EB77" action="add">
     <column_alignment>left</column_alignment>
     <data_source keyed_name="QS Issue Priority">46DCDDBE61AB4D85AC2CBD472A87779A</data_source>
@@ -512,7 +474,7 @@
     <readonly>0</readonly>
     <sort_order>3330</sort_order>
     <source_id keyed_name="QS Issue" type="ItemType" name="QS Issue">09335878CD6A49C7B33E626A6C2B0040</source_id>
-    </Item>
+   </Item>
    <Item type="Property" id="CDAD8473B22D49559C4FBB178A8A2B82" action="add">
     <column_alignment>left</column_alignment>
     <column_width>40</column_width>
@@ -529,7 +491,7 @@
     <readonly>0</readonly>
     <sort_order>4354</sort_order>
     <source_id keyed_name="QS Issue" type="ItemType" name="QS Issue">09335878CD6A49C7B33E626A6C2B0040</source_id>
-    </Item>
+   </Item>
    <Item type="Property" id="F961FA3B836B426A88F30D9AA9E1C339" action="add">
     <column_alignment>left</column_alignment>
     <column_width>50</column_width>
@@ -547,7 +509,7 @@
     <readonly>0</readonly>
     <sort_order>4482</sort_order>
     <source_id keyed_name="QS Issue" type="ItemType" name="QS Issue">09335878CD6A49C7B33E626A6C2B0040</source_id>
-    </Item>
+   </Item>
    <Item type="Property" id="0DCA3DB7473349CC964E869E2FC18A02" action="add">
     <class_path>/QS Issue/Supplier</class_path>
     <column_alignment>left</column_alignment>
@@ -566,7 +528,7 @@
     <readonly>0</readonly>
     <sort_order>5506</sort_order>
     <source_id keyed_name="QS Issue" type="ItemType" name="QS Issue">09335878CD6A49C7B33E626A6C2B0040</source_id>
-    </Item>
+   </Item>
    <Item type="Property" id="C61E4A692A9A4E81ABCA096B1D1B03FE" action="add">
     <class_path>/QS Issue/Supplier</class_path>
     <column_alignment>left</column_alignment>
@@ -585,7 +547,7 @@
     <readonly>0</readonly>
     <sort_order>5378</sort_order>
     <source_id keyed_name="QS Issue" type="ItemType" name="QS Issue">09335878CD6A49C7B33E626A6C2B0040</source_id>
-    </Item>
+   </Item>
    <Item type="Property" id="0F24CE1AE7F141ED806FDD76B107F4C9" action="add">
     <class_path>/QS Issue/Supplier</class_path>
     <column_alignment>left</column_alignment>
@@ -604,7 +566,7 @@
     <readonly>0</readonly>
     <sort_order>4994</sort_order>
     <source_id keyed_name="QS Issue" type="ItemType" name="QS Issue">09335878CD6A49C7B33E626A6C2B0040</source_id>
-    </Item>
+   </Item>
    <Item type="Property" id="244D8E6D290846B3945D693DBD0A70A7" action="add">
     <class_path>/QS Issue/Supplier</class_path>
     <column_alignment>left</column_alignment>
@@ -623,7 +585,7 @@
     <readonly>0</readonly>
     <sort_order>3202</sort_order>
     <source_id keyed_name="QS Issue" type="ItemType" name="QS Issue">09335878CD6A49C7B33E626A6C2B0040</source_id>
-    </Item>
+   </Item>
    <Item type="Property" id="E05DDBE4897349978A2A14DE8AFD1E45" action="add">
     <class_path>/QS Issue/Supplier</class_path>
     <column_alignment>left</column_alignment>
@@ -642,7 +604,7 @@
     <sort_order>3842</sort_order>
     <source_id keyed_name="QS Issue" type="ItemType" name="QS Issue">09335878CD6A49C7B33E626A6C2B0040</source_id>
     <stored_length>64</stored_length>
-    </Item>
+   </Item>
    <Item type="Property" id="CD040EC0C7E8455B8CDA27B32909B2C2" action="add">
     <class_path>/QS Issue/Supplier</class_path>
     <column_alignment>left</column_alignment>
@@ -661,7 +623,7 @@
     <readonly>0</readonly>
     <sort_order>5122</sort_order>
     <source_id keyed_name="QS Issue" type="ItemType" name="QS Issue">09335878CD6A49C7B33E626A6C2B0040</source_id>
-    </Item>
+   </Item>
    <Item type="Property" id="B0941E02A95543888D1BC32A3B1AB44E" action="add">
     <class_path>/QS Issue/Supplier</class_path>
     <column_alignment>left</column_alignment>
@@ -680,7 +642,7 @@
     <sort_order>5250</sort_order>
     <source_id keyed_name="QS Issue" type="ItemType" name="QS Issue">09335878CD6A49C7B33E626A6C2B0040</source_id>
     <stored_length>15</stored_length>
-    </Item>
+   </Item>
    <Item type="Property" id="4FEE5D163FE44327AAAABF39D036C398" action="add">
     <column_alignment>left</column_alignment>
     <data_type>string</data_type>
@@ -697,7 +659,7 @@
     <sort_order>280</sort_order>
     <source_id keyed_name="QS Issue" type="ItemType" name="QS Issue">09335878CD6A49C7B33E626A6C2B0040</source_id>
     <stored_length>64</stored_length>
-    </Item>
+   </Item>
    <Item type="Property" id="2B0C9F434C054551A83D5A85EC73D1EF" action="add">
     <column_alignment>left</column_alignment>
     <data_type>string</data_type>
@@ -714,7 +676,7 @@
     <sort_order>240</sort_order>
     <source_id keyed_name="QS Issue" type="ItemType" name="QS Issue">09335878CD6A49C7B33E626A6C2B0040</source_id>
     <stored_length>32</stored_length>
-    </Item>
+   </Item>
    <Item type="Server Event" id="07E44D9C2AA14CBA802849406D7BD528" action="add">
     <related_id keyed_name="QS Issue OnBefore Add-Update" type="Method">
      <Item type="Method" action="get" select="id">
@@ -798,77 +760,103 @@
     <type>default</type>
    </Item></Relationships>
  </Item>
- <Item type="Property" action="edit" where="source_id='09335878CD6A49C7B33E626A6C2B0040' and name='classification'">
-  <column_alignment>left</column_alignment>
-  <column_width>100</column_width>
-  <data_type>string</data_type>
-  <is_hidden>0</is_hidden>
-  <is_hidden2>0</is_hidden2>
-  <is_indexed>0</is_indexed>
-  <is_keyed>0</is_keyed>
-  <is_multi_valued>0</is_multi_valued>
-  <is_required>0</is_required>
-  <label>Classification</label>
-  <name>classification</name>
-  <range_inclusive>0</range_inclusive>
-  <readonly>0</readonly>
-  <sort_order>20</sort_order>
-  <source_id keyed_name="QS Issue" type="ItemType" name="QS Issue">09335878CD6A49C7B33E626A6C2B0040</source_id>
-  <stored_length>512</stored_length>
-  </Item>
- <Item type="Property" action="edit" where="source_id='09335878CD6A49C7B33E626A6C2B0040' and name='created_by_id'">
-  <column_alignment>left</column_alignment>
-  <column_width>100</column_width>
-  <data_source keyed_name="User" type="ItemType" name="User">45E899CD2859442982EB22BB2DF683E5</data_source>
-  <data_type>item</data_type>
-  <is_hidden>0</is_hidden>
-  <is_hidden2>0</is_hidden2>
-  <is_indexed>0</is_indexed>
-  <is_keyed>0</is_keyed>
-  <is_multi_valued>0</is_multi_valued>
-  <is_required>1</is_required>
-  <item_behavior>float</item_behavior>
-  <label>Reported By</label>
-  <name>created_by_id</name>
-  <range_inclusive>0</range_inclusive>
-  <readonly>1</readonly>
-  <sort_order>120</sort_order>
-  <source_id keyed_name="QS Issue" type="ItemType" name="QS Issue">09335878CD6A49C7B33E626A6C2B0040</source_id>
-  </Item>
- <Item type="Property" action="edit" where="source_id='09335878CD6A49C7B33E626A6C2B0040' and name='owned_by_id'">
-  <column_alignment>left</column_alignment>
-  <column_width>100</column_width>
-  <data_source keyed_name="Identity" type="ItemType" name="Identity">E582AB17663F4EF28460015B2BE9E094</data_source>
-  <data_type>item</data_type>
-  <is_hidden>1</is_hidden>
-  <is_hidden2>1</is_hidden2>
-  <is_indexed>0</is_indexed>
-  <is_keyed>0</is_keyed>
-  <is_multi_valued>0</is_multi_valued>
-  <is_required>0</is_required>
-  <item_behavior>float</item_behavior>
-  <label>Responsible</label>
-  <name>owned_by_id</name>
-  <range_inclusive>0</range_inclusive>
-  <readonly>0</readonly>
-  <sort_order>220</sort_order>
-  <source_id keyed_name="QS Issue" type="ItemType" name="QS Issue">09335878CD6A49C7B33E626A6C2B0040</source_id>
-  </Item>
- <Item type="Property" action="edit" where="source_id='09335878CD6A49C7B33E626A6C2B0040' and name='state'">
-  <column_alignment>center</column_alignment>
-  <data_type>string</data_type>
-  <is_hidden>0</is_hidden>
-  <is_hidden2>0</is_hidden2>
-  <is_indexed>0</is_indexed>
-  <is_keyed>0</is_keyed>
-  <is_multi_valued>0</is_multi_valued>
-  <is_required>0</is_required>
-  <label>Status</label>
-  <name>state</name>
-  <range_inclusive>0</range_inclusive>
-  <readonly>1</readonly>
-  <sort_order>100</sort_order>
-  <source_id keyed_name="QS Issue" type="ItemType" name="QS Issue">09335878CD6A49C7B33E626A6C2B0040</source_id>
-  <stored_length>32</stored_length>
-  </Item>
+ <Item type="ItemType" id="09335878CD6A49C7B33E626A6C2B0040" action="edit">
+  <Relationships>
+   <Item type="Property" action="edit" where="source_id='09335878CD6A49C7B33E626A6C2B0040' and name='classification'">
+    <column_alignment>left</column_alignment>
+    <column_width>100</column_width>
+    <data_type>string</data_type>
+    <default_value></default_value>
+    <is_hidden>0</is_hidden>
+    <is_hidden2>0</is_hidden2>
+    <is_indexed>0</is_indexed>
+    <is_keyed>0</is_keyed>
+    <is_multi_valued>0</is_multi_valued>
+    <is_required>0</is_required>
+    <label>Classification</label>
+    <name>classification</name>
+    <range_inclusive>0</range_inclusive>
+    <readonly>0</readonly>
+    <sort_order>20</sort_order>
+    <source_id keyed_name="QS Issue" type="ItemType" name="QS Issue">09335878CD6A49C7B33E626A6C2B0040</source_id>
+    <stored_length>512</stored_length>
+   </Item>
+   <Item type="Property" action="edit" where="source_id='09335878CD6A49C7B33E626A6C2B0040' and name='created_by_id'">
+    <column_alignment>left</column_alignment>
+    <column_width>100</column_width>
+    <data_source keyed_name="User" type="ItemType" name="User">45E899CD2859442982EB22BB2DF683E5</data_source>
+    <data_type>item</data_type>
+    <is_hidden>0</is_hidden>
+    <is_hidden2>0</is_hidden2>
+    <is_indexed>0</is_indexed>
+    <is_keyed>0</is_keyed>
+    <is_multi_valued>0</is_multi_valued>
+    <is_required>1</is_required>
+    <item_behavior>float</item_behavior>
+    <label>Reported By</label>
+    <name>created_by_id</name>
+    <range_inclusive>0</range_inclusive>
+    <readonly>1</readonly>
+    <sort_order>120</sort_order>
+    <source_id keyed_name="QS Issue" type="ItemType" name="QS Issue">09335878CD6A49C7B33E626A6C2B0040</source_id>
+   </Item>
+   <Item type="Property" id="6180CE8AD9B54A19A03BD0366B1A9012" action="add">
+    <class_path></class_path>
+    <column_alignment>left</column_alignment>
+    <column_width>100</column_width>
+    <data_type>string</data_type>
+    <is_hidden>0</is_hidden>
+    <is_hidden2>0</is_hidden2>
+    <is_indexed>1</is_indexed>
+    <is_keyed>1</is_keyed>
+    <is_multi_valued>0</is_multi_valued>
+    <is_required>0</is_required>
+    <keyed_name_order>1</keyed_name_order>
+    <label>Issue Number</label>
+    <name>item_number</name>
+    <order_by>1</order_by>
+    <range_inclusive>0</range_inclusive>
+    <readonly>0</readonly>
+    <sort_order>80</sort_order>
+    <source_id keyed_name="QS Issue" type="ItemType" name="QS Issue">09335878CD6A49C7B33E626A6C2B0040</source_id>
+    <stored_length>36</stored_length>
+   </Item>
+   <Item type="Property" action="edit" where="source_id='09335878CD6A49C7B33E626A6C2B0040' and name='owned_by_id'">
+    <column_alignment>left</column_alignment>
+    <column_width>100</column_width>
+    <data_source keyed_name="Identity" type="ItemType" name="Identity">E582AB17663F4EF28460015B2BE9E094</data_source>
+    <data_type>item</data_type>
+    <is_hidden>0</is_hidden>
+    <is_hidden2>0</is_hidden2>
+    <is_indexed>0</is_indexed>
+    <is_keyed>0</is_keyed>
+    <is_multi_valued>0</is_multi_valued>
+    <is_required>0</is_required>
+    <item_behavior>float</item_behavior>
+    <label>Responsible</label>
+    <name>owned_by_id</name>
+    <range_inclusive>0</range_inclusive>
+    <readonly>0</readonly>
+    <sort_order>220</sort_order>
+    <source_id keyed_name="QS Issue" type="ItemType" name="QS Issue">09335878CD6A49C7B33E626A6C2B0040</source_id>
+   </Item>
+   <Item type="Property" action="edit" where="source_id='09335878CD6A49C7B33E626A6C2B0040' and name='state'">
+    <column_alignment>center</column_alignment>
+    <data_type>string</data_type>
+    <is_hidden>0</is_hidden>
+    <is_hidden2>0</is_hidden2>
+    <is_indexed>0</is_indexed>
+    <is_keyed>0</is_keyed>
+    <is_multi_valued>0</is_multi_valued>
+    <is_required>0</is_required>
+    <label>Status</label>
+    <name>state</name>
+    <range_inclusive>0</range_inclusive>
+    <readonly>1</readonly>
+    <sort_order>100</sort_order>
+    <source_id keyed_name="QS Issue" type="ItemType" name="QS Issue">09335878CD6A49C7B33E626A6C2B0040</source_id>
+    <stored_length>32</stored_length>
+   </Item>
+  </Relationships>
+ </Item>
 </AML>

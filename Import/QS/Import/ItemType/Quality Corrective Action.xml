@@ -1,4 +1,4 @@
-<AML>
+﻿<AML>
  <Item type="ItemType" id="5770759BBDF74F729E68DCA32A05CF1C" action="add">
   <allow_private_permission>1</allow_private_permission>
   <auto_search>0</auto_search>
@@ -45,7 +45,7 @@
     <sort_order>6</sort_order>
     <source_id keyed_name="Quality Corrective Action" type="ItemType" name="Quality Corrective Action">5770759BBDF74F729E68DCA32A05CF1C</source_id>
     <stored_length>128</stored_length>
-    </Item>
+   </Item>
    <Item type="Property" id="A21DA61423304D9595C7657E0A2F2B3A" action="add">
     <column_alignment>left</column_alignment>
     <column_width>100</column_width>
@@ -63,7 +63,7 @@
     <sort_order>2</sort_order>
     <source_id keyed_name="Quality Corrective Action" type="ItemType" name="Quality Corrective Action">5770759BBDF74F729E68DCA32A05CF1C</source_id>
     <stored_length>32</stored_length>
-    </Item>
+   </Item>
    <Item type="Server Event" id="7CEFE3545BA34E0A8C09D8038757C71D" action="add">
     <related_id keyed_name="polymorphic_item_onBeforeAdd" type="Method">
      <Item type="Method" action="get" select="id">
@@ -138,6 +138,62 @@
  </Item>
  <Item type="ItemType" id="5770759BBDF74F729E68DCA32A05CF1C" action="edit">
   <Relationships>
+   <Item type="Property" action="edit" where="source_id='5770759BBDF74F729E68DCA32A05CF1C' and name='itemtype'">
+    <column_alignment>left</column_alignment>
+    <data_source keyed_name="Quality Corrective Action"><Item type="List" action="get" select="id" page="1" pagesize="1"><name>Quality Corrective Action</name></Item></data_source>
+    <data_type>list</data_type>
+    <is_hidden>0</is_hidden>
+    <is_hidden2>0</is_hidden2>
+    <is_indexed>0</is_indexed>
+    <is_keyed>0</is_keyed>
+    <is_multi_valued>0</is_multi_valued>
+    <is_required>0</is_required>
+    <label>ItemType</label>
+    <name>itemtype</name>
+    <range_inclusive>0</range_inclusive>
+    <readonly>1</readonly>
+    <sort_order>134</sort_order>
+    <source_id keyed_name="Quality Corrective Action" type="ItemType" name="Quality Corrective Action">5770759BBDF74F729E68DCA32A05CF1C</source_id>
+   </Item>
+   <Item type="Property" action="edit" where="source_id='5770759BBDF74F729E68DCA32A05CF1C' and name='state'">
+    <column_alignment>center</column_alignment>
+    <column_width>100</column_width>
+    <data_type>string</data_type>
+    <is_hidden>0</is_hidden>
+    <is_hidden2>0</is_hidden2>
+    <is_indexed>0</is_indexed>
+    <is_keyed>0</is_keyed>
+    <is_multi_valued>0</is_multi_valued>
+    <is_required>0</is_required>
+    <label>Status</label>
+    <name>state</name>
+    <range_inclusive>0</range_inclusive>
+    <readonly>1</readonly>
+    <sort_order>4</sort_order>
+    <source_id keyed_name="Quality Corrective Action" type="ItemType" name="Quality Corrective Action">5770759BBDF74F729E68DCA32A05CF1C</source_id>
+    <stored_length>32</stored_length>
+   </Item>
+   <Item type="Property" action="edit" where="source_id='5770759BBDF74F729E68DCA32A05CF1C' and name='superseded_date'">
+    <column_alignment>left</column_alignment>
+    <data_type>date</data_type>
+    <is_hidden>1</is_hidden>
+    <is_hidden2>1</is_hidden2>
+    <is_indexed>0</is_indexed>
+    <is_keyed>0</is_keyed>
+    <is_multi_valued>0</is_multi_valued>
+    <is_required>0</is_required>
+    <label>Superseded Date</label>
+    <name>superseded_date</name>
+    <pattern>MM/dd/yyyy hh:mm:ss a</pattern>
+    <range_inclusive>0</range_inclusive>
+    <readonly>0</readonly>
+    <sort_order>3462</sort_order>
+    <source_id keyed_name="Quality Corrective Action" type="ItemType" name="Quality Corrective Action">5770759BBDF74F729E68DCA32A05CF1C</source_id>
+   </Item>
+  </Relationships>
+ </Item>
+ <Item type="ItemType" id="5770759BBDF74F729E68DCA32A05CF1C" action="edit">
+  <Relationships>
    <Item type="Morphae" id="B04563D941374B818F97E064F2F4499D" action="add">
     <related_id keyed_name="Waiver" type="ItemType" name="ItemType">A8D91D16987C4C818784E88AF8C277AA</related_id>
     <sort_order>128</sort_order>
@@ -164,23 +220,5 @@
   </Relationships>
  </Item>
 
- <Item type="Property" action="edit" where="source_id='5770759BBDF74F729E68DCA32A05CF1C' and name='state'">
-  <column_alignment>center</column_alignment>
-  <column_width>100</column_width>
-  <data_type>string</data_type>
-  <is_hidden>0</is_hidden>
-  <is_hidden2>0</is_hidden2>
-  <is_indexed>0</is_indexed>
-  <is_keyed>0</is_keyed>
-  <is_multi_valued>0</is_multi_valued>
-  <is_required>0</is_required>
-  <label>Status</label>
-  <name>state</name>
-  <range_inclusive>0</range_inclusive>
-  <readonly>1</readonly>
-  <sort_order>4</sort_order>
-  <source_id keyed_name="Quality Corrective Action" type="ItemType" name="Quality Corrective Action">5770759BBDF74F729E68DCA32A05CF1C</source_id>
-  <stored_length>32</stored_length>
-  </Item>
  <Item type="View" action="delete" where="source_id='5770759BBDF74F729E68DCA32A05CF1C'"></Item>
  <Item type="Form" action="delete" where="name='Quality Corrective Action'"></Item></AML>

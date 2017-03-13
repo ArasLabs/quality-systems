@@ -1,4 +1,4 @@
-<AML>
+﻿<AML>
  <Item type="ItemType" id="A8D91D16987C4C818784E88AF8C277AA" action="add">
   <allow_private_permission>0</allow_private_permission>
   <auto_search>1</auto_search>
@@ -53,7 +53,7 @@
     <readonly>0</readonly>
     <sort_order>30</sort_order>
     <source_id keyed_name="Waiver" type="ItemType" name="Waiver">A8D91D16987C4C818784E88AF8C277AA</source_id>
-    </Item>
+   </Item>
    <Item type="Property" id="10B6ED8498B84E8FBF41FC4E24C1231A" action="add">
     <column_alignment>center</column_alignment>
     <column_width>100</column_width>
@@ -71,7 +71,7 @@
     <readonly>0</readonly>
     <sort_order>32</sort_order>
     <source_id keyed_name="Waiver" type="ItemType" name="Waiver">A8D91D16987C4C818784E88AF8C277AA</source_id>
-    </Item>
+   </Item>
    <Item type="Property" id="BE89A78BB79E41CCBD0D596A2FA5B46D" action="add">
     <column_alignment>center</column_alignment>
     <column_width>100</column_width>
@@ -89,7 +89,7 @@
     <readonly>0</readonly>
     <sort_order>33</sort_order>
     <source_id keyed_name="Waiver" type="ItemType" name="Waiver">A8D91D16987C4C818784E88AF8C277AA</source_id>
-    </Item>
+   </Item>
    <Item type="Property" id="F2B5448738594DFEAE2CB448F7EB4D9F" action="add">
     <column_alignment>left</column_alignment>
     <column_width>300</column_width>
@@ -107,7 +107,7 @@
     <sort_order>40</sort_order>
     <source_id keyed_name="Waiver" type="ItemType" name="Waiver">A8D91D16987C4C818784E88AF8C277AA</source_id>
     <stored_length>400</stored_length>
-    </Item>
+   </Item>
    <Item type="Property" id="79E13828FF6544AEAE592E4675AD02F9" action="add">
     <column_alignment>left</column_alignment>
     <column_width>90</column_width>
@@ -127,7 +127,7 @@
     <readonly>0</readonly>
     <sort_order>1</sort_order>
     <source_id keyed_name="Waiver" type="ItemType" name="Waiver">A8D91D16987C4C818784E88AF8C277AA</source_id>
-    </Item>
+   </Item>
    <Item type="Property" id="2E8E6B5A4ADE4937B26B388FA274288D" action="add">
     <column_alignment>left</column_alignment>
     <column_width>100</column_width>
@@ -146,7 +146,7 @@
     <readonly>0</readonly>
     <sort_order>10</sort_order>
     <source_id keyed_name="Waiver" type="ItemType" name="Waiver">A8D91D16987C4C818784E88AF8C277AA</source_id>
-    </Item>
+   </Item>
    <Item type="TOC Access" id="0F09F11D85F34909BDD944613F5A8426" action="add">
     <category>Quality</category>
     <related_id keyed_name="World" type="Identity">
@@ -171,41 +171,45 @@
    </Item>
   </Relationships>
  </Item>
- <Item type="Property" action="edit" where="source_id='A8D91D16987C4C818784E88AF8C277AA' and name='owned_by_id'">
-  <column_alignment>left</column_alignment>
-  <column_width>100</column_width>
-  <data_source keyed_name="Identity" type="ItemType" name="Identity">E582AB17663F4EF28460015B2BE9E094</data_source>
-  <data_type>item</data_type>
-  <is_hidden>0</is_hidden>
-  <is_hidden2>0</is_hidden2>
-  <is_indexed>0</is_indexed>
-  <is_keyed>0</is_keyed>
-  <is_multi_valued>0</is_multi_valued>
-  <is_required>0</is_required>
-  <item_behavior>float</item_behavior>
-  <label>Responsible</label>
-  <name>owned_by_id</name>
-  <range_inclusive>0</range_inclusive>
-  <readonly>0</readonly>
-  <sort_order>4</sort_order>
-  <source_id keyed_name="Waiver" type="ItemType" name="Waiver">A8D91D16987C4C818784E88AF8C277AA</source_id>
-  </Item>
- <Item type="Property" action="edit" where="source_id='A8D91D16987C4C818784E88AF8C277AA' and name='state'">
-  <column_alignment>center</column_alignment>
-  <column_width>100</column_width>
-  <data_type>string</data_type>
-  <is_hidden>0</is_hidden>
-  <is_hidden2>0</is_hidden2>
-  <is_indexed>0</is_indexed>
-  <is_keyed>0</is_keyed>
-  <is_multi_valued>0</is_multi_valued>
-  <is_required>0</is_required>
-  <label>Status</label>
-  <name>state</name>
-  <range_inclusive>0</range_inclusive>
-  <readonly>1</readonly>
-  <sort_order>2</sort_order>
-  <source_id keyed_name="Waiver" type="ItemType" name="Waiver">A8D91D16987C4C818784E88AF8C277AA</source_id>
-  <stored_length>32</stored_length>
-  </Item>
+ <Item type="ItemType" id="A8D91D16987C4C818784E88AF8C277AA" action="edit">
+  <Relationships>
+   <Item type="Property" action="edit" where="source_id='A8D91D16987C4C818784E88AF8C277AA' and name='owned_by_id'">
+    <column_alignment>left</column_alignment>
+    <column_width>100</column_width>
+    <data_source keyed_name="Identity" type="ItemType" name="Identity">E582AB17663F4EF28460015B2BE9E094</data_source>
+    <data_type>item</data_type>
+    <is_hidden>0</is_hidden>
+    <is_hidden2>0</is_hidden2>
+    <is_indexed>0</is_indexed>
+    <is_keyed>0</is_keyed>
+    <is_multi_valued>0</is_multi_valued>
+    <is_required>0</is_required>
+    <item_behavior>float</item_behavior>
+    <label>Responsible</label>
+    <name>owned_by_id</name>
+    <range_inclusive>0</range_inclusive>
+    <readonly>0</readonly>
+    <sort_order>4</sort_order>
+    <source_id keyed_name="Waiver" type="ItemType" name="Waiver">A8D91D16987C4C818784E88AF8C277AA</source_id>
+   </Item>
+   <Item type="Property" action="edit" where="source_id='A8D91D16987C4C818784E88AF8C277AA' and name='state'">
+    <column_alignment>center</column_alignment>
+    <column_width>100</column_width>
+    <data_type>string</data_type>
+    <is_hidden>0</is_hidden>
+    <is_hidden2>0</is_hidden2>
+    <is_indexed>0</is_indexed>
+    <is_keyed>0</is_keyed>
+    <is_multi_valued>0</is_multi_valued>
+    <is_required>0</is_required>
+    <label>Status</label>
+    <name>state</name>
+    <range_inclusive>0</range_inclusive>
+    <readonly>1</readonly>
+    <sort_order>2</sort_order>
+    <source_id keyed_name="Waiver" type="ItemType" name="Waiver">A8D91D16987C4C818784E88AF8C277AA</source_id>
+    <stored_length>32</stored_length>
+   </Item>
+  </Relationships>
+ </Item>
 </AML>

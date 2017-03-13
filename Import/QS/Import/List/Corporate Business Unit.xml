@@ -1,25 +1,31 @@
-<AML>
+﻿<AML>
  <Item type="List" id="C50BCD8F2BDB4C3C93E1ACAF5665AE55" action="add">
   <description>List of the corporate business units </description>
   <name>Corporate Business Unit</name>
   <Relationships>
    <Item type="Value" id="A50FD73032A8436AA59105771C3B6FED" action="add">
-    <label>Business Unit 1</label>
+    <label>NA Business Unit</label>
     <sort_order>100</sort_order>
     <source_id keyed_name="Corporate Business Unit" type="List">C50BCD8F2BDB4C3C93E1ACAF5665AE55</source_id>
     <value>BU 1</value>
    </Item>
    <Item type="Value" id="FFEC926F2E2A40B192EC043C93C77B24" action="add">
-    <label>Business Unit 2</label>
+    <label>EMEA Business Unit</label>
     <sort_order>200</sort_order>
     <source_id keyed_name="Corporate Business Unit" type="List">C50BCD8F2BDB4C3C93E1ACAF5665AE55</source_id>
     <value>BU 2</value>
    </Item>
    <Item type="Value" id="9AD492C8F5184413A029AB8E7B9DDC0C" action="add">
-    <label>Business Unit 3</label>
+    <label>ASIA Business Unit</label>
     <sort_order>300</sort_order>
     <source_id keyed_name="Corporate Business Unit" type="List">C50BCD8F2BDB4C3C93E1ACAF5665AE55</source_id>
     <value>BU 3</value>
+   </Item>
+   <Item type="Value" id="693C64AB4A7E4A51B9D6BD6CBE06E9D5" action="add">
+    <label>LATAM Business Unit</label>
+    <sort_order>400</sort_order>
+    <source_id keyed_name="Corporate Business Unit" type="List">C50BCD8F2BDB4C3C93E1ACAF5665AE55</source_id>
+    <value>BU 4</value>
    </Item>
   </Relationships>
  </Item>

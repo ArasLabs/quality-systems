@@ -1,4 +1,4 @@
-<AML>
+﻿<AML>
  <Item type="Life Cycle Map" id="C7FE5893243545409C6E7E9187276D36" action="add">
   <name>QS Rework WO</name>
   <start_state keyed_name="In Review" type="Life Cycle State">C31BD90438364FDA86564D44BB29A9D2</start_state>
@@ -12,7 +12,7 @@
     <source_id keyed_name="QS Rework WO" type="Life Cycle Map">C7FE5893243545409C6E7E9187276D36</source_id>
     <x>188</x>
     <y>61</y>
-    </Item>
+   </Item>
    <Item type="Life Cycle State" id="7C22E024DF234390B09AAF46654CE6F2" action="add">
     <image>../images/icons/20x20/20x15_lifecycle.gif</image>
     <name>Complete</name>
@@ -22,7 +22,7 @@
     <source_id keyed_name="QS Rework WO" type="Life Cycle Map">C7FE5893243545409C6E7E9187276D36</source_id>
     <x>307</x>
     <y>61</y>
-    </Item>
+   </Item>
    <Item type="Life Cycle State" id="E65C0CDE7EAA4494A48DA4EB45BE9FD0" action="add">
     <image>../images/icons/20x20/20x15_lifecycle.gif</image>
     <name>Confirmed</name>
@@ -32,7 +32,7 @@
     <source_id keyed_name="QS Rework WO" type="Life Cycle Map">C7FE5893243545409C6E7E9187276D36</source_id>
     <x>433</x>
     <y>61</y>
-    </Item>
+   </Item>
    <Item type="Life Cycle State" id="C31BD90438364FDA86564D44BB29A9D2" action="add">
     <image>../images/icons/20x20/20x15_lifecycle.gif</image>
     <name>In Review</name>
@@ -42,7 +42,7 @@
     <source_id keyed_name="QS Rework WO" type="Life Cycle Map">C7FE5893243545409C6E7E9187276D36</source_id>
     <x>60</x>
     <y>61</y>
-    </Item>
+   </Item>
    <Item type="Life Cycle State" id="6CAEEE1CFD054BBC9C04020D056B5B1D" action="add">
     <image>../images/icons/20x20/20x15_lifecycle.gif</image>
     <name>Rejected</name>
@@ -52,7 +52,7 @@
     <source_id keyed_name="QS Rework WO" type="Life Cycle Map">C7FE5893243545409C6E7E9187276D36</source_id>
     <x>187</x>
     <y>6</y>
-    </Item>
+   </Item>
    <Item type="Life Cycle Transition" id="B299F3AA671644A3BFDDF168BB8CF1D9" action="add">
     <from_state keyed_name="Approved" type="Life Cycle State">227E06E4BBF54BAA888592A391F3A31A</from_state>
     <get_comment>0</get_comment>
@@ -67,7 +67,7 @@
     <to_state keyed_name="Complete" type="Life Cycle State">7C22E024DF234390B09AAF46654CE6F2</to_state>
     <x>37</x>
     <y>15</y>
-    </Item>
+   </Item>
    <Item type="Life Cycle Transition" id="CA91A6D73D7F4BF6A0EB8D176F97F3F6" action="add">
     <from_state keyed_name="Complete" type="Life Cycle State">7C22E024DF234390B09AAF46654CE6F2</from_state>
     <get_comment>0</get_comment>
@@ -82,7 +82,7 @@
     <to_state keyed_name="Confirmed" type="Life Cycle State">E65C0CDE7EAA4494A48DA4EB45BE9FD0</to_state>
     <x>38</x>
     <y>15</y>
-    </Item>
+   </Item>
    <Item type="Life Cycle Transition" id="470E4EA9D5CC448C8F1040D3E9A2769D" action="add">
     <from_state keyed_name="In Review" type="Life Cycle State">C31BD90438364FDA86564D44BB29A9D2</from_state>
     <get_comment>0</get_comment>
@@ -97,8 +97,7 @@
     <to_state keyed_name="Approved" type="Life Cycle State">227E06E4BBF54BAA888592A391F3A31A</to_state>
     <x>38</x>
     <y>15</y>
-    </Item>
-  
+   </Item>
    <Item type="Life Cycle Transition" id="E028F01BE581450CB5214FB8EB9E6845" action="add">
     <from_state keyed_name="In Review" type="Life Cycle State">C31BD90438364FDA86564D44BB29A9D2</from_state>
     <get_comment>0</get_comment>
@@ -113,6 +112,7 @@
     <to_state keyed_name="Rejected" type="Life Cycle State">6CAEEE1CFD054BBC9C04020D056B5B1D</to_state>
     <x>62</x>
     <y>-40</y>
-    </Item></Relationships>
+   </Item>
+  </Relationships>
  </Item>
 </AML>

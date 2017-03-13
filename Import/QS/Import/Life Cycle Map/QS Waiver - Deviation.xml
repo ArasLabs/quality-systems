@@ -1,4 +1,4 @@
-<AML>
+﻿<AML>
  <Item type="Life Cycle Map" id="3CAEFD302B534E9BB70F08F478BFAF63" action="add">
   <name>QS Waiver - Deviation</name>
   <start_state keyed_name="In Review" type="Life Cycle State">13B80396A14B4B0E9CDB713161356FCA</start_state>
@@ -12,7 +12,7 @@
     <source_id keyed_name="QS Waiver - Deviation" type="Life Cycle Map">3CAEFD302B534E9BB70F08F478BFAF63</source_id>
     <x>179</x>
     <y>45</y>
-    </Item>
+   </Item>
    <Item type="Life Cycle State" id="13B80396A14B4B0E9CDB713161356FCA" action="add">
     <image>../images/icons/20x20/20x15_lifecycle.gif</image>
     <name>In Review</name>
@@ -22,7 +22,7 @@
     <source_id keyed_name="QS Waiver - Deviation" type="Life Cycle Map">3CAEFD302B534E9BB70F08F478BFAF63</source_id>
     <x>55</x>
     <y>45</y>
-    </Item>
+   </Item>
    <Item type="Life Cycle State" id="3A0811D98C5E42F990A37EC8ED2C4238" action="add">
     <image>../images/icons/20x20/20x15_lifecycle.gif</image>
     <name>Obsolete</name>
@@ -32,7 +32,7 @@
     <source_id keyed_name="QS Waiver - Deviation" type="Life Cycle Map">3CAEFD302B534E9BB70F08F478BFAF63</source_id>
     <x>311</x>
     <y>45</y>
-    </Item>
+   </Item>
    <Item type="Life Cycle Transition" id="997E631AE4E748569174C0D989ABB8F0" action="add">
     <from_state keyed_name="Approved" type="Life Cycle State">D4727B92C7F4424BB4900C6FEF0C6895</from_state>
     <get_comment>0</get_comment>
@@ -47,7 +47,7 @@
     <to_state keyed_name="Obsolete" type="Life Cycle State">3A0811D98C5E42F990A37EC8ED2C4238</to_state>
     <x>-1</x>
     <y>-1</y>
-    </Item>
+   </Item>
   
    <Item type="Life Cycle Transition" id="608A82259F2D42D3BE5F0EAB4BC9B87A" action="add">
     <from_state keyed_name="In Review" type="Life Cycle State">13B80396A14B4B0E9CDB713161356FCA</from_state>
@@ -60,6 +60,6 @@
     <sort_order>128</sort_order>
     <source_id keyed_name="QS Waiver - Deviation" type="Life Cycle Map">3CAEFD302B534E9BB70F08F478BFAF63</source_id>
     <to_state keyed_name="Approved" type="Life Cycle State">D4727B92C7F4424BB4900C6FEF0C6895</to_state>
-    </Item></Relationships>
+   </Item></Relationships>
  </Item>
 </AML>

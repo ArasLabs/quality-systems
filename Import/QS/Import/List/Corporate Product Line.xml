@@ -1,70 +1,154 @@
-<AML>
+﻿<AML>
  <Item type="List" id="26C50088951A42368236C20E9CF22728" action="add">
   <description>Product line per plant</description>
   <name>Corporate Product Line</name>
   <Relationships>
-   <Item type="Filter Value" id="D20E78C3BE1447A4B1F60DE4299CB31E" action="add">
-    <filter>Plant 1</filter>
-    <label>Product 1</label>
-    <sort_order>128</sort_order>
+   <Item type="Filter Value" id="60D82F08711F4A2C869B1723C8A597DA" action="add">
+    <filter>BU 3</filter>
+    <label>Advanced Technology</label>
+    <sort_order>100</sort_order>
     <source_id keyed_name="Corporate Product Line" type="List">26C50088951A42368236C20E9CF22728</source_id>
-    <value>Product 1</value>
+    <value>Advanced Technology</value>
    </Item>
-   <Item type="Filter Value" id="7B3E8E33CEAF4917BC0319480661F773" action="add">
-    <filter>Plant 1</filter>
-    <label>Product 2</label>
-    <sort_order>256</sort_order>
+   <Item type="Filter Value" id="906FCBB2BDF44F81B86B0F147378C497" action="add">
+    <filter>BU 1</filter>
+    <label>Advanced Technology</label>
+    <sort_order>200</sort_order>
     <source_id keyed_name="Corporate Product Line" type="List">26C50088951A42368236C20E9CF22728</source_id>
-    <value>Product 2</value>
+    <value>Advanced Technology</value>
    </Item>
-   <Item type="Filter Value" id="25E5E510376C46E9A57EF77A702A1DE9" action="add">
-    <filter>Plant 1</filter>
-    <label>Product 3</label>
-    <sort_order>384</sort_order>
+   <Item type="Filter Value" id="D6E0AA2E97664B18971A2AB46A2BB63D" action="add">
+    <filter>BU 4</filter>
+    <label>Advanced Technology</label>
+    <sort_order>300</sort_order>
     <source_id keyed_name="Corporate Product Line" type="List">26C50088951A42368236C20E9CF22728</source_id>
-    <value>Product 3</value>
+    <value>Advanced Technology</value>
    </Item>
-   <Item type="Filter Value" id="3CEA398795324757AF265CB1AC6F15C5" action="add">
-    <filter>Plant 2</filter>
-    <label>Product 4</label>
-    <sort_order>512</sort_order>
+   <Item type="Filter Value" id="F6990B45E1BA488680AADC64B7DF3A33" action="add">
+    <filter>BU 2</filter>
+    <label>Advanced Technology</label>
+    <sort_order>400</sort_order>
     <source_id keyed_name="Corporate Product Line" type="List">26C50088951A42368236C20E9CF22728</source_id>
-    <value>Product 4</value>
+    <value>Advanced Technology</value>
    </Item>
-   <Item type="Filter Value" id="8DBEF2684AD344D39ABDA0ABBADEAC9D" action="add">
-    <filter>Plant 2</filter>
-    <label>Product 5</label>
-    <sort_order>640</sort_order>
+   <Item type="Filter Value" id="12BEF79BBD694EEEBBD93DBAB6887838" action="add">
+    <filter>BU 2</filter>
+    <label>Automotive</label>
+    <sort_order>500</sort_order>
     <source_id keyed_name="Corporate Product Line" type="List">26C50088951A42368236C20E9CF22728</source_id>
-    <value>Product 5</value>
+    <value>Automotive</value>
    </Item>
-   <Item type="Filter Value" id="297A208E026A41ABBD76117748A345DC" action="add">
-    <filter>Plant 2</filter>
-    <label>Product 6</label>
-    <sort_order>768</sort_order>
+   <Item type="Filter Value" id="26EFA443F98B4B8EAE3501A1A59C446D" action="add">
+    <filter>BU 3</filter>
+    <label>Automotive</label>
+    <sort_order>600</sort_order>
     <source_id keyed_name="Corporate Product Line" type="List">26C50088951A42368236C20E9CF22728</source_id>
-    <value>Product 6</value>
+    <value>Automotive</value>
    </Item>
-   <Item type="Filter Value" id="E614BBF8EB5D4B61B773E3C8CD0DEF0B" action="add">
-    <filter>Plant 3</filter>
-    <label>Product 7</label>
-    <sort_order>896</sort_order>
+   <Item type="Filter Value" id="417B17C3E3414CB48EC5C8EA121D8791" action="add">
+    <filter>BU 4</filter>
+    <label>Automotive</label>
+    <sort_order>700</sort_order>
     <source_id keyed_name="Corporate Product Line" type="List">26C50088951A42368236C20E9CF22728</source_id>
-    <value>Product 7</value>
+    <value>Automotive</value>
    </Item>
-   <Item type="Filter Value" id="0AC4707B7978435DA13429CE5FFD897B" action="add">
-    <filter>Plant 3</filter>
-    <label>Product 8</label>
-    <sort_order>1024</sort_order>
+   <Item type="Filter Value" id="E11D526E0FD04B048442AE8387302354" action="add">
+    <filter>BU 1</filter>
+    <label>Automotive</label>
+    <sort_order>800</sort_order>
     <source_id keyed_name="Corporate Product Line" type="List">26C50088951A42368236C20E9CF22728</source_id>
-    <value>Product 8</value>
+    <value>Automotive</value>
    </Item>
-   <Item type="Filter Value" id="6844561E313749418ED11EB4ED550F13" action="add">
-    <filter>Plant 3</filter>
-    <label>Product 9</label>
-    <sort_order>1152</sort_order>
+   <Item type="Filter Value" id="21F6FC2DC8C24C17B4C05557E198473B" action="add">
+    <filter>BU 1</filter>
+    <label>Consumer Electronics</label>
+    <sort_order>900</sort_order>
     <source_id keyed_name="Corporate Product Line" type="List">26C50088951A42368236C20E9CF22728</source_id>
-    <value>Product 9</value>
+    <value>Consumer Electronics</value>
+   </Item>
+   <Item type="Filter Value" id="2C8EC7F1FFA84677B431EBEEE1E28E4C" action="add">
+    <filter>BU 4</filter>
+    <label>Consumer Electronics</label>
+    <sort_order>1000</sort_order>
+    <source_id keyed_name="Corporate Product Line" type="List">26C50088951A42368236C20E9CF22728</source_id>
+    <value>Consumer Electronics</value>
+   </Item>
+   <Item type="Filter Value" id="6B4385EA998A4F06BDEBFC13AA03B88E" action="add">
+    <filter>BU 3</filter>
+    <label>Consumer Electronics</label>
+    <sort_order>1100</sort_order>
+    <source_id keyed_name="Corporate Product Line" type="List">26C50088951A42368236C20E9CF22728</source_id>
+    <value>Consumer Electronics</value>
+   </Item>
+   <Item type="Filter Value" id="9BCBF71640AC4A61A293B674FF9EDD42" action="add">
+    <filter>BU 2</filter>
+    <label>Consumer Electronics</label>
+    <sort_order>1200</sort_order>
+    <source_id keyed_name="Corporate Product Line" type="List">26C50088951A42368236C20E9CF22728</source_id>
+    <value>Consumer Electronics</value>
+   </Item>
+   <Item type="Filter Value" id="97778ED57BCA4B92AE88C4242FB6199B" action="add">
+    <filter>BU 1</filter>
+    <label>Defense</label>
+    <sort_order>1300</sort_order>
+    <source_id keyed_name="Corporate Product Line" type="List">26C50088951A42368236C20E9CF22728</source_id>
+    <value>Defense</value>
+   </Item>
+   <Item type="Filter Value" id="F78497B1E7E5499B8B9BD884EC1FBC5D" action="add">
+    <filter>BU 3</filter>
+    <label>Defense</label>
+    <sort_order>1400</sort_order>
+    <source_id keyed_name="Corporate Product Line" type="List">26C50088951A42368236C20E9CF22728</source_id>
+    <value>Defense</value>
+   </Item>
+   <Item type="Filter Value" id="FFB7D8CBF1B0471399CD3483E2D9D6C6" action="add">
+    <filter>BU 2</filter>
+    <label>Defense</label>
+    <sort_order>1500</sort_order>
+    <source_id keyed_name="Corporate Product Line" type="List">26C50088951A42368236C20E9CF22728</source_id>
+    <value>Defense</value>
+   </Item>
+   <Item type="Filter Value" id="31E7A6C3A2774163AB4E3AC68E14389E" action="add">
+    <filter>BU 4</filter>
+    <label>Industrial Products</label>
+    <sort_order>1600</sort_order>
+    <source_id keyed_name="Corporate Product Line" type="List">26C50088951A42368236C20E9CF22728</source_id>
+    <value>Industrial Products</value>
+   </Item>
+   <Item type="Filter Value" id="A7C6F09238FE4036B7A59154FE7DC45D" action="add">
+    <filter>BU 2</filter>
+    <label>Industrial Products</label>
+    <sort_order>1700</sort_order>
+    <source_id keyed_name="Corporate Product Line" type="List">26C50088951A42368236C20E9CF22728</source_id>
+    <value>Industrial Products</value>
+   </Item>
+   <Item type="Filter Value" id="D6DB4EECAD4E4EEAA5E183C483A3F343" action="add">
+    <filter>BU 3</filter>
+    <label>Industrial Products</label>
+    <sort_order>1800</sort_order>
+    <source_id keyed_name="Corporate Product Line" type="List">26C50088951A42368236C20E9CF22728</source_id>
+    <value>Industrial Products</value>
+   </Item>
+   <Item type="Filter Value" id="2CDFC473210C43C29E332245F0307362" action="add">
+    <filter>BU 2</filter>
+    <label>Medical</label>
+    <sort_order>1900</sort_order>
+    <source_id keyed_name="Corporate Product Line" type="List">26C50088951A42368236C20E9CF22728</source_id>
+    <value>Medical</value>
+   </Item>
+   <Item type="Filter Value" id="3BE040E8D3B54B119439577E714C5F9E" action="add">
+    <filter>BU 1</filter>
+    <label>Medical</label>
+    <sort_order>2000</sort_order>
+    <source_id keyed_name="Corporate Product Line" type="List">26C50088951A42368236C20E9CF22728</source_id>
+    <value>Medical</value>
+   </Item>
+   <Item type="Filter Value" id="6E77DCE8D1494F058C5D3C02A20E28A4" action="add">
+    <filter>BU 3</filter>
+    <label>Medical</label>
+    <sort_order>2100</sort_order>
+    <source_id keyed_name="Corporate Product Line" type="List">26C50088951A42368236C20E9CF22728</source_id>
+    <value>Medical</value>
    </Item>
   </Relationships>
  </Item>

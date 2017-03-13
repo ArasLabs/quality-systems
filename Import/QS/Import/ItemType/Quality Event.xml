@@ -1,4 +1,4 @@
-<AML>
+﻿<AML>
  <Item type="ItemType" id="E9D0FC142329437BAD4F73E23FF4EE99" action="add">
   <allow_private_permission>0</allow_private_permission>
   <auto_search>0</auto_search>
@@ -46,7 +46,7 @@
     <sort_order>40</sort_order>
     <source_id keyed_name="Quality Event" type="ItemType" name="Quality Event">E9D0FC142329437BAD4F73E23FF4EE99</source_id>
     <stored_length>128</stored_length>
-    </Item>
+   </Item>
    <Item type="Property" id="4C8B58644DE248649DCCCBD9CCF5B421" action="add">
     <column_alignment>left</column_alignment>
     <column_width>90</column_width>
@@ -64,7 +64,7 @@
     <sort_order>10</sort_order>
     <source_id keyed_name="Quality Event" type="ItemType" name="Quality Event">E9D0FC142329437BAD4F73E23FF4EE99</source_id>
     <stored_length>32</stored_length>
-    </Item>
+   </Item>
    <Item type="Server Event" id="4382DC006C344CB295EF65F22255750F" action="add">
     <related_id keyed_name="polymorphic_item_onBeforeAdd" type="Method">
      <Item type="Method" action="get" select="id">
@@ -139,6 +139,81 @@
  </Item>
  <Item type="ItemType" id="E9D0FC142329437BAD4F73E23FF4EE99" action="edit">
   <Relationships>
+   <Item type="Property" action="edit" where="source_id='E9D0FC142329437BAD4F73E23FF4EE99' and name='itemtype'">
+    <column_alignment>left</column_alignment>
+    <data_source keyed_name="Quality Event"><Item type="List" action="get" select="id" page="1" pagesize="1"><name>Quality Event</name></Item></data_source>
+    <data_type>list</data_type>
+    <is_hidden>0</is_hidden>
+    <is_hidden2>0</is_hidden2>
+    <is_indexed>0</is_indexed>
+    <is_keyed>0</is_keyed>
+    <is_multi_valued>0</is_multi_valued>
+    <is_required>0</is_required>
+    <label>ItemType</label>
+    <name>itemtype</name>
+    <range_inclusive>0</range_inclusive>
+    <readonly>1</readonly>
+    <sort_order>168</sort_order>
+    <source_id keyed_name="Quality Event" type="ItemType" name="Quality Event">E9D0FC142329437BAD4F73E23FF4EE99</source_id>
+   </Item>
+   <Item type="Property" action="edit" where="source_id='E9D0FC142329437BAD4F73E23FF4EE99' and name='owned_by_id'">
+    <column_alignment>left</column_alignment>
+    <column_width>120</column_width>
+    <data_source keyed_name="Identity" type="ItemType" name="Identity">E582AB17663F4EF28460015B2BE9E094</data_source>
+    <data_type>item</data_type>
+    <is_hidden>0</is_hidden>
+    <is_hidden2>0</is_hidden2>
+    <is_indexed>0</is_indexed>
+    <is_keyed>0</is_keyed>
+    <is_multi_valued>0</is_multi_valued>
+    <is_required>0</is_required>
+    <item_behavior>float</item_behavior>
+    <label>Responsible</label>
+    <name>owned_by_id</name>
+    <range_inclusive>0</range_inclusive>
+    <readonly>0</readonly>
+    <sort_order>32</sort_order>
+    <source_id keyed_name="Quality Event" type="ItemType" name="Quality Event">E9D0FC142329437BAD4F73E23FF4EE99</source_id>
+   </Item>
+   <Item type="Property" action="edit" where="source_id='E9D0FC142329437BAD4F73E23FF4EE99' and name='state'">
+    <column_alignment>center</column_alignment>
+    <column_width>100</column_width>
+    <data_type>string</data_type>
+    <is_hidden>0</is_hidden>
+    <is_hidden2>0</is_hidden2>
+    <is_indexed>0</is_indexed>
+    <is_keyed>0</is_keyed>
+    <is_multi_valued>0</is_multi_valued>
+    <is_required>0</is_required>
+    <label>Status</label>
+    <name>state</name>
+    <range_inclusive>0</range_inclusive>
+    <readonly>1</readonly>
+    <sort_order>30</sort_order>
+    <source_id keyed_name="Quality Event" type="ItemType" name="Quality Event">E9D0FC142329437BAD4F73E23FF4EE99</source_id>
+    <stored_length>32</stored_length>
+   </Item>
+   <Item type="Property" action="edit" where="source_id='E9D0FC142329437BAD4F73E23FF4EE99' and name='superseded_date'">
+    <column_alignment>left</column_alignment>
+    <data_type>date</data_type>
+    <is_hidden>1</is_hidden>
+    <is_hidden2>1</is_hidden2>
+    <is_indexed>0</is_indexed>
+    <is_keyed>0</is_keyed>
+    <is_multi_valued>0</is_multi_valued>
+    <is_required>0</is_required>
+    <label>Superseded Date</label>
+    <name>superseded_date</name>
+    <pattern>MM/dd/yyyy hh:mm:ss a</pattern>
+    <range_inclusive>0</range_inclusive>
+    <readonly>0</readonly>
+    <sort_order>3496</sort_order>
+    <source_id keyed_name="Quality Event" type="ItemType" name="Quality Event">E9D0FC142329437BAD4F73E23FF4EE99</source_id>
+   </Item>
+  </Relationships>
+ </Item>
+ <Item type="ItemType" id="E9D0FC142329437BAD4F73E23FF4EE99" action="edit">
+  <Relationships>
    <Item type="Morphae" id="DF29449A60E24CC7A035F0AAE6BA9910" action="add">
     <related_id keyed_name="NCR" type="ItemType" name="ItemType">58D74CF0E0934E33850CC3CB28361FD9</related_id>
     <sort_order>512</sort_order>
@@ -174,42 +249,5 @@
   </Relationships>
  </Item>
 
- <Item type="Property" action="edit" where="source_id='E9D0FC142329437BAD4F73E23FF4EE99' and name='owned_by_id'">
-  <column_alignment>left</column_alignment>
-  <column_width>120</column_width>
-  <data_source keyed_name="Identity" type="ItemType" name="Identity">E582AB17663F4EF28460015B2BE9E094</data_source>
-  <data_type>item</data_type>
-  <is_hidden>0</is_hidden>
-  <is_hidden2>0</is_hidden2>
-  <is_indexed>0</is_indexed>
-  <is_keyed>0</is_keyed>
-  <is_multi_valued>0</is_multi_valued>
-  <is_required>0</is_required>
-  <item_behavior>float</item_behavior>
-  <label>Responsible</label>
-  <name>owned_by_id</name>
-  <range_inclusive>0</range_inclusive>
-  <readonly>0</readonly>
-  <sort_order>32</sort_order>
-  <source_id keyed_name="Quality Event" type="ItemType" name="Quality Event">E9D0FC142329437BAD4F73E23FF4EE99</source_id>
-  </Item>
- <Item type="Property" action="edit" where="source_id='E9D0FC142329437BAD4F73E23FF4EE99' and name='state'">
-  <column_alignment>center</column_alignment>
-  <column_width>100</column_width>
-  <data_type>string</data_type>
-  <is_hidden>0</is_hidden>
-  <is_hidden2>0</is_hidden2>
-  <is_indexed>0</is_indexed>
-  <is_keyed>0</is_keyed>
-  <is_multi_valued>0</is_multi_valued>
-  <is_required>0</is_required>
-  <label>Status</label>
-  <name>state</name>
-  <range_inclusive>0</range_inclusive>
-  <readonly>1</readonly>
-  <sort_order>30</sort_order>
-  <source_id keyed_name="Quality Event" type="ItemType" name="Quality Event">E9D0FC142329437BAD4F73E23FF4EE99</source_id>
-  <stored_length>32</stored_length>
-  </Item>
  <Item type="View" action="delete" where="source_id='E9D0FC142329437BAD4F73E23FF4EE99'"></Item>
  <Item type="Form" action="delete" where="name='Quality Event'"></Item></AML>

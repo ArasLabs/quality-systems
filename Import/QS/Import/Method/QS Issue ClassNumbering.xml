@@ -1,4 +1,4 @@
-<AML>
+﻿<AML>
  <Item type="Method" id="A35B64E06DE84AF988A3E4838BDEC84A" action="add">
   <comments>Class Specific numbering of the issues</comments>
   <method_code><![CDATA[// === Method to specify class specific numbering for Issue creation ============

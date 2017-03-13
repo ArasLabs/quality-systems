@@ -1,9 +1,9 @@
-<AML>
+﻿<AML>
  <Item type="Form" id="C07AC0F439A54891829F0BFD87FC74A6" action="add">
-  <height>300</height>
+  <height>400</height>
   <name>Waiver</name>
   <stylesheet><![CDATA[../styles/default.css]]></stylesheet>
-  <width>700</width>
+  <width>680</width>
   <Relationships>
    <Item type="Body" id="5593CBB3F76B4BFDAA558DDEA41B5451" action="add">
     <bg_attach>scroll</bg_attach>
@@ -36,7 +36,7 @@
       <x>254</x>
       <y>114</y>
       <z_index>1</z_index>
-      </Item>
+     </Item>
      <Item type="Field" id="C14456AA992B4401872F0FB951A5BCA1" action="add">
       <bg_color>#FFFFFF</bg_color>
       <border_width>0</border_width>
@@ -60,7 +60,7 @@
       <x>254</x>
       <y>153</y>
       <z_index>1</z_index>
-      </Item>
+     </Item>
      <Item type="Field" id="649BC7351E024FD0A930E05BE82EB506" action="add">
       <bg_color>#FFFFFF</bg_color>
       <border_width>0</border_width>
@@ -85,7 +85,7 @@
       <textarea_rows>10</textarea_rows>
       <x>180</x>
       <y>214</y>
-      </Item>
+     </Item>
      <Item type="Field" id="6933543AB5CD46E99F3B2029C6EF8D2B" action="add">
       <bg_color>#FFFFFF</bg_color>
       <border_width>2</border_width>
@@ -106,7 +106,7 @@
       <tab_stop>1</tab_stop>
       <x>179</x>
       <y>96</y>
-      </Item>
+     </Item>
      <Item type="Field" id="D977219416EC4FA0937CF780754CE4DF" action="add">
       <bg_color>#FFFFFF</bg_color>
       <border_width>0</border_width>
@@ -118,9 +118,8 @@
       <html_code><![CDATA[<script>
 function openISO() {
 // find the Controlled Document
-var DocName = "Q-00001";
 var MyResult=top.aras.createXMLDocument();
-MyResult.loadXML( top.aras.applyItem("<Item type='ISO' action='get' levels='0' select='file_name'><item_number>Q-0101</item_number></Item>"))
+MyResult.loadXML( top.aras.applyItem("<Item type='ISO' action='get' levels='0' select='file_name'><item_number>Q-0218</item_number></Item>"))
 var DocItem=MyResult.selectSingleNode("//Item");
 if (DocItem != null) {
    var FileID = top.aras.getItemProperty(DocItem,"file_name");
@@ -140,7 +139,7 @@ if (DocItem != null) {
       <tab_stop>1</tab_stop>
       <x>33</x>
       <y>126</y>
-      </Item>
+     </Item>
      <Item type="Field" id="783E436F964F4BA0B7E99B117C9A2D61" action="add">
       <bg_color>#FFFFFF</bg_color>
       <field_type>html</field_type>
@@ -172,7 +171,7 @@ if (DocItem != null) {
       <tab_stop>0</tab_stop>
       <x>-1</x>
       <y>-1</y>
-      </Item>
+     </Item>
      <Item type="Field" id="C0322DB76D144C79972139B42835FE8B" action="add">
       <bg_color>#FFFFFF</bg_color>
       <border_width>0</border_width>
@@ -195,7 +194,7 @@ if (DocItem != null) {
       <tab_stop>1</tab_stop>
       <x>181</x>
       <y>11</y>
-      </Item>
+     </Item>
      <Item type="Field" id="863DC7CF08F740E997855A41E9DA4D44" action="add">
       <bg_color>#FFFFFF</bg_color>
       <border_width>0</border_width>
@@ -218,12 +217,12 @@ if (DocItem != null) {
       <tab_stop>1</tab_stop>
       <x>356</x>
       <y>54</y>
-      </Item>
+     </Item>
      <Item type="Field" id="7C39D03E9B114E6C9AB8932B9F4EEB2C" action="add">
       <bg_color>#FFFFFF</bg_color>
       <border_width>0</border_width>
       <field_type>item</field_type>
-      <font_color>#ff0000</font_color>
+      <font_color>#000000</font_color>
       <font_family>arial, helvetica, sans-serif</font_family>
       <font_size>8pt</font_size>
       <font_weight>bold</font_weight>
@@ -238,10 +237,10 @@ if (DocItem != null) {
       <source_id keyed_name="5593CBB3F76B4BFDAA558DDEA41B5451" type="Body">5593CBB3F76B4BFDAA558DDEA41B5451</source_id>
       <tab_index>4</tab_index>
       <tab_stop>1</tab_stop>
-      <text_align>center</text_align>
+      <text_align>left</text_align>
       <x>414</x>
       <y>128</y>
-      </Item>
+     </Item>
      <Item type="Field" id="D9E4EE2CDD694DF89518BA2CBA4B204A" action="add">
       <bg_color>#FFFFFF</bg_color>
       <border_width>0</border_width>
@@ -264,7 +263,7 @@ if (DocItem != null) {
       <tab_stop>1</tab_stop>
       <x>356</x>
       <y>9</y>
-      </Item>
+     </Item>
      <Item type="Field" id="74A5D43CB03B4F57A987423D6159BE2D" action="add">
       <bg_color>#FFFFFF</bg_color>
       <border_width>0</border_width>
@@ -286,7 +285,7 @@ if (DocItem != null) {
       <tab_stop>1</tab_stop>
       <x>180</x>
       <y>52</y>
-      </Item>
+     </Item>
     </Relationships>
    </Item>
   </Relationships>

@@ -1,4 +1,4 @@
-<AML>
+﻿<AML>
  <Item type="Life Cycle Map" id="85C9E1ABA5B149089E9535828E13C34A" action="add">
   <description></description>
   <name>QS Issue</name>
@@ -13,7 +13,7 @@
     <source_id keyed_name="QS Issue" type="Life Cycle Map">85C9E1ABA5B149089E9535828E13C34A</source_id>
     <x>49</x>
     <y>67</y>
-    </Item>
+   </Item>
    <Item type="Life Cycle State" id="FA266EEE14B54D7390812FBC3164A562" action="add">
     <image>../images/icons/20x20/20x15_lifecycle.gif</image>
     <name>Issue Assigned</name>
@@ -23,7 +23,7 @@
     <source_id keyed_name="QS Issue" type="Life Cycle Map">85C9E1ABA5B149089E9535828E13C34A</source_id>
     <x>381</x>
     <y>67</y>
-    </Item>
+   </Item>
    <Item type="Life Cycle State" id="CB9BDEF4D4F54D159DC24EE91ABB7E96" action="add">
     <image>../images/icons/20x20/20x15_lifecycle.gif</image>
     <name>Issue Closed</name>
@@ -33,7 +33,7 @@
     <source_id keyed_name="QS Issue" type="Life Cycle Map">85C9E1ABA5B149089E9535828E13C34A</source_id>
     <x>558</x>
     <y>67</y>
-    </Item>
+   </Item>
    <Item type="Life Cycle State" id="4E367C07782F4E1486615891D8D6D814" action="add">
     <image>../images/icons/20x20/20x15_lifecycle.gif</image>
     <name>Issue Quality Review</name>
@@ -43,7 +43,7 @@
     <source_id keyed_name="QS Issue" type="Life Cycle Map">85C9E1ABA5B149089E9535828E13C34A</source_id>
     <x>216</x>
     <y>67</y>
-    </Item>
+   </Item>
    <Item type="Life Cycle State" id="124276A49003496D8B1D4D784F147066" action="add">
     <image>../images/icons/20x20/20x15_lifecycle.gif</image>
     <name>Issue Rejected</name>
@@ -53,7 +53,7 @@
     <source_id keyed_name="QS Issue" type="Life Cycle Map">85C9E1ABA5B149089E9535828E13C34A</source_id>
     <x>122</x>
     <y>11</y>
-    </Item>
+   </Item>
    <Item type="Life Cycle Transition" id="32D2D71793D04B0390DFEB6CBF7A3302" action="add">
     <from_state keyed_name="Initialize Issue" type="Life Cycle State">F0E37835227F4CBFB4105C81D0F4A8FE</from_state>
     <get_comment>0</get_comment>
@@ -65,7 +65,7 @@
     <sort_order>128</sort_order>
     <source_id keyed_name="QS Issue" type="Life Cycle Map">85C9E1ABA5B149089E9535828E13C34A</source_id>
     <to_state keyed_name="Issue Quality Review" type="Life Cycle State">4E367C07782F4E1486615891D8D6D814</to_state>
-    </Item>
+   </Item>
    <Item type="Life Cycle Transition" id="716B6EA2F67D4228972A371102CFE1FC" action="add">
     <from_state keyed_name="Issue Assigned" type="Life Cycle State">FA266EEE14B54D7390812FBC3164A562</from_state>
     <get_comment>0</get_comment>
@@ -73,7 +73,7 @@
     <sort_order>384</sort_order>
     <source_id keyed_name="QS Issue" type="Life Cycle Map">85C9E1ABA5B149089E9535828E13C34A</source_id>
     <to_state keyed_name="Issue Closed" type="Life Cycle State">CB9BDEF4D4F54D159DC24EE91ABB7E96</to_state>
-    </Item>
+   </Item>
   
    <Item type="Life Cycle Transition" id="B9F3DBCD60D944AB84E9E0B5EBC1E1B1" action="add">
     <from_state keyed_name="Issue Quality Review" type="Life Cycle State">4E367C07782F4E1486615891D8D6D814</from_state>
@@ -82,7 +82,7 @@
     <sort_order>256</sort_order>
     <source_id keyed_name="QS Issue" type="Life Cycle Map">85C9E1ABA5B149089E9535828E13C34A</source_id>
     <to_state keyed_name="Issue Assigned" type="Life Cycle State">FA266EEE14B54D7390812FBC3164A562</to_state>
-    </Item>
+   </Item>
    <Item type="Life Cycle Transition" id="F2A7AB63F0074750A65AF2AC112C794F" action="add">
     <from_state keyed_name="Issue Quality Review" type="Life Cycle State">4E367C07782F4E1486615891D8D6D814</from_state>
     <get_comment>0</get_comment>
@@ -93,7 +93,7 @@
     <to_state keyed_name="Issue Closed" type="Life Cycle State">CB9BDEF4D4F54D159DC24EE91ABB7E96</to_state>
     <x>150</x>
     <y>92</y>
-    </Item>
+   </Item>
    <Item type="Life Cycle Transition" id="7C883B6484014462A62A4CCF5E3E3E30" action="add">
     <from_state keyed_name="Issue Quality Review" type="Life Cycle State">4E367C07782F4E1486615891D8D6D814</from_state>
     <get_comment>0</get_comment>
@@ -104,6 +104,6 @@
     <to_state keyed_name="Issue Rejected" type="Life Cycle State">124276A49003496D8B1D4D784F147066</to_state>
     <x>-47</x>
     <y>-59</y>
-    </Item></Relationships>
+   </Item></Relationships>
  </Item>
 </AML>

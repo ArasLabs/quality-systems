@@ -1,4 +1,4 @@
-<AML>
+﻿<AML>
  <Item type="Form" id="DA61AEF3E9C04907B40D60B1D6C786B7" action="add">
   <height>650</height>
   <name>QS Issue - Internal Class</name>
@@ -34,7 +34,7 @@
       <x>168</x>
       <y>7</y>
       <z_index>0</z_index>
-      </Item>
+     </Item>
      <Item type="Field" id="84BA61346544439C8D296F811B561D69" action="add">
       <bg_color>#FFFFFF</bg_color>
       <border_width>2</border_width>
@@ -55,7 +55,7 @@
       <tab_stop>1</tab_stop>
       <x>169</x>
       <y>273</y>
-      </Item>
+     </Item>
      <Item type="Field" id="4A7F58B2248947D7A3809B49246277D9" action="add">
       <bg_color>#FFFFFF</bg_color>
       <border_width>2</border_width>
@@ -76,7 +76,7 @@
       <tab_stop>1</tab_stop>
       <x>170</x>
       <y>370</y>
-      </Item>
+     </Item>
      <Item type="Field" id="C746E33FAEAF4FBAB642C7AF69E962AD" action="add">
       <bg_color>#FFFFFF</bg_color>
       <border_width>0</border_width>
@@ -135,7 +135,7 @@
       <x>497</x>
       <y>58</y>
       <z_index>2</z_index>
-      </Item>
+     </Item>
      <Item type="Field" id="7D747778F8FD48D5BE4BB103F646A9C0" action="add">
       <bg_color>#FFFFFF</bg_color>
       <border_width>0</border_width>
@@ -159,7 +159,7 @@
       <x>412</x>
       <y>288</y>
       <z_index>2</z_index>
-      </Item>
+     </Item>
      <Item type="Field" id="3265758F4A13497EB2DB9AE045C17E0C" action="add">
       <bg_color>#FFFFFF</bg_color>
       <border_width>0</border_width>
@@ -182,7 +182,7 @@
       <tab_stop>1</tab_stop>
       <x>184</x>
       <y>393</y>
-      </Item>
+     </Item>
      <Item type="Field" id="63DA202E8C3145A987A2F1BA0379EC5F" action="add">
       <bg_color>#FFFFFF</bg_color>
       <border_width>0</border_width>
@@ -205,7 +205,7 @@
       <tab_stop>1</tab_stop>
       <x>569</x>
       <y>390</y>
-      </Item>
+     </Item>
      <Item type="Field" id="9C10C1D464E744E8A15D92F84C2A690F" action="add">
       <bg_color>beige  </bg_color>
       <border_width>0</border_width>
@@ -228,7 +228,7 @@
       <x>338</x>
       <y>57</y>
       <z_index>2</z_index>
-      </Item>
+     </Item>
      <Item type="Field" id="A3AC432891DB4C6E96C57DACCFA5E34A" action="add">
       <bg_color>beige  </bg_color>
       <border_width>0</border_width>
@@ -251,7 +251,7 @@
       <x>640</x>
       <y>20</y>
       <z_index>2</z_index>
-      </Item>
+     </Item>
      <Item type="Field" id="5788046996ED41AAA6530E86711025F2" action="add">
       <bg_color>#FFFFFF</bg_color>
       <border_width>0</border_width>
@@ -275,7 +275,7 @@
       <x>182</x>
       <y>288</y>
       <z_index>2</z_index>
-      </Item>
+     </Item>
      <Item type="Field" id="48E2074BDC5B4E3B878B4C4282584442" action="add">
       <bg_color>#ffffff</bg_color>
       <border_width>0</border_width>
@@ -301,30 +301,7 @@
       <x>179</x>
       <y>142</y>
       <z_index>2</z_index>
-      </Item>
-     <Item type="Field" id="208E3A364DBF4ECB86AD87BD429C6CC6" action="add">
-      <bg_color>#FFFFFF</bg_color>
-      <border_width>0</border_width>
-      <field_type>text</field_type>
-      <font_color>#000000</font_color>
-      <font_family>arial, helvetica, sans-serif</font_family>
-      <font_size>8pt</font_size>
-      <font_weight>bold</font_weight>
-      <is_disabled>0</is_disabled>
-      <is_visible>0</is_visible>
-      <label>CAPA Process </label>
-      <label_position>top</label_position>
-      <list_no_blank>0</list_no_blank>
-      <name>iqt</name>
-      <positioning>absolute</positioning>
-      <propertytype_id keyed_name="iqt" type="Property">F8C55D6F79AA4112ACD36DE56CF1D233</propertytype_id>
-      <sort_order>2560</sort_order>
-      <source_id keyed_name="854678624F8948ECBC270E5745DB8AD0" type="Body">854678624F8948ECBC270E5745DB8AD0</source_id>
-      <tab_index>3458</tab_index>
-      <tab_stop>1</tab_stop>
-      <x>15</x>
-      <y>264</y>
-      </Item>
+     </Item>
      <Item type="Field" id="916793CDB9BE4850926046F494892752" action="add">
       <bg_color>#FFFFFF</bg_color>
       <border_width>0</border_width>
@@ -336,9 +313,8 @@
       <html_code><![CDATA[<script>
 function openISO() {
 // find the Controlled Document
-var DocName = "Q-00001";
 var MyResult=top.aras.createXMLDocument();
-MyResult.loadXML( top.aras.applyItem("<Item type='ISO' action='get' levels='0' select='file_name'><item_number>Q-0101</item_number></Item>"))
+MyResult.loadXML( top.aras.applyItem("<Item type='ISO' action='get' levels='0' select='file_name'><item_number>Q-0218</item_number></Item>"))
 var DocItem=MyResult.selectSingleNode("//Item");
 if (DocItem != null) {
    var FileID = top.aras.getItemProperty(DocItem,"file_name");
@@ -359,7 +335,7 @@ if (DocItem != null) {
       <x>60</x>
       <y>130</y>
       <z_index>1</z_index>
-      </Item>
+     </Item>
      <Item type="Field" id="6B0DDA9366334D97BC8383F75036D1AC" action="add">
       <bg_color>#ffffff</bg_color>
       <border_width>0</border_width>
@@ -383,7 +359,29 @@ if (DocItem != null) {
       <x>177</x>
       <y>55</y>
       <z_index>2</z_index>
-      </Item>
+     </Item>
+     <Item type="Field" id="0364B21A04EC4E24842171D12ADB1281" action="add">
+      <bg_color>#FFFFFF</bg_color>
+      <border_width>0</border_width>
+      <field_type>item</field_type>
+      <font_color>#000000</font_color>
+      <font_family>arial, helvetica, sans-serif</font_family>
+      <font_size>8pt</font_size>
+      <font_weight>bold</font_weight>
+      <is_disabled>0</is_disabled>
+      <is_visible>1</is_visible>
+      <label>Problem Owner</label>
+      <label_position>top</label_position>
+      <list_no_blank>0</list_no_blank>
+      <name>owned_by_id</name>
+      <positioning>absolute</positioning>
+      <sort_order>7424</sort_order>
+      <source_id keyed_name="854678624F8948ECBC270E5745DB8AD0" type="Body">854678624F8948ECBC270E5745DB8AD0</source_id>
+      <tab_index>220</tab_index>
+      <tab_stop>1</tab_stop>
+      <x>440</x>
+      <y>193</y>
+     </Item>
      <Item type="Field" id="2E528CDCEC314C2692E863EEB1590C26" action="add">
       <bg_color>#FFFFFF</bg_color>
       <border_width>0</border_width>
@@ -407,7 +405,7 @@ if (DocItem != null) {
       <x>177</x>
       <y>97</y>
       <z_index>2</z_index>
-      </Item>
+     </Item>
      <Item type="Field" id="5A801455F3484F88AD25385D94F64DE6" action="add">
       <bg_color>#ffffff</bg_color>
       <border_width>0</border_width>
@@ -433,7 +431,7 @@ if (DocItem != null) {
       <x>337</x>
       <y>96</y>
       <z_index>2</z_index>
-      </Item>
+     </Item>
      <Item type="Field" id="925465FFD3CC4610A29446559D13F443" action="add">
       <bg_color>#FFFFFF</bg_color>
       <border_width>0</border_width>
@@ -457,7 +455,7 @@ if (DocItem != null) {
       <x>337</x>
       <y>17</y>
       <z_index>2</z_index>
-      </Item>
+     </Item>
      <Item type="Field" id="A2E78202423E4489B630ED76A8689DDC" action="add">
       <bg_color>#FFFFFF</bg_color>
       <border_width>0</border_width>
@@ -481,7 +479,7 @@ if (DocItem != null) {
       <x>182</x>
       <y>200</y>
       <z_index>2</z_index>
-      </Item>
+     </Item>
      <Item type="Field" id="AFB67278D25D4E028AFDD60347B55108" action="add">
       <bg_color>#FFFFFF</bg_color>
       <border_width>0</border_width>
@@ -506,7 +504,7 @@ if (DocItem != null) {
       <x>655</x>
       <y>289</y>
       <z_index>2</z_index>
-      </Item>
+     </Item>
      <Item type="Field" id="5A154395026F4CC7AC0C3395F7871A17" action="add">
       <bg_color>#FFFFFF</bg_color>
       <border_width>0</border_width>
@@ -529,7 +527,7 @@ if (DocItem != null) {
       <x>499</x>
       <y>19</y>
       <z_index>2</z_index>
-      </Item>
+     </Item>
      <Item type="Field" id="56B8EABF5BA34D8484E5BA42E80F0A82" action="add">
       <bg_color>#FFFFFF</bg_color>
       <border_width>0</border_width>
@@ -550,7 +548,7 @@ if (DocItem != null) {
       <tab_stop>1</tab_stop>
       <x>19</x>
       <y>13</y>
-      </Item>
+     </Item>
      <Item type="Field" id="9C94AA23C73B430EA0F10DF031FD0055" action="add">
       <bg_color>#FFFFFF</bg_color>
       <border_width>0</border_width>
@@ -571,7 +569,7 @@ if (DocItem != null) {
       <tab_stop>1</tab_stop>
       <x>33</x>
       <y>46</y>
-      </Item>
+     </Item>
     </Relationships>
    </Item>
   </Relationships>
@@ -596,6 +594,14 @@ if (DocItem != null) {
   <propertytype_id>
    <Item type="Property" action="get" select="id">
     <name>created_on</name>
+    <source_id type="ItemType" keyed_name="QS Issue">09335878CD6A49C7B33E626A6C2B0040</source_id>
+   </Item>
+  </propertytype_id>
+ </Item>
+ <Item type="Field" id="0364B21A04EC4E24842171D12ADB1281" action="edit">
+  <propertytype_id>
+   <Item type="Property" action="get" select="id">
+    <name>owned_by_id</name>
     <source_id type="ItemType" keyed_name="QS Issue">09335878CD6A49C7B33E626A6C2B0040</source_id>
    </Item>
   </propertytype_id>

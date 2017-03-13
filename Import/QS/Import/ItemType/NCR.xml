@@ -1,4 +1,4 @@
-<AML>
+﻿<AML>
  <Item type="ItemType" id="58D74CF0E0934E33850CC3CB28361FD9" action="add">
   <allow_private_permission>1</allow_private_permission>
   <auto_search>1</auto_search>
@@ -20,26 +20,7 @@
   <structure_view>tab view</structure_view>
   <unlock_on_logout>0</unlock_on_logout>
   <use_src_access>0</use_src_access>
-  <Relationships><Item type="Property" id="4C96E1EBAF794C658F92F73026607A66" action="add">
-    <column_alignment>left</column_alignment>
-    <column_width>100</column_width>
-    <data_source keyed_name="Part" type="ItemType" name="Part">4F1AC04A2B484F3ABA4E20DB63808A88</data_source>
-    <data_type>item</data_type>
-    <is_hidden>0</is_hidden>
-    <is_hidden2>0</is_hidden2>
-    <is_indexed>0</is_indexed>
-    <is_keyed>0</is_keyed>
-    <is_multi_valued>0</is_multi_valued>
-    <is_required>0</is_required>
-    <item_behavior>float</item_behavior>
-    <label>Part Number</label>
-    <name>part</name>
-    <range_inclusive>0</range_inclusive>
-    <readonly>0</readonly>
-    <sort_order>10</sort_order>
-    <source_id keyed_name="NCR" type="ItemType" name="NCR">58D74CF0E0934E33850CC3CB28361FD9</source_id>
-    <stored_length>40</stored_length>
-    </Item>
+  <Relationships>
    <Item type="Allowed Permission" id="3D7439D8C4214CB2807497157AD8E380" action="add">
     <is_default>1</is_default>
     <related_id keyed_name="NCR" type="Permission">B61876DFBB6F43B591DFEF5BCB8CA609</related_id>
@@ -89,7 +70,7 @@
     <readonly>0</readonly>
     <sort_order>5406</sort_order>
     <source_id keyed_name="NCR" type="ItemType" name="NCR">58D74CF0E0934E33850CC3CB28361FD9</source_id>
-    </Item>
+   </Item>
    <Item type="Property" id="D175ADB221A64E979299CF2F5DE5FC1D" action="add">
     <column_alignment>left</column_alignment>
     <column_width>250</column_width>
@@ -107,7 +88,7 @@
     <sort_order>25</sort_order>
     <source_id keyed_name="NCR" type="ItemType" name="NCR">58D74CF0E0934E33850CC3CB28361FD9</source_id>
     <stored_length>250</stored_length>
-    </Item>
+   </Item>
    <Item type="Property" id="1669DD6F2B1D4488A9AED7FE7566944D" action="add">
     <column_alignment>left</column_alignment>
     <column_width>250</column_width>
@@ -124,7 +105,7 @@
     <readonly>0</readonly>
     <sort_order>25</sort_order>
     <source_id keyed_name="NCR" type="ItemType" name="NCR">58D74CF0E0934E33850CC3CB28361FD9</source_id>
-    </Item>
+   </Item>
    <Item type="Property" id="9C973717C51C4075A921CFD5D5D0470D" action="add">
     <column_alignment>left</column_alignment>
     <column_width>120</column_width>
@@ -142,7 +123,7 @@
     <readonly>0</readonly>
     <sort_order>20</sort_order>
     <source_id keyed_name="NCR" type="ItemType" name="NCR">58D74CF0E0934E33850CC3CB28361FD9</source_id>
-    </Item>
+   </Item>
    <Item type="Property" id="8450D5F3CC1F433F8000EF3949CEBB86" action="add">
     <column_alignment>left</column_alignment>
     <column_width>80</column_width>
@@ -161,7 +142,7 @@
     <readonly>0</readonly>
     <sort_order>5</sort_order>
     <source_id keyed_name="NCR" type="ItemType" name="NCR">58D74CF0E0934E33850CC3CB28361FD9</source_id>
-    </Item>
+   </Item>
    <Item type="Property" id="2E9442B203DB4EFFB442A32B76BD53A5" action="add">
     <column_alignment>left</column_alignment>
     <column_width>80</column_width>
@@ -179,8 +160,27 @@
     <readonly>0</readonly>
     <sort_order>30</sort_order>
     <source_id keyed_name="NCR" type="ItemType" name="NCR">58D74CF0E0934E33850CC3CB28361FD9</source_id>
-    </Item>
-   
+   </Item>
+   <Item type="Property" id="4C96E1EBAF794C658F92F73026607A66" action="add">
+    <column_alignment>left</column_alignment>
+    <column_width>100</column_width>
+    <data_source keyed_name="Part" type="ItemType" name="Part">4F1AC04A2B484F3ABA4E20DB63808A88</data_source>
+    <data_type>item</data_type>
+    <is_hidden>0</is_hidden>
+    <is_hidden2>0</is_hidden2>
+    <is_indexed>0</is_indexed>
+    <is_keyed>0</is_keyed>
+    <is_multi_valued>0</is_multi_valued>
+    <is_required>0</is_required>
+    <item_behavior>float</item_behavior>
+    <label>Part Number</label>
+    <name>part</name>
+    <range_inclusive>0</range_inclusive>
+    <readonly>0</readonly>
+    <sort_order>10</sort_order>
+    <source_id keyed_name="NCR" type="ItemType" name="NCR">58D74CF0E0934E33850CC3CB28361FD9</source_id>
+    <stored_length>40</stored_length>
+   </Item>
    <Item type="Property" id="D2F12531997F427D9C53E0CE12A6033E" action="add">
     <column_alignment>left</column_alignment>
     <column_width>200</column_width>
@@ -193,7 +193,7 @@
     <data_type>foreign</data_type>
     <foreign_property>
      <Item type="Property" action="get" select="id">
-      <keyed_name>description</keyed_name>
+      <keyed_name>name</keyed_name>
       <source_id>
        <Item type="ItemType" action="get" select="id">
         <name>Part</name>
@@ -213,7 +213,7 @@
     <readonly>0</readonly>
     <sort_order>15</sort_order>
     <source_id keyed_name="NCR" type="ItemType" name="NCR">58D74CF0E0934E33850CC3CB28361FD9</source_id>
-    </Item>
+   </Item>
    <Item type="Property" id="3C701DFE7B284D2CBB7B162F8937AC96" action="add">
     <column_alignment>left</column_alignment>
     <data_source keyed_name="Location" type="ItemType" name="Location">E38F575C956649148C57C5F19FC282C7</data_source>
@@ -231,7 +231,7 @@
     <readonly>0</readonly>
     <sort_order>5278</sort_order>
     <source_id keyed_name="NCR" type="ItemType" name="NCR">58D74CF0E0934E33850CC3CB28361FD9</source_id>
-    </Item>
+   </Item>
    <Item type="Property" id="E3CE7DFDE118475B960145F19493C1C2" action="add">
     <column_alignment>left</column_alignment>
     <column_width>80</column_width>
@@ -248,7 +248,7 @@
     <readonly>0</readonly>
     <sort_order>35</sort_order>
     <source_id keyed_name="NCR" type="ItemType" name="NCR">58D74CF0E0934E33850CC3CB28361FD9</source_id>
-    </Item>
+   </Item>
    <Item type="Property" id="EB5E1466950947FEA3CD7BCE533EAE7B" action="add">
     <column_alignment>left</column_alignment>
     <column_width>80</column_width>
@@ -265,7 +265,7 @@
     <readonly>0</readonly>
     <sort_order>40</sort_order>
     <source_id keyed_name="NCR" type="ItemType" name="NCR">58D74CF0E0934E33850CC3CB28361FD9</source_id>
-    </Item>
+   </Item>
    <Item type="Property" id="ABC426678690426AB7930E3CE3D169BD" action="add">
     <column_alignment>left</column_alignment>
     <data_source keyed_name="Vendor" type="ItemType" name="Vendor">9F23A02D1E464F44A3A93A1EFB732B5C</data_source>
@@ -283,7 +283,7 @@
     <readonly>0</readonly>
     <sort_order>2206</sort_order>
     <source_id keyed_name="NCR" type="ItemType" name="NCR">58D74CF0E0934E33850CC3CB28361FD9</source_id>
-    </Item>
+   </Item>
    <Item type="TOC Access" id="D8C199F989FF4657A7F68D254B2BB0ED" action="add">
     <category>Quality</category>
     <related_id keyed_name="World" type="Identity">
@@ -308,41 +308,45 @@
    </Item>
   </Relationships>
  </Item>
- <Item type="Property" action="edit" where="source_id='58D74CF0E0934E33850CC3CB28361FD9' and name='owned_by_id'">
-  <column_alignment>left</column_alignment>
-  <column_width>100</column_width>
-  <data_source keyed_name="Identity" type="ItemType" name="Identity">E582AB17663F4EF28460015B2BE9E094</data_source>
-  <data_type>item</data_type>
-  <is_hidden>0</is_hidden>
-  <is_hidden2>0</is_hidden2>
-  <is_indexed>0</is_indexed>
-  <is_keyed>0</is_keyed>
-  <is_multi_valued>0</is_multi_valued>
-  <is_required>0</is_required>
-  <item_behavior>float</item_behavior>
-  <label>Responsible</label>
-  <name>owned_by_id</name>
-  <range_inclusive>0</range_inclusive>
-  <readonly>0</readonly>
-  <sort_order>9</sort_order>
-  <source_id keyed_name="NCR" type="ItemType" name="NCR">58D74CF0E0934E33850CC3CB28361FD9</source_id>
-  </Item>
- <Item type="Property" action="edit" where="source_id='58D74CF0E0934E33850CC3CB28361FD9' and name='state'">
-  <column_alignment>left</column_alignment>
-  <column_width>90</column_width>
-  <data_type>string</data_type>
-  <is_hidden>0</is_hidden>
-  <is_hidden2>0</is_hidden2>
-  <is_indexed>0</is_indexed>
-  <is_keyed>0</is_keyed>
-  <is_multi_valued>0</is_multi_valued>
-  <is_required>0</is_required>
-  <label>Status</label>
-  <name>state</name>
-  <range_inclusive>0</range_inclusive>
-  <readonly>1</readonly>
-  <sort_order>6</sort_order>
-  <source_id keyed_name="NCR" type="ItemType" name="NCR">58D74CF0E0934E33850CC3CB28361FD9</source_id>
-  <stored_length>32</stored_length>
-  </Item>
+ <Item type="ItemType" id="58D74CF0E0934E33850CC3CB28361FD9" action="edit">
+  <Relationships>
+   <Item type="Property" action="edit" where="source_id='58D74CF0E0934E33850CC3CB28361FD9' and name='owned_by_id'">
+    <column_alignment>left</column_alignment>
+    <column_width>100</column_width>
+    <data_source keyed_name="Identity" type="ItemType" name="Identity">E582AB17663F4EF28460015B2BE9E094</data_source>
+    <data_type>item</data_type>
+    <is_hidden>0</is_hidden>
+    <is_hidden2>0</is_hidden2>
+    <is_indexed>0</is_indexed>
+    <is_keyed>0</is_keyed>
+    <is_multi_valued>0</is_multi_valued>
+    <is_required>0</is_required>
+    <item_behavior>float</item_behavior>
+    <label>Responsible</label>
+    <name>owned_by_id</name>
+    <range_inclusive>0</range_inclusive>
+    <readonly>0</readonly>
+    <sort_order>9</sort_order>
+    <source_id keyed_name="NCR" type="ItemType" name="NCR">58D74CF0E0934E33850CC3CB28361FD9</source_id>
+   </Item>
+   <Item type="Property" action="edit" where="source_id='58D74CF0E0934E33850CC3CB28361FD9' and name='state'">
+    <column_alignment>left</column_alignment>
+    <column_width>90</column_width>
+    <data_type>string</data_type>
+    <is_hidden>0</is_hidden>
+    <is_hidden2>0</is_hidden2>
+    <is_indexed>0</is_indexed>
+    <is_keyed>0</is_keyed>
+    <is_multi_valued>0</is_multi_valued>
+    <is_required>0</is_required>
+    <label>Status</label>
+    <name>state</name>
+    <range_inclusive>0</range_inclusive>
+    <readonly>1</readonly>
+    <sort_order>6</sort_order>
+    <source_id keyed_name="NCR" type="ItemType" name="NCR">58D74CF0E0934E33850CC3CB28361FD9</source_id>
+    <stored_length>32</stored_length>
+   </Item>
+  </Relationships>
+ </Item>
 </AML>

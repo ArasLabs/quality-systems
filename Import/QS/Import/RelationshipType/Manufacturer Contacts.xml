@@ -1,4 +1,4 @@
-<AML>
+﻿<AML>
  <Item type="RelationshipType" id="93A83AA8C5E245F7920398CF6CD254DB" action="add" dependencyLevel="0">
   <auto_search>1</auto_search>
   <behavior>float</behavior>
@@ -36,7 +36,7 @@
   </relationship_id>
   <sort_order>128</sort_order>
   <source_id keyed_name="Manufacturer" type="ItemType" name="Manufacturer">3E71E373FC2940B288760C915120AABE</source_id>
-  </Item>
+ </Item>
  <Item type="View" action="delete" where="source_id='EF89130145BC4DCFBB095514F27253CE'"></Item>
  <Item type="Form" action="delete" where="name='Manufacturer Contacts'"></Item>
 </AML>

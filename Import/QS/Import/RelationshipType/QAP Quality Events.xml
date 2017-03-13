@@ -1,4 +1,4 @@
-<AML>
+﻿<AML>
  <Item type="RelationshipType" id="DBE643220F6D4CF6A1DA2FF5EA5334F7" action="add" dependencyLevel="0">
   <auto_search>1</auto_search>
   <behavior>float</behavior>
@@ -13,7 +13,7 @@
   <new_show_related>1</new_show_related>
   <related_id keyed_name="Quality Event" type="ItemType" name="ItemType">E9D0FC142329437BAD4F73E23FF4EE99</related_id>
   <related_notnull>1</related_notnull>
-  <related_option>2</related_option>
+  <related_option>0</related_option>
   <relationship_id keyed_name="QAP Quality Events" type="ItemType" name="QAP Quality Events">
    <Item type="ItemType" id="C187A69047094A8084736FE49DAA2D79" action="add">
     <allow_private_permission>1</allow_private_permission>

@@ -1,4 +1,4 @@
-<AML>
+﻿<AML>
  <Item type="Method" id="7BD30C92CC10427785D7430065DE760B" action="add">
   <comments>Auto populate the part number from the QAP for to the items in the related Analysis items</comments>
   <method_code><![CDATA[var xpath = "//Item/Relationships/Item/related_id/Item[@id='" + relatedID + "']";

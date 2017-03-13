@@ -1,4 +1,4 @@
-<AML>
+﻿<AML>
  <Item type="Method" id="CF25D749858A458094DBA303225C3998" action="add">
   <method_code><![CDATA[var myItem = this;
 var param = {aras:top.aras,itemtypeName:'QAP'};

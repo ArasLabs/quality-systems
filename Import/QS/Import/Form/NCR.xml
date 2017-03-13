@@ -1,6 +1,6 @@
-<AML>
+﻿<AML>
  <Item type="Form" id="237D5C7BDDE249CFA39536BB11552141" action="add">
-  <height>280</height>
+  <height>400</height>
   <name>NCR</name>
   <stylesheet><![CDATA[../styles/default.css]]></stylesheet>
   <width>750</width>
@@ -8,7 +8,7 @@
    <Item type="Body" id="6A03D7BD250E4E13BD5DEFC38D490E31" action="add">
     <bg_attach>scroll</bg_attach>
     <bg_color>#FFFFFF</bg_color>
-    <bg_image>../images/Backgrounds/pattern-3.gif</bg_image>
+    <bg_image>../images/Backgrounds/wvleft.gif</bg_image>
     <bg_repeat>no-repeat</bg_repeat>
     <sort_order>128</sort_order>
     <source_id keyed_name="NCR" type="Form">237D5C7BDDE249CFA39536BB11552141</source_id>
@@ -35,7 +35,7 @@
       <tab_stop>1</tab_stop>
       <x>184</x>
       <y>108</y>
-      </Item>
+     </Item>
      <Item type="Field" id="C583C0FFA4174977B7EE6057459DF3E0" action="add">
       <bg_color>#FFFFFF</bg_color>
       <border_width>0</border_width>
@@ -60,7 +60,7 @@
       <textarea_rows>6</textarea_rows>
       <x>337</x>
       <y>159</y>
-      </Item>
+     </Item>
      <Item type="Field" id="A1CE70DE0D044EF39E1DE2E8B56FFF42" action="add">
       <bg_color>#FFFFFF</bg_color>
       <border_width>0</border_width>
@@ -81,9 +81,9 @@
       <source_id keyed_name="6A03D7BD250E4E13BD5DEFC38D490E31" type="Body">6A03D7BD250E4E13BD5DEFC38D490E31</source_id>
       <tab_index>20</tab_index>
       <tab_stop>1</tab_stop>
-      <x>388</x>
-      <y>109</y>
-      </Item>
+      <x>394</x>
+      <y>107</y>
+     </Item>
      <Item type="Field" id="70A43EB0C45848B29000042C4BA7D8C8" action="add">
       <bg_color>#FFFFFF</bg_color>
       <border_width>0</border_width>
@@ -135,7 +135,7 @@ document.all.modified_on.innerHTML = '<b>' +top.aras.getItemProperty(document.it
       <tab_stop>1</tab_stop>
       <x>4</x>
       <y>143</y>
-      </Item>
+     </Item>
      <Item type="Field" id="517C694834874D8C823F689ED85BE294" action="add">
       <bg_color>#FFFFFF</bg_color>
       <border_width>0</border_width>
@@ -147,16 +147,15 @@ document.all.modified_on.innerHTML = '<b>' +top.aras.getItemProperty(document.it
       <html_code><![CDATA[<font size='5'><b>Non-Conformance Report</b></font>]]></html_code>
       <is_disabled>0</is_disabled>
       <is_visible>1</is_visible>
-      <label_position>top</label_position>
       <list_no_blank>0</list_no_blank>
       <name>html1</name>
       <positioning>absolute</positioning>
       <sort_order>1408</sort_order>
       <source_id keyed_name="6A03D7BD250E4E13BD5DEFC38D490E31" type="Body">6A03D7BD250E4E13BD5DEFC38D490E31</source_id>
       <tab_stop>1</tab_stop>
-      <x>190</x>
-      <y>0</y>
-      </Item>
+      <x>1</x>
+      <y>9</y>
+     </Item>
      <Item type="Field" id="DCB2B6D5DDEE49FDAF5956720BEF0EE6" action="add">
       <bg_color>#FFFFFF</bg_color>
       <border_width>0</border_width>
@@ -172,16 +171,15 @@ document.write(top.aras.getItemProperty(document.item,"state"));
 </p>]]></html_code>
       <is_disabled>0</is_disabled>
       <is_visible>1</is_visible>
-      <label_position>top</label_position>
       <list_no_blank>0</list_no_blank>
       <name>html2</name>
       <positioning>absolute</positioning>
       <sort_order>1536</sort_order>
       <source_id keyed_name="6A03D7BD250E4E13BD5DEFC38D490E31" type="Body">6A03D7BD250E4E13BD5DEFC38D490E31</source_id>
       <tab_stop>1</tab_stop>
-      <x>514</x>
-      <y>1</y>
-      </Item>
+      <x>519</x>
+      <y>0</y>
+     </Item>
      <Item type="Field" id="B2E652C2AD0245CDA44B58152572AB74" action="add">
       <bg_color>#FFFFFF</bg_color>
       <border_width>0</border_width>
@@ -193,9 +191,8 @@ document.write(top.aras.getItemProperty(document.item,"state"));
       <html_code><![CDATA[<script>
 function openISO() {
 // find the Controlled Document
-var DocName = "Q-00001";
 var MyResult=top.aras.createXMLDocument();
-MyResult.loadXML( top.aras.applyItem("<Item type='ISO' action='get' levels='0' select='file_name'><item_number>Q-0101</item_number></Item>"))
+MyResult.loadXML( top.aras.applyItem("<Item type='ISO' action='get' levels='0' select='file_name'><item_number>Q-0218</item_number></Item>"))
 var DocItem=MyResult.selectSingleNode("//Item");
 if (DocItem != null) {
    var FileID = top.aras.getItemProperty(DocItem,"file_name");
@@ -213,10 +210,10 @@ if (DocItem != null) {
       <sort_order>2048</sort_order>
       <source_id keyed_name="6A03D7BD250E4E13BD5DEFC38D490E31" type="Body">6A03D7BD250E4E13BD5DEFC38D490E31</source_id>
       <tab_stop>1</tab_stop>
-      <x>60</x>
-      <y>270</y>
+      <x>672</x>
+      <y>26</y>
       <z_index>1</z_index>
-      </Item>
+     </Item>
      <Item type="Field" id="EADF0E9718FB426693F0A775CB524C84" action="add">
       <bg_color>#FFFFFF</bg_color>
       <border_width>0</border_width>
@@ -240,10 +237,9 @@ if (DocItem != null) {
       <tab_stop>1</tab_stop>
       <x>187</x>
       <y>175</y>
-      </Item>
+     </Item>
      <Item type="Field" id="5AA861EFF0ED4B84B02BF2698F489D9E" action="add">
       <bg_color>#FFFFFF</bg_color>
-      <border_width>2</border_width>
       <field_type>text</field_type>
       <font_color>#000000</font_color>
       <font_family>arial, helvetica, sans-serif</font_family>
@@ -261,9 +257,9 @@ if (DocItem != null) {
       <source_id keyed_name="6A03D7BD250E4E13BD5DEFC38D490E31" type="Body">6A03D7BD250E4E13BD5DEFC38D490E31</source_id>
       <tab_index>5</tab_index>
       <tab_stop>1</tab_stop>
-      <x>3</x>
-      <y>105</y>
-      </Item>
+      <x>46</x>
+      <y>62</y>
+     </Item>
      <Item type="Field" id="03E0B7E976E24491933C2902B5910AC9" action="add">
       <bg_color>#FFFFFF</bg_color>
       <border_width>0</border_width>
@@ -285,9 +281,9 @@ if (DocItem != null) {
       <source_id keyed_name="6A03D7BD250E4E13BD5DEFC38D490E31" type="Body">6A03D7BD250E4E13BD5DEFC38D490E31</source_id>
       <tab_index>15</tab_index>
       <tab_stop>1</tab_stop>
-      <x>361</x>
-      <y>63</y>
-      </Item>
+      <x>392</x>
+      <y>61</y>
+     </Item>
      <Item type="Field" id="2C353B71D7254B41A3A2A1EB44AC187E" action="add">
       <bg_color>#FFFFFF</bg_color>
       <border_width>0</border_width>
@@ -310,11 +306,11 @@ if (DocItem != null) {
       <tab_stop>1</tab_stop>
       <x>182</x>
       <y>65</y>
-      </Item>
+     </Item>
      <Item type="Field" id="96A71B0D85E44AC8AD54A910C518A3DC" action="add">
       <bg_color>#FFFFFF</bg_color>
       <border_width>0</border_width>
-      <display_length>15</display_length>
+      <display_length>5</display_length>
       <field_type>text</field_type>
       <font_color>#000000</font_color>
       <font_family>arial, helvetica, sans-serif</font_family>
@@ -332,13 +328,14 @@ if (DocItem != null) {
       <source_id keyed_name="6A03D7BD250E4E13BD5DEFC38D490E31" type="Body">6A03D7BD250E4E13BD5DEFC38D490E31</source_id>
       <tab_index>35</tab_index>
       <tab_stop>1</tab_stop>
-      <x>480</x>
-      <y>106</y>
-      </Item>
+      <text_align>center</text_align>
+      <x>517</x>
+      <y>108</y>
+     </Item>
      <Item type="Field" id="52FD4D2345BC41F1BD7E58A3D9B112ED" action="add">
       <bg_color>#FFFFFF</bg_color>
       <border_width>0</border_width>
-      <display_length>15</display_length>
+      <display_length>5</display_length>
       <field_type>text</field_type>
       <font_color>#000000</font_color>
       <font_family>arial, helvetica, sans-serif</font_family>
@@ -356,9 +353,10 @@ if (DocItem != null) {
       <source_id keyed_name="6A03D7BD250E4E13BD5DEFC38D490E31" type="Body">6A03D7BD250E4E13BD5DEFC38D490E31</source_id>
       <tab_index>40</tab_index>
       <tab_stop>1</tab_stop>
-      <x>589</x>
-      <y>106</y>
-      </Item>
+      <text_align>center</text_align>
+      <x>639</x>
+      <y>108</y>
+     </Item>
      <Item type="Field" id="165587FEA4944F438E24759221530D67" action="add">
       <bg_color>#FFFFFF</bg_color>
       <border_width>0</border_width>
@@ -381,7 +379,7 @@ if (DocItem != null) {
       <tab_stop>1</tab_stop>
       <x>186</x>
       <y>222</y>
-      </Item>
+     </Item>
     </Relationships>
    </Item>
   </Relationships>

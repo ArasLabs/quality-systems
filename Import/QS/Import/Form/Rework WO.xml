@@ -1,6 +1,6 @@
-<AML>
+﻿<AML>
  <Item type="Form" id="B09CDBA3D9024DF399EDA17FE35F69B5" action="add">
-  <height>280</height>
+  <height>320</height>
   <name>Rework WO</name>
   <stylesheet><![CDATA[../styles/default.css]]></stylesheet>
   <width>750</width>
@@ -34,10 +34,10 @@
       <tab_index>10</tab_index>
       <tab_stop>1</tab_stop>
       <textarea_cols>80</textarea_cols>
-      <textarea_rows>10</textarea_rows>
+      <textarea_rows>7</textarea_rows>
       <x>191</x>
       <y>95</y>
-      </Item>
+     </Item>
      <Item type="Field" id="AC10511103304A20BF6726FF5F965453" action="add">
       <bg_color>#FFFFFF</bg_color>
       <border_width>0</border_width>
@@ -49,9 +49,8 @@
       <html_code><![CDATA[<script>
 function openISO() {
 // find the Controlled Document
-var DocName = "Q-00001";
 var MyResult=top.aras.createXMLDocument();
-MyResult.loadXML( top.aras.applyItem("<Item type='ISO' action='get' levels='0' select='file_name'><item_number>Q-0101</item_number></Item>"))
+MyResult.loadXML( top.aras.applyItem("<Item type='ISO' action='get' levels='0' select='file_name'><item_number>Q-0218</item_number></Item>"))
 var DocItem=MyResult.selectSingleNode("//Item");
 if (DocItem != null) {
    var FileID = top.aras.getItemProperty(DocItem,"file_name");
@@ -71,7 +70,7 @@ if (DocItem != null) {
       <tab_stop>1</tab_stop>
       <x>53</x>
       <y>142</y>
-      </Item>
+     </Item>
      <Item type="Field" id="94730FFF41C5400AB5984C3E9083BF0E" action="add">
       <bg_color>#FFFFFF</bg_color>
       <field_type>html</field_type>
@@ -103,7 +102,7 @@ if (DocItem != null) {
       <tab_stop>0</tab_stop>
       <x>0</x>
       <y>0</y>
-      </Item>
+     </Item>
      <Item type="Field" id="3B2867354DDB4EC286EA0BDBCC3D2466" action="add">
       <bg_color>#FFFFFF</bg_color>
       <border_width>0</border_width>
@@ -126,7 +125,7 @@ if (DocItem != null) {
       <tab_stop>1</tab_stop>
       <x>190</x>
       <y>10</y>
-      </Item>
+     </Item>
      <Item type="Field" id="1E20CF77155D4A229FA4F51569068CF4" action="add">
       <bg_color>#FFFFFF</bg_color>
       <border_width>0</border_width>
@@ -146,9 +145,9 @@ if (DocItem != null) {
       <source_id keyed_name="1D1C35B6C4A844E48B839079D05965A9" type="Body">1D1C35B6C4A844E48B839079D05965A9</source_id>
       <tab_index>14</tab_index>
       <tab_stop>1</tab_stop>
-      <x>495</x>
-      <y>54</y>
-      </Item>
+      <x>474</x>
+      <y>58</y>
+     </Item>
      <Item type="Field" id="AE4AFD61FA464439A6847021CFB9ECFA" action="add">
       <bg_color>#FFFFFF</bg_color>
       <border_width>0</border_width>
@@ -170,7 +169,7 @@ if (DocItem != null) {
       <tab_stop>1</tab_stop>
       <x>191</x>
       <y>54</y>
-      </Item>
+     </Item>
      <Item type="Field" id="7988B84252FA412BAE829A08BB8EDD1F" action="add">
       <bg_color>#FFFFFF</bg_color>
       <border_width>0</border_width>
@@ -191,9 +190,9 @@ if (DocItem != null) {
       <source_id keyed_name="1D1C35B6C4A844E48B839079D05965A9" type="Body">1D1C35B6C4A844E48B839079D05965A9</source_id>
       <tab_index>5</tab_index>
       <tab_stop>1</tab_stop>
-      <x>493</x>
-      <y>9</y>
-      </Item>
+      <x>474</x>
+      <y>7</y>
+     </Item>
      <Item type="Field" id="7D6082AF1E604E18B9E96CA90B3D0B24" action="add">
       <bg_color>#FFFFFF</bg_color>
       <border_width>0</border_width>
@@ -215,7 +214,7 @@ if (DocItem != null) {
       <tab_stop>1</tab_stop>
       <x>339</x>
       <y>9</y>
-      </Item>
+     </Item>
     </Relationships>
    </Item>
   </Relationships>

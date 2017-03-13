@@ -1,4 +1,4 @@
-<AML>
+﻿<AML>
  <Item type="Form" id="07D8A55CEA1C45ECA6502ED8FB98D747" action="add">
   <name>Root Cause Chart</name>
   <stylesheet><![CDATA[../styles/default.css]]></stylesheet>
@@ -42,7 +42,7 @@
       <tab_stop>0</tab_stop>
       <x>0</x>
       <y>0</y>
-      </Item>
+     </Item>
     </Relationships>
    </Item>
   </Relationships>

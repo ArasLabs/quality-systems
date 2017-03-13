@@ -1,4 +1,4 @@
-<AML>
+﻿<AML>
  <Item type="RelationshipType" id="08C60042EF1A4DF48BDB19A9F4B83549" action="add" dependencyLevel="0">
   <auto_search>1</auto_search>
   <behavior>float</behavior>
@@ -13,8 +13,8 @@
   <name>QAP Identity</name>
   <new_show_related>0</new_show_related>
   <related_id keyed_name="Identity" type="ItemType" name="ItemType">E582AB17663F4EF28460015B2BE9E094</related_id>
-  <related_notnull>0</related_notnull>
-  <related_option>2</related_option>
+  <related_notnull>1</related_notnull>
+  <related_option>0</related_option>
   <relationship_id keyed_name="QAP Identity" type="ItemType" name="QAP Identity">
    <Item type="ItemType" id="869A5D1CBFDB46AFA8F02CF3A90D56A0" action="add">
     <allow_private_permission>1</allow_private_permission>
@@ -66,13 +66,13 @@
       <readonly>0</readonly>
       <sort_order>1</sort_order>
       <source_id keyed_name="QAP Identity" type="ItemType" name="QAP Identity">869A5D1CBFDB46AFA8F02CF3A90D56A0</source_id>
-      </Item>
+     </Item>
     </Relationships>
    </Item>
   </relationship_id>
   <sort_order>20</sort_order>
   <source_id keyed_name="QAP" type="ItemType" name="QAP">11D2FEA6F58E47ADA0CFBF63122FA02E</source_id>
-  </Item>
+ </Item>
  <Item type="View" action="delete" where="source_id='869A5D1CBFDB46AFA8F02CF3A90D56A0'"></Item>
  <Item type="Form" action="delete" where="name='QAP Identity'"></Item>
 </AML>

@@ -1,4 +1,4 @@
-<AML>
+﻿<AML>
  <Item type="ItemType" id="921DE47AFFDB44DAA9F61F5ADCCB767A" action="add">
   <allow_private_permission>0</allow_private_permission>
   <auto_search>1</auto_search>
@@ -50,7 +50,7 @@
     <sort_order>1024</sort_order>
     <source_id keyed_name="Contact" type="ItemType" name="Contact">921DE47AFFDB44DAA9F61F5ADCCB767A</source_id>
     <stored_length>40</stored_length>
-    </Item>
+   </Item>
    <Item type="Property" id="5F44638590CF4E8EAF6702EEACC173F3" action="add">
     <column_alignment>left</column_alignment>
     <column_width>140</column_width>
@@ -68,7 +68,7 @@
     <sort_order>1152</sort_order>
     <source_id keyed_name="Contact" type="ItemType" name="Contact">921DE47AFFDB44DAA9F61F5ADCCB767A</source_id>
     <stored_length>40</stored_length>
-    </Item>
+   </Item>
    <Item type="Property" id="60E9002740D449ACB934F7E88BEAC415" action="add">
     <column_alignment>left</column_alignment>
     <column_width>140</column_width>
@@ -86,7 +86,7 @@
     <sort_order>640</sort_order>
     <source_id keyed_name="Contact" type="ItemType" name="Contact">921DE47AFFDB44DAA9F61F5ADCCB767A</source_id>
     <stored_length>40</stored_length>
-    </Item>
+   </Item>
    <Item type="Property" id="C530918206D4451F814F5FC1BF55624B" action="add">
     <column_alignment>left</column_alignment>
     <column_width>140</column_width>
@@ -104,7 +104,7 @@
     <sort_order>1280</sort_order>
     <source_id keyed_name="Contact" type="ItemType" name="Contact">921DE47AFFDB44DAA9F61F5ADCCB767A</source_id>
     <stored_length>40</stored_length>
-    </Item>
+   </Item>
    <Item type="Property" id="C9D9F99221B04F06A76748989AFDB037" action="add">
     <column_alignment>left</column_alignment>
     <column_width>120</column_width>
@@ -123,7 +123,7 @@
     <readonly>0</readonly>
     <sort_order>400</sort_order>
     <source_id keyed_name="Contact" type="ItemType" name="Contact">921DE47AFFDB44DAA9F61F5ADCCB767A</source_id>
-    </Item>
+   </Item>
    <Item type="Property" id="44329719B2A948E2A84647B040073244" action="add">
     <column_alignment>left</column_alignment>
     <column_width>100</column_width>
@@ -142,7 +142,7 @@
     <readonly>0</readonly>
     <sort_order>1664</sort_order>
     <source_id keyed_name="Contact" type="ItemType" name="Contact">921DE47AFFDB44DAA9F61F5ADCCB767A</source_id>
-    </Item>
+   </Item>
    <Item type="Property" id="682870C82D4542AF892935CC6F5883B9" action="add">
     <column_alignment>left</column_alignment>
     <column_width>140</column_width>
@@ -160,7 +160,7 @@
     <sort_order>896</sort_order>
     <source_id keyed_name="Contact" type="ItemType" name="Contact">921DE47AFFDB44DAA9F61F5ADCCB767A</source_id>
     <stored_length>40</stored_length>
-    </Item>
+   </Item>
    <Item type="Property" id="B26B797987734BFB9FB91E161B6D3C90" action="add">
     <column_alignment>left</column_alignment>
     <column_width>140</column_width>
@@ -178,7 +178,7 @@
     <sort_order>768</sort_order>
     <source_id keyed_name="Contact" type="ItemType" name="Contact">921DE47AFFDB44DAA9F61F5ADCCB767A</source_id>
     <stored_length>40</stored_length>
-    </Item>
+   </Item>
    <Item type="Property" id="06094E0C17634281A5193B815963A9BF" action="add">
     <column_alignment>left</column_alignment>
     <column_width>140</column_width>
@@ -197,7 +197,7 @@
     <sort_order>128</sort_order>
     <source_id keyed_name="Contact" type="ItemType" name="Contact">921DE47AFFDB44DAA9F61F5ADCCB767A</source_id>
     <stored_length>40</stored_length>
-    </Item>
+   </Item>
    <Item type="Property" id="5C3DFA88ECA04686BBA3D9898CF16578" action="add">
     <column_alignment>left</column_alignment>
     <column_width>150</column_width>
@@ -215,7 +215,7 @@
     <readonly>0</readonly>
     <sort_order>4992</sort_order>
     <source_id keyed_name="Contact" type="ItemType" name="Contact">921DE47AFFDB44DAA9F61F5ADCCB767A</source_id>
-    </Item>
+   </Item>
    <Item type="Property" id="D064A543731247EB98A42B6AB3D25A34" action="add">
     <column_alignment>left</column_alignment>
     <column_width>140</column_width>
@@ -234,7 +234,7 @@
     <sort_order>256</sort_order>
     <source_id keyed_name="Contact" type="ItemType" name="Contact">921DE47AFFDB44DAA9F61F5ADCCB767A</source_id>
     <stored_length>40</stored_length>
-    </Item>
+   </Item>
    <Item type="Property" id="3BF6139C539F462B81AD0561978183E2" action="add">
     <column_alignment>left</column_alignment>
     <column_width>140</column_width>
@@ -253,7 +253,7 @@
     <sort_order>512</sort_order>
     <source_id keyed_name="Contact" type="ItemType" name="Contact">921DE47AFFDB44DAA9F61F5ADCCB767A</source_id>
     <stored_length>40</stored_length>
-    </Item>
+   </Item>
    <Item type="Property" id="53D9ACA73E654D889331009377795369" action="add">
     <column_alignment>left</column_alignment>
     <column_width>140</column_width>
@@ -270,7 +270,7 @@
     <readonly>0</readonly>
     <sort_order>1792</sort_order>
     <source_id keyed_name="Contact" type="ItemType" name="Contact">921DE47AFFDB44DAA9F61F5ADCCB767A</source_id>
-    </Item>
+   </Item>
    <Item type="Property" id="D0363A9FE31B4F62B6DB70E0B4E0F98C" action="add">
     <column_alignment>left</column_alignment>
     <column_width>100</column_width>
@@ -288,7 +288,7 @@
     <readonly>0</readonly>
     <sort_order>4736</sort_order>
     <source_id keyed_name="Contact" type="ItemType" name="Contact">921DE47AFFDB44DAA9F61F5ADCCB767A</source_id>
-    </Item>
+   </Item>
    <Item type="Property" id="1467D3E9BA5A48928F1D95307563C0C0" action="add">
     <column_alignment>left</column_alignment>
     <column_width>140</column_width>
@@ -307,7 +307,7 @@
     <sort_order>384</sort_order>
     <source_id keyed_name="Contact" type="ItemType" name="Contact">921DE47AFFDB44DAA9F61F5ADCCB767A</source_id>
     <stored_length>40</stored_length>
-    </Item>
+   </Item>
    <Item type="Property" id="84FDCC94E030416DA12B2CD4B8BE932B" action="add">
     <column_alignment>left</column_alignment>
     <column_width>140</column_width>
@@ -324,7 +324,7 @@
     <readonly>0</readonly>
     <sort_order>1536</sort_order>
     <source_id keyed_name="Contact" type="ItemType" name="Contact">921DE47AFFDB44DAA9F61F5ADCCB767A</source_id>
-    </Item>
+   </Item>
    <Item type="TOC Access" id="DCB9704C559A4246BB18255441EB43C3" action="add">
     <category>Portfolio</category>
     <related_id keyed_name="Administrators" type="Identity">2618D6F5A90949BAA7E920D1B04C7EE1</related_id>

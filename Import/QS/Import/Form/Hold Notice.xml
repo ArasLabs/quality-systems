@@ -1,7 +1,9 @@
-<AML>
+﻿<AML>
  <Item type="Form" id="C3789E0574994CBBBB53E870828EC593" action="add">
+  <height>300</height>
   <name>Hold Notice</name>
   <stylesheet><![CDATA[../styles/default.css]]></stylesheet>
+  <width>600</width>
   <Relationships>
    <Item type="Body" id="2C8067ED4CFF4F6FBBA755B45261078C" action="add">
     <bg_attach>scroll</bg_attach>
@@ -32,7 +34,7 @@
       <tab_stop>1</tab_stop>
       <x>187</x>
       <y>211</y>
-      </Item>
+     </Item>
      <Item type="Field" id="942DB0391DDA49E8B68721F657CB02A1" action="add">
       <bg_color>#FFFFFF</bg_color>
       <border_width>0</border_width>
@@ -55,7 +57,7 @@
       <tab_stop>1</tab_stop>
       <x>188</x>
       <y>130</y>
-      </Item>
+     </Item>
      <Item type="Field" id="0109D5840FD74FDCA1098CBECF452E1F" action="add">
       <bg_color>#FFFFFF</bg_color>
       <border_width>0</border_width>
@@ -78,7 +80,7 @@
       <tab_stop>1</tab_stop>
       <x>189</x>
       <y>171</y>
-      </Item>
+     </Item>
      <Item type="Field" id="AC055C0006784BF1A004A8A29E841E3C" action="add">
       <bg_color>#FFFFFF</bg_color>
       <border_width>0</border_width>
@@ -101,7 +103,7 @@
       <tab_stop>1</tab_stop>
       <x>360</x>
       <y>7</y>
-      </Item>
+     </Item>
      <Item type="Field" id="37118AD21EC945B09C641295DCEB8ED7" action="add">
       <bg_color>#FFFFFF</bg_color>
       <border_width>0</border_width>
@@ -124,7 +126,7 @@
       <tab_stop>1</tab_stop>
       <x>189</x>
       <y>9</y>
-      </Item>
+     </Item>
      <Item type="Field" id="E2BA5FAB5B764B0D9B279722B1AEAF51" action="add">
       <bg_color>#FFFFFF</bg_color>
       <border_width>0</border_width>
@@ -147,7 +149,7 @@
       <tab_stop>1</tab_stop>
       <x>187</x>
       <y>47</y>
-      </Item>
+     </Item>
      <Item type="Field" id="DE7A6C6A71F74246B950075F7124A4E2" action="add">
       <bg_color>#FFFFFF</bg_color>
       <border_width>0</border_width>
@@ -159,9 +161,8 @@
       <html_code><![CDATA[<script>
 function openISO() {
 // find the Controlled Document
-var DocName = "Q-00001";
 var MyResult=top.aras.createXMLDocument();
-MyResult.loadXML( top.aras.applyItem("<Item type='ISO' action='get' levels='0' select='file_name'><item_number>Q-0101</item_number></Item>"))
+MyResult.loadXML( top.aras.applyItem("<Item type='ISO' action='get' levels='0' select='file_name'><item_number>Q-0218</item_number></Item>"))
 var DocItem=MyResult.selectSingleNode("//Item");
 if (DocItem != null) {
    var FileID = top.aras.getItemProperty(DocItem,"file_name");
@@ -181,7 +182,7 @@ if (DocItem != null) {
       <tab_stop>1</tab_stop>
       <x>55</x>
       <y>133</y>
-      </Item>
+     </Item>
      <Item type="Field" id="07857DC015CE405E8978D681DEB2F33E" action="add">
       <bg_color>#FFFFFF</bg_color>
       <field_type>html</field_type>
@@ -213,7 +214,7 @@ if (DocItem != null) {
       <tab_stop>0</tab_stop>
       <x>0</x>
       <y>0</y>
-      </Item>
+     </Item>
      <Item type="Field" id="A3777274B2A242F8927E0A9777102824" action="add">
       <bg_color>#FFFFFF</bg_color>
       <border_width>0</border_width>
@@ -236,7 +237,7 @@ if (DocItem != null) {
       <tab_stop>1</tab_stop>
       <x>189</x>
       <y>89</y>
-      </Item>
+     </Item>
     </Relationships>
    </Item>
   </Relationships>

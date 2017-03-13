@@ -1,4 +1,4 @@
-<AML>
+﻿<AML>
  <Item type="RelationshipType" id="D708A4E0D34C4212960A355547CF40FE" action="add" dependencyLevel="0">
   <auto_search>1</auto_search>
   <behavior>float</behavior>
@@ -65,7 +65,7 @@
       <readonly>0</readonly>
       <sort_order>3712</sort_order>
       <source_id keyed_name="QAP Corrective Action" type="ItemType" name="QAP Corrective Action">10DDB795144D40E29B0B58EB96269D4C</source_id>
-      </Item>
+     </Item>
      <Item type="Property" id="73F41BEF2B114D2D88F47FA25C77D085" action="add">
       <column_alignment>left</column_alignment>
       <data_type>integer</data_type>
@@ -81,7 +81,7 @@
       <readonly>0</readonly>
       <sort_order>3584</sort_order>
       <source_id keyed_name="QAP Corrective Action" type="ItemType" name="QAP Corrective Action">10DDB795144D40E29B0B58EB96269D4C</source_id>
-      </Item>
+     </Item>
      <Item type="Property" id="7B936793D28244F2B6D5833295B5B77B" action="add">
       <column_alignment>left</column_alignment>
       <column_width>360</column_width>
@@ -99,7 +99,7 @@
       <sort_order>3456</sort_order>
       <source_id keyed_name="QAP Corrective Action" type="ItemType" name="QAP Corrective Action">10DDB795144D40E29B0B58EB96269D4C</source_id>
       <stored_length>512</stored_length>
-      </Item>
+     </Item>
     </Relationships>
    </Item>
   </relationship_id>
@@ -118,22 +118,26 @@
    </Item>
   </Relationships>
  </Item>
- <Item type="Property" action="edit" where="source_id='10DDB795144D40E29B0B58EB96269D4C' and name='sort_order'">
-  <column_alignment>left</column_alignment>
-  <data_type>integer</data_type>
-  <is_hidden>0</is_hidden>
-  <is_hidden2>0</is_hidden2>
-  <is_indexed>0</is_indexed>
-  <is_keyed>0</is_keyed>
-  <is_multi_valued>0</is_multi_valued>
-  <is_required>0</is_required>
-  <label>Sequence</label>
-  <name>sort_order</name>
-  <range_inclusive>0</range_inclusive>
-  <readonly>0</readonly>
-  <sort_order>1</sort_order>
-  <source_id keyed_name="QAP Corrective Action" type="ItemType" name="QAP Corrective Action">10DDB795144D40E29B0B58EB96269D4C</source_id>
-  </Item>
+ <Item type="ItemType" id="10DDB795144D40E29B0B58EB96269D4C" action="edit">
+  <Relationships>
+   <Item type="Property" action="edit" where="source_id='10DDB795144D40E29B0B58EB96269D4C' and name='sort_order'">
+    <column_alignment>left</column_alignment>
+    <data_type>integer</data_type>
+    <is_hidden>0</is_hidden>
+    <is_hidden2>0</is_hidden2>
+    <is_indexed>0</is_indexed>
+    <is_keyed>0</is_keyed>
+    <is_multi_valued>0</is_multi_valued>
+    <is_required>0</is_required>
+    <label>Sequence</label>
+    <name>sort_order</name>
+    <range_inclusive>0</range_inclusive>
+    <readonly>0</readonly>
+    <sort_order>1</sort_order>
+    <source_id keyed_name="QAP Corrective Action" type="ItemType" name="QAP Corrective Action">10DDB795144D40E29B0B58EB96269D4C</source_id>
+   </Item>
+  </Relationships>
+ </Item>
  <Item type="View" action="delete" where="source_id='10DDB795144D40E29B0B58EB96269D4C'"></Item>
  <Item type="Form" action="delete" where="name='QAP Corrective Action'"></Item>
 </AML>

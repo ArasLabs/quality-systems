@@ -1,4 +1,4 @@
-<AML>
+﻿<AML>
  <Item type="Workflow Map" id="E571BF7ACB90404790DB42E514B2C869" action="add">
   <description>Customer Issue Workflow</description>
   <name>QS Issue</name>
@@ -15,7 +15,7 @@
   <transition_name_color></transition_name_color>
   <transition_name_font></transition_name_font>
   <Relationships>
-   <Item type="Workflow Map Activity" id="790FD66356D845F5967AF54B90FACC1E" action="add">
+   <Item type="Workflow Map Activity" id="E675095CDE4347229DDF0A97AE89EDD5" action="add">
     <related_id keyed_name="Assign CAPA Process" type="Activity Template">
      <Item type="Activity Template" id="2B5F2BB5864A4F1FA40BEE827B6AF7C9" action="add">
       <can_delegate>1</can_delegate>
@@ -72,14 +72,14 @@
         <source_id keyed_name="Assign CAPA Process" type="Activity Template">2B5F2BB5864A4F1FA40BEE827B6AF7C9</source_id>
         <x>76</x>
         <y>11</y>
-        </Item>
+       </Item>
       </Relationships>
      </Item>
     </related_id>
     <sort_order>512</sort_order>
     <source_id keyed_name="QS Issue" type="Workflow Map">E571BF7ACB90404790DB42E514B2C869</source_id>
    </Item>
-   <Item type="Workflow Map Activity" id="279E7D2AE461466B860CBC40723D8AE4" action="add">
+   <Item type="Workflow Map Activity" id="C10B178186974A6990EB4E3E046ECFE3" action="add">
     <related_id keyed_name="End" type="Activity Template">
      <Item type="Activity Template" id="3F1F0576E4304905A1B0DFDA745BE025" action="add">
       <can_delegate>0</can_delegate>
@@ -100,12 +100,12 @@
       <wait_for_all_votes>0</wait_for_all_votes>
       <x>813</x>
       <y>33</y>
-      </Item>
+     </Item>
     </related_id>
     <sort_order>128</sort_order>
     <source_id keyed_name="QS Issue" type="Workflow Map">E571BF7ACB90404790DB42E514B2C869</source_id>
    </Item>
-   <Item type="Workflow Map Activity" id="4B0152231D8C42909F55BA3DD997541A" action="add">
+   <Item type="Workflow Map Activity" id="8958A473F8494956AE68DFDBC11A4D88" action="add">
     <related_id keyed_name="Issue Closed" type="Activity Template">
      <Item type="Activity Template" id="E9E354945C1F4E27AFBC18445429366F" action="add">
       <can_delegate>1</can_delegate>
@@ -145,7 +145,7 @@
         <source_id keyed_name="Issue Closed" type="Activity Template">E9E354945C1F4E27AFBC18445429366F</source_id>
         <x>-282</x>
         <y>-34</y>
-        </Item>
+       </Item>
       
        <Item type="Workflow Map Path" id="EBA4A938812445508713C84235A350C1" action="add">
         <authentication>none</authentication>
@@ -158,14 +158,14 @@
         <source_id keyed_name="Issue Closed" type="Activity Template">E9E354945C1F4E27AFBC18445429366F</source_id>
         <x>87</x>
         <y>-3</y>
-        </Item></Relationships>
+       </Item></Relationships>
      </Item>
     </related_id>
     <sort_order>768</sort_order>
     <source_id keyed_name="QS Issue" type="Workflow Map">E571BF7ACB90404790DB42E514B2C869</source_id>
    </Item>
   
-   <Item type="Workflow Map Activity" id="6BA4AFF6C739484B966F03AE9D8D11C2" action="add">
+   <Item type="Workflow Map Activity" id="B326F67A4C4247D581B3107412F0BDD0" action="add">
     <related_id keyed_name="Provide More Information" type="Activity Template">
      <Item type="Activity Template" id="12A8A80A76084C3E8358E602498BE19C" action="add">
       <can_delegate>0</can_delegate>
@@ -209,14 +209,14 @@
         <source_id keyed_name="Provide More Information" type="Activity Template">12A8A80A76084C3E8358E602498BE19C</source_id>
         <x>-89</x>
         <y>-38</y>
-        </Item>
+       </Item>
       </Relationships>
      </Item>
     </related_id>
     <sort_order>384</sort_order>
     <source_id keyed_name="QS Issue" type="Workflow Map">E571BF7ACB90404790DB42E514B2C869</source_id>
    </Item>
-   <Item type="Workflow Map Activity" id="8BB9A1FEB4B44DC88EF01E17C41A5414" action="add">
+   <Item type="Workflow Map Activity" id="B5B980BD132247C292F6201FF53E678C" action="add">
     <related_id keyed_name="Review Issue" type="Activity Template">
      <Item type="Activity Template" id="43E71850C87C40FE87E7CD26DE42BD71" action="add">
       <can_delegate>1</can_delegate>
@@ -252,7 +252,7 @@
         <source_id keyed_name="Review Issue" type="Activity Template">43E71850C87C40FE87E7CD26DE42BD71</source_id>
         <x>53</x>
         <y>-2</y>
-        </Item>
+       </Item>
        <Item type="Workflow Map Path" id="728E119AF02A443B99077CB2BE7EA6AC" action="add">
         <authentication>none</authentication>
         <is_default>0</is_default>
@@ -264,14 +264,14 @@
         <source_id keyed_name="Review Issue" type="Activity Template">43E71850C87C40FE87E7CD26DE42BD71</source_id>
         <x>65</x>
         <y>65</y>
-        </Item>
+       </Item>
       </Relationships>
      </Item>
     </related_id>
     <sort_order>256</sort_order>
     <source_id keyed_name="QS Issue" type="Workflow Map">E571BF7ACB90404790DB42E514B2C869</source_id>
    </Item>
-   <Item type="Workflow Map Activity" id="44EA17DFD6BF4A5FA39888CDCC9D23FC" action="add">
+   <Item type="Workflow Map Activity" id="BCBCB701128D4E39B72F50EC0AB1FC8B" action="add">
     <related_id keyed_name="Review Results" type="Activity Template">
      <Item type="Activity Template" id="98A0464FFF224AA79D88E80C90DE0A62" action="add">
       <can_delegate>1</can_delegate>
@@ -307,14 +307,14 @@
         <source_id keyed_name="Review Results" type="Activity Template">98A0464FFF224AA79D88E80C90DE0A62</source_id>
         <x>67</x>
         <y>12</y>
-        </Item>
+       </Item>
       </Relationships>
      </Item>
     </related_id>
     <sort_order>640</sort_order>
     <source_id keyed_name="QS Issue" type="Workflow Map">E571BF7ACB90404790DB42E514B2C869</source_id>
    </Item>
-   <Item type="Workflow Map Activity" id="E2F1415A72F4456DB761912CBE3030D6" action="add">
+   <Item type="Workflow Map Activity" id="9BB81D25AF584BD080AF2285241B095B" action="add">
     <related_id keyed_name="Start" type="Activity Template">
      <Item type="Activity Template" id="A32E7D90F0F54CFBB4B22B0B0EB4BD7D" action="add">
       <can_delegate>0</can_delegate>
@@ -347,7 +347,7 @@
         <source_id keyed_name="Start" type="Activity Template">A32E7D90F0F54CFBB4B22B0B0EB4BD7D</source_id>
         <x>23</x>
         <y>3</y>
-        </Item>
+       </Item>
       </Relationships>
      </Item>
     </related_id>

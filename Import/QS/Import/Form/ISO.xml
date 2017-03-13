@@ -1,6 +1,6 @@
-<AML>
+﻿<AML>
  <Item type="Form" id="2B28AC39EF914B7DAF289A46E516534D" action="add">
-  <height>80</height>
+  <height>200</height>
   <name>ISO</name>
   <stylesheet><![CDATA[../styles/default.css]]></stylesheet>
   <width>630</width>
@@ -37,7 +37,7 @@
       <textarea_rows>4</textarea_rows>
       <x>208</x>
       <y>115</y>
-      </Item>
+     </Item>
      <Item type="Field" id="B04B823504014450BA45F1ED06243E8E" action="add">
       <bg_color>#FFFFFF</bg_color>
       <border_width>0</border_width>
@@ -60,7 +60,7 @@
       <tab_stop>1</tab_stop>
       <x>23</x>
       <y>134</y>
-      </Item>
+     </Item>
      <Item type="Field" id="3F953DE682254E898C143A9D1F5F3CC6" action="add">
       <bg_color>#FFFFFF</bg_color>
       <border_width>0</border_width>
@@ -84,7 +84,7 @@
       <tab_stop>1</tab_stop>
       <x>346</x>
       <y>11</y>
-      </Item>
+     </Item>
      <Item type="Field" id="F73931146E2F4AD997714830AE44276C" action="add">
       <bg_color>#FFFFFF</bg_color>
       <field_type>html</field_type>
@@ -116,7 +116,7 @@
       <tab_stop>0</tab_stop>
       <x>0</x>
       <y>0</y>
-      </Item>
+     </Item>
      <Item type="Field" id="E28D6F06AB1F40A695F021314CD3806B" action="add">
       <bg_color>#FFFFFF</bg_color>
       <border_width>0</border_width>
@@ -139,7 +139,7 @@
       <tab_stop>1</tab_stop>
       <x>209</x>
       <y>11</y>
-      </Item>
+     </Item>
      <Item type="Field" id="A88E431AA016474286EE4BB31D1AD862" action="add">
       <bg_color>#FFFFFF</bg_color>
       <border_width>0</border_width>
@@ -161,7 +161,7 @@
       <tab_stop>1</tab_stop>
       <x>427</x>
       <y>51</y>
-      </Item>
+     </Item>
      <Item type="Field" id="8E9FB8BBE8F4441CB94D67DBDD4746A7" action="add">
       <bg_color>#FFFFFF</bg_color>
       <border_width>0</border_width>
@@ -183,7 +183,7 @@
       <tab_stop>1</tab_stop>
       <x>208</x>
       <y>49</y>
-      </Item>
+     </Item>
      <Item type="Field" id="A9B7D352F1C0408C9A0D632694728AAE" action="add">
       <bg_color>#FFFFFF</bg_color>
       <border_width>0</border_width>
@@ -205,7 +205,7 @@
       <tab_stop>1</tab_stop>
       <x>427</x>
       <y>9</y>
-      </Item>
+     </Item>
     </Relationships>
    </Item>
   </Relationships>

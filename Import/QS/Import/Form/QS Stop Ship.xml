@@ -1,6 +1,6 @@
-<AML>
+﻿<AML>
  <Item type="Form" id="153D4EF9661347AD9D40712588608945" action="add">
-  <height>200</height>
+  <height>400</height>
   <name>QS Stop Ship</name>
   <stylesheet><![CDATA[../styles/default.css]]></stylesheet>
   <width>600</width>
@@ -35,7 +35,7 @@
       <text_align>left</text_align>
       <x>188</x>
       <y>132</y>
-      </Item>
+     </Item>
      <Item type="Field" id="1DBBE6FAA05B4F3DA391C2C1E6B3B520" action="add">
       <bg_color>beige  </bg_color>
       <border_width>0</border_width>
@@ -58,7 +58,7 @@
       <tab_stop>1</tab_stop>
       <x>356</x>
       <y>134</y>
-      </Item>
+     </Item>
      <Item type="Field" id="D5C0B4FB0E69499481090191965E3E54" action="add">
       <bg_color>#FFFFFF</bg_color>
       <border_width>0</border_width>
@@ -83,7 +83,7 @@
       <textarea_rows>4</textarea_rows>
       <x>189</x>
       <y>51</y>
-      </Item>
+     </Item>
      <Item type="Field" id="D849A4C52AF546A8AB6C192E6B687207" action="add">
       <bg_color>#FFFFFF</bg_color>
       <border_width>0</border_width>
@@ -106,7 +106,7 @@
       <tab_stop>1</tab_stop>
       <x>356</x>
       <y>187</y>
-      </Item>
+     </Item>
      <Item type="Field" id="4E063ED881174233B79F4CF6B12D86A6" action="add">
       <bg_color>#FFFFFF</bg_color>
       <border_width>0</border_width>
@@ -129,7 +129,7 @@
       <tab_stop>1</tab_stop>
       <x>357</x>
       <y>235</y>
-      </Item>
+     </Item>
      <Item type="Field" id="C946F51DD53647F3916013BD27D2D087" action="add">
       <bg_color>#FFFFFF</bg_color>
       <field_type>html</field_type>
@@ -140,9 +140,8 @@
       <html_code><![CDATA[<script>
 function openISO() {
 // find the Controlled Document
-var DocName = "Q-00001";
 var MyResult=top.aras.createXMLDocument();
-MyResult.loadXML( top.aras.applyItem("<Item type='ISO' action='get' levels='0' select='file_name'><item_number>Q-0101</item_number></Item>"))
+MyResult.loadXML( top.aras.applyItem("<Item type='ISO' action='get' levels='0' select='file_name'><item_number>Q-0218</item_number></Item>"))
 var DocItem=MyResult.selectSingleNode("//Item");
 if (DocItem != null) {
    var FileID = top.aras.getItemProperty(DocItem,"file_name");
@@ -164,7 +163,7 @@ if (DocItem != null) {
       <text_align>left</text_align>
       <x>60</x>
       <y>223</y>
-      </Item>
+     </Item>
      <Item type="Field" id="9B2D4B44235B46BF8C26CFFBCF425B22" action="add">
       <bg_color>#FFFFFF</bg_color>
       <field_type>html</field_type>
@@ -196,7 +195,7 @@ if (DocItem != null) {
       <tab_stop>0</tab_stop>
       <x>3</x>
       <y>3</y>
-      </Item>
+     </Item>
      <Item type="Field" id="706B7A2722E8441AA26B5A092C6D1B41" action="add">
       <bg_color>#FFFFFF</bg_color>
       <border_width>0</border_width>
@@ -219,7 +218,7 @@ if (DocItem != null) {
       <tab_stop>1</tab_stop>
       <x>189</x>
       <y>8</y>
-      </Item>
+     </Item>
      <Item type="Field" id="95355FD73A53447790ECDE1FBDFD0836" action="add">
       <bg_color>#FFFFFF</bg_color>
       <border_width>0</border_width>
@@ -241,7 +240,7 @@ if (DocItem != null) {
       <tab_stop>1</tab_stop>
       <x>191</x>
       <y>234</y>
-      </Item>
+     </Item>
      <Item type="Field" id="34B4F56681CC44069A6E9EDA71CEC00A" action="add">
       <bg_color>#FFFFFF</bg_color>
       <border_width>0</border_width>
@@ -263,7 +262,7 @@ if (DocItem != null) {
       <tab_stop>1</tab_stop>
       <x>189</x>
       <y>185</y>
-      </Item>
+     </Item>
      <Item type="Field" id="DC9B33BAA7EC4092A3ABD0F19523544F" action="add">
       <bg_color>#FFFFFF</bg_color>
       <border_width>0</border_width>
@@ -287,7 +286,7 @@ if (DocItem != null) {
       <text_align>center</text_align>
       <x>15</x>
       <y>154</y>
-      </Item>
+     </Item>
      <Item type="Field" id="E8BD5C1D16714BA591D4F7F1B99B5FFC" action="add">
       <bg_color>#FFFFFF</bg_color>
       <border_width>0</border_width>
@@ -309,7 +308,7 @@ if (DocItem != null) {
       <tab_stop>1</tab_stop>
       <x>329</x>
       <y>6</y>
-      </Item>
+     </Item>
     </Relationships>
    </Item>
   </Relationships>

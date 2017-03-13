@@ -1,7 +1,7 @@
-<AML>
+﻿<AML>
  <Item type="Grid" id="4A40708643194C6B9E2F06AA848D5982" action="add">
   <name>Part Issues</name>
-  <query><![CDATA[<Item type='Issue' action='get' select='state,item_number,description,part_id'><part_id>{id}</part_id></Item>]]></query>
+  <query><![CDATA[<Item type='QS Issue' action='get' select='state,item_number,description,part'><part>{id}</part></Item>]]></query>
   <Relationships>
    <Item type="Grid Column" id="426E9EF892E44672BD06B1923AFB1E00" action="add">
     <align>left</align>
@@ -14,7 +14,7 @@
     <visible>0</visible>
     <width>30</width>
     <xpath>AML/Item</xpath>
-    </Item>
+   </Item>
    <Item type="Grid Column" id="57B7547966184B20B9E87D600F0EF690" action="add">
     <align>left</align>
     <datatype>default</datatype>
@@ -26,7 +26,7 @@
     <visible>1</visible>
     <width>100</width>
     <xpath>.</xpath>
-    </Item>
+   </Item>
    <Item type="Grid Column" id="8796FED91AAF41DE8A60B31C9150C5BB" action="add">
     <align>left</align>
     <datatype>default</datatype>
@@ -38,7 +38,7 @@
     <visible>1</visible>
     <width>600</width>
     <xpath>.</xpath>
-    </Item>
+   </Item>
   
    <Item type="Grid Column" id="BFBED44B403C443A9A3DE625AD8CC064" action="add">
     <align>left</align>
@@ -51,6 +51,6 @@
     <visible>1</visible>
     <width>100</width>
     <xpath>.</xpath>
-    </Item></Relationships>
+   </Item></Relationships>
  </Item>
 </AML>

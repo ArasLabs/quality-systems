@@ -1,7 +1,7 @@
-<AML>
+﻿<AML>
  <Item type="ItemType" id="7701557EE56341E68B142F1125066085" action="add">
   <allow_private_permission>0</allow_private_permission>
-  <auto_search>0</auto_search>
+  <auto_search>1</auto_search>
   <default_lifecycle keyed_name="Default" type="Life Cycle Map">2F3B75E17C4E4F2D9599579A965BFA64</default_lifecycle>
   <hide_where_used>0</hide_where_used>
   <implementation_type>table</implementation_type>
@@ -53,7 +53,7 @@
     <sort_order>10</sort_order>
     <source_id keyed_name="ISO" type="ItemType" name="ISO">7701557EE56341E68B142F1125066085</source_id>
     <stored_length>128</stored_length>
-    </Item>
+   </Item>
    <Item type="Property" id="8B850FE688344A409CFFBA40F5329953" action="add">
     <column_alignment>left</column_alignment>
     <data_source keyed_name="File" type="ItemType" name="File">8052A558B9084D41B9F11805E464F443</data_source>
@@ -71,7 +71,7 @@
     <readonly>0</readonly>
     <sort_order>138</sort_order>
     <source_id keyed_name="ISO" type="ItemType" name="ISO">7701557EE56341E68B142F1125066085</source_id>
-    </Item>
+   </Item>
    <Item type="Property" id="FF0757F835F34BD0B34859AE46E23D7E" action="add">
     <column_alignment>center</column_alignment>
     <column_width>90</column_width>
@@ -89,7 +89,7 @@
     <readonly>0</readonly>
     <sort_order>5</sort_order>
     <source_id keyed_name="ISO" type="ItemType" name="ISO">7701557EE56341E68B142F1125066085</source_id>
-    </Item>
+   </Item>
    <Item type="Property" id="64DB691D4DA84F3F80C28C866C9CCD7E" action="add">
     <column_alignment>left</column_alignment>
     <column_width>90</column_width>
@@ -109,7 +109,7 @@
     <sort_order>1</sort_order>
     <source_id keyed_name="ISO" type="ItemType" name="ISO">7701557EE56341E68B142F1125066085</source_id>
     <stored_length>32</stored_length>
-    </Item>
+   </Item>
    <Item type="TOC Access" id="0E1AC37AEDFD4269B57A93C9C0794418" action="add">
     <category>Documents</category>
     <related_id keyed_name="World" type="Identity">

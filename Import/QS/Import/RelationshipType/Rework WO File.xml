@@ -1,4 +1,4 @@
-<AML>
+﻿<AML>
  <Item type="RelationshipType" id="DB11E4F6753E40C8BD579A94170AFB85" action="add" dependencyLevel="0">
   <auto_search>1</auto_search>
   <behavior>float</behavior>
@@ -36,7 +36,7 @@
   </relationship_id>
   <sort_order>1</sort_order>
   <source_id keyed_name="Rework WO" type="ItemType" name="Rework WO">CC7DF616067A42768A9A77E603596160</source_id>
-  </Item>
+ </Item>
  <Item type="View" action="delete" where="source_id='20AD660BD30345078E8BEE242C960F3B'"></Item>
  <Item type="Form" action="delete" where="name='Rework WO File'"></Item>
 </AML>

@@ -1,4 +1,4 @@
-<AML>
+﻿<AML>
  <Item type="Life Cycle Map" id="4A1D6521F57B4CE485814CF1FE16FA52" action="add">
   <name>QS Five Why's</name>
   <start_state keyed_name="Originated" type="Life Cycle State">6DE15AC5980D474FBA07D597F4C84523</start_state>
@@ -12,7 +12,7 @@
     <source_id keyed_name="QS Five Why's" type="Life Cycle Map">4A1D6521F57B4CE485814CF1FE16FA52</source_id>
     <x>278</x>
     <y>58</y>
-    </Item>
+   </Item>
    <Item type="Life Cycle State" id="AAF8121983E54272BF22898B079D4E04" action="add">
     <image>../images/icons/20x20/20x15_lifecycle.gif</image>
     <name>In Review</name>
@@ -22,7 +22,7 @@
     <source_id keyed_name="QS Five Why's" type="Life Cycle Map">4A1D6521F57B4CE485814CF1FE16FA52</source_id>
     <x>160</x>
     <y>58</y>
-    </Item>
+   </Item>
    <Item type="Life Cycle State" id="6DE15AC5980D474FBA07D597F4C84523" action="add">
     <image>../images/icons/20x20/20x15_lifecycle.gif</image>
     <name>Originated</name>
@@ -32,7 +32,7 @@
     <source_id keyed_name="QS Five Why's" type="Life Cycle Map">4A1D6521F57B4CE485814CF1FE16FA52</source_id>
     <x>45</x>
     <y>58</y>
-    </Item>
+   </Item>
    <Item type="Life Cycle Transition" id="0EA6513F72E24DBDA76F7C24D4D8BCCD" action="add">
     <from_state keyed_name="Approved" type="Life Cycle State">840F9951CA6044D9B8F21E52E6E2E3DB</from_state>
     <get_comment>0</get_comment>
@@ -47,7 +47,7 @@
     <to_state keyed_name="In Review" type="Life Cycle State">AAF8121983E54272BF22898B079D4E04</to_state>
     <x>-70</x>
     <y>85</y>
-    </Item>
+   </Item>
    <Item type="Life Cycle Transition" id="196C94F96C594781AFA0B0A866A86DD6" action="add">
     <from_state keyed_name="In Review" type="Life Cycle State">AAF8121983E54272BF22898B079D4E04</from_state>
     <get_comment>0</get_comment>
@@ -62,7 +62,7 @@
     <to_state keyed_name="Approved" type="Life Cycle State">840F9951CA6044D9B8F21E52E6E2E3DB</to_state>
     <x>-1</x>
     <y>-1</y>
-    </Item>
+   </Item>
    <Item type="Life Cycle Transition" id="3567C92AD4A84F22BDCB6C6DAA0DDC79" action="add">
     <from_state keyed_name="In Review" type="Life Cycle State">AAF8121983E54272BF22898B079D4E04</from_state>
     <get_comment>0</get_comment>
@@ -77,14 +77,14 @@
     <to_state keyed_name="Originated" type="Life Cycle State">6DE15AC5980D474FBA07D597F4C84523</to_state>
     <x>-69</x>
     <y>88</y>
-    </Item>
+   </Item>
    <Item type="Life Cycle Transition" id="9897FD2E8D1E4DE2A8EF858D8CF09977" action="add">
     <from_state keyed_name="In Review" type="Life Cycle State">AAF8121983E54272BF22898B079D4E04</from_state>
     <get_comment>0</get_comment>
     <sort_order>128</sort_order>
     <source_id keyed_name="QS Five Why's" type="Life Cycle Map">4A1D6521F57B4CE485814CF1FE16FA52</source_id>
     <to_state keyed_name="Originated" type="Life Cycle State">6DE15AC5980D474FBA07D597F4C84523</to_state>
-    </Item>
+   </Item>
   
    <Item type="Life Cycle Transition" id="8B9CF1BFDECF4FBFB7177A1F603F566B" action="add">
     <from_state keyed_name="Originated" type="Life Cycle State">6DE15AC5980D474FBA07D597F4C84523</from_state>
@@ -100,6 +100,6 @@
     <to_state keyed_name="In Review" type="Life Cycle State">AAF8121983E54272BF22898B079D4E04</to_state>
     <x>-1</x>
     <y>-1</y>
-    </Item></Relationships>
+   </Item></Relationships>
  </Item>
 </AML>

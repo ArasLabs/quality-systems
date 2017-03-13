@@ -1,4 +1,4 @@
-<AML>
+﻿<AML>
  <Item type="Life Cycle Map" id="C1A367CE1B934405B7824E142DC00709" action="add">
   <description>Quality Records</description>
   <name>QS Logbook</name>
@@ -13,7 +13,7 @@
     <source_id keyed_name="QS Logbook" type="Life Cycle Map">C1A367CE1B934405B7824E142DC00709</source_id>
     <x>25</x>
     <y>23</y>
-    </Item>
+   </Item>
   </Relationships>
  </Item>
 </AML>

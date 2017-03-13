@@ -1,4 +1,4 @@
-<AML>
+﻿<AML>
  <Item type="RelationshipType" id="92983E2EB4A34518A11086A90EE9453D" action="add" dependencyLevel="0">
   <auto_search>1</auto_search>
   <behavior>float</behavior>
@@ -34,7 +34,7 @@
     <Relationships>
      <Item type="Property" id="149F56CA2DF041AC88A0C753297430EB" action="add">
       <column_alignment>right</column_alignment>
-      <column_width>90</column_width>
+      <column_width>100</column_width>
       <data_type>string</data_type>
       <is_hidden>0</is_hidden>
       <is_hidden2>0</is_hidden2>
@@ -49,10 +49,10 @@
       <sort_order>6</sort_order>
       <source_id keyed_name="QS Logbook Data" type="ItemType" name="QS Logbook Data">6C299A8D81864CD39EC32A15F210D7B4</source_id>
       <stored_length>32</stored_length>
-      </Item>
+     </Item>
      <Item type="Property" id="50318326E827438BA8445BDB6115BA92" action="add">
       <column_alignment>left</column_alignment>
-      <column_width>120</column_width>
+      <column_width>250</column_width>
       <data_type>string</data_type>
       <is_hidden>0</is_hidden>
       <is_hidden2>0</is_hidden2>
@@ -67,7 +67,7 @@
       <sort_order>2</sort_order>
       <source_id keyed_name="QS Logbook Data" type="ItemType" name="QS Logbook Data">6C299A8D81864CD39EC32A15F210D7B4</source_id>
       <stored_length>64</stored_length>
-      </Item>
+     </Item>
      <Item type="Property" id="809BD2F5C2864F7D8E1D5672814E8B32" action="add">
       <column_alignment>center</column_alignment>
       <column_width>90</column_width>
@@ -83,12 +83,12 @@
       <name>pass_fail</name>
       <range_inclusive>0</range_inclusive>
       <readonly>0</readonly>
-      <sort_order>8</sort_order>
+      <sort_order>10</sort_order>
       <source_id keyed_name="QS Logbook Data" type="ItemType" name="QS Logbook Data">6C299A8D81864CD39EC32A15F210D7B4</source_id>
-      </Item>
+     </Item>
      <Item type="Property" id="C305A63169D9449F982B882A73EE7E83" action="add">
       <column_alignment>right</column_alignment>
-      <column_width>90</column_width>
+      <column_width>100</column_width>
       <data_type>string</data_type>
       <is_hidden>0</is_hidden>
       <is_hidden2>0</is_hidden2>
@@ -103,13 +103,31 @@
       <sort_order>4</sort_order>
       <source_id keyed_name="QS Logbook Data" type="ItemType" name="QS Logbook Data">6C299A8D81864CD39EC32A15F210D7B4</source_id>
       <stored_length>32</stored_length>
-      </Item>
+     </Item>
+     <Item type="Property" id="97FFE74A491C4C4C948A7C3F782D0876" action="add">
+      <column_alignment>right</column_alignment>
+      <column_width>100</column_width>
+      <data_type>string</data_type>
+      <is_hidden>0</is_hidden>
+      <is_hidden2>0</is_hidden2>
+      <is_indexed>0</is_indexed>
+      <is_keyed>0</is_keyed>
+      <is_multi_valued>0</is_multi_valued>
+      <is_required>0</is_required>
+      <label>Tolerance</label>
+      <name>tolerance</name>
+      <range_inclusive>0</range_inclusive>
+      <readonly>0</readonly>
+      <sort_order>8</sort_order>
+      <source_id keyed_name="QS Logbook Data" type="ItemType" name="QS Logbook Data">6C299A8D81864CD39EC32A15F210D7B4</source_id>
+      <stored_length>32</stored_length>
+     </Item>
     </Relationships>
    </Item>
   </relationship_id>
   <sort_order>10</sort_order>
   <source_id keyed_name="QS Logbook" type="ItemType" name="QS Logbook">9B65EF9CD99F4782A5FD79D0ADA05C13</source_id>
-  </Item>
+ </Item>
  <Item type="View" action="delete" where="source_id='6C299A8D81864CD39EC32A15F210D7B4'"></Item>
  <Item type="Form" action="delete" where="name='QS Logbook Data'"></Item>
 </AML>

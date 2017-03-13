@@ -1,4 +1,4 @@
-<AML>
+﻿<AML>
  <Item type="Life Cycle Map" id="F268F51FEC1B4DDD90D0ABB2917B35B3" action="add">
   <description>Quality Action Plan</description>
   <name>QAP</name>
@@ -13,7 +13,7 @@
     <source_id keyed_name="QAP" type="Life Cycle Map">F268F51FEC1B4DDD90D0ABB2917B35B3</source_id>
     <x>208</x>
     <y>81</y>
-    </Item>
+   </Item>
    <Item type="Life Cycle State" id="8876921F4568401F9C00F91122ED950F" action="add">
     <image>../images/icons/20x20/20x15_lifecycle.gif</image>
     <name>Cancelled</name>
@@ -23,7 +23,7 @@
     <source_id keyed_name="QAP" type="Life Cycle Map">F268F51FEC1B4DDD90D0ABB2917B35B3</source_id>
     <x>345</x>
     <y>115</y>
-    </Item>
+   </Item>
    <Item type="Life Cycle State" id="79896D6AB69A4B4085931F09FA9EC4BC" action="add">
     <image>../images/icons/20x20/20x15_lifecycle.gif</image>
     <name>Closed</name>
@@ -33,7 +33,7 @@
     <source_id keyed_name="QAP" type="Life Cycle Map">F268F51FEC1B4DDD90D0ABB2917B35B3</source_id>
     <x>348</x>
     <y>41</y>
-    </Item>
+   </Item>
    <Item type="Life Cycle State" id="25CE83151EEE4F80B08B835BABDDF652" action="add">
     <image>../images/icons/20x20/20x15_lifecycle.gif</image>
     <name>Create</name>
@@ -43,7 +43,7 @@
     <source_id keyed_name="QAP" type="Life Cycle Map">F268F51FEC1B4DDD90D0ABB2917B35B3</source_id>
     <x>90</x>
     <y>81</y>
-    </Item>
+   </Item>
    <Item type="Life Cycle Transition" id="865EF73C3A6441D799DCAD97C1AD86C3" action="add">
     <from_state keyed_name="Active" type="Life Cycle State">DBCFAF7B7D9E475D87FDD33A1A2CD7DD</from_state>
     <get_comment>1</get_comment>
@@ -54,7 +54,7 @@
     <to_state keyed_name="Cancelled" type="Life Cycle State">8876921F4568401F9C00F91122ED950F</to_state>
     <x>47</x>
     <y>32</y>
-    </Item>
+   </Item>
   
    <Item type="Life Cycle Transition" id="0F9346CF589B450BB45046E64713F37F" action="add">
     <from_state keyed_name="Active" type="Life Cycle State">DBCFAF7B7D9E475D87FDD33A1A2CD7DD</from_state>
@@ -66,7 +66,7 @@
     <to_state keyed_name="Closed" type="Life Cycle State">79896D6AB69A4B4085931F09FA9EC4BC</to_state>
     <x>45</x>
     <y>-26</y>
-    </Item>
+   </Item>
    <Item type="Life Cycle Transition" id="B0326C4BD680486EA87471E1F85BDAD2" action="add">
     <from_state keyed_name="Create" type="Life Cycle State">25CE83151EEE4F80B08B835BABDDF652</from_state>
     <get_comment>0</get_comment>
@@ -77,6 +77,6 @@
     <to_state keyed_name="Active" type="Life Cycle State">DBCFAF7B7D9E475D87FDD33A1A2CD7DD</to_state>
     <x>31</x>
     <y>15</y>
-    </Item></Relationships>
+   </Item></Relationships>
  </Item>
 </AML>
