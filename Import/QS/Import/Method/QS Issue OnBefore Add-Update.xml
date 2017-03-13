@@ -1,0 +1,16 @@
+<AML>
+ <Item type="Method" id="98D59919F1FC416D92905F9096586261" action="add">
+  <method_code><![CDATA[' If the Issue does not have an item_number,  populate from the default Sequence
+'
+' HISTORY
+' peter schroer   02.0.2007      initial release
+' 
+' =====================================================================
+Dim MyInnovator = Me.NewInnovator()
+If Me.getProperty("item_number","")="" Then
+   Me.setProperty("item_number", MyInnovator.getNextSequence("QS_Default_Issue_Number"))
+End If]]></method_code>
+  <method_type>VB</method_type>
+  <name>QS Issue OnBefore Add-Update</name>
+ </Item>
+</AML>

@@ -1,0 +1,244 @@
+<AML>
+ <Item type="Form" id="C3789E0574994CBBBB53E870828EC593" action="add">
+  <name>Hold Notice</name>
+  <stylesheet><![CDATA[../styles/default.css]]></stylesheet>
+  <Relationships>
+   <Item type="Body" id="2C8067ED4CFF4F6FBBA755B45261078C" action="add">
+    <bg_attach>scroll</bg_attach>
+    <bg_color>#FFFFFF</bg_color>
+    <bg_repeat>no-repeat</bg_repeat>
+    <sort_order>128</sort_order>
+    <source_id keyed_name="Hold Notice" type="Form">C3789E0574994CBBBB53E870828EC593</source_id>
+    <Relationships>
+     <Item type="Field" id="1EBBAF01FE4E46F5A08FA489C09A3B0C" action="add">
+      <bg_color>#FFFFFF</bg_color>
+      <border_width>0</border_width>
+      <field_type>item</field_type>
+      <font_color>#000000</font_color>
+      <font_family>arial, helvetica, sans-serif</font_family>
+      <font_size>8pt</font_size>
+      <font_weight>bold</font_weight>
+      <is_disabled>0</is_disabled>
+      <is_visible>1</is_visible>
+      <label>Authorized By:</label>
+      <label_position>top</label_position>
+      <list_no_blank>0</list_no_blank>
+      <name>authorized_by</name>
+      <positioning>absolute</positioning>
+      <propertytype_id keyed_name="authorized_by" type="Property">C04CBA1939234289A27AD58AD601DE17</propertytype_id>
+      <sort_order>640</sort_order>
+      <source_id keyed_name="2C8067ED4CFF4F6FBBA755B45261078C" type="Body">2C8067ED4CFF4F6FBBA755B45261078C</source_id>
+      <tab_index>3092</tab_index>
+      <tab_stop>1</tab_stop>
+      <x>187</x>
+      <y>211</y>
+      </Item>
+     <Item type="Field" id="942DB0391DDA49E8B68721F657CB02A1" action="add">
+      <bg_color>#FFFFFF</bg_color>
+      <border_width>0</border_width>
+      <field_type>dropdown</field_type>
+      <font_color>#000000</font_color>
+      <font_family>arial, helvetica, sans-serif</font_family>
+      <font_size>8pt</font_size>
+      <font_weight>bold</font_weight>
+      <is_disabled>0</is_disabled>
+      <is_visible>1</is_visible>
+      <label>Business Unit</label>
+      <label_position>top</label_position>
+      <list_no_blank>0</list_no_blank>
+      <name>corp_bu</name>
+      <positioning>absolute</positioning>
+      <propertytype_id keyed_name="corp_bu" type="Property">4991670B9CA449F7A3A9E0987AD33AC3</propertytype_id>
+      <sort_order>1152</sort_order>
+      <source_id keyed_name="2C8067ED4CFF4F6FBBA755B45261078C" type="Body">2C8067ED4CFF4F6FBBA755B45261078C</source_id>
+      <tab_index>3220</tab_index>
+      <tab_stop>1</tab_stop>
+      <x>188</x>
+      <y>130</y>
+      </Item>
+     <Item type="Field" id="0109D5840FD74FDCA1098CBECF452E1F" action="add">
+      <bg_color>#FFFFFF</bg_color>
+      <border_width>0</border_width>
+      <field_type>dropdown</field_type>
+      <font_color>#000000</font_color>
+      <font_family>arial, helvetica, sans-serif</font_family>
+      <font_size>8pt</font_size>
+      <font_weight>bold</font_weight>
+      <is_disabled>0</is_disabled>
+      <is_visible>1</is_visible>
+      <label>Plant</label>
+      <label_position>top</label_position>
+      <list_no_blank>0</list_no_blank>
+      <name>corp_plant</name>
+      <positioning>absolute</positioning>
+      <propertytype_id keyed_name="corp_plant" type="Property">953E32F920D948F1AD35FC4106C954AC</propertytype_id>
+      <sort_order>1280</sort_order>
+      <source_id keyed_name="2C8067ED4CFF4F6FBBA755B45261078C" type="Body">2C8067ED4CFF4F6FBBA755B45261078C</source_id>
+      <tab_index>3348</tab_index>
+      <tab_stop>1</tab_stop>
+      <x>189</x>
+      <y>171</y>
+      </Item>
+     <Item type="Field" id="AC055C0006784BF1A004A8A29E841E3C" action="add">
+      <bg_color>#FFFFFF</bg_color>
+      <border_width>0</border_width>
+      <field_type>radio button list</field_type>
+      <font_color>#000000</font_color>
+      <font_family>arial, helvetica, sans-serif</font_family>
+      <font_size>8pt</font_size>
+      <font_weight>bold</font_weight>
+      <is_disabled>0</is_disabled>
+      <is_visible>1</is_visible>
+      <label>Hold Criticality</label>
+      <label_position>top</label_position>
+      <list_no_blank>0</list_no_blank>
+      <name>criticality</name>
+      <positioning>absolute</positioning>
+      <propertytype_id keyed_name="criticality" type="Property">B01CB29F971E4B5FB43DEF98B9FA1A96</propertytype_id>
+      <sort_order>1024</sort_order>
+      <source_id keyed_name="2C8067ED4CFF4F6FBBA755B45261078C" type="Body">2C8067ED4CFF4F6FBBA755B45261078C</source_id>
+      <tab_index>3476</tab_index>
+      <tab_stop>1</tab_stop>
+      <x>360</x>
+      <y>7</y>
+      </Item>
+     <Item type="Field" id="37118AD21EC945B09C641295DCEB8ED7" action="add">
+      <bg_color>#FFFFFF</bg_color>
+      <border_width>0</border_width>
+      <field_type>text</field_type>
+      <font_color>#000000</font_color>
+      <font_family>arial, helvetica, sans-serif</font_family>
+      <font_size>8pt</font_size>
+      <font_weight>bold</font_weight>
+      <is_disabled>0</is_disabled>
+      <is_visible>1</is_visible>
+      <label>Hold Notice #</label>
+      <label_position>top</label_position>
+      <list_no_blank>0</list_no_blank>
+      <name>hold_number</name>
+      <positioning>absolute</positioning>
+      <propertytype_id keyed_name="item_number" type="Property">4759F2F4229745A49A8CBC539821486F</propertytype_id>
+      <sort_order>128</sort_order>
+      <source_id keyed_name="2C8067ED4CFF4F6FBBA755B45261078C" type="Body">2C8067ED4CFF4F6FBBA755B45261078C</source_id>
+      <tab_index>2</tab_index>
+      <tab_stop>1</tab_stop>
+      <x>189</x>
+      <y>9</y>
+      </Item>
+     <Item type="Field" id="E2BA5FAB5B764B0D9B279722B1AEAF51" action="add">
+      <bg_color>#FFFFFF</bg_color>
+      <border_width>0</border_width>
+      <field_type>dropdown</field_type>
+      <font_color>#000000</font_color>
+      <font_family>arial, helvetica, sans-serif</font_family>
+      <font_size>8pt</font_size>
+      <font_weight>bold</font_weight>
+      <is_disabled>0</is_disabled>
+      <is_visible>1</is_visible>
+      <label>Type</label>
+      <label_position>top</label_position>
+      <list_no_blank>0</list_no_blank>
+      <name>hold_type</name>
+      <positioning>absolute</positioning>
+      <propertytype_id keyed_name="hold_type" type="Property">E6A43963DB04444E9785855946060EFE</propertytype_id>
+      <sort_order>256</sort_order>
+      <source_id keyed_name="2C8067ED4CFF4F6FBBA755B45261078C" type="Body">2C8067ED4CFF4F6FBBA755B45261078C</source_id>
+      <tab_index>4</tab_index>
+      <tab_stop>1</tab_stop>
+      <x>187</x>
+      <y>47</y>
+      </Item>
+     <Item type="Field" id="DE7A6C6A71F74246B950075F7124A4E2" action="add">
+      <bg_color>#FFFFFF</bg_color>
+      <border_width>0</border_width>
+      <field_type>html</field_type>
+      <font_color>#000000</font_color>
+      <font_family>arial, helvetica, sans-serif</font_family>
+      <font_size>8pt</font_size>
+      <font_weight>bold</font_weight>
+      <html_code><![CDATA[<script>
+function openISO() {
+// find the Controlled Document
+var DocName = "Q-00001";
+var MyResult=top.aras.createXMLDocument();
+MyResult.loadXML( top.aras.applyItem("<Item type='ISO' action='get' levels='0' select='file_name'><item_number>Q-0101</item_number></Item>"))
+var DocItem=MyResult.selectSingleNode("//Item");
+if (DocItem != null) {
+   var FileID = top.aras.getItemProperty(DocItem,"file_name");
+   if (FileID !="") setTimeout("top.aras.uiShowItem('File', '"+ FileID +"', 'openFile')");
+}
+}
+</script>
+<a href="javascript:openISO();">
+<img src=../images/icons/32x32/32x32_iso.gif border=0 alt="View ISO Work Instructions"></a>]]></html_code>
+      <is_disabled>0</is_disabled>
+      <is_visible>1</is_visible>
+      <list_no_blank>0</list_no_blank>
+      <name>iso_icon</name>
+      <positioning>absolute</positioning>
+      <sort_order>1408</sort_order>
+      <source_id keyed_name="2C8067ED4CFF4F6FBBA755B45261078C" type="Body">2C8067ED4CFF4F6FBBA755B45261078C</source_id>
+      <tab_stop>1</tab_stop>
+      <x>55</x>
+      <y>133</y>
+      </Item>
+     <Item type="Field" id="07857DC015CE405E8978D681DEB2F33E" action="add">
+      <bg_color>#FFFFFF</bg_color>
+      <field_type>html</field_type>
+      <html_code><![CDATA[<table border='0' cellspacing='0' cellpadding='0'>
+<tr><td colspan='2'>
+<script>
+  document.write('<img hspace="20" vspace="20" src="' + top.aras.getItemProperty(document.itemType,'large_icon') + '">');
+</Script>
+</td></tr>
+<tr><td colspan='2'><img src='../images/lines/wvline.gif'></td></tr>
+<tr><td colspan='2'><img src='../images/icons/other/1x1.gif' width='1' height='10'></td></tr>
+<tr><td><img src='../images/icons/other/1x1.gif' width='20' height='1'>
+<td width='150'><p class='vbig'><b>
+<script>
+  var labelIT = top.aras.getItemProperty(document.itemType, 'label'); 
+  if (labelIT == '') labelIT = document.itemTypeName; 
+  document.write(labelIT);
+</Script>
+</b></p>
+</td></tr></table>
+]]></html_code>
+      <is_disabled>0</is_disabled>
+      <is_visible>1</is_visible>
+      <list_no_blank>0</list_no_blank>
+      <name>item_info</name>
+      <positioning>absolute</positioning>
+      <sort_order>512</sort_order>
+      <source_id keyed_name="2C8067ED4CFF4F6FBBA755B45261078C" type="Body">2C8067ED4CFF4F6FBBA755B45261078C</source_id>
+      <tab_stop>0</tab_stop>
+      <x>0</x>
+      <y>0</y>
+      </Item>
+     <Item type="Field" id="A3777274B2A242F8927E0A9777102824" action="add">
+      <bg_color>#FFFFFF</bg_color>
+      <border_width>0</border_width>
+      <field_type>item</field_type>
+      <font_color>#000000</font_color>
+      <font_family>arial, helvetica, sans-serif</font_family>
+      <font_size>8pt</font_size>
+      <font_weight>bold</font_weight>
+      <is_disabled>0</is_disabled>
+      <is_visible>1</is_visible>
+      <label>Part</label>
+      <label_position>top</label_position>
+      <list_no_blank>0</list_no_blank>
+      <name>part_item</name>
+      <positioning>absolute</positioning>
+      <propertytype_id keyed_name="part" type="Property">226DF28ED162425F9F8B1BB6C745B898</propertytype_id>
+      <sort_order>384</sort_order>
+      <source_id keyed_name="2C8067ED4CFF4F6FBBA755B45261078C" type="Body">2C8067ED4CFF4F6FBBA755B45261078C</source_id>
+      <tab_index>20</tab_index>
+      <tab_stop>1</tab_stop>
+      <x>189</x>
+      <y>89</y>
+      </Item>
+    </Relationships>
+   </Item>
+  </Relationships>
+ </Item>
+</AML>

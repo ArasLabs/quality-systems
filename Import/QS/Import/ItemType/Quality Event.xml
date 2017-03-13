@@ -1,0 +1,215 @@
+<AML>
+ <Item type="ItemType" id="E9D0FC142329437BAD4F73E23FF4EE99" action="add">
+  <allow_private_permission>0</allow_private_permission>
+  <auto_search>0</auto_search>
+  <default_lifecycle keyed_name="Default" type="Life Cycle Map">2F3B75E17C4E4F2D9599579A965BFA64</default_lifecycle>
+  <hide_where_used>0</hide_where_used>
+  <implementation_type>polymorphic</implementation_type>
+  <instance_data>QUALITY_EVENT</instance_data>
+  <is_dependent>0</is_dependent>
+  <is_relationship>0</is_relationship>
+  <is_versionable>1</is_versionable>
+  <label>Quality Event</label>
+  <label_plural>Quality Events</label_plural>
+  <manual_versioning>0</manual_versioning>
+  <name>Quality Event</name>
+  <revisions keyed_name="Default" type="Revision">7FE395DD8B9F4E1090756A34B733D75E</revisions>
+  <save_history>0</save_history>
+  <show_parameters_tab>1</show_parameters_tab>
+  <unlock_on_logout>0</unlock_on_logout>
+  <use_src_access>0</use_src_access>
+  <Relationships>
+   <Item type="Can Add" id="004832BD056A4A13B5CBAA7B4DFA45DC" action="add">
+    <can_add>1</can_add>
+    <related_id keyed_name="World" type="Identity">
+     <Item type="Identity" action="get" select="id">
+      <name>World</name>
+     </Item>
+    </related_id>
+    <sort_order>128</sort_order>
+    <source_id keyed_name="Quality Event" type="ItemType" name="Quality Event">E9D0FC142329437BAD4F73E23FF4EE99</source_id>
+   </Item>
+   <Item type="Property" id="AEB1E021927D47C199D147981EB910B0" action="add">
+    <column_alignment>left</column_alignment>
+    <column_width>400</column_width>
+    <data_type>string</data_type>
+    <is_hidden>0</is_hidden>
+    <is_hidden2>0</is_hidden2>
+    <is_indexed>0</is_indexed>
+    <is_keyed>0</is_keyed>
+    <is_multi_valued>0</is_multi_valued>
+    <is_required>0</is_required>
+    <label>Description</label>
+    <name>description</name>
+    <range_inclusive>0</range_inclusive>
+    <readonly>0</readonly>
+    <sort_order>40</sort_order>
+    <source_id keyed_name="Quality Event" type="ItemType" name="Quality Event">E9D0FC142329437BAD4F73E23FF4EE99</source_id>
+    <stored_length>128</stored_length>
+    </Item>
+   <Item type="Property" id="4C8B58644DE248649DCCCBD9CCF5B421" action="add">
+    <column_alignment>left</column_alignment>
+    <column_width>90</column_width>
+    <data_type>string</data_type>
+    <is_hidden>0</is_hidden>
+    <is_hidden2>0</is_hidden2>
+    <is_indexed>0</is_indexed>
+    <is_keyed>0</is_keyed>
+    <is_multi_valued>0</is_multi_valued>
+    <is_required>0</is_required>
+    <label>Number</label>
+    <name>item_number</name>
+    <range_inclusive>0</range_inclusive>
+    <readonly>0</readonly>
+    <sort_order>10</sort_order>
+    <source_id keyed_name="Quality Event" type="ItemType" name="Quality Event">E9D0FC142329437BAD4F73E23FF4EE99</source_id>
+    <stored_length>32</stored_length>
+    </Item>
+   <Item type="Server Event" id="4382DC006C344CB295EF65F22255750F" action="add">
+    <related_id keyed_name="polymorphic_item_onBeforeAdd" type="Method">
+     <Item type="Method" action="get" select="id">
+      <name>polymorphic_item_onBeforeAdd</name>
+     </Item>
+    </related_id>
+    <server_event>onBeforeAdd</server_event>
+    <sort_order>896</sort_order>
+    <source_id keyed_name="Quality Event" type="ItemType" name="Quality Event">E9D0FC142329437BAD4F73E23FF4EE99</source_id>
+   </Item>
+   <Item type="Server Event" id="A3933879A1C54BD4AD27785F404FF6FC" action="add">
+    <related_id keyed_name="polymorphic_item_onBeforeCopy" type="Method">
+     <Item type="Method" action="get" select="id">
+      <name>polymorphic_item_onBeforeCopy</name>
+     </Item>
+    </related_id>
+    <server_event>onBeforeCopy</server_event>
+    <sort_order>1024</sort_order>
+    <source_id keyed_name="Quality Event" type="ItemType" name="Quality Event">E9D0FC142329437BAD4F73E23FF4EE99</source_id>
+   </Item>
+   <Item type="Server Event" id="81C71A0D18FC4F07BA0357D5E8CF76FB" action="add">
+    <related_id keyed_name="polymorphic_item_onBeforeDelete" type="Method">
+     <Item type="Method" action="get" select="id">
+      <name>polymorphic_item_onBeforeDelete</name>
+     </Item>
+    </related_id>
+    <server_event>onBeforeDelete</server_event>
+    <sort_order>256</sort_order>
+    <source_id keyed_name="Quality Event" type="ItemType" name="Quality Event">E9D0FC142329437BAD4F73E23FF4EE99</source_id>
+   </Item>
+   <Item type="Server Event" id="78274ED6C3C14110BF22DDEB456B6CFB" action="add">
+    <related_id keyed_name="polymorphic_item_onBeforeLock" type="Method">
+     <Item type="Method" action="get" select="id">
+      <name>polymorphic_item_onBeforeLock</name>
+     </Item>
+    </related_id>
+    <server_event>onBeforeLock</server_event>
+    <sort_order>384</sort_order>
+    <source_id keyed_name="Quality Event" type="ItemType" name="Quality Event">E9D0FC142329437BAD4F73E23FF4EE99</source_id>
+   </Item>
+   <Item type="Server Event" id="AB89ED32BE99473C9A02CA017D31DB30" action="add">
+    <related_id keyed_name="polymorphic_item_onBeforeUnlock" type="Method">
+     <Item type="Method" action="get" select="id">
+      <name>polymorphic_item_onBeforeUnlock</name>
+     </Item>
+    </related_id>
+    <server_event>onBeforeUnlock</server_event>
+    <sort_order>512</sort_order>
+    <source_id keyed_name="Quality Event" type="ItemType" name="Quality Event">E9D0FC142329437BAD4F73E23FF4EE99</source_id>
+   </Item>
+   <Item type="Server Event" id="F0C50BE5E85B467DB51B01C4D015392C" action="add">
+    <related_id keyed_name="polymorphic_item_onBeforeUpdate" type="Method">
+     <Item type="Method" action="get" select="id">
+      <name>polymorphic_item_onBeforeUpdate</name>
+     </Item>
+    </related_id>
+    <server_event>onBeforeUpdate</server_event>
+    <sort_order>768</sort_order>
+    <source_id keyed_name="Quality Event" type="ItemType" name="Quality Event">E9D0FC142329437BAD4F73E23FF4EE99</source_id>
+   </Item>
+   <Item type="Server Event" id="A6500EB86826498B9D692A6FFC7D0A87" action="add">
+    <related_id keyed_name="polymorphic_item_onBeforeVersion" type="Method">
+     <Item type="Method" action="get" select="id">
+      <name>polymorphic_item_onBeforeVersion</name>
+     </Item>
+    </related_id>
+    <server_event>onBeforeVersion</server_event>
+    <sort_order>640</sort_order>
+    <source_id keyed_name="Quality Event" type="ItemType" name="Quality Event">E9D0FC142329437BAD4F73E23FF4EE99</source_id>
+   </Item>
+  </Relationships>
+ </Item>
+ <Item type="ItemType" id="E9D0FC142329437BAD4F73E23FF4EE99" action="edit">
+  <Relationships>
+   <Item type="Morphae" id="DF29449A60E24CC7A035F0AAE6BA9910" action="add">
+    <related_id keyed_name="NCR" type="ItemType" name="ItemType">58D74CF0E0934E33850CC3CB28361FD9</related_id>
+    <sort_order>512</sort_order>
+    <source_id keyed_name="Quality Event" type="ItemType" name="Quality Event">E9D0FC142329437BAD4F73E23FF4EE99</source_id>
+   </Item>
+  </Relationships>
+ </Item>
+ <Item type="ItemType" id="E9D0FC142329437BAD4F73E23FF4EE99" action="edit">
+  <Relationships>
+   <Item type="Morphae" id="412A2BC3519E49B9A1F8F2F2213714EC" action="add">
+    <related_id keyed_name="Audit" type="ItemType" name="ItemType">F01DF964747F4F0E8021E724B9F6D7AF</related_id>
+    <sort_order>640</sort_order>
+    <source_id keyed_name="Quality Event" type="ItemType" name="Quality Event">E9D0FC142329437BAD4F73E23FF4EE99</source_id>
+   </Item>
+  </Relationships>
+ </Item>
+ <Item type="ItemType" id="E9D0FC142329437BAD4F73E23FF4EE99" action="edit">
+  <Relationships>
+   <Item type="Morphae" id="4D34A33FFE5043B3AABB7E03FA0772ED" action="add">
+    <related_id keyed_name="QS Issue" type="ItemType" name="ItemType">09335878CD6A49C7B33E626A6C2B0040</related_id>
+    <sort_order>768</sort_order>
+    <source_id keyed_name="Quality Event" type="ItemType" name="Quality Event">E9D0FC142329437BAD4F73E23FF4EE99</source_id>
+   </Item>
+  </Relationships>
+ </Item>
+ <Item type="ItemType" id="E9D0FC142329437BAD4F73E23FF4EE99" action="edit">
+  <Relationships>
+   <Item type="Morphae" id="D8170927D7984F67B15E79F49AA4DF1C" action="add">
+    <related_id keyed_name="QS Logbook" type="ItemType" name="ItemType">9B65EF9CD99F4782A5FD79D0ADA05C13</related_id>
+    <sort_order>896</sort_order>
+    <source_id keyed_name="Quality Event" type="ItemType" name="Quality Event">E9D0FC142329437BAD4F73E23FF4EE99</source_id>
+   </Item>
+  </Relationships>
+ </Item>
+
+ <Item type="Property" action="edit" where="source_id='E9D0FC142329437BAD4F73E23FF4EE99' and name='owned_by_id'">
+  <column_alignment>left</column_alignment>
+  <column_width>120</column_width>
+  <data_source keyed_name="Identity" type="ItemType" name="Identity">E582AB17663F4EF28460015B2BE9E094</data_source>
+  <data_type>item</data_type>
+  <is_hidden>0</is_hidden>
+  <is_hidden2>0</is_hidden2>
+  <is_indexed>0</is_indexed>
+  <is_keyed>0</is_keyed>
+  <is_multi_valued>0</is_multi_valued>
+  <is_required>0</is_required>
+  <item_behavior>float</item_behavior>
+  <label>Responsible</label>
+  <name>owned_by_id</name>
+  <range_inclusive>0</range_inclusive>
+  <readonly>0</readonly>
+  <sort_order>32</sort_order>
+  <source_id keyed_name="Quality Event" type="ItemType" name="Quality Event">E9D0FC142329437BAD4F73E23FF4EE99</source_id>
+  </Item>
+ <Item type="Property" action="edit" where="source_id='E9D0FC142329437BAD4F73E23FF4EE99' and name='state'">
+  <column_alignment>center</column_alignment>
+  <column_width>100</column_width>
+  <data_type>string</data_type>
+  <is_hidden>0</is_hidden>
+  <is_hidden2>0</is_hidden2>
+  <is_indexed>0</is_indexed>
+  <is_keyed>0</is_keyed>
+  <is_multi_valued>0</is_multi_valued>
+  <is_required>0</is_required>
+  <label>Status</label>
+  <name>state</name>
+  <range_inclusive>0</range_inclusive>
+  <readonly>1</readonly>
+  <sort_order>30</sort_order>
+  <source_id keyed_name="Quality Event" type="ItemType" name="Quality Event">E9D0FC142329437BAD4F73E23FF4EE99</source_id>
+  <stored_length>32</stored_length>
+  </Item>
+ <Item type="View" action="delete" where="source_id='E9D0FC142329437BAD4F73E23FF4EE99'"></Item>
+ <Item type="Form" action="delete" where="name='Quality Event'"></Item></AML>

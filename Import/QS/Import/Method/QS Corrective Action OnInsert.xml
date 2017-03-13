@@ -1,0 +1,36 @@
+<AML>
+ <Item type="Method" id="A0AB82C41D934D37819C602C47F9D6A4" action="add">
+  <comments>Auto populate the part, BU, and Plant from the QAP for to the items in the related Analysis items</comments>
+  <method_code><![CDATA[var xpath = "//Item/Relationships/Item/related_id/Item[@id='" + relatedID + "']";
+var relitm = item.selectSingleNode(xpath);
+if (relitm == null) {
+   return
+}
+
+if (relitm.getAttribute('type')=="Rework WO") {
+   var partid=top.aras.getItemProperty(item,"part");
+   top.aras.setItemProperty(relitm,'part',partid);
+}
+
+if (relitm.getAttribute('type')=="Deviation") {
+   var partid=top.aras.getItemProperty(item,"part");   
+   top.aras.setItemProperty(relitm,'part',partid);
+   
+   var plantid=top.aras.getItemProperty(item,"corp_plant");
+   top.aras.setItemProperty(relitm,'corp_plant',plantid);
+   
+   var ownerid=top.aras.getItemProperty(item,"owned_by_id");
+   top.aras.setItemProperty(relitm,'owned_by_id',ownerid);
+}
+
+if (relitm.getAttribute('type')=="Waiver") {
+   var partid=top.aras.getItemProperty(item,"part");
+   top.aras.setItemProperty(relitm,'part',partid);
+   
+   var plantid=top.aras.getItemProperty(item,"corp_plant");
+   top.aras.setItemProperty(relitm,'corp_plant',plantid);
+}]]></method_code>
+  <method_type>JavaScript</method_type>
+  <name>QS Corrective Action OnInsert</name>
+ </Item>
+</AML>

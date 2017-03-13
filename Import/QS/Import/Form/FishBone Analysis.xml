@@ -1,0 +1,241 @@
+<AML>
+ <Item type="Form" id="35F83BFB0F294FCDA49C11810576D9AB" action="add">
+  <height>400</height>
+  <name>FishBone Analysis</name>
+  <stylesheet><![CDATA[../styles/default.css]]></stylesheet>
+  <width>900</width>
+  <Relationships>
+   <Item type="Body" id="DAC6C4C3ECD1412681AAC4460FF79B9B" action="add">
+    <bg_image>../images/Backgrounds/pattern-3.gif</bg_image>
+    <bg_repeat>no-repeat</bg_repeat>
+    <sort_order>128</sort_order>
+    <source_id keyed_name="FishBone Analysis" type="Form">35F83BFB0F294FCDA49C11810576D9AB</source_id>
+    <Relationships>
+     <Item type="Field" id="CC19DC1FF13B4326A53A33C50F7C0249" action="add">
+      <bg_color>#FFFFFF</bg_color>
+      <border_width>0</border_width>
+      <display_length>60</display_length>
+      <field_type>text</field_type>
+      <font_color>#000000</font_color>
+      <font_family>arial, helvetica, sans-serif</font_family>
+      <font_size>8pt</font_size>
+      <font_weight>bold</font_weight>
+      <is_disabled>0</is_disabled>
+      <is_visible>1</is_visible>
+      <label>Problem Description</label>
+      <label_position>top</label_position>
+      <list_no_blank>0</list_no_blank>
+      <name>description</name>
+      <positioning>absolute</positioning>
+      <propertytype_id keyed_name="description" type="Property">191C1285BFA44329B94810149277B25B</propertytype_id>
+      <sort_order>384</sort_order>
+      <source_id keyed_name="DAC6C4C3ECD1412681AAC4460FF79B9B" type="Body">DAC6C4C3ECD1412681AAC4460FF79B9B</source_id>
+      <tab_index>8</tab_index>
+      <tab_stop>1</tab_stop>
+      <x>312</x>
+      <y>63</y>
+      </Item>
+     <Item type="Field" id="E5A65FB01D3F40BC86AD6B69ECA142CF" action="add">
+      <bg_color>#FFFFFF</bg_color>
+      <border_width>0</border_width>
+      <field_type>html</field_type>
+      <font_color>#004080</font_color>
+      <font_family>arial, helvetica, sans-serif</font_family>
+      <font_size>16pt</font_size>
+      <font_weight>bold</font_weight>
+      <html_code></html_code>
+      <is_disabled>0</is_disabled>
+      <is_visible>1</is_visible>
+      <label>Fishbone Diagram Analysis</label>
+      <label_position>top</label_position>
+      <list_no_blank>0</list_no_blank>
+      <name>Fishbone Analysis</name>
+      <positioning>absolute</positioning>
+      <sort_order>128</sort_order>
+      <source_id keyed_name="DAC6C4C3ECD1412681AAC4460FF79B9B" type="Body">DAC6C4C3ECD1412681AAC4460FF79B9B</source_id>
+      <tab_stop>1</tab_stop>
+      <x>341</x>
+      <y>11</y>
+      </Item>
+     <Item type="Field" id="E9695ACB6D4C4F50BACFBEEA09B27210" action="add">
+      <bg_color>#FFFFFF</bg_color>
+      <border_width>0</border_width>
+      <field_type>item</field_type>
+      <font_color>#000000</font_color>
+      <font_family>arial, helvetica, sans-serif</font_family>
+      <font_size>8pt</font_size>
+      <font_weight>bold</font_weight>
+      <is_disabled>0</is_disabled>
+      <is_visible>1</is_visible>
+      <label>Vaulted File</label>
+      <label_position>top</label_position>
+      <list_no_blank>0</list_no_blank>
+      <name>fishbone_file</name>
+      <positioning>absolute</positioning>
+      <propertytype_id keyed_name="fishbone_file" type="Property">B9A3629A9D1C420C9D5C14885D4BD306</propertytype_id>
+      <sort_order>512</sort_order>
+      <source_id keyed_name="DAC6C4C3ECD1412681AAC4460FF79B9B" type="Body">DAC6C4C3ECD1412681AAC4460FF79B9B</source_id>
+      <tab_index>10</tab_index>
+      <tab_stop>1</tab_stop>
+      <x>664</x>
+      <y>63</y>
+      <Relationships>
+       <Item type="Field Event" id="07CD23424E67412BAF674029A1B68FA2" action="add">
+        <field_event>onchange</field_event>
+        <related_id keyed_name="QS FishBone Clear Viewer" type="Method">
+         <Item type="Method" action="get" select="id">
+          <name>QS FishBone Clear Viewer</name>
+         </Item>
+        </related_id>
+        <sort_order>128</sort_order>
+        <source_id keyed_name="fishbone_file" type="Field">E9695ACB6D4C4F50BACFBEEA09B27210</source_id>
+       </Item>
+      </Relationships>
+     </Item>
+     <Item type="Field" id="50B9AB52724A4EDE8B885BA45EEC18EC" action="add">
+      <bg_color>#FFFFFF</bg_color>
+      <border_width>0</border_width>
+      <display_length>10</display_length>
+      <field_type>text</field_type>
+      <font_color>#000000</font_color>
+      <font_family>arial, helvetica, sans-serif</font_family>
+      <font_size>8pt</font_size>
+      <font_weight>bold</font_weight>
+      <is_disabled>0</is_disabled>
+      <is_visible>1</is_visible>
+      <label>Fishbone ID</label>
+      <label_position>top</label_position>
+      <list_no_blank>0</list_no_blank>
+      <name>fishbone_id</name>
+      <positioning>absolute</positioning>
+      <propertytype_id keyed_name="item_number" type="Property">F2554D10694B409DAC6039D06F104DB4</propertytype_id>
+      <sort_order>256</sort_order>
+      <source_id keyed_name="DAC6C4C3ECD1412681AAC4460FF79B9B" type="Body">DAC6C4C3ECD1412681AAC4460FF79B9B</source_id>
+      <tab_index>1</tab_index>
+      <tab_stop>1</tab_stop>
+      <x>202</x>
+      <y>67</y>
+      </Item>
+     <Item type="Field" id="C8847FCD5DD04C048F3EF725BE629762" action="add">
+      <bg_color>#FFFFFF</bg_color>
+      <border_width>0</border_width>
+      <field_type>html</field_type>
+      <font_color>#000000</font_color>
+      <font_family>arial, helvetica, sans-serif</font_family>
+      <font_size>8pt</font_size>
+      <font_weight>bold</font_weight>
+      <html_code><![CDATA[<table border='0' cellspacing='0' cellpadding='0'>
+<tr><td width='40'>
+
+<tr><td colspan='2'><img src='../images/lines/wvline.gif'></td></tr>
+<tr><td colspan='2'><img src='../images/icons/other/1x1.gif' width='1' height='10'></td></tr>
+</tr></table>
+<table border="0" width="150" cellpadding="1" cellspacing="0" >
+<tr><td width="65"></td><td width="85"></td></tr>
+<tr><td id="item" colspan="2"></td></tr>
+<tr><td>Created By:</td><td id="created_by_id"></td></tr>
+<tr><td>Created On:</td><td id="created_on"></td></tr>
+<tr><td colspan="2"><img src="../images/icons/other/1x1.gif" width="1" height="4"></td></tr>
+<tr><td>Modified By:</td><td id="modified_by_id"></td></tr>
+<tr><td>Modified On:</td><td id="modified_on"></td></tr>
+<tr><td colspan="2"><img src="../images/icons/other/1x1.gif" width="1" height="4"></td></tr>
+<tr><td>Locked By:</td><td id="locked_by_id"></td></tr>
+<tr><td colspan="2"><img src="../images/icons/other/1x1.gif" width="1" height="4"></td></tr>
+</table>
+
+<script>
+if (document.item) {
+var createdByNd = document.item.selectSingleNode("created_by_id/@keyed_name");
+if (createdByNd) document.all.created_by_id.innerHTML = '<b>' +createdByNd.text;
+
+var modifiedByNd = document.item.selectSingleNode("modified_by_id/@keyed_name");
+if (modifiedByNd) document.all.modified_by_id.innerHTML = '<b>' +modifiedByNd.text;
+
+var lockedByNd = document.item.selectSingleNode("locked_by_id/@keyed_name");
+if(lockedByNd) document.all.locked_by_id.innerHTML = '<b>' +lockedByNd.text;
+
+document.all.created_on.innerHTML = '<b>' +top.aras.getItemProperty(document.item, "created_on").split(' ')[0] + '</b>';
+document.all.modified_on.innerHTML = '<b>' +top.aras.getItemProperty(document.item, "modified_on").split(' ')[0] + '</b>'; 
+} 
+</script>]]></html_code>
+      <is_disabled>0</is_disabled>
+      <is_visible>1</is_visible>
+      <label_position>top</label_position>
+      <list_no_blank>0</list_no_blank>
+      <name>html1</name>
+      <positioning>absolute</positioning>
+      <sort_order>896</sort_order>
+      <source_id keyed_name="DAC6C4C3ECD1412681AAC4460FF79B9B" type="Body">DAC6C4C3ECD1412681AAC4460FF79B9B</source_id>
+      <tab_stop>1</tab_stop>
+      <x>4</x>
+      <y>87</y>
+      </Item>
+     <Item type="Field" id="0F766B1569744F08BC3D0F4EA0A760FC" action="add">
+      <bg_color>#FFFFFF</bg_color>
+      <border_width>0</border_width>
+      <field_type>html</field_type>
+      <font_color>#000000</font_color>
+      <font_family>arial, helvetica, sans-serif</font_family>
+      <font_size>8pt</font_size>
+      <font_weight>bold</font_weight>
+      <html_code><![CDATA[<script>
+function openISO() {
+// find the Controlled Document
+var DocName = "Q-00001";
+var MyResult=top.aras.createXMLDocument();
+MyResult.loadXML( top.aras.applyItem("<Item type='ISO' action='get' levels='0' select='file_name'><item_number>Q-0101</item_number></Item>"))
+var DocItem=MyResult.selectSingleNode("//Item");
+if (DocItem != null) {
+   var FileID = top.aras.getItemProperty(DocItem,"file_name");
+   if (FileID !="") setTimeout("top.aras.uiShowItem('File', '"+ FileID +"', 'openFile')");
+}
+}
+</script>
+<a href="javascript:openISO();">
+<img src=../images/icons/32x32/32x32_iso.gif border=0 alt="View ISO Work Instructions"></a>]]></html_code>
+      <is_disabled>0</is_disabled>
+      <is_visible>1</is_visible>
+      <list_no_blank>0</list_no_blank>
+      <name>iso_icon</name>
+      <positioning>absolute</positioning>
+      <sort_order>1024</sort_order>
+      <source_id keyed_name="DAC6C4C3ECD1412681AAC4460FF79B9B" type="Body">DAC6C4C3ECD1412681AAC4460FF79B9B</source_id>
+      <tab_stop>1</tab_stop>
+      <x>65</x>
+      <y>227</y>
+      </Item>
+     <Item type="Field" id="CA600A5CB97C4C1DB191223ED0BF66A2" action="add">
+      <bg_color>#FFFFFF</bg_color>
+      <border_width>0</border_width>
+      <field_type>html</field_type>
+      <font_color>#000000</font_color>
+      <font_family>arial, helvetica, sans-serif</font_family>
+      <font_size>8pt</font_size>
+      <font_weight>bold</font_weight>
+      <html_code><![CDATA[<iframe name='viewer' id='viewer' width='800' height='400'></iframe>]]></html_code>
+      <is_disabled>0</is_disabled>
+      <is_visible>1</is_visible>
+      <list_no_blank>0</list_no_blank>
+      <name>viewframe</name>
+      <positioning>absolute</positioning>
+      <sort_order>640</sort_order>
+      <source_id keyed_name="DAC6C4C3ECD1412681AAC4460FF79B9B" type="Body">DAC6C4C3ECD1412681AAC4460FF79B9B</source_id>
+      <tab_stop>1</tab_stop>
+      <x>192</x>
+      <y>118</y>
+      </Item>
+    </Relationships>
+   </Item>
+   <Item type="Form Event" id="DED8CBDF54254E10B8234B07633D7A6B" action="add">
+    <form_event>onload</form_event>
+    <related_id keyed_name="QS FishBone File Load" type="Method">
+     <Item type="Method" action="get" select="id">
+      <name>QS FishBone File Load</name>
+     </Item>
+    </related_id>
+    <sort_order>128</sort_order>
+    <source_id keyed_name="FishBone Analysis" type="Form">35F83BFB0F294FCDA49C11810576D9AB</source_id>
+   </Item>
+  </Relationships>
+ </Item>
+</AML>

@@ -1,0 +1,141 @@
+<AML>
+ <Item type="Workflow Map" id="1F045232E6BF433186E22742A3BC1133" action="add">
+  <description>Non-Conformance Report</description>
+  <name>QS NCR</name>
+  <node_bg_color></node_bg_color>
+  <node_label1_color></node_label1_color>
+  <node_label1_font></node_label1_font>
+  <node_label2_color></node_label2_color>
+  <node_label2_font></node_label2_font>
+  <node_name_color></node_name_color>
+  <node_name_font></node_name_font>
+  <node_size></node_size>
+  <process_owner keyed_name="Innovator Admin" type="Identity">
+   <Item type="Identity" action="get" select="id">
+    <name>Innovator Admin</name>
+   </Item>
+  </process_owner>
+  <transition_line_color></transition_line_color>
+  <transition_name_color></transition_name_color>
+  <transition_name_font></transition_name_font>
+  <Relationships>
+   <Item type="Workflow Map Activity" id="BB55B39340D448FCA1DF2301F9B288B0" action="add">
+    <related_id keyed_name="End" type="Activity Template">
+     <Item type="Activity Template" id="16CD33652A294ACCAB5835D1E635AA3B" action="add">
+      <can_delegate>0</can_delegate>
+      <can_refuse>0</can_refuse>
+      <consolidate_ondelegate>0</consolidate_ondelegate>
+      <expected_duration>0</expected_duration>
+      <icon>../images/Icons/16x16/16x16_redx.gif</icon>
+      <is_auto>1</is_auto>
+      <is_end>1</is_end>
+      <is_start>0</is_start>
+      <message>Workflow End</message>
+      <name>End</name>
+      <priority>1</priority>
+      <reminder_count>0</reminder_count>
+      <reminder_interval>0</reminder_interval>
+      <timeout_duration>0</timeout_duration>
+      <wait_for_all_inputs>0</wait_for_all_inputs>
+      <wait_for_all_votes>0</wait_for_all_votes>
+      <x>200</x>
+      <y>20</y>
+      </Item>
+    </related_id>
+    <sort_order>128</sort_order>
+    <source_id keyed_name="QS NCR" type="Workflow Map">1F045232E6BF433186E22742A3BC1133</source_id>
+   </Item>
+   <Item type="Workflow Map Activity" id="1F1FA9DC8BA14D8A86F597427CB25489" action="add">
+    <related_id keyed_name="Quality Review" type="Activity Template">
+     <Item type="Activity Template" id="1F2D3BC4C39141E2B70920A0747C477F" action="add">
+      <can_delegate>1</can_delegate>
+      <can_refuse>1</can_refuse>
+      <consolidate_ondelegate>0</consolidate_ondelegate>
+      <expected_duration>1</expected_duration>
+      <icon>../images/Icons/20x20/20x20_eye1.gif</icon>
+      <is_auto>0</is_auto>
+      <is_end>0</is_end>
+      <is_start>0</is_start>
+      <message>Please Review...</message>
+      <name>Quality Review</name>
+      <wait_for_all_inputs>0</wait_for_all_inputs>
+      <wait_for_all_votes>0</wait_for_all_votes>
+      <x>110</x>
+      <y>20</y>
+      <Relationships>
+       <Item type="Activity Template Assignment" id="112489E6856349BEBAF74481FB501706" action="add">
+        <for_all_members>0</for_all_members>
+        <is_required>1</is_required>
+        <related_id keyed_name="Quality" type="Identity">6A7D911555614B8BB16CD8195CDB3B2A</related_id>
+        <sort_order>128</sort_order>
+        <source_id keyed_name="Quality Review" type="Activity Template">1F2D3BC4C39141E2B70920A0747C477F</source_id>
+        <voting_weight>100</voting_weight>
+       </Item>
+       <Item type="Activity Template Task" id="2EE466BDBB6E4CDE8520D13F8B4AFB31" action="add">
+        <description>Review NCR for content and accuracy</description>
+        <is_required>1</is_required>
+        <sequence>1</sequence>
+        <sort_order>128</sort_order>
+        <source_id keyed_name="Quality Review" type="Activity Template">1F2D3BC4C39141E2B70920A0747C477F</source_id>
+       </Item>
+       <Item type="Workflow Map Path" id="E3E9D299BB3C459E97D3F51A8B28125C" action="add">
+        <authentication>none</authentication>
+        <is_default>0</is_default>
+        <is_override>0</is_override>
+        <name>Complete</name>
+        <related_id>16CD33652A294ACCAB5835D1E635AA3B</related_id>
+        <segments></segments>
+        <sort_order>128</sort_order>
+        <source_id keyed_name="Quality Review" type="Activity Template">1F2D3BC4C39141E2B70920A0747C477F</source_id>
+        <x>14</x>
+        <y>14</y>
+        </Item>
+      </Relationships>
+     </Item>
+    </related_id>
+    <sort_order>256</sort_order>
+    <source_id keyed_name="QS NCR" type="Workflow Map">1F045232E6BF433186E22742A3BC1133</source_id>
+   </Item>
+  
+   <Item type="Workflow Map Activity" id="6089BD021BAE437D87713963EDE85587" action="add">
+    <related_id keyed_name="Start" type="Activity Template">
+     <Item type="Activity Template" id="68D942FCD7234CF4ADCEE710DE8AC2AB" action="add">
+      <can_delegate>0</can_delegate>
+      <can_refuse>0</can_refuse>
+      <consolidate_ondelegate>0</consolidate_ondelegate>
+      <expected_duration>0</expected_duration>
+      <icon>../images/Icons/16x16/16x16_arrow_right.gif</icon>
+      <is_auto>1</is_auto>
+      <is_end>0</is_end>
+      <is_start>1</is_start>
+      <message>Workflow Start</message>
+      <name>Start</name>
+      <priority>2</priority>
+      <reminder_count>0</reminder_count>
+      <reminder_interval>0</reminder_interval>
+      <timeout_duration>0</timeout_duration>
+      <wait_for_all_inputs>0</wait_for_all_inputs>
+      <wait_for_all_votes>0</wait_for_all_votes>
+      <x>20</x>
+      <y>20</y>
+      <Relationships>
+       <Item type="Workflow Map Path" id="BD3840FA14D54FA08555A5384708B0D6" action="add">
+        <authentication>none</authentication>
+        <is_default>1</is_default>
+        <is_override>0</is_override>
+        <name>Review</name>
+        <related_id>1F2D3BC4C39141E2B70920A0747C477F</related_id>
+        <segments></segments>
+        <sort_order>128</sort_order>
+        <source_id keyed_name="Start" type="Activity Template">68D942FCD7234CF4ADCEE710DE8AC2AB</source_id>
+        <x>18</x>
+        <y>14</y>
+        </Item>
+      </Relationships>
+     </Item>
+    </related_id>
+    <sort_order>128</sort_order>
+    <source_id keyed_name="QS NCR" type="Workflow Map">1F045232E6BF433186E22742A3BC1133</source_id>
+   </Item></Relationships>
+ </Item>
+</AML>

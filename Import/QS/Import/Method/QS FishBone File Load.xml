@@ -1,0 +1,28 @@
+<AML>
+ <Item type="Method" id="997B184824E64B8D82E830461F3E1C83" action="add">
+  <method_code><![CDATA[var fishItem = document.thisItem;
+var fileID = fishItem.getProperty("fishbone_file","");
+if (fileID!="") {   
+    var fileItem = fishItem.newItem();
+    fileItem.loadAML("<Item type='File' action='get' select='file_type,filename' id='" + fileID + "'><file_type><Item type='Filetype' action='get' select='id'><Relationships><Item type='View With' action='get' select='related_id(viewer_url)'></Item></Relationships></Item></file_type></Item>");
+    var res = fileItem.apply();
+    res = res.getItemsByXPath("//Item[@type='File']");
+    fileItem=res.getItemByIndex(0);    
+    var fileURL = top.aras.getFileURLEx(fileItem.node);
+    
+    var viewer="";
+    res = res.getItemsByXPath("//Item[@type='Viewer']");
+    if (res.getItemCount() == 1) {
+        viewer  = res.getItemByIndex(0).getProperty("viewer_url");
+	}
+    if (viewer!="")
+       document.all.viewer.src= top.aras.scriptsURL + viewer + '?file_url=' + escape(fileURL);
+    else 
+       document.all.viewer.src=fileURL;
+}
+
+]]></method_code>
+  <method_type>JavaScript</method_type>
+  <name>QS FishBone File Load</name>
+ </Item>
+</AML>

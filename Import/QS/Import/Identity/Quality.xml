@@ -1,0 +1,11 @@
+<AML>
+ <Item type="Identity" id="6A7D911555614B8BB16CD8195CDB3B2A" action="add">
+  <is_alias>0</is_alias>
+  <name>Quality</name>
+  </Item>
+ <Item type="Member" id="6FC79858B1C84145A3CB8747A33BE36A" action="add">
+  <related_id keyed_name="Administrators" type="Identity">2618D6F5A90949BAA7E920D1B04C7EE1</related_id>
+  <sort_order>512</sort_order>
+  <source_id keyed_name="Quality" type="Identity">6A7D911555614B8BB16CD8195CDB3B2A</source_id>
+ </Item>
+</AML>

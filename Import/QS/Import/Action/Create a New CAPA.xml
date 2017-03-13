@@ -1,0 +1,14 @@
+<AML>
+ <Item type="Action" id="080630733CA847B5BF2B98E07ED01B4B" action="add">
+  <item_query>___is_new___</item_query>
+  <location>client</location>
+  <method keyed_name="QS Add Issue to New QAP" type="Method">
+   <Item type="Method" action="get" select="id">
+    <name>QS Add Issue to New QAP</name>
+   </Item>
+  </method>
+  <name>Create a New CAPA</name>
+  <target>none</target>
+  <type>item</type>
+ </Item>
+</AML>

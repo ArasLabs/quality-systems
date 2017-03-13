@@ -1,0 +1,21 @@
+<AML>
+ <Item type="Permission" id="1426EE7C4B2A40CE885876307C40F4BB" action="add">
+  <is_private>0</is_private>
+  <name>Contacts</name>
+  <Relationships>
+   <Item type="Access" id="427B3B5A762B40D4B6F42150A1F68B5E" action="add">
+    <can_change_access>1</can_change_access>
+    <can_delete>1</can_delete>
+    <can_get>1</can_get>
+    <can_update>1</can_update>
+    <related_id keyed_name="World" type="Identity">
+     <Item type="Identity" action="get" select="id">
+      <name>World</name>
+     </Item>
+    </related_id>
+    <sort_order>128</sort_order>
+    <source_id keyed_name="Contacts" type="Permission">1426EE7C4B2A40CE885876307C40F4BB</source_id>
+   </Item>
+  </Relationships>
+ </Item>
+</AML>

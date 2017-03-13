@@ -1,0 +1,30 @@
+<AML>
+ <Item type="Permission" id="12CAB18999974C218F21F04FFFE93F08" action="add">
+  <is_private>0</is_private>
+  <name>Audit</name>
+  <Relationships>
+   <Item type="Access" id="73489F86203D46099C5A0A2F33715A3E" action="add">
+    <can_change_access>1</can_change_access>
+    <can_delete>1</can_delete>
+    <can_get>1</can_get>
+    <can_update>1</can_update>
+    <related_id keyed_name="Administrators" type="Identity">2618D6F5A90949BAA7E920D1B04C7EE1</related_id>
+    <sort_order>256</sort_order>
+    <source_id keyed_name="Audit" type="Permission">12CAB18999974C218F21F04FFFE93F08</source_id>
+   </Item>
+   <Item type="Access" id="B404BCAC011C43A7B8986F9FD6E0E433" action="add">
+    <can_change_access>1</can_change_access>
+    <can_delete>1</can_delete>
+    <can_get>1</can_get>
+    <can_update>1</can_update>
+    <related_id keyed_name="World" type="Identity">
+     <Item type="Identity" action="get" select="id">
+      <name>World</name>
+     </Item>
+    </related_id>
+    <sort_order>128</sort_order>
+    <source_id keyed_name="Audit" type="Permission">12CAB18999974C218F21F04FFFE93F08</source_id>
+   </Item>
+  </Relationships>
+ </Item>
+</AML>

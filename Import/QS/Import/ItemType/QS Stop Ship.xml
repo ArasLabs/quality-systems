@@ -1,0 +1,235 @@
+<AML>
+ <Item type="ItemType" id="0441EBE7DD5E480BB208A71473E7FD18" action="add">
+  <allow_private_permission>0</allow_private_permission>
+  <auto_search>1</auto_search>
+  <default_lifecycle keyed_name="QS Stop Ship" type="Life Cycle Map">5669A47C6EDC4FE88B5AC96406BAEE79</default_lifecycle>
+  <hide_where_used>0</hide_where_used>
+  <implementation_type>table</implementation_type>
+  <instance_data>QS_STOP_SHIP</instance_data>
+  <is_dependent>0</is_dependent>
+  <is_relationship>0</is_relationship>
+  <is_versionable>0</is_versionable>
+  <label>Stop Ship</label>
+  <label_plural>Stop Ship Forms</label_plural>
+  <large_icon>../images/Icons/32x32/32x32_stop.gif</large_icon>
+  <manual_versioning>0</manual_versioning>
+  <name>QS Stop Ship</name>
+  <open_icon>../images/Process/stop2.gif</open_icon>
+  <revisions keyed_name="Default" type="Revision">7FE395DD8B9F4E1090756A34B733D75E</revisions>
+  <save_history>0</save_history>
+  <show_parameters_tab>1</show_parameters_tab>
+  <unlock_on_logout>0</unlock_on_logout>
+  <use_src_access>0</use_src_access>
+  <Relationships>
+   <Item type="Allowed Permission" id="4D7763791DBA495788988CA9FA592C99" action="add">
+    <is_default>1</is_default>
+    <related_id keyed_name="QS Stop Ship" type="Permission">F9BBE93AC39149D0B311D2E40BBA0D4E</related_id>
+    <sort_order>128</sort_order>
+    <source_id keyed_name="QS Stop Ship" type="ItemType" name="QS Stop Ship">0441EBE7DD5E480BB208A71473E7FD18</source_id>
+   </Item>
+   <Item type="Allowed Workflow" id="7753631B77EB48E082AD7CA7D62E6358" action="add">
+    <is_default>1</is_default>
+    <related_id keyed_name="QS Stop Ship" type="Workflow Map">D6EABCF4A7344B0FBC348E71D603AE27</related_id>
+    <sort_order>128</sort_order>
+    <source_id keyed_name="QS Stop Ship" type="ItemType" name="QS Stop Ship">0441EBE7DD5E480BB208A71473E7FD18</source_id>
+   </Item>
+   <Item type="Can Add" id="CC9FAB4AE8F6448BA977565F5B0955D7" action="add">
+    <can_add>1</can_add>
+    <related_id keyed_name="World" type="Identity">
+     <Item type="Identity" action="get" select="id">
+      <name>World</name>
+     </Item>
+    </related_id>
+    <sort_order>128</sort_order>
+    <source_id keyed_name="QS Stop Ship" type="ItemType" name="QS Stop Ship">0441EBE7DD5E480BB208A71473E7FD18</source_id>
+   </Item>
+   <Item type="Property" id="F5FE8CEAF13742DA8FCC03179B84E346" action="add">
+    <column_alignment>left</column_alignment>
+    <column_width>300</column_width>
+    <data_type>string</data_type>
+    <is_hidden>0</is_hidden>
+    <is_hidden2>0</is_hidden2>
+    <is_indexed>0</is_indexed>
+    <is_keyed>0</is_keyed>
+    <is_multi_valued>0</is_multi_valued>
+    <is_required>0</is_required>
+    <label>Reason</label>
+    <name>description</name>
+    <range_inclusive>0</range_inclusive>
+    <readonly>0</readonly>
+    <sort_order>10</sort_order>
+    <source_id keyed_name="QS Stop Ship" type="ItemType" name="QS Stop Ship">0441EBE7DD5E480BB208A71473E7FD18</source_id>
+    <stored_length>128</stored_length>
+    </Item>
+   <Item type="Property" id="5D461E49874A455B9C16F1FE9FFB5FB7" action="add">
+    <column_alignment>left</column_alignment>
+    <data_type>date</data_type>
+    <is_hidden>1</is_hidden>
+    <is_hidden2>1</is_hidden2>
+    <is_indexed>0</is_indexed>
+    <is_keyed>0</is_keyed>
+    <is_multi_valued>0</is_multi_valued>
+    <is_required>0</is_required>
+    <label>Implemented</label>
+    <name>implemented_on</name>
+    <pattern>MM/dd/yyyy</pattern>
+    <range_inclusive>0</range_inclusive>
+    <readonly>0</readonly>
+    <sort_order>55</sort_order>
+    <source_id keyed_name="QS Stop Ship" type="ItemType" name="QS Stop Ship">0441EBE7DD5E480BB208A71473E7FD18</source_id>
+    </Item>
+   <Item type="Property" id="3CBC61B4C17E4D229B866AA97D3ECF16" action="add">
+    <column_alignment>left</column_alignment>
+    <data_type>date</data_type>
+    <is_hidden>1</is_hidden>
+    <is_hidden2>1</is_hidden2>
+    <is_indexed>0</is_indexed>
+    <is_keyed>0</is_keyed>
+    <is_multi_valued>0</is_multi_valued>
+    <is_required>0</is_required>
+    <label>Inspected</label>
+    <name>inspected_on</name>
+    <pattern>MM/dd/yyyy</pattern>
+    <range_inclusive>0</range_inclusive>
+    <readonly>0</readonly>
+    <sort_order>60</sort_order>
+    <source_id keyed_name="QS Stop Ship" type="ItemType" name="QS Stop Ship">0441EBE7DD5E480BB208A71473E7FD18</source_id>
+    </Item>
+   <Item type="Property" id="491D1AFEE39A41228831BD11EFE9EC92" action="add">
+    <column_alignment>left</column_alignment>
+    <column_width>120</column_width>
+    <data_source keyed_name="QS Stop Ship">F3D7949F82CF4042ACD9DED1FAADE196</data_source>
+    <data_type>sequence</data_type>
+    <is_hidden>0</is_hidden>
+    <is_hidden2>0</is_hidden2>
+    <is_indexed>0</is_indexed>
+    <is_keyed>0</is_keyed>
+    <is_multi_valued>0</is_multi_valued>
+    <is_required>0</is_required>
+    <keyed_name_order>1</keyed_name_order>
+    <label>Stop Ship ID</label>
+    <name>item_number</name>
+    <order_by>1</order_by>
+    <range_inclusive>0</range_inclusive>
+    <readonly>0</readonly>
+    <sort_order>1</sort_order>
+    <source_id keyed_name="QS Stop Ship" type="ItemType" name="QS Stop Ship">0441EBE7DD5E480BB208A71473E7FD18</source_id>
+    </Item>
+   <Item type="Property" id="C22BB01501EB4556B84559D9DA99D6E2" action="add">
+    <column_alignment>left</column_alignment>
+    <column_width>100</column_width>
+    <data_source keyed_name="Part" type="ItemType" name="Part">4F1AC04A2B484F3ABA4E20DB63808A88</data_source>
+    <data_type>item</data_type>
+    <is_hidden>0</is_hidden>
+    <is_hidden2>0</is_hidden2>
+    <is_indexed>0</is_indexed>
+    <is_keyed>0</is_keyed>
+    <is_multi_valued>0</is_multi_valued>
+    <is_required>0</is_required>
+    <item_behavior>float</item_behavior>
+    <label>Part</label>
+    <name>part</name>
+    <range_inclusive>0</range_inclusive>
+    <readonly>0</readonly>
+    <sort_order>10</sort_order>
+    <source_id keyed_name="QS Stop Ship" type="ItemType" name="QS Stop Ship">0441EBE7DD5E480BB208A71473E7FD18</source_id>
+    </Item>
+   <Item type="TOC Access" id="3D0907694D5743899D6F7ABBE443BE5C" action="add">
+    <category>Quality</category>
+    <related_id keyed_name="World" type="Identity">
+     <Item type="Identity" action="get" select="id">
+      <name>World</name>
+     </Item>
+    </related_id>
+    <sort_order>128</sort_order>
+    <source_id keyed_name="QS Stop Ship" type="ItemType" name="QS Stop Ship">0441EBE7DD5E480BB208A71473E7FD18</source_id>
+   </Item>
+   <Item type="View" id="51FA665BEEB941889805F492C9D88CD0" action="add">
+    <client>js</client>
+    <related_id keyed_name="QS Stop Ship" type="Form">153D4EF9661347AD9D40712588608945</related_id>
+    <role keyed_name="World" type="Identity">
+     <Item type="Identity" action="get" select="id">
+      <name>World</name>
+     </Item>
+    </role>
+    <sort_order>128</sort_order>
+    <source_id keyed_name="QS Stop Ship" type="ItemType" name="QS Stop Ship">0441EBE7DD5E480BB208A71473E7FD18</source_id>
+    <type>default</type>
+   </Item>
+  </Relationships>
+ </Item>
+ <Item type="Property" action="edit" where="source_id='0441EBE7DD5E480BB208A71473E7FD18' and name='created_on'">
+  <column_alignment>center</column_alignment>
+  <column_width>150</column_width>
+  <data_type>date</data_type>
+  <is_hidden>0</is_hidden>
+  <is_hidden2>0</is_hidden2>
+  <is_indexed>0</is_indexed>
+  <is_keyed>0</is_keyed>
+  <is_multi_valued>0</is_multi_valued>
+  <is_required>1</is_required>
+  <label>Issued Date</label>
+  <name>created_on</name>
+  <pattern>MM/dd/yyyy hh:mm:ss a</pattern>
+  <range_inclusive>0</range_inclusive>
+  <readonly>1</readonly>
+  <sort_order>4</sort_order>
+  <source_id keyed_name="QS Stop Ship" type="ItemType" name="QS Stop Ship">0441EBE7DD5E480BB208A71473E7FD18</source_id>
+  </Item>
+ <Item type="Property" action="edit" where="source_id='0441EBE7DD5E480BB208A71473E7FD18' and name='managed_by_id'">
+  <column_alignment>left</column_alignment>
+  <column_width>100</column_width>
+  <data_source keyed_name="Identity" type="ItemType" name="Identity">E582AB17663F4EF28460015B2BE9E094</data_source>
+  <data_type>item</data_type>
+  <is_hidden>0</is_hidden>
+  <is_hidden2>0</is_hidden2>
+  <is_indexed>0</is_indexed>
+  <is_keyed>0</is_keyed>
+  <is_multi_valued>0</is_multi_valued>
+  <is_required>0</is_required>
+  <item_behavior>float</item_behavior>
+  <label>Inspector</label>
+  <name>managed_by_id</name>
+  <range_inclusive>0</range_inclusive>
+  <readonly>0</readonly>
+  <sort_order>40</sort_order>
+  <source_id keyed_name="QS Stop Ship" type="ItemType" name="QS Stop Ship">0441EBE7DD5E480BB208A71473E7FD18</source_id>
+  </Item>
+ <Item type="Property" action="edit" where="source_id='0441EBE7DD5E480BB208A71473E7FD18' and name='owned_by_id'">
+  <column_alignment>left</column_alignment>
+  <column_width>100</column_width>
+  <data_source keyed_name="Identity" type="ItemType" name="Identity">E582AB17663F4EF28460015B2BE9E094</data_source>
+  <data_type>item</data_type>
+  <is_hidden>0</is_hidden>
+  <is_hidden2>0</is_hidden2>
+  <is_indexed>0</is_indexed>
+  <is_keyed>0</is_keyed>
+  <is_multi_valued>0</is_multi_valued>
+  <is_required>0</is_required>
+  <item_behavior>float</item_behavior>
+  <label>Responsible</label>
+  <name>owned_by_id</name>
+  <range_inclusive>0</range_inclusive>
+  <readonly>0</readonly>
+  <sort_order>11</sort_order>
+  <source_id keyed_name="QS Stop Ship" type="ItemType" name="QS Stop Ship">0441EBE7DD5E480BB208A71473E7FD18</source_id>
+  </Item>
+ <Item type="Property" action="edit" where="source_id='0441EBE7DD5E480BB208A71473E7FD18' and name='state'">
+  <column_alignment>center</column_alignment>
+  <column_width>90</column_width>
+  <data_type>string</data_type>
+  <is_hidden>0</is_hidden>
+  <is_hidden2>0</is_hidden2>
+  <is_indexed>0</is_indexed>
+  <is_keyed>0</is_keyed>
+  <is_multi_valued>0</is_multi_valued>
+  <is_required>0</is_required>
+  <label>Status</label>
+  <name>state</name>
+  <range_inclusive>0</range_inclusive>
+  <readonly>1</readonly>
+  <sort_order>2</sort_order>
+  <source_id keyed_name="QS Stop Ship" type="ItemType" name="QS Stop Ship">0441EBE7DD5E480BB208A71473E7FD18</source_id>
+  <stored_length>32</stored_length>
+  </Item>
+</AML>

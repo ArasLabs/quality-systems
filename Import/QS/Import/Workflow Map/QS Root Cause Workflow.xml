@@ -1,0 +1,214 @@
+<AML>
+ <Item type="Workflow Map" id="BEABCBC6779248EC87174BE3AEB0A661" action="add">
+  <description>Work flow to determine the root cause of an issue</description>
+  <name>QS Root Cause Workflow</name>
+  <node_bg_color></node_bg_color>
+  <node_label1_color></node_label1_color>
+  <node_label1_font></node_label1_font>
+  <node_label2_color></node_label2_color>
+  <node_label2_font></node_label2_font>
+  <node_name_color></node_name_color>
+  <node_name_font></node_name_font>
+  <node_size></node_size>
+  <process_owner keyed_name="Quality Manager" type="Identity">C55A2237BE044BA7A64353D6F1A774EA</process_owner>
+  <transition_line_color></transition_line_color>
+  <transition_name_color></transition_name_color>
+  <transition_name_font></transition_name_font>
+  <Relationships>
+   <Item type="Workflow Map Activity" id="DA127C040C0A4A22AE2904D8643ED568" action="add">
+    <related_id keyed_name="Facilitate " type="Activity Template">
+     <Item type="Activity Template" id="9752F8E01F5743FBB9969CD375476A89" action="add">
+      <can_delegate>1</can_delegate>
+      <can_refuse>1</can_refuse>
+      <consolidate_ondelegate>0</consolidate_ondelegate>
+      <escalate_to keyed_name="Quality Planning" type="Identity">59C3B3567DA441529BB265886514C907</escalate_to>
+      <icon>../images/Icons/20x20/20x22_gray_ball.gif</icon>
+      <is_auto>0</is_auto>
+      <is_end>0</is_end>
+      <is_start>0</is_start>
+      <message>Facilitate 5 Why's session</message>
+      <name>Facilitate </name>
+      <wait_for_all_inputs>0</wait_for_all_inputs>
+      <wait_for_all_votes>0</wait_for_all_votes>
+      <x>230</x>
+      <y>20</y>
+      <Relationships>
+       <Item type="Workflow Map Path" id="BEB1E3CA8AEC42A3B63CE1258A7EB5A4" action="add">
+        <authentication>none</authentication>
+        <is_default>1</is_default>
+        <is_override>0</is_override>
+        <name>Complete</name>
+        <related_id>FA743656D24F405E9860E53BBD1307B0</related_id>
+        <sort_order>128</sort_order>
+        <source_id keyed_name="Facilitate " type="Activity Template">9752F8E01F5743FBB9969CD375476A89</source_id>
+        </Item>
+      </Relationships>
+     </Item>
+    </related_id>
+    <sort_order>384</sort_order>
+    <source_id keyed_name="QS Root Cause Workflow" type="Workflow Map">BEABCBC6779248EC87174BE3AEB0A661</source_id>
+   </Item>
+   <Item type="Workflow Map Activity" id="D26370AC4876420E96E62112A9CAF393" action="add">
+    <related_id keyed_name="Initiate Root Cause" type="Activity Template">
+     <Item type="Activity Template" id="7D118D7623E64BCFBB57FFDE8A0A440C" action="add">
+      <can_delegate>1</can_delegate>
+      <can_refuse>1</can_refuse>
+      <consolidate_ondelegate>0</consolidate_ondelegate>
+      <icon>../images/Icons/20x20/20x22_gray_ball.gif</icon>
+      <is_auto>0</is_auto>
+      <is_end>0</is_end>
+      <is_start>0</is_start>
+      <message>Please Review...</message>
+      <name>Initiate Root Cause</name>
+      <wait_for_all_inputs>0</wait_for_all_inputs>
+      <wait_for_all_votes>0</wait_for_all_votes>
+      <x>119</x>
+      <y>20</y>
+      <Relationships>
+       <Item type="Workflow Map Path" id="71122C937E50450FB1C1489C24F5991C" action="add">
+        <authentication>none</authentication>
+        <is_default>1</is_default>
+        <is_override>0</is_override>
+        <name>Meeting</name>
+        <related_id>9752F8E01F5743FBB9969CD375476A89</related_id>
+        <segments></segments>
+        <sort_order>128</sort_order>
+        <source_id keyed_name="Initiate Root Cause" type="Activity Template">7D118D7623E64BCFBB57FFDE8A0A440C</source_id>
+        <x>33</x>
+        <y>11</y>
+        </Item>
+      </Relationships>
+     </Item>
+    </related_id>
+    <sort_order>256</sort_order>
+    <source_id keyed_name="QS Root Cause Workflow" type="Workflow Map">BEABCBC6779248EC87174BE3AEB0A661</source_id>
+   </Item>
+   <Item type="Workflow Map Activity" id="19DCCF9BC57B491682797420B01E1DB8" action="add">
+    <related_id keyed_name="Publish Root Cause" type="Activity Template">
+     <Item type="Activity Template" id="6CF3CB7DE43A4E7A813D980FF9B1A411" action="add">
+      <can_delegate>0</can_delegate>
+      <can_refuse>0</can_refuse>
+      <consolidate_ondelegate>0</consolidate_ondelegate>
+      <expected_duration>0</expected_duration>
+      <icon>../images/Icons/16x16/16x16_redx.gif</icon>
+      <is_auto>1</is_auto>
+      <is_end>1</is_end>
+      <is_start>0</is_start>
+      <message>Complete root cause determination</message>
+      <name>Publish Root Cause</name>
+      <priority>1</priority>
+      <reminder_count>0</reminder_count>
+      <reminder_interval>0</reminder_interval>
+      <timeout_duration>0</timeout_duration>
+      <wait_for_all_inputs>0</wait_for_all_inputs>
+      <wait_for_all_votes>0</wait_for_all_votes>
+      <x>537</x>
+      <y>20</y>
+      </Item>
+    </related_id>
+    <sort_order>128</sort_order>
+    <source_id keyed_name="QS Root Cause Workflow" type="Workflow Map">BEABCBC6779248EC87174BE3AEB0A661</source_id>
+   </Item>
+   <Item type="Workflow Map Activity" id="4A35BC94509A4578895A02BB8DF1DCF2" action="add">
+    <related_id keyed_name="Root Cause Sign-Off" type="Activity Template">
+     <Item type="Activity Template" id="FA743656D24F405E9860E53BBD1307B0" action="add">
+      <can_delegate>1</can_delegate>
+      <can_refuse>1</can_refuse>
+      <consolidate_ondelegate>0</consolidate_ondelegate>
+      <escalate_to>2B9EA071DF80431B98D2277CFCEEAED8</escalate_to>
+      <icon>../images/Icons/20x20/20x22_gray_ball.gif</icon>
+      <is_auto>0</is_auto>
+      <is_end>0</is_end>
+      <is_start>0</is_start>
+      <message>Please Review...</message>
+      <name>Root Cause Sign-Off</name>
+      <wait_for_all_inputs>0</wait_for_all_inputs>
+      <wait_for_all_votes>0</wait_for_all_votes>
+      <x>383</x>
+      <y>20</y>
+      <Relationships>
+       <Item type="Activity Template Assignment" id="729BBBBB927E4C39939F96FC406891BA" action="add">
+        <escalate_to keyed_name="Engineering Manager" type="Identity">0139E7EAF90B4CECB20F6152E3B1F48A</escalate_to>
+        <for_all_members>0</for_all_members>
+        <is_required>1</is_required>
+        <related_id keyed_name="Engineering" type="Identity">A6A115DCD7E2439FAA479DDE3B8B47E4</related_id>
+        <sort_order>384</sort_order>
+        <source_id keyed_name="Root Cause Sign-Off" type="Activity Template">FA743656D24F405E9860E53BBD1307B0</source_id>
+        <voting_weight>100</voting_weight>
+       </Item>
+       <Item type="Activity Template Assignment" id="608154CC963B49CAB625E726D97C48B0" action="add">
+        <escalate_to keyed_name="Plant Manager" type="Identity">0756DBF20D8C4DE1B203246A784214D6</escalate_to>
+        <for_all_members>0</for_all_members>
+        <is_required>1</is_required>
+        <related_id keyed_name="Manufacturing" type="Identity">D8FF0B279412440A8B023A45D3965C01</related_id>
+        <sort_order>256</sort_order>
+        <source_id keyed_name="Root Cause Sign-Off" type="Activity Template">FA743656D24F405E9860E53BBD1307B0</source_id>
+        <voting_weight>100</voting_weight>
+       </Item>
+       <Item type="Activity Template Assignment" id="15AC54DADE2348D7BA473AFBD5435E16" action="add">
+        <escalate_to keyed_name="Quality Manager" type="Identity">C55A2237BE044BA7A64353D6F1A774EA</escalate_to>
+        <for_all_members>0</for_all_members>
+        <is_required>1</is_required>
+        <related_id keyed_name="Quality Planning" type="Identity">59C3B3567DA441529BB265886514C907</related_id>
+        <sort_order>128</sort_order>
+        <source_id keyed_name="Root Cause Sign-Off" type="Activity Template">FA743656D24F405E9860E53BBD1307B0</source_id>
+        <voting_weight>100</voting_weight>
+       </Item>
+       <Item type="Workflow Map Path" id="439ABFFCD7664427B05BD4AD34E52BF5" action="add">
+        <authentication>none</authentication>
+        <is_default>0</is_default>
+        <is_override>0</is_override>
+        <name>Publish Root Cause</name>
+        <related_id>6CF3CB7DE43A4E7A813D980FF9B1A411</related_id>
+        <segments></segments>
+        <sort_order>128</sort_order>
+        <source_id keyed_name="Root Cause Sign-Off" type="Activity Template">FA743656D24F405E9860E53BBD1307B0</source_id>
+        <x>20</x>
+        <y>14</y>
+        </Item>
+      </Relationships>
+     </Item>
+    </related_id>
+    <sort_order>512</sort_order>
+    <source_id keyed_name="QS Root Cause Workflow" type="Workflow Map">BEABCBC6779248EC87174BE3AEB0A661</source_id>
+   </Item>
+  
+   <Item type="Workflow Map Activity" id="BA2EF0689F3946DEB5EBDDE153727C3C" action="add">
+    <related_id keyed_name="Start" type="Activity Template">
+     <Item type="Activity Template" id="B1678C113D1049818AEE9547BE7B35E2" action="add">
+      <can_delegate>0</can_delegate>
+      <can_refuse>0</can_refuse>
+      <consolidate_ondelegate>0</consolidate_ondelegate>
+      <expected_duration>0</expected_duration>
+      <icon>../images/Icons/16x16/16x16_action.gif</icon>
+      <is_auto>1</is_auto>
+      <is_end>0</is_end>
+      <is_start>1</is_start>
+      <message>Workflow Start</message>
+      <name>Start</name>
+      <priority>2</priority>
+      <reminder_count>0</reminder_count>
+      <reminder_interval>0</reminder_interval>
+      <timeout_duration>0</timeout_duration>
+      <wait_for_all_inputs>0</wait_for_all_inputs>
+      <wait_for_all_votes>0</wait_for_all_votes>
+      <x>20</x>
+      <y>20</y>
+      <Relationships>
+       <Item type="Workflow Map Path" id="2CDEC4A0A35C41F2AC2894D9D95BFF95" action="add">
+        <authentication>none</authentication>
+        <is_default>1</is_default>
+        <is_override>0</is_override>
+        <name>Start</name>
+        <related_id>7D118D7623E64BCFBB57FFDE8A0A440C</related_id>
+        <sort_order>128</sort_order>
+        <source_id keyed_name="Start" type="Activity Template">B1678C113D1049818AEE9547BE7B35E2</source_id>
+        </Item>
+      </Relationships>
+     </Item>
+    </related_id>
+    <sort_order>128</sort_order>
+    <source_id keyed_name="QS Root Cause Workflow" type="Workflow Map">BEABCBC6779248EC87174BE3AEB0A661</source_id>
+   </Item></Relationships>
+ </Item>
+</AML>

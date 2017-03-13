@@ -1,0 +1,17 @@
+<AML>
+ <Item type="Identity" id="CAAFEC43A85C4243A8FE26881A28772A" action="add">
+  <description>All company employees</description>
+  <is_alias>0</is_alias>
+  <name>Enterprise</name>
+  </Item>
+ <Item type="Member" id="7B3697717F5F4E589C1278A7251325C1" action="add">
+  <related_id keyed_name="Administrators" type="Identity">2618D6F5A90949BAA7E920D1B04C7EE1</related_id>
+  <sort_order>128</sort_order>
+  <source_id keyed_name="Enterprise" type="Identity">CAAFEC43A85C4243A8FE26881A28772A</source_id>
+ </Item>
+
+ <Item type="Member" id="3B2B8395996D4F1BB9F67AAB5D6A4999" action="add">
+  <related_id keyed_name="All Employees" type="Identity">B32BD81D1AD04207BF1E61E39A4E0E13</related_id>
+  <sort_order>256</sort_order>
+  <source_id keyed_name="Enterprise" type="Identity">CAAFEC43A85C4243A8FE26881A28772A</source_id>
+ </Item></AML>

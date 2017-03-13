@@ -1,0 +1,312 @@
+<AML>
+ <Item type="ItemType" id="A48B9F14A67B422D81628B7B4823C53F" action="add">
+  <allow_private_permission>1</allow_private_permission>
+  <auto_search>1</auto_search>
+  <default_lifecycle keyed_name="QS Five Why's" type="Life Cycle Map">4A1D6521F57B4CE485814CF1FE16FA52</default_lifecycle>
+  <hide_where_used>0</hide_where_used>
+  <implementation_type>table</implementation_type>
+  <instance_data>FIVE_WHYS</instance_data>
+  <is_dependent>0</is_dependent>
+  <is_relationship>0</is_relationship>
+  <is_versionable>0</is_versionable>
+  <label>5 Why's</label>
+  <large_icon>../images/Icons/32x32/32x32_searches.gif</large_icon>
+  <manual_versioning>0</manual_versioning>
+  <name>Five Whys</name>
+  <open_icon>../images/Icons/16x16/16x16_lists.gif</open_icon>
+  <revisions keyed_name="Default" type="Revision">7FE395DD8B9F4E1090756A34B733D75E</revisions>
+  <save_history>0</save_history>
+  <show_parameters_tab>1</show_parameters_tab>
+  <unlock_on_logout>0</unlock_on_logout>
+  <use_src_access>0</use_src_access>
+  <Relationships>
+   <Item type="Allowed Permission" id="C104A0EEDBEC49D190E10EC9629288E3" action="add">
+    <is_default>1</is_default>
+    <related_id keyed_name="Five Whys" type="Permission">4233967E293744BABAB3279B4B3FB972</related_id>
+    <sort_order>128</sort_order>
+    <source_id keyed_name="Five Whys" type="ItemType" name="Five Whys">A48B9F14A67B422D81628B7B4823C53F</source_id>
+   </Item>
+   <Item type="Allowed Workflow" id="4E0CB0C60AE64B489B48AED66B693F8F" action="add">
+    <is_default>0</is_default>
+    <sort_order>128</sort_order>
+    <source_id keyed_name="Five Whys" type="ItemType" name="Five Whys">A48B9F14A67B422D81628B7B4823C53F</source_id>
+   </Item>
+   <Item type="Can Add" id="7C2CAFFF8806413F975F1B104822A2BE" action="add">
+    <can_add>1</can_add>
+    <related_id keyed_name="World" type="Identity">
+     <Item type="Identity" action="get" select="id">
+      <name>World</name>
+     </Item>
+    </related_id>
+    <sort_order>128</sort_order>
+    <source_id keyed_name="Five Whys" type="ItemType" name="Five Whys">A48B9F14A67B422D81628B7B4823C53F</source_id>
+   </Item>
+   <Item type="Property" id="2DF63242D9954418A20F63421045B568" action="add">
+    <column_alignment>left</column_alignment>
+    <column_width>600</column_width>
+    <data_type>string</data_type>
+    <is_hidden>0</is_hidden>
+    <is_hidden2>0</is_hidden2>
+    <is_indexed>0</is_indexed>
+    <is_keyed>0</is_keyed>
+    <is_multi_valued>0</is_multi_valued>
+    <is_required>0</is_required>
+    <label>Problem Description</label>
+    <name>description</name>
+    <range_inclusive>0</range_inclusive>
+    <readonly>0</readonly>
+    <sort_order>4</sort_order>
+    <source_id keyed_name="Five Whys" type="ItemType" name="Five Whys">A48B9F14A67B422D81628B7B4823C53F</source_id>
+    <stored_length>255</stored_length>
+    </Item>
+   <Item type="Property" id="ABD6CF25B3E74CDBB91B6C31FE82807E" action="add">
+    <column_alignment>left</column_alignment>
+    <column_width>80</column_width>
+    <data_source keyed_name="QS 5 Why Root Cause">3DBCD5736DC5422291AEEFE879DAD1E1</data_source>
+    <data_type>sequence</data_type>
+    <is_hidden>0</is_hidden>
+    <is_hidden2>0</is_hidden2>
+    <is_indexed>0</is_indexed>
+    <is_keyed>0</is_keyed>
+    <is_multi_valued>0</is_multi_valued>
+    <is_required>0</is_required>
+    <label>Root Cause Number</label>
+    <name>item_number</name>
+    <range_inclusive>0</range_inclusive>
+    <readonly>0</readonly>
+    <sort_order>2</sort_order>
+    <source_id keyed_name="Five Whys" type="ItemType" name="Five Whys">A48B9F14A67B422D81628B7B4823C53F</source_id>
+    </Item>
+   <Item type="Property" id="4FF5F0485F5348148636C26F3DD9999A" action="add">
+    <column_alignment>left</column_alignment>
+    <column_width>80</column_width>
+    <data_source keyed_name="Part" type="ItemType" name="Part">4F1AC04A2B484F3ABA4E20DB63808A88</data_source>
+    <data_type>item</data_type>
+    <is_hidden>0</is_hidden>
+    <is_hidden2>0</is_hidden2>
+    <is_indexed>0</is_indexed>
+    <is_keyed>0</is_keyed>
+    <is_multi_valued>0</is_multi_valued>
+    <is_required>0</is_required>
+    <item_behavior>float</item_behavior>
+    <label>part</label>
+    <name>part</name>
+    <range_inclusive>0</range_inclusive>
+    <readonly>0</readonly>
+    <sort_order>4864</sort_order>
+    <source_id keyed_name="Five Whys" type="ItemType" name="Five Whys">A48B9F14A67B422D81628B7B4823C53F</source_id>
+    </Item>
+   <Item type="Property" id="0D67847FE5AE4E78BF913B2CB5411B3C" action="add">
+    <column_alignment>left</column_alignment>
+    <column_width>80</column_width>
+    <data_source keyed_name="User" type="ItemType" name="User">45E899CD2859442982EB22BB2DF683E5</data_source>
+    <data_type>item</data_type>
+    <is_hidden>1</is_hidden>
+    <is_hidden2>1</is_hidden2>
+    <is_indexed>0</is_indexed>
+    <is_keyed>0</is_keyed>
+    <is_multi_valued>0</is_multi_valued>
+    <is_required>0</is_required>
+    <item_behavior>float</item_behavior>
+    <label>Responsible Manager</label>
+    <name>responsible_manager</name>
+    <range_inclusive>0</range_inclusive>
+    <readonly>0</readonly>
+    <sort_order>1536</sort_order>
+    <source_id keyed_name="Five Whys" type="ItemType" name="Five Whys">A48B9F14A67B422D81628B7B4823C53F</source_id>
+    </Item>
+   <Item type="Property" id="110BDC0CE3BF4787A29A2B5DEBAF5691" action="add">
+    <column_alignment>left</column_alignment>
+    <column_width>80</column_width>
+    <data_type>text</data_type>
+    <is_hidden>1</is_hidden>
+    <is_hidden2>1</is_hidden2>
+    <is_indexed>0</is_indexed>
+    <is_keyed>0</is_keyed>
+    <is_multi_valued>0</is_multi_valued>
+    <is_required>0</is_required>
+    <label>Why 1</label>
+    <name>why_1</name>
+    <range_inclusive>0</range_inclusive>
+    <readonly>0</readonly>
+    <sort_order>128</sort_order>
+    <source_id keyed_name="Five Whys" type="ItemType" name="Five Whys">A48B9F14A67B422D81628B7B4823C53F</source_id>
+    </Item>
+   <Item type="Property" id="36E75EAC29BE4803A37827C7283C0C6F" action="add">
+    <column_alignment>left</column_alignment>
+    <column_width>80</column_width>
+    <data_type>text</data_type>
+    <is_hidden>1</is_hidden>
+    <is_hidden2>1</is_hidden2>
+    <is_indexed>0</is_indexed>
+    <is_keyed>0</is_keyed>
+    <is_multi_valued>0</is_multi_valued>
+    <is_required>0</is_required>
+    <label>Why 1 Answer</label>
+    <name>why_1_answer</name>
+    <range_inclusive>0</range_inclusive>
+    <readonly>0</readonly>
+    <sort_order>256</sort_order>
+    <source_id keyed_name="Five Whys" type="ItemType" name="Five Whys">A48B9F14A67B422D81628B7B4823C53F</source_id>
+    </Item>
+   <Item type="Property" id="70756AB18B2449BE86DAAD155B49AA8D" action="add">
+    <column_alignment>left</column_alignment>
+    <column_width>80</column_width>
+    <data_type>text</data_type>
+    <is_hidden>1</is_hidden>
+    <is_hidden2>1</is_hidden2>
+    <is_indexed>0</is_indexed>
+    <is_keyed>0</is_keyed>
+    <is_multi_valued>0</is_multi_valued>
+    <is_required>0</is_required>
+    <label>Why 2</label>
+    <name>why_2</name>
+    <range_inclusive>0</range_inclusive>
+    <readonly>0</readonly>
+    <sort_order>384</sort_order>
+    <source_id keyed_name="Five Whys" type="ItemType" name="Five Whys">A48B9F14A67B422D81628B7B4823C53F</source_id>
+    </Item>
+   <Item type="Property" id="C1543C586CC841F8887CB3E3946949FE" action="add">
+    <column_alignment>left</column_alignment>
+    <column_width>80</column_width>
+    <data_type>text</data_type>
+    <is_hidden>1</is_hidden>
+    <is_hidden2>1</is_hidden2>
+    <is_indexed>0</is_indexed>
+    <is_keyed>0</is_keyed>
+    <is_multi_valued>0</is_multi_valued>
+    <is_required>0</is_required>
+    <label>Why 2 Answer</label>
+    <name>why_2_answer</name>
+    <range_inclusive>0</range_inclusive>
+    <readonly>0</readonly>
+    <sort_order>512</sort_order>
+    <source_id keyed_name="Five Whys" type="ItemType" name="Five Whys">A48B9F14A67B422D81628B7B4823C53F</source_id>
+    </Item>
+   <Item type="Property" id="EAC733DF1EDB4296AD6C810D8492D6EF" action="add">
+    <column_alignment>left</column_alignment>
+    <column_width>80</column_width>
+    <data_type>text</data_type>
+    <is_hidden>1</is_hidden>
+    <is_hidden2>1</is_hidden2>
+    <is_indexed>0</is_indexed>
+    <is_keyed>0</is_keyed>
+    <is_multi_valued>0</is_multi_valued>
+    <is_required>0</is_required>
+    <label>Why 3</label>
+    <name>why_3</name>
+    <range_inclusive>0</range_inclusive>
+    <readonly>0</readonly>
+    <sort_order>640</sort_order>
+    <source_id keyed_name="Five Whys" type="ItemType" name="Five Whys">A48B9F14A67B422D81628B7B4823C53F</source_id>
+    </Item>
+   <Item type="Property" id="5E262555FCA248FAAE2FE598DC5777A1" action="add">
+    <column_alignment>left</column_alignment>
+    <column_width>80</column_width>
+    <data_type>text</data_type>
+    <is_hidden>1</is_hidden>
+    <is_hidden2>1</is_hidden2>
+    <is_indexed>0</is_indexed>
+    <is_keyed>0</is_keyed>
+    <is_multi_valued>0</is_multi_valued>
+    <is_required>0</is_required>
+    <label>Why 3 Answer</label>
+    <name>why_3_answer</name>
+    <range_inclusive>0</range_inclusive>
+    <readonly>0</readonly>
+    <sort_order>768</sort_order>
+    <source_id keyed_name="Five Whys" type="ItemType" name="Five Whys">A48B9F14A67B422D81628B7B4823C53F</source_id>
+    </Item>
+   <Item type="Property" id="7AC0C81FD89147F59E3D0469A64010BA" action="add">
+    <column_alignment>left</column_alignment>
+    <column_width>80</column_width>
+    <data_type>text</data_type>
+    <is_hidden>1</is_hidden>
+    <is_hidden2>1</is_hidden2>
+    <is_indexed>0</is_indexed>
+    <is_keyed>0</is_keyed>
+    <is_multi_valued>0</is_multi_valued>
+    <is_required>0</is_required>
+    <label>Why 4</label>
+    <name>why_4</name>
+    <range_inclusive>0</range_inclusive>
+    <readonly>0</readonly>
+    <sort_order>896</sort_order>
+    <source_id keyed_name="Five Whys" type="ItemType" name="Five Whys">A48B9F14A67B422D81628B7B4823C53F</source_id>
+    </Item>
+   <Item type="Property" id="18D120C4D6B54DD2B03E6CA4DA329CFB" action="add">
+    <column_alignment>left</column_alignment>
+    <column_width>80</column_width>
+    <data_type>text</data_type>
+    <is_hidden>1</is_hidden>
+    <is_hidden2>1</is_hidden2>
+    <is_indexed>0</is_indexed>
+    <is_keyed>0</is_keyed>
+    <is_multi_valued>0</is_multi_valued>
+    <is_required>0</is_required>
+    <label>Why 4 Answer</label>
+    <name>why_4_answer</name>
+    <range_inclusive>0</range_inclusive>
+    <readonly>0</readonly>
+    <sort_order>1024</sort_order>
+    <source_id keyed_name="Five Whys" type="ItemType" name="Five Whys">A48B9F14A67B422D81628B7B4823C53F</source_id>
+    </Item>
+   <Item type="Property" id="6449E26BEAA744B7A22C2F64638410D4" action="add">
+    <column_alignment>left</column_alignment>
+    <column_width>80</column_width>
+    <data_type>text</data_type>
+    <is_hidden>1</is_hidden>
+    <is_hidden2>1</is_hidden2>
+    <is_indexed>0</is_indexed>
+    <is_keyed>0</is_keyed>
+    <is_multi_valued>0</is_multi_valued>
+    <is_required>0</is_required>
+    <label>Why 5</label>
+    <name>why_5</name>
+    <range_inclusive>0</range_inclusive>
+    <readonly>0</readonly>
+    <sort_order>1152</sort_order>
+    <source_id keyed_name="Five Whys" type="ItemType" name="Five Whys">A48B9F14A67B422D81628B7B4823C53F</source_id>
+    </Item>
+   <Item type="Property" id="E7E593832E88490EA3F943F5D82E1606" action="add">
+    <column_alignment>left</column_alignment>
+    <column_width>80</column_width>
+    <data_type>text</data_type>
+    <is_hidden>1</is_hidden>
+    <is_hidden2>1</is_hidden2>
+    <is_indexed>0</is_indexed>
+    <is_keyed>0</is_keyed>
+    <is_multi_valued>0</is_multi_valued>
+    <is_required>0</is_required>
+    <label>Why 5 Answer</label>
+    <name>why_5_answer</name>
+    <range_inclusive>0</range_inclusive>
+    <readonly>0</readonly>
+    <sort_order>1280</sort_order>
+    <source_id keyed_name="Five Whys" type="ItemType" name="Five Whys">A48B9F14A67B422D81628B7B4823C53F</source_id>
+    </Item>
+   <Item type="TOC Access" id="67D1ACCABC5A42AD989C2F8A6C0AA828" action="add">
+    <category>Documents</category>
+    <related_id keyed_name="World" type="Identity">
+     <Item type="Identity" action="get" select="id">
+      <name>World</name>
+     </Item>
+    </related_id>
+    <sort_order>128</sort_order>
+    <source_id keyed_name="Five Whys" type="ItemType" name="Five Whys">A48B9F14A67B422D81628B7B4823C53F</source_id>
+   </Item>
+   <Item type="View" id="852574A31E504A4B9AC0DCCFDE5A474E" action="add">
+    <client>js</client>
+    <related_id keyed_name="Five Whys" type="Form">0D564DE6759B4D65AF31C2B9CD5CF79E</related_id>
+    <role keyed_name="World" type="Identity">
+     <Item type="Identity" action="get" select="id">
+      <name>World</name>
+     </Item>
+    </role>
+    <sort_order>128</sort_order>
+    <source_id keyed_name="Five Whys" type="ItemType" name="Five Whys">A48B9F14A67B422D81628B7B4823C53F</source_id>
+    <type>default</type>
+   </Item>
+  </Relationships>
+ </Item>
+</AML>

@@ -1,0 +1,12 @@
+<AML>
+ <Item type="Identity" id="A6A115DCD7E2439FAA479DDE3B8B47E4" action="add">
+  <description>Engineering Group</description>
+  <is_alias>0</is_alias>
+  <name>Engineering</name>
+  </Item>
+ <Item type="Member" id="6C8BC254C6C14882904FD9A5AD25C88C" action="add">
+  <related_id keyed_name="Administrators" type="Identity">2618D6F5A90949BAA7E920D1B04C7EE1</related_id>
+  <sort_order>640</sort_order>
+  <source_id keyed_name="Engineering" type="Identity">A6A115DCD7E2439FAA479DDE3B8B47E4</source_id>
+ </Item>
+</AML>

@@ -1,0 +1,40 @@
+<AML>
+ <Item type="Life Cycle Map" id="58A7C522062E463295F49F917DBBE9BB" action="add">
+  <name>QS CAR</name>
+  <start_state keyed_name="Open" type="Life Cycle State">A53B040C96E3482AA893B6E8C3F1F893</start_state>
+  <Relationships>
+   <Item type="Life Cycle State" id="885B906EEA7440BBA5818A3D99E7AF9F" action="add">
+    <image>../images/icons/20x20/20x15_lifecycle.gif</image>
+    <name>Closed</name>
+    <set_is_released>0</set_is_released>
+    <set_not_lockable>0</set_not_lockable>
+    <sort_order>256</sort_order>
+    <source_id keyed_name="QS CAR" type="Life Cycle Map">58A7C522062E463295F49F917DBBE9BB</source_id>
+    <x>233</x>
+    <y>48</y>
+    </Item>
+   <Item type="Life Cycle State" id="A53B040C96E3482AA893B6E8C3F1F893" action="add">
+    <image>../images/icons/20x20/20x15_lifecycle.gif</image>
+    <name>Open</name>
+    <set_is_released>0</set_is_released>
+    <set_not_lockable>0</set_not_lockable>
+    <sort_order>128</sort_order>
+    <source_id keyed_name="QS CAR" type="Life Cycle Map">58A7C522062E463295F49F917DBBE9BB</source_id>
+    <x>63</x>
+    <y>48</y>
+    </Item>
+   <Item type="Life Cycle Transition" id="8CF3377AF0254A1E90B6248AF88DBEDE" action="add">
+    <from_state keyed_name="Open" type="Life Cycle State">A53B040C96E3482AA893B6E8C3F1F893</from_state>
+    <get_comment>0</get_comment>
+    <role keyed_name="World" type="Identity">
+     <Item type="Identity" action="get" select="id">
+      <name>World</name>
+     </Item>
+    </role>
+    <sort_order>128</sort_order>
+    <source_id keyed_name="QS CAR" type="Life Cycle Map">58A7C522062E463295F49F917DBBE9BB</source_id>
+    <to_state keyed_name="Closed" type="Life Cycle State">885B906EEA7440BBA5818A3D99E7AF9F</to_state>
+    </Item>
+  </Relationships>
+ </Item>
+</AML>

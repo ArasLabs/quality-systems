@@ -1,0 +1,29 @@
+<AML>
+ <Item type="List" id="3C713157B9D74B099D7A22E630C908A7" action="add">
+  <description>Breakdown of the available plants per BU</description>
+  <name>Corporate Plants</name>
+  <Relationships>
+   <Item type="Filter Value" id="9E8DD5C60209435CB38832A956643939" action="add">
+    <filter>BU 1</filter>
+    <label>Plant 1</label>
+    <sort_order>100</sort_order>
+    <source_id keyed_name="Corporate Plants" type="List">3C713157B9D74B099D7A22E630C908A7</source_id>
+    <value>Plant 1</value>
+   </Item>
+   <Item type="Filter Value" id="F7EF6D6C7FC84A0797275F1CEDDE0831" action="add">
+    <filter>BU 2</filter>
+    <label>Plant 2</label>
+    <sort_order>200</sort_order>
+    <source_id keyed_name="Corporate Plants" type="List">3C713157B9D74B099D7A22E630C908A7</source_id>
+    <value>Plant 2</value>
+   </Item>
+   <Item type="Filter Value" id="DAF7B8182A014D5CA1ABC34191CB0F57" action="add">
+    <filter>BU 3</filter>
+    <label>Plant 3</label>
+    <sort_order>300</sort_order>
+    <source_id keyed_name="Corporate Plants" type="List">3C713157B9D74B099D7A22E630C908A7</source_id>
+    <value>Plant 3</value>
+   </Item>
+  </Relationships>
+ </Item>
+</AML>

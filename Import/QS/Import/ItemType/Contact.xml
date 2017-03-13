@@ -1,0 +1,354 @@
+<AML>
+ <Item type="ItemType" id="921DE47AFFDB44DAA9F61F5ADCCB767A" action="add">
+  <allow_private_permission>0</allow_private_permission>
+  <auto_search>1</auto_search>
+  <default_lifecycle keyed_name="Default" type="Life Cycle Map">2F3B75E17C4E4F2D9599579A965BFA64</default_lifecycle>
+  <hide_where_used>0</hide_where_used>
+  <implementation_type>table</implementation_type>
+  <instance_data>CONTACT</instance_data>
+  <is_dependent>0</is_dependent>
+  <is_relationship>0</is_relationship>
+  <is_versionable>0</is_versionable>
+  <label>Contact</label>
+  <label_plural>Contacts</label_plural>
+  <large_icon>../images/Icons/32x32/32x32_users.gif</large_icon>
+  <manual_versioning>0</manual_versioning>
+  <name>Contact</name>
+  <open_icon>../images/Icons/16x16/16x16_users.gif</open_icon>
+  <revisions keyed_name="Default" type="Revision">7FE395DD8B9F4E1090756A34B733D75E</revisions>
+  <save_history>0</save_history>
+  <show_parameters_tab>1</show_parameters_tab>
+  <unlock_on_logout>0</unlock_on_logout>
+  <use_src_access>0</use_src_access>
+  <Relationships>
+   <Item type="Allowed Permission" id="FB64D228991D42F286C874DB2CB9DE7E" action="add">
+    <is_default>1</is_default>
+    <related_id keyed_name="Contacts" type="Permission">1426EE7C4B2A40CE885876307C40F4BB</related_id>
+    <sort_order>128</sort_order>
+    <source_id keyed_name="Contact" type="ItemType" name="Contact">921DE47AFFDB44DAA9F61F5ADCCB767A</source_id>
+   </Item>
+   <Item type="Can Add" id="F48B3C0FB9F64B3DA24CD683EB05F5E4" action="add">
+    <can_add>1</can_add>
+    <related_id keyed_name="Administrators" type="Identity">2618D6F5A90949BAA7E920D1B04C7EE1</related_id>
+    <sort_order>128</sort_order>
+    <source_id keyed_name="Contact" type="ItemType" name="Contact">921DE47AFFDB44DAA9F61F5ADCCB767A</source_id>
+   </Item>
+   <Item type="Property" id="2E5050F728C3444099C4163445B358B0" action="add">
+    <column_alignment>left</column_alignment>
+    <column_width>140</column_width>
+    <data_type>string</data_type>
+    <is_hidden>1</is_hidden>
+    <is_hidden2>1</is_hidden2>
+    <is_indexed>0</is_indexed>
+    <is_keyed>0</is_keyed>
+    <is_multi_valued>0</is_multi_valued>
+    <is_required>0</is_required>
+    <label>Address 1</label>
+    <name>address_1</name>
+    <range_inclusive>0</range_inclusive>
+    <readonly>0</readonly>
+    <sort_order>1024</sort_order>
+    <source_id keyed_name="Contact" type="ItemType" name="Contact">921DE47AFFDB44DAA9F61F5ADCCB767A</source_id>
+    <stored_length>40</stored_length>
+    </Item>
+   <Item type="Property" id="5F44638590CF4E8EAF6702EEACC173F3" action="add">
+    <column_alignment>left</column_alignment>
+    <column_width>140</column_width>
+    <data_type>string</data_type>
+    <is_hidden>1</is_hidden>
+    <is_hidden2>1</is_hidden2>
+    <is_indexed>0</is_indexed>
+    <is_keyed>0</is_keyed>
+    <is_multi_valued>0</is_multi_valued>
+    <is_required>0</is_required>
+    <label>Address 2</label>
+    <name>address_2</name>
+    <range_inclusive>0</range_inclusive>
+    <readonly>0</readonly>
+    <sort_order>1152</sort_order>
+    <source_id keyed_name="Contact" type="ItemType" name="Contact">921DE47AFFDB44DAA9F61F5ADCCB767A</source_id>
+    <stored_length>40</stored_length>
+    </Item>
+   <Item type="Property" id="60E9002740D449ACB934F7E88BEAC415" action="add">
+    <column_alignment>left</column_alignment>
+    <column_width>140</column_width>
+    <data_type>string</data_type>
+    <is_hidden>1</is_hidden>
+    <is_hidden2>1</is_hidden2>
+    <is_indexed>0</is_indexed>
+    <is_keyed>0</is_keyed>
+    <is_multi_valued>0</is_multi_valued>
+    <is_required>0</is_required>
+    <label>Cell #</label>
+    <name>cell_num</name>
+    <range_inclusive>0</range_inclusive>
+    <readonly>0</readonly>
+    <sort_order>640</sort_order>
+    <source_id keyed_name="Contact" type="ItemType" name="Contact">921DE47AFFDB44DAA9F61F5ADCCB767A</source_id>
+    <stored_length>40</stored_length>
+    </Item>
+   <Item type="Property" id="C530918206D4451F814F5FC1BF55624B" action="add">
+    <column_alignment>left</column_alignment>
+    <column_width>140</column_width>
+    <data_type>string</data_type>
+    <is_hidden>1</is_hidden>
+    <is_hidden2>1</is_hidden2>
+    <is_indexed>0</is_indexed>
+    <is_keyed>0</is_keyed>
+    <is_multi_valued>0</is_multi_valued>
+    <is_required>0</is_required>
+    <label>City</label>
+    <name>city</name>
+    <range_inclusive>0</range_inclusive>
+    <readonly>0</readonly>
+    <sort_order>1280</sort_order>
+    <source_id keyed_name="Contact" type="ItemType" name="Contact">921DE47AFFDB44DAA9F61F5ADCCB767A</source_id>
+    <stored_length>40</stored_length>
+    </Item>
+   <Item type="Property" id="C9D9F99221B04F06A76748989AFDB037" action="add">
+    <column_alignment>left</column_alignment>
+    <column_width>120</column_width>
+    <data_source keyed_name="Customer" type="ItemType" name="Customer">E4847F4A706B4285A395C0228A867E0F</data_source>
+    <data_type>item</data_type>
+    <is_hidden>0</is_hidden>
+    <is_hidden2>0</is_hidden2>
+    <is_indexed>0</is_indexed>
+    <is_keyed>0</is_keyed>
+    <is_multi_valued>0</is_multi_valued>
+    <is_required>0</is_required>
+    <item_behavior>float</item_behavior>
+    <label>Company</label>
+    <name>company</name>
+    <range_inclusive>0</range_inclusive>
+    <readonly>0</readonly>
+    <sort_order>400</sort_order>
+    <source_id keyed_name="Contact" type="ItemType" name="Contact">921DE47AFFDB44DAA9F61F5ADCCB767A</source_id>
+    </Item>
+   <Item type="Property" id="44329719B2A948E2A84647B040073244" action="add">
+    <column_alignment>left</column_alignment>
+    <column_width>100</column_width>
+    <data_source keyed_name="Countries">AEABAF4DEB014B0D8395C70D68221011</data_source>
+    <data_type>list</data_type>
+    <is_hidden>1</is_hidden>
+    <is_hidden2>1</is_hidden2>
+    <is_indexed>0</is_indexed>
+    <is_keyed>0</is_keyed>
+    <is_multi_valued>0</is_multi_valued>
+    <is_required>0</is_required>
+    <keyed_name_order>60</keyed_name_order>
+    <label>Country</label>
+    <name>country</name>
+    <range_inclusive>0</range_inclusive>
+    <readonly>0</readonly>
+    <sort_order>1664</sort_order>
+    <source_id keyed_name="Contact" type="ItemType" name="Contact">921DE47AFFDB44DAA9F61F5ADCCB767A</source_id>
+    </Item>
+   <Item type="Property" id="682870C82D4542AF892935CC6F5883B9" action="add">
+    <column_alignment>left</column_alignment>
+    <column_width>140</column_width>
+    <data_type>string</data_type>
+    <is_hidden>1</is_hidden>
+    <is_hidden2>1</is_hidden2>
+    <is_indexed>0</is_indexed>
+    <is_keyed>0</is_keyed>
+    <is_multi_valued>0</is_multi_valued>
+    <is_required>0</is_required>
+    <label>Email</label>
+    <name>email</name>
+    <range_inclusive>0</range_inclusive>
+    <readonly>0</readonly>
+    <sort_order>896</sort_order>
+    <source_id keyed_name="Contact" type="ItemType" name="Contact">921DE47AFFDB44DAA9F61F5ADCCB767A</source_id>
+    <stored_length>40</stored_length>
+    </Item>
+   <Item type="Property" id="B26B797987734BFB9FB91E161B6D3C90" action="add">
+    <column_alignment>left</column_alignment>
+    <column_width>140</column_width>
+    <data_type>string</data_type>
+    <is_hidden>1</is_hidden>
+    <is_hidden2>1</is_hidden2>
+    <is_indexed>0</is_indexed>
+    <is_keyed>0</is_keyed>
+    <is_multi_valued>0</is_multi_valued>
+    <is_required>0</is_required>
+    <label>Fax #</label>
+    <name>fax_num</name>
+    <range_inclusive>0</range_inclusive>
+    <readonly>0</readonly>
+    <sort_order>768</sort_order>
+    <source_id keyed_name="Contact" type="ItemType" name="Contact">921DE47AFFDB44DAA9F61F5ADCCB767A</source_id>
+    <stored_length>40</stored_length>
+    </Item>
+   <Item type="Property" id="06094E0C17634281A5193B815963A9BF" action="add">
+    <column_alignment>left</column_alignment>
+    <column_width>140</column_width>
+    <data_type>string</data_type>
+    <is_hidden>0</is_hidden>
+    <is_hidden2>0</is_hidden2>
+    <is_indexed>0</is_indexed>
+    <is_keyed>0</is_keyed>
+    <is_multi_valued>0</is_multi_valued>
+    <is_required>0</is_required>
+    <keyed_name_order>10</keyed_name_order>
+    <label>First Name</label>
+    <name>first_name</name>
+    <range_inclusive>0</range_inclusive>
+    <readonly>0</readonly>
+    <sort_order>128</sort_order>
+    <source_id keyed_name="Contact" type="ItemType" name="Contact">921DE47AFFDB44DAA9F61F5ADCCB767A</source_id>
+    <stored_length>40</stored_length>
+    </Item>
+   <Item type="Property" id="5C3DFA88ECA04686BBA3D9898CF16578" action="add">
+    <column_alignment>left</column_alignment>
+    <column_width>150</column_width>
+    <data_source keyed_name="Role">8FFA0F8E0ED24B42B8C6F9ED16B6B291</data_source>
+    <data_type>list</data_type>
+    <is_hidden>1</is_hidden>
+    <is_hidden2>1</is_hidden2>
+    <is_indexed>0</is_indexed>
+    <is_keyed>0</is_keyed>
+    <is_multi_valued>0</is_multi_valued>
+    <is_required>0</is_required>
+    <label>Job Role</label>
+    <name>job_role</name>
+    <range_inclusive>0</range_inclusive>
+    <readonly>0</readonly>
+    <sort_order>4992</sort_order>
+    <source_id keyed_name="Contact" type="ItemType" name="Contact">921DE47AFFDB44DAA9F61F5ADCCB767A</source_id>
+    </Item>
+   <Item type="Property" id="D064A543731247EB98A42B6AB3D25A34" action="add">
+    <column_alignment>left</column_alignment>
+    <column_width>140</column_width>
+    <data_type>string</data_type>
+    <is_hidden>0</is_hidden>
+    <is_hidden2>0</is_hidden2>
+    <is_indexed>0</is_indexed>
+    <is_keyed>0</is_keyed>
+    <is_multi_valued>0</is_multi_valued>
+    <is_required>0</is_required>
+    <keyed_name_order>20</keyed_name_order>
+    <label>Last Name</label>
+    <name>last_name</name>
+    <range_inclusive>0</range_inclusive>
+    <readonly>0</readonly>
+    <sort_order>256</sort_order>
+    <source_id keyed_name="Contact" type="ItemType" name="Contact">921DE47AFFDB44DAA9F61F5ADCCB767A</source_id>
+    <stored_length>40</stored_length>
+    </Item>
+   <Item type="Property" id="3BF6139C539F462B81AD0561978183E2" action="add">
+    <column_alignment>left</column_alignment>
+    <column_width>140</column_width>
+    <data_type>string</data_type>
+    <is_hidden>0</is_hidden>
+    <is_hidden2>0</is_hidden2>
+    <is_indexed>0</is_indexed>
+    <is_keyed>0</is_keyed>
+    <is_multi_valued>0</is_multi_valued>
+    <is_required>0</is_required>
+    <keyed_name_order>40</keyed_name_order>
+    <label>Phone #</label>
+    <name>main_phone</name>
+    <range_inclusive>0</range_inclusive>
+    <readonly>0</readonly>
+    <sort_order>512</sort_order>
+    <source_id keyed_name="Contact" type="ItemType" name="Contact">921DE47AFFDB44DAA9F61F5ADCCB767A</source_id>
+    <stored_length>40</stored_length>
+    </Item>
+   <Item type="Property" id="53D9ACA73E654D889331009377795369" action="add">
+    <column_alignment>left</column_alignment>
+    <column_width>140</column_width>
+    <data_type>text</data_type>
+    <is_hidden>1</is_hidden>
+    <is_hidden2>1</is_hidden2>
+    <is_indexed>0</is_indexed>
+    <is_keyed>0</is_keyed>
+    <is_multi_valued>0</is_multi_valued>
+    <is_required>0</is_required>
+    <label>Notes</label>
+    <name>notes</name>
+    <range_inclusive>0</range_inclusive>
+    <readonly>0</readonly>
+    <sort_order>1792</sort_order>
+    <source_id keyed_name="Contact" type="ItemType" name="Contact">921DE47AFFDB44DAA9F61F5ADCCB767A</source_id>
+    </Item>
+   <Item type="Property" id="D0363A9FE31B4F62B6DB70E0B4E0F98C" action="add">
+    <column_alignment>left</column_alignment>
+    <column_width>100</column_width>
+    <data_source keyed_name="States">E4EE0417EA2F47EAB920E2BC3EDE51EB</data_source>
+    <data_type>list</data_type>
+    <is_hidden>1</is_hidden>
+    <is_hidden2>1</is_hidden2>
+    <is_indexed>0</is_indexed>
+    <is_keyed>0</is_keyed>
+    <is_multi_valued>0</is_multi_valued>
+    <is_required>0</is_required>
+    <label>State</label>
+    <name>state_location</name>
+    <range_inclusive>0</range_inclusive>
+    <readonly>0</readonly>
+    <sort_order>4736</sort_order>
+    <source_id keyed_name="Contact" type="ItemType" name="Contact">921DE47AFFDB44DAA9F61F5ADCCB767A</source_id>
+    </Item>
+   <Item type="Property" id="1467D3E9BA5A48928F1D95307563C0C0" action="add">
+    <column_alignment>left</column_alignment>
+    <column_width>140</column_width>
+    <data_type>string</data_type>
+    <is_hidden>0</is_hidden>
+    <is_hidden2>0</is_hidden2>
+    <is_indexed>0</is_indexed>
+    <is_keyed>0</is_keyed>
+    <is_multi_valued>0</is_multi_valued>
+    <is_required>0</is_required>
+    <keyed_name_order>30</keyed_name_order>
+    <label>Title</label>
+    <name>title</name>
+    <range_inclusive>0</range_inclusive>
+    <readonly>0</readonly>
+    <sort_order>384</sort_order>
+    <source_id keyed_name="Contact" type="ItemType" name="Contact">921DE47AFFDB44DAA9F61F5ADCCB767A</source_id>
+    <stored_length>40</stored_length>
+    </Item>
+   <Item type="Property" id="84FDCC94E030416DA12B2CD4B8BE932B" action="add">
+    <column_alignment>left</column_alignment>
+    <column_width>140</column_width>
+    <data_type>integer</data_type>
+    <is_hidden>1</is_hidden>
+    <is_hidden2>1</is_hidden2>
+    <is_indexed>0</is_indexed>
+    <is_keyed>0</is_keyed>
+    <is_multi_valued>0</is_multi_valued>
+    <is_required>0</is_required>
+    <label>Zip Code</label>
+    <name>zip_code</name>
+    <range_inclusive>0</range_inclusive>
+    <readonly>0</readonly>
+    <sort_order>1536</sort_order>
+    <source_id keyed_name="Contact" type="ItemType" name="Contact">921DE47AFFDB44DAA9F61F5ADCCB767A</source_id>
+    </Item>
+   <Item type="TOC Access" id="DCB9704C559A4246BB18255441EB43C3" action="add">
+    <category>Portfolio</category>
+    <related_id keyed_name="Administrators" type="Identity">2618D6F5A90949BAA7E920D1B04C7EE1</related_id>
+    <sort_order>128</sort_order>
+    <source_id keyed_name="Contact" type="ItemType" name="Contact">921DE47AFFDB44DAA9F61F5ADCCB767A</source_id>
+   </Item>
+   <Item type="TOC Access" id="E48DBF705CAF4C42A0F7BEC55690945D" action="add">
+    <category>Portfolio</category>
+    <related_id keyed_name="All Employees" type="Identity">B32BD81D1AD04207BF1E61E39A4E0E13</related_id>
+    <sort_order>256</sort_order>
+    <source_id keyed_name="Contact" type="ItemType" name="Contact">921DE47AFFDB44DAA9F61F5ADCCB767A</source_id>
+   </Item>
+   <Item type="View" id="9FDDA899BCEB4CC1BAE3C852CF8BE999" action="add">
+    <client>js</client>
+    <related_id keyed_name="Contact" type="Form">D4D9E7A43E7846DFBE7C71F1796198DF</related_id>
+    <role keyed_name="World" type="Identity">
+     <Item type="Identity" action="get" select="id">
+      <name>World</name>
+     </Item>
+    </role>
+    <sort_order>128</sort_order>
+    <source_id keyed_name="Contact" type="ItemType" name="Contact">921DE47AFFDB44DAA9F61F5ADCCB767A</source_id>
+    <type>default</type>
+   </Item>
+  </Relationships>
+ </Item>
+</AML>

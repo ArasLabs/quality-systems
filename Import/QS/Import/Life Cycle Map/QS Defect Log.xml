@@ -1,0 +1,69 @@
+<AML>
+ <Item type="Life Cycle Map" id="F7583C7ECAA5443B8D06498CBC4C5970" action="add">
+  <description>Defect log lifecycle</description>
+  <name>QS Defect Log</name>
+  <start_state keyed_name="In Process" type="Life Cycle State">D0B9329BBBB74CC6B742B4922D676CAF</start_state>
+  <Relationships>
+   <Item type="Life Cycle State" id="A9DFB8E76D824CE9AA7FC6E7CE1736E9" action="add">
+    <image>../images/icons/20x20/20x15_lifecycle.gif</image>
+    <name>Fail</name>
+    <set_is_released>0</set_is_released>
+    <set_not_lockable>0</set_not_lockable>
+    <sort_order>384</sort_order>
+    <source_id keyed_name="QS Defect Log" type="Life Cycle Map">F7583C7ECAA5443B8D06498CBC4C5970</source_id>
+    <x>270</x>
+    <y>128</y>
+    </Item>
+   <Item type="Life Cycle State" id="D0B9329BBBB74CC6B742B4922D676CAF" action="add">
+    <image>../images/icons/20x20/20x15_lifecycle.gif</image>
+    <name>In Process</name>
+    <set_is_released>0</set_is_released>
+    <set_not_lockable>0</set_not_lockable>
+    <sort_order>128</sort_order>
+    <source_id keyed_name="QS Defect Log" type="Life Cycle Map">F7583C7ECAA5443B8D06498CBC4C5970</source_id>
+    <x>82</x>
+    <y>75</y>
+    </Item>
+   <Item type="Life Cycle State" id="36AEB67971F24F0C96CA1C17407E5784" action="add">
+    <image>../images/icons/20x20/20x15_lifecycle.gif</image>
+    <name>Pass</name>
+    <set_is_released>0</set_is_released>
+    <set_not_lockable>0</set_not_lockable>
+    <sort_order>256</sort_order>
+    <source_id keyed_name="QS Defect Log" type="Life Cycle Map">F7583C7ECAA5443B8D06498CBC4C5970</source_id>
+    <x>271</x>
+    <y>18</y>
+    </Item>
+   <Item type="Life Cycle Transition" id="0093A2284DB04485A7388363062F4CBA" action="add">
+    <from_state keyed_name="In Process" type="Life Cycle State">D0B9329BBBB74CC6B742B4922D676CAF</from_state>
+    <get_comment>0</get_comment>
+    <role keyed_name="World" type="Identity">
+     <Item type="Identity" action="get" select="id">
+      <name>World</name>
+     </Item>
+    </role>
+    <segments>147,140</segments>
+    <sort_order>256</sort_order>
+    <source_id keyed_name="QS Defect Log" type="Life Cycle Map">F7583C7ECAA5443B8D06498CBC4C5970</source_id>
+    <to_state keyed_name="Fail" type="Life Cycle State">A9DFB8E76D824CE9AA7FC6E7CE1736E9</to_state>
+    <x>63</x>
+    <y>47</y>
+    </Item>
+   <Item type="Life Cycle Transition" id="7B1BCA94542840839781F2D427F4DDE6" action="add">
+    <from_state keyed_name="In Process" type="Life Cycle State">D0B9329BBBB74CC6B742B4922D676CAF</from_state>
+    <get_comment>0</get_comment>
+    <role keyed_name="World" type="Identity">
+     <Item type="Identity" action="get" select="id">
+      <name>World</name>
+     </Item>
+    </role>
+    <segments>150,30</segments>
+    <sort_order>128</sort_order>
+    <source_id keyed_name="QS Defect Log" type="Life Cycle Map">F7583C7ECAA5443B8D06498CBC4C5970</source_id>
+    <to_state keyed_name="Pass" type="Life Cycle State">36AEB67971F24F0C96CA1C17407E5784</to_state>
+    <x>67</x>
+    <y>-61</y>
+    </Item>
+  </Relationships>
+ </Item>
+</AML>

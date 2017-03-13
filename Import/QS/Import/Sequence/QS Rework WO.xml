@@ -1,0 +1,10 @@
+<AML>
+ <Item type="Sequence" id="7F82A0CA8FFB4BB486D44D2F987DEC35" action="add">
+  <current_value>4902</current_value>
+  <name>QS Rework WO</name>
+  <pad_to>6</pad_to>
+  <pad_with>0</pad_with>
+  <prefix>RWO-</prefix>
+  <step>1</step>
+ </Item>
+</AML>

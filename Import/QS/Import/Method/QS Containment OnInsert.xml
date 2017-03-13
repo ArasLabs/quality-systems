@@ -1,0 +1,31 @@
+<AML>
+ <Item type="Method" id="EE13BC7E2BB24232A38EBC84B849F8E7" action="add">
+  <comments>Auto populate the part, BU, and Plant from the QAP for to the items in the related Containment items</comments>
+  <method_code><![CDATA[var xpath = "//Item/Relationships/Item/related_id/Item[@id='" + relatedID + "']";
+var relitm = item.selectSingleNode(xpath);
+if (relitm == null) {
+   return
+}
+
+if (relitm.getAttribute('type')=="Non Conf  Mat Purge") {
+   var partid=top.aras.getItemProperty(item,"part");
+   var plantid=top.aras.getItemProperty(item,"corp_plant");
+   top.aras.setItemProperty(relitm,'part',partid);
+   top.aras.setItemProperty(relitm,'corp_plant',plantid);
+}
+if (relitm.getAttribute('type')=="QS Stop Ship") {
+   var partid=top.aras.getItemProperty(item,"part");   
+   top.aras.setItemProperty(relitm,'part',partid);
+}
+if (relitm.getAttribute('type')=="Hold Notice") {
+   var partid=top.aras.getItemProperty(item,"part");
+   var buid=top.aras.getItemProperty(item,"corp_bu");
+   var plantid=top.aras.getItemProperty(item,"corp_plant");
+   top.aras.setItemProperty(relitm,'part',partid);
+   top.aras.setItemProperty(relitm,'corp_bu',buid);
+   top.aras.setItemProperty(relitm,'corp_plant',plantid);
+}]]></method_code>
+  <method_type>JavaScript</method_type>
+  <name>QS Containment OnInsert</name>
+ </Item>
+</AML>

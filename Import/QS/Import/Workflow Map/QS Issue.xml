@@ -1,0 +1,358 @@
+<AML>
+ <Item type="Workflow Map" id="E571BF7ACB90404790DB42E514B2C869" action="add">
+  <description>Customer Issue Workflow</description>
+  <name>QS Issue</name>
+  <node_bg_color></node_bg_color>
+  <node_label1_color></node_label1_color>
+  <node_label1_font></node_label1_font>
+  <node_label2_color></node_label2_color>
+  <node_label2_font></node_label2_font>
+  <node_name_color></node_name_color>
+  <node_name_font></node_name_font>
+  <node_size></node_size>
+  <process_owner keyed_name="Quality Manager" type="Identity">C55A2237BE044BA7A64353D6F1A774EA</process_owner>
+  <transition_line_color></transition_line_color>
+  <transition_name_color></transition_name_color>
+  <transition_name_font></transition_name_font>
+  <Relationships>
+   <Item type="Workflow Map Activity" id="790FD66356D845F5967AF54B90FACC1E" action="add">
+    <related_id keyed_name="Assign CAPA Process" type="Activity Template">
+     <Item type="Activity Template" id="2B5F2BB5864A4F1FA40BEE827B6AF7C9" action="add">
+      <can_delegate>1</can_delegate>
+      <can_refuse>1</can_refuse>
+      <consolidate_ondelegate>0</consolidate_ondelegate>
+      <icon>../images/Icons/20x20/20x22_gray_ball.gif</icon>
+      <is_auto>0</is_auto>
+      <is_end>0</is_end>
+      <is_start>0</is_start>
+      <message>Please Review...</message>
+      <name>Assign CAPA Process</name>
+      <wait_for_all_inputs>0</wait_for_all_inputs>
+      <wait_for_all_votes>0</wait_for_all_votes>
+      <x>299</x>
+      <y>33</y>
+      <Relationships>
+       <Item type="Activity Template Assignment" id="8E0EB5C470524863B31E69FE563C2E4C" action="add">
+        <for_all_members>0</for_all_members>
+        <is_required>0</is_required>
+        <related_id keyed_name="Quality" type="Identity">6A7D911555614B8BB16CD8195CDB3B2A</related_id>
+        <sort_order>128</sort_order>
+        <source_id keyed_name="Assign CAPA Process" type="Activity Template">2B5F2BB5864A4F1FA40BEE827B6AF7C9</source_id>
+        <voting_weight>100</voting_weight>
+       </Item>
+       <Item type="Activity Template Task" id="07D72A43BCF540D79D76B529C8E9541A" action="add">
+        <description>Determine affinity or create a new CAPA Quality Action Plan</description>
+        <is_required>1</is_required>
+        <sequence>30</sequence>
+        <sort_order>384</sort_order>
+        <source_id keyed_name="Assign CAPA Process" type="Activity Template">2B5F2BB5864A4F1FA40BEE827B6AF7C9</source_id>
+       </Item>
+       <Item type="Activity Template Task" id="5F343D2ACAE9417D81D1A5B9B25C21CF" action="add">
+        <description>Review Customer's History</description>
+        <is_required>1</is_required>
+        <sequence>10</sequence>
+        <sort_order>128</sort_order>
+        <source_id keyed_name="Assign CAPA Process" type="Activity Template">2B5F2BB5864A4F1FA40BEE827B6AF7C9</source_id>
+       </Item>
+       <Item type="Activity Template Task" id="AE6E88BBAC4A4C66B67921CF918234A5" action="add">
+        <description>Search for similar problems with existing Open Quality Action plans</description>
+        <is_required>1</is_required>
+        <sequence>20</sequence>
+        <sort_order>256</sort_order>
+        <source_id keyed_name="Assign CAPA Process" type="Activity Template">2B5F2BB5864A4F1FA40BEE827B6AF7C9</source_id>
+       </Item>
+       <Item type="Workflow Map Path" id="28A4F48B19EB405ABD2E00033BE35AFD" action="add">
+        <authentication>none</authentication>
+        <is_default>0</is_default>
+        <is_override>0</is_override>
+        <name>Done</name>
+        <related_id>98A0464FFF224AA79D88E80C90DE0A62</related_id>
+        <segments></segments>
+        <sort_order>128</sort_order>
+        <source_id keyed_name="Assign CAPA Process" type="Activity Template">2B5F2BB5864A4F1FA40BEE827B6AF7C9</source_id>
+        <x>76</x>
+        <y>11</y>
+        </Item>
+      </Relationships>
+     </Item>
+    </related_id>
+    <sort_order>512</sort_order>
+    <source_id keyed_name="QS Issue" type="Workflow Map">E571BF7ACB90404790DB42E514B2C869</source_id>
+   </Item>
+   <Item type="Workflow Map Activity" id="279E7D2AE461466B860CBC40723D8AE4" action="add">
+    <related_id keyed_name="End" type="Activity Template">
+     <Item type="Activity Template" id="3F1F0576E4304905A1B0DFDA745BE025" action="add">
+      <can_delegate>0</can_delegate>
+      <can_refuse>0</can_refuse>
+      <consolidate_ondelegate>0</consolidate_ondelegate>
+      <expected_duration>0</expected_duration>
+      <icon>../images/Icons/16x16/16x16_redx.gif</icon>
+      <is_auto>1</is_auto>
+      <is_end>1</is_end>
+      <is_start>0</is_start>
+      <message>Workflow End</message>
+      <name>End</name>
+      <priority>1</priority>
+      <reminder_count>0</reminder_count>
+      <reminder_interval>0</reminder_interval>
+      <timeout_duration>0</timeout_duration>
+      <wait_for_all_inputs>0</wait_for_all_inputs>
+      <wait_for_all_votes>0</wait_for_all_votes>
+      <x>813</x>
+      <y>33</y>
+      </Item>
+    </related_id>
+    <sort_order>128</sort_order>
+    <source_id keyed_name="QS Issue" type="Workflow Map">E571BF7ACB90404790DB42E514B2C869</source_id>
+   </Item>
+   <Item type="Workflow Map Activity" id="4B0152231D8C42909F55BA3DD997541A" action="add">
+    <related_id keyed_name="Issue Closed" type="Activity Template">
+     <Item type="Activity Template" id="E9E354945C1F4E27AFBC18445429366F" action="add">
+      <can_delegate>1</can_delegate>
+      <can_refuse>1</can_refuse>
+      <consolidate_ondelegate>0</consolidate_ondelegate>
+      <icon>../images/Icons/20x20/20x22_gray_ball.gif</icon>
+      <is_auto>0</is_auto>
+      <is_end>0</is_end>
+      <is_start>0</is_start>
+      <message>Please Review...</message>
+      <name>Issue Closed</name>
+      <wait_for_all_inputs>0</wait_for_all_inputs>
+      <wait_for_all_votes>0</wait_for_all_votes>
+      <x>625</x>
+      <y>33</y>
+      <Relationships>
+       <Item type="Activity Template Assignment" id="394316FB72F24922953921811C98B334" action="add">
+        <for_all_members>0</for_all_members>
+        <is_required>1</is_required>
+        <related_id keyed_name="Creator" type="Identity">
+         <Item type="Identity" action="get" select="id">
+          <name>Creator</name>
+         </Item>
+        </related_id>
+        <sort_order>128</sort_order>
+        <source_id keyed_name="Issue Closed" type="Activity Template">E9E354945C1F4E27AFBC18445429366F</source_id>
+        <voting_weight>100</voting_weight>
+       </Item>
+       <Item type="Workflow Map Path" id="0AA5A66097BA4AFBB7BB79E5C85F3B5C" action="add">
+        <authentication>none</authentication>
+        <is_default>0</is_default>
+        <is_override>0</is_override>
+        <name>Not Happy</name>
+        <related_id>43E71850C87C40FE87E7CD26DE42BD71</related_id>
+        <segments>580,12|157,12</segments>
+        <sort_order>256</sort_order>
+        <source_id keyed_name="Issue Closed" type="Activity Template">E9E354945C1F4E27AFBC18445429366F</source_id>
+        <x>-282</x>
+        <y>-34</y>
+        </Item>
+      
+       <Item type="Workflow Map Path" id="EBA4A938812445508713C84235A350C1" action="add">
+        <authentication>none</authentication>
+        <is_default>0</is_default>
+        <is_override>0</is_override>
+        <name>OK</name>
+        <related_id>3F1F0576E4304905A1B0DFDA745BE025</related_id>
+        <segments></segments>
+        <sort_order>128</sort_order>
+        <source_id keyed_name="Issue Closed" type="Activity Template">E9E354945C1F4E27AFBC18445429366F</source_id>
+        <x>87</x>
+        <y>-3</y>
+        </Item></Relationships>
+     </Item>
+    </related_id>
+    <sort_order>768</sort_order>
+    <source_id keyed_name="QS Issue" type="Workflow Map">E571BF7ACB90404790DB42E514B2C869</source_id>
+   </Item>
+  
+   <Item type="Workflow Map Activity" id="6BA4AFF6C739484B966F03AE9D8D11C2" action="add">
+    <related_id keyed_name="Provide More Information" type="Activity Template">
+     <Item type="Activity Template" id="12A8A80A76084C3E8358E602498BE19C" action="add">
+      <can_delegate>0</can_delegate>
+      <can_refuse>0</can_refuse>
+      <consolidate_ondelegate>0</consolidate_ondelegate>
+      <expected_duration>2</expected_duration>
+      <icon>../images/Icons/32x32/32x32_logging.gif</icon>
+      <is_auto>0</is_auto>
+      <is_end>0</is_end>
+      <is_start>0</is_start>
+      <message>Please Review...</message>
+      <name>Provide More Information</name>
+      <reminder_count>2</reminder_count>
+      <reminder_interval>2</reminder_interval>
+      <timeout_duration>2</timeout_duration>
+      <wait_for_all_inputs>0</wait_for_all_inputs>
+      <wait_for_all_votes>0</wait_for_all_votes>
+      <x>111</x>
+      <y>137</y>
+      <Relationships>
+       <Item type="Activity Template Assignment" id="D63CFBDA66454D81BA32306406DCA50D" action="add">
+        <for_all_members>0</for_all_members>
+        <is_required>1</is_required>
+        <related_id keyed_name="Creator" type="Identity">
+         <Item type="Identity" action="get" select="id">
+          <name>Creator</name>
+         </Item>
+        </related_id>
+        <sort_order>128</sort_order>
+        <source_id keyed_name="Provide More Information" type="Activity Template">12A8A80A76084C3E8358E602498BE19C</source_id>
+        <voting_weight>100</voting_weight>
+       </Item>
+       <Item type="Workflow Map Path" id="BAC75F85A17C4130808D206C271622D1" action="add">
+        <authentication>none</authentication>
+        <is_default>0</is_default>
+        <is_override>0</is_override>
+        <name>Done</name>
+        <related_id>43E71850C87C40FE87E7CD26DE42BD71</related_id>
+        <segments>65,124|65,70</segments>
+        <sort_order>128</sort_order>
+        <source_id keyed_name="Provide More Information" type="Activity Template">12A8A80A76084C3E8358E602498BE19C</source_id>
+        <x>-89</x>
+        <y>-38</y>
+        </Item>
+      </Relationships>
+     </Item>
+    </related_id>
+    <sort_order>384</sort_order>
+    <source_id keyed_name="QS Issue" type="Workflow Map">E571BF7ACB90404790DB42E514B2C869</source_id>
+   </Item>
+   <Item type="Workflow Map Activity" id="8BB9A1FEB4B44DC88EF01E17C41A5414" action="add">
+    <related_id keyed_name="Review Issue" type="Activity Template">
+     <Item type="Activity Template" id="43E71850C87C40FE87E7CD26DE42BD71" action="add">
+      <can_delegate>1</can_delegate>
+      <can_refuse>1</can_refuse>
+      <consolidate_ondelegate>0</consolidate_ondelegate>
+      <icon>../images/Icons/32x32/32x32_file_view1.gif</icon>
+      <is_auto>0</is_auto>
+      <is_end>0</is_end>
+      <is_start>0</is_start>
+      <message>Please Review...</message>
+      <name>Review Issue</name>
+      <wait_for_all_inputs>0</wait_for_all_inputs>
+      <wait_for_all_votes>0</wait_for_all_votes>
+      <x>112</x>
+      <y>33</y>
+      <Relationships>
+       <Item type="Activity Template Assignment" id="4DCEB8BCF2224AFC8421A28415A1E126" action="add">
+        <for_all_members>0</for_all_members>
+        <is_required>1</is_required>
+        <related_id keyed_name="Quality" type="Identity">6A7D911555614B8BB16CD8195CDB3B2A</related_id>
+        <sort_order>128</sort_order>
+        <source_id keyed_name="Review Issue" type="Activity Template">43E71850C87C40FE87E7CD26DE42BD71</source_id>
+        <voting_weight>100</voting_weight>
+       </Item>
+       <Item type="Workflow Map Path" id="25645A0560CC4FC3A768547205FD7107" action="add">
+        <authentication>none</authentication>
+        <is_default>0</is_default>
+        <is_override>0</is_override>
+        <name>Done</name>
+        <related_id>2B5F2BB5864A4F1FA40BEE827B6AF7C9</related_id>
+        <segments></segments>
+        <sort_order>128</sort_order>
+        <source_id keyed_name="Review Issue" type="Activity Template">43E71850C87C40FE87E7CD26DE42BD71</source_id>
+        <x>53</x>
+        <y>-2</y>
+        </Item>
+       <Item type="Workflow Map Path" id="728E119AF02A443B99077CB2BE7EA6AC" action="add">
+        <authentication>none</authentication>
+        <is_default>0</is_default>
+        <is_override>0</is_override>
+        <name>Need More Info</name>
+        <related_id>12A8A80A76084C3E8358E602498BE19C</related_id>
+        <segments>186,74|186,127</segments>
+        <sort_order>256</sort_order>
+        <source_id keyed_name="Review Issue" type="Activity Template">43E71850C87C40FE87E7CD26DE42BD71</source_id>
+        <x>65</x>
+        <y>65</y>
+        </Item>
+      </Relationships>
+     </Item>
+    </related_id>
+    <sort_order>256</sort_order>
+    <source_id keyed_name="QS Issue" type="Workflow Map">E571BF7ACB90404790DB42E514B2C869</source_id>
+   </Item>
+   <Item type="Workflow Map Activity" id="44EA17DFD6BF4A5FA39888CDCC9D23FC" action="add">
+    <related_id keyed_name="Review Results" type="Activity Template">
+     <Item type="Activity Template" id="98A0464FFF224AA79D88E80C90DE0A62" action="add">
+      <can_delegate>1</can_delegate>
+      <can_refuse>1</can_refuse>
+      <consolidate_ondelegate>0</consolidate_ondelegate>
+      <icon>../images/Icons/20x20/20x22_gray_ball.gif</icon>
+      <is_auto>0</is_auto>
+      <is_end>0</is_end>
+      <is_start>0</is_start>
+      <message>Please Review...</message>
+      <name>Review Results</name>
+      <wait_for_all_inputs>0</wait_for_all_inputs>
+      <wait_for_all_votes>0</wait_for_all_votes>
+      <x>473</x>
+      <y>33</y>
+      <Relationships>
+       <Item type="Activity Template Assignment" id="84A2F27C9A434515B7AC690667F4C635" action="add">
+        <for_all_members>0</for_all_members>
+        <is_required>0</is_required>
+        <related_id keyed_name="Quality Manager" type="Identity">C55A2237BE044BA7A64353D6F1A774EA</related_id>
+        <sort_order>128</sort_order>
+        <source_id keyed_name="Review Results" type="Activity Template">98A0464FFF224AA79D88E80C90DE0A62</source_id>
+        <voting_weight>100</voting_weight>
+       </Item>
+       <Item type="Workflow Map Path" id="9455AC9847054AA69AFF07574B576D2B" action="add">
+        <authentication>none</authentication>
+        <is_default>0</is_default>
+        <is_override>0</is_override>
+        <name>Done</name>
+        <related_id>E9E354945C1F4E27AFBC18445429366F</related_id>
+        <segments></segments>
+        <sort_order>128</sort_order>
+        <source_id keyed_name="Review Results" type="Activity Template">98A0464FFF224AA79D88E80C90DE0A62</source_id>
+        <x>67</x>
+        <y>12</y>
+        </Item>
+      </Relationships>
+     </Item>
+    </related_id>
+    <sort_order>640</sort_order>
+    <source_id keyed_name="QS Issue" type="Workflow Map">E571BF7ACB90404790DB42E514B2C869</source_id>
+   </Item>
+   <Item type="Workflow Map Activity" id="E2F1415A72F4456DB761912CBE3030D6" action="add">
+    <related_id keyed_name="Start" type="Activity Template">
+     <Item type="Activity Template" id="A32E7D90F0F54CFBB4B22B0B0EB4BD7D" action="add">
+      <can_delegate>0</can_delegate>
+      <can_refuse>0</can_refuse>
+      <consolidate_ondelegate>0</consolidate_ondelegate>
+      <expected_duration>0</expected_duration>
+      <icon>../images/Icons/16x16/16x16_arrow_right.gif</icon>
+      <is_auto>1</is_auto>
+      <is_end>0</is_end>
+      <is_start>1</is_start>
+      <message>Workflow Start</message>
+      <name>Start</name>
+      <priority>2</priority>
+      <reminder_count>0</reminder_count>
+      <reminder_interval>0</reminder_interval>
+      <timeout_duration>0</timeout_duration>
+      <wait_for_all_inputs>0</wait_for_all_inputs>
+      <wait_for_all_votes>0</wait_for_all_votes>
+      <x>10</x>
+      <y>8</y>
+      <Relationships>
+       <Item type="Workflow Map Path" id="2DA88E9EC5BD4C0FB0329B0531E1258E" action="add">
+        <authentication>none</authentication>
+        <is_default>1</is_default>
+        <is_override>0</is_override>
+        <name>Go</name>
+        <related_id>43E71850C87C40FE87E7CD26DE42BD71</related_id>
+        <segments></segments>
+        <sort_order>128</sort_order>
+        <source_id keyed_name="Start" type="Activity Template">A32E7D90F0F54CFBB4B22B0B0EB4BD7D</source_id>
+        <x>23</x>
+        <y>3</y>
+        </Item>
+      </Relationships>
+     </Item>
+    </related_id>
+    <sort_order>128</sort_order>
+    <source_id keyed_name="QS Issue" type="Workflow Map">E571BF7ACB90404790DB42E514B2C869</source_id>
+   </Item></Relationships>
+ </Item>
+</AML>

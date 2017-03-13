@@ -1,0 +1,9 @@
+<AML>
+ <Item type="Report" id="50AC82A7163D4608A1A78DD9FC6AA382" action="add">
+  <location>service</location>
+  <name>G8D</name>
+  <report_query><![CDATA[np:iqt=<xsl:value-of select="@id"/>&amp;rs:Format=HTML4.0]]></report_query>
+  <target>window</target>
+  <type>item</type>
+ </Item>
+</AML>

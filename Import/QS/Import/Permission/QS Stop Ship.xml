@@ -1,0 +1,30 @@
+<AML>
+ <Item type="Permission" id="F9BBE93AC39149D0B311D2E40BBA0D4E" action="add">
+  <is_private>0</is_private>
+  <name>QS Stop Ship</name>
+  <Relationships>
+   <Item type="Access" id="0AD6DD5DAE3440B483FF378D5D61C4FA" action="add">
+    <can_change_access>1</can_change_access>
+    <can_delete>1</can_delete>
+    <can_get>1</can_get>
+    <can_update>1</can_update>
+    <related_id keyed_name="Administrators" type="Identity">2618D6F5A90949BAA7E920D1B04C7EE1</related_id>
+    <sort_order>256</sort_order>
+    <source_id keyed_name="QS Stop Ship" type="Permission">F9BBE93AC39149D0B311D2E40BBA0D4E</source_id>
+   </Item>
+   <Item type="Access" id="F758960D64DE4911BC43B6DE4210035E" action="add">
+    <can_change_access>1</can_change_access>
+    <can_delete>1</can_delete>
+    <can_get>1</can_get>
+    <can_update>1</can_update>
+    <related_id keyed_name="World" type="Identity">
+     <Item type="Identity" action="get" select="id">
+      <name>World</name>
+     </Item>
+    </related_id>
+    <sort_order>128</sort_order>
+    <source_id keyed_name="QS Stop Ship" type="Permission">F9BBE93AC39149D0B311D2E40BBA0D4E</source_id>
+   </Item>
+  </Relationships>
+ </Item>
+</AML>

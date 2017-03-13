@@ -1,0 +1,50 @@
+<AML>
+ <Item type="Method" id="630795261CAE4BE581CFFBC5F07B2432" action="add">
+  <comments>Auto populate the part, BU, and Plant from the QAP for to the items in the related Quality Event items</comments>
+  <method_code><![CDATA[var xpath = "//Item/Relationships/Item/related_id/Item[@id='" + relatedID + "']";
+var relitm = item.selectSingleNode(xpath);
+if (relitm == null) {
+   return
+}
+
+if (relitm.getAttribute('type')=="Audit") {
+   var plantid=top.aras.getItemProperty(item,"corp_plant");
+   top.aras.setItemProperty(relitm,'corp_plant',plantid);
+}
+
+if (relitm.getAttribute('type')=="NCR") {
+   var partid=top.aras.getItemProperty(item,"part");
+   top.aras.setItemProperty(relitm,'part',partid);
+   
+   var prtdescid=top.aras.getItemProperty(item,"part_description");
+   top.aras.setItemProperty(relitm,'part_description',prtdescid);
+   
+   var plantid=top.aras.getItemProperty(item,"corp_plant");
+   top.aras.setItemProperty(relitm,'corp_plant',plantid);
+}
+
+if (relitm.getAttribute('type')=="QS Issue") {
+   var partid=top.aras.getItemProperty(item,"part");
+   top.aras.setItemProperty(relitm,'part',partid);
+   
+   var prtdescid=top.aras.getItemProperty(item,"part_description");
+   top.aras.setItemProperty(relitm,'part_description',prtdescid);
+   
+   var corpbuid=top.aras.getItemProperty(item,"corp_bu");
+   top.aras.setItemProperty(relitm,'corp_bu',corpbuid);
+   
+   var corpplantid=top.aras.getItemProperty(item,"corp_plant");
+   top.aras.setItemProperty(relitm,'corp_plant',corpplantid);
+   
+   var customerid=top.aras.getItemProperty(item,"customer");
+   top.aras.setItemProperty(relitm,'customer_id',customerid);
+}
+
+if (relitm.getAttribute('type')=="QS Logbook") {
+   var qslogprtid=top.aras.getItemProperty(item,"part");
+   top.aras.setItemProperty(relitm,'part',qslogprtid);
+}]]></method_code>
+  <method_type>JavaScript</method_type>
+  <name>QS Quality Event OnInsert</name>
+ </Item>
+</AML>

@@ -1,0 +1,302 @@
+<AML>
+ <Item type="Workflow Map" id="7F5BB28F82294D4AA0FB9CAF71849930" action="add">
+  <description>Workflow map for the quality audits</description>
+  <name>QS Audit Workflow map</name>
+  <node_bg_color></node_bg_color>
+  <node_label1_color></node_label1_color>
+  <node_label1_font></node_label1_font>
+  <node_label2_color></node_label2_color>
+  <node_label2_font></node_label2_font>
+  <node_name_color></node_name_color>
+  <node_name_font></node_name_font>
+  <node_size></node_size>
+  <process_owner keyed_name="Innovator Admin" type="Identity">
+   <Item type="Identity" action="get" select="id">
+    <name>Innovator Admin</name>
+   </Item>
+  </process_owner>
+  <transition_line_color></transition_line_color>
+  <transition_name_color></transition_name_color>
+  <transition_name_font></transition_name_font>
+  <Relationships>
+   <Item type="Workflow Map Activity" id="8CC02261D25742E9A21E546EE0E0A9A6" action="add">
+    <related_id keyed_name="Complete" type="Activity Template">
+     <Item type="Activity Template" id="86382CAF7FEF4F92B9EA22DFFB0C6C1F" action="add">
+      <can_delegate>0</can_delegate>
+      <can_refuse>0</can_refuse>
+      <consolidate_ondelegate>0</consolidate_ondelegate>
+      <expected_duration>0</expected_duration>
+      <icon>../images/Icons/16x16/16x16_redx.gif</icon>
+      <is_auto>1</is_auto>
+      <is_end>1</is_end>
+      <is_start>0</is_start>
+      <message>Workflow End</message>
+      <name>Complete</name>
+      <priority>1</priority>
+      <reminder_count>0</reminder_count>
+      <reminder_interval>0</reminder_interval>
+      <timeout_duration>0</timeout_duration>
+      <wait_for_all_inputs>0</wait_for_all_inputs>
+      <wait_for_all_votes>0</wait_for_all_votes>
+      <x>913</x>
+      <y>120</y>
+      </Item>
+    </related_id>
+    <sort_order>128</sort_order>
+    <source_id keyed_name="QS Audit Workflow map" type="Workflow Map">7F5BB28F82294D4AA0FB9CAF71849930</source_id>
+   </Item>
+   <Item type="Workflow Map Activity" id="9B211FBC89074BD6A827CDCAD1834012" action="add">
+    <related_id keyed_name="Define Audit Requirements" type="Activity Template">
+     <Item type="Activity Template" id="D4A563B5769343DD9369EE1C6BEF9501" action="add">
+      <can_delegate>1</can_delegate>
+      <can_refuse>1</can_refuse>
+      <consolidate_ondelegate>0</consolidate_ondelegate>
+      <icon>../images/Icons/20x20/20x22_gray_ball.gif</icon>
+      <is_auto>0</is_auto>
+      <is_end>0</is_end>
+      <is_start>0</is_start>
+      <message>Please Review...</message>
+      <name>Define Audit Requirements</name>
+      <wait_for_all_inputs>0</wait_for_all_inputs>
+      <wait_for_all_votes>0</wait_for_all_votes>
+      <x>327</x>
+      <y>120</y>
+      <Relationships>
+       <Item type="Activity Template Assignment" id="89AD7D4369E64876B60AC2A326BAD024" action="add">
+        <for_all_members>0</for_all_members>
+        <is_required>0</is_required>
+        <related_id keyed_name="Quality Manager" type="Identity">C55A2237BE044BA7A64353D6F1A774EA</related_id>
+        <sort_order>128</sort_order>
+        <source_id keyed_name="Define Audit Requirements" type="Activity Template">D4A563B5769343DD9369EE1C6BEF9501</source_id>
+        <voting_weight>100</voting_weight>
+       </Item>
+       <Item type="Workflow Map Path" id="A62F16BA312F4872926D03DEF515C3A0" action="add">
+        <authentication>none</authentication>
+        <is_default>0</is_default>
+        <is_override>0</is_override>
+        <name>Audit</name>
+        <related_id>22A9B34017D3445691BBC340E683F7FB</related_id>
+        <sort_order>128</sort_order>
+        <source_id keyed_name="Define Audit Requirements" type="Activity Template">D4A563B5769343DD9369EE1C6BEF9501</source_id>
+        </Item>
+      </Relationships>
+     </Item>
+    </related_id>
+    <sort_order>384</sort_order>
+    <source_id keyed_name="QS Audit Workflow map" type="Workflow Map">7F5BB28F82294D4AA0FB9CAF71849930</source_id>
+   </Item>
+   <Item type="Workflow Map Activity" id="D4C5B0F5A7D14537A1D6C3341BFC326A" action="add">
+    <related_id keyed_name="Initiate Audit" type="Activity Template">
+     <Item type="Activity Template" id="3B630F2A44C247AC98503269D8F334AD" action="add">
+      <can_delegate>1</can_delegate>
+      <can_refuse>1</can_refuse>
+      <consolidate_ondelegate>0</consolidate_ondelegate>
+      <icon>../images/Icons/20x20/20x22_gray_ball.gif</icon>
+      <is_auto>0</is_auto>
+      <is_end>0</is_end>
+      <is_start>0</is_start>
+      <message>Please Review...</message>
+      <name>Initiate Audit</name>
+      <wait_for_all_inputs>0</wait_for_all_inputs>
+      <wait_for_all_votes>0</wait_for_all_votes>
+      <x>174</x>
+      <y>120</y>
+      <Relationships>
+       <Item type="Activity Template Assignment" id="40A1977F674F4468B11683D23C16DD28" action="add">
+        <for_all_members>0</for_all_members>
+        <is_required>0</is_required>
+        <related_id keyed_name="Quality" type="Identity">6A7D911555614B8BB16CD8195CDB3B2A</related_id>
+        <sort_order>128</sort_order>
+        <source_id keyed_name="Initiate Audit" type="Activity Template">3B630F2A44C247AC98503269D8F334AD</source_id>
+        <voting_weight>100</voting_weight>
+       </Item>
+       <Item type="Workflow Map Path" id="4D4FA21693BF47E4866B8D84A31DDEBC" action="add">
+        <authentication>none</authentication>
+        <is_default>0</is_default>
+        <is_override>0</is_override>
+        <name>Requirements</name>
+        <related_id>D4A563B5769343DD9369EE1C6BEF9501</related_id>
+        <sort_order>128</sort_order>
+        <source_id keyed_name="Initiate Audit" type="Activity Template">3B630F2A44C247AC98503269D8F334AD</source_id>
+        </Item>
+      </Relationships>
+     </Item>
+    </related_id>
+    <sort_order>256</sort_order>
+    <source_id keyed_name="QS Audit Workflow map" type="Workflow Map">7F5BB28F82294D4AA0FB9CAF71849930</source_id>
+   </Item>
+   <Item type="Workflow Map Activity" id="3C127A4EE8444E0FAB9512995CD93025" action="add">
+    <related_id keyed_name="Perform Audit" type="Activity Template">
+     <Item type="Activity Template" id="22A9B34017D3445691BBC340E683F7FB" action="add">
+      <can_delegate>1</can_delegate>
+      <can_refuse>1</can_refuse>
+      <consolidate_ondelegate>0</consolidate_ondelegate>
+      <icon>../images/Icons/20x20/20x22_gray_ball.gif</icon>
+      <is_auto>0</is_auto>
+      <is_end>0</is_end>
+      <is_start>0</is_start>
+      <message>Please Review...</message>
+      <name>Perform Audit</name>
+      <wait_for_all_inputs>0</wait_for_all_inputs>
+      <wait_for_all_votes>0</wait_for_all_votes>
+      <x>473</x>
+      <y>120</y>
+      <Relationships>
+       <Item type="Activity Template Assignment" id="E2DEC4D1E6AB446C9AE2DD68E9F08FFE" action="add">
+        <for_all_members>0</for_all_members>
+        <is_required>0</is_required>
+        <related_id keyed_name="Quality" type="Identity">6A7D911555614B8BB16CD8195CDB3B2A</related_id>
+        <sort_order>128</sort_order>
+        <source_id keyed_name="Perform Audit" type="Activity Template">22A9B34017D3445691BBC340E683F7FB</source_id>
+        <voting_weight>100</voting_weight>
+       </Item>
+       <Item type="Workflow Map Path" id="3C2B0E89D3724D1083CFD0A356462488" action="add">
+        <authentication>none</authentication>
+        <is_default>0</is_default>
+        <is_override>0</is_override>
+        <name>Review</name>
+        <related_id>7D03D9B9872F4D679628EC340BE4281D</related_id>
+        <segments>556,182</segments>
+        <sort_order>128</sort_order>
+        <source_id keyed_name="Perform Audit" type="Activity Template">22A9B34017D3445691BBC340E683F7FB</source_id>
+        <x>51</x>
+        <y>65</y>
+        </Item>
+      </Relationships>
+     </Item>
+    </related_id>
+    <sort_order>512</sort_order>
+    <source_id keyed_name="QS Audit Workflow map" type="Workflow Map">7F5BB28F82294D4AA0FB9CAF71849930</source_id>
+   </Item>
+   <Item type="Workflow Map Activity" id="2F2A3A835F27437B80572D362970DAC9" action="add">
+    <related_id keyed_name="Release Audit Results" type="Activity Template">
+     <Item type="Activity Template" id="71CD63C2FFE7401FA593EA450CD77EB6" action="add">
+      <can_delegate>1</can_delegate>
+      <can_refuse>1</can_refuse>
+      <consolidate_ondelegate>0</consolidate_ondelegate>
+      <icon>../images/Icons/20x20/20x22_gray_ball.gif</icon>
+      <is_auto>0</is_auto>
+      <is_end>0</is_end>
+      <is_start>0</is_start>
+      <message>Please Review...</message>
+      <name>Release Audit Results</name>
+      <wait_for_all_inputs>0</wait_for_all_inputs>
+      <wait_for_all_votes>0</wait_for_all_votes>
+      <x>774</x>
+      <y>120</y>
+      <Relationships>
+       <Item type="Activity Template Assignment" id="90155A66F579425CACC22EB3446BA557" action="add">
+        <for_all_members>0</for_all_members>
+        <is_required>0</is_required>
+        <related_id keyed_name="Quality Manager" type="Identity">C55A2237BE044BA7A64353D6F1A774EA</related_id>
+        <sort_order>128</sort_order>
+        <source_id keyed_name="Release Audit Results" type="Activity Template">71CD63C2FFE7401FA593EA450CD77EB6</source_id>
+        <voting_weight>100</voting_weight>
+       </Item>
+       <Item type="Workflow Map Path" id="F31BF335798148BAA8A73FCB62F1DD99" action="add">
+        <authentication>none</authentication>
+        <is_default>0</is_default>
+        <is_override>0</is_override>
+        <name>Complete</name>
+        <related_id>86382CAF7FEF4F92B9EA22DFFB0C6C1F</related_id>
+        <sort_order>128</sort_order>
+        <source_id keyed_name="Release Audit Results" type="Activity Template">71CD63C2FFE7401FA593EA450CD77EB6</source_id>
+        </Item>
+      </Relationships>
+     </Item>
+    </related_id>
+    <sort_order>768</sort_order>
+    <source_id keyed_name="QS Audit Workflow map" type="Workflow Map">7F5BB28F82294D4AA0FB9CAF71849930</source_id>
+   </Item>
+  
+   <Item type="Workflow Map Activity" id="224E5080E2AD450EB649F9B82D288CDA" action="add">
+    <related_id keyed_name="Review Audit Results" type="Activity Template">
+     <Item type="Activity Template" id="7D03D9B9872F4D679628EC340BE4281D" action="add">
+      <can_delegate>1</can_delegate>
+      <can_refuse>1</can_refuse>
+      <consolidate_ondelegate>0</consolidate_ondelegate>
+      <icon>../images/Icons/20x20/20x22_gray_ball.gif</icon>
+      <is_auto>0</is_auto>
+      <is_end>0</is_end>
+      <is_start>0</is_start>
+      <message>Please Review...</message>
+      <name>Review Audit Results</name>
+      <wait_for_all_inputs>0</wait_for_all_inputs>
+      <wait_for_all_votes>0</wait_for_all_votes>
+      <x>617</x>
+      <y>120</y>
+      <Relationships>
+       <Item type="Activity Template Assignment" id="79B66B8EC21643C3A44F2B00FEC974E0" action="add">
+        <for_all_members>0</for_all_members>
+        <is_required>0</is_required>
+        <related_id keyed_name="Quality Manager" type="Identity">C55A2237BE044BA7A64353D6F1A774EA</related_id>
+        <sort_order>128</sort_order>
+        <source_id keyed_name="Review Audit Results" type="Activity Template">7D03D9B9872F4D679628EC340BE4281D</source_id>
+        <voting_weight>100</voting_weight>
+       </Item>
+       <Item type="Workflow Map Path" id="409792F330284849A4DB6B894FBA8FB4" action="add">
+        <authentication>none</authentication>
+        <is_default>0</is_default>
+        <is_override>0</is_override>
+        <name>Perform Audit</name>
+        <related_id>22A9B34017D3445691BBC340E683F7FB</related_id>
+        <segments>555,74</segments>
+        <sort_order>256</sort_order>
+        <source_id keyed_name="Review Audit Results" type="Activity Template">7D03D9B9872F4D679628EC340BE4281D</source_id>
+        <x>-108</x>
+        <y>-61</y>
+        </Item>
+      
+       <Item type="Workflow Map Path" id="A9AF5C8FEF134DDC80AEBEAE94A85D23" action="add">
+        <authentication>none</authentication>
+        <is_default>0</is_default>
+        <is_override>0</is_override>
+        <name>Release</name>
+        <related_id>71CD63C2FFE7401FA593EA450CD77EB6</related_id>
+        <sort_order>128</sort_order>
+        <source_id keyed_name="Review Audit Results" type="Activity Template">7D03D9B9872F4D679628EC340BE4281D</source_id>
+        </Item></Relationships>
+     </Item>
+    </related_id>
+    <sort_order>640</sort_order>
+    <source_id keyed_name="QS Audit Workflow map" type="Workflow Map">7F5BB28F82294D4AA0FB9CAF71849930</source_id>
+   </Item>
+   <Item type="Workflow Map Activity" id="3EDBFD44EF9E44F7A103EECDCEB2A158" action="add">
+    <related_id keyed_name="Start" type="Activity Template">
+     <Item type="Activity Template" id="8751F59DC9B543B7A6C6B52788C3534A" action="add">
+      <can_delegate>0</can_delegate>
+      <can_refuse>0</can_refuse>
+      <consolidate_ondelegate>0</consolidate_ondelegate>
+      <expected_duration>0</expected_duration>
+      <icon>../images/Icons/16x16/16x16_arrow_right.gif</icon>
+      <is_auto>1</is_auto>
+      <is_end>0</is_end>
+      <is_start>1</is_start>
+      <message>Workflow Start</message>
+      <name>Start</name>
+      <priority>2</priority>
+      <reminder_count>0</reminder_count>
+      <reminder_interval>0</reminder_interval>
+      <timeout_duration>0</timeout_duration>
+      <wait_for_all_inputs>0</wait_for_all_inputs>
+      <wait_for_all_votes>0</wait_for_all_votes>
+      <x>70</x>
+      <y>120</y>
+      <Relationships>
+       <Item type="Workflow Map Path" id="842A64B7229C4981B8FDB688BDF16E06" action="add">
+        <authentication>none</authentication>
+        <is_default>1</is_default>
+        <is_override>0</is_override>
+        <name>Initiate</name>
+        <related_id>3B630F2A44C247AC98503269D8F334AD</related_id>
+        <sort_order>128</sort_order>
+        <source_id keyed_name="Start" type="Activity Template">8751F59DC9B543B7A6C6B52788C3534A</source_id>
+        </Item>
+      </Relationships>
+     </Item>
+    </related_id>
+    <sort_order>128</sort_order>
+    <source_id keyed_name="QS Audit Workflow map" type="Workflow Map">7F5BB28F82294D4AA0FB9CAF71849930</source_id>
+   </Item></Relationships>
+ </Item>
+</AML>

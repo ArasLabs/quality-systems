@@ -1,0 +1,26 @@
+<AML>
+ <Item type="List" id="B0AD8FBF9E86489788A0B3ABAA2CC027" action="add">
+  <description>List of corporate plants, not filter list</description>
+  <name>Corporate Plants - not filter</name>
+  <Relationships>
+   <Item type="Value" id="80C95679659D49F885A8ED1922BC5C77" action="add">
+    <label>Plant 1</label>
+    <sort_order>128</sort_order>
+    <source_id keyed_name="Corporate Plants - not filter" type="List">B0AD8FBF9E86489788A0B3ABAA2CC027</source_id>
+    <value>Plant 1</value>
+   </Item>
+   <Item type="Value" id="1A73594F164C4DB293E9BE93A952BEA7" action="add">
+    <label>Plant 2</label>
+    <sort_order>256</sort_order>
+    <source_id keyed_name="Corporate Plants - not filter" type="List">B0AD8FBF9E86489788A0B3ABAA2CC027</source_id>
+    <value>Plant 2</value>
+   </Item>
+   <Item type="Value" id="7C92DC3A2CCA43CB892C5901A2EDEDD6" action="add">
+    <label>Plant 3</label>
+    <sort_order>384</sort_order>
+    <source_id keyed_name="Corporate Plants - not filter" type="List">B0AD8FBF9E86489788A0B3ABAA2CC027</source_id>
+    <value>Plant 3</value>
+   </Item>
+  </Relationships>
+ </Item>
+</AML>

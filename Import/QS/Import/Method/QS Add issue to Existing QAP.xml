@@ -1,0 +1,29 @@
+<AML>
+ <Item type="Method" id="CF25D749858A458094DBA303225C3998" action="add">
+  <method_code><![CDATA[var myItem = this;
+var param = {aras:top.aras,itemtypeName:'QAP'};
+var res = showModalDialog('../scripts/searchDialog.html', param, 'dialogHeight:450px; dialogWidth:700px; status:0; help:0; resizable:1');
+if (res === undefined || res.itemID ==='') {return false;}
+
+// Create the relationship only
+var newRel = myItem.newItem('QAP Quality Events','add');
+newRel.setProperty('source_id',res.itemID);
+newRel.setProperty('itemtype','Issue');
+newRel.setPropertyItem('related_id',myItem );
+
+res=newRel.apply();
+var QAP = myItem.newItem('QAP','get');
+QAP.setID(res.itemID);
+res = QAP.apply();
+QAP=res.getItemByIndex(0);
+top.aras.uiShowItemEx(QAP.node,undefined,true);
+
+
+
+
+
+]]></method_code>
+  <method_type>JavaScript</method_type>
+  <name>QS Add Issue to Existing QAP</name>
+ </Item>
+</AML>

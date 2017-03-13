@@ -1,0 +1,30 @@
+<AML>
+ <Item type="Permission" id="B61876DFBB6F43B591DFEF5BCB8CA609" action="add">
+  <is_private>0</is_private>
+  <name>NCR</name>
+  <Relationships>
+   <Item type="Access" id="EB54DB9637F043099C77007BC64DD40D" action="add">
+    <can_change_access>1</can_change_access>
+    <can_delete>1</can_delete>
+    <can_get>1</can_get>
+    <can_update>1</can_update>
+    <related_id keyed_name="Administrators" type="Identity">2618D6F5A90949BAA7E920D1B04C7EE1</related_id>
+    <sort_order>384</sort_order>
+    <source_id keyed_name="NCR" type="Permission">B61876DFBB6F43B591DFEF5BCB8CA609</source_id>
+   </Item>
+  
+   <Item type="Access" id="5F9C1077342643E782EFC0EB2F1EEDFD" action="add">
+    <can_change_access>1</can_change_access>
+    <can_delete>1</can_delete>
+    <can_get>1</can_get>
+    <can_update>1</can_update>
+    <related_id keyed_name="World" type="Identity">
+     <Item type="Identity" action="get" select="id">
+      <name>World</name>
+     </Item>
+    </related_id>
+    <sort_order>128</sort_order>
+    <source_id keyed_name="NCR" type="Permission">B61876DFBB6F43B591DFEF5BCB8CA609</source_id>
+   </Item></Relationships>
+ </Item>
+</AML>

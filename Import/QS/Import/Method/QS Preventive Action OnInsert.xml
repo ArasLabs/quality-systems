@@ -1,0 +1,28 @@
+<AML>
+ <Item type="Method" id="7642E06120404F5796D9062CCA399676" action="add">
+  <comments>Auto populate the part, BU, and Plant from the QAP for to the items in the related Preventive Action items</comments>
+  <method_code><![CDATA[var xpath = "//Item/Relationships/Item/related_id/Item[@id='" + relatedID + "']";
+var relitm = item.selectSingleNode(xpath);
+if (relitm == null) {
+   return
+}
+
+if (relitm.getAttribute('type')=="Process Planner") {
+   var partid=top.aras.getItemProperty(item,"part");
+   top.aras.setItemProperty(relitm,'part',partid);
+   
+   var customerid=top.aras.getItemProperty(item,"customer");   
+   top.aras.setItemProperty(relitm,'customer',customerid);
+}
+
+if (relitm.getAttribute('type')=="DFMEA") {
+   var partid=top.aras.getItemProperty(item,"part");   
+   top.aras.setItemProperty(relitm,'part',partid);
+   
+   var customerid=top.aras.getItemProperty(item,"customer");   
+   top.aras.setItemProperty(relitm,'customer',customerid);
+}]]></method_code>
+  <method_type>JavaScript</method_type>
+  <name>QS Preventive Action OnInsert</name>
+ </Item>
+</AML>

@@ -1,0 +1,9 @@
+<AML>
+ <Item type="Sequence" id="9E0121D31C3148869D071F2A6C654328" action="add">
+  <current_value>15</current_value>
+  <name>QS_Supplier_Issue_Number</name>
+  <pad_to>3</pad_to>
+  <pad_with>0</pad_with>
+  <prefix>SC06-</prefix>
+ </Item>
+</AML>

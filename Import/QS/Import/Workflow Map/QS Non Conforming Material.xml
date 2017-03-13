@@ -1,0 +1,317 @@
+<AML>
+ <Item type="Workflow Map" id="0D3BA1A6ECF644D4BB88C8104A631D6A" action="add">
+  <description>Non Conforming Material workflow</description>
+  <name>QS Non Conforming Material</name>
+  <node_bg_color></node_bg_color>
+  <node_label1_color></node_label1_color>
+  <node_label1_font></node_label1_font>
+  <node_label2_color></node_label2_color>
+  <node_label2_font></node_label2_font>
+  <node_name_color></node_name_color>
+  <node_name_font></node_name_font>
+  <node_size></node_size>
+  <process_owner keyed_name="Innovator Admin" type="Identity">
+   <Item type="Identity" action="get" select="id">
+    <name>Innovator Admin</name>
+   </Item>
+  </process_owner>
+  <transition_line_color></transition_line_color>
+  <transition_name_color></transition_name_color>
+  <transition_name_font></transition_name_font>
+  <Relationships>
+   <Item type="Workflow Map Activity" id="462F746DA627459689C3AD6B8B65C758" action="add">
+    <related_id keyed_name="End" type="Activity Template">
+     <Item type="Activity Template" id="6D2F2174E8674324BE7B1F9ACF020106" action="add">
+      <can_delegate>0</can_delegate>
+      <can_refuse>0</can_refuse>
+      <consolidate_ondelegate>0</consolidate_ondelegate>
+      <expected_duration>0</expected_duration>
+      <icon>../images/Icons/16x16/16x16_redx.gif</icon>
+      <is_auto>1</is_auto>
+      <is_end>1</is_end>
+      <is_start>0</is_start>
+      <message>Workflow End</message>
+      <name>End</name>
+      <priority>1</priority>
+      <reminder_count>0</reminder_count>
+      <reminder_interval>0</reminder_interval>
+      <timeout_duration>0</timeout_duration>
+      <wait_for_all_inputs>0</wait_for_all_inputs>
+      <wait_for_all_votes>0</wait_for_all_votes>
+      <x>725</x>
+      <y>20</y>
+      </Item>
+    </related_id>
+    <sort_order>128</sort_order>
+    <source_id keyed_name="QS Non Conforming Material" type="Workflow Map">0D3BA1A6ECF644D4BB88C8104A631D6A</source_id>
+   </Item>
+   <Item type="Workflow Map Activity" id="8C62C921D5E44417925933884C3B34F3" action="add">
+    <related_id keyed_name="Initiate Purge Activity" type="Activity Template">
+     <Item type="Activity Template" id="3B04DE6555F04FD4BE440DD0DCAECCE4" action="add">
+      <can_delegate>1</can_delegate>
+      <can_refuse>1</can_refuse>
+      <consolidate_ondelegate>0</consolidate_ondelegate>
+      <icon>../images/Icons/20x20/20x22_gray_ball.gif</icon>
+      <is_auto>0</is_auto>
+      <is_end>0</is_end>
+      <is_start>0</is_start>
+      <message>Please Review...</message>
+      <name>Initiate Purge Activity</name>
+      <wait_for_all_inputs>0</wait_for_all_inputs>
+      <wait_for_all_votes>0</wait_for_all_votes>
+      <x>127</x>
+      <y>20</y>
+      <Relationships>
+       <Item type="Activity Template Assignment" id="8DD0875E2B6A40D5B727CE586133A280" action="add">
+        <for_all_members>0</for_all_members>
+        <is_required>0</is_required>
+        <related_id keyed_name="Quality" type="Identity">6A7D911555614B8BB16CD8195CDB3B2A</related_id>
+        <sort_order>128</sort_order>
+        <source_id keyed_name="Initiate Purge Activity" type="Activity Template">3B04DE6555F04FD4BE440DD0DCAECCE4</source_id>
+        <voting_weight>100</voting_weight>
+       </Item>
+       <Item type="Workflow Map Path" id="C6C7AF79F092486D834D721C7A731DB0" action="add">
+        <authentication>none</authentication>
+        <is_default>0</is_default>
+        <is_override>0</is_override>
+        <name>Authorize</name>
+        <related_id>2E35830A9EB94DB094FCAA36E37AA362</related_id>
+        <segments></segments>
+        <sort_order>128</sort_order>
+        <source_id keyed_name="Initiate Purge Activity" type="Activity Template">3B04DE6555F04FD4BE440DD0DCAECCE4</source_id>
+        <x>35</x>
+        <y>-5</y>
+        </Item>
+      </Relationships>
+     </Item>
+    </related_id>
+    <sort_order>640</sort_order>
+    <source_id keyed_name="QS Non Conforming Material" type="Workflow Map">0D3BA1A6ECF644D4BB88C8104A631D6A</source_id>
+   </Item>
+   <Item type="Workflow Map Activity" id="4F0BFC9DEC5A49CCADA1B02933300D4D" action="add">
+    <related_id keyed_name="Production Approval" type="Activity Template">
+     <Item type="Activity Template" id="31EE71C24F82466BB51E35085314E83A" action="add">
+      <can_delegate>1</can_delegate>
+      <can_refuse>1</can_refuse>
+      <consolidate_ondelegate>0</consolidate_ondelegate>
+      <icon>../images/Icons/20x20/20x22_gray_ball.gif</icon>
+      <is_auto>0</is_auto>
+      <is_end>0</is_end>
+      <is_start>0</is_start>
+      <message>Please Review...</message>
+      <name>Production Approval</name>
+      <wait_for_all_inputs>0</wait_for_all_inputs>
+      <wait_for_all_votes>0</wait_for_all_votes>
+      <x>384</x>
+      <y>20</y>
+      <Relationships>
+       <Item type="Activity Template Assignment" id="08B7A92A606D4F5E8FCF281FEA74DB05" action="add">
+        <for_all_members>0</for_all_members>
+        <is_required>0</is_required>
+        <related_id keyed_name="Plant Manager" type="Identity">0756DBF20D8C4DE1B203246A784214D6</related_id>
+        <sort_order>128</sort_order>
+        <source_id keyed_name="Production Approval" type="Activity Template">31EE71C24F82466BB51E35085314E83A</source_id>
+        <voting_weight>100</voting_weight>
+       </Item>
+       <Item type="Workflow Map Path" id="E7A3FF29C8C0408294BEB40130F50CF9" action="add">
+        <authentication>none</authentication>
+        <is_default>0</is_default>
+        <is_override>0</is_override>
+        <name>Quality Approve</name>
+        <related_id>D50DDF5F0A6549AB83A54064BC67CCE5</related_id>
+        <segments></segments>
+        <sort_order>128</sort_order>
+        <source_id keyed_name="Production Approval" type="Activity Template">31EE71C24F82466BB51E35085314E83A</source_id>
+        <x>16</x>
+        <y>-6</y>
+        </Item>
+       <Item type="Workflow Map Path" id="29E0FE41D0A34B63986041A47D0E79F1" action="add">
+        <authentication>none</authentication>
+        <is_default>0</is_default>
+        <is_override>0</is_override>
+        <name>Update</name>
+        <related_id>2E35830A9EB94DB094FCAA36E37AA362</related_id>
+        <segments>329,4</segments>
+        <sort_order>256</sort_order>
+        <source_id keyed_name="Production Approval" type="Activity Template">31EE71C24F82466BB51E35085314E83A</source_id>
+        <x>-85</x>
+        <y>-8</y>
+        </Item>
+      </Relationships>
+     </Item>
+    </related_id>
+    <sort_order>384</sort_order>
+    <source_id keyed_name="QS Non Conforming Material" type="Workflow Map">0D3BA1A6ECF644D4BB88C8104A631D6A</source_id>
+   </Item>
+   <Item type="Workflow Map Activity" id="5B6554045897480AA05A412B2336CC8E" action="add">
+    <related_id keyed_name="Purge Completion" type="Activity Template">
+     <Item type="Activity Template" id="65B0F14EC2CC4DF1A63647ADA20F2EFE" action="add">
+      <can_delegate>1</can_delegate>
+      <can_refuse>1</can_refuse>
+      <consolidate_ondelegate>0</consolidate_ondelegate>
+      <icon>../images/Icons/20x20/20x22_gray_ball.gif</icon>
+      <is_auto>0</is_auto>
+      <is_end>0</is_end>
+      <is_start>0</is_start>
+      <message>Please Review...</message>
+      <name>Purge Completion</name>
+      <wait_for_all_inputs>0</wait_for_all_inputs>
+      <wait_for_all_votes>0</wait_for_all_votes>
+      <x>632</x>
+      <y>20</y>
+      <Relationships>
+       <Item type="Activity Template Assignment" id="ECF658BB66EF4279935D566E4F05A861" action="add">
+        <for_all_members>0</for_all_members>
+        <is_required>1</is_required>
+        <related_id keyed_name="Plant Manager" type="Identity">0756DBF20D8C4DE1B203246A784214D6</related_id>
+        <sort_order>128</sort_order>
+        <source_id keyed_name="Purge Completion" type="Activity Template">65B0F14EC2CC4DF1A63647ADA20F2EFE</source_id>
+        <voting_weight>100</voting_weight>
+       </Item>
+       <Item type="Workflow Map Path" id="E318641D7C764CB6B325984319A52116" action="add">
+        <authentication>none</authentication>
+        <is_default>0</is_default>
+        <is_override>0</is_override>
+        <name>End</name>
+        <related_id>6D2F2174E8674324BE7B1F9ACF020106</related_id>
+        <segments></segments>
+        <sort_order>128</sort_order>
+        <source_id keyed_name="Purge Completion" type="Activity Template">65B0F14EC2CC4DF1A63647ADA20F2EFE</source_id>
+        <x>32</x>
+        <y>-7</y>
+        </Item>
+      </Relationships>
+     </Item>
+    </related_id>
+    <sort_order>768</sort_order>
+    <source_id keyed_name="QS Non Conforming Material" type="Workflow Map">0D3BA1A6ECF644D4BB88C8104A631D6A</source_id>
+   </Item>
+  
+   <Item type="Workflow Map Activity" id="959BE98C6A934DB4A51C1E35EE171885" action="add">
+    <related_id keyed_name="Purge Review" type="Activity Template">
+     <Item type="Activity Template" id="2E35830A9EB94DB094FCAA36E37AA362" action="add">
+      <can_delegate>1</can_delegate>
+      <can_refuse>1</can_refuse>
+      <consolidate_ondelegate>0</consolidate_ondelegate>
+      <icon>../images/Icons/20x20/20x22_gray_ball.gif</icon>
+      <is_auto>0</is_auto>
+      <is_end>0</is_end>
+      <is_start>0</is_start>
+      <message>Please Review...</message>
+      <name>Purge Review</name>
+      <wait_for_all_inputs>0</wait_for_all_inputs>
+      <wait_for_all_votes>0</wait_for_all_votes>
+      <x>250</x>
+      <y>20</y>
+      <Relationships>
+       <Item type="Activity Template Assignment" id="A44615D3E5874E5C96258DDE64B69B6B" action="add">
+        <for_all_members>0</for_all_members>
+        <is_required>0</is_required>
+        <related_id keyed_name="Quality Manager" type="Identity">C55A2237BE044BA7A64353D6F1A774EA</related_id>
+        <sort_order>128</sort_order>
+        <source_id keyed_name="Purge Review" type="Activity Template">2E35830A9EB94DB094FCAA36E37AA362</source_id>
+        <voting_weight>100</voting_weight>
+       </Item>
+       <Item type="Workflow Map Path" id="E257543565624CB390D12A657F88E698" action="add">
+        <authentication>none</authentication>
+        <is_default>0</is_default>
+        <is_override>0</is_override>
+        <name>Approve</name>
+        <related_id>31EE71C24F82466BB51E35085314E83A</related_id>
+        <segments>332,73</segments>
+        <sort_order>128</sort_order>
+        <source_id keyed_name="Purge Review" type="Activity Template">2E35830A9EB94DB094FCAA36E37AA362</source_id>
+        <x>43</x>
+        <y>55</y>
+        </Item>
+      </Relationships>
+     </Item>
+    </related_id>
+    <sort_order>256</sort_order>
+    <source_id keyed_name="QS Non Conforming Material" type="Workflow Map">0D3BA1A6ECF644D4BB88C8104A631D6A</source_id>
+   </Item>
+   <Item type="Workflow Map Activity" id="5FB16C4F56BB404F9D7D474A3F142A4E" action="add">
+    <related_id keyed_name="Quality Approval" type="Activity Template">
+     <Item type="Activity Template" id="D50DDF5F0A6549AB83A54064BC67CCE5" action="add">
+      <can_delegate>1</can_delegate>
+      <can_refuse>1</can_refuse>
+      <consolidate_ondelegate>0</consolidate_ondelegate>
+      <icon>../images/Icons/20x20/20x22_gray_ball.gif</icon>
+      <is_auto>0</is_auto>
+      <is_end>0</is_end>
+      <is_start>0</is_start>
+      <message>Please Review...</message>
+      <name>Quality Approval</name>
+      <wait_for_all_inputs>0</wait_for_all_inputs>
+      <wait_for_all_votes>0</wait_for_all_votes>
+      <x>506</x>
+      <y>20</y>
+      <Relationships>
+       <Item type="Activity Template Assignment" id="23A24E599B7749188D5B3177836660AD" action="add">
+        <for_all_members>0</for_all_members>
+        <is_required>0</is_required>
+        <related_id keyed_name="Quality Manager" type="Identity">C55A2237BE044BA7A64353D6F1A774EA</related_id>
+        <sort_order>128</sort_order>
+        <source_id keyed_name="Quality Approval" type="Activity Template">D50DDF5F0A6549AB83A54064BC67CCE5</source_id>
+        <voting_weight>100</voting_weight>
+       </Item>
+       <Item type="Workflow Map Path" id="43B3F3B04B754D7CBB1C8F513A2AE971" action="add">
+        <authentication>none</authentication>
+        <is_default>0</is_default>
+        <is_override>0</is_override>
+        <name>Complete</name>
+        <related_id>65B0F14EC2CC4DF1A63647ADA20F2EFE</related_id>
+        <segments></segments>
+        <sort_order>128</sort_order>
+        <source_id keyed_name="Quality Approval" type="Activity Template">D50DDF5F0A6549AB83A54064BC67CCE5</source_id>
+        <x>33</x>
+        <y>-7</y>
+        </Item>
+      </Relationships>
+     </Item>
+    </related_id>
+    <sort_order>512</sort_order>
+    <source_id keyed_name="QS Non Conforming Material" type="Workflow Map">0D3BA1A6ECF644D4BB88C8104A631D6A</source_id>
+   </Item>
+   <Item type="Workflow Map Activity" id="1E4C8FB812F545B29F8F135782BE38E4" action="add">
+    <related_id keyed_name="Start" type="Activity Template">
+     <Item type="Activity Template" id="622684A9FF714227AD640E33BB1D0024" action="add">
+      <can_delegate>0</can_delegate>
+      <can_refuse>0</can_refuse>
+      <consolidate_ondelegate>0</consolidate_ondelegate>
+      <expected_duration>0</expected_duration>
+      <icon>../images/Icons/16x16/16x16_arrow_right.gif</icon>
+      <is_auto>1</is_auto>
+      <is_end>0</is_end>
+      <is_start>1</is_start>
+      <message>Workflow Start</message>
+      <name>Start</name>
+      <priority>2</priority>
+      <reminder_count>0</reminder_count>
+      <reminder_interval>0</reminder_interval>
+      <timeout_duration>0</timeout_duration>
+      <wait_for_all_inputs>0</wait_for_all_inputs>
+      <wait_for_all_votes>0</wait_for_all_votes>
+      <x>20</x>
+      <y>20</y>
+      <Relationships>
+       <Item type="Workflow Map Path" id="07D113B4D1FD44F8BBC1FFF17C5D6037" action="add">
+        <authentication>none</authentication>
+        <is_default>1</is_default>
+        <is_override>0</is_override>
+        <name>Initiate</name>
+        <related_id>3B04DE6555F04FD4BE440DD0DCAECCE4</related_id>
+        <segments></segments>
+        <sort_order>128</sort_order>
+        <source_id keyed_name="Start" type="Activity Template">622684A9FF714227AD640E33BB1D0024</source_id>
+        <x>31</x>
+        <y>-7</y>
+        </Item>
+      </Relationships>
+     </Item>
+    </related_id>
+    <sort_order>128</sort_order>
+    <source_id keyed_name="QS Non Conforming Material" type="Workflow Map">0D3BA1A6ECF644D4BB88C8104A631D6A</source_id>
+   </Item></Relationships>
+ </Item>
+</AML>

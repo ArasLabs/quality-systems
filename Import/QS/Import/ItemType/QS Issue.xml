@@ -1,0 +1,874 @@
+<AML>
+ <Item type="ItemType" id="09335878CD6A49C7B33E626A6C2B0040" action="add">
+  <allow_private_permission>0</allow_private_permission>
+  <auto_search>1</auto_search>
+  <class_structure><![CDATA[<class name="QS Issue"><class name="Customer"/><class name="Internal"/><class name="Supplier"/></class>]]></class_structure>
+  <default_lifecycle keyed_name="QS Issue" type="Life Cycle Map">85C9E1ABA5B149089E9535828E13C34A</default_lifecycle>
+  <hide_where_used>0</hide_where_used>
+  <implementation_type>table</implementation_type>
+  <instance_data>QS_ISSUE</instance_data>
+  <is_dependent>0</is_dependent>
+  <is_relationship>0</is_relationship>
+  <is_versionable>0</is_versionable>
+  <label>Issue</label>
+  <label_plural>Issues</label_plural>
+  <manual_versioning>0</manual_versioning>
+  <name>QS Issue</name>
+  <open_icon>../images/Icons/16x16/16x16_viewWith.gif</open_icon>
+  <revisions keyed_name="Default" type="Revision">7FE395DD8B9F4E1090756A34B733D75E</revisions>
+  <save_history>0</save_history>
+  <show_parameters_tab>0</show_parameters_tab>
+  <unlock_on_logout>0</unlock_on_logout>
+  <use_src_access>0</use_src_access>
+  <Relationships><Item type="Property" id="EBA47F6321FE4814B28B7D96F694B0EB" action="add">
+    <column_alignment>left</column_alignment>
+    <column_width>120</column_width>
+    <data_source keyed_name="Part" type="ItemType" name="Part">4F1AC04A2B484F3ABA4E20DB63808A88</data_source>
+    <data_type>item</data_type>
+    <is_hidden>0</is_hidden>
+    <is_hidden2>0</is_hidden2>
+    <is_indexed>0</is_indexed>
+    <is_keyed>0</is_keyed>
+    <is_multi_valued>0</is_multi_valued>
+    <is_required>0</is_required>
+    <item_behavior>float</item_behavior>
+    <label>Part Number</label>
+    <name>part</name>
+    <range_inclusive>0</range_inclusive>
+    <readonly>0</readonly>
+    <sort_order>90</sort_order>
+    <source_id keyed_name="QS Issue" type="ItemType" name="QS Issue">09335878CD6A49C7B33E626A6C2B0040</source_id>
+    </Item>
+   <Item type="Allowed Permission" id="1E6F2DC147244A019332302F755469D1" action="add">
+    <is_default>1</is_default>
+    <related_id keyed_name="Issue" type="Permission">A6C8354904C24CEC87583C8908329C48</related_id>
+    <sort_order>128</sort_order>
+    <source_id keyed_name="QS Issue" type="ItemType" name="QS Issue">09335878CD6A49C7B33E626A6C2B0040</source_id>
+   </Item>
+   <Item type="Allowed Workflow" id="F4E0371BF1C043299256479C68F7A53F" action="add">
+    <is_default>1</is_default>
+    <related_id keyed_name="QS Issue" type="Workflow Map">E571BF7ACB90404790DB42E514B2C869</related_id>
+    <sort_order>128</sort_order>
+    <source_id keyed_name="QS Issue" type="ItemType" name="QS Issue">09335878CD6A49C7B33E626A6C2B0040</source_id>
+   </Item>
+   <Item type="Can Add" id="E113660343C94C829B6BC543261A3E3F" action="add">
+    <can_add>1</can_add>
+    <related_id keyed_name="World" type="Identity">
+     <Item type="Identity" action="get" select="id">
+      <name>World</name>
+     </Item>
+    </related_id>
+    <sort_order>128</sort_order>
+    <source_id keyed_name="QS Issue" type="ItemType" name="QS Issue">09335878CD6A49C7B33E626A6C2B0040</source_id>
+   </Item>
+   <Item type="Item Action" id="F479A9A19A9640D7A1B514000B295F05" action="add">
+    <related_id keyed_name="Assign to Existing CAPA" type="Action">C09F6228A1A24EFA856134ADFBD163EE</related_id>
+    <sort_order>256</sort_order>
+    <source_id keyed_name="QS Issue" type="ItemType" name="QS Issue">09335878CD6A49C7B33E626A6C2B0040</source_id>
+   </Item>
+   <Item type="Item Action" id="10B3947C78F641949F8C0A28E7D64EFC" action="add">
+    <related_id keyed_name="Create a New CAPA" type="Action">080630733CA847B5BF2B98E07ED01B4B</related_id>
+    <sort_order>128</sort_order>
+    <source_id keyed_name="QS Issue" type="ItemType" name="QS Issue">09335878CD6A49C7B33E626A6C2B0040</source_id>
+   </Item>
+   <Item type="Property" id="85B07D5997DE4834AB83F73AD71857C3" action="add">
+    <class_path></class_path>
+    <column_alignment>left</column_alignment>
+    <column_width>100</column_width>
+    <data_source keyed_name="Corporate Business Unit">C50BCD8F2BDB4C3C93E1ACAF5665AE55</data_source>
+    <data_type>list</data_type>
+    <is_hidden>1</is_hidden>
+    <is_hidden2>1</is_hidden2>
+    <is_indexed>0</is_indexed>
+    <is_keyed>0</is_keyed>
+    <is_multi_valued>0</is_multi_valued>
+    <is_required>0</is_required>
+    <label>Business Unit</label>
+    <name>corp_bu</name>
+    <range_inclusive>0</range_inclusive>
+    <readonly>0</readonly>
+    <sort_order>3970</sort_order>
+    <source_id keyed_name="QS Issue" type="ItemType" name="QS Issue">09335878CD6A49C7B33E626A6C2B0040</source_id>
+    </Item>
+   <Item type="Property" id="6B8D6CFFB3984543B8BF9FB4DA0C4B56" action="add">
+    <column_alignment>left</column_alignment>
+    <column_width>70</column_width>
+    <data_source keyed_name="User" type="ItemType" name="User">45E899CD2859442982EB22BB2DF683E5</data_source>
+    <data_type>item</data_type>
+    <is_hidden>1</is_hidden>
+    <is_hidden2>1</is_hidden2>
+    <is_indexed>0</is_indexed>
+    <is_keyed>0</is_keyed>
+    <is_multi_valued>0</is_multi_valued>
+    <is_required>0</is_required>
+    <item_behavior>float</item_behavior>
+    <label>Champion</label>
+    <name>corp_champion</name>
+    <range_inclusive>0</range_inclusive>
+    <readonly>0</readonly>
+    <sort_order>4738</sort_order>
+    <source_id keyed_name="QS Issue" type="ItemType" name="QS Issue">09335878CD6A49C7B33E626A6C2B0040</source_id>
+    </Item>
+   <Item type="Property" id="10C6C2703191441DBAC195FA4100959A" action="add">
+    <column_alignment>left</column_alignment>
+    <data_source keyed_name="Corporate Plants - not filter">B0AD8FBF9E86489788A0B3ABAA2CC027</data_source>
+    <data_type>list</data_type>
+    <is_hidden>1</is_hidden>
+    <is_hidden2>1</is_hidden2>
+    <is_indexed>0</is_indexed>
+    <is_keyed>0</is_keyed>
+    <is_multi_valued>0</is_multi_valued>
+    <is_required>0</is_required>
+    <label>Location</label>
+    <name>corp_location</name>
+    <range_inclusive>0</range_inclusive>
+    <readonly>0</readonly>
+    <sort_order>200</sort_order>
+    <source_id keyed_name="QS Issue" type="ItemType" name="QS Issue">09335878CD6A49C7B33E626A6C2B0040</source_id>
+    </Item>
+   <Item type="Property" id="5AB4B54CF81445A3A554968ED0B598B3" action="add">
+    <class_path>/QS Issue/Internal</class_path>
+    <column_alignment>left</column_alignment>
+    <column_width>100</column_width>
+    <data_source keyed_name="Corporate Plants">3C713157B9D74B099D7A22E630C908A7</data_source>
+    <data_type>filter list</data_type>
+    <is_hidden>1</is_hidden>
+    <is_hidden2>1</is_hidden2>
+    <is_indexed>0</is_indexed>
+    <is_keyed>0</is_keyed>
+    <is_multi_valued>0</is_multi_valued>
+    <is_required>0</is_required>
+    <label>Plant</label>
+    <name>corp_plant</name>
+    <pattern>corp_bu</pattern>
+    <range_inclusive>0</range_inclusive>
+    <readonly>0</readonly>
+    <sort_order>4098</sort_order>
+    <source_id keyed_name="QS Issue" type="ItemType" name="QS Issue">09335878CD6A49C7B33E626A6C2B0040</source_id>
+    </Item>
+   <Item type="Property" id="0D80D76A9E6D4933A59696F03B4A8BCA" action="add">
+    <class_path>/QS Issue/Internal</class_path>
+    <column_alignment>left</column_alignment>
+    <column_width>100</column_width>
+    <data_source keyed_name="User" type="ItemType" name="User">45E899CD2859442982EB22BB2DF683E5</data_source>
+    <data_type>item</data_type>
+    <is_hidden>1</is_hidden>
+    <is_hidden2>1</is_hidden2>
+    <is_indexed>0</is_indexed>
+    <is_keyed>0</is_keyed>
+    <is_multi_valued>0</is_multi_valued>
+    <is_required>0</is_required>
+    <item_behavior>float</item_behavior>
+    <label>Point Of Contact</label>
+    <name>corp_poc</name>
+    <range_inclusive>0</range_inclusive>
+    <readonly>0</readonly>
+    <sort_order>4226</sort_order>
+    <source_id keyed_name="QS Issue" type="ItemType" name="QS Issue">09335878CD6A49C7B33E626A6C2B0040</source_id>
+    </Item>
+   <Item type="Property" id="D0A0A5BC1E9243F9B8231585ABDCF5AE" action="add">
+    <class_path>/QS Issue/Customer</class_path>
+    <column_alignment>left</column_alignment>
+    <data_source keyed_name="Yes No NA">D4C468AE2C0E4CE2BDAD06233D4FF292</data_source>
+    <data_type>list</data_type>
+    <is_hidden>1</is_hidden>
+    <is_hidden2>1</is_hidden2>
+    <is_indexed>0</is_indexed>
+    <is_keyed>0</is_keyed>
+    <is_multi_valued>0</is_multi_valued>
+    <is_required>0</is_required>
+    <label>Cust 24 Hr Respond</label>
+    <name>cust_24_hr_respond</name>
+    <range_inclusive>0</range_inclusive>
+    <readonly>0</readonly>
+    <sort_order>6658</sort_order>
+    <source_id keyed_name="QS Issue" type="ItemType" name="QS Issue">09335878CD6A49C7B33E626A6C2B0040</source_id>
+    </Item>
+   <Item type="Property" id="A1A2E33C0C1B4CE0AFDFFC7281571417" action="add">
+    <class_path>/QS Issue/Customer</class_path>
+    <column_alignment>left</column_alignment>
+    <column_width>690</column_width>
+    <data_source keyed_name="Yes/No">9FEC936F59F14FECAA3621F726FBAAF2</data_source>
+    <data_type>list</data_type>
+    <is_hidden>1</is_hidden>
+    <is_hidden2>1</is_hidden2>
+    <is_indexed>0</is_indexed>
+    <is_keyed>0</is_keyed>
+    <is_multi_valued>0</is_multi_valued>
+    <is_required>0</is_required>
+    <label>Cust Reoccur Ref</label>
+    <name>cust_reoccur_ref</name>
+    <range_inclusive>0</range_inclusive>
+    <readonly>0</readonly>
+    <sort_order>6530</sort_order>
+    <source_id keyed_name="QS Issue" type="ItemType" name="QS Issue">09335878CD6A49C7B33E626A6C2B0040</source_id>
+    </Item>
+   <Item type="Property" id="3F2D8CDD37874BE6935D705DA3EF96FC" action="add">
+    <class_path>/QS Issue/Customer</class_path>
+    <column_alignment>left</column_alignment>
+    <column_width>60</column_width>
+    <data_type>date</data_type>
+    <is_hidden>1</is_hidden>
+    <is_hidden2>1</is_hidden2>
+    <is_indexed>0</is_indexed>
+    <is_keyed>0</is_keyed>
+    <is_multi_valued>0</is_multi_valued>
+    <is_required>0</is_required>
+    <label>Customer CA Val Date</label>
+    <name>customer_ca_val_date</name>
+    <range_inclusive>0</range_inclusive>
+    <readonly>0</readonly>
+    <sort_order>6402</sort_order>
+    <source_id keyed_name="QS Issue" type="ItemType" name="QS Issue">09335878CD6A49C7B33E626A6C2B0040</source_id>
+    </Item>
+   <Item type="Property" id="714DA9211C7B4E0F89B564DDB9F6D790" action="add">
+    <class_path>/QS Issue/Customer</class_path>
+    <column_alignment>left</column_alignment>
+    <column_width>60</column_width>
+    <data_type>date</data_type>
+    <is_hidden>1</is_hidden>
+    <is_hidden2>1</is_hidden2>
+    <is_indexed>0</is_indexed>
+    <is_keyed>0</is_keyed>
+    <is_multi_valued>0</is_multi_valued>
+    <is_required>0</is_required>
+    <label>Customer Closure Date</label>
+    <name>customer_closure_date</name>
+    <range_inclusive>0</range_inclusive>
+    <readonly>0</readonly>
+    <sort_order>6274</sort_order>
+    <source_id keyed_name="QS Issue" type="ItemType" name="QS Issue">09335878CD6A49C7B33E626A6C2B0040</source_id>
+    </Item>
+   <Item type="Property" id="904FCD57979F40B0A7D24D719B13D7F1" action="add">
+    <column_alignment>left</column_alignment>
+    <column_width>80</column_width>
+    <data_source keyed_name="Contact" type="ItemType" name="Contact">921DE47AFFDB44DAA9F61F5ADCCB767A</data_source>
+    <data_type>item</data_type>
+    <is_hidden>1</is_hidden>
+    <is_hidden2>1</is_hidden2>
+    <is_indexed>0</is_indexed>
+    <is_keyed>0</is_keyed>
+    <is_multi_valued>0</is_multi_valued>
+    <is_required>0</is_required>
+    <item_behavior>float</item_behavior>
+    <label>Customer Contact</label>
+    <name>customer_contact</name>
+    <range_inclusive>0</range_inclusive>
+    <readonly>0</readonly>
+    <sort_order>4866</sort_order>
+    <source_id keyed_name="QS Issue" type="ItemType" name="QS Issue">09335878CD6A49C7B33E626A6C2B0040</source_id>
+    </Item>
+   <Item type="Property" id="66D4B48093514AC8AA3A51BC4B6DCC32" action="add">
+    <class_path>/QS Issue/Customer</class_path>
+    <column_alignment>left</column_alignment>
+    <column_width>60</column_width>
+    <data_type>date</data_type>
+    <is_hidden>1</is_hidden>
+    <is_hidden2>1</is_hidden2>
+    <is_indexed>0</is_indexed>
+    <is_keyed>0</is_keyed>
+    <is_multi_valued>0</is_multi_valued>
+    <is_required>0</is_required>
+    <label>Customer Final Resp Due</label>
+    <name>customer_final_resp_due</name>
+    <range_inclusive>0</range_inclusive>
+    <readonly>0</readonly>
+    <sort_order>6146</sort_order>
+    <source_id keyed_name="QS Issue" type="ItemType" name="QS Issue">09335878CD6A49C7B33E626A6C2B0040</source_id>
+    </Item>
+   <Item type="Property" id="CBD40B67B8FC40FC9DC021AE8E5FC30D" action="add">
+    <class_path>/QS Issue/Customer</class_path>
+    <column_alignment>left</column_alignment>
+    <data_source keyed_name="Customer" type="ItemType" name="Customer">E4847F4A706B4285A395C0228A867E0F</data_source>
+    <data_type>item</data_type>
+    <is_hidden>1</is_hidden>
+    <is_hidden2>1</is_hidden2>
+    <is_indexed>0</is_indexed>
+    <is_keyed>0</is_keyed>
+    <is_multi_valued>0</is_multi_valued>
+    <is_required>0</is_required>
+    <item_behavior>float</item_behavior>
+    <label>Affected Customer</label>
+    <name>customer_id</name>
+    <range_inclusive>0</range_inclusive>
+    <readonly>0</readonly>
+    <sort_order>3074</sort_order>
+    <source_id keyed_name="QS Issue" type="ItemType" name="QS Issue">09335878CD6A49C7B33E626A6C2B0040</source_id>
+    </Item>
+   <Item type="Property" id="A69B3B98D46F4B1FA5C54CA1BF8840A2" action="add">
+    <class_path>/QS Issue/Customer</class_path>
+    <column_alignment>left</column_alignment>
+    <column_width>50</column_width>
+    <data_source keyed_name="Yes No NA">D4C468AE2C0E4CE2BDAD06233D4FF292</data_source>
+    <data_type>list</data_type>
+    <is_hidden>1</is_hidden>
+    <is_hidden2>1</is_hidden2>
+    <is_indexed>0</is_indexed>
+    <is_keyed>0</is_keyed>
+    <is_multi_valued>0</is_multi_valued>
+    <is_required>0</is_required>
+    <label>Customer Ini Resp Time</label>
+    <name>customer_ini_resp_time</name>
+    <range_inclusive>0</range_inclusive>
+    <readonly>0</readonly>
+    <sort_order>6018</sort_order>
+    <source_id keyed_name="QS Issue" type="ItemType" name="QS Issue">09335878CD6A49C7B33E626A6C2B0040</source_id>
+    </Item>
+   <Item type="Property" id="1950EF3503184FB9BC7154354399D97A" action="add">
+    <class_path>/QS Issue/Customer</class_path>
+    <column_alignment>left</column_alignment>
+    <column_width>60</column_width>
+    <data_type>string</data_type>
+    <is_hidden>1</is_hidden>
+    <is_hidden2>1</is_hidden2>
+    <is_indexed>0</is_indexed>
+    <is_keyed>0</is_keyed>
+    <is_multi_valued>0</is_multi_valued>
+    <is_required>0</is_required>
+    <label>Customer Issue Num</label>
+    <name>customer_issue_num</name>
+    <range_inclusive>0</range_inclusive>
+    <readonly>0</readonly>
+    <sort_order>5762</sort_order>
+    <source_id keyed_name="QS Issue" type="ItemType" name="QS Issue">09335878CD6A49C7B33E626A6C2B0040</source_id>
+    <stored_length>32</stored_length>
+    </Item>
+   <Item type="Property" id="C290A06DE38C43D1BC690E9565060106" action="add">
+    <class_path>/QS Issue/Customer</class_path>
+    <column_alignment>left</column_alignment>
+    <data_type>string</data_type>
+    <is_hidden>1</is_hidden>
+    <is_hidden2>1</is_hidden2>
+    <is_indexed>0</is_indexed>
+    <is_keyed>0</is_keyed>
+    <is_multi_valued>0</is_multi_valued>
+    <is_required>0</is_required>
+    <label>Customer Location</label>
+    <name>customer_location</name>
+    <range_inclusive>0</range_inclusive>
+    <readonly>0</readonly>
+    <sort_order>260</sort_order>
+    <source_id keyed_name="QS Issue" type="ItemType" name="QS Issue">09335878CD6A49C7B33E626A6C2B0040</source_id>
+    <stored_length>48</stored_length>
+    </Item>
+   <Item type="Property" id="993EA23F6E314217A186FD405B389CD8" action="add">
+    <class_path>/QS Issue/Customer</class_path>
+    <column_alignment>left</column_alignment>
+    <column_width>60</column_width>
+    <data_type>string</data_type>
+    <is_hidden>1</is_hidden>
+    <is_hidden2>1</is_hidden2>
+    <is_indexed>0</is_indexed>
+    <is_keyed>0</is_keyed>
+    <is_multi_valued>0</is_multi_valued>
+    <is_required>0</is_required>
+    <label>Customer Part Num</label>
+    <name>customer_part_num</name>
+    <range_inclusive>0</range_inclusive>
+    <readonly>0</readonly>
+    <sort_order>5634</sort_order>
+    <source_id keyed_name="QS Issue" type="ItemType" name="QS Issue">09335878CD6A49C7B33E626A6C2B0040</source_id>
+    <stored_length>32</stored_length>
+    </Item>
+   <Item type="Property" id="179EF199C160482E942B062C304E5B47" action="add">
+    <class_path>/QS Issue/Customer</class_path>
+    <column_alignment>left</column_alignment>
+    <column_width>60</column_width>
+    <data_type>integer</data_type>
+    <is_hidden>1</is_hidden>
+    <is_hidden2>1</is_hidden2>
+    <is_indexed>0</is_indexed>
+    <is_keyed>0</is_keyed>
+    <is_multi_valued>0</is_multi_valued>
+    <is_required>0</is_required>
+    <label>Customer RGA Num</label>
+    <name>customer_rga_num</name>
+    <range_inclusive>0</range_inclusive>
+    <readonly>0</readonly>
+    <sort_order>5890</sort_order>
+    <source_id keyed_name="QS Issue" type="ItemType" name="QS Issue">09335878CD6A49C7B33E626A6C2B0040</source_id>
+    </Item>
+   <Item type="Property" id="54068099AD4B4F04961D6184B29EE219" action="add">
+    <column_alignment>left</column_alignment>
+    <column_width>200</column_width>
+    <data_type>text</data_type>
+    <is_hidden>0</is_hidden>
+    <is_hidden2>0</is_hidden2>
+    <is_indexed>0</is_indexed>
+    <is_keyed>0</is_keyed>
+    <is_multi_valued>0</is_multi_valued>
+    <is_required>0</is_required>
+    <label>Issue</label>
+    <name>description</name>
+    <range_inclusive>0</range_inclusive>
+    <readonly>0</readonly>
+    <sort_order>200</sort_order>
+    <source_id keyed_name="QS Issue" type="ItemType" name="QS Issue">09335878CD6A49C7B33E626A6C2B0040</source_id>
+    <stored_length>128</stored_length>
+    </Item>
+   <Item type="Property" id="F8C55D6F79AA4112ACD36DE56CF1D233" action="add">
+    <column_alignment>left</column_alignment>
+    <data_type>string</data_type>
+    <is_hidden>1</is_hidden>
+    <is_hidden2>1</is_hidden2>
+    <is_indexed>0</is_indexed>
+    <is_keyed>0</is_keyed>
+    <is_multi_valued>0</is_multi_valued>
+    <is_required>0</is_required>
+    <label>Iqt</label>
+    <name>iqt</name>
+    <range_inclusive>0</range_inclusive>
+    <readonly>0</readonly>
+    <sort_order>3458</sort_order>
+    <source_id keyed_name="QS Issue" type="ItemType" name="QS Issue">09335878CD6A49C7B33E626A6C2B0040</source_id>
+    <stored_length>32</stored_length>
+    </Item>
+   <Item type="Property" id="5D4D9D0C7B8246CDBA1F9D96EE307F96" action="add">
+    <column_alignment>center</column_alignment>
+    <column_width>110</column_width>
+    <data_source keyed_name="QS Issue Types">3D6DA4DA57CE45B0896A390482C36F1F</data_source>
+    <data_type>list</data_type>
+    <is_hidden>1</is_hidden>
+    <is_hidden2>1</is_hidden2>
+    <is_indexed>0</is_indexed>
+    <is_keyed>0</is_keyed>
+    <is_multi_valued>0</is_multi_valued>
+    <is_required>0</is_required>
+    <label>Type</label>
+    <name>issue_type</name>
+    <range_inclusive>0</range_inclusive>
+    <readonly>0</readonly>
+    <sort_order>140</sort_order>
+    <source_id keyed_name="QS Issue" type="ItemType" name="QS Issue">09335878CD6A49C7B33E626A6C2B0040</source_id>
+    </Item>
+   <Item type="Property" id="6180CE8AD9B54A19A03BD0366B1A9012" action="add">
+    <class_path></class_path>
+    <column_alignment>left</column_alignment>
+    <column_width>100</column_width>
+    <data_type>string</data_type>
+    <is_hidden>0</is_hidden>
+    <is_hidden2>0</is_hidden2>
+    <is_indexed>1</is_indexed>
+    <is_keyed>1</is_keyed>
+    <is_multi_valued>0</is_multi_valued>
+    <is_required>0</is_required>
+    <keyed_name_order>1</keyed_name_order>
+    <label>Issue Number</label>
+    <name>item_number</name>
+    <order_by>1</order_by>
+    <range_inclusive>0</range_inclusive>
+    <readonly>0</readonly>
+    <sort_order>80</sort_order>
+    <source_id keyed_name="QS Issue" type="ItemType" name="QS Issue">09335878CD6A49C7B33E626A6C2B0040</source_id>
+    <stored_length>36</stored_length>
+    </Item>
+   
+   <Item type="Property" id="879EB83682DF4A388E07426E96DB2694" action="add">
+    <column_alignment>left</column_alignment>
+    <column_width>70</column_width>
+    <data_source>
+     <Item type="Property" action="get" select="id">
+      <name>part</name>
+      <source_id>09335878CD6A49C7B33E626A6C2B0040</source_id>
+     </Item>
+    </data_source>
+    <data_type>foreign</data_type>
+    <foreign_property>
+     <Item type="Property" action="get" select="id">
+      <keyed_name>description</keyed_name>
+      <source_id>
+       <Item type="ItemType" action="get" select="id">
+        <name>Part</name>
+       </Item>
+      </source_id>
+     </Item>
+    </foreign_property>
+    <is_hidden>1</is_hidden>
+    <is_hidden2>1</is_hidden2>
+    <is_indexed>0</is_indexed>
+    <is_keyed>0</is_keyed>
+    <is_multi_valued>0</is_multi_valued>
+    <is_required>0</is_required>
+    <label>Part Description</label>
+    <name>part_description</name>
+    <range_inclusive>0</range_inclusive>
+    <readonly>0</readonly>
+    <sort_order>4610</sort_order>
+    <source_id keyed_name="QS Issue" type="ItemType" name="QS Issue">09335878CD6A49C7B33E626A6C2B0040</source_id>
+    </Item>
+   <Item type="Property" id="0E5482641D6C4B45873D55CD3F33EB77" action="add">
+    <column_alignment>left</column_alignment>
+    <data_source keyed_name="QS Issue Priority">46DCDDBE61AB4D85AC2CBD472A87779A</data_source>
+    <data_type>list</data_type>
+    <is_hidden>0</is_hidden>
+    <is_hidden2>0</is_hidden2>
+    <is_indexed>0</is_indexed>
+    <is_keyed>0</is_keyed>
+    <is_multi_valued>0</is_multi_valued>
+    <is_required>0</is_required>
+    <label>Priority</label>
+    <name>priority</name>
+    <range_inclusive>0</range_inclusive>
+    <readonly>0</readonly>
+    <sort_order>3330</sort_order>
+    <source_id keyed_name="QS Issue" type="ItemType" name="QS Issue">09335878CD6A49C7B33E626A6C2B0040</source_id>
+    </Item>
+   <Item type="Property" id="CDAD8473B22D49559C4FBB178A8A2B82" action="add">
+    <column_alignment>left</column_alignment>
+    <column_width>40</column_width>
+    <data_type>integer</data_type>
+    <is_hidden>1</is_hidden>
+    <is_hidden2>1</is_hidden2>
+    <is_indexed>0</is_indexed>
+    <is_keyed>0</is_keyed>
+    <is_multi_valued>0</is_multi_valued>
+    <is_required>0</is_required>
+    <label>Quantity</label>
+    <name>quantity</name>
+    <range_inclusive>0</range_inclusive>
+    <readonly>0</readonly>
+    <sort_order>4354</sort_order>
+    <source_id keyed_name="QS Issue" type="ItemType" name="QS Issue">09335878CD6A49C7B33E626A6C2B0040</source_id>
+    </Item>
+   <Item type="Property" id="F961FA3B836B426A88F30D9AA9E1C339" action="add">
+    <column_alignment>left</column_alignment>
+    <column_width>50</column_width>
+    <data_source keyed_name="Yes/No">9FEC936F59F14FECAA3621F726FBAAF2</data_source>
+    <data_type>list</data_type>
+    <is_hidden>1</is_hidden>
+    <is_hidden2>1</is_hidden2>
+    <is_indexed>0</is_indexed>
+    <is_keyed>0</is_keyed>
+    <is_multi_valued>0</is_multi_valued>
+    <is_required>0</is_required>
+    <label>Response Req</label>
+    <name>response_req</name>
+    <range_inclusive>0</range_inclusive>
+    <readonly>0</readonly>
+    <sort_order>4482</sort_order>
+    <source_id keyed_name="QS Issue" type="ItemType" name="QS Issue">09335878CD6A49C7B33E626A6C2B0040</source_id>
+    </Item>
+   <Item type="Property" id="0DCA3DB7473349CC964E869E2FC18A02" action="add">
+    <class_path>/QS Issue/Supplier</class_path>
+    <column_alignment>left</column_alignment>
+    <column_width>50</column_width>
+    <data_source keyed_name="Yes No NA">D4C468AE2C0E4CE2BDAD06233D4FF292</data_source>
+    <data_type>list</data_type>
+    <is_hidden>1</is_hidden>
+    <is_hidden2>1</is_hidden2>
+    <is_indexed>0</is_indexed>
+    <is_keyed>0</is_keyed>
+    <is_multi_valued>0</is_multi_valued>
+    <is_required>0</is_required>
+    <label>Supplier 3rd Party Contain</label>
+    <name>supplier_3rd_party_contain</name>
+    <range_inclusive>0</range_inclusive>
+    <readonly>0</readonly>
+    <sort_order>5506</sort_order>
+    <source_id keyed_name="QS Issue" type="ItemType" name="QS Issue">09335878CD6A49C7B33E626A6C2B0040</source_id>
+    </Item>
+   <Item type="Property" id="C61E4A692A9A4E81ABCA096B1D1B03FE" action="add">
+    <class_path>/QS Issue/Supplier</class_path>
+    <column_alignment>left</column_alignment>
+    <column_width>70</column_width>
+    <data_type>date</data_type>
+    <is_hidden>1</is_hidden>
+    <is_hidden2>1</is_hidden2>
+    <is_indexed>0</is_indexed>
+    <is_keyed>0</is_keyed>
+    <is_multi_valued>0</is_multi_valued>
+    <is_required>0</is_required>
+    <label>Supplier C A Rec Date</label>
+    <name>supplier_c_a_rec_date</name>
+    <pattern>MM/dd/yyyy</pattern>
+    <range_inclusive>0</range_inclusive>
+    <readonly>0</readonly>
+    <sort_order>5378</sort_order>
+    <source_id keyed_name="QS Issue" type="ItemType" name="QS Issue">09335878CD6A49C7B33E626A6C2B0040</source_id>
+    </Item>
+   <Item type="Property" id="0F24CE1AE7F141ED806FDD76B107F4C9" action="add">
+    <class_path>/QS Issue/Supplier</class_path>
+    <column_alignment>left</column_alignment>
+    <column_width>70</column_width>
+    <data_type>date</data_type>
+    <is_hidden>1</is_hidden>
+    <is_hidden2>1</is_hidden2>
+    <is_indexed>0</is_indexed>
+    <is_keyed>0</is_keyed>
+    <is_multi_valued>0</is_multi_valued>
+    <is_required>0</is_required>
+    <label>Supplier Date Notified</label>
+    <name>supplier_date_notified</name>
+    <pattern>MM/aa/yyyy</pattern>
+    <range_inclusive>0</range_inclusive>
+    <readonly>0</readonly>
+    <sort_order>4994</sort_order>
+    <source_id keyed_name="QS Issue" type="ItemType" name="QS Issue">09335878CD6A49C7B33E626A6C2B0040</source_id>
+    </Item>
+   <Item type="Property" id="244D8E6D290846B3945D693DBD0A70A7" action="add">
+    <class_path>/QS Issue/Supplier</class_path>
+    <column_alignment>left</column_alignment>
+    <data_source keyed_name="Manufacturer" type="ItemType" name="Manufacturer">3E71E373FC2940B288760C915120AABE</data_source>
+    <data_type>item</data_type>
+    <is_hidden>1</is_hidden>
+    <is_hidden2>1</is_hidden2>
+    <is_indexed>0</is_indexed>
+    <is_keyed>0</is_keyed>
+    <is_multi_valued>0</is_multi_valued>
+    <is_required>0</is_required>
+    <item_behavior>float</item_behavior>
+    <label>Supplier</label>
+    <name>supplier_id</name>
+    <range_inclusive>0</range_inclusive>
+    <readonly>0</readonly>
+    <sort_order>3202</sort_order>
+    <source_id keyed_name="QS Issue" type="ItemType" name="QS Issue">09335878CD6A49C7B33E626A6C2B0040</source_id>
+    </Item>
+   <Item type="Property" id="E05DDBE4897349978A2A14DE8AFD1E45" action="add">
+    <class_path>/QS Issue/Supplier</class_path>
+    <column_alignment>left</column_alignment>
+    <column_width>100</column_width>
+    <data_type>string</data_type>
+    <is_hidden>1</is_hidden>
+    <is_hidden2>1</is_hidden2>
+    <is_indexed>0</is_indexed>
+    <is_keyed>0</is_keyed>
+    <is_multi_valued>0</is_multi_valued>
+    <is_required>0</is_required>
+    <label>Supplier Location</label>
+    <name>supplier_location</name>
+    <range_inclusive>0</range_inclusive>
+    <readonly>0</readonly>
+    <sort_order>3842</sort_order>
+    <source_id keyed_name="QS Issue" type="ItemType" name="QS Issue">09335878CD6A49C7B33E626A6C2B0040</source_id>
+    <stored_length>64</stored_length>
+    </Item>
+   <Item type="Property" id="CD040EC0C7E8455B8CDA27B32909B2C2" action="add">
+    <class_path>/QS Issue/Supplier</class_path>
+    <column_alignment>left</column_alignment>
+    <column_width>50</column_width>
+    <data_source keyed_name="Notified Via">2B04562C13144C53968C25D90F9CAF6F</data_source>
+    <data_type>list</data_type>
+    <is_hidden>1</is_hidden>
+    <is_hidden2>1</is_hidden2>
+    <is_indexed>0</is_indexed>
+    <is_keyed>0</is_keyed>
+    <is_multi_valued>0</is_multi_valued>
+    <is_required>0</is_required>
+    <label>Supplier Notified Via</label>
+    <name>supplier_notified_via</name>
+    <range_inclusive>0</range_inclusive>
+    <readonly>0</readonly>
+    <sort_order>5122</sort_order>
+    <source_id keyed_name="QS Issue" type="ItemType" name="QS Issue">09335878CD6A49C7B33E626A6C2B0040</source_id>
+    </Item>
+   <Item type="Property" id="B0941E02A95543888D1BC32A3B1AB44E" action="add">
+    <class_path>/QS Issue/Supplier</class_path>
+    <column_alignment>left</column_alignment>
+    <column_width>70</column_width>
+    <data_type>string</data_type>
+    <is_hidden>1</is_hidden>
+    <is_hidden2>1</is_hidden2>
+    <is_indexed>0</is_indexed>
+    <is_keyed>0</is_keyed>
+    <is_multi_valued>0</is_multi_valued>
+    <is_required>0</is_required>
+    <label>Supplier RMA</label>
+    <name>supplier_rma</name>
+    <range_inclusive>0</range_inclusive>
+    <readonly>0</readonly>
+    <sort_order>5250</sort_order>
+    <source_id keyed_name="QS Issue" type="ItemType" name="QS Issue">09335878CD6A49C7B33E626A6C2B0040</source_id>
+    <stored_length>15</stored_length>
+    </Item>
+   <Item type="Property" id="4FEE5D163FE44327AAAABF39D036C398" action="add">
+    <column_alignment>left</column_alignment>
+    <data_type>string</data_type>
+    <is_hidden>1</is_hidden>
+    <is_hidden2>1</is_hidden2>
+    <is_indexed>0</is_indexed>
+    <is_keyed>0</is_keyed>
+    <is_multi_valued>0</is_multi_valued>
+    <is_required>0</is_required>
+    <label>Test Method</label>
+    <name>test_method</name>
+    <range_inclusive>0</range_inclusive>
+    <readonly>0</readonly>
+    <sort_order>280</sort_order>
+    <source_id keyed_name="QS Issue" type="ItemType" name="QS Issue">09335878CD6A49C7B33E626A6C2B0040</source_id>
+    <stored_length>64</stored_length>
+    </Item>
+   <Item type="Property" id="2B0C9F434C054551A83D5A85EC73D1EF" action="add">
+    <column_alignment>left</column_alignment>
+    <data_type>string</data_type>
+    <is_hidden>1</is_hidden>
+    <is_hidden2>1</is_hidden2>
+    <is_indexed>0</is_indexed>
+    <is_keyed>0</is_keyed>
+    <is_multi_valued>0</is_multi_valued>
+    <is_required>0</is_required>
+    <label>Wo Number</label>
+    <name>wo_number</name>
+    <range_inclusive>0</range_inclusive>
+    <readonly>0</readonly>
+    <sort_order>240</sort_order>
+    <source_id keyed_name="QS Issue" type="ItemType" name="QS Issue">09335878CD6A49C7B33E626A6C2B0040</source_id>
+    <stored_length>32</stored_length>
+    </Item>
+   <Item type="Server Event" id="07E44D9C2AA14CBA802849406D7BD528" action="add">
+    <related_id keyed_name="QS Issue OnBefore Add-Update" type="Method">
+     <Item type="Method" action="get" select="id">
+      <name>QS Issue OnBefore Add-Update</name>
+     </Item>
+    </related_id>
+    <server_event>onBeforeAdd</server_event>
+    <sort_order>128</sort_order>
+    <source_id keyed_name="QS Issue" type="ItemType" name="QS Issue">09335878CD6A49C7B33E626A6C2B0040</source_id>
+   </Item>
+   <Item type="Server Event" id="8ED7BEAF518346ADBDE096BFA4A47838" action="add">
+    <related_id keyed_name="QS Issue OnBefore Add-Update" type="Method">
+     <Item type="Method" action="get" select="id">
+      <name>QS Issue OnBefore Add-Update</name>
+     </Item>
+    </related_id>
+    <server_event>onBeforeUpdate</server_event>
+    <sort_order>128</sort_order>
+    <source_id keyed_name="QS Issue" type="ItemType" name="QS Issue">09335878CD6A49C7B33E626A6C2B0040</source_id>
+   </Item>
+   <Item type="TOC Access" id="CCE8198ED4B44E9CA36885DB69F39D86" action="add">
+    <category>Quality</category>
+    <related_id keyed_name="World" type="Identity">
+     <Item type="Identity" action="get" select="id">
+      <name>World</name>
+     </Item>
+    </related_id>
+    <sort_order>128</sort_order>
+    <source_id keyed_name="QS Issue" type="ItemType" name="QS Issue">09335878CD6A49C7B33E626A6C2B0040</source_id>
+   </Item>
+   <Item type="View" id="9F54AF18B1F94F17A199B08D6D551950" action="add">
+    <client>js</client>
+    <related_id keyed_name="QS Issue" type="Form">4F96A47749054851B60344C44ED33F7F</related_id>
+    <role keyed_name="World" type="Identity">
+     <Item type="Identity" action="get" select="id">
+      <name>World</name>
+     </Item>
+    </role>
+    <sort_order>128</sort_order>
+    <source_id keyed_name="QS Issue" type="ItemType" name="QS Issue">09335878CD6A49C7B33E626A6C2B0040</source_id>
+    <type>default</type>
+   </Item>
+   <Item type="View" id="D36CC25C05E84C72BB963A3FE3B79024" action="add">
+    <client>js</client>
+    <form_classification>/Issue/Customer</form_classification>
+    <related_id keyed_name="QS Issue - Customer Class" type="Form">7E8532AEA30942DE9FAF829BC02D8129</related_id>
+    <role keyed_name="World" type="Identity">
+     <Item type="Identity" action="get" select="id">
+      <name>World</name>
+     </Item>
+    </role>
+    <sort_order>256</sort_order>
+    <source_id keyed_name="QS Issue" type="ItemType" name="QS Issue">09335878CD6A49C7B33E626A6C2B0040</source_id>
+    <type>default</type>
+   </Item>
+  
+   <Item type="View" id="D237368F2E9F46A8A750F4C23FAE0FCD" action="add">
+    <client>js</client>
+    <form_classification>/Issue/Internal</form_classification>
+    <related_id keyed_name="QS Issue - Internal Class" type="Form">DA61AEF3E9C04907B40D60B1D6C786B7</related_id>
+    <role keyed_name="World" type="Identity">
+     <Item type="Identity" action="get" select="id">
+      <name>World</name>
+     </Item>
+    </role>
+    <sort_order>384</sort_order>
+    <source_id keyed_name="QS Issue" type="ItemType" name="QS Issue">09335878CD6A49C7B33E626A6C2B0040</source_id>
+    <type>default</type>
+   </Item>
+   <Item type="View" id="C385EF9E7DD0446EB6433B15B16A65D2" action="add">
+    <client>js</client>
+    <form_classification>/Issue/Supplier</form_classification>
+    <related_id keyed_name="QS Issue - Supplier Class" type="Form">C75B3FD4D9A74FEABF7316D845699B65</related_id>
+    <role keyed_name="World" type="Identity">
+     <Item type="Identity" action="get" select="id">
+      <name>World</name>
+     </Item>
+    </role>
+    <sort_order>512</sort_order>
+    <source_id keyed_name="QS Issue" type="ItemType" name="QS Issue">09335878CD6A49C7B33E626A6C2B0040</source_id>
+    <type>default</type>
+   </Item></Relationships>
+ </Item>
+ <Item type="Property" action="edit" where="source_id='09335878CD6A49C7B33E626A6C2B0040' and name='classification'">
+  <column_alignment>left</column_alignment>
+  <column_width>100</column_width>
+  <data_type>string</data_type>
+  <is_hidden>0</is_hidden>
+  <is_hidden2>0</is_hidden2>
+  <is_indexed>0</is_indexed>
+  <is_keyed>0</is_keyed>
+  <is_multi_valued>0</is_multi_valued>
+  <is_required>0</is_required>
+  <label>Classification</label>
+  <name>classification</name>
+  <range_inclusive>0</range_inclusive>
+  <readonly>0</readonly>
+  <sort_order>20</sort_order>
+  <source_id keyed_name="QS Issue" type="ItemType" name="QS Issue">09335878CD6A49C7B33E626A6C2B0040</source_id>
+  <stored_length>512</stored_length>
+  </Item>
+ <Item type="Property" action="edit" where="source_id='09335878CD6A49C7B33E626A6C2B0040' and name='created_by_id'">
+  <column_alignment>left</column_alignment>
+  <column_width>100</column_width>
+  <data_source keyed_name="User" type="ItemType" name="User">45E899CD2859442982EB22BB2DF683E5</data_source>
+  <data_type>item</data_type>
+  <is_hidden>0</is_hidden>
+  <is_hidden2>0</is_hidden2>
+  <is_indexed>0</is_indexed>
+  <is_keyed>0</is_keyed>
+  <is_multi_valued>0</is_multi_valued>
+  <is_required>1</is_required>
+  <item_behavior>float</item_behavior>
+  <label>Reported By</label>
+  <name>created_by_id</name>
+  <range_inclusive>0</range_inclusive>
+  <readonly>1</readonly>
+  <sort_order>120</sort_order>
+  <source_id keyed_name="QS Issue" type="ItemType" name="QS Issue">09335878CD6A49C7B33E626A6C2B0040</source_id>
+  </Item>
+ <Item type="Property" action="edit" where="source_id='09335878CD6A49C7B33E626A6C2B0040' and name='owned_by_id'">
+  <column_alignment>left</column_alignment>
+  <column_width>100</column_width>
+  <data_source keyed_name="Identity" type="ItemType" name="Identity">E582AB17663F4EF28460015B2BE9E094</data_source>
+  <data_type>item</data_type>
+  <is_hidden>1</is_hidden>
+  <is_hidden2>1</is_hidden2>
+  <is_indexed>0</is_indexed>
+  <is_keyed>0</is_keyed>
+  <is_multi_valued>0</is_multi_valued>
+  <is_required>0</is_required>
+  <item_behavior>float</item_behavior>
+  <label>Responsible</label>
+  <name>owned_by_id</name>
+  <range_inclusive>0</range_inclusive>
+  <readonly>0</readonly>
+  <sort_order>220</sort_order>
+  <source_id keyed_name="QS Issue" type="ItemType" name="QS Issue">09335878CD6A49C7B33E626A6C2B0040</source_id>
+  </Item>
+ <Item type="Property" action="edit" where="source_id='09335878CD6A49C7B33E626A6C2B0040' and name='state'">
+  <column_alignment>center</column_alignment>
+  <data_type>string</data_type>
+  <is_hidden>0</is_hidden>
+  <is_hidden2>0</is_hidden2>
+  <is_indexed>0</is_indexed>
+  <is_keyed>0</is_keyed>
+  <is_multi_valued>0</is_multi_valued>
+  <is_required>0</is_required>
+  <label>Status</label>
+  <name>state</name>
+  <range_inclusive>0</range_inclusive>
+  <readonly>1</readonly>
+  <sort_order>100</sort_order>
+  <source_id keyed_name="QS Issue" type="ItemType" name="QS Issue">09335878CD6A49C7B33E626A6C2B0040</source_id>
+  <stored_length>32</stored_length>
+  </Item>
+</AML>

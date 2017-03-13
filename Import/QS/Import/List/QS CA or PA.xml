@@ -1,0 +1,20 @@
+<AML>
+ <Item type="List" id="920559A00DBE491FAF4D72A4FDB159D5" action="add">
+  <description>Selection for Corrective or Preventative action</description>
+  <name>QS CA or PA</name>
+  <Relationships>
+   <Item type="Value" id="66CA0853A2594328BE23C6342D3D35B5" action="add">
+    <label>Corrective Action</label>
+    <sort_order>128</sort_order>
+    <source_id keyed_name="QS CA or PA" type="List">920559A00DBE491FAF4D72A4FDB159D5</source_id>
+    <value>Corrective Action</value>
+   </Item>
+   <Item type="Value" id="B380487C6F5346F1815034722D6E46E4" action="add">
+    <label>Preventative Action</label>
+    <sort_order>256</sort_order>
+    <source_id keyed_name="QS CA or PA" type="List">920559A00DBE491FAF4D72A4FDB159D5</source_id>
+    <value>Preventative Action</value>
+   </Item>
+  </Relationships>
+ </Item>
+</AML>

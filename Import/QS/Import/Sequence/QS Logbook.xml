@@ -1,0 +1,10 @@
+<AML>
+ <Item type="Sequence" id="4FBADD129F454DB9B59344C1504CD48A" action="add">
+  <current_value>1003</current_value>
+  <name>QS Logbook</name>
+  <pad_to>7</pad_to>
+  <pad_with>0</pad_with>
+  <prefix>Log-</prefix>
+  <step>1</step>
+ </Item>
+</AML>

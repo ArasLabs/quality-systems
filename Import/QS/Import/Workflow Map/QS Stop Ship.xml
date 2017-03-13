@@ -1,0 +1,200 @@
+<AML>
+ <Item type="Workflow Map" id="D6EABCF4A7344B0FBC348E71D603AE27" action="add">
+  <description></description>
+  <name>QS Stop Ship</name>
+  <node_bg_color></node_bg_color>
+  <node_label1_color></node_label1_color>
+  <node_label1_font></node_label1_font>
+  <node_label2_color></node_label2_color>
+  <node_label2_font></node_label2_font>
+  <node_name_color></node_name_color>
+  <node_name_font></node_name_font>
+  <node_size></node_size>
+  <process_owner keyed_name="Quality Manager" type="Identity">C55A2237BE044BA7A64353D6F1A774EA</process_owner>
+  <transition_line_color></transition_line_color>
+  <transition_name_color></transition_name_color>
+  <transition_name_font></transition_name_font>
+  <Relationships>
+   <Item type="Workflow Map Activity" id="EFE90C84CC6A4C478E3F3A3E819E8100" action="add">
+    <related_id keyed_name="End" type="Activity Template">
+     <Item type="Activity Template" id="D59C14157CB34C85B1AE59E93A7514BD" action="add">
+      <can_delegate>0</can_delegate>
+      <can_refuse>0</can_refuse>
+      <consolidate_ondelegate>0</consolidate_ondelegate>
+      <expected_duration>0</expected_duration>
+      <icon>../images/Icons/16x16/16x16_redx.gif</icon>
+      <is_auto>1</is_auto>
+      <is_end>1</is_end>
+      <is_start>0</is_start>
+      <message>Workflow End</message>
+      <name>End</name>
+      <priority>1</priority>
+      <reminder_count>0</reminder_count>
+      <reminder_interval>0</reminder_interval>
+      <timeout_duration>0</timeout_duration>
+      <wait_for_all_inputs>0</wait_for_all_inputs>
+      <wait_for_all_votes>0</wait_for_all_votes>
+      <x>632</x>
+      <y>20</y>
+      <Relationships>
+       <Item type="Activity Template Assignment" id="E5F8B4C3C072420B859042A58A493951" action="add">
+        <for_all_members>0</for_all_members>
+        <is_required>1</is_required>
+        <related_id keyed_name="Quality Manager" type="Identity">C55A2237BE044BA7A64353D6F1A774EA</related_id>
+        <sort_order>128</sort_order>
+        <source_id keyed_name="End" type="Activity Template">D59C14157CB34C85B1AE59E93A7514BD</source_id>
+        <voting_weight>100</voting_weight>
+       </Item>
+      </Relationships>
+     </Item>
+    </related_id>
+    <sort_order>128</sort_order>
+    <source_id keyed_name="QS Stop Ship" type="Workflow Map">D6EABCF4A7344B0FBC348E71D603AE27</source_id>
+   </Item>
+   <Item type="Workflow Map Activity" id="FA3629DFAB804AA7ACF0C7F53CA6D179" action="add">
+    <related_id keyed_name="Execute Stop Ship " type="Activity Template">
+     <Item type="Activity Template" id="7E3E131706C94EE687A552E4B5FD547D" action="add">
+      <can_delegate>0</can_delegate>
+      <can_refuse>0</can_refuse>
+      <consolidate_ondelegate>0</consolidate_ondelegate>
+      <expected_duration>1</expected_duration>
+      <icon>../images/Icons/20x20/20x19_history.gif</icon>
+      <is_auto>0</is_auto>
+      <is_end>0</is_end>
+      <is_start>0</is_start>
+      <message>Implement the Stop Ship </message>
+      <name>Execute Stop Ship </name>
+      <reminder_count>1</reminder_count>
+      <reminder_interval>1</reminder_interval>
+      <timeout_duration>1</timeout_duration>
+      <wait_for_all_inputs>0</wait_for_all_inputs>
+      <wait_for_all_votes>0</wait_for_all_votes>
+      <x>183</x>
+      <y>20</y>
+      <Relationships>
+       <Item type="Activity Template Assignment" id="D3AFD19814A14F5597278680811DAA67" action="add">
+        <for_all_members>0</for_all_members>
+        <is_required>1</is_required>
+        <related_id keyed_name="Quality" type="Identity">6A7D911555614B8BB16CD8195CDB3B2A</related_id>
+        <sort_order>128</sort_order>
+        <source_id keyed_name="Execute Stop Ship " type="Activity Template">7E3E131706C94EE687A552E4B5FD547D</source_id>
+        <voting_weight>100</voting_weight>
+       </Item>
+       <Item type="Workflow Map Path" id="468039328EE349F187739A2EC628BAEE" action="add">
+        <authentication>none</authentication>
+        <is_default>0</is_default>
+        <is_override>0</is_override>
+        <name>Done</name>
+        <related_id>7F7D264D90B34F74B2607DA557CA28EB</related_id>
+        <segments>353,32</segments>
+        <sort_order>128</sort_order>
+        <source_id keyed_name="Execute Stop Ship " type="Activity Template">7E3E131706C94EE687A552E4B5FD547D</source_id>
+        <x>-1</x>
+        <y>-1</y>
+        </Item>
+      </Relationships>
+     </Item>
+    </related_id>
+    <sort_order>256</sort_order>
+    <source_id keyed_name="QS Stop Ship" type="Workflow Map">D6EABCF4A7344B0FBC348E71D603AE27</source_id>
+   </Item>
+   <Item type="Workflow Map Activity" id="06E8AA856EBB490DB6DEEA551E8981D7" action="add">
+    <related_id keyed_name="Inspect Effectiveness" type="Activity Template">
+     <Item type="Activity Template" id="7F7D264D90B34F74B2607DA557CA28EB" action="add">
+      <can_delegate>1</can_delegate>
+      <can_refuse>1</can_refuse>
+      <consolidate_ondelegate>0</consolidate_ondelegate>
+      <expected_duration>1</expected_duration>
+      <icon>../images/Icons/20x20/20x20_file_search.gif</icon>
+      <is_auto>0</is_auto>
+      <is_end>0</is_end>
+      <is_start>0</is_start>
+      <message>Audit that the Stop Ship was Implemented</message>
+      <name>Inspect Effectiveness</name>
+      <reminder_count>1</reminder_count>
+      <reminder_interval>1</reminder_interval>
+      <timeout_duration>1</timeout_duration>
+      <wait_for_all_inputs>0</wait_for_all_inputs>
+      <wait_for_all_votes>0</wait_for_all_votes>
+      <x>414</x>
+      <y>57</y>
+      <Relationships>
+       <Item type="Activity Template Assignment" id="9E0F6352E53A417F883DBF933B418872" action="add">
+        <for_all_members>0</for_all_members>
+        <is_required>1</is_required>
+        <related_id keyed_name="Quality Manager" type="Identity">C55A2237BE044BA7A64353D6F1A774EA</related_id>
+        <sort_order>128</sort_order>
+        <source_id keyed_name="Inspect Effectiveness" type="Activity Template">7F7D264D90B34F74B2607DA557CA28EB</source_id>
+        <voting_weight>100</voting_weight>
+       </Item>
+       <Item type="Workflow Map Path" id="4AEDDA23D4F24E959551820FBDBCAB46" action="add">
+        <authentication>none</authentication>
+        <is_default>0</is_default>
+        <is_override>0</is_override>
+        <name>Not Correct</name>
+        <related_id>7E3E131706C94EE687A552E4B5FD547D</related_id>
+        <segments>425,17|245,17</segments>
+        <sort_order>256</sort_order>
+        <source_id keyed_name="Inspect Effectiveness" type="Activity Template">7F7D264D90B34F74B2607DA557CA28EB</source_id>
+        <x>-85</x>
+        <y>-54</y>
+        </Item>
+      
+       <Item type="Workflow Map Path" id="CF76C2BBFF2C4EEE893E568CB4AEDED5" action="add">
+        <authentication>none</authentication>
+        <is_default>0</is_default>
+        <is_override>0</is_override>
+        <name>OK</name>
+        <related_id>D59C14157CB34C85B1AE59E93A7514BD</related_id>
+        <segments>500,32</segments>
+        <sort_order>128</sort_order>
+        <source_id keyed_name="Inspect Effectiveness" type="Activity Template">7F7D264D90B34F74B2607DA557CA28EB</source_id>
+        <x>34</x>
+        <y>-26</y>
+        </Item></Relationships>
+     </Item>
+    </related_id>
+    <sort_order>384</sort_order>
+    <source_id keyed_name="QS Stop Ship" type="Workflow Map">D6EABCF4A7344B0FBC348E71D603AE27</source_id>
+   </Item>
+  
+   <Item type="Workflow Map Activity" id="9218691633A648FCBAC6F473D9D3FFD3" action="add">
+    <related_id keyed_name="Start" type="Activity Template">
+     <Item type="Activity Template" id="1867086E58284B6ABD0DA75B780BD3E1" action="add">
+      <can_delegate>0</can_delegate>
+      <can_refuse>0</can_refuse>
+      <consolidate_ondelegate>0</consolidate_ondelegate>
+      <expected_duration>0</expected_duration>
+      <icon>../images/Icons/16x16/16x16_arrow_right.gif</icon>
+      <is_auto>1</is_auto>
+      <is_end>0</is_end>
+      <is_start>1</is_start>
+      <message>Workflow Start</message>
+      <name>Start</name>
+      <priority>2</priority>
+      <reminder_count>0</reminder_count>
+      <reminder_interval>0</reminder_interval>
+      <timeout_duration>0</timeout_duration>
+      <wait_for_all_inputs>0</wait_for_all_inputs>
+      <wait_for_all_votes>0</wait_for_all_votes>
+      <x>20</x>
+      <y>20</y>
+      <Relationships>
+       <Item type="Workflow Map Path" id="21FFA8FA45424F139F922834B74B85FF" action="add">
+        <authentication>none</authentication>
+        <is_default>1</is_default>
+        <is_override>0</is_override>
+        <name>Go</name>
+        <related_id>7E3E131706C94EE687A552E4B5FD547D</related_id>
+        <segments></segments>
+        <sort_order>128</sort_order>
+        <source_id keyed_name="Start" type="Activity Template">1867086E58284B6ABD0DA75B780BD3E1</source_id>
+        </Item>
+      </Relationships>
+     </Item>
+    </related_id>
+    <sort_order>128</sort_order>
+    <source_id keyed_name="QS Stop Ship" type="Workflow Map">D6EABCF4A7344B0FBC348E71D603AE27</source_id>
+   </Item></Relationships>
+ </Item>
+</AML>

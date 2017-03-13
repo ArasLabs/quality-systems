@@ -1,0 +1,10 @@
+<AML>
+ <Item type="Sequence" id="1F6961CA27494B42B38E4F9C1E3C02FD" action="add">
+  <current_value>17</current_value>
+  <name>QS_Default_Issue_Number</name>
+  <pad_to>3</pad_to>
+  <pad_with>0</pad_with>
+  <prefix>QI06-</prefix>
+  <step>1</step>
+ </Item>
+</AML>

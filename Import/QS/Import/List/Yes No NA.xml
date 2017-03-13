@@ -1,0 +1,26 @@
+<AML>
+ <Item type="List" id="D4C468AE2C0E4CE2BDAD06233D4FF292" action="add">
+  <description>Add N/A to the list</description>
+  <name>Yes No NA</name>
+  <Relationships>
+   <Item type="Value" id="BAF2B187B12D40AEA31A855437CF3636" action="add">
+    <label>N/A</label>
+    <sort_order>384</sort_order>
+    <source_id keyed_name="Yes No NA" type="List">D4C468AE2C0E4CE2BDAD06233D4FF292</source_id>
+    <value>N/A</value>
+   </Item>
+  
+   <Item type="Value" id="5FF3882BC97B4C3B9FCD24F6A363FAF8" action="add">
+    <label>No</label>
+    <sort_order>256</sort_order>
+    <source_id keyed_name="Yes No NA" type="List">D4C468AE2C0E4CE2BDAD06233D4FF292</source_id>
+    <value>No</value>
+   </Item>
+   <Item type="Value" id="52070636577E4707ACE3B6EF0FCCAF93" action="add">
+    <label>Yes</label>
+    <sort_order>128</sort_order>
+    <source_id keyed_name="Yes No NA" type="List">D4C468AE2C0E4CE2BDAD06233D4FF292</source_id>
+    <value>Yes</value>
+   </Item></Relationships>
+ </Item>
+</AML>

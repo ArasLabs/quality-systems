@@ -1,0 +1,11 @@
+<AML>
+ <Item type="Sequence" id="894E98760F0245729E87D6749FD22AA3" action="add">
+  <current_value>188</current_value>
+  <name>QS Audit</name>
+  <pad_to>4</pad_to>
+  <pad_with>0</pad_with>
+  <prefix>AUD-</prefix>
+  <step>1</step>
+  <suffix>-2006</suffix>
+ </Item>
+</AML>

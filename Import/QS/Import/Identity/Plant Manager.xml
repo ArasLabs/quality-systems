@@ -1,0 +1,11 @@
+<AML>
+ <Item type="Identity" id="0756DBF20D8C4DE1B203246A784214D6" action="add">
+  <is_alias>0</is_alias>
+  <name>Plant Manager</name>
+  </Item>
+ <Item type="Member" id="536784EE6A1A4CA09EFAFE2158E187A7" action="add">
+  <related_id keyed_name="Administrators" type="Identity">2618D6F5A90949BAA7E920D1B04C7EE1</related_id>
+  <sort_order>128</sort_order>
+  <source_id keyed_name="Plant Manager" type="Identity">0756DBF20D8C4DE1B203246A784214D6</source_id>
+ </Item>
+</AML>

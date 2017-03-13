@@ -1,0 +1,56 @@
+<AML>
+ <Item type="Grid" id="4A40708643194C6B9E2F06AA848D5982" action="add">
+  <name>Part Issues</name>
+  <query><![CDATA[<Item type='Issue' action='get' select='state,item_number,description,part_id'><part_id>{id}</part_id></Item>]]></query>
+  <Relationships>
+   <Item type="Grid Column" id="426E9EF892E44672BD06B1923AFB1E00" action="add">
+    <align>left</align>
+    <datatype>default</datatype>
+    <label>Id</label>
+    <property>id</property>
+    <sort_order>10</sort_order>
+    <source_id keyed_name="Part Issues" type="Grid">4A40708643194C6B9E2F06AA848D5982</source_id>
+    <starts_nested_row>0</starts_nested_row>
+    <visible>0</visible>
+    <width>30</width>
+    <xpath>AML/Item</xpath>
+    </Item>
+   <Item type="Grid Column" id="57B7547966184B20B9E87D600F0EF690" action="add">
+    <align>left</align>
+    <datatype>default</datatype>
+    <label>Status</label>
+    <property>state</property>
+    <sort_order>30</sort_order>
+    <source_id keyed_name="Part Issues" type="Grid">4A40708643194C6B9E2F06AA848D5982</source_id>
+    <starts_nested_row>0</starts_nested_row>
+    <visible>1</visible>
+    <width>100</width>
+    <xpath>.</xpath>
+    </Item>
+   <Item type="Grid Column" id="8796FED91AAF41DE8A60B31C9150C5BB" action="add">
+    <align>left</align>
+    <datatype>default</datatype>
+    <label>Description</label>
+    <property>description</property>
+    <sort_order>40</sort_order>
+    <source_id keyed_name="Part Issues" type="Grid">4A40708643194C6B9E2F06AA848D5982</source_id>
+    <starts_nested_row>0</starts_nested_row>
+    <visible>1</visible>
+    <width>600</width>
+    <xpath>.</xpath>
+    </Item>
+  
+   <Item type="Grid Column" id="BFBED44B403C443A9A3DE625AD8CC064" action="add">
+    <align>left</align>
+    <datatype>default</datatype>
+    <label>Complaint Number</label>
+    <property>item_number</property>
+    <sort_order>20</sort_order>
+    <source_id keyed_name="Part Issues" type="Grid">4A40708643194C6B9E2F06AA848D5982</source_id>
+    <starts_nested_row>0</starts_nested_row>
+    <visible>1</visible>
+    <width>100</width>
+    <xpath>.</xpath>
+    </Item></Relationships>
+ </Item>
+</AML>

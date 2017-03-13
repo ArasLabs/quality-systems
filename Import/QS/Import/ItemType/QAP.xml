@@ -1,0 +1,550 @@
+<AML>
+ <Item type="ItemType" id="11D2FEA6F58E47ADA0CFBF63122FA02E" action="add">
+  <allow_private_permission>1</allow_private_permission>
+  <auto_search>1</auto_search>
+  <default_lifecycle keyed_name="QAP" type="Life Cycle Map">F268F51FEC1B4DDD90D0ABB2917B35B3</default_lifecycle>
+  <hide_where_used>0</hide_where_used>
+  <implementation_type>table</implementation_type>
+  <instance_data>QAP</instance_data>
+  <is_dependent>0</is_dependent>
+  <is_relationship>0</is_relationship>
+  <is_versionable>0</is_versionable>
+  <label>CA/PA</label>
+  <label_plural>CA/PA's</label_plural>
+  <large_icon>../images/Icons/32x32/32x32_tag.gif</large_icon>
+  <manual_versioning>0</manual_versioning>
+  <name>QAP</name>
+  <open_icon>../images/Icons/16x16/16x16_folder_closed_img.gif</open_icon>
+  <revisions keyed_name="Default" type="Revision">7FE395DD8B9F4E1090756A34B733D75E</revisions>
+  <save_history>0</save_history>
+  <show_parameters_tab>1</show_parameters_tab>
+  <structure_view>tab view</structure_view>
+  <unlock_on_logout>0</unlock_on_logout>
+  <use_src_access>0</use_src_access>
+  <Relationships><Item type="Property" id="436D5AABB01E43BEB6A25F2953DF778D" action="add">
+    <column_alignment>left</column_alignment>
+    <column_width>100</column_width>
+    <data_source keyed_name="Part" type="ItemType" name="Part">4F1AC04A2B484F3ABA4E20DB63808A88</data_source>
+    <data_type>item</data_type>
+    <is_hidden>0</is_hidden>
+    <is_hidden2>0</is_hidden2>
+    <is_indexed>0</is_indexed>
+    <is_keyed>0</is_keyed>
+    <is_multi_valued>0</is_multi_valued>
+    <is_required>0</is_required>
+    <item_behavior>float</item_behavior>
+    <label>Part</label>
+    <name>part</name>
+    <range_inclusive>0</range_inclusive>
+    <readonly>0</readonly>
+    <sort_order>110</sort_order>
+    <source_id keyed_name="QAP" type="ItemType" name="QAP">11D2FEA6F58E47ADA0CFBF63122FA02E</source_id>
+    </Item>
+   <Item type="Allowed Permission" id="8E41555BC95648CC9D0B7F970ECBD5A4" action="add">
+    <is_default>1</is_default>
+    <related_id keyed_name="QAP" type="Permission">3B33F8E931FE4E8A8E406FA7A34A1349</related_id>
+    <sort_order>128</sort_order>
+    <source_id keyed_name="QAP" type="ItemType" name="QAP">11D2FEA6F58E47ADA0CFBF63122FA02E</source_id>
+   </Item>
+   <Item type="Can Add" id="B9F71B9731C647178E150EA7140413C7" action="add">
+    <can_add>1</can_add>
+    <related_id keyed_name="World" type="Identity">
+     <Item type="Identity" action="get" select="id">
+      <name>World</name>
+     </Item>
+    </related_id>
+    <sort_order>128</sort_order>
+    <source_id keyed_name="QAP" type="ItemType" name="QAP">11D2FEA6F58E47ADA0CFBF63122FA02E</source_id>
+   </Item>
+   <Item type="Item Report" id="7868DF21363D42CFAE611CEBD7234048" action="add">
+    <related_id keyed_name="G8D" type="Report">50AC82A7163D4608A1A78DD9FC6AA382</related_id>
+    <sort_order>128</sort_order>
+    <source_id keyed_name="QAP" type="ItemType" name="QAP">11D2FEA6F58E47ADA0CFBF63122FA02E</source_id>
+   </Item>
+   <Item type="Property" id="9ADA5D5500BD4B7899098BAFB83B7A26" action="add">
+    <column_alignment>left</column_alignment>
+    <column_width>100</column_width>
+    <data_source keyed_name="Corporate Business Unit">C50BCD8F2BDB4C3C93E1ACAF5665AE55</data_source>
+    <data_type>list</data_type>
+    <is_hidden>0</is_hidden>
+    <is_hidden2>1</is_hidden2>
+    <is_indexed>0</is_indexed>
+    <is_keyed>0</is_keyed>
+    <is_multi_valued>0</is_multi_valued>
+    <is_required>0</is_required>
+    <label>Corp BU</label>
+    <name>corp_bu</name>
+    <range_inclusive>0</range_inclusive>
+    <readonly>0</readonly>
+    <sort_order>1</sort_order>
+    <source_id keyed_name="QAP" type="ItemType" name="QAP">11D2FEA6F58E47ADA0CFBF63122FA02E</source_id>
+    </Item>
+   <Item type="Property" id="3CA4E2F2834146C8A076EB5C2EBCEA0C" action="add">
+    <column_alignment>left</column_alignment>
+    <column_width>100</column_width>
+    <data_source keyed_name="Corporate Plants">3C713157B9D74B099D7A22E630C908A7</data_source>
+    <data_type>filter list</data_type>
+    <is_hidden>0</is_hidden>
+    <is_hidden2>1</is_hidden2>
+    <is_indexed>0</is_indexed>
+    <is_keyed>0</is_keyed>
+    <is_multi_valued>0</is_multi_valued>
+    <is_required>0</is_required>
+    <label>Corp Plant</label>
+    <name>corp_plant</name>
+    <pattern>corp_bu</pattern>
+    <range_inclusive>0</range_inclusive>
+    <readonly>0</readonly>
+    <sort_order>8</sort_order>
+    <source_id keyed_name="QAP" type="ItemType" name="QAP">11D2FEA6F58E47ADA0CFBF63122FA02E</source_id>
+    </Item>
+   <Item type="Property" id="D8892D23372847C2AB1D50359531239A" action="add">
+    <column_alignment>left</column_alignment>
+    <column_width>120</column_width>
+    <data_source keyed_name="Corporate Product Line">26C50088951A42368236C20E9CF22728</data_source>
+    <data_type>filter list</data_type>
+    <is_hidden>1</is_hidden>
+    <is_hidden2>1</is_hidden2>
+    <is_indexed>0</is_indexed>
+    <is_keyed>0</is_keyed>
+    <is_multi_valued>0</is_multi_valued>
+    <is_required>0</is_required>
+    <label>Product Line</label>
+    <name>corp_product_line</name>
+    <pattern>corp_plant</pattern>
+    <range_inclusive>0</range_inclusive>
+    <readonly>0</readonly>
+    <sort_order>9344</sort_order>
+    <source_id keyed_name="QAP" type="ItemType" name="QAP">11D2FEA6F58E47ADA0CFBF63122FA02E</source_id>
+    </Item>
+   <Item type="Property" id="049EDDEF52F7415B82E104BC9F54F392" action="add">
+    <column_alignment>left</column_alignment>
+    <column_width>100</column_width>
+    <data_source keyed_name="Customer" type="ItemType" name="Customer">E4847F4A706B4285A395C0228A867E0F</data_source>
+    <data_type>item</data_type>
+    <is_hidden>0</is_hidden>
+    <is_hidden2>0</is_hidden2>
+    <is_indexed>0</is_indexed>
+    <is_keyed>0</is_keyed>
+    <is_multi_valued>0</is_multi_valued>
+    <is_required>0</is_required>
+    <item_behavior>float</item_behavior>
+    <label>Customer</label>
+    <name>customer</name>
+    <range_inclusive>0</range_inclusive>
+    <readonly>0</readonly>
+    <sort_order>100</sort_order>
+    <source_id keyed_name="QAP" type="ItemType" name="QAP">11D2FEA6F58E47ADA0CFBF63122FA02E</source_id>
+    </Item>
+   <Item type="Property" id="55008C4905A44131917C9A6B5DE3DA11" action="add">
+    <column_alignment>left</column_alignment>
+    <column_width>120</column_width>
+    <data_source keyed_name="Contact" type="ItemType" name="Contact">921DE47AFFDB44DAA9F61F5ADCCB767A</data_source>
+    <data_type>item</data_type>
+    <is_hidden>0</is_hidden>
+    <is_hidden2>0</is_hidden2>
+    <is_indexed>0</is_indexed>
+    <is_keyed>0</is_keyed>
+    <is_multi_valued>0</is_multi_valued>
+    <is_required>0</is_required>
+    <item_behavior>float</item_behavior>
+    <label>Customer Contact</label>
+    <name>customer_contact</name>
+    <range_inclusive>0</range_inclusive>
+    <readonly>0</readonly>
+    <sort_order>8960</sort_order>
+    <source_id keyed_name="QAP" type="ItemType" name="QAP">11D2FEA6F58E47ADA0CFBF63122FA02E</source_id>
+    </Item>
+   <Item type="Property" id="77F8391E4DC24105AB730FC8A0CC4EC8" action="add">
+    <column_alignment>left</column_alignment>
+    <data_type>date</data_type>
+    <is_hidden>1</is_hidden>
+    <is_hidden2>1</is_hidden2>
+    <is_indexed>0</is_indexed>
+    <is_keyed>0</is_keyed>
+    <is_multi_valued>0</is_multi_valued>
+    <is_required>0</is_required>
+    <label>Actual Completion</label>
+    <name>date_due_act</name>
+    <range_inclusive>0</range_inclusive>
+    <readonly>0</readonly>
+    <sort_order>5632</sort_order>
+    <source_id keyed_name="QAP" type="ItemType" name="QAP">11D2FEA6F58E47ADA0CFBF63122FA02E</source_id>
+    </Item>
+   <Item type="Property" id="4BF97E9085884FBAA87F1C0B9B06CC2A" action="add">
+    <column_alignment>left</column_alignment>
+    <column_width>80</column_width>
+    <data_type>date</data_type>
+    <is_hidden>0</is_hidden>
+    <is_hidden2>0</is_hidden2>
+    <is_indexed>0</is_indexed>
+    <is_keyed>0</is_keyed>
+    <is_multi_valued>0</is_multi_valued>
+    <is_required>0</is_required>
+    <label>Sched Completion</label>
+    <name>date_due_sched</name>
+    <range_inclusive>0</range_inclusive>
+    <readonly>1</readonly>
+    <sort_order>310</sort_order>
+    <source_id keyed_name="QAP" type="ItemType" name="QAP">11D2FEA6F58E47ADA0CFBF63122FA02E</source_id>
+    </Item>
+   <Item type="Property" id="4BC181EBE3C847FFAF2F06A896813425" action="add">
+    <column_alignment>left</column_alignment>
+    <data_type>date</data_type>
+    <is_hidden>1</is_hidden>
+    <is_hidden2>1</is_hidden2>
+    <is_indexed>0</is_indexed>
+    <is_keyed>0</is_keyed>
+    <is_multi_valued>0</is_multi_valued>
+    <is_required>0</is_required>
+    <label>Target Completion</label>
+    <name>date_due_target</name>
+    <range_inclusive>0</range_inclusive>
+    <readonly>0</readonly>
+    <sort_order>5376</sort_order>
+    <source_id keyed_name="QAP" type="ItemType" name="QAP">11D2FEA6F58E47ADA0CFBF63122FA02E</source_id>
+    </Item>
+   <Item type="Property" id="7A52731BBF434C1CA9C36BB8480B3DAB" action="add">
+    <column_alignment>left</column_alignment>
+    <data_type>date</data_type>
+    <is_hidden>1</is_hidden>
+    <is_hidden2>1</is_hidden2>
+    <is_indexed>0</is_indexed>
+    <is_keyed>0</is_keyed>
+    <is_multi_valued>0</is_multi_valued>
+    <is_required>0</is_required>
+    <label>Act Start</label>
+    <name>date_start_act</name>
+    <range_inclusive>0</range_inclusive>
+    <readonly>0</readonly>
+    <sort_order>5760</sort_order>
+    <source_id keyed_name="QAP" type="ItemType" name="QAP">11D2FEA6F58E47ADA0CFBF63122FA02E</source_id>
+    </Item>
+   <Item type="Property" id="7651FFB80F7345EA816EFE8FBDFF1649" action="add">
+    <column_alignment>left</column_alignment>
+    <column_width>80</column_width>
+    <data_type>date</data_type>
+    <is_hidden>0</is_hidden>
+    <is_hidden2>0</is_hidden2>
+    <is_indexed>0</is_indexed>
+    <is_keyed>0</is_keyed>
+    <is_multi_valued>0</is_multi_valued>
+    <is_required>0</is_required>
+    <label>Sched Start</label>
+    <name>date_start_sched</name>
+    <range_inclusive>0</range_inclusive>
+    <readonly>1</readonly>
+    <sort_order>300</sort_order>
+    <source_id keyed_name="QAP" type="ItemType" name="QAP">11D2FEA6F58E47ADA0CFBF63122FA02E</source_id>
+    </Item>
+   <Item type="Property" id="95DDB78051334606957F2172B1B58166" action="add">
+    <column_alignment>left</column_alignment>
+    <data_type>date</data_type>
+    <is_hidden>1</is_hidden>
+    <is_hidden2>1</is_hidden2>
+    <is_indexed>0</is_indexed>
+    <is_keyed>0</is_keyed>
+    <is_multi_valued>0</is_multi_valued>
+    <is_required>0</is_required>
+    <label>Target Start</label>
+    <name>date_start_target</name>
+    <range_inclusive>0</range_inclusive>
+    <readonly>0</readonly>
+    <sort_order>5504</sort_order>
+    <source_id keyed_name="QAP" type="ItemType" name="QAP">11D2FEA6F58E47ADA0CFBF63122FA02E</source_id>
+    </Item>
+   <Item type="Property" id="5544AE02263D482A9F39C2F30A9FA7EF" action="add">
+    <column_alignment>left</column_alignment>
+    <column_width>90</column_width>
+    <data_source keyed_name="Quality Action Plan">173ABF20904042C69628187A1AE3BBB2</data_source>
+    <data_type>sequence</data_type>
+    <is_hidden>0</is_hidden>
+    <is_hidden2>0</is_hidden2>
+    <is_indexed>0</is_indexed>
+    <is_keyed>0</is_keyed>
+    <is_multi_valued>0</is_multi_valued>
+    <is_required>0</is_required>
+    <keyed_name_order>1</keyed_name_order>
+    <label>QAP ID</label>
+    <name>item_number</name>
+    <order_by>1</order_by>
+    <range_inclusive>0</range_inclusive>
+    <readonly>0</readonly>
+    <sort_order>2</sort_order>
+    <source_id keyed_name="QAP" type="ItemType" name="QAP">11D2FEA6F58E47ADA0CFBF63122FA02E</source_id>
+    </Item>
+   <Item type="Property" id="9DE103EC54D2467EBFCDAFEB780D1389" action="add">
+    <column_alignment>left</column_alignment>
+    <column_width>100</column_width>
+    <data_source keyed_name="Manufacturer" type="ItemType" name="Manufacturer">3E71E373FC2940B288760C915120AABE</data_source>
+    <data_type>item</data_type>
+    <is_hidden>0</is_hidden>
+    <is_hidden2>0</is_hidden2>
+    <is_indexed>0</is_indexed>
+    <is_keyed>0</is_keyed>
+    <is_multi_valued>0</is_multi_valued>
+    <is_required>0</is_required>
+    <item_behavior>float</item_behavior>
+    <label>Supplier</label>
+    <name>manufacturer</name>
+    <range_inclusive>0</range_inclusive>
+    <readonly>0</readonly>
+    <sort_order>120</sort_order>
+    <source_id keyed_name="QAP" type="ItemType" name="QAP">11D2FEA6F58E47ADA0CFBF63122FA02E</source_id>
+    </Item>
+   
+   <Item type="Property" id="6E2454C3DCFE4E3E971D21C7691BD798" action="add">
+    <column_alignment>left</column_alignment>
+    <column_width>200</column_width>
+    <data_source>
+     <Item type="Property" action="get" select="id">
+      <name>part</name>
+      <source_id>11D2FEA6F58E47ADA0CFBF63122FA02E</source_id>
+     </Item>
+    </data_source>
+    <data_type>foreign</data_type>
+    <foreign_property>
+     <Item type="Property" action="get" select="id">
+      <keyed_name>description</keyed_name>
+      <source_id>
+       <Item type="ItemType" action="get" select="id">
+        <name>Part</name>
+       </Item>
+      </source_id>
+     </Item>
+    </foreign_property>
+    <is_hidden>1</is_hidden>
+    <is_hidden2>1</is_hidden2>
+    <is_indexed>0</is_indexed>
+    <is_keyed>0</is_keyed>
+    <is_multi_valued>0</is_multi_valued>
+    <is_required>0</is_required>
+    <label>Part Description</label>
+    <name>part_description</name>
+    <range_inclusive>0</range_inclusive>
+    <readonly>0</readonly>
+    <sort_order>9088</sort_order>
+    <source_id keyed_name="QAP" type="ItemType" name="QAP">11D2FEA6F58E47ADA0CFBF63122FA02E</source_id>
+    </Item>
+   <Item type="Property" id="038F0387CAD341DA8E86C438D25880C0" action="add">
+    <column_alignment>left</column_alignment>
+    <data_type>integer</data_type>
+    <is_hidden>1</is_hidden>
+    <is_hidden2>1</is_hidden2>
+    <is_indexed>0</is_indexed>
+    <is_keyed>0</is_keyed>
+    <is_multi_valued>0</is_multi_valued>
+    <is_required>0</is_required>
+    <label>% Contribution</label>
+    <name>percent_contribution</name>
+    <range_inclusive>0</range_inclusive>
+    <readonly>0</readonly>
+    <sort_order>5888</sort_order>
+    <source_id keyed_name="QAP" type="ItemType" name="QAP">11D2FEA6F58E47ADA0CFBF63122FA02E</source_id>
+    </Item>
+   <Item type="Property" id="45A0B01F66E64790A684643960758D52" action="add">
+    <column_alignment>left</column_alignment>
+    <column_width>600</column_width>
+    <data_type>string</data_type>
+    <is_hidden>0</is_hidden>
+    <is_hidden2>0</is_hidden2>
+    <is_indexed>0</is_indexed>
+    <is_keyed>0</is_keyed>
+    <is_multi_valued>0</is_multi_valued>
+    <is_required>0</is_required>
+    <label>Problem Statement</label>
+    <name>problem_stmt</name>
+    <range_inclusive>0</range_inclusive>
+    <readonly>0</readonly>
+    <sort_order>10</sort_order>
+    <source_id keyed_name="QAP" type="ItemType" name="QAP">11D2FEA6F58E47ADA0CFBF63122FA02E</source_id>
+    <stored_length>512</stored_length>
+    </Item>
+   <Item type="Property" id="83B79B0E7E474EE68F51F50967F4B3AA" action="add">
+    <column_alignment>left</column_alignment>
+    <column_width>600</column_width>
+    <data_type>string</data_type>
+    <is_hidden>1</is_hidden>
+    <is_hidden2>1</is_hidden2>
+    <is_indexed>0</is_indexed>
+    <is_keyed>0</is_keyed>
+    <is_multi_valued>0</is_multi_valued>
+    <is_required>0</is_required>
+    <label>Why</label>
+    <name>problem_stmt2</name>
+    <range_inclusive>0</range_inclusive>
+    <readonly>0</readonly>
+    <sort_order>10</sort_order>
+    <source_id keyed_name="QAP" type="ItemType" name="QAP">11D2FEA6F58E47ADA0CFBF63122FA02E</source_id>
+    <stored_length>512</stored_length>
+    </Item>
+   <Item type="Property" id="9AA966B653024882B9A6AF079498B022" action="add">
+    <column_alignment>left</column_alignment>
+    <column_width>600</column_width>
+    <data_type>string</data_type>
+    <is_hidden>1</is_hidden>
+    <is_hidden2>1</is_hidden2>
+    <is_indexed>0</is_indexed>
+    <is_keyed>0</is_keyed>
+    <is_multi_valued>0</is_multi_valued>
+    <is_required>0</is_required>
+    <label>Evidence</label>
+    <name>problem_stmt3</name>
+    <range_inclusive>0</range_inclusive>
+    <readonly>0</readonly>
+    <sort_order>10</sort_order>
+    <source_id keyed_name="QAP" type="ItemType" name="QAP">11D2FEA6F58E47ADA0CFBF63122FA02E</source_id>
+    <stored_length>512</stored_length>
+    </Item>
+   <Item type="Property" id="71623910453442BAB1B8A097400AA063" action="add">
+    <column_alignment>left</column_alignment>
+    <column_width>60</column_width>
+    <data_source keyed_name="QS QAP Request Source">82C5F16D942141ACA8C9ACFBB0A814B1</data_source>
+    <data_type>list</data_type>
+    <is_hidden>1</is_hidden>
+    <is_hidden2>1</is_hidden2>
+    <is_indexed>0</is_indexed>
+    <is_keyed>0</is_keyed>
+    <is_multi_valued>0</is_multi_valued>
+    <is_required>0</is_required>
+    <label>Request Source</label>
+    <name>request_source</name>
+    <range_inclusive>0</range_inclusive>
+    <readonly>0</readonly>
+    <sort_order>9472</sort_order>
+    <source_id keyed_name="QAP" type="ItemType" name="QAP">11D2FEA6F58E47ADA0CFBF63122FA02E</source_id>
+    </Item>
+   <Item type="Property" id="7DD06A52610647F0B1A25DCBB1E275D0" action="add">
+    <column_alignment>left</column_alignment>
+    <data_type>text</data_type>
+    <is_hidden>1</is_hidden>
+    <is_hidden2>1</is_hidden2>
+    <is_indexed>0</is_indexed>
+    <is_keyed>0</is_keyed>
+    <is_multi_valued>0</is_multi_valued>
+    <is_required>0</is_required>
+    <label>Root Cause</label>
+    <name>root_cause</name>
+    <range_inclusive>0</range_inclusive>
+    <readonly>0</readonly>
+    <sort_order>100</sort_order>
+    <source_id keyed_name="QAP" type="ItemType" name="QAP">11D2FEA6F58E47ADA0CFBF63122FA02E</source_id>
+    </Item>
+   <Item type="Property" id="E69DD44F62544C9A95B04AAD7CFB2E01" action="add">
+    <column_alignment>left</column_alignment>
+    <column_width>80</column_width>
+    <data_source keyed_name="Project Schedule Type">5CDB18ED16B64D93B44DEFA5438E7018</data_source>
+    <data_type>list</data_type>
+    <default_value>Forward</default_value>
+    <is_hidden>1</is_hidden>
+    <is_hidden2>1</is_hidden2>
+    <is_indexed>0</is_indexed>
+    <is_keyed>0</is_keyed>
+    <is_multi_valued>0</is_multi_valued>
+    <is_required>0</is_required>
+    <label>SchedTyp</label>
+    <name>scheduling_type</name>
+    <range_inclusive>0</range_inclusive>
+    <readonly>0</readonly>
+    <sort_order>19</sort_order>
+    <source_id keyed_name="QAP" type="ItemType" name="QAP">11D2FEA6F58E47ADA0CFBF63122FA02E</source_id>
+    </Item>
+   <Item type="Property" id="9611C8EB47A64B418157654BA8FB1BE7" action="add">
+    <column_alignment>left</column_alignment>
+    <data_source keyed_name="WBS Element" type="ItemType" name="WBS Element">C2083D2B89174D8B9606625092101640</data_source>
+    <data_type>item</data_type>
+    <is_hidden>1</is_hidden>
+    <is_hidden2>1</is_hidden2>
+    <is_indexed>0</is_indexed>
+    <is_keyed>0</is_keyed>
+    <is_multi_valued>0</is_multi_valued>
+    <is_required>0</is_required>
+    <item_behavior>float</item_behavior>
+    <label>Wbs Id</label>
+    <name>wbs_id</name>
+    <range_inclusive>0</range_inclusive>
+    <readonly>0</readonly>
+    <sort_order>3077</sort_order>
+    <source_id keyed_name="QAP" type="ItemType" name="QAP">11D2FEA6F58E47ADA0CFBF63122FA02E</source_id>
+    </Item>
+   <Item type="TOC Access" id="EA17BB16A4A446FD929D9071165F3894" action="add">
+    <category>Quality</category>
+    <related_id keyed_name="World" type="Identity">
+     <Item type="Identity" action="get" select="id">
+      <name>World</name>
+     </Item>
+    </related_id>
+    <sort_order>128</sort_order>
+    <source_id keyed_name="QAP" type="ItemType" name="QAP">11D2FEA6F58E47ADA0CFBF63122FA02E</source_id>
+   </Item>
+   <Item type="View" id="F569E8602A2B46DF889A22C72FC25A7C" action="add">
+    <client>js</client>
+    <related_id keyed_name="QAP" type="Form">0558FC1D363A4D72A33FF83B88DAEFED</related_id>
+    <role keyed_name="World" type="Identity">
+     <Item type="Identity" action="get" select="id">
+      <name>World</name>
+     </Item>
+    </role>
+    <sort_order>128</sort_order>
+    <source_id keyed_name="QAP" type="ItemType" name="QAP">11D2FEA6F58E47ADA0CFBF63122FA02E</source_id>
+    <type>default</type>
+   </Item>
+  </Relationships>
+ </Item>
+ <Item type="Property" action="edit" where="source_id='11D2FEA6F58E47ADA0CFBF63122FA02E' and name='managed_by_id'">
+  <column_alignment>left</column_alignment>
+  <column_width>90</column_width>
+  <data_source keyed_name="Identity" type="ItemType" name="Identity">E582AB17663F4EF28460015B2BE9E094</data_source>
+  <data_type>item</data_type>
+  <is_hidden>1</is_hidden>
+  <is_hidden2>1</is_hidden2>
+  <is_indexed>0</is_indexed>
+  <is_keyed>0</is_keyed>
+  <is_multi_valued>0</is_multi_valued>
+  <is_required>0</is_required>
+  <item_behavior>float</item_behavior>
+  <label>Manager</label>
+  <name>managed_by_id</name>
+  <range_inclusive>0</range_inclusive>
+  <readonly>0</readonly>
+  <sort_order>22</sort_order>
+  <source_id keyed_name="QAP" type="ItemType" name="QAP">11D2FEA6F58E47ADA0CFBF63122FA02E</source_id>
+  </Item>
+ <Item type="Property" action="edit" where="source_id='11D2FEA6F58E47ADA0CFBF63122FA02E' and name='owned_by_id'">
+  <column_alignment>left</column_alignment>
+  <column_width>100</column_width>
+  <data_source keyed_name="Identity" type="ItemType" name="Identity">E582AB17663F4EF28460015B2BE9E094</data_source>
+  <data_type>item</data_type>
+  <is_hidden>0</is_hidden>
+  <is_hidden2>0</is_hidden2>
+  <is_indexed>0</is_indexed>
+  <is_keyed>0</is_keyed>
+  <is_multi_valued>0</is_multi_valued>
+  <is_required>0</is_required>
+  <item_behavior>float</item_behavior>
+  <label>Owner</label>
+  <name>owned_by_id</name>
+  <range_inclusive>0</range_inclusive>
+  <readonly>0</readonly>
+  <sort_order>20</sort_order>
+  <source_id keyed_name="QAP" type="ItemType" name="QAP">11D2FEA6F58E47ADA0CFBF63122FA02E</source_id>
+  </Item>
+ <Item type="Property" action="edit" where="source_id='11D2FEA6F58E47ADA0CFBF63122FA02E' and name='state'">
+  <column_alignment>center</column_alignment>
+  <column_width>90</column_width>
+  <data_type>string</data_type>
+  <is_hidden>0</is_hidden>
+  <is_hidden2>0</is_hidden2>
+  <is_indexed>0</is_indexed>
+  <is_keyed>0</is_keyed>
+  <is_multi_valued>0</is_multi_valued>
+  <is_required>0</is_required>
+  <label>Status</label>
+  <name>state</name>
+  <range_inclusive>0</range_inclusive>
+  <readonly>1</readonly>
+  <sort_order>4</sort_order>
+  <source_id keyed_name="QAP" type="ItemType" name="QAP">11D2FEA6F58E47ADA0CFBF63122FA02E</source_id>
+  <stored_length>32</stored_length>
+  </Item>
+</AML>

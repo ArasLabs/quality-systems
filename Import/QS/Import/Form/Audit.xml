@@ -1,0 +1,352 @@
+<AML>
+ <Item type="Form" id="992166D2077B40CB92FC3DE1F05F76C4" action="add">
+  <height>380</height>
+  <name>Audit</name>
+  <stylesheet><![CDATA[../styles/default.css]]></stylesheet>
+  <width>780</width>
+  <Relationships>
+   <Item type="Body" id="4F8C94813F86433BA1F78826A5569BA1" action="add">
+    <bg_attach>scroll</bg_attach>
+    <bg_color>#FFFFFF</bg_color>
+    <bg_image>../images/Backgrounds/pattern-1.gif</bg_image>
+    <bg_repeat>no-repeat</bg_repeat>
+    <sort_order>128</sort_order>
+    <source_id keyed_name="Audit" type="Form">992166D2077B40CB92FC3DE1F05F76C4</source_id>
+    <Relationships>
+     <Item type="Field" id="7E74DBA6BB674B53A8DA6DEA87429076" action="add">
+      <bg_color>#FFFFFF</bg_color>
+      <border_width>0</border_width>
+      <field_type>dropdown</field_type>
+      <font_color>#000000</font_color>
+      <font_family>arial, helvetica, sans-serif</font_family>
+      <font_size>8pt</font_size>
+      <font_weight>bold</font_weight>
+      <is_disabled>0</is_disabled>
+      <is_visible>1</is_visible>
+      <label>Type:</label>
+      <label_position>left</label_position>
+      <list_no_blank>0</list_no_blank>
+      <name>audit_type</name>
+      <positioning>absolute</positioning>
+      <propertytype_id keyed_name="audit_type" type="Property">BBB72F32EC50422794F67C8CE3CC0962</propertytype_id>
+      <sort_order>256</sort_order>
+      <source_id keyed_name="4F8C94813F86433BA1F78826A5569BA1" type="Body">4F8C94813F86433BA1F78826A5569BA1</source_id>
+      <tab_index>5</tab_index>
+      <tab_stop>1</tab_stop>
+      <x>500</x>
+      <y>14</y>
+      </Item>
+     <Item type="Field" id="06C4E7905AEE4B61A7B4237CED4C38DC" action="add">
+      <bg_color>beige  </bg_color>
+      <border_width>0</border_width>
+      <field_type>date</field_type>
+      <font_color>#000000</font_color>
+      <font_family>arial, helvetica, sans-serif</font_family>
+      <font_size>8pt</font_size>
+      <font_weight>bold</font_weight>
+      <is_disabled>0</is_disabled>
+      <is_visible>1</is_visible>
+      <label>Requested On:</label>
+      <label_position>left</label_position>
+      <list_no_blank>0</list_no_blank>
+      <name>created_on</name>
+      <positioning>absolute</positioning>
+      <sort_order>640</sort_order>
+      <source_id keyed_name="4F8C94813F86433BA1F78826A5569BA1" type="Body">4F8C94813F86433BA1F78826A5569BA1</source_id>
+      <tab_index>20</tab_index>
+      <tab_stop>1</tab_stop>
+      <x>152</x>
+      <y>40</y>
+      </Item>
+     <Item type="Field" id="AEB589F2352943CCADD6CEB492F1DA74" action="add">
+      <bg_color>#FFFFFF</bg_color>
+      <border_width>0</border_width>
+      <field_type>textarea</field_type>
+      <font_color>#000000</font_color>
+      <font_family>arial, helvetica, sans-serif</font_family>
+      <font_size>8pt</font_size>
+      <font_weight>bold</font_weight>
+      <is_disabled>0</is_disabled>
+      <is_visible>1</is_visible>
+      <label>Description/&lt;br&gt;Reason For Audit:</label>
+      <list_no_blank>0</list_no_blank>
+      <name>description</name>
+      <positioning>absolute</positioning>
+      <propertytype_id keyed_name="description" type="Property">2E5DD71E9DF74A66B8904B0184691E76</propertytype_id>
+      <sort_order>384</sort_order>
+      <source_id keyed_name="4F8C94813F86433BA1F78826A5569BA1" type="Body">4F8C94813F86433BA1F78826A5569BA1</source_id>
+      <tab_index>8</tab_index>
+      <tab_stop>1</tab_stop>
+      <textarea_cols>95</textarea_cols>
+      <textarea_rows>3</textarea_rows>
+      <x>134</x>
+      <y>102</y>
+      </Item>
+     <Item type="Field" id="5A17B0DF65124A6286DCD4A56081A71D" action="add">
+      <bg_color>#FFFFFF</bg_color>
+      <border_width>0</border_width>
+      <field_type>html</field_type>
+      <font_color>#000000</font_color>
+      <font_family>arial, helvetica, sans-serif</font_family>
+      <font_size>8pt</font_size>
+      <font_weight>bold</font_weight>
+      <html_code><![CDATA[<script>
+function openISO() {
+// find the Controlled Document
+var MyResult=top.aras.createXMLDocument();
+MyResult.loadXML( top.aras.applyItem("<Item type='ISO' action='get' levels='0' select='file_name'><item_number>Q-0218</item_number></Item>"))
+var DocItem=MyResult.selectSingleNode("//Item");
+if (DocItem != null) {
+   var FileID = top.aras.getItemProperty(DocItem,"file_name");
+   if (FileID !="") setTimeout("top.aras.uiShowItem('File', '"+ FileID +"', 'openFile')");
+}
+}
+</script>
+<a href="javascript:openISO();">
+<img src=../images/icons/32x32/32x32_iso.gif border=0 alt="View ISO Work Instructions"></a>]]></html_code>
+      <is_disabled>0</is_disabled>
+      <is_visible>1</is_visible>
+      <list_no_blank>0</list_no_blank>
+      <name>iso</name>
+      <positioning>absolute</positioning>
+      <sort_order>1664</sort_order>
+      <source_id keyed_name="4F8C94813F86433BA1F78826A5569BA1" type="Body">4F8C94813F86433BA1F78826A5569BA1</source_id>
+      <tab_stop>1</tab_stop>
+      <x>33</x>
+      <y>130</y>
+      </Item>
+     <Item type="Field" id="8F90A2A2D9554FECB4C18CCE6F0EC756" action="add">
+      <bg_color>#FFFFFF</bg_color>
+      <field_type>html</field_type>
+      <html_code><![CDATA[<b><font size='5'>Audit<br>Request<br>Form</font></b>]]></html_code>
+      <is_disabled>0</is_disabled>
+      <is_visible>1</is_visible>
+      <list_no_blank>0</list_no_blank>
+      <name>item_info</name>
+      <positioning>absolute</positioning>
+      <sort_order>512</sort_order>
+      <source_id keyed_name="4F8C94813F86433BA1F78826A5569BA1" type="Body">4F8C94813F86433BA1F78826A5569BA1</source_id>
+      <tab_stop>0</tab_stop>
+      <x>30</x>
+      <y>6</y>
+      </Item>
+     <Item type="Field" id="7DB2ADACC2154E5589E37542D934247F" action="add">
+      <bg_color>#FFFFFF</bg_color>
+      <border_width>0</border_width>
+      <field_type>text</field_type>
+      <font_color>#000000</font_color>
+      <font_family>arial, helvetica, sans-serif</font_family>
+      <font_size>8pt</font_size>
+      <font_weight>bold</font_weight>
+      <is_disabled>0</is_disabled>
+      <is_visible>1</is_visible>
+      <label>Audit ID:</label>
+      <label_position>left</label_position>
+      <list_no_blank>0</list_no_blank>
+      <name>item_number</name>
+      <positioning>absolute</positioning>
+      <propertytype_id keyed_name="item_number" type="Property">D7B0040BD4AC4BDD8A0359393C026E13</propertytype_id>
+      <sort_order>128</sort_order>
+      <source_id keyed_name="4F8C94813F86433BA1F78826A5569BA1" type="Body">4F8C94813F86433BA1F78826A5569BA1</source_id>
+      <tab_index>1</tab_index>
+      <tab_stop>1</tab_stop>
+      <x>189</x>
+      <y>15</y>
+      </Item>
+     <Item type="Field" id="1B9AC8F1165B47568A9B59F270358AA2" action="add">
+      <bg_color>#FFFFFF</bg_color>
+      <border_width>0</border_width>
+      <field_type>dropdown</field_type>
+      <font_color>#000000</font_color>
+      <font_family>arial, helvetica, sans-serif</font_family>
+      <font_size>8pt</font_size>
+      <font_weight>bold</font_weight>
+      <is_disabled>0</is_disabled>
+      <is_visible>1</is_visible>
+      <label>Plant:</label>
+      <label_position>left</label_position>
+      <list_no_blank>0</list_no_blank>
+      <name>location</name>
+      <positioning>absolute</positioning>
+      <propertytype_id keyed_name="corp_plant" type="Property">F0BD51EE64164DE5B2345A42682EB89F</propertytype_id>
+      <sort_order>2048</sort_order>
+      <source_id keyed_name="4F8C94813F86433BA1F78826A5569BA1" type="Body">4F8C94813F86433BA1F78826A5569BA1</source_id>
+      <tab_index>40</tab_index>
+      <tab_stop>1</tab_stop>
+      <x>499</x>
+      <y>64</y>
+      </Item>
+     <Item type="Field" id="79C2C5AAAC7E406F86F58B45D14C5436" action="add">
+      <bg_color>#FFFFFF</bg_color>
+      <border_width>0</border_width>
+      <field_type>item</field_type>
+      <font_color>#000000</font_color>
+      <font_family>arial, helvetica, sans-serif</font_family>
+      <font_size>8pt</font_size>
+      <font_weight>bold</font_weight>
+      <is_disabled>0</is_disabled>
+      <is_visible>1</is_visible>
+      <label>Responsible Manager:</label>
+      <label_position>left</label_position>
+      <list_no_blank>0</list_no_blank>
+      <name>managed_by_id</name>
+      <positioning>absolute</positioning>
+      <sort_order>1024</sort_order>
+      <source_id keyed_name="4F8C94813F86433BA1F78826A5569BA1" type="Body">4F8C94813F86433BA1F78826A5569BA1</source_id>
+      <tab_index>7</tab_index>
+      <tab_stop>1</tab_stop>
+      <x>110</x>
+      <y>181</y>
+      </Item>
+     <Item type="Field" id="131CFB7A417B47679762FD1530579E67" action="add">
+      <bg_color>#FFFFFF</bg_color>
+      <border_width>0</border_width>
+      <field_type>item</field_type>
+      <font_color>#000000</font_color>
+      <font_family>arial, helvetica, sans-serif</font_family>
+      <font_size>8pt</font_size>
+      <font_weight>bold</font_weight>
+      <is_disabled>0</is_disabled>
+      <is_visible>1</is_visible>
+      <label>Auditor:</label>
+      <label_position>left</label_position>
+      <list_no_blank>0</list_no_blank>
+      <name>owned_by_id</name>
+      <positioning>absolute</positioning>
+      <sort_order>1408</sort_order>
+      <source_id keyed_name="4F8C94813F86433BA1F78826A5569BA1" type="Body">4F8C94813F86433BA1F78826A5569BA1</source_id>
+      <tab_index>66</tab_index>
+      <tab_stop>1</tab_stop>
+      <x>190</x>
+      <y>210</y>
+      </Item>
+     <Item type="Field" id="E28670FBEE614F468630803DF440D6C2" action="add">
+      <bg_color>#FFFFFF</bg_color>
+      <border_width>0</border_width>
+      <field_type>date</field_type>
+      <font_color>#000000</font_color>
+      <font_family>arial, helvetica, sans-serif</font_family>
+      <font_size>8pt</font_size>
+      <font_weight>bold</font_weight>
+      <is_disabled>0</is_disabled>
+      <is_visible>1</is_visible>
+      <label>Date Audit Performed</label>
+      <label_position>top</label_position>
+      <list_no_blank>0</list_no_blank>
+      <name>performed_on</name>
+      <positioning>absolute</positioning>
+      <propertytype_id keyed_name="performed_on" type="Property">495FF893F74E434CAE0E8BEC37E29B81</propertytype_id>
+      <sort_order>1536</sort_order>
+      <source_id keyed_name="4F8C94813F86433BA1F78826A5569BA1" type="Body">4F8C94813F86433BA1F78826A5569BA1</source_id>
+      <tab_index>80</tab_index>
+      <tab_stop>1</tab_stop>
+      <x>411</x>
+      <y>194</y>
+      </Item>
+     <Item type="Field" id="9E2B86EFF5C4492B8116F0C2A46A1EA1" action="add">
+      <bg_color>#FFFFFF</bg_color>
+      <border_width>0</border_width>
+      <field_type>textarea</field_type>
+      <font_color>#000000</font_color>
+      <font_family>arial, helvetica, sans-serif</font_family>
+      <font_size>8pt</font_size>
+      <font_weight>bold</font_weight>
+      <is_disabled>0</is_disabled>
+      <is_visible>1</is_visible>
+      <label>Summary&lt;br&gt;Results And Findings:</label>
+      <label_position>left</label_position>
+      <list_no_blank>0</list_no_blank>
+      <name>result</name>
+      <positioning>absolute</positioning>
+      <propertytype_id keyed_name="result" type="Property">8ED7DF2F73CA438ABF6704E70C682BC9</propertytype_id>
+      <sort_order>896</sort_order>
+      <source_id keyed_name="4F8C94813F86433BA1F78826A5569BA1" type="Body">4F8C94813F86433BA1F78826A5569BA1</source_id>
+      <tab_index>100</tab_index>
+      <tab_stop>1</tab_stop>
+      <textarea_cols>95</textarea_cols>
+      <textarea_rows>6</textarea_rows>
+      <x>112</x>
+      <y>251</y>
+      </Item>
+     <Item type="Field" id="50DB5D9C2282411980B0D97D46CBC672" action="add">
+      <bg_color>#FFFFFF</bg_color>
+      <border_width>0</border_width>
+      <field_type>text</field_type>
+      <font_color>#000000</font_color>
+      <font_family>arial, helvetica, sans-serif</font_family>
+      <font_size>8pt</font_size>
+      <font_weight>bold</font_weight>
+      <is_disabled>0</is_disabled>
+      <is_visible>1</is_visible>
+      <label>Status</label>
+      <label_position>left</label_position>
+      <list_no_blank>0</list_no_blank>
+      <name>state</name>
+      <positioning>absolute</positioning>
+      <sort_order>768</sort_order>
+      <source_id keyed_name="4F8C94813F86433BA1F78826A5569BA1" type="Body">4F8C94813F86433BA1F78826A5569BA1</source_id>
+      <tab_index>1416</tab_index>
+      <tab_stop>1</tab_stop>
+      <x>198</x>
+      <y>67</y>
+      </Item>
+     <Item type="Field" id="50EBE27E3E1D4FE49143B4BD3B5CC5B4" action="add">
+      <bg_color>#FFFFFF</bg_color>
+      <border_width>0</border_width>
+      <field_type>item</field_type>
+      <font_color>#000000</font_color>
+      <font_family>arial, helvetica, sans-serif</font_family>
+      <font_size>8pt</font_size>
+      <font_weight>bold</font_weight>
+      <is_disabled>0</is_disabled>
+      <is_visible>1</is_visible>
+      <label>Vendor/Supplier:</label>
+      <label_position>left</label_position>
+      <list_no_blank>0</list_no_blank>
+      <name>vendor</name>
+      <positioning>absolute</positioning>
+      <propertytype_id keyed_name="vendor" type="Property">99DA123993D84541A77D5B978DB20F67</propertytype_id>
+      <sort_order>1920</sort_order>
+      <source_id keyed_name="4F8C94813F86433BA1F78826A5569BA1" type="Body">4F8C94813F86433BA1F78826A5569BA1</source_id>
+      <tab_index>3080</tab_index>
+      <tab_stop>1</tab_stop>
+      <x>438</x>
+      <y>38</y>
+      </Item>
+    </Relationships>
+   </Item>
+  </Relationships>
+ </Item>
+ <Item type="Field" id="06C4E7905AEE4B61A7B4237CED4C38DC" action="edit">
+  <propertytype_id>
+   <Item type="Property" action="get" select="id">
+    <name>created_on</name>
+    <source_id type="ItemType" keyed_name="Audit">F01DF964747F4F0E8021E724B9F6D7AF</source_id>
+   </Item>
+  </propertytype_id>
+ </Item>
+ <Item type="Field" id="79C2C5AAAC7E406F86F58B45D14C5436" action="edit">
+  <propertytype_id>
+   <Item type="Property" action="get" select="id">
+    <name>managed_by_id</name>
+    <source_id type="ItemType" keyed_name="Audit">F01DF964747F4F0E8021E724B9F6D7AF</source_id>
+   </Item>
+  </propertytype_id>
+ </Item>
+ <Item type="Field" id="131CFB7A417B47679762FD1530579E67" action="edit">
+  <propertytype_id>
+   <Item type="Property" action="get" select="id">
+    <name>owned_by_id</name>
+    <source_id type="ItemType" keyed_name="Audit">F01DF964747F4F0E8021E724B9F6D7AF</source_id>
+   </Item>
+  </propertytype_id>
+ </Item>
+ <Item type="Field" id="50DB5D9C2282411980B0D97D46CBC672" action="edit">
+  <propertytype_id>
+   <Item type="Property" action="get" select="id">
+    <name>state</name>
+    <source_id type="ItemType" keyed_name="Audit">F01DF964747F4F0E8021E724B9F6D7AF</source_id>
+   </Item>
+  </propertytype_id>
+ </Item>
+</AML>

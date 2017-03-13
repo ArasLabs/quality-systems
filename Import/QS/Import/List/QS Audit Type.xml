@@ -1,0 +1,31 @@
+<AML>
+ <Item type="List" id="B4A1E6B580004AB4A9104B59A4D5DC31" action="add">
+  <name>QS Audit Type</name>
+  <Relationships>
+   <Item type="Value" id="5C0505E660DC452B8FB8B168DA0CAAC1" action="add">
+    <label>Internal (Design)</label>
+    <sort_order>512</sort_order>
+    <source_id keyed_name="QS Audit Type" type="List">B4A1E6B580004AB4A9104B59A4D5DC31</source_id>
+    <value>Internal (Design)</value>
+   </Item>
+  
+   <Item type="Value" id="539FAC4453B64B12B349E088CEEDD98B" action="add">
+    <label>Internal (MFG)</label>
+    <sort_order>256</sort_order>
+    <source_id keyed_name="QS Audit Type" type="List">B4A1E6B580004AB4A9104B59A4D5DC31</source_id>
+    <value>Internal (MFG)</value>
+   </Item>
+   <Item type="Value" id="4860D80F10774B9B835AF26664A5E16B" action="add">
+    <label>Internal (Purchasing)</label>
+    <sort_order>384</sort_order>
+    <source_id keyed_name="QS Audit Type" type="List">B4A1E6B580004AB4A9104B59A4D5DC31</source_id>
+    <value>Internal (Purchasing)</value>
+   </Item>
+   <Item type="Value" id="BBDE481161354FBDA70109774D6AA8A5" action="add">
+    <label>Supplier</label>
+    <sort_order>128</sort_order>
+    <source_id keyed_name="QS Audit Type" type="List">B4A1E6B580004AB4A9104B59A4D5DC31</source_id>
+    <value>Supplier</value>
+   </Item></Relationships>
+ </Item>
+</AML>

@@ -1,0 +1,30 @@
+<AML>
+ <Item type="Permission" id="EF86BE24D74C4F849AF2321894519ABC" action="add">
+  <is_private>0</is_private>
+  <name>Fish Bone</name>
+  <Relationships>
+   <Item type="Access" id="8A92210DE4B849678BC1C6242D11E537" action="add">
+    <can_change_access>1</can_change_access>
+    <can_delete>1</can_delete>
+    <can_get>1</can_get>
+    <can_update>1</can_update>
+    <related_id keyed_name="Administrators" type="Identity">2618D6F5A90949BAA7E920D1B04C7EE1</related_id>
+    <sort_order>256</sort_order>
+    <source_id keyed_name="Fish Bone" type="Permission">EF86BE24D74C4F849AF2321894519ABC</source_id>
+   </Item>
+   <Item type="Access" id="CCC13F61150C420FB02C280EEE7B7410" action="add">
+    <can_change_access>1</can_change_access>
+    <can_delete>1</can_delete>
+    <can_get>1</can_get>
+    <can_update>1</can_update>
+    <related_id keyed_name="World" type="Identity">
+     <Item type="Identity" action="get" select="id">
+      <name>World</name>
+     </Item>
+    </related_id>
+    <sort_order>128</sort_order>
+    <source_id keyed_name="Fish Bone" type="Permission">EF86BE24D74C4F849AF2321894519ABC</source_id>
+   </Item>
+  </Relationships>
+ </Item>
+</AML>

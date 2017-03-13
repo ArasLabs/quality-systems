@@ -1,0 +1,31 @@
+<AML>
+ <Item type="Method" id="A35B64E06DE84AF988A3E4838BDEC84A" action="add">
+  <comments>Class Specific numbering of the issues</comments>
+  <method_code><![CDATA[// === Method to specify class specific numbering for Issue creation ============
+var NewNum="";
+if ((document.forms[0].classification.value =="Customer") || (document.forms[0].classification.value =="/Issue/Customer")) {
+     NewNum = top.aras.getNextSequence("","QS_Customer_Issue_Number");    
+     handleItemChange("item_number", NewNum);
+  }
+
+else if ((document.forms[0].classification.value =="Internal") || (document.forms[0].classification.value =="/Issue/Internal")) {
+     NewNum = top.aras.getNextSequence("","QS_Internal_Issue_Number"); 
+      handleItemChange("item_number", NewNum);
+  }
+  
+else if ((document.forms[0].classification.value =="Supplier") || (document.forms[0].classification.value =="/Issue/Supplier")) {
+     NewNum = top.aras.getNextSequence("","QS_Supplier_Issue_Number"); 
+      handleItemChange("item_number", NewNum);
+  }
+
+else {
+	 NewNum = top.aras.getNextSequence("","QS_Default_Issue_Number"); 
+	  handleItemChange("item_number", NewNum);
+  }
+
+
+]]></method_code>
+  <method_type>JavaScript</method_type>
+  <name>QS Issue ClassNumbering</name>
+ </Item>
+</AML>

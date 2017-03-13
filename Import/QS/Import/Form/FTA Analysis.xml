@@ -1,0 +1,245 @@
+<AML>
+ <Item type="Form" id="646ED99EB361480AB4960FA3AD77BD3A" action="add">
+  <height>400</height>
+  <name>FTA Analysis</name>
+  <stylesheet><![CDATA[../styles/default.css]]></stylesheet>
+  <width>900</width>
+  <Relationships>
+   <Item type="Body" id="0B75ED586F7E4E93ADA4504ADFFB9B24" action="add">
+    <bg_attach>scroll</bg_attach>
+    <bg_color>#FFFFFF</bg_color>
+    <bg_repeat>no-repeat</bg_repeat>
+    <sort_order>128</sort_order>
+    <source_id keyed_name="FTA Analysis" type="Form">646ED99EB361480AB4960FA3AD77BD3A</source_id>
+    <Relationships>
+     <Item type="Field" id="FB4CE5AEF3EE451583A5DC1851E64BF0" action="add">
+      <bg_color>#FFFFFF</bg_color>
+      <border_width>0</border_width>
+      <display_length>80</display_length>
+      <field_type>text</field_type>
+      <font_color>#000000</font_color>
+      <font_family>arial, helvetica, sans-serif</font_family>
+      <font_size>8pt</font_size>
+      <font_weight>bold</font_weight>
+      <is_disabled>0</is_disabled>
+      <is_visible>1</is_visible>
+      <label>Problem Description</label>
+      <label_position>top</label_position>
+      <list_no_blank>0</list_no_blank>
+      <name>description</name>
+      <positioning>absolute</positioning>
+      <propertytype_id keyed_name="description" type="Property">89F577257C954780A4AC71ADB2A6D286</propertytype_id>
+      <sort_order>256</sort_order>
+      <source_id keyed_name="0B75ED586F7E4E93ADA4504ADFFB9B24" type="Body">0B75ED586F7E4E93ADA4504ADFFB9B24</source_id>
+      <tab_index>8</tab_index>
+      <tab_stop>1</tab_stop>
+      <textarea_cols>64</textarea_cols>
+      <textarea_rows>4</textarea_rows>
+      <x>305</x>
+      <y>44</y>
+      </Item>
+     <Item type="Field" id="DE81F67778604CCAB4A0F518236FA5EA" action="add">
+      <bg_color>#FFFFFF</bg_color>
+      <border_width>0</border_width>
+      <field_type>item</field_type>
+      <font_color>#000000</font_color>
+      <font_family>arial, helvetica, sans-serif</font_family>
+      <font_size>8pt</font_size>
+      <font_weight>bold</font_weight>
+      <is_disabled>0</is_disabled>
+      <is_visible>1</is_visible>
+      <label>Vaulted File</label>
+      <label_position>top</label_position>
+      <list_no_blank>0</list_no_blank>
+      <name>fishbone_file</name>
+      <positioning>absolute</positioning>
+      <propertytype_id keyed_name="fishbone_file" type="Property">11DB9E0C92314B068B3DD0392F6F92FA</propertytype_id>
+      <sort_order>384</sort_order>
+      <source_id keyed_name="0B75ED586F7E4E93ADA4504ADFFB9B24" type="Body">0B75ED586F7E4E93ADA4504ADFFB9B24</source_id>
+      <tab_index>10</tab_index>
+      <tab_stop>1</tab_stop>
+      <x>813</x>
+      <y>43</y>
+      </Item>
+     <Item type="Field" id="0CC37C1DCD1C40B0BDD389209892ACDB" action="add">
+      <bg_color>#FFFFFF</bg_color>
+      <border_width>0</border_width>
+      <field_type>html</field_type>
+      <font_color>#004080</font_color>
+      <font_family>arial, helvetica, sans-serif</font_family>
+      <font_size>20</font_size>
+      <font_weight>bold</font_weight>
+      <html_code></html_code>
+      <is_disabled>0</is_disabled>
+      <is_visible>1</is_visible>
+      <label>FTA Diagram Analysis</label>
+      <label_position>top</label_position>
+      <list_no_blank>0</list_no_blank>
+      <name>html0</name>
+      <positioning>absolute</positioning>
+      <sort_order>640</sort_order>
+      <source_id keyed_name="0B75ED586F7E4E93ADA4504ADFFB9B24" type="Body">0B75ED586F7E4E93ADA4504ADFFB9B24</source_id>
+      <tab_stop>1</tab_stop>
+      <x>396</x>
+      <y>11</y>
+      </Item>
+     <Item type="Field" id="39049FDE796D4A76BB007F7A7A82FD61" action="add">
+      <bg_color>#FFFFFF</bg_color>
+      <border_width>0</border_width>
+      <field_type>html</field_type>
+      <font_color>#000000</font_color>
+      <font_family>arial, helvetica, sans-serif</font_family>
+      <font_size>8pt</font_size>
+      <font_weight>bold</font_weight>
+      <html_code><![CDATA[<script>
+function openISO() {
+// find the Controlled Document
+var DocName = "Q-00001";
+var MyResult=top.aras.createXMLDocument();
+MyResult.loadXML( top.aras.applyItem("<Item type='ISO' action='get' levels='0' select='file_name'><item_number>Q-0101</item_number></Item>"))
+var DocItem=MyResult.selectSingleNode("//Item");
+if (DocItem != null) {
+   var FileID = top.aras.getItemProperty(DocItem,"file_name");
+   if (FileID !="") setTimeout("top.aras.uiShowItem('File', '"+ FileID +"', 'openFile')");
+}
+}
+</script>
+<a href="javascript:openISO();">
+<img src=../images/icons/32x32/32x32_iso.gif border=0 alt="View ISO Work Instructions"></a>]]></html_code>
+      <is_disabled>0</is_disabled>
+      <is_visible>1</is_visible>
+      <list_no_blank>0</list_no_blank>
+      <name>iso_icon</name>
+      <positioning>absolute</positioning>
+      <sort_order>1024</sort_order>
+      <source_id keyed_name="0B75ED586F7E4E93ADA4504ADFFB9B24" type="Body">0B75ED586F7E4E93ADA4504ADFFB9B24</source_id>
+      <tab_stop>1</tab_stop>
+      <x>65</x>
+      <y>200</y>
+      </Item>
+     <Item type="Field" id="6BE1E4B6C9AC44A58B43B16F048E7AE3" action="add">
+      <bg_color>#FFFFFF</bg_color>
+      <field_type>html</field_type>
+      <html_code><![CDATA[<table border='0' cellspacing='0' cellpadding='0'>
+<tr><td width='40'>
+
+<tr><td colspan='2'><img src='../images/lines/wvline.gif'></td></tr>
+<tr><td colspan='2'><img src='../images/icons/other/1x1.gif' width='1' height='10'></td></tr>
+</tr></table>
+<table border="0" width="150" cellpadding="1" cellspacing="0" >
+<tr><td width="65"></td><td width="85"></td></tr>
+<tr><td id="item" colspan="2"></td></tr>
+<tr><td>Created By:</td><td id="created_by_id"></td></tr>
+<tr><td>Created On:</td><td id="created_on"></td></tr>
+<tr><td colspan="2"><img src="../images/icons/other/1x1.gif" width="1" height="4"></td></tr>
+<tr><td>Modified By:</td><td id="modified_by_id"></td></tr>
+<tr><td>Modified On:</td><td id="modified_on"></td></tr>
+<tr><td colspan="2"><img src="../images/icons/other/1x1.gif" width="1" height="4"></td></tr>
+<tr><td>Locked By:</td><td id="locked_by_id"></td></tr>
+<tr><td colspan="2"><img src="../images/icons/other/1x1.gif" width="1" height="4"></td></tr>
+</table>
+
+<script>
+if (document.item) {
+var createdByNd = document.item.selectSingleNode("created_by_id/@keyed_name");
+if (createdByNd) document.all.created_by_id.innerHTML = '<b>' +createdByNd.text;
+
+var modifiedByNd = document.item.selectSingleNode("modified_by_id/@keyed_name");
+if (modifiedByNd) document.all.modified_by_id.innerHTML = '<b>' +modifiedByNd.text;
+
+var lockedByNd = document.item.selectSingleNode("locked_by_id/@keyed_name");
+if(lockedByNd) document.all.locked_by_id.innerHTML = '<b>' +lockedByNd.text;
+
+document.all.created_on.innerHTML = '<b>' +top.aras.getItemProperty(document.item, "created_on").split(' ')[0] + '</b>';
+document.all.modified_on.innerHTML = '<b>' +top.aras.getItemProperty(document.item, "modified_on").split(' ')[0] + '</b>'; 
+} 
+</script>]]></html_code>
+      <is_disabled>0</is_disabled>
+      <is_visible>1</is_visible>
+      <list_no_blank>0</list_no_blank>
+      <name>item_info</name>
+      <positioning>absolute</positioning>
+      <sort_order>512</sort_order>
+      <source_id keyed_name="0B75ED586F7E4E93ADA4504ADFFB9B24" type="Body">0B75ED586F7E4E93ADA4504ADFFB9B24</source_id>
+      <tab_stop>0</tab_stop>
+      <x>-1</x>
+      <y>79</y>
+      </Item>
+     <Item type="Field" id="03054644CE254F058C76061739FF6DE6" action="add">
+      <bg_color>#FFFFFF</bg_color>
+      <border_width>0</border_width>
+      <field_type>text</field_type>
+      <font_color>#000000</font_color>
+      <font_family>arial, helvetica, sans-serif</font_family>
+      <font_size>8pt</font_size>
+      <font_weight>bold</font_weight>
+      <is_disabled>0</is_disabled>
+      <is_visible>1</is_visible>
+      <label>FTA Analysis ID#</label>
+      <label_position>top</label_position>
+      <list_no_blank>0</list_no_blank>
+      <name>item_number</name>
+      <positioning>absolute</positioning>
+      <propertytype_id keyed_name="item_number" type="Property">D2030570CC7B428091016483C058613E</propertytype_id>
+      <sort_order>128</sort_order>
+      <source_id keyed_name="0B75ED586F7E4E93ADA4504ADFFB9B24" type="Body">0B75ED586F7E4E93ADA4504ADFFB9B24</source_id>
+      <tab_index>1</tab_index>
+      <tab_stop>1</tab_stop>
+      <x>174</x>
+      <y>45</y>
+      </Item>
+     <Item type="Field" id="EC400E5F4C28471CAF84F02295E3E7E4" action="add">
+      <bg_color>#FFFFFF</bg_color>
+      <border_width>0</border_width>
+      <field_type>html</field_type>
+      <font_color>#000000</font_color>
+      <font_family>arial, helvetica, sans-serif</font_family>
+      <font_size>8pt</font_size>
+      <font_weight>bold</font_weight>
+      <html_code><![CDATA[<tr><td colspan='2'><img src='../images/Icons/32x32/32x32_org_chart.gif'></td></tr>]]></html_code>
+      <is_disabled>0</is_disabled>
+      <is_visible>1</is_visible>
+      <list_no_blank>0</list_no_blank>
+      <name>logo</name>
+      <positioning>absolute</positioning>
+      <sort_order>896</sort_order>
+      <source_id keyed_name="0B75ED586F7E4E93ADA4504ADFFB9B24" type="Body">0B75ED586F7E4E93ADA4504ADFFB9B24</source_id>
+      <tab_stop>1</tab_stop>
+      <x>17</x>
+      <y>10</y>
+      </Item>
+     <Item type="Field" id="C876672E44154BED8CAC347EA393657F" action="add">
+      <bg_color>#FFFFFF</bg_color>
+      <border_width>0</border_width>
+      <field_type>html</field_type>
+      <font_color>#000000</font_color>
+      <font_family>arial, helvetica, sans-serif</font_family>
+      <font_size>8pt</font_size>
+      <font_weight>bold</font_weight>
+      <html_code><![CDATA[<iframe name='viewer' id='viewer' width='800' height='400'></iframe>]]></html_code>
+      <is_disabled>0</is_disabled>
+      <is_visible>1</is_visible>
+      <list_no_blank>0</list_no_blank>
+      <name>viewframe</name>
+      <positioning>absolute</positioning>
+      <sort_order>768</sort_order>
+      <source_id keyed_name="0B75ED586F7E4E93ADA4504ADFFB9B24" type="Body">0B75ED586F7E4E93ADA4504ADFFB9B24</source_id>
+      <tab_stop>1</tab_stop>
+      <x>169</x>
+      <y>103</y>
+      </Item>
+    </Relationships>
+   </Item>
+   <Item type="Form Event" id="6027B9142AB04F358BC7AF967AD840D8" action="add">
+    <form_event>onload</form_event>
+    <related_id keyed_name="QS FishBone File Load" type="Method">
+     <Item type="Method" action="get" select="id">
+      <name>QS FishBone File Load</name>
+     </Item>
+    </related_id>
+    <sort_order>128</sort_order>
+    <source_id keyed_name="FTA Analysis" type="Form">646ED99EB361480AB4960FA3AD77BD3A</source_id>
+   </Item>
+  </Relationships>
+ </Item>
+</AML>

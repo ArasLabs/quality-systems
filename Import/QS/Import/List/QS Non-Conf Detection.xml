@@ -1,0 +1,44 @@
+<AML>
+ <Item type="List" id="7FCD47424C724F0DB8566B643FA95724" action="add">
+  <description>Method of detecting non-conforming parts</description>
+  <name>QS Non-Conf Detection</name>
+  <Relationships>
+   <Item type="Value" id="3C5B2CA932DE4B4F98B39F1D9330B607" action="add">
+    <label>Customer Complaint</label>
+    <sort_order>512</sort_order>
+    <source_id keyed_name="QS Non-Conf Detection" type="List">7FCD47424C724F0DB8566B643FA95724</source_id>
+    <value>Customer Complaint</value>
+   </Item>
+   <Item type="Value" id="A6963D2CCC8F4F33B395D740350C4CB5" action="add">
+    <label>Gage Inspection</label>
+    <sort_order>256</sort_order>
+    <source_id keyed_name="QS Non-Conf Detection" type="List">7FCD47424C724F0DB8566B643FA95724</source_id>
+    <value>Gage Inspection</value>
+   </Item>
+   <Item type="Value" id="A8174797CA1E4386A0517828CF8B6E07" action="add">
+    <label>Material Property Test</label>
+    <sort_order>384</sort_order>
+    <source_id keyed_name="QS Non-Conf Detection" type="List">7FCD47424C724F0DB8566B643FA95724</source_id>
+    <value>Material Property Test</value>
+   </Item>
+   <Item type="Value" id="8B9F5E00E2684771BE30A9A38C953049" action="add">
+    <label>Operator Notification</label>
+    <sort_order>640</sort_order>
+    <source_id keyed_name="QS Non-Conf Detection" type="List">7FCD47424C724F0DB8566B643FA95724</source_id>
+    <value>Operator Notification</value>
+   </Item>
+   <Item type="Value" id="C30FF939BD194161847ACF459E4F49FB" action="add">
+    <label>Process Performance Monitoring</label>
+    <sort_order>768</sort_order>
+    <source_id keyed_name="QS Non-Conf Detection" type="List">7FCD47424C724F0DB8566B643FA95724</source_id>
+    <value>Process Performance Monitoring</value>
+   </Item>
+  
+   <Item type="Value" id="9C73D2CAA0684A24AEFD7E3A3D365B16" action="add">
+    <label>Visual Inspection</label>
+    <sort_order>128</sort_order>
+    <source_id keyed_name="QS Non-Conf Detection" type="List">7FCD47424C724F0DB8566B643FA95724</source_id>
+    <value>Visual inspection</value>
+   </Item></Relationships>
+ </Item>
+</AML>

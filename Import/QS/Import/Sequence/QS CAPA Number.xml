@@ -1,0 +1,11 @@
+<AML>
+ <Item type="Sequence" id="E5C7EC09B04440E881E5B80BF5BE2F71" action="add">
+  <current_value>25</current_value>
+  <name>QS CAPA Number</name>
+  <pad_to>4</pad_to>
+  <pad_with>0</pad_with>
+  <prefix>CPA-</prefix>
+  <step>1</step>
+  <suffix>-2006</suffix>
+ </Item>
+</AML>

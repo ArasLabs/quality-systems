@@ -1,0 +1,44 @@
+<AML>
+ <Item type="List" id="1798A257F58D40CA88C5926D33B1F3D0" action="add">
+  <description>Area where non conformance material was found</description>
+  <name>QS NCM Area Found</name>
+  <Relationships>
+   <Item type="Value" id="5EEE9B24D3F04B3AB66EE77006217094" action="add">
+    <label>Audit</label>
+    <sort_order>768</sort_order>
+    <source_id keyed_name="QS NCM Area Found" type="List">1798A257F58D40CA88C5926D33B1F3D0</source_id>
+    <value>Audit</value>
+   </Item>
+   <Item type="Value" id="305DCAC753AD41F1AE7A9CE24F16B4B2" action="add">
+    <label>Customer</label>
+    <sort_order>896</sort_order>
+    <source_id keyed_name="QS NCM Area Found" type="List">1798A257F58D40CA88C5926D33B1F3D0</source_id>
+    <value>Customer</value>
+   </Item>
+  
+   <Item type="Value" id="CEC348156E8447E587C91B272A52D6D1" action="add">
+    <label>Final</label>
+    <sort_order>640</sort_order>
+    <source_id keyed_name="QS NCM Area Found" type="List">1798A257F58D40CA88C5926D33B1F3D0</source_id>
+    <value>Final</value>
+   </Item>
+   <Item type="Value" id="0429946B6DE24CDB9F9BE73FB029EAB6" action="add">
+    <label>Incoming</label>
+    <sort_order>256</sort_order>
+    <source_id keyed_name="QS NCM Area Found" type="List">1798A257F58D40CA88C5926D33B1F3D0</source_id>
+    <value>Incoming</value>
+   </Item>
+   <Item type="Value" id="10903A068A354BBB824B025AEDA65F2F" action="add">
+    <label>In-Process</label>
+    <sort_order>384</sort_order>
+    <source_id keyed_name="QS NCM Area Found" type="List">1798A257F58D40CA88C5926D33B1F3D0</source_id>
+    <value>In-Process</value>
+   </Item>
+   <Item type="Value" id="FB356149EC7E4954851F226CA9419FF4" action="add">
+    <label>Supplier</label>
+    <sort_order>128</sort_order>
+    <source_id keyed_name="QS NCM Area Found" type="List">1798A257F58D40CA88C5926D33B1F3D0</source_id>
+    <value>Supplier</value>
+   </Item></Relationships>
+ </Item>
+</AML>

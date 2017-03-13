@@ -1,0 +1,459 @@
+<AML>
+ <Item type="Form" id="0D564DE6759B4D65AF31C2B9CD5CF79E" action="add">
+  <height>600</height>
+  <name>Five Whys</name>
+  <stylesheet><![CDATA[../styles/default.css]]></stylesheet>
+  <width>810</width>
+  <Relationships>
+   <Item type="Body" id="D920AA63432C4EB1AF7E9A15404DEF2C" action="add">
+    <bg_attach>scroll</bg_attach>
+    <bg_color>#ffffff</bg_color>
+    <bg_image>../images/Backgrounds/wvleft.gif</bg_image>
+    <bg_repeat>no-repeat</bg_repeat>
+    <sort_order>128</sort_order>
+    <source_id keyed_name="Five Whys" type="Form">0D564DE6759B4D65AF31C2B9CD5CF79E</source_id>
+    <Relationships>
+     <Item type="Field" id="11667C920FDA47F0ABC8CC367632B97E" action="add">
+      <bg_color>#FFFFFF</bg_color>
+      <border_width>0</border_width>
+      <field_type>textarea</field_type>
+      <font_color>#000000</font_color>
+      <font_family>arial, helvetica, sans-serif</font_family>
+      <font_size>8pt</font_size>
+      <font_weight>bold</font_weight>
+      <is_disabled>0</is_disabled>
+      <is_visible>1</is_visible>
+      <label>Problem Description</label>
+      <label_position>left</label_position>
+      <list_no_blank>0</list_no_blank>
+      <name>description</name>
+      <positioning>absolute</positioning>
+      <propertytype_id keyed_name="description" type="Property">2DF63242D9954418A20F63421045B568</propertytype_id>
+      <sort_order>1920</sort_order>
+      <source_id keyed_name="D920AA63432C4EB1AF7E9A15404DEF2C" type="Body">D920AA63432C4EB1AF7E9A15404DEF2C</source_id>
+      <tab_index>4</tab_index>
+      <tab_stop>1</tab_stop>
+      <textarea_cols>100</textarea_cols>
+      <textarea_rows>3</textarea_rows>
+      <x>83</x>
+      <y>109</y>
+      </Item>
+     <Item type="Field" id="7440AD3CDA2946EAAC7D8E3A866F7F0F" action="add">
+      <bg_color>#FFFFFF</bg_color>
+      <border_width>0</border_width>
+      <field_type>html</field_type>
+      <font_color>#000000</font_color>
+      <font_family>arial, helvetica, sans-serif</font_family>
+      <font_size>8pt</font_size>
+      <font_weight>bold</font_weight>
+      <html_code><![CDATA[<script>
+function openISO() {
+// find the Controlled Document
+var DocName = "Q-00001";
+var MyResult=top.aras.createXMLDocument();
+MyResult.loadXML( top.aras.applyItem("<Item type='ISO' action='get' levels='0' select='file_name'><item_number>Q-0101</item_number></Item>"))
+var DocItem=MyResult.selectSingleNode("//Item");
+if (DocItem != null) {
+   var FileID = top.aras.getItemProperty(DocItem,"file_name");
+   if (FileID !="") setTimeout("top.aras.uiShowItem('File', '"+ FileID +"', 'openFile')");
+}
+}
+</script>
+<a href="javascript:openISO();">
+<img src=../images/icons/32x32/32x32_iso.gif border=0 alt="View ISO Work Instructions"></a>]]></html_code>
+      <is_disabled>0</is_disabled>
+      <is_visible>1</is_visible>
+      <list_no_blank>0</list_no_blank>
+      <name>iso_icon</name>
+      <positioning>absolute</positioning>
+      <sort_order>2688</sort_order>
+      <source_id keyed_name="D920AA63432C4EB1AF7E9A15404DEF2C" type="Body">D920AA63432C4EB1AF7E9A15404DEF2C</source_id>
+      <tab_stop>1</tab_stop>
+      <x>78</x>
+      <y>177</y>
+      </Item>
+     <Item type="Field" id="413BDE73FC704C238325E56BFF9E0B50" action="add">
+      <bg_color>#FFFFFF</bg_color>
+      <field_type>html</field_type>
+      <font_color>#004080</font_color>
+      <font_size>25</font_size>
+      <font_weight>bold</font_weight>
+      <html_code></html_code>
+      <is_disabled>0</is_disabled>
+      <is_visible>1</is_visible>
+      <label>5 Why's Analysis</label>
+      <list_no_blank>0</list_no_blank>
+      <name>item_info</name>
+      <positioning>absolute</positioning>
+      <sort_order>256</sort_order>
+      <source_id keyed_name="D920AA63432C4EB1AF7E9A15404DEF2C" type="Body">D920AA63432C4EB1AF7E9A15404DEF2C</source_id>
+      <tab_stop>0</tab_stop>
+      <x>333</x>
+      <y>8</y>
+      </Item>
+     <Item type="Field" id="B3ABEBE5083D4B63B34C11ACE3BA0823" action="add">
+      <bg_color>#FFFFFF</bg_color>
+      <border_width>0</border_width>
+      <field_type>text</field_type>
+      <font_color>#000000</font_color>
+      <font_family>arial, helvetica, sans-serif</font_family>
+      <font_size>8pt</font_size>
+      <font_weight>bold</font_weight>
+      <is_disabled>0</is_disabled>
+      <is_visible>1</is_visible>
+      <label>Root Cause #</label>
+      <label_position>top</label_position>
+      <list_no_blank>0</list_no_blank>
+      <name>item_number</name>
+      <positioning>absolute</positioning>
+      <propertytype_id keyed_name="item_number" type="Property">ABD6CF25B3E74CDBB91B6C31FE82807E</propertytype_id>
+      <sort_order>2560</sort_order>
+      <source_id keyed_name="D920AA63432C4EB1AF7E9A15404DEF2C" type="Body">D920AA63432C4EB1AF7E9A15404DEF2C</source_id>
+      <tab_index>2</tab_index>
+      <tab_stop>1</tab_stop>
+      <x>200</x>
+      <y>56</y>
+      </Item>
+     <Item type="Field" id="C5160DFC04C7487780F331310DE76931" action="add">
+      <bg_color>#FFFFFF</bg_color>
+      <border_width>0</border_width>
+      <field_type>item</field_type>
+      <font_color>#000000</font_color>
+      <font_family>arial, helvetica, sans-serif</font_family>
+      <font_size>8pt</font_size>
+      <font_weight>bold</font_weight>
+      <is_disabled>0</is_disabled>
+      <is_visible>1</is_visible>
+      <label>Reviewer</label>
+      <label_position>top</label_position>
+      <list_no_blank>0</list_no_blank>
+      <name>managed_by_id</name>
+      <positioning>absolute</positioning>
+      <sort_order>2176</sort_order>
+      <source_id keyed_name="D920AA63432C4EB1AF7E9A15404DEF2C" type="Body">D920AA63432C4EB1AF7E9A15404DEF2C</source_id>
+      <tab_index>2560</tab_index>
+      <tab_stop>1</tab_stop>
+      <x>653</x>
+      <y>53</y>
+      </Item>
+     <Item type="Field" id="2AD9B1EC536741C392847DAC223CB9E5" action="add">
+      <bg_color>#FFFFFF</bg_color>
+      <border_width>0</border_width>
+      <field_type>item</field_type>
+      <font_color>#000000</font_color>
+      <font_family>arial, helvetica, sans-serif</font_family>
+      <font_size>8pt</font_size>
+      <font_weight>bold</font_weight>
+      <is_disabled>0</is_disabled>
+      <is_visible>1</is_visible>
+      <label>Owner</label>
+      <label_position>top</label_position>
+      <list_no_blank>0</list_no_blank>
+      <name>owned_by_id</name>
+      <positioning>absolute</positioning>
+      <sort_order>2048</sort_order>
+      <source_id keyed_name="D920AA63432C4EB1AF7E9A15404DEF2C" type="Body">D920AA63432C4EB1AF7E9A15404DEF2C</source_id>
+      <tab_index>2432</tab_index>
+      <tab_stop>1</tab_stop>
+      <x>493</x>
+      <y>54</y>
+      </Item>
+     <Item type="Field" id="99FB6C525859406EA8A55990894EDB2E" action="add">
+      <bg_color>#FFFFFF</bg_color>
+      <border_width>0</border_width>
+      <field_type>item</field_type>
+      <font_color>#000000</font_color>
+      <font_family>arial, helvetica, sans-serif</font_family>
+      <font_size>8pt</font_size>
+      <font_weight>bold</font_weight>
+      <is_disabled>0</is_disabled>
+      <is_visible>1</is_visible>
+      <label>Related Part</label>
+      <label_position>top</label_position>
+      <list_no_blank>0</list_no_blank>
+      <name>related_part</name>
+      <positioning>absolute</positioning>
+      <propertytype_id keyed_name="part" type="Property">4FF5F0485F5348148636C26F3DD9999A</propertytype_id>
+      <sort_order>2432</sort_order>
+      <source_id keyed_name="D920AA63432C4EB1AF7E9A15404DEF2C" type="Body">D920AA63432C4EB1AF7E9A15404DEF2C</source_id>
+      <tab_index>4864</tab_index>
+      <tab_stop>1</tab_stop>
+      <x>342</x>
+      <y>57</y>
+      </Item>
+     <Item type="Field" id="EE267E2D17264A11880DAF0B1573A636" action="add">
+      <bg_color>#FFFFFF</bg_color>
+      <border_width>0</border_width>
+      <display_length>100</display_length>
+      <field_type>text</field_type>
+      <font_color>#000000</font_color>
+      <font_family>arial, helvetica, sans-serif</font_family>
+      <font_size>8pt</font_size>
+      <font_weight>bold</font_weight>
+      <is_disabled>0</is_disabled>
+      <is_visible>1</is_visible>
+      <label>Why #1</label>
+      <label_position>left</label_position>
+      <list_no_blank>0</list_no_blank>
+      <name>why_1</name>
+      <positioning>absolute</positioning>
+      <propertytype_id keyed_name="why_1" type="Property">110BDC0CE3BF4787A29A2B5DEBAF5691</propertytype_id>
+      <sort_order>384</sort_order>
+      <source_id keyed_name="D920AA63432C4EB1AF7E9A15404DEF2C" type="Body">D920AA63432C4EB1AF7E9A15404DEF2C</source_id>
+      <tab_index>128</tab_index>
+      <tab_stop>1</tab_stop>
+      <textarea_cols>100</textarea_cols>
+      <textarea_rows>2</textarea_rows>
+      <x>159</x>
+      <y>167</y>
+      </Item>
+     <Item type="Field" id="3007E8A57D9648AC98C7061B5E112193" action="add">
+      <bg_color>#FFFFFF</bg_color>
+      <border_width>0</border_width>
+      <field_type>textarea</field_type>
+      <font_color>#0423c1</font_color>
+      <font_family>arial, helvetica, sans-serif</font_family>
+      <font_size>8pt</font_size>
+      <font_weight>bold</font_weight>
+      <is_disabled>0</is_disabled>
+      <is_visible>1</is_visible>
+      <label>Answer: </label>
+      <label_position>left</label_position>
+      <list_no_blank>0</list_no_blank>
+      <name>why_1_answer</name>
+      <positioning>absolute</positioning>
+      <propertytype_id keyed_name="why_1_answer" type="Property">36E75EAC29BE4803A37827C7283C0C6F</propertytype_id>
+      <sort_order>512</sort_order>
+      <source_id keyed_name="D920AA63432C4EB1AF7E9A15404DEF2C" type="Body">D920AA63432C4EB1AF7E9A15404DEF2C</source_id>
+      <tab_index>256</tab_index>
+      <tab_stop>1</tab_stop>
+      <textarea_cols>90</textarea_cols>
+      <textarea_rows>4</textarea_rows>
+      <x>198</x>
+      <y>195</y>
+      </Item>
+     <Item type="Field" id="5AF3E3AFD6DF49448FA682BB65AE4AA7" action="add">
+      <bg_color>#FFFFFF</bg_color>
+      <border_width>0</border_width>
+      <display_length>100</display_length>
+      <field_type>text</field_type>
+      <font_color>#000000</font_color>
+      <font_family>arial, helvetica, sans-serif</font_family>
+      <font_size>8pt</font_size>
+      <font_weight>bold</font_weight>
+      <is_disabled>0</is_disabled>
+      <is_visible>1</is_visible>
+      <label>Why #2</label>
+      <label_position>left</label_position>
+      <list_no_blank>0</list_no_blank>
+      <name>why_2</name>
+      <positioning>absolute</positioning>
+      <propertytype_id keyed_name="why_2" type="Property">70756AB18B2449BE86DAAD155B49AA8D</propertytype_id>
+      <sort_order>640</sort_order>
+      <source_id keyed_name="D920AA63432C4EB1AF7E9A15404DEF2C" type="Body">D920AA63432C4EB1AF7E9A15404DEF2C</source_id>
+      <tab_index>384</tab_index>
+      <tab_stop>1</tab_stop>
+      <textarea_cols>70</textarea_cols>
+      <textarea_rows>2</textarea_rows>
+      <x>163</x>
+      <y>265</y>
+      </Item>
+     <Item type="Field" id="423744857E8A4C73A9723DF63598B35D" action="add">
+      <bg_color>#FFFFFF</bg_color>
+      <border_width>0</border_width>
+      <field_type>textarea</field_type>
+      <font_color>#0423c1</font_color>
+      <font_family>arial, helvetica, sans-serif</font_family>
+      <font_size>8pt</font_size>
+      <font_weight>bold</font_weight>
+      <is_disabled>0</is_disabled>
+      <is_visible>1</is_visible>
+      <label>Answer: </label>
+      <label_position>left</label_position>
+      <list_no_blank>0</list_no_blank>
+      <name>why_2_answer</name>
+      <positioning>absolute</positioning>
+      <propertytype_id keyed_name="why_2_answer" type="Property">C1543C586CC841F8887CB3E3946949FE</propertytype_id>
+      <sort_order>768</sort_order>
+      <source_id keyed_name="D920AA63432C4EB1AF7E9A15404DEF2C" type="Body">D920AA63432C4EB1AF7E9A15404DEF2C</source_id>
+      <tab_index>512</tab_index>
+      <tab_stop>1</tab_stop>
+      <textarea_cols>90</textarea_cols>
+      <textarea_rows>4</textarea_rows>
+      <x>202</x>
+      <y>294</y>
+      </Item>
+     <Item type="Field" id="CDC15E7C566A434B9E34C9DEFAB59542" action="add">
+      <bg_color>#FFFFFF</bg_color>
+      <border_width>0</border_width>
+      <display_length>100</display_length>
+      <field_type>text</field_type>
+      <font_color>#000000</font_color>
+      <font_family>arial, helvetica, sans-serif</font_family>
+      <font_size>8pt</font_size>
+      <font_weight>bold</font_weight>
+      <is_disabled>0</is_disabled>
+      <is_visible>1</is_visible>
+      <label>Why #3</label>
+      <label_position>left</label_position>
+      <list_no_blank>0</list_no_blank>
+      <name>why_3</name>
+      <positioning>absolute</positioning>
+      <propertytype_id keyed_name="why_3" type="Property">EAC733DF1EDB4296AD6C810D8492D6EF</propertytype_id>
+      <sort_order>896</sort_order>
+      <source_id keyed_name="D920AA63432C4EB1AF7E9A15404DEF2C" type="Body">D920AA63432C4EB1AF7E9A15404DEF2C</source_id>
+      <tab_index>640</tab_index>
+      <tab_stop>1</tab_stop>
+      <textarea_cols>70</textarea_cols>
+      <textarea_rows>2</textarea_rows>
+      <x>165</x>
+      <y>364</y>
+      </Item>
+     <Item type="Field" id="D80D8C181F794F4DBF33DE1FE45D845E" action="add">
+      <bg_color>#FFFFFF</bg_color>
+      <border_width>0</border_width>
+      <field_type>textarea</field_type>
+      <font_color>#0423c1</font_color>
+      <font_family>arial, helvetica, sans-serif</font_family>
+      <font_size>8pt</font_size>
+      <font_weight>bold</font_weight>
+      <is_disabled>0</is_disabled>
+      <is_visible>1</is_visible>
+      <label>Answer: </label>
+      <label_position>left</label_position>
+      <list_no_blank>0</list_no_blank>
+      <name>why_3_answer</name>
+      <positioning>absolute</positioning>
+      <propertytype_id keyed_name="why_3_answer" type="Property">5E262555FCA248FAAE2FE598DC5777A1</propertytype_id>
+      <sort_order>1024</sort_order>
+      <source_id keyed_name="D920AA63432C4EB1AF7E9A15404DEF2C" type="Body">D920AA63432C4EB1AF7E9A15404DEF2C</source_id>
+      <tab_index>768</tab_index>
+      <tab_stop>1</tab_stop>
+      <textarea_cols>90</textarea_cols>
+      <textarea_rows>4</textarea_rows>
+      <x>202</x>
+      <y>393</y>
+      </Item>
+     <Item type="Field" id="7487E26D8D614CA0A348E02832D39286" action="add">
+      <bg_color>#FFFFFF</bg_color>
+      <border_width>0</border_width>
+      <display_length>100</display_length>
+      <field_type>text</field_type>
+      <font_color>#000000</font_color>
+      <font_family>arial, helvetica, sans-serif</font_family>
+      <font_size>8pt</font_size>
+      <font_weight>bold</font_weight>
+      <is_disabled>0</is_disabled>
+      <is_visible>1</is_visible>
+      <label>Why #4</label>
+      <label_position>left</label_position>
+      <list_no_blank>0</list_no_blank>
+      <name>why_4</name>
+      <positioning>absolute</positioning>
+      <propertytype_id keyed_name="why_4" type="Property">7AC0C81FD89147F59E3D0469A64010BA</propertytype_id>
+      <sort_order>1152</sort_order>
+      <source_id keyed_name="D920AA63432C4EB1AF7E9A15404DEF2C" type="Body">D920AA63432C4EB1AF7E9A15404DEF2C</source_id>
+      <tab_index>896</tab_index>
+      <tab_stop>1</tab_stop>
+      <textarea_cols>70</textarea_cols>
+      <textarea_rows>2</textarea_rows>
+      <x>164</x>
+      <y>464</y>
+      </Item>
+     <Item type="Field" id="64096E88EE4E4CEB88CA4FA5E607504D" action="add">
+      <bg_color>#FFFFFF</bg_color>
+      <border_width>0</border_width>
+      <field_type>textarea</field_type>
+      <font_color>#0423c1</font_color>
+      <font_family>arial, helvetica, sans-serif</font_family>
+      <font_size>8pt</font_size>
+      <font_weight>bold</font_weight>
+      <is_disabled>0</is_disabled>
+      <is_visible>1</is_visible>
+      <label>Answer: </label>
+      <label_position>left</label_position>
+      <list_no_blank>0</list_no_blank>
+      <name>why_4_answer</name>
+      <positioning>absolute</positioning>
+      <propertytype_id keyed_name="why_4_answer" type="Property">18D120C4D6B54DD2B03E6CA4DA329CFB</propertytype_id>
+      <sort_order>1280</sort_order>
+      <source_id keyed_name="D920AA63432C4EB1AF7E9A15404DEF2C" type="Body">D920AA63432C4EB1AF7E9A15404DEF2C</source_id>
+      <tab_index>1024</tab_index>
+      <tab_stop>1</tab_stop>
+      <textarea_cols>90</textarea_cols>
+      <textarea_rows>4</textarea_rows>
+      <x>200</x>
+      <y>495</y>
+      </Item>
+     <Item type="Field" id="563CCA18F0424D0E84340D78E4E6DA26" action="add">
+      <bg_color>#FFFFFF</bg_color>
+      <border_width>0</border_width>
+      <display_length>100</display_length>
+      <field_type>text</field_type>
+      <font_color>#000000</font_color>
+      <font_family>arial, helvetica, sans-serif</font_family>
+      <font_size>8pt</font_size>
+      <font_weight>bold</font_weight>
+      <is_disabled>0</is_disabled>
+      <is_visible>1</is_visible>
+      <label>Why #5</label>
+      <label_position>left</label_position>
+      <list_no_blank>0</list_no_blank>
+      <name>why_5</name>
+      <positioning>absolute</positioning>
+      <propertytype_id keyed_name="why_5" type="Property">6449E26BEAA744B7A22C2F64638410D4</propertytype_id>
+      <sort_order>1408</sort_order>
+      <source_id keyed_name="D920AA63432C4EB1AF7E9A15404DEF2C" type="Body">D920AA63432C4EB1AF7E9A15404DEF2C</source_id>
+      <tab_index>1152</tab_index>
+      <tab_stop>1</tab_stop>
+      <textarea_cols>70</textarea_cols>
+      <textarea_rows>2</textarea_rows>
+      <x>160</x>
+      <y>571</y>
+      </Item>
+     <Item type="Field" id="A783349B086544E4AA95271C6DE11D74" action="add">
+      <bg_color>#FFFFFF</bg_color>
+      <border_width>0</border_width>
+      <field_type>textarea</field_type>
+      <font_color>#0423c1</font_color>
+      <font_family>arial, helvetica, sans-serif</font_family>
+      <font_size>8pt</font_size>
+      <font_weight>bold</font_weight>
+      <is_disabled>0</is_disabled>
+      <is_visible>1</is_visible>
+      <label>Root&lt;br&gt;Cause:</label>
+      <label_position>left</label_position>
+      <list_no_blank>0</list_no_blank>
+      <name>why_5_answer</name>
+      <positioning>absolute</positioning>
+      <propertytype_id keyed_name="why_5_answer" type="Property">E7E593832E88490EA3F943F5D82E1606</propertytype_id>
+      <sort_order>1664</sort_order>
+      <source_id keyed_name="D920AA63432C4EB1AF7E9A15404DEF2C" type="Body">D920AA63432C4EB1AF7E9A15404DEF2C</source_id>
+      <tab_index>1280</tab_index>
+      <tab_stop>1</tab_stop>
+      <textarea_cols>90</textarea_cols>
+      <textarea_rows>4</textarea_rows>
+      <x>211</x>
+      <y>602</y>
+      </Item>
+    </Relationships>
+   </Item>
+  </Relationships>
+ </Item>
+ <Item type="Field" id="C5160DFC04C7487780F331310DE76931" action="edit">
+  <propertytype_id>
+   <Item type="Property" action="get" select="id">
+    <name>managed_by_id</name>
+    <source_id type="ItemType" keyed_name="Five Whys">A48B9F14A67B422D81628B7B4823C53F</source_id>
+   </Item>
+  </propertytype_id>
+ </Item>
+ <Item type="Field" id="2AD9B1EC536741C392847DAC223CB9E5" action="edit">
+  <propertytype_id>
+   <Item type="Property" action="get" select="id">
+    <name>owned_by_id</name>
+    <source_id type="ItemType" keyed_name="Five Whys">A48B9F14A67B422D81628B7B4823C53F</source_id>
+   </Item>
+  </propertytype_id>
+ </Item>
+</AML>

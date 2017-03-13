@@ -1,0 +1,25 @@
+<AML>
+ <Item type="Method" id="B6C1B3B6B4454AA3A8FDB65D92107151" action="add">
+  <method_code><![CDATA[var myItem = this;
+
+var newQAP = myItem.newItem('QAP','add');
+newQAP.setProperty('problem_stmt', myItem.getProperty('description',''));
+newQAP.setProperty('part', myItem.getProperty('part_id',''));
+newQAP.setProperty('customer', myItem.getProperty('customer_id',''));
+newQAP.setProperty('manufacturer', myItem.getProperty('supplier_id',''));
+newQAP.setProperty('owned_by_id', myItem.getProperty('owned_by_id',''));
+newQAP.setProperty('part', myItem.getProperty('part',''));
+
+var newRel = myItem.newItem('QAP Quality Events','add');
+newRel.setProperty('itemtype','Issue');
+newRel.setPropertyItem('related_id',myItem );
+newQAP.addRelationship(newRel);
+
+var res=newQAP.apply();
+newQAP = res.getItemByIndex(0);
+
+top.aras.uiShowItemEx(newQAP.node,undefined,true);]]></method_code>
+  <method_type>JavaScript</method_type>
+  <name>QS Add Issue to New QAP</name>
+ </Item>
+</AML>

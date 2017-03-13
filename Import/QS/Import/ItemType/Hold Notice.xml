@@ -1,0 +1,286 @@
+<AML>
+ <Item type="ItemType" id="EEFB983D95064A169EF8B714121EE305" action="add">
+  <allow_private_permission>1</allow_private_permission>
+  <auto_search>1</auto_search>
+  <default_lifecycle keyed_name="QS Hold Notice" type="Life Cycle Map">E3CD294C43EF4CED9977B5BD140E4697</default_lifecycle>
+  <hide_where_used>0</hide_where_used>
+  <implementation_type>table</implementation_type>
+  <instance_data>HOLD_NOTICE</instance_data>
+  <is_dependent>0</is_dependent>
+  <is_relationship>0</is_relationship>
+  <is_versionable>0</is_versionable>
+  <label>Hold Notices</label>
+  <large_icon>../images/Icons/32x32/32x32_databaseUpdates.gif</large_icon>
+  <manual_versioning>0</manual_versioning>
+  <name>Hold Notice</name>
+  <open_icon>../images/Icons/16x16/16x16_databaseUpdates.gif</open_icon>
+  <revisions keyed_name="Default" type="Revision">7FE395DD8B9F4E1090756A34B733D75E</revisions>
+  <save_history>0</save_history>
+  <show_parameters_tab>1</show_parameters_tab>
+  <unlock_on_logout>0</unlock_on_logout>
+  <use_src_access>0</use_src_access>
+  <Relationships>
+   <Item type="Allowed Permission" id="C6D5428BA7D6477296159892639FC60F" action="add">
+    <is_default>1</is_default>
+    <related_id keyed_name="Hold Notice" type="Permission">CE6F640241F94A96950853E398C6AB0E</related_id>
+    <sort_order>128</sort_order>
+    <source_id keyed_name="Hold Notice" type="ItemType" name="Hold Notice">EEFB983D95064A169EF8B714121EE305</source_id>
+   </Item>
+   <Item type="Can Add" id="98C43141A46945E1A6CDE3C0E1484671" action="add">
+    <can_add>1</can_add>
+    <related_id keyed_name="World" type="Identity">
+     <Item type="Identity" action="get" select="id">
+      <name>World</name>
+     </Item>
+    </related_id>
+    <sort_order>128</sort_order>
+    <source_id keyed_name="Hold Notice" type="ItemType" name="Hold Notice">EEFB983D95064A169EF8B714121EE305</source_id>
+   </Item>
+   <Item type="Property" id="C04CBA1939234289A27AD58AD601DE17" action="add">
+    <column_alignment>left</column_alignment>
+    <column_width>40</column_width>
+    <data_source keyed_name="User" type="ItemType" name="User">45E899CD2859442982EB22BB2DF683E5</data_source>
+    <data_type>item</data_type>
+    <is_hidden>0</is_hidden>
+    <is_hidden2>0</is_hidden2>
+    <is_indexed>0</is_indexed>
+    <is_keyed>0</is_keyed>
+    <is_multi_valued>0</is_multi_valued>
+    <is_required>0</is_required>
+    <item_behavior>float</item_behavior>
+    <label>Authorized By</label>
+    <name>authorized_by</name>
+    <range_inclusive>0</range_inclusive>
+    <readonly>0</readonly>
+    <sort_order>3092</sort_order>
+    <source_id keyed_name="Hold Notice" type="ItemType" name="Hold Notice">EEFB983D95064A169EF8B714121EE305</source_id>
+    </Item>
+   <Item type="Property" id="4991670B9CA449F7A3A9E0987AD33AC3" action="add">
+    <column_alignment>left</column_alignment>
+    <column_width>50</column_width>
+    <data_source keyed_name="Corporate Business Unit">C50BCD8F2BDB4C3C93E1ACAF5665AE55</data_source>
+    <data_type>list</data_type>
+    <is_hidden>1</is_hidden>
+    <is_hidden2>1</is_hidden2>
+    <is_indexed>0</is_indexed>
+    <is_keyed>0</is_keyed>
+    <is_multi_valued>0</is_multi_valued>
+    <is_required>0</is_required>
+    <label>Business Unit</label>
+    <name>corp_bu</name>
+    <range_inclusive>0</range_inclusive>
+    <readonly>0</readonly>
+    <sort_order>3220</sort_order>
+    <source_id keyed_name="Hold Notice" type="ItemType" name="Hold Notice">EEFB983D95064A169EF8B714121EE305</source_id>
+    </Item>
+   <Item type="Property" id="953E32F920D948F1AD35FC4106C954AC" action="add">
+    <column_alignment>left</column_alignment>
+    <column_width>90</column_width>
+    <data_source keyed_name="Corporate Plants">3C713157B9D74B099D7A22E630C908A7</data_source>
+    <data_type>filter list</data_type>
+    <is_hidden>0</is_hidden>
+    <is_hidden2>0</is_hidden2>
+    <is_indexed>0</is_indexed>
+    <is_keyed>0</is_keyed>
+    <is_multi_valued>0</is_multi_valued>
+    <is_required>0</is_required>
+    <label>Plant</label>
+    <name>corp_plant</name>
+    <pattern>corp_bu</pattern>
+    <range_inclusive>0</range_inclusive>
+    <readonly>0</readonly>
+    <sort_order>3348</sort_order>
+    <source_id keyed_name="Hold Notice" type="ItemType" name="Hold Notice">EEFB983D95064A169EF8B714121EE305</source_id>
+    </Item>
+   <Item type="Property" id="B01CB29F971E4B5FB43DEF98B9FA1A96" action="add">
+    <column_alignment>left</column_alignment>
+    <column_width>30</column_width>
+    <data_source keyed_name="Criticality">363E07736C8445C89A526A215D2B5438</data_source>
+    <data_type>list</data_type>
+    <is_hidden>0</is_hidden>
+    <is_hidden2>0</is_hidden2>
+    <is_indexed>0</is_indexed>
+    <is_keyed>0</is_keyed>
+    <is_multi_valued>0</is_multi_valued>
+    <is_required>0</is_required>
+    <label>Criticality</label>
+    <name>criticality</name>
+    <range_inclusive>0</range_inclusive>
+    <readonly>0</readonly>
+    <sort_order>3476</sort_order>
+    <source_id keyed_name="Hold Notice" type="ItemType" name="Hold Notice">EEFB983D95064A169EF8B714121EE305</source_id>
+    </Item>
+   <Item type="Property" id="4FBC7FD8A67E48118D2C2463AFC74BCC" action="add">
+    <column_alignment>left</column_alignment>
+    <column_width>300</column_width>
+    <data_type>string</data_type>
+    <is_hidden>0</is_hidden>
+    <is_hidden2>0</is_hidden2>
+    <is_indexed>0</is_indexed>
+    <is_keyed>0</is_keyed>
+    <is_multi_valued>0</is_multi_valued>
+    <is_required>0</is_required>
+    <label>Description</label>
+    <name>description</name>
+    <range_inclusive>0</range_inclusive>
+    <readonly>0</readonly>
+    <sort_order>10</sort_order>
+    <source_id keyed_name="Hold Notice" type="ItemType" name="Hold Notice">EEFB983D95064A169EF8B714121EE305</source_id>
+    <stored_length>128</stored_length>
+    </Item>
+   <Item type="Property" id="E6A43963DB04444E9785855946060EFE" action="add">
+    <column_alignment>center</column_alignment>
+    <column_width>100</column_width>
+    <data_source keyed_name="QS Hold Notice Type">8B6CE887CBC74BA8B70362F9F97C1BCB</data_source>
+    <data_type>list</data_type>
+    <is_hidden>0</is_hidden>
+    <is_hidden2>0</is_hidden2>
+    <is_indexed>0</is_indexed>
+    <is_keyed>0</is_keyed>
+    <is_multi_valued>0</is_multi_valued>
+    <is_required>0</is_required>
+    <label>Type</label>
+    <name>hold_type</name>
+    <range_inclusive>0</range_inclusive>
+    <readonly>0</readonly>
+    <sort_order>4</sort_order>
+    <source_id keyed_name="Hold Notice" type="ItemType" name="Hold Notice">EEFB983D95064A169EF8B714121EE305</source_id>
+    </Item>
+   <Item type="Property" id="4759F2F4229745A49A8CBC539821486F" action="add">
+    <column_alignment>left</column_alignment>
+    <column_width>90</column_width>
+    <data_source keyed_name="QS Hold Notice">8F0BC8A493DA40FAAD301A98F078E0EF</data_source>
+    <data_type>sequence</data_type>
+    <is_hidden>0</is_hidden>
+    <is_hidden2>0</is_hidden2>
+    <is_indexed>0</is_indexed>
+    <is_keyed>0</is_keyed>
+    <is_multi_valued>0</is_multi_valued>
+    <is_required>0</is_required>
+    <keyed_name_order>1</keyed_name_order>
+    <label>Hold Notice ID</label>
+    <name>item_number</name>
+    <order_by>1</order_by>
+    <range_inclusive>0</range_inclusive>
+    <readonly>0</readonly>
+    <sort_order>2</sort_order>
+    <source_id keyed_name="Hold Notice" type="ItemType" name="Hold Notice">EEFB983D95064A169EF8B714121EE305</source_id>
+    </Item>
+   <Item type="Property" id="226DF28ED162425F9F8B1BB6C745B898" action="add">
+    <column_alignment>left</column_alignment>
+    <column_width>120</column_width>
+    <data_source keyed_name="Part" type="ItemType" name="Part">4F1AC04A2B484F3ABA4E20DB63808A88</data_source>
+    <data_type>item</data_type>
+    <is_hidden>0</is_hidden>
+    <is_hidden2>0</is_hidden2>
+    <is_indexed>0</is_indexed>
+    <is_keyed>0</is_keyed>
+    <is_multi_valued>0</is_multi_valued>
+    <is_required>0</is_required>
+    <item_behavior>float</item_behavior>
+    <label>part</label>
+    <name>part</name>
+    <range_inclusive>0</range_inclusive>
+    <readonly>0</readonly>
+    <sort_order>20</sort_order>
+    <source_id keyed_name="Hold Notice" type="ItemType" name="Hold Notice">EEFB983D95064A169EF8B714121EE305</source_id>
+    </Item>
+   <Item type="TOC Access" id="8EC87287CB63448EBA11F49A5BB0B061" action="add">
+    <category>Quality</category>
+    <related_id keyed_name="World" type="Identity">
+     <Item type="Identity" action="get" select="id">
+      <name>World</name>
+     </Item>
+    </related_id>
+    <sort_order>128</sort_order>
+    <source_id keyed_name="Hold Notice" type="ItemType" name="Hold Notice">EEFB983D95064A169EF8B714121EE305</source_id>
+   </Item>
+   <Item type="View" id="BA35C6A72612450A9B77C634D0D1169A" action="add">
+    <client>js</client>
+    <related_id keyed_name="Hold Notice" type="Form">C3789E0574994CBBBB53E870828EC593</related_id>
+    <role keyed_name="World" type="Identity">
+     <Item type="Identity" action="get" select="id">
+      <name>World</name>
+     </Item>
+    </role>
+    <sort_order>128</sort_order>
+    <source_id keyed_name="Hold Notice" type="ItemType" name="Hold Notice">EEFB983D95064A169EF8B714121EE305</source_id>
+    <type>default</type>
+   </Item>
+  </Relationships>
+ </Item>
+ <Item type="Property" action="edit" where="source_id='EEFB983D95064A169EF8B714121EE305' and name='created_by_id'">
+  <column_alignment>left</column_alignment>
+  <column_width>120</column_width>
+  <data_source keyed_name="User" type="ItemType" name="User">45E899CD2859442982EB22BB2DF683E5</data_source>
+  <data_type>item</data_type>
+  <is_hidden>1</is_hidden>
+  <is_hidden2>1</is_hidden2>
+  <is_indexed>0</is_indexed>
+  <is_keyed>0</is_keyed>
+  <is_multi_valued>0</is_multi_valued>
+  <is_required>1</is_required>
+  <item_behavior>float</item_behavior>
+  <label>Originator</label>
+  <name>created_by_id</name>
+  <range_inclusive>0</range_inclusive>
+  <readonly>1</readonly>
+  <sort_order>22</sort_order>
+  <source_id keyed_name="Hold Notice" type="ItemType" name="Hold Notice">EEFB983D95064A169EF8B714121EE305</source_id>
+  </Item>
+ <Item type="Property" action="edit" where="source_id='EEFB983D95064A169EF8B714121EE305' and name='modified_on'">
+  <column_alignment>left</column_alignment>
+  <column_width>120</column_width>
+  <data_type>date</data_type>
+  <is_hidden>1</is_hidden>
+  <is_hidden2>1</is_hidden2>
+  <is_indexed>0</is_indexed>
+  <is_keyed>0</is_keyed>
+  <is_multi_valued>0</is_multi_valued>
+  <is_required>0</is_required>
+  <label>Last Updated</label>
+  <name>modified_on</name>
+  <pattern>MM/dd/yyyy hh:mm:ss a</pattern>
+  <range_inclusive>0</range_inclusive>
+  <readonly>1</readonly>
+  <sort_order>18</sort_order>
+  <source_id keyed_name="Hold Notice" type="ItemType" name="Hold Notice">EEFB983D95064A169EF8B714121EE305</source_id>
+  </Item>
+ <Item type="Property" action="edit" where="source_id='EEFB983D95064A169EF8B714121EE305' and name='owned_by_id'">
+  <column_alignment>left</column_alignment>
+  <column_width>100</column_width>
+  <data_source keyed_name="Identity" type="ItemType" name="Identity">E582AB17663F4EF28460015B2BE9E094</data_source>
+  <data_type>item</data_type>
+  <is_hidden>0</is_hidden>
+  <is_hidden2>0</is_hidden2>
+  <is_indexed>0</is_indexed>
+  <is_keyed>0</is_keyed>
+  <is_multi_valued>0</is_multi_valued>
+  <is_required>0</is_required>
+  <item_behavior>float</item_behavior>
+  <label>Responsible</label>
+  <name>owned_by_id</name>
+  <range_inclusive>0</range_inclusive>
+  <readonly>0</readonly>
+  <sort_order>9</sort_order>
+  <source_id keyed_name="Hold Notice" type="ItemType" name="Hold Notice">EEFB983D95064A169EF8B714121EE305</source_id>
+  </Item>
+ <Item type="Property" action="edit" where="source_id='EEFB983D95064A169EF8B714121EE305' and name='state'">
+  <column_alignment>center</column_alignment>
+  <column_width>90</column_width>
+  <data_type>string</data_type>
+  <is_hidden>0</is_hidden>
+  <is_hidden2>0</is_hidden2>
+  <is_indexed>0</is_indexed>
+  <is_keyed>0</is_keyed>
+  <is_multi_valued>0</is_multi_valued>
+  <is_required>0</is_required>
+  <label>Status</label>
+  <name>state</name>
+  <range_inclusive>0</range_inclusive>
+  <readonly>1</readonly>
+  <sort_order>8</sort_order>
+  <source_id keyed_name="Hold Notice" type="ItemType" name="Hold Notice">EEFB983D95064A169EF8B714121EE305</source_id>
+  <stored_length>32</stored_length>
+  </Item>
+</AML>

@@ -1,0 +1,1084 @@
+<AML>
+ <Item type="ItemType" id="C69F8715010341DD8F6ADFA61DF2A0F8" action="add">
+  <allow_private_permission>1</allow_private_permission>
+  <auto_search>1</auto_search>
+  <default_lifecycle keyed_name="QS Non-Conforming Material Purge" type="Life Cycle Map">BC8113967B8A4D3981C9D36AC2FA7DFD</default_lifecycle>
+  <hide_where_used>0</hide_where_used>
+  <implementation_type>table</implementation_type>
+  <instance_data>NON_CONF__MAT_PURGE</instance_data>
+  <is_dependent>0</is_dependent>
+  <is_relationship>0</is_relationship>
+  <is_versionable>0</is_versionable>
+  <label>Material Purge</label>
+  <large_icon>../images/Icons/32x32/32x32_folder_opened.gif</large_icon>
+  <manual_versioning>0</manual_versioning>
+  <name>Non Conf  Mat Purge</name>
+  <open_icon>../images/Icons/16x16/16x16_folder_opening.gif</open_icon>
+  <revisions keyed_name="Default" type="Revision">7FE395DD8B9F4E1090756A34B733D75E</revisions>
+  <save_history>0</save_history>
+  <show_parameters_tab>1</show_parameters_tab>
+  <unlock_on_logout>1</unlock_on_logout>
+  <use_src_access>0</use_src_access>
+  <Relationships>
+   <Item type="Allowed Permission" id="260775E73B7A4E70968ECA7AC90471A4" action="add">
+    <is_default>1</is_default>
+    <related_id keyed_name="Non Conf Mat Purge" type="Permission">52CBF72A329649B4969C5BEC6E00CF5A</related_id>
+    <sort_order>128</sort_order>
+    <source_id keyed_name="Non Conf  Mat Purge" type="ItemType" name="Non Conf  Mat Purge">C69F8715010341DD8F6ADFA61DF2A0F8</source_id>
+   </Item>
+   <Item type="Allowed Workflow" id="36BE787031BD4300BDFB6695E93B86C4" action="add">
+    <is_default>1</is_default>
+    <related_id keyed_name="QS Non Conforming Material" type="Workflow Map">0D3BA1A6ECF644D4BB88C8104A631D6A</related_id>
+    <sort_order>128</sort_order>
+    <source_id keyed_name="Non Conf  Mat Purge" type="ItemType" name="Non Conf  Mat Purge">C69F8715010341DD8F6ADFA61DF2A0F8</source_id>
+   </Item>
+   <Item type="Can Add" id="23EF73B200B84F6EB34E38B38512BA53" action="add">
+    <can_add>1</can_add>
+    <related_id keyed_name="World" type="Identity">
+     <Item type="Identity" action="get" select="id">
+      <name>World</name>
+     </Item>
+    </related_id>
+    <sort_order>128</sort_order>
+    <source_id keyed_name="Non Conf  Mat Purge" type="ItemType" name="Non Conf  Mat Purge">C69F8715010341DD8F6ADFA61DF2A0F8</source_id>
+   </Item>
+   <Item type="Property" id="B8E604A8036A4DBBB8C1CA313849D784" action="add">
+    <column_alignment>left</column_alignment>
+    <column_width>20</column_width>
+    <data_type>boolean</data_type>
+    <is_hidden>1</is_hidden>
+    <is_hidden2>1</is_hidden2>
+    <is_indexed>0</is_indexed>
+    <is_keyed>0</is_keyed>
+    <is_multi_valued>0</is_multi_valued>
+    <is_required>0</is_required>
+    <label>Check Contact Super</label>
+    <name>check_contact_super</name>
+    <range_inclusive>0</range_inclusive>
+    <readonly>0</readonly>
+    <sort_order>6912</sort_order>
+    <source_id keyed_name="Non Conf  Mat Purge" type="ItemType" name="Non Conf  Mat Purge">C69F8715010341DD8F6ADFA61DF2A0F8</source_id>
+    </Item>
+   <Item type="Property" id="AA7AB5C553CE4E6DBD1F52B3E4014494" action="add">
+    <column_alignment>left</column_alignment>
+    <column_width>20</column_width>
+    <data_type>boolean</data_type>
+    <is_hidden>1</is_hidden>
+    <is_hidden2>1</is_hidden2>
+    <is_indexed>0</is_indexed>
+    <is_keyed>0</is_keyed>
+    <is_multi_valued>0</is_multi_valued>
+    <is_required>0</is_required>
+    <label>Check Move</label>
+    <name>check_move</name>
+    <range_inclusive>0</range_inclusive>
+    <readonly>0</readonly>
+    <sort_order>7296</sort_order>
+    <source_id keyed_name="Non Conf  Mat Purge" type="ItemType" name="Non Conf  Mat Purge">C69F8715010341DD8F6ADFA61DF2A0F8</source_id>
+    </Item>
+   <Item type="Property" id="30BFB4F4FE7D44209B07FE14EA847108" action="add">
+    <column_alignment>left</column_alignment>
+    <column_width>20</column_width>
+    <data_type>boolean</data_type>
+    <is_hidden>1</is_hidden>
+    <is_hidden2>1</is_hidden2>
+    <is_indexed>0</is_indexed>
+    <is_keyed>0</is_keyed>
+    <is_multi_valued>0</is_multi_valued>
+    <is_required>0</is_required>
+    <label>Check Quarantine</label>
+    <name>check_quarantine</name>
+    <range_inclusive>0</range_inclusive>
+    <readonly>0</readonly>
+    <sort_order>7040</sort_order>
+    <source_id keyed_name="Non Conf  Mat Purge" type="ItemType" name="Non Conf  Mat Purge">C69F8715010341DD8F6ADFA61DF2A0F8</source_id>
+    </Item>
+   <Item type="Property" id="AB06656BEB3D4A01B2D8819ED1CC41D0" action="add">
+    <column_alignment>left</column_alignment>
+    <column_width>20</column_width>
+    <data_type>boolean</data_type>
+    <is_hidden>1</is_hidden>
+    <is_hidden2>1</is_hidden2>
+    <is_indexed>0</is_indexed>
+    <is_keyed>0</is_keyed>
+    <is_multi_valued>0</is_multi_valued>
+    <is_required>0</is_required>
+    <label>Check Shut Down</label>
+    <name>check_shut_down</name>
+    <range_inclusive>0</range_inclusive>
+    <readonly>0</readonly>
+    <sort_order>6784</sort_order>
+    <source_id keyed_name="Non Conf  Mat Purge" type="ItemType" name="Non Conf  Mat Purge">C69F8715010341DD8F6ADFA61DF2A0F8</source_id>
+    </Item>
+   <Item type="Property" id="A866501BF8254CA3A3177D6EA9737CB4" action="add">
+    <column_alignment>left</column_alignment>
+    <column_width>20</column_width>
+    <data_type>boolean</data_type>
+    <is_hidden>1</is_hidden>
+    <is_hidden2>1</is_hidden2>
+    <is_indexed>0</is_indexed>
+    <is_keyed>0</is_keyed>
+    <is_multi_valued>0</is_multi_valued>
+    <is_required>0</is_required>
+    <label>Check Tag</label>
+    <name>check_tag</name>
+    <range_inclusive>0</range_inclusive>
+    <readonly>0</readonly>
+    <sort_order>7168</sort_order>
+    <source_id keyed_name="Non Conf  Mat Purge" type="ItemType" name="Non Conf  Mat Purge">C69F8715010341DD8F6ADFA61DF2A0F8</source_id>
+    </Item>
+   <Item type="Property" id="A996716817B64178B5A8C075479C8FA1" action="add">
+    <column_alignment>left</column_alignment>
+    <column_width>80</column_width>
+    <data_type>boolean</data_type>
+    <is_hidden>1</is_hidden>
+    <is_hidden2>1</is_hidden2>
+    <is_indexed>0</is_indexed>
+    <is_keyed>0</is_keyed>
+    <is_multi_valued>0</is_multi_valued>
+    <is_required>0</is_required>
+    <label>Conf Non Part Disposition</label>
+    <name>conf_non_part_disposition</name>
+    <range_inclusive>0</range_inclusive>
+    <readonly>0</readonly>
+    <sort_order>8320</sort_order>
+    <source_id keyed_name="Non Conf  Mat Purge" type="ItemType" name="Non Conf  Mat Purge">C69F8715010341DD8F6ADFA61DF2A0F8</source_id>
+    </Item>
+   <Item type="Property" id="2D7F4658449B4B03A84AC62A827984B3" action="add">
+    <column_alignment>left</column_alignment>
+    <column_width>80</column_width>
+    <data_type>text</data_type>
+    <is_hidden>1</is_hidden>
+    <is_hidden2>1</is_hidden2>
+    <is_indexed>0</is_indexed>
+    <is_keyed>0</is_keyed>
+    <is_multi_valued>0</is_multi_valued>
+    <is_required>0</is_required>
+    <label>Conf Non Part Disposition Notes</label>
+    <name>conf_non_part_disposition_notes</name>
+    <range_inclusive>0</range_inclusive>
+    <readonly>0</readonly>
+    <sort_order>8704</sort_order>
+    <source_id keyed_name="Non Conf  Mat Purge" type="ItemType" name="Non Conf  Mat Purge">C69F8715010341DD8F6ADFA61DF2A0F8</source_id>
+    </Item>
+   <Item type="Property" id="91D802B3586E4E00B68FCBA4BB481387" action="add">
+    <column_alignment>left</column_alignment>
+    <column_width>80</column_width>
+    <data_type>boolean</data_type>
+    <is_hidden>1</is_hidden>
+    <is_hidden2>1</is_hidden2>
+    <is_indexed>0</is_indexed>
+    <is_keyed>0</is_keyed>
+    <is_multi_valued>0</is_multi_valued>
+    <is_required>0</is_required>
+    <label>Conf Part Disposition</label>
+    <name>conf_part_disposition</name>
+    <range_inclusive>0</range_inclusive>
+    <readonly>0</readonly>
+    <sort_order>8064</sort_order>
+    <source_id keyed_name="Non Conf  Mat Purge" type="ItemType" name="Non Conf  Mat Purge">C69F8715010341DD8F6ADFA61DF2A0F8</source_id>
+    </Item>
+   <Item type="Property" id="8796E84D8BDD49BFA50ECB15BE01EEC4" action="add">
+    <column_alignment>left</column_alignment>
+    <column_width>80</column_width>
+    <data_type>text</data_type>
+    <is_hidden>1</is_hidden>
+    <is_hidden2>1</is_hidden2>
+    <is_indexed>0</is_indexed>
+    <is_keyed>0</is_keyed>
+    <is_multi_valued>0</is_multi_valued>
+    <is_required>0</is_required>
+    <label>Conf Part Disposition Note</label>
+    <name>conf_part_disposition_note</name>
+    <range_inclusive>0</range_inclusive>
+    <readonly>0</readonly>
+    <sort_order>8448</sort_order>
+    <source_id keyed_name="Non Conf  Mat Purge" type="ItemType" name="Non Conf  Mat Purge">C69F8715010341DD8F6ADFA61DF2A0F8</source_id>
+    </Item>
+   <Item type="Property" id="99B718C963644D39BDAD9607F67C22BE" action="add">
+    <column_alignment>left</column_alignment>
+    <column_width>80</column_width>
+    <data_type>text</data_type>
+    <is_hidden>1</is_hidden>
+    <is_hidden2>1</is_hidden2>
+    <is_indexed>0</is_indexed>
+    <is_keyed>0</is_keyed>
+    <is_multi_valued>0</is_multi_valued>
+    <is_required>0</is_required>
+    <label>Contact Comments</label>
+    <name>contact_comments</name>
+    <range_inclusive>0</range_inclusive>
+    <readonly>0</readonly>
+    <sort_order>3840</sort_order>
+    <source_id keyed_name="Non Conf  Mat Purge" type="ItemType" name="Non Conf  Mat Purge">C69F8715010341DD8F6ADFA61DF2A0F8</source_id>
+    </Item>
+   <Item type="Property" id="0FD1BF3CF26349498E47C47FBF0B08C0" action="add">
+    <column_alignment>left</column_alignment>
+    <column_width>80</column_width>
+    <data_source keyed_name="Corporate Plants - not filter">B0AD8FBF9E86489788A0B3ABAA2CC027</data_source>
+    <data_type>list</data_type>
+    <is_hidden>0</is_hidden>
+    <is_hidden2>0</is_hidden2>
+    <is_indexed>0</is_indexed>
+    <is_keyed>0</is_keyed>
+    <is_multi_valued>0</is_multi_valued>
+    <is_required>0</is_required>
+    <label>Plant</label>
+    <name>corp_plant</name>
+    <range_inclusive>0</range_inclusive>
+    <readonly>0</readonly>
+    <sort_order>10368</sort_order>
+    <source_id keyed_name="Non Conf  Mat Purge" type="ItemType" name="Non Conf  Mat Purge">C69F8715010341DD8F6ADFA61DF2A0F8</source_id>
+    </Item>
+   <Item type="Property" id="15BF26BDA3C74030805ACBA2C86AA782" action="add">
+    <column_alignment>left</column_alignment>
+    <data_type>string</data_type>
+    <is_hidden>1</is_hidden>
+    <is_hidden2>1</is_hidden2>
+    <is_indexed>0</is_indexed>
+    <is_keyed>0</is_keyed>
+    <is_multi_valued>0</is_multi_valued>
+    <is_required>0</is_required>
+    <label>Non Conformance</label>
+    <name>description</name>
+    <range_inclusive>0</range_inclusive>
+    <readonly>0</readonly>
+    <sort_order>10496</sort_order>
+    <source_id keyed_name="Non Conf  Mat Purge" type="ItemType" name="Non Conf  Mat Purge">C69F8715010341DD8F6ADFA61DF2A0F8</source_id>
+    <stored_length>250</stored_length>
+    </Item>
+   <Item type="Property" id="8129638489BD44DC8851C893ADEF3CCD" action="add">
+    <column_alignment>left</column_alignment>
+    <column_width>80</column_width>
+    <data_source keyed_name="QS Quality Alert">8BEFB58CB4164434897A2D62DE6EC768</data_source>
+    <data_type>sequence</data_type>
+    <is_hidden>0</is_hidden>
+    <is_hidden2>0</is_hidden2>
+    <is_indexed>0</is_indexed>
+    <is_keyed>0</is_keyed>
+    <is_multi_valued>0</is_multi_valued>
+    <is_required>0</is_required>
+    <label>QA Alert No</label>
+    <name>item_number</name>
+    <range_inclusive>0</range_inclusive>
+    <readonly>0</readonly>
+    <sort_order>3584</sort_order>
+    <source_id keyed_name="Non Conf  Mat Purge" type="ItemType" name="Non Conf  Mat Purge">C69F8715010341DD8F6ADFA61DF2A0F8</source_id>
+    </Item>
+   <Item type="Property" id="169259F1D41846CB9DF2D1ED81B3C657" action="add">
+    <column_alignment>left</column_alignment>
+    <column_width>80</column_width>
+    <data_type>text</data_type>
+    <is_hidden>1</is_hidden>
+    <is_hidden2>1</is_hidden2>
+    <is_indexed>0</is_indexed>
+    <is_keyed>0</is_keyed>
+    <is_multi_valued>0</is_multi_valued>
+    <is_required>0</is_required>
+    <label>Move Comments</label>
+    <name>move_comments</name>
+    <range_inclusive>0</range_inclusive>
+    <readonly>0</readonly>
+    <sort_order>4096</sort_order>
+    <source_id keyed_name="Non Conf  Mat Purge" type="ItemType" name="Non Conf  Mat Purge">C69F8715010341DD8F6ADFA61DF2A0F8</source_id>
+    </Item>
+   <Item type="Property" id="40A31327DE2E452FB2E29DAAE0427FAF" action="add">
+    <column_alignment>left</column_alignment>
+    <column_width>20</column_width>
+    <data_type>boolean</data_type>
+    <is_hidden>1</is_hidden>
+    <is_hidden2>1</is_hidden2>
+    <is_indexed>0</is_indexed>
+    <is_keyed>0</is_keyed>
+    <is_multi_valued>0</is_multi_valued>
+    <is_required>0</is_required>
+    <label>NC Detect Other</label>
+    <name>nc_detect_other</name>
+    <range_inclusive>0</range_inclusive>
+    <readonly>0</readonly>
+    <sort_order>7552</sort_order>
+    <source_id keyed_name="Non Conf  Mat Purge" type="ItemType" name="Non Conf  Mat Purge">C69F8715010341DD8F6ADFA61DF2A0F8</source_id>
+    </Item>
+   <Item type="Property" id="BE31E8E4253D4C40B56119340D6EB355" action="add">
+    <column_alignment>left</column_alignment>
+    <column_width>20</column_width>
+    <data_source keyed_name="QS Non-Conf Detection">7FCD47424C724F0DB8566B643FA95724</data_source>
+    <data_type>list</data_type>
+    <is_hidden>1</is_hidden>
+    <is_hidden2>1</is_hidden2>
+    <is_indexed>0</is_indexed>
+    <is_keyed>0</is_keyed>
+    <is_multi_valued>0</is_multi_valued>
+    <is_required>0</is_required>
+    <label>NC Detecting Method</label>
+    <name>nc_detecting_method</name>
+    <range_inclusive>0</range_inclusive>
+    <readonly>0</readonly>
+    <sort_order>7680</sort_order>
+    <source_id keyed_name="Non Conf  Mat Purge" type="ItemType" name="Non Conf  Mat Purge">C69F8715010341DD8F6ADFA61DF2A0F8</source_id>
+    </Item>
+   <Item type="Property" id="EA0FEE52BD5D4CBFB5837CA7306A082E" action="add">
+    <column_alignment>left</column_alignment>
+    <column_width>80</column_width>
+    <data_type>text</data_type>
+    <is_hidden>1</is_hidden>
+    <is_hidden2>1</is_hidden2>
+    <is_indexed>0</is_indexed>
+    <is_keyed>0</is_keyed>
+    <is_multi_valued>0</is_multi_valued>
+    <is_required>0</is_required>
+    <label>Nc Detet Other Text</label>
+    <name>nc_detet_other_text</name>
+    <range_inclusive>0</range_inclusive>
+    <readonly>0</readonly>
+    <sort_order>7936</sort_order>
+    <source_id keyed_name="Non Conf  Mat Purge" type="ItemType" name="Non Conf  Mat Purge">C69F8715010341DD8F6ADFA61DF2A0F8</source_id>
+    </Item>
+   <Item type="Property" id="0EFDCFB91A6A45D986FE833B80EBA934" action="add">
+    <column_alignment>left</column_alignment>
+    <column_width>80</column_width>
+    <data_type>text</data_type>
+    <is_hidden>1</is_hidden>
+    <is_hidden2>1</is_hidden2>
+    <is_indexed>0</is_indexed>
+    <is_keyed>0</is_keyed>
+    <is_multi_valued>0</is_multi_valued>
+    <is_required>0</is_required>
+    <label>No Non Conform</label>
+    <name>no_non_conform</name>
+    <range_inclusive>0</range_inclusive>
+    <readonly>0</readonly>
+    <sort_order>4352</sort_order>
+    <source_id keyed_name="Non Conf  Mat Purge" type="ItemType" name="Non Conf  Mat Purge">C69F8715010341DD8F6ADFA61DF2A0F8</source_id>
+    </Item>
+   <Item type="Property" id="744A753896364446BB571796EFD31622" action="add">
+    <column_alignment>left</column_alignment>
+    <column_width>80</column_width>
+    <data_type>integer</data_type>
+    <is_hidden>1</is_hidden>
+    <is_hidden2>1</is_hidden2>
+    <is_indexed>0</is_indexed>
+    <is_keyed>0</is_keyed>
+    <is_multi_valued>0</is_multi_valued>
+    <is_required>0</is_required>
+    <label>No Parts Insp</label>
+    <name>no_parts_insp</name>
+    <range_inclusive>0</range_inclusive>
+    <readonly>0</readonly>
+    <sort_order>4224</sort_order>
+    <source_id keyed_name="Non Conf  Mat Purge" type="ItemType" name="Non Conf  Mat Purge">C69F8715010341DD8F6ADFA61DF2A0F8</source_id>
+    </Item>
+   <Item type="Property" id="82774E738D13409CB0359A663E471E93" action="add">
+    <column_alignment>left</column_alignment>
+    <column_width>80</column_width>
+    <data_type>text</data_type>
+    <is_hidden>1</is_hidden>
+    <is_hidden2>1</is_hidden2>
+    <is_indexed>0</is_indexed>
+    <is_keyed>0</is_keyed>
+    <is_multi_valued>0</is_multi_valued>
+    <is_required>0</is_required>
+    <label>Non Confomance</label>
+    <name>non_confomance</name>
+    <range_inclusive>0</range_inclusive>
+    <readonly>0</readonly>
+    <sort_order>7808</sort_order>
+    <source_id keyed_name="Non Conf  Mat Purge" type="ItemType" name="Non Conf  Mat Purge">C69F8715010341DD8F6ADFA61DF2A0F8</source_id>
+    <stored_length>256</stored_length>
+    </Item>
+   <Item type="Property" id="0C4F1EB5075546C1A9A7F9B7F0F5EFCB" action="add">
+    <column_alignment>left</column_alignment>
+    <column_width>80</column_width>
+    <data_source keyed_name="User" type="ItemType" name="User">45E899CD2859442982EB22BB2DF683E5</data_source>
+    <data_type>item</data_type>
+    <is_hidden>1</is_hidden>
+    <is_hidden2>1</is_hidden2>
+    <is_indexed>0</is_indexed>
+    <is_keyed>0</is_keyed>
+    <is_multi_valued>0</is_multi_valued>
+    <is_required>0</is_required>
+    <item_behavior>float</item_behavior>
+    <label>Operator 1</label>
+    <name>operator_1</name>
+    <range_inclusive>0</range_inclusive>
+    <readonly>0</readonly>
+    <sort_order>9600</sort_order>
+    <source_id keyed_name="Non Conf  Mat Purge" type="ItemType" name="Non Conf  Mat Purge">C69F8715010341DD8F6ADFA61DF2A0F8</source_id>
+    </Item>
+   <Item type="Property" id="877BB90724484FA7995DDA1097C9B168" action="add">
+    <column_alignment>left</column_alignment>
+    <column_width>80</column_width>
+    <data_type>date</data_type>
+    <is_hidden>1</is_hidden>
+    <is_hidden2>1</is_hidden2>
+    <is_indexed>0</is_indexed>
+    <is_keyed>0</is_keyed>
+    <is_multi_valued>0</is_multi_valued>
+    <is_required>0</is_required>
+    <label>Operator 1 Date</label>
+    <name>operator_1_date</name>
+    <pattern>MM/dd/yyyy</pattern>
+    <range_inclusive>0</range_inclusive>
+    <readonly>0</readonly>
+    <sort_order>9984</sort_order>
+    <source_id keyed_name="Non Conf  Mat Purge" type="ItemType" name="Non Conf  Mat Purge">C69F8715010341DD8F6ADFA61DF2A0F8</source_id>
+    </Item>
+   <Item type="Property" id="F79EEA5F69F2483FB84EDFEA5D875E3D" action="add">
+    <column_alignment>left</column_alignment>
+    <column_width>80</column_width>
+    <data_source keyed_name="User" type="ItemType" name="User">45E899CD2859442982EB22BB2DF683E5</data_source>
+    <data_type>item</data_type>
+    <is_hidden>1</is_hidden>
+    <is_hidden2>1</is_hidden2>
+    <is_indexed>0</is_indexed>
+    <is_keyed>0</is_keyed>
+    <is_multi_valued>0</is_multi_valued>
+    <is_required>0</is_required>
+    <item_behavior>float</item_behavior>
+    <label>Operator 2</label>
+    <name>operator_2</name>
+    <range_inclusive>0</range_inclusive>
+    <readonly>0</readonly>
+    <sort_order>9728</sort_order>
+    <source_id keyed_name="Non Conf  Mat Purge" type="ItemType" name="Non Conf  Mat Purge">C69F8715010341DD8F6ADFA61DF2A0F8</source_id>
+    </Item>
+   <Item type="Property" id="4E4D836B349F4274AF8447639772A269" action="add">
+    <column_alignment>left</column_alignment>
+    <column_width>80</column_width>
+    <data_type>date</data_type>
+    <is_hidden>1</is_hidden>
+    <is_hidden2>1</is_hidden2>
+    <is_indexed>0</is_indexed>
+    <is_keyed>0</is_keyed>
+    <is_multi_valued>0</is_multi_valued>
+    <is_required>0</is_required>
+    <label>Operator 2 Date</label>
+    <name>operator_2_date</name>
+    <pattern>MM/dd/yyyy</pattern>
+    <range_inclusive>0</range_inclusive>
+    <readonly>0</readonly>
+    <sort_order>10112</sort_order>
+    <source_id keyed_name="Non Conf  Mat Purge" type="ItemType" name="Non Conf  Mat Purge">C69F8715010341DD8F6ADFA61DF2A0F8</source_id>
+    </Item>
+   <Item type="Property" id="97D06428097C4CC38FF2FBB167C799FA" action="add">
+    <column_alignment>left</column_alignment>
+    <column_width>80</column_width>
+    <data_source keyed_name="User" type="ItemType" name="User">45E899CD2859442982EB22BB2DF683E5</data_source>
+    <data_type>item</data_type>
+    <is_hidden>1</is_hidden>
+    <is_hidden2>1</is_hidden2>
+    <is_indexed>0</is_indexed>
+    <is_keyed>0</is_keyed>
+    <is_multi_valued>0</is_multi_valued>
+    <is_required>0</is_required>
+    <item_behavior>float</item_behavior>
+    <label>Operator 3</label>
+    <name>operator_3</name>
+    <range_inclusive>0</range_inclusive>
+    <readonly>0</readonly>
+    <sort_order>9856</sort_order>
+    <source_id keyed_name="Non Conf  Mat Purge" type="ItemType" name="Non Conf  Mat Purge">C69F8715010341DD8F6ADFA61DF2A0F8</source_id>
+    </Item>
+   <Item type="Property" id="FD2B7DF8D5A7470892AAE3CCE59E7D46" action="add">
+    <class_path></class_path>
+    <column_alignment>left</column_alignment>
+    <column_width>80</column_width>
+    <data_type>date</data_type>
+    <is_hidden>1</is_hidden>
+    <is_hidden2>1</is_hidden2>
+    <is_indexed>0</is_indexed>
+    <is_keyed>0</is_keyed>
+    <is_multi_valued>0</is_multi_valued>
+    <is_required>0</is_required>
+    <label>Operator 3 Date</label>
+    <name>operator_3_date</name>
+    <pattern>MM/dd/yyyy</pattern>
+    <range_inclusive>0</range_inclusive>
+    <readonly>0</readonly>
+    <sort_order>10240</sort_order>
+    <source_id keyed_name="Non Conf  Mat Purge" type="ItemType" name="Non Conf  Mat Purge">C69F8715010341DD8F6ADFA61DF2A0F8</source_id>
+    </Item>
+   <Item type="Property" id="0B49834CEC334345BB137A7C8B4B0FED" action="add">
+    <column_alignment>left</column_alignment>
+    <data_source keyed_name="Part" type="ItemType" name="Part">4F1AC04A2B484F3ABA4E20DB63808A88</data_source>
+    <data_type>item</data_type>
+    <is_hidden>0</is_hidden>
+    <is_hidden2>0</is_hidden2>
+    <is_indexed>0</is_indexed>
+    <is_keyed>0</is_keyed>
+    <is_multi_valued>0</is_multi_valued>
+    <is_required>0</is_required>
+    <item_behavior>float</item_behavior>
+    <label>Part Number</label>
+    <name>part</name>
+    <range_inclusive>0</range_inclusive>
+    <readonly>0</readonly>
+    <sort_order>128</sort_order>
+    <source_id keyed_name="Non Conf  Mat Purge" type="ItemType" name="Non Conf  Mat Purge">C69F8715010341DD8F6ADFA61DF2A0F8</source_id>
+    </Item>
+   <Item type="Property" id="64882B1EB5F945CEA38772217CC9FB66" action="add">
+    <column_alignment>left</column_alignment>
+    <column_width>60</column_width>
+    <data_source keyed_name="Plant Shift">DB0C0798BA02427DB727566ACB723A01</data_source>
+    <data_type>list</data_type>
+    <is_hidden>0</is_hidden>
+    <is_hidden2>0</is_hidden2>
+    <is_indexed>0</is_indexed>
+    <is_keyed>0</is_keyed>
+    <is_multi_valued>0</is_multi_valued>
+    <is_required>0</is_required>
+    <label>Shift</label>
+    <name>plant_shift</name>
+    <range_inclusive>0</range_inclusive>
+    <readonly>0</readonly>
+    <sort_order>256</sort_order>
+    <source_id keyed_name="Non Conf  Mat Purge" type="ItemType" name="Non Conf  Mat Purge">C69F8715010341DD8F6ADFA61DF2A0F8</source_id>
+    </Item>
+   <Item type="Property" id="0274F08C4DF240B192EF905E169CAA3D" action="add">
+    <column_alignment>left</column_alignment>
+    <column_width>80</column_width>
+    <data_source keyed_name="User" type="ItemType" name="User">45E899CD2859442982EB22BB2DF683E5</data_source>
+    <data_type>item</data_type>
+    <is_hidden>1</is_hidden>
+    <is_hidden2>1</is_hidden2>
+    <is_indexed>0</is_indexed>
+    <is_keyed>0</is_keyed>
+    <is_multi_valued>0</is_multi_valued>
+    <is_required>0</is_required>
+    <item_behavior>float</item_behavior>
+    <label>Production Auth</label>
+    <name>production_auth</name>
+    <range_inclusive>0</range_inclusive>
+    <readonly>0</readonly>
+    <sort_order>9088</sort_order>
+    <source_id keyed_name="Non Conf  Mat Purge" type="ItemType" name="Non Conf  Mat Purge">C69F8715010341DD8F6ADFA61DF2A0F8</source_id>
+    </Item>
+   <Item type="Property" id="8067C526B6264169B99A3833B63714E8" action="add">
+    <column_alignment>left</column_alignment>
+    <column_width>80</column_width>
+    <data_type>date</data_type>
+    <is_hidden>1</is_hidden>
+    <is_hidden2>1</is_hidden2>
+    <is_indexed>0</is_indexed>
+    <is_keyed>0</is_keyed>
+    <is_multi_valued>0</is_multi_valued>
+    <is_required>0</is_required>
+    <label>Production Auth Date</label>
+    <name>production_auth_date</name>
+    <pattern>MM/dd/yyyy h:m a</pattern>
+    <range_inclusive>0</range_inclusive>
+    <readonly>0</readonly>
+    <sort_order>9216</sort_order>
+    <source_id keyed_name="Non Conf  Mat Purge" type="ItemType" name="Non Conf  Mat Purge">C69F8715010341DD8F6ADFA61DF2A0F8</source_id>
+    </Item>
+   <Item type="Property" id="ACE9BA24226A47478E2D9C7994B7C001" action="add">
+    <column_alignment>left</column_alignment>
+    <column_width>80</column_width>
+    <data_source keyed_name="User" type="ItemType" name="User">45E899CD2859442982EB22BB2DF683E5</data_source>
+    <data_type>item</data_type>
+    <is_hidden>1</is_hidden>
+    <is_hidden2>1</is_hidden2>
+    <is_indexed>0</is_indexed>
+    <is_keyed>0</is_keyed>
+    <is_multi_valued>0</is_multi_valued>
+    <is_required>0</is_required>
+    <item_behavior>float</item_behavior>
+    <label>Purge Auth</label>
+    <name>purge_auth</name>
+    <range_inclusive>0</range_inclusive>
+    <readonly>0</readonly>
+    <sort_order>8832</sort_order>
+    <source_id keyed_name="Non Conf  Mat Purge" type="ItemType" name="Non Conf  Mat Purge">C69F8715010341DD8F6ADFA61DF2A0F8</source_id>
+    </Item>
+   <Item type="Property" id="47AA79880C754DFB9846FBD7DFBF213C" action="add">
+    <class_path></class_path>
+    <column_alignment>left</column_alignment>
+    <column_width>80</column_width>
+    <data_type>date</data_type>
+    <is_hidden>1</is_hidden>
+    <is_hidden2>1</is_hidden2>
+    <is_indexed>0</is_indexed>
+    <is_keyed>0</is_keyed>
+    <is_multi_valued>0</is_multi_valued>
+    <is_required>0</is_required>
+    <label>Purge Auth Date</label>
+    <name>purge_auth_date</name>
+    <pattern>MM/dd/yyyy h:m a</pattern>
+    <range_inclusive>0</range_inclusive>
+    <readonly>0</readonly>
+    <sort_order>8960</sort_order>
+    <source_id keyed_name="Non Conf  Mat Purge" type="ItemType" name="Non Conf  Mat Purge">C69F8715010341DD8F6ADFA61DF2A0F8</source_id>
+    </Item>
+   <Item type="Property" id="F1C5C8DF26514C6EABA661ED1BA3ABDA" action="add">
+    <column_alignment>left</column_alignment>
+    <column_width>20</column_width>
+    <data_type>boolean</data_type>
+    <is_hidden>1</is_hidden>
+    <is_hidden2>1</is_hidden2>
+    <is_indexed>0</is_indexed>
+    <is_keyed>0</is_keyed>
+    <is_multi_valued>0</is_multi_valued>
+    <is_required>0</is_required>
+    <label>AL-FE Heat Treat</label>
+    <name>q_al_fe_heat_treat</name>
+    <range_inclusive>0</range_inclusive>
+    <readonly>0</readonly>
+    <sort_order>5248</sort_order>
+    <source_id keyed_name="Non Conf  Mat Purge" type="ItemType" name="Non Conf  Mat Purge">C69F8715010341DD8F6ADFA61DF2A0F8</source_id>
+    </Item>
+   <Item type="Property" id="219E9C3E9329420FB7BEFE17638FA06A" action="add">
+    <column_alignment>left</column_alignment>
+    <column_width>20</column_width>
+    <data_type>boolean</data_type>
+    <is_hidden>1</is_hidden>
+    <is_hidden2>0</is_hidden2>
+    <is_indexed>0</is_indexed>
+    <is_keyed>0</is_keyed>
+    <is_multi_valued>0</is_multi_valued>
+    <is_required>0</is_required>
+    <label>Blast Storage</label>
+    <name>q_blast_storage</name>
+    <range_inclusive>0</range_inclusive>
+    <readonly>0</readonly>
+    <sort_order>5632</sort_order>
+    <source_id keyed_name="Non Conf  Mat Purge" type="ItemType" name="Non Conf  Mat Purge">C69F8715010341DD8F6ADFA61DF2A0F8</source_id>
+    </Item>
+   <Item type="Property" id="0F206F0CE2A0489AA90260E0F55D816B" action="add">
+    <column_alignment>left</column_alignment>
+    <column_width>20</column_width>
+    <data_type>boolean</data_type>
+    <is_hidden>1</is_hidden>
+    <is_hidden2>0</is_hidden2>
+    <is_indexed>0</is_indexed>
+    <is_keyed>0</is_keyed>
+    <is_multi_valued>0</is_multi_valued>
+    <is_required>0</is_required>
+    <label>Conveyor Systems</label>
+    <name>q_conv_systems</name>
+    <range_inclusive>0</range_inclusive>
+    <readonly>0</readonly>
+    <sort_order>5120</sort_order>
+    <source_id keyed_name="Non Conf  Mat Purge" type="ItemType" name="Non Conf  Mat Purge">C69F8715010341DD8F6ADFA61DF2A0F8</source_id>
+    </Item>
+   <Item type="Property" id="4605B294C12147199FEFEDE8DFE0E85A" action="add">
+    <column_alignment>left</column_alignment>
+    <column_width>20</column_width>
+    <data_type>boolean</data_type>
+    <is_hidden>1</is_hidden>
+    <is_hidden2>0</is_hidden2>
+    <is_indexed>0</is_indexed>
+    <is_keyed>0</is_keyed>
+    <is_multi_valued>0</is_multi_valued>
+    <is_required>0</is_required>
+    <label>Cordax Area</label>
+    <name>q_cordax_area</name>
+    <range_inclusive>0</range_inclusive>
+    <readonly>0</readonly>
+    <sort_order>6016</sort_order>
+    <source_id keyed_name="Non Conf  Mat Purge" type="ItemType" name="Non Conf  Mat Purge">C69F8715010341DD8F6ADFA61DF2A0F8</source_id>
+    </Item>
+   <Item type="Property" id="954D2F8E34E946CBB16A51E8DDE7E3EA" action="add">
+    <column_alignment>left</column_alignment>
+    <column_width>20</column_width>
+    <data_type>boolean</data_type>
+    <is_hidden>1</is_hidden>
+    <is_hidden2>1</is_hidden2>
+    <is_indexed>0</is_indexed>
+    <is_keyed>0</is_keyed>
+    <is_multi_valued>0</is_multi_valued>
+    <is_required>0</is_required>
+    <label>Customer Plant(s)</label>
+    <name>q_cust_plant</name>
+    <range_inclusive>0</range_inclusive>
+    <readonly>0</readonly>
+    <sort_order>5888</sort_order>
+    <source_id keyed_name="Non Conf  Mat Purge" type="ItemType" name="Non Conf  Mat Purge">C69F8715010341DD8F6ADFA61DF2A0F8</source_id>
+    </Item>
+   <Item type="Property" id="FA4E763239E647AA90D59FC2A896B361" action="add">
+    <column_alignment>left</column_alignment>
+    <column_width>20</column_width>
+    <data_type>boolean</data_type>
+    <is_hidden>1</is_hidden>
+    <is_hidden2>1</is_hidden2>
+    <is_indexed>0</is_indexed>
+    <is_keyed>0</is_keyed>
+    <is_multi_valued>0</is_multi_valued>
+    <is_required>0</is_required>
+    <label>Dock Audit</label>
+    <name>q_dock_audit</name>
+    <range_inclusive>0</range_inclusive>
+    <readonly>0</readonly>
+    <sort_order>6272</sort_order>
+    <source_id keyed_name="Non Conf  Mat Purge" type="ItemType" name="Non Conf  Mat Purge">C69F8715010341DD8F6ADFA61DF2A0F8</source_id>
+    </Item>
+   <Item type="Property" id="CB6691BCD9804BDEBBA285493BC065E1" action="add">
+    <column_alignment>left</column_alignment>
+    <column_width>20</column_width>
+    <data_type>boolean</data_type>
+    <is_hidden>1</is_hidden>
+    <is_hidden2>1</is_hidden2>
+    <is_indexed>0</is_indexed>
+    <is_keyed>0</is_keyed>
+    <is_multi_valued>0</is_multi_valued>
+    <is_required>0</is_required>
+    <label>Final Audit Hold Area</label>
+    <name>q_final_aud_hold_area</name>
+    <range_inclusive>0</range_inclusive>
+    <readonly>0</readonly>
+    <sort_order>4992</sort_order>
+    <source_id keyed_name="Non Conf  Mat Purge" type="ItemType" name="Non Conf  Mat Purge">C69F8715010341DD8F6ADFA61DF2A0F8</source_id>
+    </Item>
+   <Item type="Property" id="A4F64684356B46D7B726854B49CF50C6" action="add">
+    <column_alignment>left</column_alignment>
+    <column_width>20</column_width>
+    <data_type>boolean</data_type>
+    <is_hidden>1</is_hidden>
+    <is_hidden2>1</is_hidden2>
+    <is_indexed>0</is_indexed>
+    <is_keyed>0</is_keyed>
+    <is_multi_valued>0</is_multi_valued>
+    <is_required>0</is_required>
+    <label>Finish Area</label>
+    <name>q_finish_area</name>
+    <range_inclusive>0</range_inclusive>
+    <readonly>0</readonly>
+    <sort_order>5760</sort_order>
+    <source_id keyed_name="Non Conf  Mat Purge" type="ItemType" name="Non Conf  Mat Purge">C69F8715010341DD8F6ADFA61DF2A0F8</source_id>
+    </Item>
+   <Item type="Property" id="C3A0C593F89A47FD9614094CBAF0879E" action="add">
+    <column_alignment>left</column_alignment>
+    <column_width>20</column_width>
+    <data_type>boolean</data_type>
+    <is_hidden>1</is_hidden>
+    <is_hidden2>1</is_hidden2>
+    <is_indexed>0</is_indexed>
+    <is_keyed>0</is_keyed>
+    <is_multi_valued>0</is_multi_valued>
+    <is_required>0</is_required>
+    <label>Gage Tree</label>
+    <name>q_gage_tree</name>
+    <range_inclusive>0</range_inclusive>
+    <readonly>0</readonly>
+    <sort_order>4736</sort_order>
+    <source_id keyed_name="Non Conf  Mat Purge" type="ItemType" name="Non Conf  Mat Purge">C69F8715010341DD8F6ADFA61DF2A0F8</source_id>
+    </Item>
+   <Item type="Property" id="7751A95A2E0045739ACD22CC5F2B3334" action="add">
+    <column_alignment>left</column_alignment>
+    <column_width>20</column_width>
+    <data_type>boolean</data_type>
+    <is_hidden>1</is_hidden>
+    <is_hidden2>1</is_hidden2>
+    <is_indexed>0</is_indexed>
+    <is_keyed>0</is_keyed>
+    <is_multi_valued>0</is_multi_valued>
+    <is_required>0</is_required>
+    <label>In-Process Hold Areas</label>
+    <name>q_in_proc_hold_areas</name>
+    <range_inclusive>0</range_inclusive>
+    <readonly>0</readonly>
+    <sort_order>6144</sort_order>
+    <source_id keyed_name="Non Conf  Mat Purge" type="ItemType" name="Non Conf  Mat Purge">C69F8715010341DD8F6ADFA61DF2A0F8</source_id>
+    </Item>
+   <Item type="Property" id="36D1E8B0BDD34A67B3BF9A00DDA75549" action="add">
+    <column_alignment>left</column_alignment>
+    <column_width>20</column_width>
+    <data_type>boolean</data_type>
+    <is_hidden>1</is_hidden>
+    <is_hidden2>1</is_hidden2>
+    <is_indexed>0</is_indexed>
+    <is_keyed>0</is_keyed>
+    <is_multi_valued>0</is_multi_valued>
+    <is_required>0</is_required>
+    <label>In Transport AL-FE</label>
+    <name>q_in_xport_al_fe</name>
+    <range_inclusive>0</range_inclusive>
+    <readonly>0</readonly>
+    <sort_order>5376</sort_order>
+    <source_id keyed_name="Non Conf  Mat Purge" type="ItemType" name="Non Conf  Mat Purge">C69F8715010341DD8F6ADFA61DF2A0F8</source_id>
+    </Item>
+   <Item type="Property" id="A2099FF6F83A42F88F2D7C26A99A4615" action="add">
+    <column_alignment>left</column_alignment>
+    <column_width>20</column_width>
+    <data_type>boolean</data_type>
+    <is_hidden>1</is_hidden>
+    <is_hidden2>1</is_hidden2>
+    <is_indexed>0</is_indexed>
+    <is_keyed>0</is_keyed>
+    <is_multi_valued>0</is_multi_valued>
+    <is_required>0</is_required>
+    <label>Leakers</label>
+    <name>q_leakers</name>
+    <range_inclusive>0</range_inclusive>
+    <readonly>0</readonly>
+    <sort_order>5504</sort_order>
+    <source_id keyed_name="Non Conf  Mat Purge" type="ItemType" name="Non Conf  Mat Purge">C69F8715010341DD8F6ADFA61DF2A0F8</source_id>
+    </Item>
+   <Item type="Property" id="0BD491C4203E45F4A5DB3D26834D2A5E" action="add">
+    <column_alignment>left</column_alignment>
+    <column_width>20</column_width>
+    <data_type>boolean</data_type>
+    <is_hidden>1</is_hidden>
+    <is_hidden2>1</is_hidden2>
+    <is_indexed>0</is_indexed>
+    <is_keyed>0</is_keyed>
+    <is_multi_valued>0</is_multi_valued>
+    <is_required>0</is_required>
+    <label>Machine Fixtures</label>
+    <name>q_mach_fix</name>
+    <range_inclusive>0</range_inclusive>
+    <readonly>0</readonly>
+    <sort_order>4864</sort_order>
+    <source_id keyed_name="Non Conf  Mat Purge" type="ItemType" name="Non Conf  Mat Purge">C69F8715010341DD8F6ADFA61DF2A0F8</source_id>
+    </Item>
+   <Item type="Property" id="8FCDF1592F4045F2AAEAF00496CB123D" action="add">
+    <column_alignment>left</column_alignment>
+    <column_width>20</column_width>
+    <data_type>boolean</data_type>
+    <is_hidden>1</is_hidden>
+    <is_hidden2>1</is_hidden2>
+    <is_indexed>0</is_indexed>
+    <is_keyed>0</is_keyed>
+    <is_multi_valued>0</is_multi_valued>
+    <is_required>0</is_required>
+    <label>Material In Route</label>
+    <name>q_mat_in_route</name>
+    <range_inclusive>0</range_inclusive>
+    <readonly>0</readonly>
+    <sort_order>6528</sort_order>
+    <source_id keyed_name="Non Conf  Mat Purge" type="ItemType" name="Non Conf  Mat Purge">C69F8715010341DD8F6ADFA61DF2A0F8</source_id>
+    </Item>
+   <Item type="Property" id="DABD564AA2384904A95EE4127D148093" action="add">
+    <column_alignment>left</column_alignment>
+    <column_width>20</column_width>
+    <data_type>boolean</data_type>
+    <is_hidden>1</is_hidden>
+    <is_hidden2>1</is_hidden2>
+    <is_indexed>0</is_indexed>
+    <is_keyed>0</is_keyed>
+    <is_multi_valued>0</is_multi_valued>
+    <is_required>0</is_required>
+    <label>Manufacturing Area</label>
+    <name>q_mfg_area</name>
+    <range_inclusive>0</range_inclusive>
+    <readonly>0</readonly>
+    <sort_order>4480</sort_order>
+    <source_id keyed_name="Non Conf  Mat Purge" type="ItemType" name="Non Conf  Mat Purge">C69F8715010341DD8F6ADFA61DF2A0F8</source_id>
+    </Item>
+   <Item type="Property" id="C7FBF3626AAB4E8AA685C3D086CF394F" action="add">
+    <column_alignment>left</column_alignment>
+    <column_width>20</column_width>
+    <data_type>boolean</data_type>
+    <is_hidden>1</is_hidden>
+    <is_hidden2>1</is_hidden2>
+    <is_indexed>0</is_indexed>
+    <is_keyed>0</is_keyed>
+    <is_multi_valued>0</is_multi_valued>
+    <is_required>0</is_required>
+    <label>Non-Conforming Cage</label>
+    <name>q_non_con_cage</name>
+    <range_inclusive>0</range_inclusive>
+    <readonly>0</readonly>
+    <sort_order>4608</sort_order>
+    <source_id keyed_name="Non Conf  Mat Purge" type="ItemType" name="Non Conf  Mat Purge">C69F8715010341DD8F6ADFA61DF2A0F8</source_id>
+    </Item>
+   <Item type="Property" id="41F9C79687E84258A1B719A005DBAE21" action="add">
+    <column_alignment>left</column_alignment>
+    <column_width>20</column_width>
+    <data_type>boolean</data_type>
+    <is_hidden>1</is_hidden>
+    <is_hidden2>1</is_hidden2>
+    <is_indexed>0</is_indexed>
+    <is_keyed>0</is_keyed>
+    <is_multi_valued>0</is_multi_valued>
+    <is_required>0</is_required>
+    <label>Outside Process</label>
+    <name>q_outside_process</name>
+    <range_inclusive>0</range_inclusive>
+    <readonly>0</readonly>
+    <sort_order>6400</sort_order>
+    <source_id keyed_name="Non Conf  Mat Purge" type="ItemType" name="Non Conf  Mat Purge">C69F8715010341DD8F6ADFA61DF2A0F8</source_id>
+    </Item>
+   <Item type="Property" id="51530768CA314347B89E5138DEBD941C" action="add">
+    <column_alignment>left</column_alignment>
+    <column_width>20</column_width>
+    <data_type>boolean</data_type>
+    <is_hidden>1</is_hidden>
+    <is_hidden2>1</is_hidden2>
+    <is_indexed>0</is_indexed>
+    <is_keyed>0</is_keyed>
+    <is_multi_valued>0</is_multi_valued>
+    <is_required>0</is_required>
+    <label>Truck Dock</label>
+    <name>q_truck_dock</name>
+    <range_inclusive>0</range_inclusive>
+    <readonly>0</readonly>
+    <sort_order>6656</sort_order>
+    <source_id keyed_name="Non Conf  Mat Purge" type="ItemType" name="Non Conf  Mat Purge">C69F8715010341DD8F6ADFA61DF2A0F8</source_id>
+    </Item>
+   <Item type="Property" id="0A3E09EAF1E949FFB0A2FD6C17541121" action="add">
+    <column_alignment>left</column_alignment>
+    <column_width>80</column_width>
+    <data_source keyed_name="QS NCM Area Found">1798A257F58D40CA88C5926D33B1F3D0</data_source>
+    <data_type>list</data_type>
+    <is_hidden>1</is_hidden>
+    <is_hidden2>1</is_hidden2>
+    <is_indexed>0</is_indexed>
+    <is_keyed>0</is_keyed>
+    <is_multi_valued>0</is_multi_valued>
+    <is_required>0</is_required>
+    <label>Area Found</label>
+    <name>qs_non_conf_found</name>
+    <range_inclusive>0</range_inclusive>
+    <readonly>0</readonly>
+    <sort_order>512</sort_order>
+    <source_id keyed_name="Non Conf  Mat Purge" type="ItemType" name="Non Conf  Mat Purge">C69F8715010341DD8F6ADFA61DF2A0F8</source_id>
+    </Item>
+   <Item type="Property" id="6D0267D108C44D8EAC67D8C41D68D1A5" action="add">
+    <column_alignment>left</column_alignment>
+    <column_width>80</column_width>
+    <data_source keyed_name="User" type="ItemType" name="User">45E899CD2859442982EB22BB2DF683E5</data_source>
+    <data_type>item</data_type>
+    <is_hidden>1</is_hidden>
+    <is_hidden2>1</is_hidden2>
+    <is_indexed>0</is_indexed>
+    <is_keyed>0</is_keyed>
+    <is_multi_valued>0</is_multi_valued>
+    <is_required>0</is_required>
+    <item_behavior>float</item_behavior>
+    <label>Quality Auth</label>
+    <name>quality_auth</name>
+    <range_inclusive>0</range_inclusive>
+    <readonly>0</readonly>
+    <sort_order>9344</sort_order>
+    <source_id keyed_name="Non Conf  Mat Purge" type="ItemType" name="Non Conf  Mat Purge">C69F8715010341DD8F6ADFA61DF2A0F8</source_id>
+    </Item>
+   <Item type="Property" id="358AB48E25124F93A39E7413A50DD7BC" action="add">
+    <column_alignment>left</column_alignment>
+    <column_width>80</column_width>
+    <data_type>date</data_type>
+    <is_hidden>1</is_hidden>
+    <is_hidden2>1</is_hidden2>
+    <is_indexed>0</is_indexed>
+    <is_keyed>0</is_keyed>
+    <is_multi_valued>0</is_multi_valued>
+    <is_required>0</is_required>
+    <label>Quality Auth Date</label>
+    <name>quality_auth_date</name>
+    <pattern>MM/dd/yyyy h:m a</pattern>
+    <range_inclusive>0</range_inclusive>
+    <readonly>0</readonly>
+    <sort_order>9472</sort_order>
+    <source_id keyed_name="Non Conf  Mat Purge" type="ItemType" name="Non Conf  Mat Purge">C69F8715010341DD8F6ADFA61DF2A0F8</source_id>
+    </Item>
+   <Item type="Property" id="B35161A6DA3E45C093EECF51E22AF20C" action="add">
+    <column_alignment>left</column_alignment>
+    <column_width>80</column_width>
+    <data_type>text</data_type>
+    <is_hidden>1</is_hidden>
+    <is_hidden2>1</is_hidden2>
+    <is_indexed>0</is_indexed>
+    <is_keyed>0</is_keyed>
+    <is_multi_valued>0</is_multi_valued>
+    <is_required>0</is_required>
+    <label>Shut Down Comment</label>
+    <name>shut_down_comment1</name>
+    <range_inclusive>0</range_inclusive>
+    <readonly>0</readonly>
+    <sort_order>3712</sort_order>
+    <source_id keyed_name="Non Conf  Mat Purge" type="ItemType" name="Non Conf  Mat Purge">C69F8715010341DD8F6ADFA61DF2A0F8</source_id>
+    </Item>
+   <Item type="Property" id="D76DE51D69FB4093B858370E45B8AF57" action="add">
+    <column_alignment>left</column_alignment>
+    <column_width>80</column_width>
+    <data_type>text</data_type>
+    <is_hidden>1</is_hidden>
+    <is_hidden2>1</is_hidden2>
+    <is_indexed>0</is_indexed>
+    <is_keyed>0</is_keyed>
+    <is_multi_valued>0</is_multi_valued>
+    <is_required>0</is_required>
+    <label>Tag Comments</label>
+    <name>tag_comments</name>
+    <range_inclusive>0</range_inclusive>
+    <readonly>0</readonly>
+    <sort_order>3968</sort_order>
+    <source_id keyed_name="Non Conf  Mat Purge" type="ItemType" name="Non Conf  Mat Purge">C69F8715010341DD8F6ADFA61DF2A0F8</source_id>
+    </Item>
+   <Item type="Property" id="840D2C33E8734D3A9DA59DE9604FD329" action="add">
+    <class_path></class_path>
+    <column_alignment>left</column_alignment>
+    <column_width>80</column_width>
+    <data_type>formatted text</data_type>
+    <is_hidden>1</is_hidden>
+    <is_hidden2>1</is_hidden2>
+    <is_indexed>0</is_indexed>
+    <is_keyed>0</is_keyed>
+    <is_multi_valued>0</is_multi_valued>
+    <is_required>0</is_required>
+    <label>Time</label>
+    <name>time</name>
+    <pattern>h:m a</pattern>
+    <range_inclusive>0</range_inclusive>
+    <readonly>0</readonly>
+    <sort_order>384</sort_order>
+    <source_id keyed_name="Non Conf  Mat Purge" type="ItemType" name="Non Conf  Mat Purge">C69F8715010341DD8F6ADFA61DF2A0F8</source_id>
+    </Item>
+   <Item type="Property" id="659FADE621AD452D88D99CB08D4D24EB" action="add">
+    <column_alignment>left</column_alignment>
+    <column_width>80</column_width>
+    <data_type>boolean</data_type>
+    <is_hidden>1</is_hidden>
+    <is_hidden2>1</is_hidden2>
+    <is_indexed>0</is_indexed>
+    <is_keyed>0</is_keyed>
+    <is_multi_valued>0</is_multi_valued>
+    <is_required>0</is_required>
+    <label>Verification Method</label>
+    <name>verification_method</name>
+    <range_inclusive>0</range_inclusive>
+    <readonly>0</readonly>
+    <sort_order>8192</sort_order>
+    <source_id keyed_name="Non Conf  Mat Purge" type="ItemType" name="Non Conf  Mat Purge">C69F8715010341DD8F6ADFA61DF2A0F8</source_id>
+    </Item>
+   <Item type="Property" id="A7220B11CA0C45D3AFB1A86BFBE01740" action="add">
+    <column_alignment>left</column_alignment>
+    <column_width>80</column_width>
+    <data_type>text</data_type>
+    <is_hidden>1</is_hidden>
+    <is_hidden2>1</is_hidden2>
+    <is_indexed>0</is_indexed>
+    <is_keyed>0</is_keyed>
+    <is_multi_valued>0</is_multi_valued>
+    <is_required>0</is_required>
+    <label>Verification Method Notes</label>
+    <name>verification_method_notes</name>
+    <range_inclusive>0</range_inclusive>
+    <readonly>0</readonly>
+    <sort_order>8576</sort_order>
+    <source_id keyed_name="Non Conf  Mat Purge" type="ItemType" name="Non Conf  Mat Purge">C69F8715010341DD8F6ADFA61DF2A0F8</source_id>
+    </Item>
+   <Item type="TOC Access" id="6E28A3A5434447EFA14CF78A6FC82F60" action="add">
+    <category>Quality</category>
+    <related_id keyed_name="World" type="Identity">
+     <Item type="Identity" action="get" select="id">
+      <name>World</name>
+     </Item>
+    </related_id>
+    <sort_order>128</sort_order>
+    <source_id keyed_name="Non Conf  Mat Purge" type="ItemType" name="Non Conf  Mat Purge">C69F8715010341DD8F6ADFA61DF2A0F8</source_id>
+   </Item>
+   <Item type="View" id="9866300368C44EB4B2CC578CCE144325" action="add">
+    <client>js</client>
+    <related_id keyed_name="Non Conf  Mat Purge" type="Form">76993C5810FC4ACABD69FD39BBBEC3EB</related_id>
+    <role keyed_name="World" type="Identity">
+     <Item type="Identity" action="get" select="id">
+      <name>World</name>
+     </Item>
+    </role>
+    <sort_order>128</sort_order>
+    <source_id keyed_name="Non Conf  Mat Purge" type="ItemType" name="Non Conf  Mat Purge">C69F8715010341DD8F6ADFA61DF2A0F8</source_id>
+    <type>default</type>
+   </Item>
+  </Relationships>
+ </Item>
+</AML>

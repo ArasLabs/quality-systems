@@ -1,0 +1,605 @@
+<AML>
+ <Item type="ItemType" id="C816E925F6E449E6B351376731990E89" action="add">
+  <allow_private_permission>1</allow_private_permission>
+  <auto_search>0</auto_search>
+  <default_lifecycle keyed_name="Default" type="Life Cycle Map">2F3B75E17C4E4F2D9599579A965BFA64</default_lifecycle>
+  <hide_where_used>0</hide_where_used>
+  <implementation_type>table</implementation_type>
+  <instance_data>CONCERN_RESOLUTION_REQUEST</instance_data>
+  <is_dependent>0</is_dependent>
+  <is_relationship>0</is_relationship>
+  <is_versionable>0</is_versionable>
+  <label>Concern Resolution Request</label>
+  <large_icon>../images/Icons/32x32/32x32_file_view1.gif</large_icon>
+  <manual_versioning>0</manual_versioning>
+  <name>Concern Resolution Request</name>
+  <open_icon>../images/Icons/16x16/16x16_databaseUpdates.gif</open_icon>
+  <revisions keyed_name="Default" type="Revision">7FE395DD8B9F4E1090756A34B733D75E</revisions>
+  <save_history>0</save_history>
+  <show_parameters_tab>1</show_parameters_tab>
+  <structure_view>tab view</structure_view>
+  <unlock_on_logout>0</unlock_on_logout>
+  <use_src_access>0</use_src_access>
+  <Relationships>
+   <Item type="Allowed Permission" id="A65FA77AB9224A169CD9263AE8328242" action="add">
+    <is_default>1</is_default>
+    <related_id keyed_name="World Can Get" type="Permission">93AB06D37FC84328A314324DC45DB574</related_id>
+    <sort_order>128</sort_order>
+    <source_id keyed_name="Concern Resolution Request" type="ItemType" name="Concern Resolution Request">C816E925F6E449E6B351376731990E89</source_id>
+   </Item>
+   <Item type="Can Add" id="AD99879E07814C7FAB6FBB9BD6BC5DB8" action="add">
+    <can_add>1</can_add>
+    <related_id keyed_name="World" type="Identity">
+     <Item type="Identity" action="get" select="id">
+      <name>World</name>
+     </Item>
+    </related_id>
+    <sort_order>128</sort_order>
+    <source_id keyed_name="Concern Resolution Request" type="ItemType" name="Concern Resolution Request">C816E925F6E449E6B351376731990E89</source_id>
+   </Item>
+   <Item type="Property" id="050661618BBA401BBE0BD11EBA8A3938" action="add">
+    <column_alignment>left</column_alignment>
+    <column_width>80</column_width>
+    <data_type>boolean</data_type>
+    <is_hidden>1</is_hidden>
+    <is_hidden2>1</is_hidden2>
+    <is_indexed>0</is_indexed>
+    <is_keyed>0</is_keyed>
+    <is_multi_valued>0</is_multi_valued>
+    <is_required>0</is_required>
+    <label>A Bay</label>
+    <name>a_bay</name>
+    <range_inclusive>0</range_inclusive>
+    <readonly>0</readonly>
+    <sort_order>2816</sort_order>
+    <source_id keyed_name="Concern Resolution Request" type="ItemType" name="Concern Resolution Request">C816E925F6E449E6B351376731990E89</source_id>
+    </Item>
+   <Item type="Property" id="126868B117A541B9A3B62CBA26C6C95E" action="add">
+    <column_alignment>left</column_alignment>
+    <column_width>80</column_width>
+    <data_type>date</data_type>
+    <is_hidden>1</is_hidden>
+    <is_hidden2>1</is_hidden2>
+    <is_indexed>0</is_indexed>
+    <is_keyed>0</is_keyed>
+    <is_multi_valued>0</is_multi_valued>
+    <is_required>0</is_required>
+    <label>Assembly Date</label>
+    <name>assembly_date</name>
+    <range_inclusive>0</range_inclusive>
+    <readonly>0</readonly>
+    <sort_order>2304</sort_order>
+    <source_id keyed_name="Concern Resolution Request" type="ItemType" name="Concern Resolution Request">C816E925F6E449E6B351376731990E89</source_id>
+    </Item>
+   <Item type="Property" id="93D1C0E5763442AD9C51B3178F9C53A9" action="add">
+    <column_alignment>left</column_alignment>
+    <column_width>80</column_width>
+    <data_source keyed_name="Yes/No">9FEC936F59F14FECAA3621F726FBAAF2</data_source>
+    <data_type>list</data_type>
+    <is_hidden>1</is_hidden>
+    <is_hidden2>1</is_hidden2>
+    <is_indexed>0</is_indexed>
+    <is_keyed>0</is_keyed>
+    <is_multi_valued>0</is_multi_valued>
+    <is_required>0</is_required>
+    <label>Avail Sample Parts</label>
+    <name>avail_sample_parts</name>
+    <range_inclusive>0</range_inclusive>
+    <readonly>0</readonly>
+    <sort_order>3584</sort_order>
+    <source_id keyed_name="Concern Resolution Request" type="ItemType" name="Concern Resolution Request">C816E925F6E449E6B351376731990E89</source_id>
+    </Item>
+   <Item type="Property" id="1416EA169D7449309238461AB2EAF112" action="add">
+    <column_alignment>left</column_alignment>
+    <column_width>80</column_width>
+    <data_source keyed_name="Yes/No">9FEC936F59F14FECAA3621F726FBAAF2</data_source>
+    <data_type>list</data_type>
+    <is_hidden>1</is_hidden>
+    <is_hidden2>1</is_hidden2>
+    <is_indexed>0</is_indexed>
+    <is_keyed>0</is_keyed>
+    <is_multi_valued>0</is_multi_valued>
+    <is_required>0</is_required>
+    <label>Clear Pictures</label>
+    <name>clear_pictures</name>
+    <range_inclusive>0</range_inclusive>
+    <readonly>0</readonly>
+    <sort_order>3712</sort_order>
+    <source_id keyed_name="Concern Resolution Request" type="ItemType" name="Concern Resolution Request">C816E925F6E449E6B351376731990E89</source_id>
+    </Item>
+   <Item type="Property" id="9D205D2CE9744722A77E5ADC508AA0BE" action="add">
+    <column_alignment>left</column_alignment>
+    <column_width>80</column_width>
+    <data_type>text</data_type>
+    <is_hidden>1</is_hidden>
+    <is_hidden2>1</is_hidden2>
+    <is_indexed>0</is_indexed>
+    <is_keyed>0</is_keyed>
+    <is_multi_valued>0</is_multi_valued>
+    <is_required>0</is_required>
+    <label>Concern Description</label>
+    <name>concern_description</name>
+    <range_inclusive>0</range_inclusive>
+    <readonly>0</readonly>
+    <sort_order>6784</sort_order>
+    <source_id keyed_name="Concern Resolution Request" type="ItemType" name="Concern Resolution Request">C816E925F6E449E6B351376731990E89</source_id>
+    </Item>
+   <Item type="Property" id="F9B1AAA9A5CA4F0D927514F3B9B1F4EA" action="add">
+    <column_alignment>left</column_alignment>
+    <column_width>80</column_width>
+    <data_source keyed_name="Customer" type="ItemType" name="Customer">E4847F4A706B4285A395C0228A867E0F</data_source>
+    <data_type>item</data_type>
+    <is_hidden>1</is_hidden>
+    <is_hidden2>1</is_hidden2>
+    <is_indexed>0</is_indexed>
+    <is_keyed>0</is_keyed>
+    <is_multi_valued>0</is_multi_valued>
+    <is_required>0</is_required>
+    <item_behavior>float</item_behavior>
+    <label>Customer</label>
+    <name>customer</name>
+    <range_inclusive>0</range_inclusive>
+    <readonly>0</readonly>
+    <sort_order>1408</sort_order>
+    <source_id keyed_name="Concern Resolution Request" type="ItemType" name="Concern Resolution Request">C816E925F6E449E6B351376731990E89</source_id>
+    </Item>
+   <Item type="Property" id="B7D65CC7371543629B235F03809A330B" action="add">
+    <column_alignment>left</column_alignment>
+    <column_width>80</column_width>
+    <data_source keyed_name="Contact" type="ItemType" name="Contact">921DE47AFFDB44DAA9F61F5ADCCB767A</data_source>
+    <data_type>item</data_type>
+    <is_hidden>1</is_hidden>
+    <is_hidden2>1</is_hidden2>
+    <is_indexed>0</is_indexed>
+    <is_keyed>0</is_keyed>
+    <is_multi_valued>0</is_multi_valued>
+    <is_required>0</is_required>
+    <item_behavior>float</item_behavior>
+    <label>Customer Contact</label>
+    <name>customer_contact</name>
+    <range_inclusive>0</range_inclusive>
+    <readonly>0</readonly>
+    <sort_order>1536</sort_order>
+    <source_id keyed_name="Concern Resolution Request" type="ItemType" name="Concern Resolution Request">C816E925F6E449E6B351376731990E89</source_id>
+    </Item>
+   <Item type="Property" id="91746F90E8894362AD2C63348F55AF32" action="add">
+    <column_alignment>left</column_alignment>
+    <column_width>80</column_width>
+    <data_type>boolean</data_type>
+    <is_hidden>1</is_hidden>
+    <is_hidden2>1</is_hidden2>
+    <is_indexed>0</is_indexed>
+    <is_keyed>0</is_keyed>
+    <is_multi_valued>0</is_multi_valued>
+    <is_required>0</is_required>
+    <label>Customer Issue</label>
+    <name>customer_issue</name>
+    <range_inclusive>0</range_inclusive>
+    <readonly>0</readonly>
+    <sort_order>2944</sort_order>
+    <source_id keyed_name="Concern Resolution Request" type="ItemType" name="Concern Resolution Request">C816E925F6E449E6B351376731990E89</source_id>
+    </Item>
+   <Item type="Property" id="840C6A4A06784C3BB04CA4CEB6733970" action="add">
+    <column_alignment>left</column_alignment>
+    <column_width>50</column_width>
+    <data_type>string</data_type>
+    <is_hidden>1</is_hidden>
+    <is_hidden2>1</is_hidden2>
+    <is_indexed>0</is_indexed>
+    <is_keyed>0</is_keyed>
+    <is_multi_valued>0</is_multi_valued>
+    <is_required>0</is_required>
+    <label>Attn To</label>
+    <name>dept</name>
+    <range_inclusive>0</range_inclusive>
+    <readonly>0</readonly>
+    <sort_order>512</sort_order>
+    <source_id keyed_name="Concern Resolution Request" type="ItemType" name="Concern Resolution Request">C816E925F6E449E6B351376731990E89</source_id>
+    <stored_length>25</stored_length>
+    </Item>
+   <Item type="Property" id="4C83D5D7664040198214F89B9EB862BD" action="add">
+    <column_alignment>left</column_alignment>
+    <column_width>50</column_width>
+    <data_type>string</data_type>
+    <is_hidden>0</is_hidden>
+    <is_hidden2>0</is_hidden2>
+    <is_indexed>0</is_indexed>
+    <is_keyed>0</is_keyed>
+    <is_multi_valued>0</is_multi_valued>
+    <is_required>0</is_required>
+    <label>Die OP #</label>
+    <name>die_op_num</name>
+    <range_inclusive>0</range_inclusive>
+    <readonly>0</readonly>
+    <sort_order>384</sort_order>
+    <source_id keyed_name="Concern Resolution Request" type="ItemType" name="Concern Resolution Request">C816E925F6E449E6B351376731990E89</source_id>
+    <stored_length>25</stored_length>
+    </Item>
+   <Item type="Property" id="6FEBA1FD97C2405DBBC08AB609271DB8" action="add">
+    <column_alignment>left</column_alignment>
+    <column_width>80</column_width>
+    <data_type>boolean</data_type>
+    <is_hidden>1</is_hidden>
+    <is_hidden2>1</is_hidden2>
+    <is_indexed>0</is_indexed>
+    <is_keyed>0</is_keyed>
+    <is_multi_valued>0</is_multi_valued>
+    <is_required>0</is_required>
+    <label>Dock Audit</label>
+    <name>dock_audit</name>
+    <range_inclusive>0</range_inclusive>
+    <readonly>0</readonly>
+    <sort_order>3072</sort_order>
+    <source_id keyed_name="Concern Resolution Request" type="ItemType" name="Concern Resolution Request">C816E925F6E449E6B351376731990E89</source_id>
+    </Item>
+   <Item type="Property" id="E12D951D39E643218F0B1CC165CBCC36" action="add">
+    <column_alignment>left</column_alignment>
+    <column_width>80</column_width>
+    <data_type>boolean</data_type>
+    <is_hidden>1</is_hidden>
+    <is_hidden2>1</is_hidden2>
+    <is_indexed>0</is_indexed>
+    <is_keyed>0</is_keyed>
+    <is_multi_valued>0</is_multi_valued>
+    <is_required>0</is_required>
+    <label>F Bay</label>
+    <name>f_bay</name>
+    <range_inclusive>0</range_inclusive>
+    <readonly>0</readonly>
+    <sort_order>3200</sort_order>
+    <source_id keyed_name="Concern Resolution Request" type="ItemType" name="Concern Resolution Request">C816E925F6E449E6B351376731990E89</source_id>
+    </Item>
+   <Item type="Property" id="D0356A09299C48ED80666CDB4002FC22" action="add">
+    <column_alignment>left</column_alignment>
+    <column_width>80</column_width>
+    <data_source keyed_name="User" type="ItemType" name="User">45E899CD2859442982EB22BB2DF683E5</data_source>
+    <data_type>item</data_type>
+    <is_hidden>1</is_hidden>
+    <is_hidden2>1</is_hidden2>
+    <is_indexed>0</is_indexed>
+    <is_keyed>0</is_keyed>
+    <is_multi_valued>0</is_multi_valued>
+    <is_required>0</is_required>
+    <item_behavior>float</item_behavior>
+    <label>Initiated By</label>
+    <name>initiated_by</name>
+    <range_inclusive>0</range_inclusive>
+    <readonly>0</readonly>
+    <sort_order>1024</sort_order>
+    <source_id keyed_name="Concern Resolution Request" type="ItemType" name="Concern Resolution Request">C816E925F6E449E6B351376731990E89</source_id>
+    </Item>
+   <Item type="Property" id="1251706918324AEF96F5283DCD536DD0" action="add">
+    <column_alignment>left</column_alignment>
+    <column_width>80</column_width>
+    <data_type>string</data_type>
+    <is_hidden>1</is_hidden>
+    <is_hidden2>1</is_hidden2>
+    <is_indexed>0</is_indexed>
+    <is_keyed>0</is_keyed>
+    <is_multi_valued>0</is_multi_valued>
+    <is_required>0</is_required>
+    <label>Initiated Dept</label>
+    <name>initiated_dept</name>
+    <range_inclusive>0</range_inclusive>
+    <readonly>0</readonly>
+    <sort_order>1152</sort_order>
+    <source_id keyed_name="Concern Resolution Request" type="ItemType" name="Concern Resolution Request">C816E925F6E449E6B351376731990E89</source_id>
+    <stored_length>50</stored_length>
+    </Item>
+   <Item type="Property" id="B83E1D30D21A443F97401CC1EA32C647" action="add">
+    <column_alignment>left</column_alignment>
+    <column_width>80</column_width>
+    <data_type>boolean</data_type>
+    <is_hidden>1</is_hidden>
+    <is_hidden2>1</is_hidden2>
+    <is_indexed>0</is_indexed>
+    <is_keyed>0</is_keyed>
+    <is_multi_valued>0</is_multi_valued>
+    <is_required>0</is_required>
+    <label>Internal</label>
+    <name>internal</name>
+    <range_inclusive>0</range_inclusive>
+    <readonly>0</readonly>
+    <sort_order>3328</sort_order>
+    <source_id keyed_name="Concern Resolution Request" type="ItemType" name="Concern Resolution Request">C816E925F6E449E6B351376731990E89</source_id>
+    </Item>
+   <Item type="Property" id="CD125AF9BF6A4B6A89C02A94BD0B828A" action="add">
+    <column_alignment>left</column_alignment>
+    <column_width>80</column_width>
+    <data_type>boolean</data_type>
+    <is_hidden>1</is_hidden>
+    <is_hidden2>1</is_hidden2>
+    <is_indexed>0</is_indexed>
+    <is_keyed>0</is_keyed>
+    <is_multi_valued>0</is_multi_valued>
+    <is_required>0</is_required>
+    <label>Liason</label>
+    <name>liason</name>
+    <range_inclusive>0</range_inclusive>
+    <readonly>0</readonly>
+    <sort_order>3456</sort_order>
+    <source_id keyed_name="Concern Resolution Request" type="ItemType" name="Concern Resolution Request">C816E925F6E449E6B351376731990E89</source_id>
+    </Item>
+   <Item type="Property" id="9C56C643EFF04FE8973DA2E790CEDBA2" action="add">
+    <column_alignment>left</column_alignment>
+    <column_width>50</column_width>
+    <data_type>string</data_type>
+    <is_hidden>0</is_hidden>
+    <is_hidden2>0</is_hidden2>
+    <is_indexed>0</is_indexed>
+    <is_keyed>0</is_keyed>
+    <is_multi_valued>0</is_multi_valued>
+    <is_required>0</is_required>
+    <label>Line</label>
+    <name>line</name>
+    <range_inclusive>0</range_inclusive>
+    <readonly>0</readonly>
+    <sort_order>256</sort_order>
+    <source_id keyed_name="Concern Resolution Request" type="ItemType" name="Concern Resolution Request">C816E925F6E449E6B351376731990E89</source_id>
+    <stored_length>20</stored_length>
+    </Item>
+   <Item type="Property" id="0D3BB04E63644D7982DBA3514528172E" action="add">
+    <column_alignment>left</column_alignment>
+    <column_width>80</column_width>
+    <data_source keyed_name="Tool" type="ItemType" name="Tool">C965E24F7EBC43AABC286999B9C669B8</data_source>
+    <data_type>item</data_type>
+    <is_hidden>1</is_hidden>
+    <is_hidden2>1</is_hidden2>
+    <is_indexed>0</is_indexed>
+    <is_keyed>0</is_keyed>
+    <is_multi_valued>0</is_multi_valued>
+    <is_required>0</is_required>
+    <item_behavior>float</item_behavior>
+    <label>Machine</label>
+    <name>machine</name>
+    <range_inclusive>0</range_inclusive>
+    <readonly>0</readonly>
+    <sort_order>1792</sort_order>
+    <source_id keyed_name="Concern Resolution Request" type="ItemType" name="Concern Resolution Request">C816E925F6E449E6B351376731990E89</source_id>
+    </Item>
+   <Item type="Property" id="62E5E34BC8B34DC08243C398E1CA5E27" action="add">
+    <column_alignment>left</column_alignment>
+    <column_width>80</column_width>
+    <data_source keyed_name="User" type="ItemType" name="User">45E899CD2859442982EB22BB2DF683E5</data_source>
+    <data_type>item</data_type>
+    <is_hidden>1</is_hidden>
+    <is_hidden2>1</is_hidden2>
+    <is_indexed>0</is_indexed>
+    <is_keyed>0</is_keyed>
+    <is_multi_valued>0</is_multi_valued>
+    <is_required>0</is_required>
+    <item_behavior>float</item_behavior>
+    <label>Name</label>
+    <name>name</name>
+    <range_inclusive>0</range_inclusive>
+    <readonly>0</readonly>
+    <sort_order>640</sort_order>
+    <source_id keyed_name="Concern Resolution Request" type="ItemType" name="Concern Resolution Request">C816E925F6E449E6B351376731990E89</source_id>
+    </Item>
+   <Item type="Property" id="E195278B449A43C7984DEBE5D4E9CC09" action="add">
+    <column_alignment>left</column_alignment>
+    <column_width>80</column_width>
+    <data_type>integer</data_type>
+    <is_hidden>1</is_hidden>
+    <is_hidden2>1</is_hidden2>
+    <is_indexed>0</is_indexed>
+    <is_keyed>0</is_keyed>
+    <is_multi_valued>0</is_multi_valued>
+    <is_required>0</is_required>
+    <label>No Of Parts</label>
+    <name>no_of_parts</name>
+    <range_inclusive>0</range_inclusive>
+    <readonly>0</readonly>
+    <sort_order>2176</sort_order>
+    <source_id keyed_name="Concern Resolution Request" type="ItemType" name="Concern Resolution Request">C816E925F6E449E6B351376731990E89</source_id>
+    </Item>
+   <Item type="Property" id="A228E9D4B988457898848FF365950F14" action="add">
+    <column_alignment>left</column_alignment>
+    <column_width>80</column_width>
+    <data_source keyed_name="Part" type="ItemType" name="Part">4F1AC04A2B484F3ABA4E20DB63808A88</data_source>
+    <data_type>item</data_type>
+    <is_hidden>0</is_hidden>
+    <is_hidden2>0</is_hidden2>
+    <is_indexed>0</is_indexed>
+    <is_keyed>0</is_keyed>
+    <is_multi_valued>0</is_multi_valued>
+    <is_required>0</is_required>
+    <item_behavior>float</item_behavior>
+    <label>Part</label>
+    <name>part</name>
+    <range_inclusive>0</range_inclusive>
+    <readonly>0</readonly>
+    <sort_order>128</sort_order>
+    <source_id keyed_name="Concern Resolution Request" type="ItemType" name="Concern Resolution Request">C816E925F6E449E6B351376731990E89</source_id>
+    </Item>
+   <Item type="Property" id="55683305E49D43E2B4439F67089E5692" action="add">
+    <column_alignment>left</column_alignment>
+    <column_width>80</column_width>
+    <data_type>integer</data_type>
+    <is_hidden>1</is_hidden>
+    <is_hidden2>1</is_hidden2>
+    <is_indexed>0</is_indexed>
+    <is_keyed>0</is_keyed>
+    <is_multi_valued>0</is_multi_valued>
+    <is_required>0</is_required>
+    <label>Part Number</label>
+    <name>part_number</name>
+    <range_inclusive>0</range_inclusive>
+    <readonly>0</readonly>
+    <sort_order>1664</sort_order>
+    <source_id keyed_name="Concern Resolution Request" type="ItemType" name="Concern Resolution Request">C816E925F6E449E6B351376731990E89</source_id>
+    </Item>
+   <Item type="Property" id="B8E203A1ECF64B5A849D70DC3969416C" action="add">
+    <column_alignment>left</column_alignment>
+    <data_source keyed_name="ECN" type="ItemType" name="ECN">85F86794FACF42599F07019F7BEA1D46</data_source>
+    <data_type>item</data_type>
+    <is_hidden>1</is_hidden>
+    <is_hidden2>1</is_hidden2>
+    <is_indexed>0</is_indexed>
+    <is_keyed>0</is_keyed>
+    <is_multi_valued>0</is_multi_valued>
+    <is_required>0</is_required>
+    <item_behavior>float</item_behavior>
+    <label>Project Num</label>
+    <name>project_num</name>
+    <range_inclusive>0</range_inclusive>
+    <readonly>0</readonly>
+    <sort_order>768</sort_order>
+    <source_id keyed_name="Concern Resolution Request" type="ItemType" name="Concern Resolution Request">C816E925F6E449E6B351376731990E89</source_id>
+    </Item>
+   <Item type="Property" id="EE21010FC33C432581CFB7B2BFF22AF3" action="add">
+    <column_alignment>left</column_alignment>
+    <column_width>80</column_width>
+    <data_type>integer</data_type>
+    <is_hidden>1</is_hidden>
+    <is_hidden2>1</is_hidden2>
+    <is_indexed>0</is_indexed>
+    <is_keyed>0</is_keyed>
+    <is_multi_valued>0</is_multi_valued>
+    <is_required>0</is_required>
+    <label>Qty OP Num</label>
+    <name>qty_op_num</name>
+    <range_inclusive>0</range_inclusive>
+    <readonly>0</readonly>
+    <sort_order>2688</sort_order>
+    <source_id keyed_name="Concern Resolution Request" type="ItemType" name="Concern Resolution Request">C816E925F6E449E6B351376731990E89</source_id>
+    </Item>
+   <Item type="Property" id="BEEAEF1D410D4000A583C4AFE0E7D433" action="add">
+    <column_alignment>left</column_alignment>
+    <column_width>80</column_width>
+    <data_source keyed_name="Yes/No">9FEC936F59F14FECAA3621F726FBAAF2</data_source>
+    <data_type>list</data_type>
+    <is_hidden>0</is_hidden>
+    <is_hidden2>0</is_hidden2>
+    <is_indexed>0</is_indexed>
+    <is_keyed>0</is_keyed>
+    <is_multi_valued>0</is_multi_valued>
+    <is_required>0</is_required>
+    <label>Resp 24 Hr</label>
+    <name>resp_24_hr</name>
+    <range_inclusive>0</range_inclusive>
+    <readonly>0</readonly>
+    <sort_order>1280</sort_order>
+    <source_id keyed_name="Concern Resolution Request" type="ItemType" name="Concern Resolution Request">C816E925F6E449E6B351376731990E89</source_id>
+    </Item>
+   <Item type="Property" id="32EDB2FD91EE45648DE1F6E29F86DDA1" action="add">
+    <column_alignment>left</column_alignment>
+    <column_width>80</column_width>
+    <data_source keyed_name="Yes/No">9FEC936F59F14FECAA3621F726FBAAF2</data_source>
+    <data_type>list</data_type>
+    <is_hidden>1</is_hidden>
+    <is_hidden2>1</is_hidden2>
+    <is_indexed>0</is_indexed>
+    <is_keyed>0</is_keyed>
+    <is_multi_valued>0</is_multi_valued>
+    <is_required>0</is_required>
+    <label>Save OP Panels</label>
+    <name>save_op_panels</name>
+    <range_inclusive>0</range_inclusive>
+    <readonly>0</readonly>
+    <sort_order>2560</sort_order>
+    <source_id keyed_name="Concern Resolution Request" type="ItemType" name="Concern Resolution Request">C816E925F6E449E6B351376731990E89</source_id>
+    </Item>
+   <Item type="Property" id="BDEDE54EE63246F49C49C9FF091A902F" action="add">
+    <column_alignment>left</column_alignment>
+    <column_width>90</column_width>
+    <data_type>integer</data_type>
+    <is_hidden>0</is_hidden>
+    <is_hidden2>0</is_hidden2>
+    <is_indexed>0</is_indexed>
+    <is_keyed>0</is_keyed>
+    <is_multi_valued>0</is_multi_valued>
+    <is_required>0</is_required>
+    <label>Serial Number</label>
+    <name>serial_number</name>
+    <range_inclusive>0</range_inclusive>
+    <readonly>0</readonly>
+    <sort_order>64</sort_order>
+    <source_id keyed_name="Concern Resolution Request" type="ItemType" name="Concern Resolution Request">C816E925F6E449E6B351376731990E89</source_id>
+    </Item>
+   <Item type="Property" id="A0BC515EE4ED4DC68EDA48C5601023D6" action="add">
+    <column_alignment>left</column_alignment>
+    <column_width>80</column_width>
+    <data_source keyed_name="Plant Shift">DB0C0798BA02427DB727566ACB723A01</data_source>
+    <data_type>list</data_type>
+    <is_hidden>1</is_hidden>
+    <is_hidden2>1</is_hidden2>
+    <is_indexed>0</is_indexed>
+    <is_keyed>0</is_keyed>
+    <is_multi_valued>0</is_multi_valued>
+    <is_required>0</is_required>
+    <label>Shift</label>
+    <name>shift</name>
+    <range_inclusive>0</range_inclusive>
+    <readonly>0</readonly>
+    <sort_order>896</sort_order>
+    <source_id keyed_name="Concern Resolution Request" type="ItemType" name="Concern Resolution Request">C816E925F6E449E6B351376731990E89</source_id>
+    </Item>
+   <Item type="Property" id="B81A79E7E73A445B87D982824C84F5C6" action="add">
+    <column_alignment>left</column_alignment>
+    <column_width>80</column_width>
+    <data_type>date</data_type>
+    <is_hidden>1</is_hidden>
+    <is_hidden2>1</is_hidden2>
+    <is_indexed>0</is_indexed>
+    <is_keyed>0</is_keyed>
+    <is_multi_valued>0</is_multi_valued>
+    <is_required>0</is_required>
+    <label>Ship Date</label>
+    <name>ship_date</name>
+    <range_inclusive>0</range_inclusive>
+    <readonly>0</readonly>
+    <sort_order>2432</sort_order>
+    <source_id keyed_name="Concern Resolution Request" type="ItemType" name="Concern Resolution Request">C816E925F6E449E6B351376731990E89</source_id>
+    </Item>
+   <Item type="Property" id="E8CBD58E8EF54E57AC5D4FE409D4FB2A" action="add">
+    <column_alignment>left</column_alignment>
+    <column_width>80</column_width>
+    <data_type>date</data_type>
+    <is_hidden>1</is_hidden>
+    <is_hidden2>1</is_hidden2>
+    <is_indexed>0</is_indexed>
+    <is_keyed>0</is_keyed>
+    <is_multi_valued>0</is_multi_valued>
+    <is_required>0</is_required>
+    <label>Stamp Date</label>
+    <name>stamp_date</name>
+    <range_inclusive>0</range_inclusive>
+    <readonly>0</readonly>
+    <sort_order>2048</sort_order>
+    <source_id keyed_name="Concern Resolution Request" type="ItemType" name="Concern Resolution Request">C816E925F6E449E6B351376731990E89</source_id>
+    </Item>
+   <Item type="Property" id="BFD5316976074F4A841CF7C0B9546ABC" action="add">
+    <column_alignment>left</column_alignment>
+    <column_width>80</column_width>
+    <data_source keyed_name="Tool" type="ItemType" name="Tool">C965E24F7EBC43AABC286999B9C669B8</data_source>
+    <data_type>item</data_type>
+    <is_hidden>1</is_hidden>
+    <is_hidden2>1</is_hidden2>
+    <is_indexed>0</is_indexed>
+    <is_keyed>0</is_keyed>
+    <is_multi_valued>0</is_multi_valued>
+    <is_required>0</is_required>
+    <item_behavior>float</item_behavior>
+    <label>Tool And Equipment</label>
+    <name>tool_and_equipment</name>
+    <range_inclusive>0</range_inclusive>
+    <readonly>0</readonly>
+    <sort_order>1920</sort_order>
+    <source_id keyed_name="Concern Resolution Request" type="ItemType" name="Concern Resolution Request">C816E925F6E449E6B351376731990E89</source_id>
+    </Item>
+   <Item type="View" id="342DC60B43074CECA976D321A1DF9732" action="add">
+    <client>js</client>
+    <related_id keyed_name="Concern Resolution Request" type="Form">28A0870299CE40D2A73A083A3EA0102F</related_id>
+    <role keyed_name="World" type="Identity">
+     <Item type="Identity" action="get" select="id">
+      <name>World</name>
+     </Item>
+    </role>
+    <sort_order>128</sort_order>
+    <source_id keyed_name="Concern Resolution Request" type="ItemType" name="Concern Resolution Request">C816E925F6E449E6B351376731990E89</source_id>
+    <type>default</type>
+   </Item>
+  </Relationships>
+ </Item>
+</AML>

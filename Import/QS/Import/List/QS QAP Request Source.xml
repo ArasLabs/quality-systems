@@ -1,0 +1,68 @@
+<AML>
+ <Item type="List" id="82C5F16D942141ACA8C9ACFBB0A814B1" action="add">
+  <description>Source requesting the Quality Action Plan</description>
+  <name>QS QAP Request Source</name>
+  <Relationships>
+   <Item type="Value" id="F65DCB32A47140269C5CC58BBEED1B51" action="add">
+    <label>Customer Complaint / Concern</label>
+    <sort_order>256</sort_order>
+    <source_id keyed_name="QS QAP Request Source" type="List">82C5F16D942141ACA8C9ACFBB0A814B1</source_id>
+    <value>Customer Complaint / Concern</value>
+   </Item>
+   <Item type="Value" id="F844F1D3BAC74D339F379023B85FFB7D" action="add">
+    <label>FMEA</label>
+    <sort_order>1280</sort_order>
+    <source_id keyed_name="QS QAP Request Source" type="List">82C5F16D942141ACA8C9ACFBB0A814B1</source_id>
+    <value>FMEA</value>
+   </Item>
+  
+   <Item type="Value" id="D863BDA297C24DDFB0A20D5CF6B9E318" action="add">
+    <label>Internal Quality Audit</label>
+    <sort_order>768</sort_order>
+    <source_id keyed_name="QS QAP Request Source" type="List">82C5F16D942141ACA8C9ACFBB0A814B1</source_id>
+    <value>Internal Quality Audit</value>
+   </Item>
+   <Item type="Value" id="000DE4E956624E289C11EA98BBF62B0E" action="add">
+    <label>Management Review</label>
+    <sort_order>640</sort_order>
+    <source_id keyed_name="QS QAP Request Source" type="List">82C5F16D942141ACA8C9ACFBB0A814B1</source_id>
+    <value>Management Review</value>
+   </Item>
+   <Item type="Value" id="4B1EFE2FE3DD4E79B591256FEFFF98F1" action="add">
+    <label>Process Performance Monitoring</label>
+    <sort_order>1152</sort_order>
+    <source_id keyed_name="QS QAP Request Source" type="List">82C5F16D942141ACA8C9ACFBB0A814B1</source_id>
+    <value>Process Performance Monitoring</value>
+   </Item>
+   <Item type="Value" id="B02AF1BEAC2547D4A5D0430EE410ABFC" action="add">
+    <label>QA Inspection</label>
+    <sort_order>896</sort_order>
+    <source_id keyed_name="QS QAP Request Source" type="List">82C5F16D942141ACA8C9ACFBB0A814B1</source_id>
+    <value>QA Inspection</value>
+   </Item>
+   <Item type="Value" id="C76BA93DBEC34D428380B373E8B75206" action="add">
+    <label>Risk Assesment</label>
+    <sort_order>512</sort_order>
+    <source_id keyed_name="QS QAP Request Source" type="List">82C5F16D942141ACA8C9ACFBB0A814B1</source_id>
+    <value>Risk Assesment</value>
+   </Item>
+   <Item type="Value" id="9E0C98EFCC2440E09081C678760486C3" action="add">
+    <label>Service Request</label>
+    <sort_order>128</sort_order>
+    <source_id keyed_name="QS QAP Request Source" type="List">82C5F16D942141ACA8C9ACFBB0A814B1</source_id>
+    <value>Service Request</value>
+   </Item>
+   <Item type="Value" id="68B9D62AC0E942849CFCEF165434D147" action="add">
+    <label>Staff Observation</label>
+    <sort_order>384</sort_order>
+    <source_id keyed_name="QS QAP Request Source" type="List">82C5F16D942141ACA8C9ACFBB0A814B1</source_id>
+    <value>Staff Observation</value>
+   </Item>
+   <Item type="Value" id="A7C3AD31BD10437AA664283D67F8EB39" action="add">
+    <label>Trending Data</label>
+    <sort_order>1024</sort_order>
+    <source_id keyed_name="QS QAP Request Source" type="List">82C5F16D942141ACA8C9ACFBB0A814B1</source_id>
+    <value>Trending Data</value>
+   </Item></Relationships>
+ </Item>
+</AML>

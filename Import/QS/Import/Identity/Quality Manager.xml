@@ -1,0 +1,11 @@
+<AML>
+ <Item type="Identity" id="C55A2237BE044BA7A64353D6F1A774EA" action="add">
+  <is_alias>0</is_alias>
+  <name>Quality Manager</name>
+  </Item>
+ <Item type="Member" id="98369EE7393C4C9991365B862ECAD73F" action="add">
+  <related_id keyed_name="Administrators" type="Identity">2618D6F5A90949BAA7E920D1B04C7EE1</related_id>
+  <sort_order>384</sort_order>
+  <source_id keyed_name="Quality Manager" type="Identity">C55A2237BE044BA7A64353D6F1A774EA</source_id>
+ </Item>
+</AML>

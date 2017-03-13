@@ -1,0 +1,11 @@
+<AML>
+ <Item type="Identity" id="C4BA3F15E3084D14BFC72CF9B397BD17" action="add">
+  <is_alias>0</is_alias>
+  <name>VP Manufacturing</name>
+  </Item>
+ <Item type="Member" id="53CE7118F5554E91BF6D28384BD83078" action="add">
+  <related_id keyed_name="Administrators" type="Identity">2618D6F5A90949BAA7E920D1B04C7EE1</related_id>
+  <sort_order>128</sort_order>
+  <source_id keyed_name="VP Manufacturing" type="Identity">C4BA3F15E3084D14BFC72CF9B397BD17</source_id>
+ </Item>
+</AML>

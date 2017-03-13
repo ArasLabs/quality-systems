@@ -1,0 +1,25 @@
+<AML>
+ <Item type="List" id="6FEDA9521BAA421AA895CC9C3C12E03C" action="add">
+  <name>QS Pass Fail</name>
+  <Relationships>
+   <Item type="Value" id="A0A9D660E58D42BEA6D5AF21B05D3D51" action="add">
+    <label>Fail</label>
+    <sort_order>2</sort_order>
+    <source_id keyed_name="QS Pass Fail" type="List">6FEDA9521BAA421AA895CC9C3C12E03C</source_id>
+    <value>Fail</value>
+   </Item>
+   <Item type="Value" id="811847F646A94EE2ADD380B9D6693A94" action="add">
+    <label>Pass</label>
+    <sort_order>1</sort_order>
+    <source_id keyed_name="QS Pass Fail" type="List">6FEDA9521BAA421AA895CC9C3C12E03C</source_id>
+    <value>Pass</value>
+   </Item>
+   <Item type="Value" id="4FE4B909797D4371B5322738768C65E7" action="add">
+    <label>ReTest</label>
+    <sort_order>4</sort_order>
+    <source_id keyed_name="QS Pass Fail" type="List">6FEDA9521BAA421AA895CC9C3C12E03C</source_id>
+    <value>ReTest</value>
+   </Item>
+  </Relationships>
+ </Item>
+</AML>

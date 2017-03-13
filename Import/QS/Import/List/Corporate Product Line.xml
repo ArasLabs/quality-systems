@@ -1,0 +1,71 @@
+<AML>
+ <Item type="List" id="26C50088951A42368236C20E9CF22728" action="add">
+  <description>Product line per plant</description>
+  <name>Corporate Product Line</name>
+  <Relationships>
+   <Item type="Filter Value" id="D20E78C3BE1447A4B1F60DE4299CB31E" action="add">
+    <filter>Plant 1</filter>
+    <label>Product 1</label>
+    <sort_order>128</sort_order>
+    <source_id keyed_name="Corporate Product Line" type="List">26C50088951A42368236C20E9CF22728</source_id>
+    <value>Product 1</value>
+   </Item>
+   <Item type="Filter Value" id="7B3E8E33CEAF4917BC0319480661F773" action="add">
+    <filter>Plant 1</filter>
+    <label>Product 2</label>
+    <sort_order>256</sort_order>
+    <source_id keyed_name="Corporate Product Line" type="List">26C50088951A42368236C20E9CF22728</source_id>
+    <value>Product 2</value>
+   </Item>
+   <Item type="Filter Value" id="25E5E510376C46E9A57EF77A702A1DE9" action="add">
+    <filter>Plant 1</filter>
+    <label>Product 3</label>
+    <sort_order>384</sort_order>
+    <source_id keyed_name="Corporate Product Line" type="List">26C50088951A42368236C20E9CF22728</source_id>
+    <value>Product 3</value>
+   </Item>
+   <Item type="Filter Value" id="3CEA398795324757AF265CB1AC6F15C5" action="add">
+    <filter>Plant 2</filter>
+    <label>Product 4</label>
+    <sort_order>512</sort_order>
+    <source_id keyed_name="Corporate Product Line" type="List">26C50088951A42368236C20E9CF22728</source_id>
+    <value>Product 4</value>
+   </Item>
+   <Item type="Filter Value" id="8DBEF2684AD344D39ABDA0ABBADEAC9D" action="add">
+    <filter>Plant 2</filter>
+    <label>Product 5</label>
+    <sort_order>640</sort_order>
+    <source_id keyed_name="Corporate Product Line" type="List">26C50088951A42368236C20E9CF22728</source_id>
+    <value>Product 5</value>
+   </Item>
+   <Item type="Filter Value" id="297A208E026A41ABBD76117748A345DC" action="add">
+    <filter>Plant 2</filter>
+    <label>Product 6</label>
+    <sort_order>768</sort_order>
+    <source_id keyed_name="Corporate Product Line" type="List">26C50088951A42368236C20E9CF22728</source_id>
+    <value>Product 6</value>
+   </Item>
+   <Item type="Filter Value" id="E614BBF8EB5D4B61B773E3C8CD0DEF0B" action="add">
+    <filter>Plant 3</filter>
+    <label>Product 7</label>
+    <sort_order>896</sort_order>
+    <source_id keyed_name="Corporate Product Line" type="List">26C50088951A42368236C20E9CF22728</source_id>
+    <value>Product 7</value>
+   </Item>
+   <Item type="Filter Value" id="0AC4707B7978435DA13429CE5FFD897B" action="add">
+    <filter>Plant 3</filter>
+    <label>Product 8</label>
+    <sort_order>1024</sort_order>
+    <source_id keyed_name="Corporate Product Line" type="List">26C50088951A42368236C20E9CF22728</source_id>
+    <value>Product 8</value>
+   </Item>
+   <Item type="Filter Value" id="6844561E313749418ED11EB4ED550F13" action="add">
+    <filter>Plant 3</filter>
+    <label>Product 9</label>
+    <sort_order>1152</sort_order>
+    <source_id keyed_name="Corporate Product Line" type="List">26C50088951A42368236C20E9CF22728</source_id>
+    <value>Product 9</value>
+   </Item>
+  </Relationships>
+ </Item>
+</AML>

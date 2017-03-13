@@ -1,0 +1,10 @@
+<AML>
+ <Item type="Sequence" id="2BE69815855D46BE9F311D0FB73254D3" action="add">
+  <current_value>32</current_value>
+  <name>QS Return Material Authorization</name>
+  <pad_to>4</pad_to>
+  <pad_with>0</pad_with>
+  <prefix>RMA-</prefix>
+  <suffix>-2006</suffix>
+ </Item>
+</AML>
