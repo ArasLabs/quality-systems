@@ -1,5 +1,6 @@
 ﻿<AML>
  <Item type="Form" id="D4D9E7A43E7846DFBE7C71F1796198DF" action="add">
+  <classification>/*</classification>
   <name>Contact</name>
   <stylesheet><![CDATA[../styles/default.css]]></stylesheet>
   <Relationships>
@@ -8,12 +9,14 @@
     <bg_color>#FFFFFF</bg_color>
     <bg_image>../images/Backgrounds/wvleft.gif</bg_image>
     <bg_repeat>no-repeat</bg_repeat>
+    <classification>/*</classification>
     <sort_order>128</sort_order>
     <source_id keyed_name="Contact" type="Form">D4D9E7A43E7846DFBE7C71F1796198DF</source_id>
     <Relationships>
      <Item type="Field" id="CA1184BE22B146159E049104423DCC89" action="add">
       <bg_color>#FFFFFF</bg_color>
       <border_width>0</border_width>
+      <classification>/*</classification>
       <display_length>75</display_length>
       <field_type>textarea</field_type>
       <font_color>#000000</font_color>
@@ -22,7 +25,7 @@
       <font_weight>bold</font_weight>
       <is_disabled>0</is_disabled>
       <is_visible>1</is_visible>
-      <label>Address </label>
+      <label xml:lang="en">Address </label>
       <label_position>top</label_position>
       <list_no_blank>0</list_no_blank>
       <name>address_1</name>
@@ -40,6 +43,7 @@
      <Item type="Field" id="AA0B1BA925084DF3B1FCC3386CE3A992" action="add">
       <bg_color>#FFFFFF</bg_color>
       <border_width>0</border_width>
+      <classification>/*</classification>
       <display_length>25</display_length>
       <field_type>text</field_type>
       <font_color>#000000</font_color>
@@ -48,7 +52,7 @@
       <font_weight>bold</font_weight>
       <is_disabled>0</is_disabled>
       <is_visible>1</is_visible>
-      <label>Cell #</label>
+      <label xml:lang="en">Cell #</label>
       <label_position>top</label_position>
       <list_no_blank>0</list_no_blank>
       <name>cell_num</name>
@@ -64,6 +68,7 @@
      <Item type="Field" id="F85D7AA86C68432B9B5C04864F77E9CE" action="add">
       <bg_color>#FFFFFF</bg_color>
       <border_width>0</border_width>
+      <classification>/*</classification>
       <display_length>45</display_length>
       <field_type>text</field_type>
       <font_color>#000000</font_color>
@@ -72,7 +77,7 @@
       <font_weight>bold</font_weight>
       <is_disabled>0</is_disabled>
       <is_visible>1</is_visible>
-      <label>City</label>
+      <label xml:lang="en">City</label>
       <label_position>top</label_position>
       <list_no_blank>0</list_no_blank>
       <name>city</name>
@@ -88,6 +93,7 @@
      <Item type="Field" id="CBE5F178365541998A3FAF0E32315FF7" action="add">
       <bg_color>#FFFFFF</bg_color>
       <border_width>0</border_width>
+      <classification>/*</classification>
       <display_length>50</display_length>
       <field_type>item</field_type>
       <font_color>#000000</font_color>
@@ -96,7 +102,7 @@
       <font_weight>bold</font_weight>
       <is_disabled>0</is_disabled>
       <is_visible>1</is_visible>
-      <label>Company</label>
+      <label xml:lang="en">Company</label>
       <label_position>top</label_position>
       <list_no_blank>0</list_no_blank>
       <name>company</name>
@@ -112,6 +118,7 @@
      <Item type="Field" id="8B769DCCCE194B25A27D3E5B0A613FCA" action="add">
       <bg_color>#FFFFFF</bg_color>
       <border_width>0</border_width>
+      <classification>/*</classification>
       <field_type>dropdown</field_type>
       <font_color>#000000</font_color>
       <font_family>arial, helvetica, sans-serif</font_family>
@@ -119,7 +126,7 @@
       <font_weight>bold</font_weight>
       <is_disabled>0</is_disabled>
       <is_visible>1</is_visible>
-      <label>Country</label>
+      <label xml:lang="en">Country</label>
       <label_position>top</label_position>
       <list_no_blank>0</list_no_blank>
       <name>country</name>
@@ -135,6 +142,7 @@
      <Item type="Field" id="9D6672B55F8049228A19CE0D4609A618" action="add">
       <bg_color>#FFFFFF</bg_color>
       <border_width>0</border_width>
+      <classification>/*</classification>
       <display_length>75</display_length>
       <field_type>text</field_type>
       <font_color>#000000</font_color>
@@ -143,7 +151,7 @@
       <font_weight>bold</font_weight>
       <is_disabled>0</is_disabled>
       <is_visible>1</is_visible>
-      <label>Email</label>
+      <label xml:lang="en">Email</label>
       <label_position>top</label_position>
       <list_no_blank>0</list_no_blank>
       <name>email</name>
@@ -159,6 +167,7 @@
      <Item type="Field" id="9DF0F6EB88234E37B0550070FFCD6CEE" action="add">
       <bg_color>#FFFFFF</bg_color>
       <border_width>0</border_width>
+      <classification>/*</classification>
       <display_length>25</display_length>
       <field_type>text</field_type>
       <font_color>#000000</font_color>
@@ -167,7 +176,7 @@
       <font_weight>bold</font_weight>
       <is_disabled>0</is_disabled>
       <is_visible>1</is_visible>
-      <label>Fax #</label>
+      <label xml:lang="en">Fax #</label>
       <label_position>top</label_position>
       <list_no_blank>0</list_no_blank>
       <name>fax_num</name>
@@ -183,6 +192,7 @@
      <Item type="Field" id="E3AB335C9C0646AA9231528158457420" action="add">
       <bg_color>#FFFFFF</bg_color>
       <border_width>0</border_width>
+      <classification>/*</classification>
       <display_length>40</display_length>
       <field_type>text</field_type>
       <font_color>#000000</font_color>
@@ -191,7 +201,7 @@
       <font_weight>bold</font_weight>
       <is_disabled>0</is_disabled>
       <is_visible>1</is_visible>
-      <label>First Name</label>
+      <label xml:lang="en">First Name</label>
       <label_position>top</label_position>
       <list_no_blank>0</list_no_blank>
       <name>first_name</name>
@@ -206,6 +216,7 @@
      </Item>
      <Item type="Field" id="92153F29F0EE44798DE0CBEDBD285D51" action="add">
       <bg_color>#FFFFFF</bg_color>
+      <classification>/*</classification>
       <field_type>html</field_type>
       <html_code><![CDATA[<table border='0' cellspacing='0' cellpadding='0'>
 <tr><td colspan='2'>
@@ -239,6 +250,7 @@
      <Item type="Field" id="5BE5924F4AAE48BAB34B2DF2E5383EA1" action="add">
       <bg_color>#FFFFFF</bg_color>
       <border_width>0</border_width>
+      <classification>/*</classification>
       <field_type>dropdown</field_type>
       <font_color>#000000</font_color>
       <font_family>arial, helvetica, sans-serif</font_family>
@@ -246,7 +258,7 @@
       <font_weight>bold</font_weight>
       <is_disabled>0</is_disabled>
       <is_visible>1</is_visible>
-      <label>Job Role</label>
+      <label xml:lang="en">Job Role</label>
       <label_position>top</label_position>
       <list_no_blank>0</list_no_blank>
       <name>job_role</name>
@@ -262,6 +274,7 @@
      <Item type="Field" id="0DA7382B63F94FB69D52EB5872AF58D1" action="add">
       <bg_color>#FFFFFF</bg_color>
       <border_width>0</border_width>
+      <classification>/*</classification>
       <display_length>40</display_length>
       <field_type>text</field_type>
       <font_color>#000000</font_color>
@@ -270,7 +283,7 @@
       <font_weight>bold</font_weight>
       <is_disabled>0</is_disabled>
       <is_visible>1</is_visible>
-      <label>Last Name</label>
+      <label xml:lang="en">Last Name</label>
       <label_position>top</label_position>
       <list_no_blank>0</list_no_blank>
       <name>last_name</name>
@@ -286,6 +299,7 @@
      <Item type="Field" id="91E7E7F9999E47CB8A637FD3B53D310A" action="add">
       <bg_color>#FFFFFF</bg_color>
       <border_width>0</border_width>
+      <classification>/*</classification>
       <display_length>25</display_length>
       <field_type>text</field_type>
       <font_color>#000000</font_color>
@@ -294,7 +308,7 @@
       <font_weight>bold</font_weight>
       <is_disabled>0</is_disabled>
       <is_visible>1</is_visible>
-      <label>Phone #</label>
+      <label xml:lang="en">Phone #</label>
       <label_position>top</label_position>
       <list_no_blank>0</list_no_blank>
       <name>main_phone</name>
@@ -310,6 +324,7 @@
      <Item type="Field" id="41A36E36EFC34972B9A5443BAD87E217" action="add">
       <bg_color>#FFFFFF</bg_color>
       <border_width>0</border_width>
+      <classification>/*</classification>
       <field_type>textarea</field_type>
       <font_color>#000000</font_color>
       <font_family>arial, helvetica, sans-serif</font_family>
@@ -317,7 +332,7 @@
       <font_weight>bold</font_weight>
       <is_disabled>0</is_disabled>
       <is_visible>1</is_visible>
-      <label>Notes</label>
+      <label xml:lang="en">Notes</label>
       <label_position>top</label_position>
       <list_no_blank>0</list_no_blank>
       <name>notes</name>
@@ -335,6 +350,7 @@
      <Item type="Field" id="3C849402A8D145FA98A2CFDF7D2076CC" action="add">
       <bg_color>#FFFFFF</bg_color>
       <border_width>0</border_width>
+      <classification>/*</classification>
       <field_type>dropdown</field_type>
       <font_color>#000000</font_color>
       <font_family>arial, helvetica, sans-serif</font_family>
@@ -342,7 +358,7 @@
       <font_weight>bold</font_weight>
       <is_disabled>0</is_disabled>
       <is_visible>1</is_visible>
-      <label>State / Region</label>
+      <label xml:lang="en">State / Region</label>
       <label_position>top</label_position>
       <list_no_blank>0</list_no_blank>
       <name>State</name>
@@ -358,6 +374,7 @@
      <Item type="Field" id="5E69A4388B684898A1AB870653885961" action="add">
       <bg_color>#FFFFFF</bg_color>
       <border_width>0</border_width>
+      <classification>/*</classification>
       <display_length>50</display_length>
       <field_type>text</field_type>
       <font_color>#000000</font_color>
@@ -366,7 +383,7 @@
       <font_weight>bold</font_weight>
       <is_disabled>0</is_disabled>
       <is_visible>1</is_visible>
-      <label>Title</label>
+      <label xml:lang="en">Title</label>
       <label_position>top</label_position>
       <list_no_blank>0</list_no_blank>
       <name>title</name>
@@ -382,6 +399,7 @@
      <Item type="Field" id="53486036CDA84E71BCCD1D5C1A77E843" action="add">
       <bg_color>#FFFFFF</bg_color>
       <border_width>0</border_width>
+      <classification>/*</classification>
       <display_length>15</display_length>
       <field_type>text</field_type>
       <font_color>#000000</font_color>
@@ -390,7 +408,7 @@
       <font_weight>bold</font_weight>
       <is_disabled>0</is_disabled>
       <is_visible>1</is_visible>
-      <label>Zip Code</label>
+      <label xml:lang="en">Zip Code</label>
       <label_position>top</label_position>
       <list_no_blank>0</list_no_blank>
       <name>zip_code</name>

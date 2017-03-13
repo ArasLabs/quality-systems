@@ -1,23 +1,27 @@
 ﻿<AML>
  <Item type="List" id="2B04562C13144C53968C25D90F9CAF6F" action="add">
+  <classification>/*</classification>
   <description>List of the method that was used for notification</description>
   <name>Notified Via</name>
   <Relationships>
    <Item type="Value" id="D0738ECD21A246B296CC61C5D3CAE422" action="add">
-    <label>E-mail</label>
+    <classification>/*</classification>
+    <label xml:lang="en">E-mail</label>
     <sort_order>128</sort_order>
     <source_id keyed_name="Notified Via" type="List">2B04562C13144C53968C25D90F9CAF6F</source_id>
     <value>E-mail</value>
    </Item>
    <Item type="Value" id="7FBBE45C6B014F58B5D168B092863292" action="add">
-    <label>N/A</label>
+    <classification>/*</classification>
+    <label xml:lang="en">N/A</label>
     <sort_order>384</sort_order>
     <source_id keyed_name="Notified Via" type="List">2B04562C13144C53968C25D90F9CAF6F</source_id>
     <value>N/A</value>
    </Item>
   
    <Item type="Value" id="C4D0753E20844583BF14E88A58F61EFA" action="add">
-    <label>Phone</label>
+    <classification>/*</classification>
+    <label xml:lang="en">Phone</label>
     <sort_order>256</sort_order>
     <source_id keyed_name="Notified Via" type="List">2B04562C13144C53968C25D90F9CAF6F</source_id>
     <value>Phone</value>

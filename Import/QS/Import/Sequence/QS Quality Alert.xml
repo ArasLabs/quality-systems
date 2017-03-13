@@ -1,5 +1,6 @@
 ﻿<AML>
  <Item type="Sequence" id="8BEFB58CB4164434897A2D62DE6EC768" action="add">
+  <classification>/*</classification>
   <current_value>13</current_value>
   <name>QS Quality Alert</name>
   <pad_to>4</pad_to>

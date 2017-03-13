@@ -1,5 +1,6 @@
 ﻿<AML>
  <Item type="Form" id="2B28AC39EF914B7DAF289A46E516534D" action="add">
+  <classification>/*</classification>
   <height>200</height>
   <name>ISO</name>
   <stylesheet><![CDATA[../styles/default.css]]></stylesheet>
@@ -10,12 +11,14 @@
     <bg_color>#FFFFFF</bg_color>
     <bg_image>../images/Backgrounds/wvleft.gif</bg_image>
     <bg_repeat>no-repeat</bg_repeat>
+    <classification>/*</classification>
     <sort_order>128</sort_order>
     <source_id keyed_name="ISO" type="Form">2B28AC39EF914B7DAF289A46E516534D</source_id>
     <Relationships>
      <Item type="Field" id="47DA8202CFC6420FB31E5560F553FDBB" action="add">
       <bg_color>#FFFFFF</bg_color>
       <border_width>0</border_width>
+      <classification>/*</classification>
       <field_type>textarea</field_type>
       <font_color>#000000</font_color>
       <font_family>arial, helvetica, sans-serif</font_family>
@@ -23,7 +26,7 @@
       <font_weight>bold</font_weight>
       <is_disabled>0</is_disabled>
       <is_visible>1</is_visible>
-      <label>Description</label>
+      <label xml:lang="en">Description</label>
       <label_position>top</label_position>
       <list_no_blank>0</list_no_blank>
       <name>description</name>
@@ -35,12 +38,13 @@
       <tab_stop>1</tab_stop>
       <textarea_cols>64</textarea_cols>
       <textarea_rows>4</textarea_rows>
-      <x>208</x>
-      <y>115</y>
+      <x>207</x>
+      <y>94</y>
      </Item>
      <Item type="Field" id="B04B823504014450BA45F1ED06243E8E" action="add">
       <bg_color>#FFFFFF</bg_color>
       <border_width>0</border_width>
+      <classification>/*</classification>
       <field_type>item</field_type>
       <font_color>#000000</font_color>
       <font_family>arial, helvetica, sans-serif</font_family>
@@ -48,7 +52,7 @@
       <font_weight>bold</font_weight>
       <is_disabled>0</is_disabled>
       <is_visible>1</is_visible>
-      <label>File Name</label>
+      <label xml:lang="en">File Name</label>
       <label_position>top</label_position>
       <list_no_blank>0</list_no_blank>
       <name>file_name</name>
@@ -58,12 +62,13 @@
       <source_id keyed_name="10CFE0ECF51149BBA19244B31B73EA7A" type="Body">10CFE0ECF51149BBA19244B31B73EA7A</source_id>
       <tab_index>138</tab_index>
       <tab_stop>1</tab_stop>
-      <x>23</x>
-      <y>134</y>
+      <x>207</x>
+      <y>176</y>
      </Item>
      <Item type="Field" id="3F953DE682254E898C143A9D1F5F3CC6" action="add">
       <bg_color>#FFFFFF</bg_color>
       <border_width>0</border_width>
+      <classification>/*</classification>
       <display_length>6</display_length>
       <field_type>text</field_type>
       <font_color>#000000</font_color>
@@ -72,7 +77,7 @@
       <font_weight>bold</font_weight>
       <is_disabled>0</is_disabled>
       <is_visible>1</is_visible>
-      <label>Level</label>
+      <label xml:lang="en">Level</label>
       <label_position>top</label_position>
       <list_no_blank>0</list_no_blank>
       <name>iso_level</name>
@@ -87,6 +92,7 @@
      </Item>
      <Item type="Field" id="F73931146E2F4AD997714830AE44276C" action="add">
       <bg_color>#FFFFFF</bg_color>
+      <classification>/*</classification>
       <field_type>html</field_type>
       <html_code><![CDATA[<table border='0' cellspacing='0' cellpadding='0'>
 <tr><td colspan='2'>
@@ -120,6 +126,7 @@
      <Item type="Field" id="E28D6F06AB1F40A695F021314CD3806B" action="add">
       <bg_color>#FFFFFF</bg_color>
       <border_width>0</border_width>
+      <classification>/*</classification>
       <field_type>text</field_type>
       <font_color>#000000</font_color>
       <font_family>arial, helvetica, sans-serif</font_family>
@@ -127,7 +134,7 @@
       <font_weight>bold</font_weight>
       <is_disabled>0</is_disabled>
       <is_visible>1</is_visible>
-      <label>ISO Doc #</label>
+      <label xml:lang="en">ISO Doc #</label>
       <label_position>top</label_position>
       <list_no_blank>0</list_no_blank>
       <name>item_number</name>
@@ -143,6 +150,7 @@
      <Item type="Field" id="A88E431AA016474286EE4BB31D1AD862" action="add">
       <bg_color>#FFFFFF</bg_color>
       <border_width>0</border_width>
+      <classification>/*</classification>
       <field_type>item</field_type>
       <font_color>#000000</font_color>
       <font_family>arial, helvetica, sans-serif</font_family>
@@ -150,7 +158,7 @@
       <font_weight>bold</font_weight>
       <is_disabled>0</is_disabled>
       <is_visible>1</is_visible>
-      <label>Reviewer</label>
+      <label xml:lang="en">Reviewer</label>
       <label_position>top</label_position>
       <list_no_blank>0</list_no_blank>
       <name>managed_by_id</name>
@@ -165,6 +173,7 @@
      <Item type="Field" id="8E9FB8BBE8F4441CB94D67DBDD4746A7" action="add">
       <bg_color>#FFFFFF</bg_color>
       <border_width>0</border_width>
+      <classification>/*</classification>
       <field_type>item</field_type>
       <font_color>#000000</font_color>
       <font_family>arial, helvetica, sans-serif</font_family>
@@ -172,7 +181,7 @@
       <font_weight>bold</font_weight>
       <is_disabled>0</is_disabled>
       <is_visible>1</is_visible>
-      <label>Owner</label>
+      <label xml:lang="en">Owner</label>
       <label_position>top</label_position>
       <list_no_blank>0</list_no_blank>
       <name>owned_by_id</name>
@@ -187,6 +196,7 @@
      <Item type="Field" id="A9B7D352F1C0408C9A0D632694728AAE" action="add">
       <bg_color>#FFFFFF</bg_color>
       <border_width>0</border_width>
+      <classification>/*</classification>
       <field_type>text</field_type>
       <font_color>#000000</font_color>
       <font_family>arial, helvetica, sans-serif</font_family>
@@ -194,7 +204,7 @@
       <font_weight>bold</font_weight>
       <is_disabled>0</is_disabled>
       <is_visible>1</is_visible>
-      <label>Status</label>
+      <label xml:lang="en">Status</label>
       <label_position>top</label_position>
       <list_no_blank>0</list_no_blank>
       <name>state</name>

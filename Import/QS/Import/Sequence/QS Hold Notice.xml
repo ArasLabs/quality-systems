@@ -1,5 +1,6 @@
 ﻿<AML>
  <Item type="Sequence" id="8F0BC8A493DA40FAAD301A98F078E0EF" action="add">
+  <classification>/*</classification>
   <current_value>3045</current_value>
   <name>QS Hold Notice</name>
   <pad_to>4</pad_to>

@@ -1,31 +1,37 @@
 ﻿<AML>
  <Item type="Identity" id="A6A115DCD7E2439FAA479DDE3B8B47E4" action="add">
+  <classification>/*</classification>
   <description>Engineering Group</description>
   <is_alias>0</is_alias>
   <name>Engineering</name>
   </Item>
  <Item type="Member" id="6C8BC254C6C14882904FD9A5AD25C88C" action="add">
+  <classification>/*</classification>
   <related_id keyed_name="Administrators" type="Identity">2618D6F5A90949BAA7E920D1B04C7EE1</related_id>
   <sort_order>640</sort_order>
   <source_id keyed_name="Engineering" type="Identity">A6A115DCD7E2439FAA479DDE3B8B47E4</source_id>
  </Item>
  <Item type="Member" id="A5E3A934469D4D5196212DF0C6D1CC66" action="add">
+  <classification>/*</classification>
   <related_id keyed_name="Electrical Engineering" type="Identity">D5D96B7264384CB591CE8E75943A219A</related_id>
   <sort_order>896</sort_order>
   <source_id keyed_name="Engineering" type="Identity">A6A115DCD7E2439FAA479DDE3B8B47E4</source_id>
  </Item>
  <Item type="Member" id="A0DB7986C46E4B5682108065824E86DC" action="add">
+  <classification>/*</classification>
   <related_id keyed_name="Mechanical Engineering" type="Identity">BBD6080B4C044A149B889E4280D580FE</related_id>
   <sort_order>1024</sort_order>
   <source_id keyed_name="Engineering" type="Identity">A6A115DCD7E2439FAA479DDE3B8B47E4</source_id>
  </Item>
  <Item type="Member" id="DBA8B34DC6084C85A96F970FA6AF88ED" action="add">
+  <classification>/*</classification>
   <related_id keyed_name="Packaging Design" type="Identity">0CD02BE4B64549CFBB7A5442E17104FB</related_id>
   <sort_order>1152</sort_order>
   <source_id keyed_name="Engineering" type="Identity">A6A115DCD7E2439FAA479DDE3B8B47E4</source_id>
  </Item>
 
  <Item type="Member" id="D9A1925BE6AD4A72A9E9DAD2D8789BC2" action="add">
+  <classification>/*</classification>
   <related_id keyed_name="Software Engineering" type="Identity">974DC063D978416DBB94181D6AB95828</related_id>
   <sort_order>768</sort_order>
   <source_id keyed_name="Engineering" type="Identity">A6A115DCD7E2439FAA479DDE3B8B47E4</source_id>

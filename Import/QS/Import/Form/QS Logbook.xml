@@ -1,5 +1,6 @@
 ﻿<AML>
  <Item type="Form" id="13A03F28CC8D482CA70FF8E972E1C4B7" action="add">
+  <classification>/*</classification>
   <height>320</height>
   <name>QS Logbook</name>
   <stylesheet><![CDATA[../styles/default.css]]></stylesheet>
@@ -10,12 +11,14 @@
     <bg_color>#FFFFFF</bg_color>
     <bg_image>../images/Backgrounds/wvleft.gif</bg_image>
     <bg_repeat>no-repeat</bg_repeat>
+    <classification>/*</classification>
     <sort_order>128</sort_order>
     <source_id keyed_name="QS Logbook" type="Form">13A03F28CC8D482CA70FF8E972E1C4B7</source_id>
     <Relationships>
      <Item type="Field" id="73B0B677AECC4C1396759F2DC69A970C" action="add">
       <bg_color>#FFFFFF</bg_color>
       <border_width>0</border_width>
+      <classification>/*</classification>
       <field_type>date</field_type>
       <font_color>#000000</font_color>
       <font_family>arial, helvetica, sans-serif</font_family>
@@ -23,7 +26,7 @@
       <font_weight>bold</font_weight>
       <is_disabled>0</is_disabled>
       <is_visible>1</is_visible>
-      <label>Build Date</label>
+      <label xml:lang="en">Build Date</label>
       <label_position>top</label_position>
       <list_no_blank>0</list_no_blank>
       <name>build_code</name>
@@ -39,6 +42,7 @@
      <Item type="Field" id="B60EF519B036485C921BB37EAEF0937B" action="add">
       <bg_color>#FFFFFF</bg_color>
       <border_width>0</border_width>
+      <classification>/*</classification>
       <field_type>textarea</field_type>
       <font_color>#000000</font_color>
       <font_family>arial, helvetica, sans-serif</font_family>
@@ -46,7 +50,7 @@
       <font_weight>bold</font_weight>
       <is_disabled>0</is_disabled>
       <is_visible>1</is_visible>
-      <label>Descriptive Findings:</label>
+      <label xml:lang="en">Descriptive Findings:</label>
       <label_position>top</label_position>
       <list_no_blank>0</list_no_blank>
       <name>description</name>
@@ -64,6 +68,7 @@
      <Item type="Field" id="D9C54D8B01C642AF8B7666008ECA2CF3" action="add">
       <bg_color>#FFFFFF</bg_color>
       <border_width>0</border_width>
+      <classification>/*</classification>
       <display_length>6</display_length>
       <field_type>text</field_type>
       <font_color>#000000</font_color>
@@ -72,7 +77,7 @@
       <font_weight>bold</font_weight>
       <is_disabled>0</is_disabled>
       <is_visible>1</is_visible>
-      <label>Fail</label>
+      <label xml:lang="en">Fail</label>
       <label_position>top</label_position>
       <list_no_blank>0</list_no_blank>
       <name>fail</name>
@@ -87,6 +92,7 @@
      </Item>
      <Item type="Field" id="803CC390774340D193DCE6388FFDCA67" action="add">
       <bg_color>#FFFFFF</bg_color>
+      <classification>/*</classification>
       <field_type>html</field_type>
       <html_code><![CDATA[<table border='0' cellspacing='0' cellpadding='0'>
 <tr><td colspan='2'>
@@ -120,6 +126,7 @@
      <Item type="Field" id="D8A562B3650D4A66AD21BF16FCA042C0" action="add">
       <bg_color>#FFFFFF</bg_color>
       <border_width>0</border_width>
+      <classification>/*</classification>
       <field_type>text</field_type>
       <font_color>#000000</font_color>
       <font_family>arial, helvetica, sans-serif</font_family>
@@ -127,7 +134,7 @@
       <font_weight>bold</font_weight>
       <is_disabled>0</is_disabled>
       <is_visible>1</is_visible>
-      <label>LogBook #:</label>
+      <label xml:lang="en">LogBook #:</label>
       <label_position>top</label_position>
       <list_no_blank>0</list_no_blank>
       <name>item_number</name>
@@ -143,6 +150,7 @@
      <Item type="Field" id="BB4B265859E94039AD50C43FDA95BE03" action="add">
       <bg_color>#FFFFFF</bg_color>
       <border_width>0</border_width>
+      <classification>/*</classification>
       <display_length>15</display_length>
       <field_type>text</field_type>
       <font_color>#000000</font_color>
@@ -151,7 +159,7 @@
       <font_weight>bold</font_weight>
       <is_disabled>0</is_disabled>
       <is_visible>1</is_visible>
-      <label>Lot / Serial #:</label>
+      <label xml:lang="en">Lot / Serial #:</label>
       <label_position>top</label_position>
       <list_no_blank>0</list_no_blank>
       <name>lot_code</name>
@@ -167,6 +175,7 @@
      <Item type="Field" id="6C14836F7B1349B581C5A84C67C9D518" action="add">
       <bg_color>#FFFFFF</bg_color>
       <border_width>0</border_width>
+      <classification>/*</classification>
       <display_length>6</display_length>
       <field_type>text</field_type>
       <font_color>#000000</font_color>
@@ -175,7 +184,7 @@
       <font_weight>bold</font_weight>
       <is_disabled>0</is_disabled>
       <is_visible>1</is_visible>
-      <label>Lot Size:</label>
+      <label xml:lang="en">Lot Size:</label>
       <label_position>left</label_position>
       <list_no_blank>0</list_no_blank>
       <name>lot_size</name>
@@ -191,6 +200,7 @@
      <Item type="Field" id="026527E0824345B38BB2B44B7FDF890B" action="add">
       <bg_color>#FFFFFF</bg_color>
       <border_width>0</border_width>
+      <classification>/*</classification>
       <display_length>6</display_length>
       <field_type>text</field_type>
       <font_color>#000000</font_color>
@@ -199,7 +209,7 @@
       <font_weight>bold</font_weight>
       <is_disabled>0</is_disabled>
       <is_visible>1</is_visible>
-      <label>Number Of Cycles:</label>
+      <label xml:lang="en">Number Of Cycles:</label>
       <label_position>left</label_position>
       <list_no_blank>0</list_no_blank>
       <name>number_of_cycles</name>
@@ -215,6 +225,7 @@
      <Item type="Field" id="BEED77B01A874C4CB680FA55353BB1F6" action="add">
       <bg_color>#FFFFFF</bg_color>
       <border_width>0</border_width>
+      <classification>/*</classification>
       <field_type>item</field_type>
       <font_color>#000000</font_color>
       <font_family>arial, helvetica, sans-serif</font_family>
@@ -222,7 +233,7 @@
       <font_weight>bold</font_weight>
       <is_disabled>0</is_disabled>
       <is_visible>1</is_visible>
-      <label>Inspector:</label>
+      <label xml:lang="en">Inspector:</label>
       <label_position>top</label_position>
       <list_no_blank>0</list_no_blank>
       <name>owned_by_id</name>
@@ -237,6 +248,7 @@
      <Item type="Field" id="98DCBD17B41941B584E36CD0FAB6B4D3" action="add">
       <bg_color>#FFFFFF</bg_color>
       <border_width>0</border_width>
+      <classification>/*</classification>
       <field_type>item</field_type>
       <font_color>#000000</font_color>
       <font_family>arial, helvetica, sans-serif</font_family>
@@ -244,7 +256,7 @@
       <font_weight>bold</font_weight>
       <is_disabled>0</is_disabled>
       <is_visible>1</is_visible>
-      <label>Part:</label>
+      <label xml:lang="en">Part:</label>
       <label_position>top</label_position>
       <list_no_blank>0</list_no_blank>
       <name>part</name>
@@ -260,6 +272,7 @@
      <Item type="Field" id="77319361D241462C84B147478377E6D3" action="add">
       <bg_color>#FFFFFF</bg_color>
       <border_width>0</border_width>
+      <classification>/*</classification>
       <display_length>6</display_length>
       <field_type>text</field_type>
       <font_color>#000000</font_color>
@@ -268,7 +281,7 @@
       <font_weight>bold</font_weight>
       <is_disabled>0</is_disabled>
       <is_visible>1</is_visible>
-      <label>Pass</label>
+      <label xml:lang="en">Pass</label>
       <label_position>top</label_position>
       <list_no_blank>0</list_no_blank>
       <name>pass</name>
@@ -285,6 +298,7 @@
      <Item type="Field" id="775FFC7823C94F648C38C9EE0318B149" action="add">
       <bg_color>#FFFFFF</bg_color>
       <border_width>0</border_width>
+      <classification>/*</classification>
       <display_length>12</display_length>
       <field_type>date</field_type>
       <font_color>#000000</font_color>
@@ -293,7 +307,7 @@
       <font_weight>bold</font_weight>
       <is_disabled>0</is_disabled>
       <is_visible>1</is_visible>
-      <label>Test Date:</label>
+      <label xml:lang="en">Test Date:</label>
       <label_position>left</label_position>
       <list_no_blank>0</list_no_blank>
       <name>test_date</name>

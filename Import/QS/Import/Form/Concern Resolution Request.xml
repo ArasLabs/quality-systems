@@ -1,5 +1,6 @@
 ﻿<AML>
  <Item type="Form" id="28A0870299CE40D2A73A083A3EA0102F" action="add">
+  <classification>/*</classification>
   <height>750</height>
   <name>Concern Resolution Request</name>
   <stylesheet><![CDATA[../styles/default.css]]></stylesheet>
@@ -10,12 +11,14 @@
     <bg_color>#FFFFFF</bg_color>
     <bg_image>../images/Backgrounds/wvleft.gif</bg_image>
     <bg_repeat>no-repeat</bg_repeat>
+    <classification>/*</classification>
     <sort_order>128</sort_order>
     <source_id keyed_name="Concern Resolution Request" type="Form">28A0870299CE40D2A73A083A3EA0102F</source_id>
     <Relationships>
      <Item type="Field" id="C800321601924ABEA66BE69EC20BC689" action="add">
       <bg_color>#FFFFFF</bg_color>
       <border_width>0</border_width>
+      <classification>/*</classification>
       <field_type>checkbox</field_type>
       <font_color>#000000</font_color>
       <font_family>arial, helvetica, sans-serif</font_family>
@@ -23,7 +26,7 @@
       <font_weight>bold</font_weight>
       <is_disabled>0</is_disabled>
       <is_visible>1</is_visible>
-      <label>A Bay</label>
+      <label xml:lang="en">A Bay</label>
       <label_position>left</label_position>
       <list_no_blank>0</list_no_blank>
       <name>a_bay</name>
@@ -39,6 +42,7 @@
      <Item type="Field" id="01BCA96CB10B4F87999FD962C9F25B8A" action="add">
       <bg_color>#FFFFFF</bg_color>
       <border_width>0</border_width>
+      <classification>/*</classification>
       <field_type>date</field_type>
       <font_color>#000000</font_color>
       <font_family>arial, helvetica, sans-serif</font_family>
@@ -46,7 +50,7 @@
       <font_weight>bold</font_weight>
       <is_disabled>0</is_disabled>
       <is_visible>1</is_visible>
-      <label>Assembly Date: </label>
+      <label xml:lang="en">Assembly Date: </label>
       <label_position>left</label_position>
       <list_no_blank>0</list_no_blank>
       <name>assembly_date</name>
@@ -62,6 +66,7 @@
      <Item type="Field" id="D22FFC87C6854058A58FFB44A247CA3B" action="add">
       <bg_color>#FFFFFF</bg_color>
       <border_width>0</border_width>
+      <classification>/*</classification>
       <field_type>radio button list</field_type>
       <font_color>#000000</font_color>
       <font_family>arial, helvetica, sans-serif</font_family>
@@ -69,7 +74,7 @@
       <font_weight>bold</font_weight>
       <is_disabled>0</is_disabled>
       <is_visible>1</is_visible>
-      <label>Sample Parts Available: </label>
+      <label xml:lang="en">Sample Parts Available: </label>
       <label_position>left</label_position>
       <list_no_blank>0</list_no_blank>
       <name>avail_sample_parts</name>
@@ -85,6 +90,7 @@
      <Item type="Field" id="E75FEF49198743BCB9354BD8529D83A1" action="add">
       <bg_color>#FFFFFF</bg_color>
       <border_width>0</border_width>
+      <classification>/*</classification>
       <field_type>radio button list</field_type>
       <font_color>#000000</font_color>
       <font_family>arial, helvetica, sans-serif</font_family>
@@ -92,7 +98,7 @@
       <font_weight>bold</font_weight>
       <is_disabled>0</is_disabled>
       <is_visible>1</is_visible>
-      <label>Clear Pictures Available: </label>
+      <label xml:lang="en">Clear Pictures Available: </label>
       <label_position>left</label_position>
       <list_no_blank>0</list_no_blank>
       <name>clear_pictures</name>
@@ -108,6 +114,7 @@
      <Item type="Field" id="6333D8DDCA4949D98BD62C444BCED123" action="add">
       <bg_color>#FFFFFF</bg_color>
       <border_width>0</border_width>
+      <classification>/*</classification>
       <field_type>textarea</field_type>
       <font_color>#000000</font_color>
       <font_family>arial, helvetica, sans-serif</font_family>
@@ -115,7 +122,7 @@
       <font_weight>bold</font_weight>
       <is_disabled>0</is_disabled>
       <is_visible>1</is_visible>
-      <label>Concern Description</label>
+      <label xml:lang="en">Concern Description</label>
       <label_position>top</label_position>
       <list_no_blank>0</list_no_blank>
       <name>concern_description</name>
@@ -133,6 +140,7 @@
      <Item type="Field" id="AC598BF75E04421A80E47B1B8EB146EC" action="add">
       <bg_color>beige  </bg_color>
       <border_width>0</border_width>
+      <classification>/*</classification>
       <field_type>date</field_type>
       <font_color>#000000</font_color>
       <font_family>arial, helvetica, sans-serif</font_family>
@@ -140,7 +148,7 @@
       <font_weight>bold</font_weight>
       <is_disabled>0</is_disabled>
       <is_visible>1</is_visible>
-      <label>Date:</label>
+      <label xml:lang="en">Date:</label>
       <label_position>left</label_position>
       <list_no_blank>0</list_no_blank>
       <name>created_on</name>
@@ -155,6 +163,7 @@
      <Item type="Field" id="8F24C358A9CE46B18A0F5A2C95BA0B06" action="add">
       <bg_color>#FFFFFF</bg_color>
       <border_width>0</border_width>
+      <classification>/*</classification>
       <display_length>35</display_length>
       <field_type>item</field_type>
       <font_color>#000000</font_color>
@@ -163,7 +172,7 @@
       <font_weight>bold</font_weight>
       <is_disabled>0</is_disabled>
       <is_visible>1</is_visible>
-      <label>Customer:</label>
+      <label xml:lang="en">Customer:</label>
       <label_position>left</label_position>
       <list_no_blank>0</list_no_blank>
       <name>customer</name>
@@ -179,6 +188,7 @@
      <Item type="Field" id="A60860B728B44D0792CA6268296EAFFE" action="add">
       <bg_color>#FFFFFF</bg_color>
       <border_width>0</border_width>
+      <classification>/*</classification>
       <display_length>25</display_length>
       <field_type>item</field_type>
       <font_color>#000000</font_color>
@@ -187,7 +197,7 @@
       <font_weight>bold</font_weight>
       <is_disabled>0</is_disabled>
       <is_visible>1</is_visible>
-      <label>Contact Filing Concern: </label>
+      <label xml:lang="en">Contact Filing Concern: </label>
       <label_position>left</label_position>
       <list_no_blank>0</list_no_blank>
       <name>customer_contact</name>
@@ -203,6 +213,7 @@
      <Item type="Field" id="D87C5C3A59464AD59F79D9942BCFD46A" action="add">
       <bg_color>#FFFFFF</bg_color>
       <border_width>0</border_width>
+      <classification>/*</classification>
       <field_type>checkbox</field_type>
       <font_color>#000000</font_color>
       <font_family>arial, helvetica, sans-serif</font_family>
@@ -210,7 +221,7 @@
       <font_weight>bold</font_weight>
       <is_disabled>0</is_disabled>
       <is_visible>1</is_visible>
-      <label>Customer</label>
+      <label xml:lang="en">Customer</label>
       <label_position>left</label_position>
       <list_no_blank>0</list_no_blank>
       <name>customer_issue</name>
@@ -226,6 +237,7 @@
      <Item type="Field" id="152F195934054E3E9CB5E9777D5FA431" action="add">
       <bg_color>#FFFFFF</bg_color>
       <border_width>0</border_width>
+      <classification>/*</classification>
       <display_length>30</display_length>
       <field_type>text</field_type>
       <font_color>#000000</font_color>
@@ -234,7 +246,7 @@
       <font_weight>bold</font_weight>
       <is_disabled>0</is_disabled>
       <is_visible>1</is_visible>
-      <label>Dept:</label>
+      <label xml:lang="en">Dept:</label>
       <label_position>left</label_position>
       <list_no_blank>0</list_no_blank>
       <name>dept</name>
@@ -250,6 +262,7 @@
      <Item type="Field" id="B7A9816C83214DD0869EE40E79A154C7" action="add">
       <bg_color>#FFFFFF</bg_color>
       <border_width>0</border_width>
+      <classification>/*</classification>
       <field_type>text</field_type>
       <font_color>#000000</font_color>
       <font_family>arial, helvetica, sans-serif</font_family>
@@ -257,7 +270,7 @@
       <font_weight>bold</font_weight>
       <is_disabled>0</is_disabled>
       <is_visible>1</is_visible>
-      <label>Die OP #: </label>
+      <label xml:lang="en">Die OP #: </label>
       <label_position>left</label_position>
       <list_no_blank>0</list_no_blank>
       <name>die_op_num</name>
@@ -273,6 +286,7 @@
      <Item type="Field" id="539D38A3CFD3427DAB42D9531D51820F" action="add">
       <bg_color>#FFFFFF</bg_color>
       <border_width>0</border_width>
+      <classification>/*</classification>
       <field_type>checkbox</field_type>
       <font_color>#000000</font_color>
       <font_family>arial, helvetica, sans-serif</font_family>
@@ -280,7 +294,7 @@
       <font_weight>bold</font_weight>
       <is_disabled>0</is_disabled>
       <is_visible>1</is_visible>
-      <label>Dock Audit</label>
+      <label xml:lang="en">Dock Audit</label>
       <label_position>left</label_position>
       <list_no_blank>0</list_no_blank>
       <name>dock_audit</name>
@@ -296,6 +310,7 @@
      <Item type="Field" id="089382445A684CBFB65493250E478559" action="add">
       <bg_color>#FFFFFF</bg_color>
       <border_width>0</border_width>
+      <classification>/*</classification>
       <field_type>checkbox</field_type>
       <font_color>#000000</font_color>
       <font_family>arial, helvetica, sans-serif</font_family>
@@ -303,7 +318,7 @@
       <font_weight>bold</font_weight>
       <is_disabled>0</is_disabled>
       <is_visible>1</is_visible>
-      <label>F Bay</label>
+      <label xml:lang="en">F Bay</label>
       <label_position>left</label_position>
       <list_no_blank>0</list_no_blank>
       <name>f_bay</name>
@@ -319,6 +334,7 @@
      <Item type="Field" id="ACC7F2B23F394821826732015DDFE988" action="add">
       <bg_color>#FFFFFF</bg_color>
       <border_width>0</border_width>
+      <classification>/*</classification>
       <field_type>item</field_type>
       <font_color>#000000</font_color>
       <font_family>arial, helvetica, sans-serif</font_family>
@@ -326,7 +342,7 @@
       <font_weight>bold</font_weight>
       <is_disabled>0</is_disabled>
       <is_visible>1</is_visible>
-      <label>Initiated By: </label>
+      <label xml:lang="en">Initiated By: </label>
       <label_position>left</label_position>
       <list_no_blank>0</list_no_blank>
       <name>initiated_by</name>
@@ -342,6 +358,7 @@
      <Item type="Field" id="001011D3D45C495581EEF06225432FF1" action="add">
       <bg_color>#FFFFFF</bg_color>
       <border_width>0</border_width>
+      <classification>/*</classification>
       <display_length>30</display_length>
       <field_type>text</field_type>
       <font_color>#000000</font_color>
@@ -350,7 +367,7 @@
       <font_weight>bold</font_weight>
       <is_disabled>0</is_disabled>
       <is_visible>1</is_visible>
-      <label>Initiated Dept: </label>
+      <label xml:lang="en">Initiated Dept: </label>
       <label_position>left</label_position>
       <list_no_blank>0</list_no_blank>
       <name>initiated_dept</name>
@@ -366,6 +383,7 @@
      <Item type="Field" id="EEDE6B61B042457B906DF95994009A3B" action="add">
       <bg_color>#FFFFFF</bg_color>
       <border_width>0</border_width>
+      <classification>/*</classification>
       <field_type>checkbox</field_type>
       <font_color>#000000</font_color>
       <font_family>arial, helvetica, sans-serif</font_family>
@@ -373,7 +391,7 @@
       <font_weight>bold</font_weight>
       <is_disabled>0</is_disabled>
       <is_visible>1</is_visible>
-      <label>Internal</label>
+      <label xml:lang="en">Internal</label>
       <label_position>left</label_position>
       <list_no_blank>0</list_no_blank>
       <name>internal</name>
@@ -388,6 +406,7 @@
      </Item>
      <Item type="Field" id="1C90C50181A14B06A580B4C1355D6C9E" action="add">
       <bg_color>#FFFFFF</bg_color>
+      <classification>/*</classification>
       <field_type>html</field_type>
       <html_code><![CDATA[<table border='0' cellspacing='0' cellpadding='0'>
 <tr><td colspan='2'>
@@ -421,6 +440,7 @@
      <Item type="Field" id="31382A10D4EA4019A3D258A1B142150C" action="add">
       <bg_color>#FFFFFF</bg_color>
       <border_width>0</border_width>
+      <classification>/*</classification>
       <field_type>checkbox</field_type>
       <font_color>#000000</font_color>
       <font_family>arial, helvetica, sans-serif</font_family>
@@ -428,7 +448,7 @@
       <font_weight>bold</font_weight>
       <is_disabled>0</is_disabled>
       <is_visible>1</is_visible>
-      <label>Liason</label>
+      <label xml:lang="en">Liason</label>
       <label_position>left</label_position>
       <list_no_blank>0</list_no_blank>
       <name>liason</name>
@@ -444,6 +464,7 @@
      <Item type="Field" id="6329A4A7A1C44D47B901AC31A1FDDDCE" action="add">
       <bg_color>#FFFFFF</bg_color>
       <border_width>0</border_width>
+      <classification>/*</classification>
       <field_type>text</field_type>
       <font_color>#000000</font_color>
       <font_family>arial, helvetica, sans-serif</font_family>
@@ -451,7 +472,7 @@
       <font_weight>bold</font_weight>
       <is_disabled>0</is_disabled>
       <is_visible>1</is_visible>
-      <label>Line: </label>
+      <label xml:lang="en">Line: </label>
       <label_position>left</label_position>
       <list_no_blank>0</list_no_blank>
       <name>line</name>
@@ -467,6 +488,7 @@
      <Item type="Field" id="14AF8EFCC4A34D928430FFDD3ADE912D" action="add">
       <bg_color>#FFFFFF</bg_color>
       <border_width>0</border_width>
+      <classification>/*</classification>
       <display_length>30</display_length>
       <field_type>item</field_type>
       <font_color>#000000</font_color>
@@ -475,7 +497,7 @@
       <font_weight>bold</font_weight>
       <is_disabled>0</is_disabled>
       <is_visible>1</is_visible>
-      <label>Machine: </label>
+      <label xml:lang="en">Machine: </label>
       <label_position>left</label_position>
       <list_no_blank>0</list_no_blank>
       <name>machine</name>
@@ -491,6 +513,7 @@
      <Item type="Field" id="B14EA4A4A184416A8174CDB3B863C88C" action="add">
       <bg_color>#FFFFFF</bg_color>
       <border_width>0</border_width>
+      <classification>/*</classification>
       <display_length>25</display_length>
       <field_type>text</field_type>
       <font_color>#000000</font_color>
@@ -499,7 +522,7 @@
       <font_weight>bold</font_weight>
       <is_disabled>0</is_disabled>
       <is_visible>1</is_visible>
-      <label>No. Parts: </label>
+      <label xml:lang="en">No. Parts: </label>
       <label_position>left</label_position>
       <list_no_blank>0</list_no_blank>
       <name>no_of_parts</name>
@@ -515,6 +538,7 @@
      <Item type="Field" id="D71AABE567844FB19D49F3E979EBAC35" action="add">
       <bg_color>#FFFFFF</bg_color>
       <border_width>0</border_width>
+      <classification>/*</classification>
       <display_length>45</display_length>
       <field_type>item</field_type>
       <font_color>#000000</font_color>
@@ -523,7 +547,7 @@
       <font_weight>bold</font_weight>
       <is_disabled>0</is_disabled>
       <is_visible>1</is_visible>
-      <label>Part: </label>
+      <label xml:lang="en">Part: </label>
       <label_position>left</label_position>
       <list_no_blank>0</list_no_blank>
       <name>part</name>
@@ -539,6 +563,7 @@
      <Item type="Field" id="13343AB582F14351837689BFA53BEC95" action="add">
       <bg_color>#FFFFFF</bg_color>
       <border_width>0</border_width>
+      <classification>/*</classification>
       <display_length>30</display_length>
       <field_type>text</field_type>
       <font_color>#000000</font_color>
@@ -547,7 +572,7 @@
       <font_weight>bold</font_weight>
       <is_disabled>0</is_disabled>
       <is_visible>1</is_visible>
-      <label>Part Number: </label>
+      <label xml:lang="en">Part Number: </label>
       <label_position>left</label_position>
       <list_no_blank>0</list_no_blank>
       <name>part_number</name>
@@ -563,6 +588,7 @@
      <Item type="Field" id="661901BEA0C84D30B9D653E4C3274A39" action="add">
       <bg_color>#FFFFFF</bg_color>
       <border_width>0</border_width>
+      <classification>/*</classification>
       <field_type>item</field_type>
       <font_color>#000000</font_color>
       <font_family>arial, helvetica, sans-serif</font_family>
@@ -570,7 +596,7 @@
       <font_weight>bold</font_weight>
       <is_disabled>0</is_disabled>
       <is_visible>1</is_visible>
-      <label>Project / ECN #: </label>
+      <label xml:lang="en">Project / ECN #: </label>
       <label_position>left</label_position>
       <list_no_blank>0</list_no_blank>
       <name>project_num</name>
@@ -586,6 +612,7 @@
      <Item type="Field" id="C07877517988403F8345D1151EAA3959" action="add">
       <bg_color>#FFFFFF</bg_color>
       <border_width>0</border_width>
+      <classification>/*</classification>
       <field_type>text</field_type>
       <font_color>#000000</font_color>
       <font_family>arial, helvetica, sans-serif</font_family>
@@ -593,7 +620,7 @@
       <font_weight>bold</font_weight>
       <is_disabled>0</is_disabled>
       <is_visible>1</is_visible>
-      <label>Qty? / OP #: </label>
+      <label xml:lang="en">Qty? / OP #: </label>
       <label_position>left</label_position>
       <list_no_blank>0</list_no_blank>
       <name>qty_op_num</name>
@@ -609,6 +636,7 @@
      <Item type="Field" id="0837EF7D7C3E4C848E18B41FC25C4D58" action="add">
       <bg_color>#FFFFFF</bg_color>
       <border_width>0</border_width>
+      <classification>/*</classification>
       <field_type>dropdown</field_type>
       <font_color>#000000</font_color>
       <font_family>arial, helvetica, sans-serif</font_family>
@@ -616,7 +644,7 @@
       <font_weight>bold</font_weight>
       <is_disabled>0</is_disabled>
       <is_visible>1</is_visible>
-      <label>"This Is A Quality Rejection, A Reponse Required Within 24 Hr: </label>
+      <label xml:lang="en">"This Is A Quality Rejection, A Reponse Required Within 24 Hr: </label>
       <label_position>left</label_position>
       <list_no_blank>0</list_no_blank>
       <name>resp_24_hr</name>
@@ -632,6 +660,7 @@
      <Item type="Field" id="A5A2EEC1274543BCBE47DC2666462FF9" action="add">
       <bg_color>#FFFFFF</bg_color>
       <border_width>0</border_width>
+      <classification>/*</classification>
       <field_type>radio button list</field_type>
       <font_color>#000000</font_color>
       <font_family>arial, helvetica, sans-serif</font_family>
@@ -639,7 +668,7 @@
       <font_weight>bold</font_weight>
       <is_disabled>0</is_disabled>
       <is_visible>1</is_visible>
-      <label>Save OP Panels: </label>
+      <label xml:lang="en">Save OP Panels: </label>
       <label_position>left</label_position>
       <list_no_blank>0</list_no_blank>
       <name>save_op_panels</name>
@@ -655,6 +684,7 @@
      <Item type="Field" id="107E25807F864F068CEE74C874F726C4" action="add">
       <bg_color>#FFFFFF</bg_color>
       <border_width>0</border_width>
+      <classification>/*</classification>
       <field_type>text</field_type>
       <font_color>#000000</font_color>
       <font_family>arial, helvetica, sans-serif</font_family>
@@ -662,7 +692,7 @@
       <font_weight>bold</font_weight>
       <is_disabled>0</is_disabled>
       <is_visible>1</is_visible>
-      <label>Serial Number: </label>
+      <label xml:lang="en">Serial Number: </label>
       <label_position>left</label_position>
       <list_no_blank>0</list_no_blank>
       <name>serial_number</name>
@@ -678,6 +708,7 @@
      <Item type="Field" id="FD00E3EB812D4A93AE47C9EE01118EA1" action="add">
       <bg_color>#FFFFFF</bg_color>
       <border_width>0</border_width>
+      <classification>/*</classification>
       <field_type>dropdown</field_type>
       <font_color>#000000</font_color>
       <font_family>arial, helvetica, sans-serif</font_family>
@@ -685,7 +716,7 @@
       <font_weight>bold</font_weight>
       <is_disabled>0</is_disabled>
       <is_visible>1</is_visible>
-      <label>Shift: </label>
+      <label xml:lang="en">Shift: </label>
       <label_position>left</label_position>
       <list_no_blank>0</list_no_blank>
       <name>shift</name>
@@ -701,6 +732,7 @@
      <Item type="Field" id="2158F448395A4E0C9D65B95A36A1DE71" action="add">
       <bg_color>#FFFFFF</bg_color>
       <border_width>0</border_width>
+      <classification>/*</classification>
       <field_type>date</field_type>
       <font_color>#000000</font_color>
       <font_family>arial, helvetica, sans-serif</font_family>
@@ -708,7 +740,7 @@
       <font_weight>bold</font_weight>
       <is_disabled>0</is_disabled>
       <is_visible>1</is_visible>
-      <label>Ship Date: </label>
+      <label xml:lang="en">Ship Date: </label>
       <label_position>left</label_position>
       <list_no_blank>0</list_no_blank>
       <name>ship_date</name>
@@ -724,6 +756,7 @@
      <Item type="Field" id="180C6DFF8E704F7C933EE7CE3E9E44D8" action="add">
       <bg_color>#FFFFFF</bg_color>
       <border_width>0</border_width>
+      <classification>/*</classification>
       <field_type>date</field_type>
       <font_color>#000000</font_color>
       <font_family>arial, helvetica, sans-serif</font_family>
@@ -731,7 +764,7 @@
       <font_weight>bold</font_weight>
       <is_disabled>0</is_disabled>
       <is_visible>1</is_visible>
-      <label>Stamp Date: </label>
+      <label xml:lang="en">Stamp Date: </label>
       <label_position>left</label_position>
       <list_no_blank>0</list_no_blank>
       <name>stamp_date</name>
@@ -747,6 +780,7 @@
      <Item type="Field" id="1F7E52B09720403BBBCE43C8EE6302D0" action="add">
       <bg_color>#FFFFFF</bg_color>
       <border_width>0</border_width>
+      <classification>/*</classification>
       <field_type>item</field_type>
       <font_color>#000000</font_color>
       <font_family>arial, helvetica, sans-serif</font_family>
@@ -754,7 +788,7 @@
       <font_weight>bold</font_weight>
       <is_disabled>0</is_disabled>
       <is_visible>1</is_visible>
-      <label>Tool And Equip #: </label>
+      <label xml:lang="en">Tool And Equip #: </label>
       <label_position>left</label_position>
       <list_no_blank>0</list_no_blank>
       <name>tool_and_equipment</name>

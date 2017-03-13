@@ -1,5 +1,6 @@
 ﻿<AML>
  <Item type="Form" id="0D564DE6759B4D65AF31C2B9CD5CF79E" action="add">
+  <classification>/*</classification>
   <height>600</height>
   <name>Five Whys</name>
   <stylesheet><![CDATA[../styles/default.css]]></stylesheet>
@@ -10,12 +11,14 @@
     <bg_color>#ffffff</bg_color>
     <bg_image>../images/Backgrounds/wvleft.gif</bg_image>
     <bg_repeat>no-repeat</bg_repeat>
+    <classification>/*</classification>
     <sort_order>128</sort_order>
     <source_id keyed_name="Five Whys" type="Form">0D564DE6759B4D65AF31C2B9CD5CF79E</source_id>
     <Relationships>
      <Item type="Field" id="11667C920FDA47F0ABC8CC367632B97E" action="add">
       <bg_color>#FFFFFF</bg_color>
       <border_width>0</border_width>
+      <classification>/*</classification>
       <field_type>textarea</field_type>
       <font_color>#000000</font_color>
       <font_family>arial, helvetica, sans-serif</font_family>
@@ -23,7 +26,7 @@
       <font_weight>bold</font_weight>
       <is_disabled>0</is_disabled>
       <is_visible>1</is_visible>
-      <label>Problem Description</label>
+      <label xml:lang="en">Problem Description</label>
       <label_position>left</label_position>
       <list_no_blank>0</list_no_blank>
       <name>description</name>
@@ -41,6 +44,7 @@
      <Item type="Field" id="7440AD3CDA2946EAAC7D8E3A866F7F0F" action="add">
       <bg_color>#FFFFFF</bg_color>
       <border_width>0</border_width>
+      <classification>/*</classification>
       <field_type>html</field_type>
       <font_color>#000000</font_color>
       <font_family>arial, helvetica, sans-serif</font_family>
@@ -74,6 +78,7 @@ if (DocItem != null) {
      </Item>
      <Item type="Field" id="413BDE73FC704C238325E56BFF9E0B50" action="add">
       <bg_color>#FFFFFF</bg_color>
+      <classification>/*</classification>
       <field_type>html</field_type>
       <font_color>#004080</font_color>
       <font_size>25</font_size>
@@ -81,7 +86,7 @@ if (DocItem != null) {
       <html_code></html_code>
       <is_disabled>0</is_disabled>
       <is_visible>1</is_visible>
-      <label>5 Why's Analysis</label>
+      <label xml:lang="en">5 Why's Analysis</label>
       <list_no_blank>0</list_no_blank>
       <name>item_info</name>
       <positioning>absolute</positioning>
@@ -94,6 +99,7 @@ if (DocItem != null) {
      <Item type="Field" id="B3ABEBE5083D4B63B34C11ACE3BA0823" action="add">
       <bg_color>#FFFFFF</bg_color>
       <border_width>0</border_width>
+      <classification>/*</classification>
       <field_type>text</field_type>
       <font_color>#000000</font_color>
       <font_family>arial, helvetica, sans-serif</font_family>
@@ -101,7 +107,7 @@ if (DocItem != null) {
       <font_weight>bold</font_weight>
       <is_disabled>0</is_disabled>
       <is_visible>1</is_visible>
-      <label>Root Cause #</label>
+      <label xml:lang="en">Root Cause #</label>
       <label_position>top</label_position>
       <list_no_blank>0</list_no_blank>
       <name>item_number</name>
@@ -117,6 +123,7 @@ if (DocItem != null) {
      <Item type="Field" id="C5160DFC04C7487780F331310DE76931" action="add">
       <bg_color>#FFFFFF</bg_color>
       <border_width>0</border_width>
+      <classification>/*</classification>
       <field_type>item</field_type>
       <font_color>#000000</font_color>
       <font_family>arial, helvetica, sans-serif</font_family>
@@ -124,7 +131,7 @@ if (DocItem != null) {
       <font_weight>bold</font_weight>
       <is_disabled>0</is_disabled>
       <is_visible>1</is_visible>
-      <label>Reviewer</label>
+      <label xml:lang="en">Reviewer</label>
       <label_position>top</label_position>
       <list_no_blank>0</list_no_blank>
       <name>managed_by_id</name>
@@ -139,6 +146,7 @@ if (DocItem != null) {
      <Item type="Field" id="2AD9B1EC536741C392847DAC223CB9E5" action="add">
       <bg_color>#FFFFFF</bg_color>
       <border_width>0</border_width>
+      <classification>/*</classification>
       <field_type>item</field_type>
       <font_color>#000000</font_color>
       <font_family>arial, helvetica, sans-serif</font_family>
@@ -146,7 +154,7 @@ if (DocItem != null) {
       <font_weight>bold</font_weight>
       <is_disabled>0</is_disabled>
       <is_visible>1</is_visible>
-      <label>Owner</label>
+      <label xml:lang="en">Owner</label>
       <label_position>top</label_position>
       <list_no_blank>0</list_no_blank>
       <name>owned_by_id</name>
@@ -161,6 +169,7 @@ if (DocItem != null) {
      <Item type="Field" id="99FB6C525859406EA8A55990894EDB2E" action="add">
       <bg_color>#FFFFFF</bg_color>
       <border_width>0</border_width>
+      <classification>/*</classification>
       <field_type>item</field_type>
       <font_color>#000000</font_color>
       <font_family>arial, helvetica, sans-serif</font_family>
@@ -168,7 +177,7 @@ if (DocItem != null) {
       <font_weight>bold</font_weight>
       <is_disabled>0</is_disabled>
       <is_visible>1</is_visible>
-      <label>Related Part</label>
+      <label xml:lang="en">Related Part</label>
       <label_position>top</label_position>
       <list_no_blank>0</list_no_blank>
       <name>related_part</name>
@@ -184,6 +193,7 @@ if (DocItem != null) {
      <Item type="Field" id="EE267E2D17264A11880DAF0B1573A636" action="add">
       <bg_color>#FFFFFF</bg_color>
       <border_width>0</border_width>
+      <classification>/*</classification>
       <display_length>100</display_length>
       <field_type>text</field_type>
       <font_color>#000000</font_color>
@@ -192,7 +202,7 @@ if (DocItem != null) {
       <font_weight>bold</font_weight>
       <is_disabled>0</is_disabled>
       <is_visible>1</is_visible>
-      <label>Why #1</label>
+      <label xml:lang="en">Why #1</label>
       <label_position>left</label_position>
       <list_no_blank>0</list_no_blank>
       <name>why_1</name>
@@ -210,6 +220,7 @@ if (DocItem != null) {
      <Item type="Field" id="3007E8A57D9648AC98C7061B5E112193" action="add">
       <bg_color>#FFFFFF</bg_color>
       <border_width>0</border_width>
+      <classification>/*</classification>
       <field_type>textarea</field_type>
       <font_color>#0423c1</font_color>
       <font_family>arial, helvetica, sans-serif</font_family>
@@ -217,7 +228,7 @@ if (DocItem != null) {
       <font_weight>bold</font_weight>
       <is_disabled>0</is_disabled>
       <is_visible>1</is_visible>
-      <label>Answer: </label>
+      <label xml:lang="en">Answer: </label>
       <label_position>left</label_position>
       <list_no_blank>0</list_no_blank>
       <name>why_1_answer</name>
@@ -235,6 +246,7 @@ if (DocItem != null) {
      <Item type="Field" id="5AF3E3AFD6DF49448FA682BB65AE4AA7" action="add">
       <bg_color>#FFFFFF</bg_color>
       <border_width>0</border_width>
+      <classification>/*</classification>
       <display_length>100</display_length>
       <field_type>text</field_type>
       <font_color>#000000</font_color>
@@ -243,7 +255,7 @@ if (DocItem != null) {
       <font_weight>bold</font_weight>
       <is_disabled>0</is_disabled>
       <is_visible>1</is_visible>
-      <label>Why #2</label>
+      <label xml:lang="en">Why #2</label>
       <label_position>left</label_position>
       <list_no_blank>0</list_no_blank>
       <name>why_2</name>
@@ -261,6 +273,7 @@ if (DocItem != null) {
      <Item type="Field" id="423744857E8A4C73A9723DF63598B35D" action="add">
       <bg_color>#FFFFFF</bg_color>
       <border_width>0</border_width>
+      <classification>/*</classification>
       <field_type>textarea</field_type>
       <font_color>#0423c1</font_color>
       <font_family>arial, helvetica, sans-serif</font_family>
@@ -268,7 +281,7 @@ if (DocItem != null) {
       <font_weight>bold</font_weight>
       <is_disabled>0</is_disabled>
       <is_visible>1</is_visible>
-      <label>Answer: </label>
+      <label xml:lang="en">Answer: </label>
       <label_position>left</label_position>
       <list_no_blank>0</list_no_blank>
       <name>why_2_answer</name>
@@ -286,6 +299,7 @@ if (DocItem != null) {
      <Item type="Field" id="CDC15E7C566A434B9E34C9DEFAB59542" action="add">
       <bg_color>#FFFFFF</bg_color>
       <border_width>0</border_width>
+      <classification>/*</classification>
       <display_length>100</display_length>
       <field_type>text</field_type>
       <font_color>#000000</font_color>
@@ -294,7 +308,7 @@ if (DocItem != null) {
       <font_weight>bold</font_weight>
       <is_disabled>0</is_disabled>
       <is_visible>1</is_visible>
-      <label>Why #3</label>
+      <label xml:lang="en">Why #3</label>
       <label_position>left</label_position>
       <list_no_blank>0</list_no_blank>
       <name>why_3</name>
@@ -312,6 +326,7 @@ if (DocItem != null) {
      <Item type="Field" id="D80D8C181F794F4DBF33DE1FE45D845E" action="add">
       <bg_color>#FFFFFF</bg_color>
       <border_width>0</border_width>
+      <classification>/*</classification>
       <field_type>textarea</field_type>
       <font_color>#0423c1</font_color>
       <font_family>arial, helvetica, sans-serif</font_family>
@@ -319,7 +334,7 @@ if (DocItem != null) {
       <font_weight>bold</font_weight>
       <is_disabled>0</is_disabled>
       <is_visible>1</is_visible>
-      <label>Answer: </label>
+      <label xml:lang="en">Answer: </label>
       <label_position>left</label_position>
       <list_no_blank>0</list_no_blank>
       <name>why_3_answer</name>
@@ -337,6 +352,7 @@ if (DocItem != null) {
      <Item type="Field" id="7487E26D8D614CA0A348E02832D39286" action="add">
       <bg_color>#FFFFFF</bg_color>
       <border_width>0</border_width>
+      <classification>/*</classification>
       <display_length>100</display_length>
       <field_type>text</field_type>
       <font_color>#000000</font_color>
@@ -345,7 +361,7 @@ if (DocItem != null) {
       <font_weight>bold</font_weight>
       <is_disabled>0</is_disabled>
       <is_visible>1</is_visible>
-      <label>Why #4</label>
+      <label xml:lang="en">Why #4</label>
       <label_position>left</label_position>
       <list_no_blank>0</list_no_blank>
       <name>why_4</name>
@@ -363,6 +379,7 @@ if (DocItem != null) {
      <Item type="Field" id="64096E88EE4E4CEB88CA4FA5E607504D" action="add">
       <bg_color>#FFFFFF</bg_color>
       <border_width>0</border_width>
+      <classification>/*</classification>
       <field_type>textarea</field_type>
       <font_color>#0423c1</font_color>
       <font_family>arial, helvetica, sans-serif</font_family>
@@ -370,7 +387,7 @@ if (DocItem != null) {
       <font_weight>bold</font_weight>
       <is_disabled>0</is_disabled>
       <is_visible>1</is_visible>
-      <label>Answer: </label>
+      <label xml:lang="en">Answer: </label>
       <label_position>left</label_position>
       <list_no_blank>0</list_no_blank>
       <name>why_4_answer</name>
@@ -388,6 +405,7 @@ if (DocItem != null) {
      <Item type="Field" id="563CCA18F0424D0E84340D78E4E6DA26" action="add">
       <bg_color>#FFFFFF</bg_color>
       <border_width>0</border_width>
+      <classification>/*</classification>
       <display_length>100</display_length>
       <field_type>text</field_type>
       <font_color>#000000</font_color>
@@ -396,7 +414,7 @@ if (DocItem != null) {
       <font_weight>bold</font_weight>
       <is_disabled>0</is_disabled>
       <is_visible>1</is_visible>
-      <label>Why #5</label>
+      <label xml:lang="en">Why #5</label>
       <label_position>left</label_position>
       <list_no_blank>0</list_no_blank>
       <name>why_5</name>
@@ -414,6 +432,7 @@ if (DocItem != null) {
      <Item type="Field" id="A783349B086544E4AA95271C6DE11D74" action="add">
       <bg_color>#FFFFFF</bg_color>
       <border_width>0</border_width>
+      <classification>/*</classification>
       <field_type>textarea</field_type>
       <font_color>#0423c1</font_color>
       <font_family>arial, helvetica, sans-serif</font_family>
@@ -421,7 +440,7 @@ if (DocItem != null) {
       <font_weight>bold</font_weight>
       <is_disabled>0</is_disabled>
       <is_visible>1</is_visible>
-      <label>Root&lt;br&gt;Cause:</label>
+      <label xml:lang="en">Root&lt;br&gt;Cause:</label>
       <label_position>left</label_position>
       <list_no_blank>0</list_no_blank>
       <name>why_5_answer</name>

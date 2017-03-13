@@ -1,5 +1,6 @@
 ﻿<AML>
  <Item type="Form" id="0558FC1D363A4D72A33FF83B88DAEFED" action="add">
+  <classification>/*</classification>
   <height>430</height>
   <name>QAP</name>
   <stylesheet><![CDATA[../styles/default.css]]></stylesheet>
@@ -10,12 +11,14 @@
     <bg_color>#FFFFFF</bg_color>
     <bg_image>../images/Backgrounds/wvleft.gif</bg_image>
     <bg_repeat>no-repeat</bg_repeat>
+    <classification>/*</classification>
     <sort_order>128</sort_order>
     <source_id keyed_name="QAP" type="Form">0558FC1D363A4D72A33FF83B88DAEFED</source_id>
     <Relationships>
      <Item type="Field" id="81104543419F4F13870F9552113855DD" action="add">
       <bg_color>#FFFFFF</bg_color>
       <border_width>0</border_width>
+      <classification>/*</classification>
       <field_type>html</field_type>
       <font_color>#000000</font_color>
       <font_family>arial, helvetica, sans-serif</font_family>
@@ -85,7 +88,7 @@ alert('Done Loading Template');
 <img src=../images/icons/32x32/28x32_structure.gif border=0 alt="View ISO Work Instructions"></a>]]></html_code>
       <is_disabled>0</is_disabled>
       <is_visible>0</is_visible>
-      <label>Add Activity Template</label>
+      <label xml:lang="en">Add Activity Template</label>
       <label_position>top</label_position>
       <list_no_blank>0</list_no_blank>
       <name>add_template</name>
@@ -100,6 +103,7 @@ alert('Done Loading Template');
      <Item type="Field" id="07C4F0912B664E39857584CBAB96C359" action="add">
       <bg_color>#FFFFFF</bg_color>
       <border_width>2</border_width>
+      <classification>/*</classification>
       <field_type>html</field_type>
       <font_color>#000000</font_color>
       <font_family>arial, helvetica, sans-serif</font_family>
@@ -120,6 +124,7 @@ alert('Done Loading Template');
      <Item type="Field" id="F2A27951E044458BA9E5A410F61ED9C1" action="add">
       <bg_color>#FFFFFF</bg_color>
       <border_width>2</border_width>
+      <classification>/*</classification>
       <field_type>html</field_type>
       <font_color>#000000</font_color>
       <font_family>arial, helvetica, sans-serif</font_family>
@@ -128,9 +133,8 @@ alert('Done Loading Template');
       <html_code><![CDATA[<img src="../images/icons/other/1x1.gif" width="600" height="200">]]></html_code>
       <is_disabled>0</is_disabled>
       <is_visible>1</is_visible>
-      <label>Problem Statement:</label>
+      <label xml:lang="en">Problem Statement:</label>
       <label_position>left</label_position>
-      <legend></legend>
       <list_no_blank>0</list_no_blank>
       <name>border1</name>
       <positioning>absolute</positioning>
@@ -145,6 +149,7 @@ alert('Done Loading Template');
      <Item type="Field" id="64382D4182FB488EA2B214C9A2EB4085" action="add">
       <bg_color>#FFFFFF</bg_color>
       <border_width>2</border_width>
+      <classification>/*</classification>
       <field_type>html</field_type>
       <font_color>#000000</font_color>
       <font_family>arial, helvetica, sans-serif</font_family>
@@ -153,7 +158,7 @@ alert('Done Loading Template');
       <html_code><![CDATA[<img src="../images/icons/other/1x1.gif" width="658" height="60">]]></html_code>
       <is_disabled>0</is_disabled>
       <is_visible>1</is_visible>
-      <label>Root Cause:</label>
+      <label xml:lang="en">Root Cause:</label>
       <label_position>left</label_position>
       <list_no_blank>0</list_no_blank>
       <name>Border2</name>
@@ -169,6 +174,7 @@ alert('Done Loading Template');
      <Item type="Field" id="F7D2DD6CA23E4F9CBBF027DF5B3A5D2B" action="add">
       <bg_color>#FFFFFF</bg_color>
       <border_width>0</border_width>
+      <classification>/*</classification>
       <field_type>dropdown</field_type>
       <font_color>#000000</font_color>
       <font_family>arial, helvetica, sans-serif</font_family>
@@ -176,7 +182,7 @@ alert('Done Loading Template');
       <font_weight>bold</font_weight>
       <is_disabled>0</is_disabled>
       <is_visible>1</is_visible>
-      <label>Business Unit</label>
+      <label xml:lang="en">Business Unit</label>
       <label_position>top</label_position>
       <list_no_blank>0</list_no_blank>
       <name>bu</name>
@@ -193,6 +199,7 @@ alert('Done Loading Template');
      <Item type="Field" id="34A19BB5D92C4CF39306DB26C6B8A91E" action="add">
       <bg_color>#FFFFFF</bg_color>
       <border_width>0</border_width>
+      <classification>/*</classification>
       <field_type>dropdown</field_type>
       <font_color>#000000</font_color>
       <font_family>arial, helvetica, sans-serif</font_family>
@@ -200,7 +207,7 @@ alert('Done Loading Template');
       <font_weight>bold</font_weight>
       <is_disabled>0</is_disabled>
       <is_visible>1</is_visible>
-      <label>Product Line</label>
+      <label xml:lang="en">Product Line</label>
       <label_position>top</label_position>
       <list_no_blank>0</list_no_blank>
       <name>corp_product_line</name>
@@ -217,6 +224,7 @@ alert('Done Loading Template');
      <Item type="Field" id="409A83D835D04DAFAB96C4C820E7B89A" action="add">
       <bg_color>beige  </bg_color>
       <border_width>0</border_width>
+      <classification>/*</classification>
       <display_length>12</display_length>
       <field_type>date</field_type>
       <font_color>#000000</font_color>
@@ -225,7 +233,7 @@ alert('Done Loading Template');
       <font_weight>bold</font_weight>
       <is_disabled>0</is_disabled>
       <is_visible>1</is_visible>
-      <label>Date Initiated</label>
+      <label xml:lang="en">Date Initiated</label>
       <label_position>top</label_position>
       <list_no_blank>0</list_no_blank>
       <name>created_on</name>
@@ -240,6 +248,7 @@ alert('Done Loading Template');
      <Item type="Field" id="FEAF29BC765C40A087E045B30D96E891" action="add">
       <bg_color>#FFFFFF</bg_color>
       <border_width>0</border_width>
+      <classification>/*</classification>
       <display_length>25</display_length>
       <field_type>item</field_type>
       <font_color>#000000</font_color>
@@ -248,7 +257,7 @@ alert('Done Loading Template');
       <font_weight>bold</font_weight>
       <is_disabled>0</is_disabled>
       <is_visible>1</is_visible>
-      <label>Affected Customer</label>
+      <label xml:lang="en">Affected Customer</label>
       <label_position>top</label_position>
       <list_no_blank>0</list_no_blank>
       <name>customer</name>
@@ -264,6 +273,7 @@ alert('Done Loading Template');
      <Item type="Field" id="74B8FD87649F485EA9ED9E365AA34CC7" action="add">
       <bg_color>#FFFFFF</bg_color>
       <border_width>0</border_width>
+      <classification>/*</classification>
       <display_length>25</display_length>
       <field_type>item</field_type>
       <font_color>#000000</font_color>
@@ -272,7 +282,7 @@ alert('Done Loading Template');
       <font_weight>bold</font_weight>
       <is_disabled>0</is_disabled>
       <is_visible>1</is_visible>
-      <label>Customer Contact</label>
+      <label xml:lang="en">Customer Contact</label>
       <label_position>top</label_position>
       <list_no_blank>0</list_no_blank>
       <name>customer_contact</name>
@@ -288,6 +298,7 @@ alert('Done Loading Template');
      <Item type="Field" id="93CCF19A227941D6B8C1610A7593E59D" action="add">
       <bg_color>#FFFFFF</bg_color>
       <border_width>0</border_width>
+      <classification>/*</classification>
       <field_type>date</field_type>
       <font_color>#000000</font_color>
       <font_family>arial, helvetica, sans-serif</font_family>
@@ -295,7 +306,7 @@ alert('Done Loading Template');
       <font_weight>bold</font_weight>
       <is_disabled>0</is_disabled>
       <is_visible>0</is_visible>
-      <label>Date Due Act</label>
+      <label xml:lang="en">Date Due Act</label>
       <label_position>top</label_position>
       <list_no_blank>0</list_no_blank>
       <name>date_due_act</name>
@@ -311,6 +322,7 @@ alert('Done Loading Template');
      <Item type="Field" id="9B65382832B446F396937C83EBFD3751" action="add">
       <bg_color>#FFFFFF</bg_color>
       <border_width>0</border_width>
+      <classification>/*</classification>
       <field_type>date</field_type>
       <font_color>#000000</font_color>
       <font_family>arial, helvetica, sans-serif</font_family>
@@ -318,7 +330,7 @@ alert('Done Loading Template');
       <font_weight>bold</font_weight>
       <is_disabled>0</is_disabled>
       <is_visible>0</is_visible>
-      <label>Scheduled Completion</label>
+      <label xml:lang="en">Scheduled Completion</label>
       <label_position>top</label_position>
       <list_no_blank>0</list_no_blank>
       <name>date_due_sched</name>
@@ -334,6 +346,7 @@ alert('Done Loading Template');
      <Item type="Field" id="737B0D3696134A45A5FB6E676BF971D7" action="add">
       <bg_color>#FFFFFF</bg_color>
       <border_width>0</border_width>
+      <classification>/*</classification>
       <display_length>12</display_length>
       <field_type>date</field_type>
       <font_color>#000000</font_color>
@@ -342,7 +355,7 @@ alert('Done Loading Template');
       <font_weight>bold</font_weight>
       <is_disabled>0</is_disabled>
       <is_visible>1</is_visible>
-      <label>Date Due</label>
+      <label xml:lang="en">Date Due</label>
       <label_position>top</label_position>
       <list_no_blank>0</list_no_blank>
       <name>date_due_target</name>
@@ -358,6 +371,7 @@ alert('Done Loading Template');
      <Item type="Field" id="E8FA604B82EC4D3CA9C41B482355A5B0" action="add">
       <bg_color>#FFFFFF</bg_color>
       <border_width>0</border_width>
+      <classification>/*</classification>
       <field_type>html</field_type>
       <font_color>#000000</font_color>
       <font_family>arial, helvetica, sans-serif</font_family>
@@ -391,6 +405,7 @@ if (DocItem != null) {
      </Item>
      <Item type="Field" id="315A21BAD21B439CB97F2194671D52A0" action="add">
       <bg_color>#FFFFFF</bg_color>
+      <classification>/*</classification>
       <field_type>html</field_type>
       <html_code><![CDATA[<table border='0' cellspacing='0' cellpadding='0'>
 <tr><td colspan='1'>
@@ -416,6 +431,7 @@ CAPA<br>5-Phase 8D<br>Quality<br>Action Plan
      <Item type="Field" id="C0A8CBD4540949EBB10A22186815D043" action="add">
       <bg_color>#FFFFFF</bg_color>
       <border_width>0</border_width>
+      <classification>/*</classification>
       <display_length>15</display_length>
       <field_type>text</field_type>
       <font_color>#000000</font_color>
@@ -424,7 +440,7 @@ CAPA<br>5-Phase 8D<br>Quality<br>Action Plan
       <font_weight>bold</font_weight>
       <is_disabled>0</is_disabled>
       <is_visible>1</is_visible>
-      <label>QAP #</label>
+      <label xml:lang="en">QAP #</label>
       <label_position>top</label_position>
       <list_no_blank>0</list_no_blank>
       <name>item_number</name>
@@ -440,6 +456,7 @@ CAPA<br>5-Phase 8D<br>Quality<br>Action Plan
      <Item type="Field" id="3F4B524AE0B54E87A3DE2533D421E29D" action="add">
       <bg_color>#FFFFFF</bg_color>
       <border_width>0</border_width>
+      <classification>/*</classification>
       <display_length>30</display_length>
       <field_type>item</field_type>
       <font_color>#000000</font_color>
@@ -448,7 +465,7 @@ CAPA<br>5-Phase 8D<br>Quality<br>Action Plan
       <font_weight>bold</font_weight>
       <is_disabled>0</is_disabled>
       <is_visible>1</is_visible>
-      <label>Responsible Quality Engineer</label>
+      <label xml:lang="en">Responsible Quality Engineer</label>
       <label_position>top</label_position>
       <list_no_blank>0</list_no_blank>
       <name>owned_by_id</name>
@@ -463,6 +480,7 @@ CAPA<br>5-Phase 8D<br>Quality<br>Action Plan
      <Item type="Field" id="B4C58A2624234F7AB86515B9E7196F6D" action="add">
       <bg_color>#FFFFFF</bg_color>
       <border_width>0</border_width>
+      <classification>/*</classification>
       <display_length>25</display_length>
       <field_type>item</field_type>
       <font_color>#000000</font_color>
@@ -471,7 +489,7 @@ CAPA<br>5-Phase 8D<br>Quality<br>Action Plan
       <font_weight>bold</font_weight>
       <is_disabled>0</is_disabled>
       <is_visible>1</is_visible>
-      <label>Affected Part Number</label>
+      <label xml:lang="en">Affected Part Number</label>
       <label_position>top</label_position>
       <list_no_blank>0</list_no_blank>
       <name>part</name>
@@ -487,6 +505,7 @@ CAPA<br>5-Phase 8D<br>Quality<br>Action Plan
      <Item type="Field" id="0B5D3286E0E648AFAA453756679365BD" action="add">
       <bg_color>#FFFFFF</bg_color>
       <border_width>0</border_width>
+      <classification>/*</classification>
       <display_length>56</display_length>
       <field_type>text</field_type>
       <font_color>#000000</font_color>
@@ -495,7 +514,7 @@ CAPA<br>5-Phase 8D<br>Quality<br>Action Plan
       <font_weight>bold</font_weight>
       <is_disabled>0</is_disabled>
       <is_visible>1</is_visible>
-      <label>Part Description</label>
+      <label xml:lang="en">Part Description</label>
       <label_position>top</label_position>
       <list_no_blank>0</list_no_blank>
       <name>part_description</name>
@@ -511,6 +530,7 @@ CAPA<br>5-Phase 8D<br>Quality<br>Action Plan
      <Item type="Field" id="F6B0C7597487468092181DD41BC71016" action="add">
       <bg_color>#FFFFFF</bg_color>
       <border_width>0</border_width>
+      <classification>/*</classification>
       <field_type>dropdown</field_type>
       <font_color>#000000</font_color>
       <font_family>arial, helvetica, sans-serif</font_family>
@@ -518,7 +538,7 @@ CAPA<br>5-Phase 8D<br>Quality<br>Action Plan
       <font_weight>bold</font_weight>
       <is_disabled>0</is_disabled>
       <is_visible>1</is_visible>
-      <label>Plant</label>
+      <label xml:lang="en">Plant</label>
       <label_position>top</label_position>
       <list_no_blank>0</list_no_blank>
       <name>plant</name>
@@ -535,6 +555,7 @@ CAPA<br>5-Phase 8D<br>Quality<br>Action Plan
      <Item type="Field" id="90DD0AE0671240AD9D11D2F160B09DC9" action="add">
       <bg_color>#FFFFFF</bg_color>
       <border_width>0</border_width>
+      <classification>/*</classification>
       <field_type>textarea</field_type>
       <font_color>#000000</font_color>
       <font_family>arial, helvetica, sans-serif</font_family>
@@ -542,7 +563,7 @@ CAPA<br>5-Phase 8D<br>Quality<br>Action Plan
       <font_weight>bold</font_weight>
       <is_disabled>0</is_disabled>
       <is_visible>1</is_visible>
-      <label>What Is The Problem</label>
+      <label xml:lang="en">What Is The Problem</label>
       <label_position>top</label_position>
       <list_no_blank>0</list_no_blank>
       <name>problem_stmt</name>
@@ -561,6 +582,7 @@ CAPA<br>5-Phase 8D<br>Quality<br>Action Plan
      <Item type="Field" id="03B44D31C66445B392F2A74247EAEC10" action="add">
       <bg_color>#FFFFFF</bg_color>
       <border_width>0</border_width>
+      <classification>/*</classification>
       <field_type>textarea</field_type>
       <font_color>#000000</font_color>
       <font_family>arial, helvetica, sans-serif</font_family>
@@ -568,7 +590,7 @@ CAPA<br>5-Phase 8D<br>Quality<br>Action Plan
       <font_weight>bold</font_weight>
       <is_disabled>0</is_disabled>
       <is_visible>1</is_visible>
-      <label>Why Is It A Problem</label>
+      <label xml:lang="en">Why Is It A Problem</label>
       <label_position>top</label_position>
       <list_no_blank>0</list_no_blank>
       <name>problem_stmt2</name>
@@ -587,6 +609,7 @@ CAPA<br>5-Phase 8D<br>Quality<br>Action Plan
      <Item type="Field" id="F77CF7C8915640159F68B347FD9318E9" action="add">
       <bg_color>#FFFFFF</bg_color>
       <border_width>0</border_width>
+      <classification>/*</classification>
       <field_type>textarea</field_type>
       <font_color>#000000</font_color>
       <font_family>arial, helvetica, sans-serif</font_family>
@@ -594,7 +617,7 @@ CAPA<br>5-Phase 8D<br>Quality<br>Action Plan
       <font_weight>bold</font_weight>
       <is_disabled>0</is_disabled>
       <is_visible>1</is_visible>
-      <label>Based On What Evidence</label>
+      <label xml:lang="en">Based On What Evidence</label>
       <label_position>top</label_position>
       <list_no_blank>0</list_no_blank>
       <name>problem_stmt3</name>
@@ -613,6 +636,7 @@ CAPA<br>5-Phase 8D<br>Quality<br>Action Plan
      <Item type="Field" id="2DE10D1FFD8E43E08A4E4E7D5B3881E4" action="add">
       <bg_color>#FFFFFF</bg_color>
       <border_width>0</border_width>
+      <classification>/*</classification>
       <field_type>dropdown</field_type>
       <font_color>#000000</font_color>
       <font_family>arial, helvetica, sans-serif</font_family>
@@ -620,7 +644,7 @@ CAPA<br>5-Phase 8D<br>Quality<br>Action Plan
       <font_weight>bold</font_weight>
       <is_disabled>0</is_disabled>
       <is_visible>1</is_visible>
-      <label>Request Source</label>
+      <label xml:lang="en">Request Source</label>
       <label_position>top</label_position>
       <list_no_blank>0</list_no_blank>
       <name>request_source</name>
@@ -636,6 +660,7 @@ CAPA<br>5-Phase 8D<br>Quality<br>Action Plan
      <Item type="Field" id="0D37799D02974AB79421EC85B4641D0C" action="add">
       <bg_color>#ffffff</bg_color>
       <border_width>0</border_width>
+      <classification>/*</classification>
       <field_type>textarea</field_type>
       <font_color>#000000</font_color>
       <font_family>arial, helvetica, sans-serif</font_family>
@@ -660,6 +685,7 @@ CAPA<br>5-Phase 8D<br>Quality<br>Action Plan
      <Item type="Field" id="D03972FBDBF245E4B530884EBEC237F4" action="add">
       <bg_color>#FFFFFF</bg_color>
       <border_width>0</border_width>
+      <classification>/*</classification>
       <field_type>dropdown</field_type>
       <font_color>#000000</font_color>
       <font_family>arial, helvetica, sans-serif</font_family>
@@ -667,7 +693,7 @@ CAPA<br>5-Phase 8D<br>Quality<br>Action Plan
       <font_weight>bold</font_weight>
       <is_disabled>0</is_disabled>
       <is_visible>0</is_visible>
-      <label>Scheduling Type</label>
+      <label xml:lang="en">Scheduling Type</label>
       <label_position>top</label_position>
       <list_no_blank>0</list_no_blank>
       <name>scheduling_type</name>
@@ -683,6 +709,7 @@ CAPA<br>5-Phase 8D<br>Quality<br>Action Plan
      <Item type="Field" id="1812C4347BF648D2B13D51F8D1181B44" action="add">
       <bg_color>#FFFFFF</bg_color>
       <border_width>0</border_width>
+      <classification>/*</classification>
       <display_length>15</display_length>
       <field_type>text</field_type>
       <font_color>#000000</font_color>
@@ -691,7 +718,7 @@ CAPA<br>5-Phase 8D<br>Quality<br>Action Plan
       <font_weight>bold</font_weight>
       <is_disabled>0</is_disabled>
       <is_visible>1</is_visible>
-      <label>Status</label>
+      <label xml:lang="en">Status</label>
       <label_position>top</label_position>
       <list_no_blank>0</list_no_blank>
       <name>state</name>
@@ -706,6 +733,7 @@ CAPA<br>5-Phase 8D<br>Quality<br>Action Plan
      <Item type="Field" id="C3C2ADBDDCD84244AEE1D8B5D852D5B5" action="add">
       <bg_color>#FFFFFF</bg_color>
       <border_width>0</border_width>
+      <classification>/*</classification>
       <field_type>item</field_type>
       <font_color>#000000</font_color>
       <font_family>arial, helvetica, sans-serif</font_family>
@@ -713,7 +741,7 @@ CAPA<br>5-Phase 8D<br>Quality<br>Action Plan
       <font_weight>bold</font_weight>
       <is_disabled>0</is_disabled>
       <is_visible>0</is_visible>
-      <label>Wbs Id</label>
+      <label xml:lang="en">Wbs Id</label>
       <label_position>top</label_position>
       <list_no_blank>0</list_no_blank>
       <name>wbs_id</name>

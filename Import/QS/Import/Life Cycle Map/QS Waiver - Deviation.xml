@@ -1,9 +1,11 @@
 ﻿<AML>
  <Item type="Life Cycle Map" id="3CAEFD302B534E9BB70F08F478BFAF63" action="add">
+  <classification>/*</classification>
   <name>QS Waiver - Deviation</name>
   <start_state keyed_name="In Review" type="Life Cycle State">13B80396A14B4B0E9CDB713161356FCA</start_state>
   <Relationships>
    <Item type="Life Cycle State" id="D4727B92C7F4424BB4900C6FEF0C6895" action="add">
+    <classification>/*</classification>
     <image>../images/icons/20x20/20x15_lifecycle.gif</image>
     <name>Approved</name>
     <set_is_released>0</set_is_released>
@@ -14,6 +16,7 @@
     <y>45</y>
    </Item>
    <Item type="Life Cycle State" id="13B80396A14B4B0E9CDB713161356FCA" action="add">
+    <classification>/*</classification>
     <image>../images/icons/20x20/20x15_lifecycle.gif</image>
     <name>In Review</name>
     <set_is_released>0</set_is_released>
@@ -24,6 +27,7 @@
     <y>45</y>
    </Item>
    <Item type="Life Cycle State" id="3A0811D98C5E42F990A37EC8ED2C4238" action="add">
+    <classification>/*</classification>
     <image>../images/icons/20x20/20x15_lifecycle.gif</image>
     <name>Obsolete</name>
     <set_is_released>0</set_is_released>
@@ -34,6 +38,7 @@
     <y>45</y>
    </Item>
    <Item type="Life Cycle Transition" id="997E631AE4E748569174C0D989ABB8F0" action="add">
+    <classification>/*</classification>
     <from_state keyed_name="Approved" type="Life Cycle State">D4727B92C7F4424BB4900C6FEF0C6895</from_state>
     <get_comment>0</get_comment>
     <role keyed_name="World" type="Identity">
@@ -50,6 +55,7 @@
    </Item>
   
    <Item type="Life Cycle Transition" id="608A82259F2D42D3BE5F0EAB4BC9B87A" action="add">
+    <classification>/*</classification>
     <from_state keyed_name="In Review" type="Life Cycle State">13B80396A14B4B0E9CDB713161356FCA</from_state>
     <get_comment>0</get_comment>
     <role keyed_name="World" type="Identity">

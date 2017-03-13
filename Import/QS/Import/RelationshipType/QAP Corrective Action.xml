@@ -2,23 +2,24 @@
  <Item type="RelationshipType" id="D708A4E0D34C4212960A355547CF40FE" action="add" dependencyLevel="0">
   <auto_search>1</auto_search>
   <behavior>float</behavior>
+  <classification>/*</classification>
   <copy_permissions>0</copy_permissions>
   <create_related>0</create_related>
   <hide_in_all>0</hide_in_all>
   <inc_rel_key_name>1</inc_rel_key_name>
   <inc_related_key_name>1</inc_related_key_name>
   <is_list_type>0</is_list_type>
-  <label>Corrective Actions</label>
+  <label xml:lang="en">Corrective Actions</label>
   <name>QAP Corrective Action</name>
   <new_show_related>1</new_show_related>
-  <related_id keyed_name="Quality Corrective Action" type="ItemType" name="ItemType">5770759BBDF74F729E68DCA32A05CF1C</related_id>
+  <related_id keyed_name="Quality Corrective Action" type="ItemType" name="Quality Corrective Action">5770759BBDF74F729E68DCA32A05CF1C</related_id>
   <related_notnull>1</related_notnull>
   <related_option>2</related_option>
   <relationship_id keyed_name="QAP Corrective Action" type="ItemType" name="QAP Corrective Action">
    <Item type="ItemType" id="10DDB795144D40E29B0B58EB96269D4C" action="add">
     <allow_private_permission>1</allow_private_permission>
     <auto_search>0</auto_search>
-    <default_lifecycle keyed_name="Default" type="Life Cycle Map">2F3B75E17C4E4F2D9599579A965BFA64</default_lifecycle>
+    <enforce_discovery>1</enforce_discovery>
     <hide_where_used>0</hide_where_used>
     <implementation_type>table</implementation_type>
     <instance_data>QAP_CORRECTIVE_ACTION</instance_data>
@@ -28,7 +29,6 @@
     <manual_versioning>0</manual_versioning>
     <name>QAP Corrective Action</name>
     <revisions keyed_name="Default" type="Revision">7FE395DD8B9F4E1090756A34B733D75E</revisions>
-    <save_history>0</save_history>
     <show_parameters_tab>1</show_parameters_tab>
     <unlock_on_logout>0</unlock_on_logout>
     <use_src_access>1</use_src_access>
@@ -39,6 +39,7 @@
       <sort_order>128</sort_order>
       <source_id keyed_name="QAP Corrective Action" type="ItemType" name="QAP Corrective Action">10DDB795144D40E29B0B58EB96269D4C</source_id>
      </Item>
+    
      <Item type="Can Add" id="DA0842D20DC545B287950EB53ADD4575" action="add">
       <can_add>1</can_add>
       <related_id keyed_name="World" type="Identity">
@@ -49,7 +50,13 @@
       <sort_order>128</sort_order>
       <source_id keyed_name="QAP Corrective Action" type="ItemType" name="QAP Corrective Action">10DDB795144D40E29B0B58EB96269D4C</source_id>
      </Item>
+     <Item type="ItemType Life Cycle" id="32228832EFBC417A9913117DCDBDCB40" action="add">
+      <related_id keyed_name="Default" type="Life Cycle Map">2F3B75E17C4E4F2D9599579A965BFA64</related_id>
+      <sort_order>128</sort_order>
+      <source_id keyed_name="QAP Corrective Action" type="ItemType" name="QAP Corrective Action">10DDB795144D40E29B0B58EB96269D4C</source_id>
+     </Item>
      <Item type="Property" id="5907B01C69284497B92849D2775395FF" action="add">
+      <classification>/*</classification>
       <column_alignment>left</column_alignment>
       <data_type>date</data_type>
       <is_hidden>0</is_hidden>
@@ -58,15 +65,17 @@
       <is_keyed>0</is_keyed>
       <is_multi_valued>0</is_multi_valued>
       <is_required>0</is_required>
-      <label>Date Implemented</label>
+      <label xml:lang="en">Date Implemented</label>
       <name>date_implemented</name>
       <pattern>MM/dd/yyyy</pattern>
       <range_inclusive>0</range_inclusive>
       <readonly>0</readonly>
       <sort_order>3712</sort_order>
       <source_id keyed_name="QAP Corrective Action" type="ItemType" name="QAP Corrective Action">10DDB795144D40E29B0B58EB96269D4C</source_id>
+      <track_history>0</track_history>
      </Item>
      <Item type="Property" id="73F41BEF2B114D2D88F47FA25C77D085" action="add">
+      <classification>/*</classification>
       <column_alignment>left</column_alignment>
       <data_type>integer</data_type>
       <is_hidden>0</is_hidden>
@@ -75,14 +84,16 @@
       <is_keyed>0</is_keyed>
       <is_multi_valued>0</is_multi_valued>
       <is_required>0</is_required>
-      <label>% Effective</label>
+      <label xml:lang="en">% Effective</label>
       <name>percent_effective</name>
       <range_inclusive>0</range_inclusive>
       <readonly>0</readonly>
       <sort_order>3584</sort_order>
       <source_id keyed_name="QAP Corrective Action" type="ItemType" name="QAP Corrective Action">10DDB795144D40E29B0B58EB96269D4C</source_id>
+      <track_history>0</track_history>
      </Item>
      <Item type="Property" id="7B936793D28244F2B6D5833295B5B77B" action="add">
+      <classification>/*</classification>
       <column_alignment>left</column_alignment>
       <column_width>360</column_width>
       <data_type>string</data_type>
@@ -92,21 +103,22 @@
       <is_keyed>0</is_keyed>
       <is_multi_valued>0</is_multi_valued>
       <is_required>0</is_required>
-      <label>Verification/Validation</label>
+      <label xml:lang="en">Verification/Validation</label>
       <name>verification</name>
       <range_inclusive>0</range_inclusive>
       <readonly>0</readonly>
       <sort_order>3456</sort_order>
       <source_id keyed_name="QAP Corrective Action" type="ItemType" name="QAP Corrective Action">10DDB795144D40E29B0B58EB96269D4C</source_id>
       <stored_length>512</stored_length>
-     </Item>
-    </Relationships>
+      <track_history>0</track_history>
+     </Item></Relationships>
    </Item>
   </relationship_id>
   <sort_order>60</sort_order>
   <source_id keyed_name="QAP" type="ItemType" name="QAP">11D2FEA6F58E47ADA0CFBF63122FA02E</source_id>
   <Relationships>
    <Item type="Relationship Grid Event" id="CB8E2094CD7642CEA489D97F2CD05965" action="add">
+    <classification>/*</classification>
     <grid_event>oninsertrow</grid_event>
     <related_id keyed_name="QS Corrective Action OnInsert" type="Method">
      <Item type="Method" action="get" select="id">
@@ -121,6 +133,7 @@
  <Item type="ItemType" id="10DDB795144D40E29B0B58EB96269D4C" action="edit">
   <Relationships>
    <Item type="Property" action="edit" where="source_id='10DDB795144D40E29B0B58EB96269D4C' and name='sort_order'">
+    <classification>/*</classification>
     <column_alignment>left</column_alignment>
     <data_type>integer</data_type>
     <is_hidden>0</is_hidden>
@@ -129,12 +142,13 @@
     <is_keyed>0</is_keyed>
     <is_multi_valued>0</is_multi_valued>
     <is_required>0</is_required>
-    <label>Sequence</label>
+    <label xml:lang="en">Sequence</label>
     <name>sort_order</name>
     <range_inclusive>0</range_inclusive>
     <readonly>0</readonly>
     <sort_order>1</sort_order>
     <source_id keyed_name="QAP Corrective Action" type="ItemType" name="QAP Corrective Action">10DDB795144D40E29B0B58EB96269D4C</source_id>
+    <track_history>0</track_history>
    </Item>
   </Relationships>
  </Item>

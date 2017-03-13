@@ -1,5 +1,6 @@
 ﻿<AML>
  <Item type="Form" id="35F83BFB0F294FCDA49C11810576D9AB" action="add">
+  <classification>/*</classification>
   <height>400</height>
   <name>FishBone Analysis</name>
   <stylesheet><![CDATA[../styles/default.css]]></stylesheet>
@@ -8,12 +9,14 @@
    <Item type="Body" id="DAC6C4C3ECD1412681AAC4460FF79B9B" action="add">
     <bg_image>../images/Backgrounds/pattern-3.gif</bg_image>
     <bg_repeat>no-repeat</bg_repeat>
+    <classification>/*</classification>
     <sort_order>128</sort_order>
     <source_id keyed_name="FishBone Analysis" type="Form">35F83BFB0F294FCDA49C11810576D9AB</source_id>
     <Relationships>
      <Item type="Field" id="CC19DC1FF13B4326A53A33C50F7C0249" action="add">
       <bg_color>#FFFFFF</bg_color>
       <border_width>0</border_width>
+      <classification>/*</classification>
       <display_length>60</display_length>
       <field_type>text</field_type>
       <font_color>#000000</font_color>
@@ -22,7 +25,7 @@
       <font_weight>bold</font_weight>
       <is_disabled>0</is_disabled>
       <is_visible>1</is_visible>
-      <label>Problem Description</label>
+      <label xml:lang="en">Problem Description</label>
       <label_position>top</label_position>
       <list_no_blank>0</list_no_blank>
       <name>description</name>
@@ -38,6 +41,7 @@
      <Item type="Field" id="E5A65FB01D3F40BC86AD6B69ECA142CF" action="add">
       <bg_color>#FFFFFF</bg_color>
       <border_width>0</border_width>
+      <classification>/*</classification>
       <field_type>html</field_type>
       <font_color>#004080</font_color>
       <font_family>arial, helvetica, sans-serif</font_family>
@@ -46,7 +50,7 @@
       <html_code></html_code>
       <is_disabled>0</is_disabled>
       <is_visible>1</is_visible>
-      <label>Fishbone Diagram Analysis</label>
+      <label xml:lang="en">Fishbone Diagram Analysis</label>
       <label_position>top</label_position>
       <list_no_blank>0</list_no_blank>
       <name>Fishbone Analysis</name>
@@ -60,6 +64,7 @@
      <Item type="Field" id="E9695ACB6D4C4F50BACFBEEA09B27210" action="add">
       <bg_color>#FFFFFF</bg_color>
       <border_width>0</border_width>
+      <classification>/*</classification>
       <field_type>item</field_type>
       <font_color>#000000</font_color>
       <font_family>arial, helvetica, sans-serif</font_family>
@@ -67,7 +72,7 @@
       <font_weight>bold</font_weight>
       <is_disabled>0</is_disabled>
       <is_visible>1</is_visible>
-      <label>Vaulted File</label>
+      <label xml:lang="en">Vaulted File</label>
       <label_position>top</label_position>
       <list_no_blank>0</list_no_blank>
       <name>fishbone_file</name>
@@ -81,6 +86,7 @@
       <y>63</y>
       <Relationships>
        <Item type="Field Event" id="07CD23424E67412BAF674029A1B68FA2" action="add">
+        <classification>/*</classification>
         <field_event>onchange</field_event>
         <related_id keyed_name="QS FishBone Clear Viewer" type="Method">
          <Item type="Method" action="get" select="id">
@@ -95,6 +101,7 @@
      <Item type="Field" id="50B9AB52724A4EDE8B885BA45EEC18EC" action="add">
       <bg_color>#FFFFFF</bg_color>
       <border_width>0</border_width>
+      <classification>/*</classification>
       <display_length>10</display_length>
       <field_type>text</field_type>
       <font_color>#000000</font_color>
@@ -103,7 +110,7 @@
       <font_weight>bold</font_weight>
       <is_disabled>0</is_disabled>
       <is_visible>1</is_visible>
-      <label>Fishbone ID</label>
+      <label xml:lang="en">Fishbone ID</label>
       <label_position>top</label_position>
       <list_no_blank>0</list_no_blank>
       <name>fishbone_id</name>
@@ -119,6 +126,7 @@
      <Item type="Field" id="C8847FCD5DD04C048F3EF725BE629762" action="add">
       <bg_color>#FFFFFF</bg_color>
       <border_width>0</border_width>
+      <classification>/*</classification>
       <field_type>html</field_type>
       <font_color>#000000</font_color>
       <font_family>arial, helvetica, sans-serif</font_family>
@@ -173,6 +181,7 @@ document.all.modified_on.innerHTML = '<b>' +top.aras.getItemProperty(document.it
      <Item type="Field" id="0F766B1569744F08BC3D0F4EA0A760FC" action="add">
       <bg_color>#FFFFFF</bg_color>
       <border_width>0</border_width>
+      <classification>/*</classification>
       <field_type>html</field_type>
       <font_color>#000000</font_color>
       <font_family>arial, helvetica, sans-serif</font_family>
@@ -207,6 +216,7 @@ if (DocItem != null) {
      <Item type="Field" id="CA600A5CB97C4C1DB191223ED0BF66A2" action="add">
       <bg_color>#FFFFFF</bg_color>
       <border_width>0</border_width>
+      <classification>/*</classification>
       <field_type>html</field_type>
       <font_color>#000000</font_color>
       <font_family>arial, helvetica, sans-serif</font_family>
@@ -227,6 +237,7 @@ if (DocItem != null) {
     </Relationships>
    </Item>
    <Item type="Form Event" id="DED8CBDF54254E10B8234B07633D7A6B" action="add">
+    <classification>/*</classification>
     <form_event>onload</form_event>
     <related_id keyed_name="QS FishBone File Load" type="Method">
      <Item type="Method" action="get" select="id">

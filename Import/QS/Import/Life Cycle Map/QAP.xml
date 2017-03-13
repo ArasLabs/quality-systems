@@ -1,10 +1,12 @@
 ﻿<AML>
  <Item type="Life Cycle Map" id="F268F51FEC1B4DDD90D0ABB2917B35B3" action="add">
+  <classification>/*</classification>
   <description>Quality Action Plan</description>
   <name>QAP</name>
   <start_state keyed_name="Create" type="Life Cycle State">25CE83151EEE4F80B08B835BABDDF652</start_state>
   <Relationships>
    <Item type="Life Cycle State" id="DBCFAF7B7D9E475D87FDD33A1A2CD7DD" action="add">
+    <classification>/*</classification>
     <image>../images/icons/20x20/20x15_lifecycle.gif</image>
     <name>Active</name>
     <set_is_released>0</set_is_released>
@@ -15,6 +17,7 @@
     <y>81</y>
    </Item>
    <Item type="Life Cycle State" id="8876921F4568401F9C00F91122ED950F" action="add">
+    <classification>/*</classification>
     <image>../images/icons/20x20/20x15_lifecycle.gif</image>
     <name>Cancelled</name>
     <set_is_released>0</set_is_released>
@@ -25,6 +28,7 @@
     <y>115</y>
    </Item>
    <Item type="Life Cycle State" id="79896D6AB69A4B4085931F09FA9EC4BC" action="add">
+    <classification>/*</classification>
     <image>../images/icons/20x20/20x15_lifecycle.gif</image>
     <name>Closed</name>
     <set_is_released>0</set_is_released>
@@ -35,6 +39,7 @@
     <y>41</y>
    </Item>
    <Item type="Life Cycle State" id="25CE83151EEE4F80B08B835BABDDF652" action="add">
+    <classification>/*</classification>
     <image>../images/icons/20x20/20x15_lifecycle.gif</image>
     <name>Create</name>
     <set_is_released>0</set_is_released>
@@ -45,6 +50,7 @@
     <y>81</y>
    </Item>
    <Item type="Life Cycle Transition" id="865EF73C3A6441D799DCAD97C1AD86C3" action="add">
+    <classification>/*</classification>
     <from_state keyed_name="Active" type="Life Cycle State">DBCFAF7B7D9E475D87FDD33A1A2CD7DD</from_state>
     <get_comment>1</get_comment>
     <role keyed_name="Quality" type="Identity">6A7D911555614B8BB16CD8195CDB3B2A</role>
@@ -57,6 +63,7 @@
    </Item>
   
    <Item type="Life Cycle Transition" id="0F9346CF589B450BB45046E64713F37F" action="add">
+    <classification>/*</classification>
     <from_state keyed_name="Active" type="Life Cycle State">DBCFAF7B7D9E475D87FDD33A1A2CD7DD</from_state>
     <get_comment>1</get_comment>
     <role keyed_name="Quality" type="Identity">6A7D911555614B8BB16CD8195CDB3B2A</role>
@@ -68,6 +75,7 @@
     <y>-26</y>
    </Item>
    <Item type="Life Cycle Transition" id="B0326C4BD680486EA87471E1F85BDAD2" action="add">
+    <classification>/*</classification>
     <from_state keyed_name="Create" type="Life Cycle State">25CE83151EEE4F80B08B835BABDDF652</from_state>
     <get_comment>0</get_comment>
     <role keyed_name="Quality" type="Identity">6A7D911555614B8BB16CD8195CDB3B2A</role>

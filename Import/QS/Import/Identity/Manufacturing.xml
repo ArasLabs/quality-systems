@@ -1,10 +1,12 @@
 ﻿<AML>
  <Item type="Identity" id="D8FF0B279412440A8B023A45D3965C01" action="add">
+  <classification>/*</classification>
   <description>Mfg group </description>
   <is_alias>0</is_alias>
   <name>Manufacturing</name>
   </Item>
  <Item type="Member" id="9A6DE236D9554A9A8A0E9B84B791C2C8" action="add">
+  <classification>/*</classification>
   <related_id keyed_name="Administrators" type="Identity">2618D6F5A90949BAA7E920D1B04C7EE1</related_id>
   <sort_order>128</sort_order>
   <source_id keyed_name="Manufacturing" type="Identity">D8FF0B279412440A8B023A45D3965C01</source_id>

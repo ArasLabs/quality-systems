@@ -1,5 +1,6 @@
 ﻿<AML>
  <Item type="Form" id="646ED99EB361480AB4960FA3AD77BD3A" action="add">
+  <classification>/*</classification>
   <height>400</height>
   <name>FTA Analysis</name>
   <stylesheet><![CDATA[../styles/default.css]]></stylesheet>
@@ -9,12 +10,14 @@
     <bg_attach>scroll</bg_attach>
     <bg_color>#FFFFFF</bg_color>
     <bg_repeat>no-repeat</bg_repeat>
+    <classification>/*</classification>
     <sort_order>128</sort_order>
     <source_id keyed_name="FTA Analysis" type="Form">646ED99EB361480AB4960FA3AD77BD3A</source_id>
     <Relationships>
      <Item type="Field" id="FB4CE5AEF3EE451583A5DC1851E64BF0" action="add">
       <bg_color>#FFFFFF</bg_color>
       <border_width>0</border_width>
+      <classification>/*</classification>
       <display_length>80</display_length>
       <field_type>text</field_type>
       <font_color>#000000</font_color>
@@ -23,7 +26,7 @@
       <font_weight>bold</font_weight>
       <is_disabled>0</is_disabled>
       <is_visible>1</is_visible>
-      <label>Problem Description</label>
+      <label xml:lang="en">Problem Description</label>
       <label_position>top</label_position>
       <list_no_blank>0</list_no_blank>
       <name>description</name>
@@ -41,6 +44,7 @@
      <Item type="Field" id="DE81F67778604CCAB4A0F518236FA5EA" action="add">
       <bg_color>#FFFFFF</bg_color>
       <border_width>0</border_width>
+      <classification>/*</classification>
       <field_type>item</field_type>
       <font_color>#000000</font_color>
       <font_family>arial, helvetica, sans-serif</font_family>
@@ -48,7 +52,7 @@
       <font_weight>bold</font_weight>
       <is_disabled>0</is_disabled>
       <is_visible>1</is_visible>
-      <label>Vaulted File</label>
+      <label xml:lang="en">Vaulted File</label>
       <label_position>top</label_position>
       <list_no_blank>0</list_no_blank>
       <name>fishbone_file</name>
@@ -64,6 +68,7 @@
      <Item type="Field" id="0CC37C1DCD1C40B0BDD389209892ACDB" action="add">
       <bg_color>#FFFFFF</bg_color>
       <border_width>0</border_width>
+      <classification>/*</classification>
       <field_type>html</field_type>
       <font_color>#004080</font_color>
       <font_family>arial, helvetica, sans-serif</font_family>
@@ -72,7 +77,7 @@
       <html_code></html_code>
       <is_disabled>0</is_disabled>
       <is_visible>1</is_visible>
-      <label>FTA Diagram Analysis</label>
+      <label xml:lang="en">FTA Diagram Analysis</label>
       <label_position>top</label_position>
       <list_no_blank>0</list_no_blank>
       <name>html0</name>
@@ -86,6 +91,7 @@
      <Item type="Field" id="39049FDE796D4A76BB007F7A7A82FD61" action="add">
       <bg_color>#FFFFFF</bg_color>
       <border_width>0</border_width>
+      <classification>/*</classification>
       <field_type>html</field_type>
       <font_color>#000000</font_color>
       <font_family>arial, helvetica, sans-serif</font_family>
@@ -119,6 +125,7 @@ if (DocItem != null) {
      </Item>
      <Item type="Field" id="6BE1E4B6C9AC44A58B43B16F048E7AE3" action="add">
       <bg_color>#FFFFFF</bg_color>
+      <classification>/*</classification>
       <field_type>html</field_type>
       <html_code><![CDATA[<table border='0' cellspacing='0' cellpadding='0'>
 <tr><td width='40'>
@@ -168,6 +175,7 @@ document.all.modified_on.innerHTML = '<b>' +top.aras.getItemProperty(document.it
      <Item type="Field" id="03054644CE254F058C76061739FF6DE6" action="add">
       <bg_color>#FFFFFF</bg_color>
       <border_width>0</border_width>
+      <classification>/*</classification>
       <field_type>text</field_type>
       <font_color>#000000</font_color>
       <font_family>arial, helvetica, sans-serif</font_family>
@@ -175,7 +183,7 @@ document.all.modified_on.innerHTML = '<b>' +top.aras.getItemProperty(document.it
       <font_weight>bold</font_weight>
       <is_disabled>0</is_disabled>
       <is_visible>1</is_visible>
-      <label>FTA Analysis ID#</label>
+      <label xml:lang="en">FTA Analysis ID#</label>
       <label_position>top</label_position>
       <list_no_blank>0</list_no_blank>
       <name>item_number</name>
@@ -191,6 +199,7 @@ document.all.modified_on.innerHTML = '<b>' +top.aras.getItemProperty(document.it
      <Item type="Field" id="EC400E5F4C28471CAF84F02295E3E7E4" action="add">
       <bg_color>#FFFFFF</bg_color>
       <border_width>0</border_width>
+      <classification>/*</classification>
       <field_type>html</field_type>
       <font_color>#000000</font_color>
       <font_family>arial, helvetica, sans-serif</font_family>
@@ -211,6 +220,7 @@ document.all.modified_on.innerHTML = '<b>' +top.aras.getItemProperty(document.it
      <Item type="Field" id="C876672E44154BED8CAC347EA393657F" action="add">
       <bg_color>#FFFFFF</bg_color>
       <border_width>0</border_width>
+      <classification>/*</classification>
       <field_type>html</field_type>
       <font_color>#000000</font_color>
       <font_family>arial, helvetica, sans-serif</font_family>
@@ -231,6 +241,7 @@ document.all.modified_on.innerHTML = '<b>' +top.aras.getItemProperty(document.it
     </Relationships>
    </Item>
    <Item type="Form Event" id="6027B9142AB04F358BC7AF967AD840D8" action="add">
+    <classification>/*</classification>
     <form_event>onload</form_event>
     <related_id keyed_name="QS FishBone File Load" type="Method">
      <Item type="Method" action="get" select="id">

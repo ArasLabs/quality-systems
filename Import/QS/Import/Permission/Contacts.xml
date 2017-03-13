@@ -6,13 +6,16 @@
    <Item type="Access" id="427B3B5A762B40D4B6F42150A1F68B5E" action="add">
     <can_change_access>1</can_change_access>
     <can_delete>1</can_delete>
+    <can_discover>0</can_discover>
     <can_get>1</can_get>
     <can_update>1</can_update>
+    <classification>/*</classification>
     <related_id keyed_name="World" type="Identity">
      <Item type="Identity" action="get" select="id">
       <name>World</name>
      </Item>
     </related_id>
+    <show_permissions_warning>0</show_permissions_warning>
     <sort_order>128</sort_order>
     <source_id keyed_name="Contacts" type="Permission">1426EE7C4B2A40CE885876307C40F4BB</source_id>
    </Item>

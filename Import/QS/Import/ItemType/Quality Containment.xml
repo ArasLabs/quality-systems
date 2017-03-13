@@ -2,7 +2,7 @@
  <Item type="ItemType" id="E62DFA545B264E1DBE6EBEBC790A7723" action="add">
   <allow_private_permission>1</allow_private_permission>
   <auto_search>1</auto_search>
-  <default_lifecycle keyed_name="Default" type="Life Cycle Map">2F3B75E17C4E4F2D9599579A965BFA64</default_lifecycle>
+  <enforce_discovery>1</enforce_discovery>
   <hide_where_used>0</hide_where_used>
   <implementation_type>polymorphic</implementation_type>
   <instance_data>QUALITY_CONTAINMENT</instance_data>
@@ -12,7 +12,6 @@
   <manual_versioning>0</manual_versioning>
   <name>Quality Containment</name>
   <revisions keyed_name="Default" type="Revision">7FE395DD8B9F4E1090756A34B733D75E</revisions>
-  <save_history>0</save_history>
   <show_parameters_tab>1</show_parameters_tab>
   <unlock_on_logout>0</unlock_on_logout>
   <use_src_access>0</use_src_access>
@@ -27,7 +26,14 @@
     <sort_order>128</sort_order>
     <source_id keyed_name="Quality Containment" type="ItemType" name="Quality Containment">E62DFA545B264E1DBE6EBEBC790A7723</source_id>
    </Item>
+  
+   <Item type="ItemType Life Cycle" id="B1BAD78D098444E69C6E5D5C5204F530" action="add">
+    <related_id keyed_name="Default" type="Life Cycle Map">2F3B75E17C4E4F2D9599579A965BFA64</related_id>
+    <sort_order>128</sort_order>
+    <source_id keyed_name="Quality Containment" type="ItemType" name="Quality Containment">E62DFA545B264E1DBE6EBEBC790A7723</source_id>
+   </Item>
    <Item type="Property" id="900F4E3F00934673BBB8A9811A7AAD57" action="add">
+    <classification>/*</classification>
     <column_alignment>left</column_alignment>
     <column_width>250</column_width>
     <data_type>string</data_type>
@@ -37,15 +43,17 @@
     <is_keyed>0</is_keyed>
     <is_multi_valued>0</is_multi_valued>
     <is_required>0</is_required>
-    <label>Description</label>
+    <label xml:lang="en">Description</label>
     <name>description</name>
     <range_inclusive>0</range_inclusive>
     <readonly>0</readonly>
     <sort_order>30</sort_order>
     <source_id keyed_name="Quality Containment" type="ItemType" name="Quality Containment">E62DFA545B264E1DBE6EBEBC790A7723</source_id>
     <stored_length>128</stored_length>
+    <track_history>0</track_history>
    </Item>
    <Item type="Property" id="1E9A3622E42B4855B64EB98A9C7321C3" action="add">
+    <classification>/*</classification>
     <column_alignment>left</column_alignment>
     <column_width>100</column_width>
     <data_type>string</data_type>
@@ -55,15 +63,17 @@
     <is_keyed>0</is_keyed>
     <is_multi_valued>0</is_multi_valued>
     <is_required>0</is_required>
-    <label>Item #</label>
+    <label xml:lang="en">Item #</label>
     <name>item_number</name>
     <range_inclusive>0</range_inclusive>
     <readonly>0</readonly>
     <sort_order>8</sort_order>
     <source_id keyed_name="Quality Containment" type="ItemType" name="Quality Containment">E62DFA545B264E1DBE6EBEBC790A7723</source_id>
     <stored_length>32</stored_length>
+    <track_history>0</track_history>
    </Item>
    <Item type="Server Event" id="FF14496B1F58492199C6C03F0ED6E39D" action="add">
+    <classification>/*</classification>
     <related_id keyed_name="polymorphic_item_onBeforeAdd" type="Method">
      <Item type="Method" action="get" select="id">
       <name>polymorphic_item_onBeforeAdd</name>
@@ -74,6 +84,7 @@
     <source_id keyed_name="Quality Containment" type="ItemType" name="Quality Containment">E62DFA545B264E1DBE6EBEBC790A7723</source_id>
    </Item>
    <Item type="Server Event" id="E7A8C69947604C4F863603D3DE24A5B9" action="add">
+    <classification>/*</classification>
     <related_id keyed_name="polymorphic_item_onBeforeCopy" type="Method">
      <Item type="Method" action="get" select="id">
       <name>polymorphic_item_onBeforeCopy</name>
@@ -84,6 +95,7 @@
     <source_id keyed_name="Quality Containment" type="ItemType" name="Quality Containment">E62DFA545B264E1DBE6EBEBC790A7723</source_id>
    </Item>
    <Item type="Server Event" id="54E4F134FE4641A193040D9237B47DA8" action="add">
+    <classification>/*</classification>
     <related_id keyed_name="polymorphic_item_onBeforeDelete" type="Method">
      <Item type="Method" action="get" select="id">
       <name>polymorphic_item_onBeforeDelete</name>
@@ -94,6 +106,7 @@
     <source_id keyed_name="Quality Containment" type="ItemType" name="Quality Containment">E62DFA545B264E1DBE6EBEBC790A7723</source_id>
    </Item>
    <Item type="Server Event" id="06DF1461EAD24847BC1DA3B04A84DBF3" action="add">
+    <classification>/*</classification>
     <related_id keyed_name="polymorphic_item_onBeforeLock" type="Method">
      <Item type="Method" action="get" select="id">
       <name>polymorphic_item_onBeforeLock</name>
@@ -104,6 +117,7 @@
     <source_id keyed_name="Quality Containment" type="ItemType" name="Quality Containment">E62DFA545B264E1DBE6EBEBC790A7723</source_id>
    </Item>
    <Item type="Server Event" id="920467EDA77141D8815B69AC1CBE9664" action="add">
+    <classification>/*</classification>
     <related_id keyed_name="polymorphic_item_onBeforeUnlock" type="Method">
      <Item type="Method" action="get" select="id">
       <name>polymorphic_item_onBeforeUnlock</name>
@@ -114,6 +128,7 @@
     <source_id keyed_name="Quality Containment" type="ItemType" name="Quality Containment">E62DFA545B264E1DBE6EBEBC790A7723</source_id>
    </Item>
    <Item type="Server Event" id="3B0C93A9EDF04740A300DE3282B43CFB" action="add">
+    <classification>/*</classification>
     <related_id keyed_name="polymorphic_item_onBeforeUpdate" type="Method">
      <Item type="Method" action="get" select="id">
       <name>polymorphic_item_onBeforeUpdate</name>
@@ -124,6 +139,7 @@
     <source_id keyed_name="Quality Containment" type="ItemType" name="Quality Containment">E62DFA545B264E1DBE6EBEBC790A7723</source_id>
    </Item>
    <Item type="Server Event" id="96C56BE4CD8D4155A299FF1DC2A648BF" action="add">
+    <classification>/*</classification>
     <related_id keyed_name="polymorphic_item_onBeforeVersion" type="Method">
      <Item type="Method" action="get" select="id">
       <name>polymorphic_item_onBeforeVersion</name>
@@ -132,12 +148,12 @@
     <server_event>onBeforeVersion</server_event>
     <sort_order>640</sort_order>
     <source_id keyed_name="Quality Containment" type="ItemType" name="Quality Containment">E62DFA545B264E1DBE6EBEBC790A7723</source_id>
-   </Item>
-  </Relationships>
+   </Item></Relationships>
  </Item>
  <Item type="ItemType" id="E62DFA545B264E1DBE6EBEBC790A7723" action="edit">
   <Relationships>
    <Item type="Property" action="edit" where="source_id='E62DFA545B264E1DBE6EBEBC790A7723' and name='itemtype'">
+    <classification>/*</classification>
     <column_alignment>left</column_alignment>
     <data_source keyed_name="Quality Containment"><Item type="List" action="get" select="id" page="1" pagesize="1"><name>Quality Containment</name></Item></data_source>
     <data_type>list</data_type>
@@ -147,14 +163,16 @@
     <is_keyed>0</is_keyed>
     <is_multi_valued>0</is_multi_valued>
     <is_required>0</is_required>
-    <label>ItemType</label>
+    <label xml:lang="en">ItemType</label>
     <name>itemtype</name>
     <range_inclusive>0</range_inclusive>
     <readonly>1</readonly>
     <sort_order>158</sort_order>
     <source_id keyed_name="Quality Containment" type="ItemType" name="Quality Containment">E62DFA545B264E1DBE6EBEBC790A7723</source_id>
+    <track_history>0</track_history>
    </Item>
    <Item type="Property" action="edit" where="source_id='E62DFA545B264E1DBE6EBEBC790A7723' and name='owned_by_id'">
+    <classification>/*</classification>
     <column_alignment>left</column_alignment>
     <column_width>100</column_width>
     <data_source keyed_name="Identity" type="ItemType" name="Identity">E582AB17663F4EF28460015B2BE9E094</data_source>
@@ -166,14 +184,16 @@
     <is_multi_valued>0</is_multi_valued>
     <is_required>0</is_required>
     <item_behavior>float</item_behavior>
-    <label>Responsible</label>
+    <label xml:lang="en">Responsible</label>
     <name>owned_by_id</name>
     <range_inclusive>0</range_inclusive>
     <readonly>0</readonly>
     <sort_order>12</sort_order>
     <source_id keyed_name="Quality Containment" type="ItemType" name="Quality Containment">E62DFA545B264E1DBE6EBEBC790A7723</source_id>
+    <track_history>0</track_history>
    </Item>
    <Item type="Property" action="edit" where="source_id='E62DFA545B264E1DBE6EBEBC790A7723' and name='state'">
+    <classification>/*</classification>
     <column_alignment>center</column_alignment>
     <column_width>100</column_width>
     <data_type>string</data_type>
@@ -183,15 +203,17 @@
     <is_keyed>0</is_keyed>
     <is_multi_valued>0</is_multi_valued>
     <is_required>0</is_required>
-    <label>Status</label>
+    <label xml:lang="en">Status</label>
     <name>state</name>
     <range_inclusive>0</range_inclusive>
     <readonly>1</readonly>
     <sort_order>11</sort_order>
     <source_id keyed_name="Quality Containment" type="ItemType" name="Quality Containment">E62DFA545B264E1DBE6EBEBC790A7723</source_id>
     <stored_length>32</stored_length>
+    <track_history>0</track_history>
    </Item>
    <Item type="Property" action="edit" where="source_id='E62DFA545B264E1DBE6EBEBC790A7723' and name='superseded_date'">
+    <classification>/*</classification>
     <column_alignment>left</column_alignment>
     <data_type>date</data_type>
     <is_hidden>1</is_hidden>
@@ -200,20 +222,21 @@
     <is_keyed>0</is_keyed>
     <is_multi_valued>0</is_multi_valued>
     <is_required>0</is_required>
-    <label>Superseded Date</label>
+    <label xml:lang="en">Superseded Date</label>
     <name>superseded_date</name>
     <pattern>MM/dd/yyyy hh:mm:ss a</pattern>
     <range_inclusive>0</range_inclusive>
     <readonly>0</readonly>
     <sort_order>3486</sort_order>
     <source_id keyed_name="Quality Containment" type="ItemType" name="Quality Containment">E62DFA545B264E1DBE6EBEBC790A7723</source_id>
+    <track_history>0</track_history>
    </Item>
   </Relationships>
  </Item>
  <Item type="ItemType" id="E62DFA545B264E1DBE6EBEBC790A7723" action="edit">
   <Relationships>
    <Item type="Morphae" id="803F95C4630D42A787AA00B4516C0D82" action="add">
-    <related_id keyed_name="Non Conf  Mat Purge" type="ItemType" name="ItemType">C69F8715010341DD8F6ADFA61DF2A0F8</related_id>
+    <related_id keyed_name="Non Conf  Mat Purge" type="ItemType" name="Non Conf  Mat Purge">C69F8715010341DD8F6ADFA61DF2A0F8</related_id>
     <sort_order>256</sort_order>
     <source_id keyed_name="Quality Containment" type="ItemType" name="Quality Containment">E62DFA545B264E1DBE6EBEBC790A7723</source_id>
    </Item>
@@ -222,7 +245,7 @@
  <Item type="ItemType" id="E62DFA545B264E1DBE6EBEBC790A7723" action="edit">
   <Relationships>
    <Item type="Morphae" id="44A5F0DF832F49ABB98DAE06EFD3757A" action="add">
-    <related_id keyed_name="QS Stop Ship" type="ItemType" name="ItemType">0441EBE7DD5E480BB208A71473E7FD18</related_id>
+    <related_id keyed_name="QS Stop Ship" type="ItemType" name="QS Stop Ship">0441EBE7DD5E480BB208A71473E7FD18</related_id>
     <sort_order>384</sort_order>
     <source_id keyed_name="Quality Containment" type="ItemType" name="Quality Containment">E62DFA545B264E1DBE6EBEBC790A7723</source_id>
    </Item>
@@ -231,7 +254,7 @@
  <Item type="ItemType" id="E62DFA545B264E1DBE6EBEBC790A7723" action="edit">
   <Relationships>
    <Item type="Morphae" id="CFC9959BFBEB4A97B71E3D5F56228DEE" action="add">
-    <related_id keyed_name="Hold Notice" type="ItemType" name="ItemType">EEFB983D95064A169EF8B714121EE305</related_id>
+    <related_id keyed_name="Hold Notice" type="ItemType" name="Hold Notice">EEFB983D95064A169EF8B714121EE305</related_id>
     <sort_order>512</sort_order>
     <source_id keyed_name="Quality Containment" type="ItemType" name="Quality Containment">E62DFA545B264E1DBE6EBEBC790A7723</source_id>
    </Item>

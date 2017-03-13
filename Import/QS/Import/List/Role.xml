@@ -1,58 +1,68 @@
 ﻿<AML>
  <Item type="List" id="8FFA0F8E0ED24B42B8C6F9ED16B6B291" action="add">
+  <classification>/*</classification>
   <description>Job role of the individual</description>
   <name>Role</name>
   <Relationships>
    <Item type="Value" id="1EADA57852434A47A17B993F09E10B3B" action="add">
-    <label>Design</label>
+    <classification>/*</classification>
+    <label xml:lang="en">Design</label>
     <sort_order>512</sort_order>
     <source_id keyed_name="Role" type="List">8FFA0F8E0ED24B42B8C6F9ED16B6B291</source_id>
     <value>Design</value>
    </Item>
    <Item type="Value" id="6A8FA0A4C7524BBCBD94674210B33E8E" action="add">
-    <label>Engineering</label>
+    <classification>/*</classification>
+    <label xml:lang="en">Engineering</label>
     <sort_order>640</sort_order>
     <source_id keyed_name="Role" type="List">8FFA0F8E0ED24B42B8C6F9ED16B6B291</source_id>
     <value>Engineering</value>
    </Item>
    <Item type="Value" id="D11A93247A314AF19E149567DAB29C12" action="add">
-    <label>Manufacturing</label>
+    <classification>/*</classification>
+    <label xml:lang="en">Manufacturing</label>
     <sort_order>384</sort_order>
     <source_id keyed_name="Role" type="List">8FFA0F8E0ED24B42B8C6F9ED16B6B291</source_id>
     <value>Manufacturing</value>
    </Item>
    <Item type="Value" id="A065CB5878F14BFCBA269DF226350056" action="add">
-    <label>Process</label>
+    <classification>/*</classification>
+    <label xml:lang="en">Process</label>
     <sort_order>128</sort_order>
     <source_id keyed_name="Role" type="List">8FFA0F8E0ED24B42B8C6F9ED16B6B291</source_id>
     <value>Process</value>
    </Item>
    <Item type="Value" id="06F7ABBBDDA542CFAA5436B2EE0F8646" action="add">
-    <label>Project Management</label>
+    <classification>/*</classification>
+    <label xml:lang="en">Project Management</label>
     <sort_order>256</sort_order>
     <source_id keyed_name="Role" type="List">8FFA0F8E0ED24B42B8C6F9ED16B6B291</source_id>
     <value>Project Management</value>
    </Item>
    <Item type="Value" id="57081BC726AB41328179BAC63D8C7266" action="add">
-    <label>Purchasing</label>
+    <classification>/*</classification>
+    <label xml:lang="en">Purchasing</label>
     <sort_order>768</sort_order>
     <source_id keyed_name="Role" type="List">8FFA0F8E0ED24B42B8C6F9ED16B6B291</source_id>
     <value>Purchasing</value>
    </Item>
    <Item type="Value" id="B625B128DB744C589C0BC4BCF88E02C5" action="add">
-    <label>Quality</label>
+    <classification>/*</classification>
+    <label xml:lang="en">Quality</label>
     <sort_order>896</sort_order>
     <source_id keyed_name="Role" type="List">8FFA0F8E0ED24B42B8C6F9ED16B6B291</source_id>
     <value>Quality</value>
    </Item>
    <Item type="Value" id="670E47CF718C409BB522129AEB86ABF6" action="add">
-    <label>Sales/Marketing</label>
+    <classification>/*</classification>
+    <label xml:lang="en">Sales/Marketing</label>
     <sort_order>1024</sort_order>
     <source_id keyed_name="Role" type="List">8FFA0F8E0ED24B42B8C6F9ED16B6B291</source_id>
     <value>Sales/Marketing</value>
    </Item>
    <Item type="Value" id="EA38C2CEAF7248448C3AFAA269FC50FE" action="add">
-    <label>Validation</label>
+    <classification>/*</classification>
+    <label xml:lang="en">Validation</label>
     <sort_order>1152</sort_order>
     <source_id keyed_name="Role" type="List">8FFA0F8E0ED24B42B8C6F9ED16B6B291</source_id>
     <value>Validation</value>

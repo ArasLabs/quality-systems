@@ -1,9 +1,11 @@
 ﻿<AML>
  <Item type="Life Cycle Map" id="272BB74747A64AE188421D00054AD45E" action="add">
+  <classification>/*</classification>
   <name>QS Audit</name>
   <start_state keyed_name="Planned" type="Life Cycle State">45327B96D9504BDC9B1DAAB3199F7215</start_state>
   <Relationships>
    <Item type="Life Cycle State" id="F3AC2263219C49D1A091285AD24CFE47" action="add">
+    <classification>/*</classification>
     <image>../images/icons/20x20/20x15_lifecycle.gif</image>
     <name>Completed</name>
     <set_is_released>0</set_is_released>
@@ -14,6 +16,7 @@
     <y>29</y>
    </Item>
    <Item type="Life Cycle State" id="8A71892A8FE849C6BCA9C9760D0BC60D" action="add">
+    <classification>/*</classification>
     <image>../images/icons/20x20/20x15_lifecycle.gif</image>
     <name>In Process</name>
     <set_is_released>0</set_is_released>
@@ -24,6 +27,7 @@
     <y>29</y>
    </Item>
    <Item type="Life Cycle State" id="45327B96D9504BDC9B1DAAB3199F7215" action="add">
+    <classification>/*</classification>
     <image>../images/icons/20x20/20x15_lifecycle.gif</image>
     <name>Planned</name>
     <set_is_released>0</set_is_released>
@@ -34,6 +38,7 @@
     <y>29</y>
    </Item>
    <Item type="Life Cycle Transition" id="3B529EEC3BDE43C5A0520E36049F1EA7" action="add">
+    <classification>/*</classification>
     <from_state keyed_name="In Process" type="Life Cycle State">8A71892A8FE849C6BCA9C9760D0BC60D</from_state>
     <get_comment>0</get_comment>
     <role keyed_name="World" type="Identity">
@@ -50,6 +55,7 @@
    </Item>
   
    <Item type="Life Cycle Transition" id="B2BC2744A51F4600A1F2803A6AAFBB89" action="add">
+    <classification>/*</classification>
     <from_state keyed_name="Planned" type="Life Cycle State">45327B96D9504BDC9B1DAAB3199F7215</from_state>
     <get_comment>0</get_comment>
     <role keyed_name="World" type="Identity">

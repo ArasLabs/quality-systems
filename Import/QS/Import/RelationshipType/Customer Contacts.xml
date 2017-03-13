@@ -2,23 +2,24 @@
  <Item type="RelationshipType" id="FC05A3D7534D41A09FAF9B4DEDFE567A" action="add" dependencyLevel="0">
   <auto_search>1</auto_search>
   <behavior>float</behavior>
+  <classification>/*</classification>
   <copy_permissions>0</copy_permissions>
   <create_related>0</create_related>
   <hide_in_all>0</hide_in_all>
   <inc_rel_key_name>1</inc_rel_key_name>
   <inc_related_key_name>1</inc_related_key_name>
   <is_list_type>0</is_list_type>
-  <label>Customer Contacts</label>
+  <label xml:lang="en">Customer Contacts</label>
   <name>Customer Contacts</name>
   <new_show_related>0</new_show_related>
-  <related_id keyed_name="Contact" type="ItemType" name="ItemType">921DE47AFFDB44DAA9F61F5ADCCB767A</related_id>
+  <related_id keyed_name="Contact" type="ItemType" name="Contact">921DE47AFFDB44DAA9F61F5ADCCB767A</related_id>
   <related_notnull>1</related_notnull>
   <related_option>1</related_option>
   <relationship_id keyed_name="Customer Contacts" type="ItemType" name="Customer Contacts">
    <Item type="ItemType" id="24B7EB0587B2462DAD7BEDD48D3F844C" action="add">
     <allow_private_permission>1</allow_private_permission>
     <auto_search>0</auto_search>
-    <default_lifecycle keyed_name="Default" type="Life Cycle Map">2F3B75E17C4E4F2D9599579A965BFA64</default_lifecycle>
+    <enforce_discovery>1</enforce_discovery>
     <hide_where_used>0</hide_where_used>
     <implementation_type>table</implementation_type>
     <instance_data>CUSTOMER_CONTACTS</instance_data>
@@ -28,12 +29,18 @@
     <manual_versioning>0</manual_versioning>
     <name>Customer Contacts</name>
     <revisions keyed_name="Default" type="Revision">7FE395DD8B9F4E1090756A34B733D75E</revisions>
-    <save_history>0</save_history>
     <show_parameters_tab>1</show_parameters_tab>
     <unlock_on_logout>0</unlock_on_logout>
     <use_src_access>1</use_src_access>
     <Relationships>
+     <Item type="ItemType Life Cycle" id="C4C384EAAC504780BE007B18C924AC50" action="add">
+      <related_id keyed_name="Default" type="Life Cycle Map">2F3B75E17C4E4F2D9599579A965BFA64</related_id>
+      <sort_order>128</sort_order>
+      <source_id keyed_name="Customer Contacts" type="ItemType" name="Customer Contacts">24B7EB0587B2462DAD7BEDD48D3F844C</source_id>
+     </Item>
+    
      <Item type="Property" id="66456EC70C7B4E81AA9C5DAFE2E52E65" action="add">
+      <classification>/*</classification>
       <column_alignment>left</column_alignment>
       <column_width>80</column_width>
       <data_type>boolean</data_type>
@@ -43,14 +50,14 @@
       <is_keyed>0</is_keyed>
       <is_multi_valued>0</is_multi_valued>
       <is_required>0</is_required>
-      <label>Primary Contact</label>
+      <label xml:lang="en">Primary Contact</label>
       <name>primary_contact</name>
       <range_inclusive>0</range_inclusive>
       <readonly>0</readonly>
       <sort_order>1</sort_order>
       <source_id keyed_name="Customer Contacts" type="ItemType" name="Customer Contacts">24B7EB0587B2462DAD7BEDD48D3F844C</source_id>
-     </Item>
-    </Relationships>
+      <track_history>0</track_history>
+     </Item></Relationships>
    </Item>
   </relationship_id>
   <sort_order>128</sort_order>

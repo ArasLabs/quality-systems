@@ -1,10 +1,12 @@
 ﻿<AML>
  <Item type="Life Cycle Map" id="C1A367CE1B934405B7824E142DC00709" action="add">
+  <classification>/*</classification>
   <description>Quality Records</description>
   <name>QS Logbook</name>
   <start_state keyed_name="Active" type="Life Cycle State">3B939B3E9D9547CFA385AA53DD59398F</start_state>
   <Relationships>
    <Item type="Life Cycle State" id="3B939B3E9D9547CFA385AA53DD59398F" action="add">
+    <classification>/*</classification>
     <image>../images/icons/20x20/20x15_lifecycle.gif</image>
     <name>Active</name>
     <set_is_released>0</set_is_released>

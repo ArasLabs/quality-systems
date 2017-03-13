@@ -1,17 +1,20 @@
 ﻿<AML>
  <Item type="List" id="44D96802366D40E3BF015D4B82CF24E0" action="add">
+  <classification>/*</classification>
   <description>List of areas affected by NCR</description>
   <name>QS NCR Affects</name>
   <Relationships>
    <Item type="Value" id="E784D598CA5C4925A8C99431306D8103" action="add">
-    <label>Internal</label>
+    <classification>/*</classification>
+    <label xml:lang="en">Internal</label>
     <sort_order>2</sort_order>
     <source_id keyed_name="QS NCR Affects" type="List">44D96802366D40E3BF015D4B82CF24E0</source_id>
     <value>Internal</value>
    </Item>
   
    <Item type="Value" id="D5C84F6930C249D68E3CBC5DCB490460" action="add">
-    <label>Supplier</label>
+    <classification>/*</classification>
+    <label xml:lang="en">Supplier</label>
     <sort_order>1</sort_order>
     <source_id keyed_name="QS NCR Affects" type="List">44D96802366D40E3BF015D4B82CF24E0</source_id>
     <value>Supplier</value>

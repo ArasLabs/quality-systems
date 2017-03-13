@@ -1,5 +1,6 @@
 ﻿<AML>
  <Item type="Form" id="76993C5810FC4ACABD69FD39BBBEC3EB" action="add">
+  <classification>/*</classification>
   <height>600</height>
   <name>Non Conf  Mat Purge</name>
   <stylesheet><![CDATA[../styles/default.css]]></stylesheet>
@@ -10,12 +11,14 @@
     <bg_color>#FFFFFF</bg_color>
     <bg_image>../images/Backgrounds/wvleft.gif</bg_image>
     <bg_repeat>no-repeat</bg_repeat>
+    <classification>/*</classification>
     <sort_order>128</sort_order>
     <source_id keyed_name="Non Conf  Mat Purge" type="Form">76993C5810FC4ACABD69FD39BBBEC3EB</source_id>
     <Relationships>
      <Item type="Field" id="E117C932FA174AAE970079E16849E539" action="add">
       <bg_color>#FFFFFF</bg_color>
       <border_width>0</border_width>
+      <classification>/*</classification>
       <field_type>checkbox</field_type>
       <font_color>#000000</font_color>
       <font_family>arial, helvetica, sans-serif</font_family>
@@ -23,7 +26,7 @@
       <font_weight>bold</font_weight>
       <is_disabled>0</is_disabled>
       <is_visible>1</is_visible>
-      <label> CONTACT PRODUCTION SUPERVISOR AND QUALITY SUPERVISOR</label>
+      <label xml:lang="en"> CONTACT PRODUCTION SUPERVISOR AND QUALITY SUPERVISOR</label>
       <label_position>right</label_position>
       <list_no_blank>0</list_no_blank>
       <name>check_contact_super</name>
@@ -39,6 +42,7 @@
      <Item type="Field" id="AF7989AB2662489384F95C27B9748EE1" action="add">
       <bg_color>#FFFFFF</bg_color>
       <border_width>0</border_width>
+      <classification>/*</classification>
       <field_type>checkbox</field_type>
       <font_color>#000000</font_color>
       <font_family>arial, helvetica, sans-serif</font_family>
@@ -46,7 +50,7 @@
       <font_weight>bold</font_weight>
       <is_disabled>0</is_disabled>
       <is_visible>1</is_visible>
-      <label>MOVE MATERIAL TO SEGREGATED AREA</label>
+      <label xml:lang="en">MOVE MATERIAL TO SEGREGATED AREA</label>
       <label_position>right</label_position>
       <list_no_blank>0</list_no_blank>
       <name>check_move</name>
@@ -62,6 +66,7 @@
      <Item type="Field" id="13CE5720337C4DD88472D41CAC2C1C98" action="add">
       <bg_color>#FFFFFF</bg_color>
       <border_width>0</border_width>
+      <classification>/*</classification>
       <field_type>checkbox</field_type>
       <font_color>#000000</font_color>
       <font_family>arial, helvetica, sans-serif</font_family>
@@ -69,7 +74,7 @@
       <font_weight>bold</font_weight>
       <is_disabled>0</is_disabled>
       <is_visible>1</is_visible>
-      <label>QUARANTINE ALL SUSPECT MATERIAL.  CHECK AREAS BELOW [X] = PURGED</label>
+      <label xml:lang="en">QUARANTINE ALL SUSPECT MATERIAL.  CHECK AREAS BELOW [X] = PURGED</label>
       <label_position>right</label_position>
       <list_no_blank>0</list_no_blank>
       <name>check_quarantine</name>
@@ -85,6 +90,7 @@
      <Item type="Field" id="50427F9999954D5E85FCF75392AB4A29" action="add">
       <bg_color>#FFFFFF</bg_color>
       <border_width>0</border_width>
+      <classification>/*</classification>
       <field_type>checkbox</field_type>
       <font_color>#000000</font_color>
       <font_family>arial, helvetica, sans-serif</font_family>
@@ -92,7 +98,7 @@
       <font_weight>bold</font_weight>
       <is_disabled>0</is_disabled>
       <is_visible>1</is_visible>
-      <label> SHUT DOWN THE OPERATION PRODUCING THE NON-CONFORMING MATERIAL</label>
+      <label xml:lang="en"> SHUT DOWN THE OPERATION PRODUCING THE NON-CONFORMING MATERIAL</label>
       <label_position>right</label_position>
       <list_no_blank>0</list_no_blank>
       <name>check_shut_down</name>
@@ -108,6 +114,7 @@
      <Item type="Field" id="66922C6B20724E559E6A69CF71BDB972" action="add">
       <bg_color>#FFFFFF</bg_color>
       <border_width>0</border_width>
+      <classification>/*</classification>
       <field_type>checkbox</field_type>
       <font_color>#000000</font_color>
       <font_family>arial, helvetica, sans-serif</font_family>
@@ -115,7 +122,7 @@
       <font_weight>bold</font_weight>
       <is_disabled>0</is_disabled>
       <is_visible>1</is_visible>
-      <label>TAG ALL OTHER SUSPECT CONTAINERS WITH FILLED OUT APPROPRIATE TAG</label>
+      <label xml:lang="en">TAG ALL OTHER SUSPECT CONTAINERS WITH FILLED OUT APPROPRIATE TAG</label>
       <label_position>right</label_position>
       <list_no_blank>0</list_no_blank>
       <name>check_tag</name>
@@ -131,6 +138,7 @@
      <Item type="Field" id="16A9E07EB73244E4BD71E66F1447920A" action="add">
       <bg_color>#FFFFFF</bg_color>
       <border_width>0</border_width>
+      <classification>/*</classification>
       <field_type>checkbox</field_type>
       <font_color>#0423c1</font_color>
       <font_family>arial, helvetica, sans-serif</font_family>
@@ -138,7 +146,7 @@
       <font_weight>bold</font_weight>
       <is_disabled>0</is_disabled>
       <is_visible>1</is_visible>
-      <label>DISPOSITION FOR NON-CONFORMANCE PARTS</label>
+      <label xml:lang="en">DISPOSITION FOR NON-CONFORMANCE PARTS</label>
       <label_position>right</label_position>
       <list_no_blank>0</list_no_blank>
       <name>conf_non_part_disposition</name>
@@ -154,6 +162,7 @@
      <Item type="Field" id="CB5869805D174BA5A2DC15358BCBEB9F" action="add">
       <bg_color>#FFFFFF</bg_color>
       <border_width>0</border_width>
+      <classification>/*</classification>
       <field_type>textarea</field_type>
       <font_color>#0423c1</font_color>
       <font_family>arial, helvetica, sans-serif</font_family>
@@ -178,6 +187,7 @@
      <Item type="Field" id="69169D1ED3854145909BA00EE3E9473E" action="add">
       <bg_color>#FFFFFF</bg_color>
       <border_width>0</border_width>
+      <classification>/*</classification>
       <field_type>checkbox</field_type>
       <font_color>#0423c1</font_color>
       <font_family>arial, helvetica, sans-serif</font_family>
@@ -185,7 +195,7 @@
       <font_weight>bold</font_weight>
       <is_disabled>0</is_disabled>
       <is_visible>1</is_visible>
-      <label>DISPOSITION FOR CONFORMING PARTS</label>
+      <label xml:lang="en">DISPOSITION FOR CONFORMING PARTS</label>
       <label_position>right</label_position>
       <list_no_blank>0</list_no_blank>
       <name>conf_part_disposition</name>
@@ -201,6 +211,7 @@
      <Item type="Field" id="A26BDEE4969B4233BAA026DDB5F304DF" action="add">
       <bg_color>#FFFFFF</bg_color>
       <border_width>0</border_width>
+      <classification>/*</classification>
       <field_type>textarea</field_type>
       <font_color>#0423c1</font_color>
       <font_family>arial, helvetica, sans-serif</font_family>
@@ -225,6 +236,7 @@
      <Item type="Field" id="ABF5F19C47B94C8694246039E715E586" action="add">
       <bg_color>#FFFFFF</bg_color>
       <border_width>0</border_width>
+      <classification>/*</classification>
       <field_type>textarea</field_type>
       <font_color>#000000</font_color>
       <font_family>arial, helvetica, sans-serif</font_family>
@@ -232,7 +244,7 @@
       <font_weight>bold</font_weight>
       <is_disabled>0</is_disabled>
       <is_visible>1</is_visible>
-      <label>REMARKS: </label>
+      <label xml:lang="en">REMARKS: </label>
       <label_position>left</label_position>
       <list_no_blank>0</list_no_blank>
       <name>contact_comments</name>
@@ -250,6 +262,7 @@
      <Item type="Field" id="FEF3FF39CF004F0BB4608A7E42BC3DB8" action="add">
       <bg_color>#FFFFFF</bg_color>
       <border_width>0</border_width>
+      <classification>/*</classification>
       <field_type>dropdown</field_type>
       <font_color>#000000</font_color>
       <font_family>arial, helvetica, sans-serif</font_family>
@@ -257,7 +270,7 @@
       <font_weight>bold</font_weight>
       <is_disabled>0</is_disabled>
       <is_visible>1</is_visible>
-      <label>Plant:</label>
+      <label xml:lang="en">Plant:</label>
       <label_position>left</label_position>
       <list_no_blank>0</list_no_blank>
       <name>corp_plant</name>
@@ -273,6 +286,7 @@
      <Item type="Field" id="0DEBCB1CA1E54022BBDC3BB2783249A2" action="add">
       <bg_color>beige  </bg_color>
       <border_width>0</border_width>
+      <classification>/*</classification>
       <display_length>30</display_length>
       <field_type>date</field_type>
       <font_color>#000000</font_color>
@@ -281,7 +295,7 @@
       <font_weight>bold</font_weight>
       <is_disabled>0</is_disabled>
       <is_visible>1</is_visible>
-      <label>Date</label>
+      <label xml:lang="en">Date</label>
       <label_position>left</label_position>
       <list_no_blank>0</list_no_blank>
       <name>created_on</name>
@@ -296,6 +310,7 @@
      <Item type="Field" id="BB523295EC3C46A78945FCA80526C5E8" action="add">
       <bg_color>#FFFFFF</bg_color>
       <border_width>0</border_width>
+      <classification>/*</classification>
       <field_type>html</field_type>
       <font_color>#000000</font_color>
       <font_family>arial, helvetica, sans-serif</font_family>
@@ -317,6 +332,7 @@
      <Item type="Field" id="DABAC8CE5D794E8F82FA3F3D7EB7275E" action="add">
       <bg_color>#FFFFFF</bg_color>
       <border_width>0</border_width>
+      <classification>/*</classification>
       <field_type>html</field_type>
       <font_color>#000000</font_color>
       <font_family>arial, helvetica, sans-serif</font_family>
@@ -350,6 +366,7 @@ if (DocItem != null) {
      <Item type="Field" id="B7E2B5EAA07B429A96370EDF229A2661" action="add">
       <bg_color>#FFFFFF</bg_color>
       <border_width>0</border_width>
+      <classification>/*</classification>
       <field_type>textarea</field_type>
       <font_color>#000000</font_color>
       <font_family>arial, helvetica, sans-serif</font_family>
@@ -357,7 +374,7 @@ if (DocItem != null) {
       <font_weight>bold</font_weight>
       <is_disabled>0</is_disabled>
       <is_visible>1</is_visible>
-      <label>REMARKS: </label>
+      <label xml:lang="en">REMARKS: </label>
       <label_position>left</label_position>
       <list_no_blank>0</list_no_blank>
       <name>move_comments</name>
@@ -376,6 +393,7 @@ if (DocItem != null) {
      <Item type="Field" id="5F755006B1F342378BF40FA7B33DD50F" action="add">
       <bg_color>#FFFFFF</bg_color>
       <border_width>0</border_width>
+      <classification>/*</classification>
       <field_type>checkbox</field_type>
       <font_color>#000000</font_color>
       <font_family>arial, helvetica, sans-serif</font_family>
@@ -383,7 +401,7 @@ if (DocItem != null) {
       <font_weight>normal</font_weight>
       <is_disabled>0</is_disabled>
       <is_visible>1</is_visible>
-      <label>DETECTION METHOD OTHER</label>
+      <label xml:lang="en">DETECTION METHOD OTHER</label>
       <label_position>right</label_position>
       <list_no_blank>0</list_no_blank>
       <name>nc_detect_other</name>
@@ -399,6 +417,7 @@ if (DocItem != null) {
      <Item type="Field" id="72192FF2DFB84A5CAD615197B5E2A0E5" action="add">
       <bg_color>#FFFFFF</bg_color>
       <border_width>0</border_width>
+      <classification>/*</classification>
       <field_type>dropdown</field_type>
       <font_color>#000000</font_color>
       <font_family>arial, helvetica, sans-serif</font_family>
@@ -406,7 +425,7 @@ if (DocItem != null) {
       <font_weight>bold</font_weight>
       <is_disabled>0</is_disabled>
       <is_visible>1</is_visible>
-      <label>METHOD FOR DETECTING NON-CONFORMING PARTS</label>
+      <label xml:lang="en">METHOD FOR DETECTING NON-CONFORMING PARTS</label>
       <label_position>left</label_position>
       <list_no_blank>0</list_no_blank>
       <name>nc_detecting_method</name>
@@ -422,6 +441,7 @@ if (DocItem != null) {
      <Item type="Field" id="BCC29C0B6A334DD0998180F75CA4C31A" action="add">
       <bg_color>#FFFFFF</bg_color>
       <border_width>0</border_width>
+      <classification>/*</classification>
       <display_length>40</display_length>
       <field_type>text</field_type>
       <font_color>#000000</font_color>
@@ -446,6 +466,7 @@ if (DocItem != null) {
      <Item type="Field" id="FEBAEE566EA94B32A8A29A89025C5839" action="add">
       <bg_color>#FFFFFF</bg_color>
       <border_width>0</border_width>
+      <classification>/*</classification>
       <field_type>html</field_type>
       <font_color>#004080</font_color>
       <font_family>arial, helvetica, sans-serif</font_family>
@@ -454,7 +475,7 @@ if (DocItem != null) {
       <html_code></html_code>
       <is_disabled>0</is_disabled>
       <is_visible>1</is_visible>
-      <label>Non Conforming Material</label>
+      <label xml:lang="en">Non Conforming Material</label>
       <label_position>top</label_position>
       <list_no_blank>0</list_no_blank>
       <name>NCMP_header</name>
@@ -468,6 +489,7 @@ if (DocItem != null) {
      <Item type="Field" id="539943473C704D42A869F55D05DF5DB3" action="add">
       <bg_color>#FFFFFF</bg_color>
       <border_width>0</border_width>
+      <classification>/*</classification>
       <field_type>html</field_type>
       <font_color>#000000</font_color>
       <font_family>arial, helvetica, sans-serif</font_family>
@@ -490,6 +512,7 @@ if (DocItem != null) {
      <Item type="Field" id="1E8D63AE1D2B4D82A012CC18A12A373C" action="add">
       <bg_color>#FFFFFF</bg_color>
       <border_width>0</border_width>
+      <classification>/*</classification>
       <field_type>text</field_type>
       <font_color>#000000</font_color>
       <font_family>arial, helvetica, sans-serif</font_family>
@@ -497,7 +520,7 @@ if (DocItem != null) {
       <font_weight>normal</font_weight>
       <is_disabled>0</is_disabled>
       <is_visible>1</is_visible>
-      <label># OF PARTS NON-CONFORMING</label>
+      <label xml:lang="en"># OF PARTS NON-CONFORMING</label>
       <label_position>left</label_position>
       <list_no_blank>0</list_no_blank>
       <name>no_non_conform</name>
@@ -513,6 +536,7 @@ if (DocItem != null) {
      <Item type="Field" id="5CE2A6BB0B27483F803667F702995A5C" action="add">
       <bg_color>#FFFFFF</bg_color>
       <border_width>0</border_width>
+      <classification>/*</classification>
       <display_length>25</display_length>
       <field_type>text</field_type>
       <font_color>#000000</font_color>
@@ -521,7 +545,7 @@ if (DocItem != null) {
       <font_weight>normal</font_weight>
       <is_disabled>0</is_disabled>
       <is_visible>1</is_visible>
-      <label># OF PARTS INSPECTED</label>
+      <label xml:lang="en"># OF PARTS INSPECTED</label>
       <label_position>left</label_position>
       <list_no_blank>0</list_no_blank>
       <name>no_parts_insp</name>
@@ -537,6 +561,7 @@ if (DocItem != null) {
      <Item type="Field" id="0DFF7076F8BC476AA470E49FD7D9B0E9" action="add">
       <bg_color>#FFFFFF</bg_color>
       <border_width>0</border_width>
+      <classification>/*</classification>
       <field_type>radio button list</field_type>
       <font_color>#000000</font_color>
       <font_family>arial, helvetica, sans-serif</font_family>
@@ -544,7 +569,7 @@ if (DocItem != null) {
       <font_weight>bold</font_weight>
       <is_disabled>0</is_disabled>
       <is_visible>1</is_visible>
-      <label>CHECK THE AREA WHERE THE NON-CONFORMING MATERIAL WAS FOUND:</label>
+      <label xml:lang="en">CHECK THE AREA WHERE THE NON-CONFORMING MATERIAL WAS FOUND:</label>
       <label_position>top</label_position>
       <list_no_blank>0</list_no_blank>
       <listbox_size>6</listbox_size>
@@ -562,6 +587,7 @@ if (DocItem != null) {
      <Item type="Field" id="691BD58251114464BA1239F6C754B458" action="add">
       <bg_color>#FFFFFF</bg_color>
       <border_width>0</border_width>
+      <classification>/*</classification>
       <field_type>textarea</field_type>
       <font_color>#000000</font_color>
       <font_family>arial, helvetica, sans-serif</font_family>
@@ -569,7 +595,7 @@ if (DocItem != null) {
       <font_weight>bold</font_weight>
       <is_disabled>0</is_disabled>
       <is_visible>1</is_visible>
-      <label>NON-CONFORMANCE</label>
+      <label xml:lang="en">NON-CONFORMANCE</label>
       <label_position>top</label_position>
       <list_no_blank>0</list_no_blank>
       <name>non_confomance</name>
@@ -587,6 +613,7 @@ if (DocItem != null) {
      <Item type="Field" id="AE1E7F818E664776A5B228359C141161" action="add">
       <bg_color>#FFFFFF</bg_color>
       <border_width>0</border_width>
+      <classification>/*</classification>
       <field_type>item</field_type>
       <font_color>#000000</font_color>
       <font_family>arial, helvetica, sans-serif</font_family>
@@ -594,7 +621,7 @@ if (DocItem != null) {
       <font_weight>bold</font_weight>
       <is_disabled>0</is_disabled>
       <is_visible>1</is_visible>
-      <label>OPERATOR: </label>
+      <label xml:lang="en">OPERATOR: </label>
       <label_position>left</label_position>
       <list_no_blank>0</list_no_blank>
       <name>operator_1</name>
@@ -610,6 +637,7 @@ if (DocItem != null) {
      <Item type="Field" id="FCC0D43FBE1447A1A1F03187CBF8D7EC" action="add">
       <bg_color>#FFFFFF</bg_color>
       <border_width>0</border_width>
+      <classification>/*</classification>
       <field_type>date</field_type>
       <font_color>#000000</font_color>
       <font_family>arial, helvetica, sans-serif</font_family>
@@ -617,7 +645,7 @@ if (DocItem != null) {
       <font_weight>bold</font_weight>
       <is_disabled>0</is_disabled>
       <is_visible>1</is_visible>
-      <label>DATE:  </label>
+      <label xml:lang="en">DATE:  </label>
       <label_position>left</label_position>
       <list_no_blank>0</list_no_blank>
       <name>operator_1_date</name>
@@ -633,6 +661,7 @@ if (DocItem != null) {
      <Item type="Field" id="6E48981EF60D47E680EB39AAF42F61CF" action="add">
       <bg_color>#FFFFFF</bg_color>
       <border_width>0</border_width>
+      <classification>/*</classification>
       <field_type>item</field_type>
       <font_color>#000000</font_color>
       <font_family>arial, helvetica, sans-serif</font_family>
@@ -640,7 +669,7 @@ if (DocItem != null) {
       <font_weight>bold</font_weight>
       <is_disabled>0</is_disabled>
       <is_visible>1</is_visible>
-      <label>OPERATOR: </label>
+      <label xml:lang="en">OPERATOR: </label>
       <label_position>left</label_position>
       <list_no_blank>0</list_no_blank>
       <name>operator_2</name>
@@ -656,6 +685,7 @@ if (DocItem != null) {
      <Item type="Field" id="2E007317182249CAAF8973557E3B247F" action="add">
       <bg_color>#FFFFFF</bg_color>
       <border_width>0</border_width>
+      <classification>/*</classification>
       <field_type>date</field_type>
       <font_color>#000000</font_color>
       <font_family>arial, helvetica, sans-serif</font_family>
@@ -663,7 +693,7 @@ if (DocItem != null) {
       <font_weight>bold</font_weight>
       <is_disabled>0</is_disabled>
       <is_visible>1</is_visible>
-      <label>DATE: </label>
+      <label xml:lang="en">DATE: </label>
       <label_position>left</label_position>
       <list_no_blank>0</list_no_blank>
       <name>operator_2_date</name>
@@ -679,6 +709,7 @@ if (DocItem != null) {
      <Item type="Field" id="8EE32D5DF9924373AA96FAC6AC3AFCF7" action="add">
       <bg_color>#FFFFFF</bg_color>
       <border_width>0</border_width>
+      <classification>/*</classification>
       <field_type>item</field_type>
       <font_color>#000000</font_color>
       <font_family>arial, helvetica, sans-serif</font_family>
@@ -686,7 +717,7 @@ if (DocItem != null) {
       <font_weight>bold</font_weight>
       <is_disabled>0</is_disabled>
       <is_visible>1</is_visible>
-      <label>OPERATOR: </label>
+      <label xml:lang="en">OPERATOR: </label>
       <label_position>left</label_position>
       <list_no_blank>0</list_no_blank>
       <name>operator_3</name>
@@ -702,6 +733,7 @@ if (DocItem != null) {
      <Item type="Field" id="E5797123DCBC43DE8BD3F3142A8ABB7A" action="add">
       <bg_color>#FFFFFF</bg_color>
       <border_width>0</border_width>
+      <classification>/*</classification>
       <field_type>date</field_type>
       <font_color>#000000</font_color>
       <font_family>arial, helvetica, sans-serif</font_family>
@@ -709,7 +741,7 @@ if (DocItem != null) {
       <font_weight>bold</font_weight>
       <is_disabled>0</is_disabled>
       <is_visible>1</is_visible>
-      <label>DATE: </label>
+      <label xml:lang="en">DATE: </label>
       <label_position>left</label_position>
       <list_no_blank>0</list_no_blank>
       <name>operator_3_date</name>
@@ -725,6 +757,7 @@ if (DocItem != null) {
      <Item type="Field" id="9B91AF3E08AE41DA80C7C4EB17357A10" action="add">
       <bg_color>#FFFFFF</bg_color>
       <border_width>0</border_width>
+      <classification>/*</classification>
       <display_length>15</display_length>
       <field_type>item</field_type>
       <font_color>#000000</font_color>
@@ -733,7 +766,7 @@ if (DocItem != null) {
       <font_weight>bold</font_weight>
       <is_disabled>0</is_disabled>
       <is_visible>1</is_visible>
-      <label>Part No.</label>
+      <label xml:lang="en">Part No.</label>
       <label_position>left</label_position>
       <list_no_blank>0</list_no_blank>
       <name>part_number</name>
@@ -749,6 +782,7 @@ if (DocItem != null) {
      <Item type="Field" id="35B3523C73424EB8A365E3CB165DEF35" action="add">
       <bg_color>#FFFFFF</bg_color>
       <border_width>0</border_width>
+      <classification>/*</classification>
       <field_type>dropdown</field_type>
       <font_color>#000000</font_color>
       <font_family>arial, helvetica, sans-serif</font_family>
@@ -756,7 +790,7 @@ if (DocItem != null) {
       <font_weight>bold</font_weight>
       <is_disabled>0</is_disabled>
       <is_visible>1</is_visible>
-      <label>Shift:</label>
+      <label xml:lang="en">Shift:</label>
       <label_position>left</label_position>
       <list_no_blank>0</list_no_blank>
       <name>plant_shift</name>
@@ -772,6 +806,7 @@ if (DocItem != null) {
      <Item type="Field" id="1E9A15E0E3C54F1889634690B35C0EF2" action="add">
       <bg_color>#FFFFFF</bg_color>
       <border_width>0</border_width>
+      <classification>/*</classification>
       <field_type>item</field_type>
       <font_color>#000000</font_color>
       <font_family>arial, helvetica, sans-serif</font_family>
@@ -779,7 +814,7 @@ if (DocItem != null) {
       <font_weight>bold</font_weight>
       <is_disabled>0</is_disabled>
       <is_visible>1</is_visible>
-      <label>PRODUCTION SUPERVISOR: </label>
+      <label xml:lang="en">PRODUCTION SUPERVISOR: </label>
       <label_position>left</label_position>
       <list_no_blank>0</list_no_blank>
       <name>production_auth</name>
@@ -795,6 +830,7 @@ if (DocItem != null) {
      <Item type="Field" id="166FA9A5F71942F6A945E1E7BAC62809" action="add">
       <bg_color>#FFFFFF</bg_color>
       <border_width>0</border_width>
+      <classification>/*</classification>
       <field_type>date</field_type>
       <font_color>#000000</font_color>
       <font_family>arial, helvetica, sans-serif</font_family>
@@ -802,7 +838,7 @@ if (DocItem != null) {
       <font_weight>bold</font_weight>
       <is_disabled>0</is_disabled>
       <is_visible>1</is_visible>
-      <label>DATE: </label>
+      <label xml:lang="en">DATE: </label>
       <label_position>left</label_position>
       <list_no_blank>0</list_no_blank>
       <name>production_auth_date</name>
@@ -818,6 +854,7 @@ if (DocItem != null) {
      <Item type="Field" id="B664EFCFE215484AB52B4050D5E4B015" action="add">
       <bg_color>#FFFFFF</bg_color>
       <border_width>0</border_width>
+      <classification>/*</classification>
       <field_type>item</field_type>
       <font_color>#000000</font_color>
       <font_family>arial, helvetica, sans-serif</font_family>
@@ -825,7 +862,7 @@ if (DocItem != null) {
       <font_weight>bold</font_weight>
       <is_disabled>0</is_disabled>
       <is_visible>1</is_visible>
-      <label>PURGE AUTHORIZED BY: </label>
+      <label xml:lang="en">PURGE AUTHORIZED BY: </label>
       <label_position>left</label_position>
       <list_no_blank>0</list_no_blank>
       <name>purge_auth</name>
@@ -840,6 +877,7 @@ if (DocItem != null) {
      <Item type="Field" id="9A178DF5A2FD4C53A479A854D454A1EB" action="add">
       <bg_color>#FFFFFF</bg_color>
       <border_width>0</border_width>
+      <classification>/*</classification>
       <field_type>date</field_type>
       <font_color>#000000</font_color>
       <font_family>arial, helvetica, sans-serif</font_family>
@@ -847,7 +885,7 @@ if (DocItem != null) {
       <font_weight>bold</font_weight>
       <is_disabled>0</is_disabled>
       <is_visible>1</is_visible>
-      <label>DATE: </label>
+      <label xml:lang="en">DATE: </label>
       <label_position>left</label_position>
       <list_no_blank>0</list_no_blank>
       <name>purge_auth_date</name>
@@ -863,6 +901,7 @@ if (DocItem != null) {
      <Item type="Field" id="76A1F78426E04A37AB2970444CABCF11" action="add">
       <bg_color>#FFFFFF</bg_color>
       <border_width>0</border_width>
+      <classification>/*</classification>
       <field_type>checkbox</field_type>
       <font_color>#000000</font_color>
       <font_family>arial, helvetica, sans-serif</font_family>
@@ -870,7 +909,7 @@ if (DocItem != null) {
       <font_weight>normal</font_weight>
       <is_disabled>0</is_disabled>
       <is_visible>1</is_visible>
-      <label>IN-PROCESS TEST</label>
+      <label xml:lang="en">IN-PROCESS TEST</label>
       <label_position>right</label_position>
       <list_no_blank>0</list_no_blank>
       <name>q_al_fe_heat_treat</name>
@@ -886,6 +925,7 @@ if (DocItem != null) {
      <Item type="Field" id="3FB45A32914944769BB660A4E0DFE58E" action="add">
       <bg_color>#FFFFFF</bg_color>
       <border_width>0</border_width>
+      <classification>/*</classification>
       <field_type>checkbox</field_type>
       <font_color>#000000</font_color>
       <font_family>arial, helvetica, sans-serif</font_family>
@@ -893,7 +933,7 @@ if (DocItem != null) {
       <font_weight>normal</font_weight>
       <is_disabled>0</is_disabled>
       <is_visible>1</is_visible>
-      <label>PLANT STORAGE</label>
+      <label xml:lang="en">PLANT STORAGE</label>
       <label_position>right</label_position>
       <list_no_blank>0</list_no_blank>
       <name>q_blast_storage</name>
@@ -909,6 +949,7 @@ if (DocItem != null) {
      <Item type="Field" id="BDFC95A90A274A77B2A9E5EF608A1754" action="add">
       <bg_color>#FFFFFF</bg_color>
       <border_width>0</border_width>
+      <classification>/*</classification>
       <field_type>checkbox</field_type>
       <font_color>#000000</font_color>
       <font_family>arial, helvetica, sans-serif</font_family>
@@ -916,7 +957,7 @@ if (DocItem != null) {
       <font_weight>normal</font_weight>
       <is_disabled>0</is_disabled>
       <is_visible>1</is_visible>
-      <label>KANBAN BIN</label>
+      <label xml:lang="en">KANBAN BIN</label>
       <label_position>right</label_position>
       <list_no_blank>0</list_no_blank>
       <name>q_conv_systems</name>
@@ -932,6 +973,7 @@ if (DocItem != null) {
      <Item type="Field" id="83EF9DF6EF754D929E743D76B6A5422A" action="add">
       <bg_color>#FFFFFF</bg_color>
       <border_width>0</border_width>
+      <classification>/*</classification>
       <field_type>checkbox</field_type>
       <font_color>#000000</font_color>
       <font_family>arial, helvetica, sans-serif</font_family>
@@ -939,7 +981,7 @@ if (DocItem != null) {
       <font_weight>normal</font_weight>
       <is_disabled>0</is_disabled>
       <is_visible>1</is_visible>
-      <label>DISTRIBUTION HOLD AREA</label>
+      <label xml:lang="en">DISTRIBUTION HOLD AREA</label>
       <label_position>right</label_position>
       <list_no_blank>0</list_no_blank>
       <name>q_cordax_area</name>
@@ -955,6 +997,7 @@ if (DocItem != null) {
      <Item type="Field" id="02ADD05445DA4080B3F98E4AF5E29332" action="add">
       <bg_color>#FFFFFF</bg_color>
       <border_width>0</border_width>
+      <classification>/*</classification>
       <field_type>checkbox</field_type>
       <font_color>#000000</font_color>
       <font_family>arial, helvetica, sans-serif</font_family>
@@ -962,7 +1005,7 @@ if (DocItem != null) {
       <font_weight>normal</font_weight>
       <is_disabled>0</is_disabled>
       <is_visible>1</is_visible>
-      <label>DISTRIBUTION CENTER(S)</label>
+      <label xml:lang="en">DISTRIBUTION CENTER(S)</label>
       <label_position>right</label_position>
       <list_no_blank>0</list_no_blank>
       <name>q_cust_plant</name>
@@ -978,6 +1021,7 @@ if (DocItem != null) {
      <Item type="Field" id="D3470315F2C3421AAACE577B015C04EC" action="add">
       <bg_color>#FFFFFF</bg_color>
       <border_width>0</border_width>
+      <classification>/*</classification>
       <field_type>checkbox</field_type>
       <font_color>#000000</font_color>
       <font_family>arial, helvetica, sans-serif</font_family>
@@ -985,7 +1029,7 @@ if (DocItem != null) {
       <font_weight>normal</font_weight>
       <is_disabled>0</is_disabled>
       <is_visible>1</is_visible>
-      <label>DOCK AUDIT AREA</label>
+      <label xml:lang="en">DOCK AUDIT AREA</label>
       <label_position>right</label_position>
       <list_no_blank>0</list_no_blank>
       <name>q_dock_audit</name>
@@ -1001,6 +1045,7 @@ if (DocItem != null) {
      <Item type="Field" id="31377A2EF98D4EBFB1C95724597445BD" action="add">
       <bg_color>#FFFFFF</bg_color>
       <border_width>0</border_width>
+      <classification>/*</classification>
       <field_type>checkbox</field_type>
       <font_color>#000000</font_color>
       <font_family>arial, helvetica, sans-serif</font_family>
@@ -1008,7 +1053,7 @@ if (DocItem != null) {
       <font_weight>normal</font_weight>
       <is_disabled>0</is_disabled>
       <is_visible>1</is_visible>
-      <label>INCOMING HOLD AREA</label>
+      <label xml:lang="en">INCOMING HOLD AREA</label>
       <label_position>right</label_position>
       <list_no_blank>0</list_no_blank>
       <name>q_final_aud_hold_area</name>
@@ -1024,6 +1069,7 @@ if (DocItem != null) {
      <Item type="Field" id="378AEDC1B995480FACB50BD5EA364EC0" action="add">
       <bg_color>#FFFFFF</bg_color>
       <border_width>0</border_width>
+      <classification>/*</classification>
       <field_type>checkbox</field_type>
       <font_color>#000000</font_color>
       <font_family>arial, helvetica, sans-serif</font_family>
@@ -1031,7 +1077,7 @@ if (DocItem != null) {
       <font_weight>normal</font_weight>
       <is_disabled>0</is_disabled>
       <is_visible>1</is_visible>
-      <label>FINISH AREA</label>
+      <label xml:lang="en">FINISH AREA</label>
       <label_position>right</label_position>
       <list_no_blank>0</list_no_blank>
       <name>q_finish_area</name>
@@ -1047,6 +1093,7 @@ if (DocItem != null) {
      <Item type="Field" id="E38CC2C2D7894C85A26EE937BC65A37E" action="add">
       <bg_color>#FFFFFF</bg_color>
       <border_width>0</border_width>
+      <classification>/*</classification>
       <field_type>checkbox</field_type>
       <font_color>#000000</font_color>
       <font_family>arial, helvetica, sans-serif</font_family>
@@ -1054,7 +1101,7 @@ if (DocItem != null) {
       <font_weight>normal</font_weight>
       <is_disabled>0</is_disabled>
       <is_visible>1</is_visible>
-      <label>SUPPLIER PLANT(S)</label>
+      <label xml:lang="en">SUPPLIER PLANT(S)</label>
       <label_position>right</label_position>
       <list_no_blank>0</list_no_blank>
       <name>q_gage_tree</name>
@@ -1070,6 +1117,7 @@ if (DocItem != null) {
      <Item type="Field" id="E883F4D9A3664A8F981C955F6E41F7DD" action="add">
       <bg_color>#FFFFFF</bg_color>
       <border_width>0</border_width>
+      <classification>/*</classification>
       <field_type>checkbox</field_type>
       <font_color>#000000</font_color>
       <font_family>arial, helvetica, sans-serif</font_family>
@@ -1077,7 +1125,7 @@ if (DocItem != null) {
       <font_weight>normal</font_weight>
       <is_disabled>0</is_disabled>
       <is_visible>1</is_visible>
-      <label>CUSTOMER PLANT(S)</label>
+      <label xml:lang="en">CUSTOMER PLANT(S)</label>
       <label_position>right</label_position>
       <list_no_blank>0</list_no_blank>
       <name>q_in_proc_hold_areas</name>
@@ -1093,6 +1141,7 @@ if (DocItem != null) {
      <Item type="Field" id="35E4922970734EFE909A5BD0900EE212" action="add">
       <bg_color>#FFFFFF</bg_color>
       <border_width>0</border_width>
+      <classification>/*</classification>
       <field_type>checkbox</field_type>
       <font_color>#000000</font_color>
       <font_family>arial, helvetica, sans-serif</font_family>
@@ -1100,7 +1149,7 @@ if (DocItem != null) {
       <font_weight>normal</font_weight>
       <is_disabled>0</is_disabled>
       <is_visible>1</is_visible>
-      <label>IN-PROCESS HOLD AREA</label>
+      <label xml:lang="en">IN-PROCESS HOLD AREA</label>
       <label_position>right</label_position>
       <list_no_blank>0</list_no_blank>
       <name>q_in_xport_al_fe</name>
@@ -1116,6 +1165,7 @@ if (DocItem != null) {
      <Item type="Field" id="88E6DEB9D2CE45848CBD31DD8E371613" action="add">
       <bg_color>#FFFFFF</bg_color>
       <border_width>0</border_width>
+      <classification>/*</classification>
       <field_type>checkbox</field_type>
       <font_color>#000000</font_color>
       <font_family>arial, helvetica, sans-serif</font_family>
@@ -1123,7 +1173,7 @@ if (DocItem != null) {
       <font_weight>normal</font_weight>
       <is_disabled>0</is_disabled>
       <is_visible>1</is_visible>
-      <label>FINAL INSPECTION</label>
+      <label xml:lang="en">FINAL INSPECTION</label>
       <label_position>right</label_position>
       <list_no_blank>0</list_no_blank>
       <name>q_leakers</name>
@@ -1139,6 +1189,7 @@ if (DocItem != null) {
      <Item type="Field" id="8F472496BECC4BB9BF8D3CEB3E38941B" action="add">
       <bg_color>#FFFFFF</bg_color>
       <border_width>0</border_width>
+      <classification>/*</classification>
       <field_type>checkbox</field_type>
       <font_color>#000000</font_color>
       <font_family>arial, helvetica, sans-serif</font_family>
@@ -1146,7 +1197,7 @@ if (DocItem != null) {
       <font_weight>normal</font_weight>
       <is_disabled>0</is_disabled>
       <is_visible>1</is_visible>
-      <label>INCOMING INSPECTION</label>
+      <label xml:lang="en">INCOMING INSPECTION</label>
       <label_position>right</label_position>
       <list_no_blank>0</list_no_blank>
       <name>q_mach_fix</name>
@@ -1162,6 +1213,7 @@ if (DocItem != null) {
      <Item type="Field" id="A42BE76896DA4F4F8E1824C6804F9EC2" action="add">
       <bg_color>#FFFFFF</bg_color>
       <border_width>0</border_width>
+      <classification>/*</classification>
       <field_type>checkbox</field_type>
       <font_color>#000000</font_color>
       <font_family>arial, helvetica, sans-serif</font_family>
@@ -1169,7 +1221,7 @@ if (DocItem != null) {
       <font_weight>normal</font_weight>
       <is_disabled>0</is_disabled>
       <is_visible>1</is_visible>
-      <label>RETAIL / WD</label>
+      <label xml:lang="en">RETAIL / WD</label>
       <label_position>right</label_position>
       <list_no_blank>0</list_no_blank>
       <name>q_mat_in_route</name>
@@ -1185,6 +1237,7 @@ if (DocItem != null) {
      <Item type="Field" id="662547825DF24F57A069575C7DF29316" action="add">
       <bg_color>#FFFFFF</bg_color>
       <border_width>0</border_width>
+      <classification>/*</classification>
       <field_type>checkbox</field_type>
       <font_color>#000000</font_color>
       <font_family>arial, helvetica, sans-serif</font_family>
@@ -1192,7 +1245,7 @@ if (DocItem != null) {
       <font_weight>normal</font_weight>
       <is_disabled>0</is_disabled>
       <is_visible>1</is_visible>
-      <label>MANUFACTURING AREA</label>
+      <label xml:lang="en">MANUFACTURING AREA</label>
       <label_position>right</label_position>
       <list_no_blank>0</list_no_blank>
       <name>q_mfg_area</name>
@@ -1208,6 +1261,7 @@ if (DocItem != null) {
      <Item type="Field" id="3D37C0F0D9B94A3D8F9E2693AE6A0C41" action="add">
       <bg_color>#FFFFFF</bg_color>
       <border_width>0</border_width>
+      <classification>/*</classification>
       <field_type>checkbox</field_type>
       <font_color>#000000</font_color>
       <font_family>arial, helvetica, sans-serif</font_family>
@@ -1215,7 +1269,7 @@ if (DocItem != null) {
       <font_weight>normal</font_weight>
       <is_disabled>0</is_disabled>
       <is_visible>1</is_visible>
-      <label>NON-CONFORMING CAGE</label>
+      <label xml:lang="en">NON-CONFORMING CAGE</label>
       <label_position>right</label_position>
       <list_no_blank>0</list_no_blank>
       <name>q_non_con_cage</name>
@@ -1231,6 +1285,7 @@ if (DocItem != null) {
      <Item type="Field" id="68574AD526B04F8FAA8AB6D97A117F8B" action="add">
       <bg_color>#FFFFFF</bg_color>
       <border_width>0</border_width>
+      <classification>/*</classification>
       <field_type>checkbox</field_type>
       <font_color>#000000</font_color>
       <font_family>arial, helvetica, sans-serif</font_family>
@@ -1238,7 +1293,7 @@ if (DocItem != null) {
       <font_weight>normal</font_weight>
       <is_disabled>0</is_disabled>
       <is_visible>1</is_visible>
-      <label>MATERIAL IN ROUTE</label>
+      <label xml:lang="en">MATERIAL IN ROUTE</label>
       <label_position>right</label_position>
       <list_no_blank>0</list_no_blank>
       <name>q_outside_process</name>
@@ -1254,6 +1309,7 @@ if (DocItem != null) {
      <Item type="Field" id="6092C7273F8B4DA6817793B86C44CEFB" action="add">
       <bg_color>#FFFFFF</bg_color>
       <border_width>0</border_width>
+      <classification>/*</classification>
       <field_type>checkbox</field_type>
       <font_color>#000000</font_color>
       <font_family>arial, helvetica, sans-serif</font_family>
@@ -1261,7 +1317,7 @@ if (DocItem != null) {
       <font_weight>normal</font_weight>
       <is_disabled>0</is_disabled>
       <is_visible>1</is_visible>
-      <label>TRUCK DOCK</label>
+      <label xml:lang="en">TRUCK DOCK</label>
       <label_position>right</label_position>
       <list_no_blank>0</list_no_blank>
       <name>q_truck_dock</name>
@@ -1277,6 +1333,7 @@ if (DocItem != null) {
      <Item type="Field" id="3947F360BFEC4AFFB676D3D6787360A1" action="add">
       <bg_color>#FFFFFF</bg_color>
       <border_width>0</border_width>
+      <classification>/*</classification>
       <field_type>text</field_type>
       <font_color>#000000</font_color>
       <font_family>arial, helvetica, sans-serif</font_family>
@@ -1284,7 +1341,7 @@ if (DocItem != null) {
       <font_weight>bold</font_weight>
       <is_disabled>0</is_disabled>
       <is_visible>1</is_visible>
-      <label>Quality Alert #:</label>
+      <label xml:lang="en">Quality Alert #:</label>
       <label_position>left</label_position>
       <list_no_blank>0</list_no_blank>
       <name>qa_alert_no</name>
@@ -1300,6 +1357,7 @@ if (DocItem != null) {
      <Item type="Field" id="2D1426490A7C4ECAA6FB74726B2A6B8E" action="add">
       <bg_color>#FFFFFF</bg_color>
       <border_width>0</border_width>
+      <classification>/*</classification>
       <field_type>item</field_type>
       <font_color>#000000</font_color>
       <font_family>arial, helvetica, sans-serif</font_family>
@@ -1307,7 +1365,7 @@ if (DocItem != null) {
       <font_weight>bold</font_weight>
       <is_disabled>0</is_disabled>
       <is_visible>1</is_visible>
-      <label>QUALITY AUDITOR: </label>
+      <label xml:lang="en">QUALITY AUDITOR: </label>
       <label_position>left</label_position>
       <list_no_blank>0</list_no_blank>
       <name>quality_auth</name>
@@ -1323,6 +1381,7 @@ if (DocItem != null) {
      <Item type="Field" id="E1155704B7DE4D958A05970033BAF0B3" action="add">
       <bg_color>#FFFFFF</bg_color>
       <border_width>0</border_width>
+      <classification>/*</classification>
       <field_type>date</field_type>
       <font_color>#000000</font_color>
       <font_family>arial, helvetica, sans-serif</font_family>
@@ -1330,7 +1389,7 @@ if (DocItem != null) {
       <font_weight>bold</font_weight>
       <is_disabled>0</is_disabled>
       <is_visible>1</is_visible>
-      <label>DATE: </label>
+      <label xml:lang="en">DATE: </label>
       <label_position>left</label_position>
       <list_no_blank>0</list_no_blank>
       <name>quality_auth_date</name>
@@ -1346,6 +1405,7 @@ if (DocItem != null) {
      <Item type="Field" id="4D6462194D494C7FA9D53F700F2AD254" action="add">
       <bg_color>#FFFFFF</bg_color>
       <border_width>0</border_width>
+      <classification>/*</classification>
       <field_type>textarea</field_type>
       <font_color>#000000</font_color>
       <font_family>arial, helvetica, sans-serif</font_family>
@@ -1353,7 +1413,7 @@ if (DocItem != null) {
       <font_weight>bold</font_weight>
       <is_disabled>0</is_disabled>
       <is_visible>1</is_visible>
-      <label>REMARKS: </label>
+      <label xml:lang="en">REMARKS: </label>
       <label_position>left</label_position>
       <list_no_blank>0</list_no_blank>
       <name>shut_down_comment1</name>
@@ -1371,6 +1431,7 @@ if (DocItem != null) {
      <Item type="Field" id="215B205561B647F29D9F7E651F872F1C" action="add">
       <bg_color>#FFFFFF</bg_color>
       <border_width>0</border_width>
+      <classification>/*</classification>
       <field_type>textarea</field_type>
       <font_color>#000000</font_color>
       <font_family>arial, helvetica, sans-serif</font_family>
@@ -1378,7 +1439,7 @@ if (DocItem != null) {
       <font_weight>bold</font_weight>
       <is_disabled>0</is_disabled>
       <is_visible>1</is_visible>
-      <label>REMARKS: </label>
+      <label xml:lang="en">REMARKS: </label>
       <label_position>left</label_position>
       <list_no_blank>0</list_no_blank>
       <name>tag_comments</name>
@@ -1396,6 +1457,7 @@ if (DocItem != null) {
      <Item type="Field" id="E6C082F6F4154910B3D68BC6AB557183" action="add">
       <bg_color>#FFFFFF</bg_color>
       <border_width>0</border_width>
+      <classification>/*</classification>
       <field_type>checkbox</field_type>
       <font_color>#0423c1</font_color>
       <font_family>arial, helvetica, sans-serif</font_family>
@@ -1403,7 +1465,7 @@ if (DocItem != null) {
       <font_weight>bold</font_weight>
       <is_disabled>0</is_disabled>
       <is_visible>1</is_visible>
-      <label>VERIFICATION AND/OR CERTIFICATION METHOD</label>
+      <label xml:lang="en">VERIFICATION AND/OR CERTIFICATION METHOD</label>
       <label_position>right</label_position>
       <list_no_blank>0</list_no_blank>
       <name>verification_method</name>
@@ -1419,6 +1481,7 @@ if (DocItem != null) {
      <Item type="Field" id="59173DA35FB14A5C9924421486A87556" action="add">
       <bg_color>#FFFFFF</bg_color>
       <border_width>0</border_width>
+      <classification>/*</classification>
       <field_type>textarea</field_type>
       <font_color>#0423c1</font_color>
       <font_family>arial, helvetica, sans-serif</font_family>

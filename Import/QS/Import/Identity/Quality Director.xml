@@ -1,9 +1,11 @@
 ﻿<AML>
  <Item type="Identity" id="A166649C7E044E4F9522566C69555FA6" action="add">
+  <classification>/*</classification>
   <is_alias>0</is_alias>
   <name>Quality Director</name>
   </Item>
  <Item type="Member" id="90B74239332F44C6A184874992FEEDD9" action="add">
+  <classification>/*</classification>
   <related_id keyed_name="Administrators" type="Identity">2618D6F5A90949BAA7E920D1B04C7EE1</related_id>
   <sort_order>128</sort_order>
   <source_id keyed_name="Quality Director" type="Identity">A166649C7E044E4F9522566C69555FA6</source_id>

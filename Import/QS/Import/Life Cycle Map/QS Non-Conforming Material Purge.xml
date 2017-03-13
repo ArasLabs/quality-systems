@@ -1,9 +1,11 @@
 ﻿<AML>
  <Item type="Life Cycle Map" id="BC8113967B8A4D3981C9D36AC2FA7DFD" action="add">
+  <classification>/*</classification>
   <name>QS Non-Conforming Material Purge</name>
   <start_state keyed_name="Start" type="Life Cycle State">CF3F6A19148047F2A61596D97FE47B45</start_state>
   <Relationships>
    <Item type="Life Cycle State" id="D326A0F5A9B445EDB4594F7075F650DA" action="add">
+    <classification>/*</classification>
     <image>../images/icons/20x20/20x15_lifecycle.gif</image>
     <name>Approved</name>
     <set_is_released>0</set_is_released>
@@ -14,6 +16,7 @@
     <y>79</y>
    </Item>
    <Item type="Life Cycle State" id="EE899DD1A50045C796053F5F6481DA0E" action="add">
+    <classification>/*</classification>
     <image>../images/icons/20x20/20x15_lifecycle.gif</image>
     <name>In Review</name>
     <set_is_released>0</set_is_released>
@@ -24,6 +27,7 @@
     <y>79</y>
    </Item>
    <Item type="Life Cycle State" id="0DED356EAB5D487CA9015068F02F5AA1" action="add">
+    <classification>/*</classification>
     <image>../images/icons/20x20/20x15_lifecycle.gif</image>
     <name>Interim Approval</name>
     <set_is_released>0</set_is_released>
@@ -34,6 +38,7 @@
     <y>79</y>
    </Item>
    <Item type="Life Cycle State" id="051FF7EAD718484DB02705EE1A24509B" action="add">
+    <classification>/*</classification>
     <image>../images/icons/20x20/20x15_lifecycle.gif</image>
     <name>Rejected</name>
     <set_is_released>0</set_is_released>
@@ -44,6 +49,7 @@
     <y>172</y>
    </Item>
    <Item type="Life Cycle State" id="CF3F6A19148047F2A61596D97FE47B45" action="add">
+    <classification>/*</classification>
     <image>../images/icons/20x20/20x15_lifecycle.gif</image>
     <name>Start</name>
     <set_is_released>0</set_is_released>
@@ -54,6 +60,7 @@
     <y>79</y>
    </Item>
    <Item type="Life Cycle State" id="DC671A70615441578D430204F73CB824" action="add">
+    <classification>/*</classification>
     <image>../images/icons/20x20/20x15_lifecycle.gif</image>
     <name>Submitted</name>
     <set_is_released>0</set_is_released>
@@ -64,6 +71,7 @@
     <y>79</y>
    </Item>
    <Item type="Life Cycle Transition" id="52BE31CCA2024550BF6DA7D9D197362B" action="add">
+    <classification>/*</classification>
     <from_state keyed_name="Approved" type="Life Cycle State">D326A0F5A9B445EDB4594F7075F650DA</from_state>
     <get_comment>0</get_comment>
     <segments>375,190</segments>
@@ -74,6 +82,7 @@
     <y>-1</y>
    </Item>
    <Item type="Life Cycle Transition" id="C202583032D64781B5AB79FC75795A97" action="add">
+    <classification>/*</classification>
     <from_state keyed_name="In Review" type="Life Cycle State">EE899DD1A50045C796053F5F6481DA0E</from_state>
     <get_comment>0</get_comment>
     <role keyed_name="World" type="Identity">
@@ -90,6 +99,7 @@
    </Item>
   
    <Item type="Life Cycle Transition" id="10B38D6F3E79437FAFCF4B0D07BE831D" action="add">
+    <classification>/*</classification>
     <from_state keyed_name="In Review" type="Life Cycle State">EE899DD1A50045C796053F5F6481DA0E</from_state>
     <get_comment>0</get_comment>
     <role keyed_name="World" type="Identity">
@@ -105,6 +115,7 @@
     <y>54</y>
    </Item>
    <Item type="Life Cycle Transition" id="B371E85405D040E7951DAD3B84DA516A" action="add">
+    <classification>/*</classification>
     <from_state keyed_name="Interim Approval" type="Life Cycle State">0DED356EAB5D487CA9015068F02F5AA1</from_state>
     <get_comment>0</get_comment>
     <role keyed_name="World" type="Identity">
@@ -117,6 +128,7 @@
     <to_state keyed_name="Approved" type="Life Cycle State">D326A0F5A9B445EDB4594F7075F650DA</to_state>
    </Item>
    <Item type="Life Cycle Transition" id="522FADBB827D4C0998EE2F9310EF9C3F" action="add">
+    <classification>/*</classification>
     <from_state keyed_name="Interim Approval" type="Life Cycle State">0DED356EAB5D487CA9015068F02F5AA1</from_state>
     <get_comment>0</get_comment>
     <role keyed_name="World" type="Identity">
@@ -132,6 +144,7 @@
     <y>-59</y>
    </Item>
    <Item type="Life Cycle Transition" id="2EE205DE826D4B61AB461D7B8D9B6DEE" action="add">
+    <classification>/*</classification>
     <from_state keyed_name="Start" type="Life Cycle State">CF3F6A19148047F2A61596D97FE47B45</from_state>
     <get_comment>0</get_comment>
     <role keyed_name="World" type="Identity">
@@ -144,6 +157,7 @@
     <to_state keyed_name="Submitted" type="Life Cycle State">DC671A70615441578D430204F73CB824</to_state>
    </Item>
    <Item type="Life Cycle Transition" id="42012AF5B66644EE82842B78DD507B87" action="add">
+    <classification>/*</classification>
     <from_state keyed_name="Submitted" type="Life Cycle State">DC671A70615441578D430204F73CB824</from_state>
     <get_comment>0</get_comment>
     <role keyed_name="World" type="Identity">

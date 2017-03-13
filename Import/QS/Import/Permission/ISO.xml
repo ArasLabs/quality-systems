@@ -6,22 +6,28 @@
    <Item type="Access" id="981409BFDCE94E558FA8AEE4B45BF142" action="add">
     <can_change_access>1</can_change_access>
     <can_delete>1</can_delete>
+    <can_discover>0</can_discover>
     <can_get>1</can_get>
     <can_update>1</can_update>
+    <classification>/*</classification>
     <related_id keyed_name="Quality" type="Identity">6A7D911555614B8BB16CD8195CDB3B2A</related_id>
+    <show_permissions_warning>0</show_permissions_warning>
     <sort_order>256</sort_order>
     <source_id keyed_name="ISO" type="Permission">4264F52ED05840A9BE19D4D5A17A7EA3</source_id>
    </Item>
    <Item type="Access" id="C8C56B09084947DCA9F1B19A11C6A9EB" action="add">
     <can_change_access>0</can_change_access>
     <can_delete>0</can_delete>
+    <can_discover>0</can_discover>
     <can_get>1</can_get>
     <can_update>0</can_update>
+    <classification>/*</classification>
     <related_id keyed_name="World" type="Identity">
      <Item type="Identity" action="get" select="id">
       <name>World</name>
      </Item>
     </related_id>
+    <show_permissions_warning>0</show_permissions_warning>
     <sort_order>128</sort_order>
     <source_id keyed_name="ISO" type="Permission">4264F52ED05840A9BE19D4D5A17A7EA3</source_id>
    </Item>

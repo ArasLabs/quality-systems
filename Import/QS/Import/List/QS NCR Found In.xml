@@ -1,29 +1,34 @@
 ﻿<AML>
  <Item type="List" id="C6AC3AF6B3C94CB88068F050B2DE583C" action="add">
+  <classification>/*</classification>
   <description>List of locations where the NCR was discovered</description>
   <name>QS NCR Found In</name>
   <Relationships>
    <Item type="Value" id="06DF8C0E30424B508CD449C249251824" action="add">
-    <label>Inspection</label>
+    <classification>/*</classification>
+    <label xml:lang="en">Inspection</label>
     <sort_order>1</sort_order>
     <source_id keyed_name="QS NCR Found In" type="List">C6AC3AF6B3C94CB88068F050B2DE583C</source_id>
     <value>Inspection</value>
    </Item>
    <Item type="Value" id="1870F2891140468E84E7E893CCCA19CE" action="add">
-    <label>Production</label>
+    <classification>/*</classification>
+    <label xml:lang="en">Production</label>
     <sort_order>2</sort_order>
     <source_id keyed_name="QS NCR Found In" type="List">C6AC3AF6B3C94CB88068F050B2DE583C</source_id>
     <value>Production</value>
    </Item>
    <Item type="Value" id="5CE6DCF7AEE44C86A8B57B35CCA2CE21" action="add">
-    <label>Source</label>
+    <classification>/*</classification>
+    <label xml:lang="en">Source</label>
     <sort_order>4</sort_order>
     <source_id keyed_name="QS NCR Found In" type="List">C6AC3AF6B3C94CB88068F050B2DE583C</source_id>
     <value>Source</value>
    </Item>
   
    <Item type="Value" id="CE5D184B359A4B5B970D4BEA98B5E0E6" action="add">
-    <label>Test</label>
+    <classification>/*</classification>
+    <label xml:lang="en">Test</label>
     <sort_order>3</sort_order>
     <source_id keyed_name="QS NCR Found In" type="List">C6AC3AF6B3C94CB88068F050B2DE583C</source_id>
     <value>Test</value>

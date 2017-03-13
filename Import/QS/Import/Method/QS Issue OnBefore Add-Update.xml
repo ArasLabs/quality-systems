@@ -1,5 +1,6 @@
 ﻿<AML>
  <Item type="Method" id="98D59919F1FC416D92905F9096586261" action="add">
+  <classification>/*</classification>
   <method_code><![CDATA[' If the Issue does not have an item_number,  populate from the default Sequence
 '
 ' HISTORY

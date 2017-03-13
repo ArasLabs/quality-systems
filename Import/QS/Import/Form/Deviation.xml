@@ -1,5 +1,6 @@
 ﻿<AML>
  <Item type="Form" id="A00D1253C03C4D8FBECC2D0FEE81EA54" action="add">
+  <classification>/*</classification>
   <height>400</height>
   <name>Deviation</name>
   <stylesheet><![CDATA[../styles/default.css]]></stylesheet>
@@ -9,12 +10,14 @@
     <bg_attach>scroll</bg_attach>
     <bg_color>#FFFFFF</bg_color>
     <bg_repeat>no-repeat</bg_repeat>
+    <classification>/*</classification>
     <sort_order>128</sort_order>
     <source_id keyed_name="Deviation" type="Form">A00D1253C03C4D8FBECC2D0FEE81EA54</source_id>
     <Relationships>
      <Item type="Field" id="48CDB7C591BF46AE9F529502A633C963" action="add">
       <bg_color>#FFFFFF</bg_color>
       <border_width>0</border_width>
+      <classification>/*</classification>
       <field_type>date</field_type>
       <font_color>#000000</font_color>
       <font_family>arial, helvetica, sans-serif</font_family>
@@ -22,7 +25,7 @@
       <font_weight>bold</font_weight>
       <is_disabled>0</is_disabled>
       <is_visible>1</is_visible>
-      <label>From</label>
+      <label xml:lang="en">From</label>
       <label_position>top</label_position>
       <list_no_blank>0</list_no_blank>
       <name>date_from</name>
@@ -39,6 +42,7 @@
      <Item type="Field" id="FA69DD3F142A4BB0AAF3FD2FED647761" action="add">
       <bg_color>#FFFFFF</bg_color>
       <border_width>0</border_width>
+      <classification>/*</classification>
       <field_type>date</field_type>
       <font_color>#000000</font_color>
       <font_family>arial, helvetica, sans-serif</font_family>
@@ -46,7 +50,7 @@
       <font_weight>bold</font_weight>
       <is_disabled>0</is_disabled>
       <is_visible>1</is_visible>
-      <label>To</label>
+      <label xml:lang="en">To</label>
       <label_position>top</label_position>
       <list_no_blank>0</list_no_blank>
       <name>date_to</name>
@@ -63,6 +67,7 @@
      <Item type="Field" id="04F76198FC3045F4B139D440D7274AF8" action="add">
       <bg_color>#FFFFFF</bg_color>
       <border_width>0</border_width>
+      <classification>/*</classification>
       <field_type>textarea</field_type>
       <font_color>#000000</font_color>
       <font_family>arial, helvetica, sans-serif</font_family>
@@ -70,7 +75,7 @@
       <font_weight>bold</font_weight>
       <is_disabled>0</is_disabled>
       <is_visible>1</is_visible>
-      <label>Deviation</label>
+      <label xml:lang="en">Deviation</label>
       <label_position>top</label_position>
       <list_no_blank>0</list_no_blank>
       <name>description</name>
@@ -88,6 +93,7 @@
      <Item type="Field" id="4F8FC1036BD745299C4AD7CBFAF676DB" action="add">
       <bg_color>#FFFFFF</bg_color>
       <border_width>2</border_width>
+      <classification>/*</classification>
       <field_type>html</field_type>
       <font_color>#000000</font_color>
       <font_family>arial, helvetica, sans-serif</font_family>
@@ -96,7 +102,7 @@
       <html_code><![CDATA[<img height='90' width='200' src='../images/icons/other/1x1.gif'>]]></html_code>
       <is_disabled>0</is_disabled>
       <is_visible>1</is_visible>
-      <legend>&lt;b&gt;Effectivity&lt;/b&gt;</legend>
+      <legend xml:lang="en">&lt;b&gt;Effectivity&lt;/b&gt;</legend>
       <list_no_blank>0</list_no_blank>
       <name>effectivity_border</name>
       <positioning>absolute</positioning>
@@ -109,6 +115,7 @@
      <Item type="Field" id="23339774092B465DA5B0F8F83AD07254" action="add">
       <bg_color>#FFFFFF</bg_color>
       <border_width>0</border_width>
+      <classification>/*</classification>
       <field_type>html</field_type>
       <font_color>#000000</font_color>
       <font_family>arial, helvetica, sans-serif</font_family>
@@ -142,6 +149,7 @@ if (DocItem != null) {
      </Item>
      <Item type="Field" id="C10515A7067A401E9FFC77F115FC550E" action="add">
       <bg_color>#FFFFFF</bg_color>
+      <classification>/*</classification>
       <field_type>html</field_type>
       <html_code><![CDATA[<table border='0' cellspacing='0' cellpadding='0'>
 <tr><td colspan='2'>
@@ -175,6 +183,7 @@ if (DocItem != null) {
      <Item type="Field" id="7C0BAF2519BF4973BA682109F4ECC62B" action="add">
       <bg_color>#FFFFFF</bg_color>
       <border_width>0</border_width>
+      <classification>/*</classification>
       <field_type>text</field_type>
       <font_color>#000000</font_color>
       <font_family>arial, helvetica, sans-serif</font_family>
@@ -182,7 +191,7 @@ if (DocItem != null) {
       <font_weight>bold</font_weight>
       <is_disabled>0</is_disabled>
       <is_visible>1</is_visible>
-      <label>Deviation ID</label>
+      <label xml:lang="en">Deviation ID</label>
       <label_position>top</label_position>
       <list_no_blank>0</list_no_blank>
       <name>item_number</name>
@@ -198,6 +207,7 @@ if (DocItem != null) {
      <Item type="Field" id="B1280906E3F941B890E3FD2959087F46" action="add">
       <bg_color>#FFFFFF</bg_color>
       <border_width>0</border_width>
+      <classification>/*</classification>
       <field_type>dropdown</field_type>
       <font_color>#000000</font_color>
       <font_family>arial, helvetica, sans-serif</font_family>
@@ -205,7 +215,7 @@ if (DocItem != null) {
       <font_weight>bold</font_weight>
       <is_disabled>0</is_disabled>
       <is_visible>1</is_visible>
-      <label>Location</label>
+      <label xml:lang="en">Location</label>
       <label_position>top</label_position>
       <list_no_blank>0</list_no_blank>
       <name>location</name>
@@ -221,6 +231,7 @@ if (DocItem != null) {
      <Item type="Field" id="4AE07EB3021440D68646D02C800B84BB" action="add">
       <bg_color>#FFFFFF</bg_color>
       <border_width>0</border_width>
+      <classification>/*</classification>
       <field_type>item</field_type>
       <font_color>#000000</font_color>
       <font_family>arial, helvetica, sans-serif</font_family>
@@ -228,7 +239,7 @@ if (DocItem != null) {
       <font_weight>bold</font_weight>
       <is_disabled>0</is_disabled>
       <is_visible>1</is_visible>
-      <label>Manufacturer</label>
+      <label xml:lang="en">Manufacturer</label>
       <label_position>top</label_position>
       <list_no_blank>0</list_no_blank>
       <name>manufacturer</name>
@@ -244,6 +255,7 @@ if (DocItem != null) {
      <Item type="Field" id="3E07D32037F9437E95BCF68AEC28F0D4" action="add">
       <bg_color>#FFFFFF</bg_color>
       <border_width>0</border_width>
+      <classification>/*</classification>
       <field_type>item</field_type>
       <font_color>#000000</font_color>
       <font_family>arial, helvetica, sans-serif</font_family>
@@ -251,7 +263,7 @@ if (DocItem != null) {
       <font_weight>bold</font_weight>
       <is_disabled>0</is_disabled>
       <is_visible>1</is_visible>
-      <label>Responsible Quality Engineer</label>
+      <label xml:lang="en">Responsible Quality Engineer</label>
       <label_position>top</label_position>
       <list_no_blank>0</list_no_blank>
       <name>owned_by_id</name>
@@ -267,6 +279,7 @@ if (DocItem != null) {
      <Item type="Field" id="737259DDB3F94B438F558B6EE7AF2EDE" action="add">
       <bg_color>#FFFFFF</bg_color>
       <border_width>0</border_width>
+      <classification>/*</classification>
       <field_type>item</field_type>
       <font_color>#000000</font_color>
       <font_family>arial, helvetica, sans-serif</font_family>
@@ -274,7 +287,7 @@ if (DocItem != null) {
       <font_weight>bold</font_weight>
       <is_disabled>0</is_disabled>
       <is_visible>1</is_visible>
-      <label>Part</label>
+      <label xml:lang="en">Part</label>
       <label_position>top</label_position>
       <list_no_blank>0</list_no_blank>
       <name>part</name>
@@ -290,6 +303,7 @@ if (DocItem != null) {
      <Item type="Field" id="ED43D2CF1A8A4F7588C317B955113AB9" action="add">
       <bg_color>#FFFFFF</bg_color>
       <border_width>0</border_width>
+      <classification>/*</classification>
       <field_type>text</field_type>
       <font_color>#000000</font_color>
       <font_family>arial, helvetica, sans-serif</font_family>
@@ -297,7 +311,7 @@ if (DocItem != null) {
       <font_weight>bold</font_weight>
       <is_disabled>0</is_disabled>
       <is_visible>1</is_visible>
-      <label>Status</label>
+      <label xml:lang="en">Status</label>
       <label_position>top</label_position>
       <list_no_blank>0</list_no_blank>
       <name>state</name>

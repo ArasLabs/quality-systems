@@ -1,10 +1,12 @@
 ﻿<AML>
  <Item type="Life Cycle Map" id="F7583C7ECAA5443B8D06498CBC4C5970" action="add">
+  <classification>/*</classification>
   <description>Defect log lifecycle</description>
   <name>QS Defect Log</name>
   <start_state keyed_name="In Process" type="Life Cycle State">D0B9329BBBB74CC6B742B4922D676CAF</start_state>
   <Relationships>
    <Item type="Life Cycle State" id="A9DFB8E76D824CE9AA7FC6E7CE1736E9" action="add">
+    <classification>/*</classification>
     <image>../images/icons/20x20/20x15_lifecycle.gif</image>
     <name>Fail</name>
     <set_is_released>0</set_is_released>
@@ -15,6 +17,7 @@
     <y>128</y>
    </Item>
    <Item type="Life Cycle State" id="D0B9329BBBB74CC6B742B4922D676CAF" action="add">
+    <classification>/*</classification>
     <image>../images/icons/20x20/20x15_lifecycle.gif</image>
     <name>In Process</name>
     <set_is_released>0</set_is_released>
@@ -25,6 +28,7 @@
     <y>75</y>
    </Item>
    <Item type="Life Cycle State" id="36AEB67971F24F0C96CA1C17407E5784" action="add">
+    <classification>/*</classification>
     <image>../images/icons/20x20/20x15_lifecycle.gif</image>
     <name>Pass</name>
     <set_is_released>0</set_is_released>
@@ -35,6 +39,7 @@
     <y>18</y>
    </Item>
    <Item type="Life Cycle Transition" id="0093A2284DB04485A7388363062F4CBA" action="add">
+    <classification>/*</classification>
     <from_state keyed_name="In Process" type="Life Cycle State">D0B9329BBBB74CC6B742B4922D676CAF</from_state>
     <get_comment>0</get_comment>
     <role keyed_name="World" type="Identity">
@@ -50,6 +55,7 @@
     <y>47</y>
    </Item>
    <Item type="Life Cycle Transition" id="7B1BCA94542840839781F2D427F4DDE6" action="add">
+    <classification>/*</classification>
     <from_state keyed_name="In Process" type="Life Cycle State">D0B9329BBBB74CC6B742B4922D676CAF</from_state>
     <get_comment>0</get_comment>
     <role keyed_name="World" type="Identity">

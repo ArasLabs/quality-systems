@@ -1,28 +1,33 @@
 ﻿<AML>
  <Item type="List" id="3D6DA4DA57CE45B0896A390482C36F1F" action="add">
+  <classification>/*</classification>
   <name>QS Issue Types</name>
   <Relationships>
    <Item type="Value" id="EE17B7694A804CA7A46937669069744C" action="add">
-    <label>Customer</label>
+    <classification>/*</classification>
+    <label xml:lang="en">Customer</label>
     <sort_order>128</sort_order>
     <source_id keyed_name="QS Issue Types" type="List">3D6DA4DA57CE45B0896A390482C36F1F</source_id>
     <value>Customer</value>
    </Item>
    <Item type="Value" id="1DB933033F5942C0A21286C473AFF663" action="add">
-    <label>Field-Sales</label>
+    <classification>/*</classification>
+    <label xml:lang="en">Field-Sales</label>
     <sort_order>512</sort_order>
     <source_id keyed_name="QS Issue Types" type="List">3D6DA4DA57CE45B0896A390482C36F1F</source_id>
     <value>Field-Sales</value>
    </Item>
   
    <Item type="Value" id="762C863388B2460BB97AA50B5B7C1444" action="add">
-    <label>Internal</label>
+    <classification>/*</classification>
+    <label xml:lang="en">Internal</label>
     <sort_order>256</sort_order>
     <source_id keyed_name="QS Issue Types" type="List">3D6DA4DA57CE45B0896A390482C36F1F</source_id>
     <value>Internal</value>
    </Item>
    <Item type="Value" id="2CF1271D069A4126B27F9D2A696572F1" action="add">
-    <label>Supplier</label>
+    <classification>/*</classification>
+    <label xml:lang="en">Supplier</label>
     <sort_order>384</sort_order>
     <source_id keyed_name="QS Issue Types" type="List">3D6DA4DA57CE45B0896A390482C36F1F</source_id>
     <value>Supplier</value>

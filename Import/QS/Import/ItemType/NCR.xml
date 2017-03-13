@@ -2,20 +2,19 @@
  <Item type="ItemType" id="58D74CF0E0934E33850CC3CB28361FD9" action="add">
   <allow_private_permission>1</allow_private_permission>
   <auto_search>1</auto_search>
-  <default_lifecycle keyed_name="QS NCR" type="Life Cycle Map">4ABD7CED084E4687A9386CAB5CECB3C5</default_lifecycle>
+  <enforce_discovery>1</enforce_discovery>
   <hide_where_used>0</hide_where_used>
   <implementation_type>table</implementation_type>
   <instance_data>NCR</instance_data>
   <is_dependent>0</is_dependent>
   <is_relationship>0</is_relationship>
   <is_versionable>0</is_versionable>
-  <label>NCR</label>
+  <label xml:lang="en">NCR</label>
   <large_icon>../images/Icons/32x32/32x32_reports.gif</large_icon>
   <manual_versioning>0</manual_versioning>
   <name>NCR</name>
   <open_icon>../images/Icons/16x16/16x16_collection.gif</open_icon>
   <revisions keyed_name="Default" type="Revision">7FE395DD8B9F4E1090756A34B733D75E</revisions>
-  <save_history>0</save_history>
   <show_parameters_tab>1</show_parameters_tab>
   <structure_view>tab view</structure_view>
   <unlock_on_logout>0</unlock_on_logout>
@@ -27,7 +26,9 @@
     <sort_order>128</sort_order>
     <source_id keyed_name="NCR" type="ItemType" name="NCR">58D74CF0E0934E33850CC3CB28361FD9</source_id>
    </Item>
+  
    <Item type="Allowed Workflow" id="62C9B6005433468EA988E9D4A645C8EF" action="add">
+    <classification>/*</classification>
     <is_default>0</is_default>
     <related_id keyed_name="QS NCR" type="Workflow Map">1F045232E6BF433186E22742A3BC1133</related_id>
     <sort_order>128</sort_order>
@@ -53,7 +54,13 @@
     <sort_order>128</sort_order>
     <source_id keyed_name="NCR" type="ItemType" name="NCR">58D74CF0E0934E33850CC3CB28361FD9</source_id>
    </Item>
+   <Item type="ItemType Life Cycle" id="F813CCE49ABF4745BED8547630F26C88" action="add">
+    <related_id keyed_name="QS NCR" type="Life Cycle Map">4ABD7CED084E4687A9386CAB5CECB3C5</related_id>
+    <sort_order>128</sort_order>
+    <source_id keyed_name="NCR" type="ItemType" name="NCR">58D74CF0E0934E33850CC3CB28361FD9</source_id>
+   </Item>
    <Item type="Property" id="85B1B7545EB54B9DA2F4D5F2BAAE6DDD" action="add">
+    <classification>/*</classification>
     <column_alignment>left</column_alignment>
     <column_width>80</column_width>
     <data_source keyed_name="Corporate Plants - not filter">B0AD8FBF9E86489788A0B3ABAA2CC027</data_source>
@@ -64,14 +71,16 @@
     <is_keyed>0</is_keyed>
     <is_multi_valued>0</is_multi_valued>
     <is_required>0</is_required>
-    <label>Plant</label>
+    <label xml:lang="en">Plant</label>
     <name>corp_plant</name>
     <range_inclusive>0</range_inclusive>
     <readonly>0</readonly>
     <sort_order>5406</sort_order>
     <source_id keyed_name="NCR" type="ItemType" name="NCR">58D74CF0E0934E33850CC3CB28361FD9</source_id>
+    <track_history>0</track_history>
    </Item>
    <Item type="Property" id="D175ADB221A64E979299CF2F5DE5FC1D" action="add">
+    <classification>/*</classification>
     <column_alignment>left</column_alignment>
     <column_width>250</column_width>
     <data_type>string</data_type>
@@ -81,15 +90,17 @@
     <is_keyed>0</is_keyed>
     <is_multi_valued>0</is_multi_valued>
     <is_required>0</is_required>
-    <label>Non Conformance</label>
+    <label xml:lang="en">Non Conformance</label>
     <name>description</name>
     <range_inclusive>0</range_inclusive>
     <readonly>0</readonly>
     <sort_order>25</sort_order>
     <source_id keyed_name="NCR" type="ItemType" name="NCR">58D74CF0E0934E33850CC3CB28361FD9</source_id>
     <stored_length>250</stored_length>
+    <track_history>0</track_history>
    </Item>
    <Item type="Property" id="1669DD6F2B1D4488A9AED7FE7566944D" action="add">
+    <classification>/*</classification>
     <column_alignment>left</column_alignment>
     <column_width>250</column_width>
     <data_type>text</data_type>
@@ -99,14 +110,16 @@
     <is_keyed>0</is_keyed>
     <is_multi_valued>0</is_multi_valued>
     <is_required>0</is_required>
-    <label>Description2</label>
+    <label xml:lang="en">Description2</label>
     <name>description2</name>
     <range_inclusive>0</range_inclusive>
     <readonly>0</readonly>
     <sort_order>25</sort_order>
     <source_id keyed_name="NCR" type="ItemType" name="NCR">58D74CF0E0934E33850CC3CB28361FD9</source_id>
+    <track_history>0</track_history>
    </Item>
    <Item type="Property" id="9C973717C51C4075A921CFD5D5D0470D" action="add">
+    <classification>/*</classification>
     <column_alignment>left</column_alignment>
     <column_width>120</column_width>
     <data_source keyed_name="QS NCR Found In">C6AC3AF6B3C94CB88068F050B2DE583C</data_source>
@@ -117,14 +130,16 @@
     <is_keyed>0</is_keyed>
     <is_multi_valued>0</is_multi_valued>
     <is_required>0</is_required>
-    <label>Discovered In</label>
+    <label xml:lang="en">Discovered In</label>
     <name>discovered_in</name>
     <range_inclusive>0</range_inclusive>
     <readonly>0</readonly>
     <sort_order>20</sort_order>
     <source_id keyed_name="NCR" type="ItemType" name="NCR">58D74CF0E0934E33850CC3CB28361FD9</source_id>
+    <track_history>0</track_history>
    </Item>
    <Item type="Property" id="8450D5F3CC1F433F8000EF3949CEBB86" action="add">
+    <classification>/*</classification>
     <column_alignment>left</column_alignment>
     <column_width>80</column_width>
     <data_source keyed_name="QS NCR Number">47E6B29F9117458886F720F84B1F32A6</data_source>
@@ -136,14 +151,16 @@
     <is_multi_valued>0</is_multi_valued>
     <is_required>0</is_required>
     <keyed_name_order>1</keyed_name_order>
-    <label>NCR Number</label>
+    <label xml:lang="en">NCR Number</label>
     <name>item_number</name>
     <range_inclusive>0</range_inclusive>
     <readonly>0</readonly>
     <sort_order>5</sort_order>
     <source_id keyed_name="NCR" type="ItemType" name="NCR">58D74CF0E0934E33850CC3CB28361FD9</source_id>
+    <track_history>0</track_history>
    </Item>
    <Item type="Property" id="2E9442B203DB4EFFB442A32B76BD53A5" action="add">
+    <classification>/*</classification>
     <column_alignment>left</column_alignment>
     <column_width>80</column_width>
     <data_source keyed_name="QS NCR Affects">44D96802366D40E3BF015D4B82CF24E0</data_source>
@@ -154,14 +171,16 @@
     <is_keyed>0</is_keyed>
     <is_multi_valued>0</is_multi_valued>
     <is_required>0</is_required>
-    <label>NCR Affects</label>
+    <label xml:lang="en">NCR Affects</label>
     <name>ncr_affects</name>
     <range_inclusive>0</range_inclusive>
     <readonly>0</readonly>
     <sort_order>30</sort_order>
     <source_id keyed_name="NCR" type="ItemType" name="NCR">58D74CF0E0934E33850CC3CB28361FD9</source_id>
+    <track_history>0</track_history>
    </Item>
    <Item type="Property" id="4C96E1EBAF794C658F92F73026607A66" action="add">
+    <classification>/*</classification>
     <column_alignment>left</column_alignment>
     <column_width>100</column_width>
     <data_source keyed_name="Part" type="ItemType" name="Part">4F1AC04A2B484F3ABA4E20DB63808A88</data_source>
@@ -173,15 +192,17 @@
     <is_multi_valued>0</is_multi_valued>
     <is_required>0</is_required>
     <item_behavior>float</item_behavior>
-    <label>Part Number</label>
+    <label xml:lang="en">Part Number</label>
     <name>part</name>
     <range_inclusive>0</range_inclusive>
     <readonly>0</readonly>
     <sort_order>10</sort_order>
     <source_id keyed_name="NCR" type="ItemType" name="NCR">58D74CF0E0934E33850CC3CB28361FD9</source_id>
     <stored_length>40</stored_length>
+    <track_history>0</track_history>
    </Item>
    <Item type="Property" id="D2F12531997F427D9C53E0CE12A6033E" action="add">
+    <classification>/*</classification>
     <column_alignment>left</column_alignment>
     <column_width>200</column_width>
     <data_source>
@@ -207,14 +228,16 @@
     <is_keyed>0</is_keyed>
     <is_multi_valued>0</is_multi_valued>
     <is_required>0</is_required>
-    <label>Part Description</label>
+    <label xml:lang="en">Part Description</label>
     <name>part_description</name>
     <range_inclusive>0</range_inclusive>
     <readonly>0</readonly>
     <sort_order>15</sort_order>
     <source_id keyed_name="NCR" type="ItemType" name="NCR">58D74CF0E0934E33850CC3CB28361FD9</source_id>
+    <track_history>0</track_history>
    </Item>
    <Item type="Property" id="3C701DFE7B284D2CBB7B162F8937AC96" action="add">
+    <classification>/*</classification>
     <column_alignment>left</column_alignment>
     <data_source keyed_name="Location" type="ItemType" name="Location">E38F575C956649148C57C5F19FC282C7</data_source>
     <data_type>item</data_type>
@@ -225,14 +248,16 @@
     <is_multi_valued>0</is_multi_valued>
     <is_required>0</is_required>
     <item_behavior>float</item_behavior>
-    <label>Plant Location</label>
+    <label xml:lang="en">Plant Location</label>
     <name>plant_location</name>
     <range_inclusive>0</range_inclusive>
     <readonly>0</readonly>
     <sort_order>5278</sort_order>
     <source_id keyed_name="NCR" type="ItemType" name="NCR">58D74CF0E0934E33850CC3CB28361FD9</source_id>
+    <track_history>0</track_history>
    </Item>
    <Item type="Property" id="E3CE7DFDE118475B960145F19493C1C2" action="add">
+    <classification>/*</classification>
     <column_alignment>left</column_alignment>
     <column_width>80</column_width>
     <data_type>integer</data_type>
@@ -242,14 +267,16 @@
     <is_keyed>0</is_keyed>
     <is_multi_valued>0</is_multi_valued>
     <is_required>0</is_required>
-    <label>Qty Inspected</label>
+    <label xml:lang="en">Qty Inspected</label>
     <name>qty_inspected</name>
     <range_inclusive>0</range_inclusive>
     <readonly>0</readonly>
     <sort_order>35</sort_order>
     <source_id keyed_name="NCR" type="ItemType" name="NCR">58D74CF0E0934E33850CC3CB28361FD9</source_id>
+    <track_history>0</track_history>
    </Item>
    <Item type="Property" id="EB5E1466950947FEA3CD7BCE533EAE7B" action="add">
+    <classification>/*</classification>
     <column_alignment>left</column_alignment>
     <column_width>80</column_width>
     <data_type>integer</data_type>
@@ -259,14 +286,16 @@
     <is_keyed>0</is_keyed>
     <is_multi_valued>0</is_multi_valued>
     <is_required>0</is_required>
-    <label>Qty Rejected</label>
+    <label xml:lang="en">Qty Rejected</label>
     <name>qty_rejected</name>
     <range_inclusive>0</range_inclusive>
     <readonly>0</readonly>
     <sort_order>40</sort_order>
     <source_id keyed_name="NCR" type="ItemType" name="NCR">58D74CF0E0934E33850CC3CB28361FD9</source_id>
+    <track_history>0</track_history>
    </Item>
    <Item type="Property" id="ABC426678690426AB7930E3CE3D169BD" action="add">
+    <classification>/*</classification>
     <column_alignment>left</column_alignment>
     <data_source keyed_name="Vendor" type="ItemType" name="Vendor">9F23A02D1E464F44A3A93A1EFB732B5C</data_source>
     <data_type>item</data_type>
@@ -277,24 +306,30 @@
     <is_multi_valued>0</is_multi_valued>
     <is_required>0</is_required>
     <item_behavior>float</item_behavior>
-    <label>Supplier</label>
+    <label xml:lang="en">Supplier</label>
     <name>supplier</name>
     <range_inclusive>0</range_inclusive>
     <readonly>0</readonly>
     <sort_order>2206</sort_order>
     <source_id keyed_name="NCR" type="ItemType" name="NCR">58D74CF0E0934E33850CC3CB28361FD9</source_id>
+    <track_history>0</track_history>
    </Item>
-   <Item type="TOC Access" id="D8C199F989FF4657A7F68D254B2BB0ED" action="add">
+   <Item type="TOC Access" id="115EE0451E194E23BDD6ED81D0E0C2A2" action="add">
     <category>Quality</category>
-    <related_id keyed_name="World" type="Identity">
-     <Item type="Identity" action="get" select="id">
-      <name>World</name>
-     </Item>
-    </related_id>
+    <classification>/*</classification>
+    <related_id keyed_name="Engineering" type="Identity">A6A115DCD7E2439FAA479DDE3B8B47E4</related_id>
+    <sort_order>256</sort_order>
+    <source_id keyed_name="NCR" type="ItemType" name="NCR">58D74CF0E0934E33850CC3CB28361FD9</source_id>
+   </Item>
+   <Item type="TOC Access" id="0C4F9FCCF8334DEAB12C716785F52F99" action="add">
+    <category>Quality</category>
+    <classification>/*</classification>
+    <related_id keyed_name="Quality" type="Identity">6A7D911555614B8BB16CD8195CDB3B2A</related_id>
     <sort_order>128</sort_order>
     <source_id keyed_name="NCR" type="ItemType" name="NCR">58D74CF0E0934E33850CC3CB28361FD9</source_id>
    </Item>
    <Item type="View" id="5AC598B3251F4FA599E5BFB1A3CA0454" action="add">
+    <classification>/*</classification>
     <client>js</client>
     <related_id keyed_name="NCR" type="Form">237D5C7BDDE249CFA39536BB11552141</related_id>
     <role keyed_name="World" type="Identity">
@@ -305,12 +340,12 @@
     <sort_order>128</sort_order>
     <source_id keyed_name="NCR" type="ItemType" name="NCR">58D74CF0E0934E33850CC3CB28361FD9</source_id>
     <type>default</type>
-   </Item>
-  </Relationships>
+   </Item></Relationships>
  </Item>
  <Item type="ItemType" id="58D74CF0E0934E33850CC3CB28361FD9" action="edit">
   <Relationships>
    <Item type="Property" action="edit" where="source_id='58D74CF0E0934E33850CC3CB28361FD9' and name='owned_by_id'">
+    <classification>/*</classification>
     <column_alignment>left</column_alignment>
     <column_width>100</column_width>
     <data_source keyed_name="Identity" type="ItemType" name="Identity">E582AB17663F4EF28460015B2BE9E094</data_source>
@@ -322,14 +357,16 @@
     <is_multi_valued>0</is_multi_valued>
     <is_required>0</is_required>
     <item_behavior>float</item_behavior>
-    <label>Responsible</label>
+    <label xml:lang="en">Responsible</label>
     <name>owned_by_id</name>
     <range_inclusive>0</range_inclusive>
     <readonly>0</readonly>
     <sort_order>9</sort_order>
     <source_id keyed_name="NCR" type="ItemType" name="NCR">58D74CF0E0934E33850CC3CB28361FD9</source_id>
+    <track_history>0</track_history>
    </Item>
    <Item type="Property" action="edit" where="source_id='58D74CF0E0934E33850CC3CB28361FD9' and name='state'">
+    <classification>/*</classification>
     <column_alignment>left</column_alignment>
     <column_width>90</column_width>
     <data_type>string</data_type>
@@ -339,13 +376,14 @@
     <is_keyed>0</is_keyed>
     <is_multi_valued>0</is_multi_valued>
     <is_required>0</is_required>
-    <label>Status</label>
+    <label xml:lang="en">Status</label>
     <name>state</name>
     <range_inclusive>0</range_inclusive>
     <readonly>1</readonly>
     <sort_order>6</sort_order>
     <source_id keyed_name="NCR" type="ItemType" name="NCR">58D74CF0E0934E33850CC3CB28361FD9</source_id>
     <stored_length>32</stored_length>
+    <track_history>0</track_history>
    </Item>
   </Relationships>
  </Item>

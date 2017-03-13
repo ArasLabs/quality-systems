@@ -1,5 +1,6 @@
 ﻿<AML>
  <Item type="Form" id="992166D2077B40CB92FC3DE1F05F76C4" action="add">
+  <classification>/*</classification>
   <height>440</height>
   <name>Audit</name>
   <stylesheet><![CDATA[../styles/default.css]]></stylesheet>
@@ -10,12 +11,14 @@
     <bg_color>#FFFFFF</bg_color>
     <bg_image>../images/Backgrounds/wvleft.gif</bg_image>
     <bg_repeat>no-repeat</bg_repeat>
+    <classification>/*</classification>
     <sort_order>128</sort_order>
     <source_id keyed_name="Audit" type="Form">992166D2077B40CB92FC3DE1F05F76C4</source_id>
     <Relationships>
      <Item type="Field" id="7E74DBA6BB674B53A8DA6DEA87429076" action="add">
       <bg_color>#FFFFFF</bg_color>
       <border_width>0</border_width>
+      <classification>/*</classification>
       <field_type>dropdown</field_type>
       <font_color>#000000</font_color>
       <font_family>arial, helvetica, sans-serif</font_family>
@@ -23,7 +26,7 @@
       <font_weight>bold</font_weight>
       <is_disabled>0</is_disabled>
       <is_visible>1</is_visible>
-      <label>Type:</label>
+      <label xml:lang="en">Type:</label>
       <label_position>left</label_position>
       <list_no_blank>0</list_no_blank>
       <name>audit_type</name>
@@ -39,6 +42,7 @@
      <Item type="Field" id="06C4E7905AEE4B61A7B4237CED4C38DC" action="add">
       <bg_color>beige  </bg_color>
       <border_width>0</border_width>
+      <classification>/*</classification>
       <field_type>date</field_type>
       <font_color>#000000</font_color>
       <font_family>arial, helvetica, sans-serif</font_family>
@@ -46,7 +50,7 @@
       <font_weight>bold</font_weight>
       <is_disabled>0</is_disabled>
       <is_visible>1</is_visible>
-      <label>Requested On:</label>
+      <label xml:lang="en">Requested On:</label>
       <label_position>left</label_position>
       <list_no_blank>0</list_no_blank>
       <name>created_on</name>
@@ -61,6 +65,7 @@
      <Item type="Field" id="AEB589F2352943CCADD6CEB492F1DA74" action="add">
       <bg_color>#FFFFFF</bg_color>
       <border_width>0</border_width>
+      <classification>/*</classification>
       <field_type>textarea</field_type>
       <font_color>#000000</font_color>
       <font_family>arial, helvetica, sans-serif</font_family>
@@ -68,7 +73,7 @@
       <font_weight>bold</font_weight>
       <is_disabled>0</is_disabled>
       <is_visible>1</is_visible>
-      <label>Reason For Audit:</label>
+      <label xml:lang="en">Reason For Audit:</label>
       <list_no_blank>0</list_no_blank>
       <name>description</name>
       <positioning>absolute</positioning>
@@ -85,6 +90,7 @@
      <Item type="Field" id="13D723CB3620458E93B10E18B9BC4927" action="add">
       <bg_color>#FFFFFF</bg_color>
       <border_width>0</border_width>
+      <classification>/*</classification>
       <field_type>html</field_type>
       <font_color>#000000</font_color>
       <font_family>arial, helvetica, sans-serif</font_family>
@@ -92,7 +98,7 @@
       <font_weight>bold</font_weight>
       <is_disabled>0</is_disabled>
       <is_visible>1</is_visible>
-      <label>Summary</label>
+      <label xml:lang="en">Summary</label>
       <label_position>top</label_position>
       <list_no_blank>0</list_no_blank>
       <name>html0</name>
@@ -106,6 +112,7 @@
      <Item type="Field" id="5A17B0DF65124A6286DCD4A56081A71D" action="add">
       <bg_color>#FFFFFF</bg_color>
       <border_width>0</border_width>
+      <classification>/*</classification>
       <field_type>html</field_type>
       <font_color>#000000</font_color>
       <font_family>arial, helvetica, sans-serif</font_family>
@@ -138,6 +145,7 @@ if (DocItem != null) {
      </Item>
      <Item type="Field" id="8F90A2A2D9554FECB4C18CCE6F0EC756" action="add">
       <bg_color>#FFFFFF</bg_color>
+      <classification>/*</classification>
       <field_type>html</field_type>
       <html_code><![CDATA[<b><font size='5'>Audit<br>Request<br>Form</font></b>]]></html_code>
       <is_disabled>0</is_disabled>
@@ -154,6 +162,7 @@ if (DocItem != null) {
      <Item type="Field" id="7DB2ADACC2154E5589E37542D934247F" action="add">
       <bg_color>#FFFFFF</bg_color>
       <border_width>0</border_width>
+      <classification>/*</classification>
       <field_type>text</field_type>
       <font_color>#000000</font_color>
       <font_family>arial, helvetica, sans-serif</font_family>
@@ -161,7 +170,7 @@ if (DocItem != null) {
       <font_weight>bold</font_weight>
       <is_disabled>0</is_disabled>
       <is_visible>1</is_visible>
-      <label>Audit ID:</label>
+      <label xml:lang="en">Audit ID:</label>
       <label_position>left</label_position>
       <list_no_blank>0</list_no_blank>
       <name>item_number</name>
@@ -177,6 +186,7 @@ if (DocItem != null) {
      <Item type="Field" id="9F64510EFAE2455EAC5695D5DA241326" action="add">
       <bg_color>#FFFFFF</bg_color>
       <border_width>0</border_width>
+      <classification>/*</classification>
       <field_type>html</field_type>
       <font_color>#000000</font_color>
       <font_family>arial, helvetica, sans-serif</font_family>
@@ -185,7 +195,7 @@ if (DocItem != null) {
       <html_code></html_code>
       <is_disabled>0</is_disabled>
       <is_visible>1</is_visible>
-      <label>Description /</label>
+      <label xml:lang="en">Description /</label>
       <label_position>top</label_position>
       <list_no_blank>0</list_no_blank>
       <name>label1</name>
@@ -199,6 +209,7 @@ if (DocItem != null) {
      <Item type="Field" id="1B9AC8F1165B47568A9B59F270358AA2" action="add">
       <bg_color>#FFFFFF</bg_color>
       <border_width>0</border_width>
+      <classification>/*</classification>
       <field_type>dropdown</field_type>
       <font_color>#000000</font_color>
       <font_family>arial, helvetica, sans-serif</font_family>
@@ -206,7 +217,7 @@ if (DocItem != null) {
       <font_weight>bold</font_weight>
       <is_disabled>0</is_disabled>
       <is_visible>1</is_visible>
-      <label>Plant:</label>
+      <label xml:lang="en">Plant:</label>
       <label_position>left</label_position>
       <list_no_blank>0</list_no_blank>
       <name>location</name>
@@ -222,6 +233,7 @@ if (DocItem != null) {
      <Item type="Field" id="79C2C5AAAC7E406F86F58B45D14C5436" action="add">
       <bg_color>#FFFFFF</bg_color>
       <border_width>0</border_width>
+      <classification>/*</classification>
       <field_type>item</field_type>
       <font_color>#000000</font_color>
       <font_family>arial, helvetica, sans-serif</font_family>
@@ -229,7 +241,7 @@ if (DocItem != null) {
       <font_weight>bold</font_weight>
       <is_disabled>0</is_disabled>
       <is_visible>1</is_visible>
-      <label>Responsible Manager:</label>
+      <label xml:lang="en">Responsible Manager:</label>
       <label_position>left</label_position>
       <list_no_blank>0</list_no_blank>
       <name>managed_by_id</name>
@@ -244,6 +256,7 @@ if (DocItem != null) {
      <Item type="Field" id="131CFB7A417B47679762FD1530579E67" action="add">
       <bg_color>#FFFFFF</bg_color>
       <border_width>0</border_width>
+      <classification>/*</classification>
       <field_type>item</field_type>
       <font_color>#000000</font_color>
       <font_family>arial, helvetica, sans-serif</font_family>
@@ -251,7 +264,7 @@ if (DocItem != null) {
       <font_weight>bold</font_weight>
       <is_disabled>0</is_disabled>
       <is_visible>1</is_visible>
-      <label>Auditor:</label>
+      <label xml:lang="en">Auditor:</label>
       <label_position>left</label_position>
       <list_no_blank>0</list_no_blank>
       <name>owned_by_id</name>
@@ -266,6 +279,7 @@ if (DocItem != null) {
      <Item type="Field" id="E28670FBEE614F468630803DF440D6C2" action="add">
       <bg_color>#FFFFFF</bg_color>
       <border_width>0</border_width>
+      <classification>/*</classification>
       <display_length>10</display_length>
       <field_type>date</field_type>
       <font_color>#000000</font_color>
@@ -274,7 +288,7 @@ if (DocItem != null) {
       <font_weight>bold</font_weight>
       <is_disabled>0</is_disabled>
       <is_visible>1</is_visible>
-      <label>Date Audit Performed:</label>
+      <label xml:lang="en">Date Audit Performed:</label>
       <label_position>left</label_position>
       <list_no_blank>0</list_no_blank>
       <name>performed_on</name>
@@ -290,6 +304,7 @@ if (DocItem != null) {
      <Item type="Field" id="9E2B86EFF5C4492B8116F0C2A46A1EA1" action="add">
       <bg_color>#FFFFFF</bg_color>
       <border_width>0</border_width>
+      <classification>/*</classification>
       <field_type>textarea</field_type>
       <font_color>#000000</font_color>
       <font_family>arial, helvetica, sans-serif</font_family>
@@ -297,7 +312,7 @@ if (DocItem != null) {
       <font_weight>bold</font_weight>
       <is_disabled>0</is_disabled>
       <is_visible>1</is_visible>
-      <label>Results And Findings:</label>
+      <label xml:lang="en">Results And Findings:</label>
       <label_position>left</label_position>
       <list_no_blank>0</list_no_blank>
       <name>result</name>
@@ -315,6 +330,7 @@ if (DocItem != null) {
      <Item type="Field" id="50DB5D9C2282411980B0D97D46CBC672" action="add">
       <bg_color>#FFFFFF</bg_color>
       <border_width>0</border_width>
+      <classification>/*</classification>
       <field_type>text</field_type>
       <font_color>#000000</font_color>
       <font_family>arial, helvetica, sans-serif</font_family>
@@ -322,7 +338,7 @@ if (DocItem != null) {
       <font_weight>bold</font_weight>
       <is_disabled>0</is_disabled>
       <is_visible>1</is_visible>
-      <label>Status</label>
+      <label xml:lang="en">Status</label>
       <label_position>left</label_position>
       <list_no_blank>0</list_no_blank>
       <name>state</name>
@@ -337,6 +353,7 @@ if (DocItem != null) {
      <Item type="Field" id="50EBE27E3E1D4FE49143B4BD3B5CC5B4" action="add">
       <bg_color>#FFFFFF</bg_color>
       <border_width>0</border_width>
+      <classification>/*</classification>
       <field_type>item</field_type>
       <font_color>#000000</font_color>
       <font_family>arial, helvetica, sans-serif</font_family>
@@ -344,7 +361,7 @@ if (DocItem != null) {
       <font_weight>bold</font_weight>
       <is_disabled>0</is_disabled>
       <is_visible>1</is_visible>
-      <label>Vendor/Supplier:</label>
+      <label xml:lang="en">Vendor/Supplier:</label>
       <label_position>left</label_position>
       <list_no_blank>0</list_no_blank>
       <name>vendor</name>

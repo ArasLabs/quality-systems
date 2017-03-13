@@ -2,20 +2,19 @@
  <Item type="ItemType" id="A4786F0037D44E7AB7C3BA1E6455783D" action="add">
   <allow_private_permission>0</allow_private_permission>
   <auto_search>1</auto_search>
-  <default_lifecycle keyed_name="QS Waiver - Deviation" type="Life Cycle Map">3CAEFD302B534E9BB70F08F478BFAF63</default_lifecycle>
+  <enforce_discovery>1</enforce_discovery>
   <hide_where_used>0</hide_where_used>
   <implementation_type>table</implementation_type>
   <instance_data>DEVIATION</instance_data>
   <is_dependent>0</is_dependent>
   <is_relationship>0</is_relationship>
   <is_versionable>0</is_versionable>
-  <label>Deviation</label>
+  <label xml:lang="en">Deviation</label>
   <large_icon>../images/Icons/32x32/32x32_forms.gif</large_icon>
   <manual_versioning>0</manual_versioning>
   <name>Deviation</name>
   <open_icon>../images/Icons/16x16/16x16_forms.gif</open_icon>
   <revisions keyed_name="Default" type="Revision">7FE395DD8B9F4E1090756A34B733D75E</revisions>
-  <save_history>0</save_history>
   <show_parameters_tab>1</show_parameters_tab>
   <unlock_on_logout>0</unlock_on_logout>
   <use_src_access>0</use_src_access>
@@ -26,6 +25,7 @@
     <sort_order>128</sort_order>
     <source_id keyed_name="Deviation" type="ItemType" name="Deviation">A4786F0037D44E7AB7C3BA1E6455783D</source_id>
    </Item>
+  
    <Item type="Can Add" id="63332BB8DADC44DCA24D56F499C70634" action="add">
     <can_add>1</can_add>
     <related_id keyed_name="World" type="Identity">
@@ -36,7 +36,13 @@
     <sort_order>128</sort_order>
     <source_id keyed_name="Deviation" type="ItemType" name="Deviation">A4786F0037D44E7AB7C3BA1E6455783D</source_id>
    </Item>
+   <Item type="ItemType Life Cycle" id="D9F07E4F77354190A04E3F1936589533" action="add">
+    <related_id keyed_name="QS Waiver - Deviation" type="Life Cycle Map">3CAEFD302B534E9BB70F08F478BFAF63</related_id>
+    <sort_order>128</sort_order>
+    <source_id keyed_name="Deviation" type="ItemType" name="Deviation">A4786F0037D44E7AB7C3BA1E6455783D</source_id>
+   </Item>
    <Item type="Property" id="88A6F24D52A643A2A74898D7B62D0448" action="add">
+    <classification>/*</classification>
     <column_alignment>left</column_alignment>
     <column_width>150</column_width>
     <data_source keyed_name="Corporate Plants - not filter">B0AD8FBF9E86489788A0B3ABAA2CC027</data_source>
@@ -47,14 +53,16 @@
     <is_keyed>0</is_keyed>
     <is_multi_valued>0</is_multi_valued>
     <is_required>0</is_required>
-    <label>Location</label>
+    <label xml:lang="en">Location</label>
     <name>corp_plant</name>
     <range_inclusive>0</range_inclusive>
     <readonly>0</readonly>
     <sort_order>30</sort_order>
     <source_id keyed_name="Deviation" type="ItemType" name="Deviation">A4786F0037D44E7AB7C3BA1E6455783D</source_id>
+    <track_history>0</track_history>
    </Item>
    <Item type="Property" id="A092C748016C487EB9F1586702ED135A" action="add">
+    <classification>/*</classification>
     <column_alignment>center</column_alignment>
     <column_width>100</column_width>
     <data_type>date</data_type>
@@ -64,15 +72,17 @@
     <is_keyed>0</is_keyed>
     <is_multi_valued>0</is_multi_valued>
     <is_required>0</is_required>
-    <label>From</label>
+    <label xml:lang="en">From</label>
     <name>date_from</name>
     <pattern>MM/dd/yyyy</pattern>
     <range_inclusive>0</range_inclusive>
     <readonly>0</readonly>
     <sort_order>32</sort_order>
     <source_id keyed_name="Deviation" type="ItemType" name="Deviation">A4786F0037D44E7AB7C3BA1E6455783D</source_id>
+    <track_history>0</track_history>
    </Item>
    <Item type="Property" id="BC776D5B6E50497198CEE6A3403EF8E8" action="add">
+    <classification>/*</classification>
     <column_alignment>center</column_alignment>
     <column_width>100</column_width>
     <data_type>date</data_type>
@@ -82,15 +92,17 @@
     <is_keyed>0</is_keyed>
     <is_multi_valued>0</is_multi_valued>
     <is_required>0</is_required>
-    <label>To</label>
+    <label xml:lang="en">To</label>
     <name>date_to</name>
     <pattern>MM/dd/yyyy</pattern>
     <range_inclusive>0</range_inclusive>
     <readonly>0</readonly>
     <sort_order>33</sort_order>
     <source_id keyed_name="Deviation" type="ItemType" name="Deviation">A4786F0037D44E7AB7C3BA1E6455783D</source_id>
+    <track_history>0</track_history>
    </Item>
    <Item type="Property" id="4BD8B4FAD6534A38A14368D3F245C2D6" action="add">
+    <classification>/*</classification>
     <column_alignment>left</column_alignment>
     <column_width>400</column_width>
     <data_type>string</data_type>
@@ -100,15 +112,17 @@
     <is_keyed>0</is_keyed>
     <is_multi_valued>0</is_multi_valued>
     <is_required>0</is_required>
-    <label>Waiver</label>
+    <label xml:lang="en">Waiver</label>
     <name>description</name>
     <range_inclusive>0</range_inclusive>
     <readonly>0</readonly>
     <sort_order>40</sort_order>
     <source_id keyed_name="Deviation" type="ItemType" name="Deviation">A4786F0037D44E7AB7C3BA1E6455783D</source_id>
     <stored_length>400</stored_length>
+    <track_history>0</track_history>
    </Item>
    <Item type="Property" id="2945385DC6E3492FAB1B4A15A8D14937" action="add">
+    <classification>/*</classification>
     <column_alignment>left</column_alignment>
     <column_width>100</column_width>
     <data_source keyed_name="QS Deviation">54335C9CCE7B49A39A6A14DF699793D8</data_source>
@@ -120,15 +134,17 @@
     <is_multi_valued>0</is_multi_valued>
     <is_required>0</is_required>
     <keyed_name_order>1</keyed_name_order>
-    <label>Deviation ID</label>
+    <label xml:lang="en">Deviation ID</label>
     <name>item_number</name>
     <order_by>1</order_by>
     <range_inclusive>0</range_inclusive>
     <readonly>0</readonly>
     <sort_order>1</sort_order>
     <source_id keyed_name="Deviation" type="ItemType" name="Deviation">A4786F0037D44E7AB7C3BA1E6455783D</source_id>
+    <track_history>0</track_history>
    </Item>
    <Item type="Property" id="31EB84A430644E4A97C3492AAF0F43A3" action="add">
+    <classification>/*</classification>
     <column_alignment>left</column_alignment>
     <column_width>110</column_width>
     <data_source keyed_name="Manufacturer" type="ItemType" name="Manufacturer">3E71E373FC2940B288760C915120AABE</data_source>
@@ -140,14 +156,16 @@
     <is_multi_valued>0</is_multi_valued>
     <is_required>0</is_required>
     <item_behavior>float</item_behavior>
-    <label>Supplier</label>
+    <label xml:lang="en">Supplier</label>
     <name>manufacturer</name>
     <range_inclusive>0</range_inclusive>
     <readonly>0</readonly>
     <sort_order>23</sort_order>
     <source_id keyed_name="Deviation" type="ItemType" name="Deviation">A4786F0037D44E7AB7C3BA1E6455783D</source_id>
+    <track_history>0</track_history>
    </Item>
    <Item type="Property" id="DBA81A6C133544FB90F407F61B6BBB4A" action="add">
+    <classification>/*</classification>
     <column_alignment>left</column_alignment>
     <column_width>100</column_width>
     <data_source keyed_name="Part" type="ItemType" name="Part">4F1AC04A2B484F3ABA4E20DB63808A88</data_source>
@@ -159,24 +177,30 @@
     <is_multi_valued>0</is_multi_valued>
     <is_required>0</is_required>
     <item_behavior>float</item_behavior>
-    <label>Part</label>
+    <label xml:lang="en">Part</label>
     <name>part</name>
     <range_inclusive>0</range_inclusive>
     <readonly>0</readonly>
     <sort_order>10</sort_order>
     <source_id keyed_name="Deviation" type="ItemType" name="Deviation">A4786F0037D44E7AB7C3BA1E6455783D</source_id>
+    <track_history>0</track_history>
    </Item>
-   <Item type="TOC Access" id="63E9D16ADBBB46DEA13EECAE0A258E26" action="add">
+   <Item type="TOC Access" id="959150A6709F47079CD14436D95C597B" action="add">
     <category>Quality</category>
-    <related_id keyed_name="World" type="Identity">
-     <Item type="Identity" action="get" select="id">
-      <name>World</name>
-     </Item>
-    </related_id>
+    <classification>/*</classification>
+    <related_id keyed_name="Engineering" type="Identity">A6A115DCD7E2439FAA479DDE3B8B47E4</related_id>
+    <sort_order>256</sort_order>
+    <source_id keyed_name="Deviation" type="ItemType" name="Deviation">A4786F0037D44E7AB7C3BA1E6455783D</source_id>
+   </Item>
+   <Item type="TOC Access" id="FFCB702AFACC40A68309DEDA3F8CA1F1" action="add">
+    <category>Quality</category>
+    <classification>/*</classification>
+    <related_id keyed_name="Quality" type="Identity">6A7D911555614B8BB16CD8195CDB3B2A</related_id>
     <sort_order>128</sort_order>
     <source_id keyed_name="Deviation" type="ItemType" name="Deviation">A4786F0037D44E7AB7C3BA1E6455783D</source_id>
    </Item>
    <Item type="View" id="D9D1B10FC85E4E3D9DC2D6333DD3AB12" action="add">
+    <classification>/*</classification>
     <client>js</client>
     <related_id keyed_name="Deviation" type="Form">A00D1253C03C4D8FBECC2D0FEE81EA54</related_id>
     <role keyed_name="World" type="Identity">
@@ -187,12 +211,12 @@
     <sort_order>128</sort_order>
     <source_id keyed_name="Deviation" type="ItemType" name="Deviation">A4786F0037D44E7AB7C3BA1E6455783D</source_id>
     <type>default</type>
-   </Item>
-  </Relationships>
+   </Item></Relationships>
  </Item>
  <Item type="ItemType" id="A4786F0037D44E7AB7C3BA1E6455783D" action="edit">
   <Relationships>
    <Item type="Property" action="edit" where="source_id='A4786F0037D44E7AB7C3BA1E6455783D' and name='state'">
+    <classification>/*</classification>
     <column_alignment>center</column_alignment>
     <column_width>90</column_width>
     <data_type>string</data_type>
@@ -202,13 +226,14 @@
     <is_keyed>0</is_keyed>
     <is_multi_valued>0</is_multi_valued>
     <is_required>0</is_required>
-    <label>Status</label>
+    <label xml:lang="en">Status</label>
     <name>state</name>
     <range_inclusive>0</range_inclusive>
     <readonly>1</readonly>
     <sort_order>2</sort_order>
     <source_id keyed_name="Deviation" type="ItemType" name="Deviation">A4786F0037D44E7AB7C3BA1E6455783D</source_id>
     <stored_length>32</stored_length>
+    <track_history>0</track_history>
    </Item>
   </Relationships>
  </Item>

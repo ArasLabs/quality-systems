@@ -1,5 +1,6 @@
 ﻿<AML>
  <Item type="Sequence" id="4FBADD129F454DB9B59344C1504CD48A" action="add">
+  <classification>/*</classification>
   <current_value>1004</current_value>
   <name>QS Logbook</name>
   <pad_to>7</pad_to>

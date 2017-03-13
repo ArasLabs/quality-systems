@@ -1,10 +1,12 @@
 ﻿<AML>
  <Item type="Life Cycle Map" id="4ABD7CED084E4687A9386CAB5CECB3C5" action="add">
+  <classification>/*</classification>
   <description>Non-Conformance Report</description>
   <name>QS NCR</name>
   <start_state keyed_name="Originated" type="Life Cycle State">EE3467EE34C84A868B013073AEF670CF</start_state>
   <Relationships>
    <Item type="Life Cycle State" id="5BADE7B3DBB94E64865CC2D13794C511" action="add">
+    <classification>/*</classification>
     <image>../images/icons/20x20/20x15_lifecycle.gif</image>
     <name>Approved</name>
     <set_is_released>1</set_is_released>
@@ -15,6 +17,7 @@
     <y>61</y>
    </Item>
    <Item type="Life Cycle State" id="20BCBE1FAE0D4843B451FA79B1EE1280" action="add">
+    <classification>/*</classification>
     <image>../images/icons/20x20/20x15_lifecycle.gif</image>
     <name>In Review</name>
     <set_is_released>0</set_is_released>
@@ -25,6 +28,7 @@
     <y>61</y>
    </Item>
    <Item type="Life Cycle State" id="EE3467EE34C84A868B013073AEF670CF" action="add">
+    <classification>/*</classification>
     <image>../images/icons/20x20/20x15_lifecycle.gif</image>
     <name>Originated</name>
     <set_is_released>0</set_is_released>
@@ -35,6 +39,7 @@
     <y>62</y>
    </Item>
    <Item type="Life Cycle Transition" id="590A8EE1AEAA4524A17EB88103DEDFA6" action="add">
+    <classification>/*</classification>
     <from_state keyed_name="In Review" type="Life Cycle State">20BCBE1FAE0D4843B451FA79B1EE1280</from_state>
     <get_comment>0</get_comment>
     <role keyed_name="World" type="Identity">
@@ -47,6 +52,7 @@
     <to_state keyed_name="Approved" type="Life Cycle State">5BADE7B3DBB94E64865CC2D13794C511</to_state>
    </Item>
    <Item type="Life Cycle Transition" id="BCD1ACC6CA8F45B09791C964BFB225A8" action="add">
+    <classification>/*</classification>
     <from_state keyed_name="In Review" type="Life Cycle State">20BCBE1FAE0D4843B451FA79B1EE1280</from_state>
     <get_comment>0</get_comment>
     <role keyed_name="World" type="Identity">
@@ -62,6 +68,7 @@
     <y>87</y>
    </Item>
    <Item type="Life Cycle Transition" id="9A888E460A4746CCB61A358AE87E912C" action="add">
+    <classification>/*</classification>
     <from_state keyed_name="Originated" type="Life Cycle State">EE3467EE34C84A868B013073AEF670CF</from_state>
     <get_comment>0</get_comment>
     <role keyed_name="World" type="Identity">

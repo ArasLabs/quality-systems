@@ -1,28 +1,33 @@
 ﻿<AML>
  <Item type="List" id="8B6CE887CBC74BA8B70362F9F97C1BCB" action="add">
+  <classification>/*</classification>
   <name>QS Hold Notice Type</name>
   <Relationships>
    <Item type="Value" id="670AEA75B78C46B49D2628FB66185221" action="add">
-    <label>Incoming</label>
+    <classification>/*</classification>
+    <label xml:lang="en">Incoming</label>
     <sort_order>512</sort_order>
     <source_id keyed_name="QS Hold Notice Type" type="List">8B6CE887CBC74BA8B70362F9F97C1BCB</source_id>
     <value>Incoming</value>
    </Item>
   
    <Item type="Value" id="60F4815B12E84F1A89E79FAF3E16B542" action="add">
-    <label>Production</label>
+    <classification>/*</classification>
+    <label xml:lang="en">Production</label>
     <sort_order>256</sort_order>
     <source_id keyed_name="QS Hold Notice Type" type="List">8B6CE887CBC74BA8B70362F9F97C1BCB</source_id>
     <value>Production</value>
    </Item>
    <Item type="Value" id="B15D4A6F43744037B96FEE193F372AEB" action="add">
-    <label>Purchasing</label>
+    <classification>/*</classification>
+    <label xml:lang="en">Purchasing</label>
     <sort_order>384</sort_order>
     <source_id keyed_name="QS Hold Notice Type" type="List">8B6CE887CBC74BA8B70362F9F97C1BCB</source_id>
     <value>Purchasing</value>
    </Item>
    <Item type="Value" id="A589B185BBA14FF4BC05B6B2403AF820" action="add">
-    <label>Stop Ship</label>
+    <classification>/*</classification>
+    <label xml:lang="en">Stop Ship</label>
     <sort_order>128</sort_order>
     <source_id keyed_name="QS Hold Notice Type" type="List">8B6CE887CBC74BA8B70362F9F97C1BCB</source_id>
     <value>Stop Ship</value>

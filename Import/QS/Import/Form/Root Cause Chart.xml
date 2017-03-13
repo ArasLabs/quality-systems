@@ -1,5 +1,6 @@
 ﻿<AML>
  <Item type="Form" id="07D8A55CEA1C45ECA6502ED8FB98D747" action="add">
+  <classification>/*</classification>
   <name>Root Cause Chart</name>
   <stylesheet><![CDATA[../styles/default.css]]></stylesheet>
   <Relationships>
@@ -8,11 +9,13 @@
     <bg_color>#FFFFFF</bg_color>
     <bg_image>../images/Backgrounds/wvleft.gif</bg_image>
     <bg_repeat>no-repeat</bg_repeat>
+    <classification>/*</classification>
     <sort_order>128</sort_order>
     <source_id keyed_name="Root Cause Chart" type="Form">07D8A55CEA1C45ECA6502ED8FB98D747</source_id>
     <Relationships>
      <Item type="Field" id="BEC2539CBDFE47389E6DFCACC2435424" action="add">
       <bg_color>#FFFFFF</bg_color>
+      <classification>/*</classification>
       <field_type>html</field_type>
       <html_code><![CDATA[<table border='0' cellspacing='0' cellpadding='0'>
 <tr><td colspan='2'>

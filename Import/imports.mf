@@ -1,6 +1,7 @@
 <imports>
   <package name="com.aras.innovator.solution.QS" path="QS\Import">
-    <dependson name="com.aras.innovator.solution.PLM" />
     <dependson name="com.aras.innovator.solution.QP" />
+    <dependson name="com.aras.innovator.solution.PLM" />
+    <dependson name="com.aras.innovator.solution.Project" />
   </package>
 </imports>

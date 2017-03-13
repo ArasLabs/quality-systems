@@ -1,5 +1,6 @@
 ﻿<AML>
  <Item type="Sequence" id="7F82A0CA8FFB4BB486D44D2F987DEC35" action="add">
+  <classification>/*</classification>
   <current_value>4903</current_value>
   <name>QS Rework WO</name>
   <pad_to>6</pad_to>

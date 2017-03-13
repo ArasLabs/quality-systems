@@ -1,10 +1,12 @@
 ﻿<AML>
  <Item type="Identity" id="6947C8C457C3411AA61CC273DCB0F401" action="add">
+  <classification>/*</classification>
   <description>Product Development team</description>
   <is_alias>0</is_alias>
   <name>Product Development</name>
   </Item>
  <Item type="Member" id="822FC055F75A4B3FA5B6DB5B3D83CFA8" action="add">
+  <classification>/*</classification>
   <related_id keyed_name="Administrators" type="Identity">2618D6F5A90949BAA7E920D1B04C7EE1</related_id>
   <sort_order>896</sort_order>
   <source_id keyed_name="Product Development" type="Identity">6947C8C457C3411AA61CC273DCB0F401</source_id>

@@ -6,44 +6,56 @@
    <Item type="Access" id="51C9C69AEC534DEB885BF3A824F4B3F2" action="add">
     <can_change_access>1</can_change_access>
     <can_delete>1</can_delete>
+    <can_discover>0</can_discover>
     <can_get>1</can_get>
     <can_update>1</can_update>
+    <classification>/*</classification>
     <related_id keyed_name="Administrators" type="Identity">2618D6F5A90949BAA7E920D1B04C7EE1</related_id>
+    <show_permissions_warning>0</show_permissions_warning>
     <sort_order>640</sort_order>
     <source_id keyed_name="QAP" type="Permission">3B33F8E931FE4E8A8E406FA7A34A1349</source_id>
    </Item>
    <Item type="Access" id="0508DCD5275C4927AC5F40561704802F" action="add">
     <can_change_access>1</can_change_access>
     <can_delete>1</can_delete>
+    <can_discover>0</can_discover>
     <can_get>1</can_get>
     <can_update>1</can_update>
+    <classification>/*</classification>
     <related_id keyed_name="Manager" type="Identity">
      <Item type="Identity" action="get" select="id">
       <name>Manager</name>
      </Item>
     </related_id>
+    <show_permissions_warning>0</show_permissions_warning>
     <sort_order>512</sort_order>
     <source_id keyed_name="QAP" type="Permission">3B33F8E931FE4E8A8E406FA7A34A1349</source_id>
    </Item>
    <Item type="Access" id="D33FE4C287DA46BD87A7BF253DB90C6F" action="add">
     <can_change_access>0</can_change_access>
     <can_delete>0</can_delete>
+    <can_discover>0</can_discover>
     <can_get>1</can_get>
     <can_update>1</can_update>
+    <classification>/*</classification>
     <related_id keyed_name="Owner" type="Identity">
      <Item type="Identity" action="get" select="id">
       <name>Owner</name>
      </Item>
     </related_id>
+    <show_permissions_warning>0</show_permissions_warning>
     <sort_order>384</sort_order>
     <source_id keyed_name="QAP" type="Permission">3B33F8E931FE4E8A8E406FA7A34A1349</source_id>
    </Item>
    <Item type="Access" id="EB48843453D246A49980753814C4DB30" action="add">
     <can_change_access>0</can_change_access>
     <can_delete>1</can_delete>
+    <can_discover>0</can_discover>
     <can_get>1</can_get>
     <can_update>1</can_update>
+    <classification>/*</classification>
     <related_id keyed_name="Quality" type="Identity">6A7D911555614B8BB16CD8195CDB3B2A</related_id>
+    <show_permissions_warning>0</show_permissions_warning>
     <sort_order>256</sort_order>
     <source_id keyed_name="QAP" type="Permission">3B33F8E931FE4E8A8E406FA7A34A1349</source_id>
    </Item>
@@ -51,13 +63,16 @@
    <Item type="Access" id="1926B16A85634E059952C5DC62FEC7FB" action="add">
     <can_change_access>1</can_change_access>
     <can_delete>1</can_delete>
+    <can_discover>0</can_discover>
     <can_get>1</can_get>
     <can_update>1</can_update>
+    <classification>/*</classification>
     <related_id keyed_name="World" type="Identity">
      <Item type="Identity" action="get" select="id">
       <name>World</name>
      </Item>
     </related_id>
+    <show_permissions_warning>0</show_permissions_warning>
     <sort_order>128</sort_order>
     <source_id keyed_name="QAP" type="Permission">3B33F8E931FE4E8A8E406FA7A34A1349</source_id>
    </Item></Relationships>

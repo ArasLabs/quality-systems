@@ -1,5 +1,6 @@
 ﻿<AML>
  <Item type="Method" id="7642E06120404F5796D9062CCA399676" action="add">
+  <classification>/*</classification>
   <comments>Auto populate the part, BU, and Plant from the QAP for to the items in the related Preventive Action items</comments>
   <method_code><![CDATA[var xpath = "//Item/Relationships/Item/related_id/Item[@id='" + relatedID + "']";
 var relitm = item.selectSingleNode(xpath);

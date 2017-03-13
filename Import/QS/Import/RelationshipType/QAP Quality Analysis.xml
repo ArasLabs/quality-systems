@@ -2,23 +2,24 @@
  <Item type="RelationshipType" id="8F5FC516A61141ECA6D1CECB1DD1A594" action="add" dependencyLevel="0">
   <auto_search>1</auto_search>
   <behavior>float</behavior>
+  <classification>/*</classification>
   <copy_permissions>0</copy_permissions>
   <create_related>0</create_related>
   <hide_in_all>0</hide_in_all>
   <inc_rel_key_name>1</inc_rel_key_name>
   <inc_related_key_name>1</inc_related_key_name>
   <is_list_type>0</is_list_type>
-  <label>Analysis</label>
+  <label xml:lang="en">Analysis</label>
   <name>QAP Quality Analysis</name>
   <new_show_related>1</new_show_related>
-  <related_id keyed_name="Quality Analysis" type="ItemType" name="ItemType">9695F19626DB4BB49FE3144985747043</related_id>
+  <related_id keyed_name="Quality Analysis" type="ItemType" name="Quality Analysis">9695F19626DB4BB49FE3144985747043</related_id>
   <related_notnull>1</related_notnull>
   <related_option>2</related_option>
   <relationship_id keyed_name="QAP Quality Analysis" type="ItemType" name="QAP Quality Analysis">
    <Item type="ItemType" id="2254B7B4815A482089FD8F90184CCF39" action="add">
     <allow_private_permission>1</allow_private_permission>
     <auto_search>0</auto_search>
-    <default_lifecycle keyed_name="Default" type="Life Cycle Map">2F3B75E17C4E4F2D9599579A965BFA64</default_lifecycle>
+    <enforce_discovery>1</enforce_discovery>
     <hide_where_used>0</hide_where_used>
     <implementation_type>table</implementation_type>
     <instance_data>QAP_QUALITY_ANALYSIS</instance_data>
@@ -28,7 +29,6 @@
     <manual_versioning>0</manual_versioning>
     <name>QAP Quality Analysis</name>
     <revisions keyed_name="Default" type="Revision">7FE395DD8B9F4E1090756A34B733D75E</revisions>
-    <save_history>0</save_history>
     <show_parameters_tab>1</show_parameters_tab>
     <unlock_on_logout>0</unlock_on_logout>
     <use_src_access>1</use_src_access>
@@ -39,6 +39,7 @@
       <sort_order>128</sort_order>
       <source_id keyed_name="QAP Quality Analysis" type="ItemType" name="QAP Quality Analysis">2254B7B4815A482089FD8F90184CCF39</source_id>
      </Item>
+    
      <Item type="Can Add" id="49F1AB7B7B2D4DEF9ADFC2D369D245D3" action="add">
       <can_add>1</can_add>
       <related_id keyed_name="World" type="Identity">
@@ -49,13 +50,18 @@
       <sort_order>128</sort_order>
       <source_id keyed_name="QAP Quality Analysis" type="ItemType" name="QAP Quality Analysis">2254B7B4815A482089FD8F90184CCF39</source_id>
      </Item>
-    </Relationships>
+     <Item type="ItemType Life Cycle" id="9CC21E136D36479D855F0EC4C2748384" action="add">
+      <related_id keyed_name="Default" type="Life Cycle Map">2F3B75E17C4E4F2D9599579A965BFA64</related_id>
+      <sort_order>128</sort_order>
+      <source_id keyed_name="QAP Quality Analysis" type="ItemType" name="QAP Quality Analysis">2254B7B4815A482089FD8F90184CCF39</source_id>
+     </Item></Relationships>
    </Item>
   </relationship_id>
   <sort_order>50</sort_order>
   <source_id keyed_name="QAP" type="ItemType" name="QAP">11D2FEA6F58E47ADA0CFBF63122FA02E</source_id>
   <Relationships>
    <Item type="Relationship Grid Event" id="56F505CF87514DF888CE88EED6CD3A3A" action="add">
+    <classification>/*</classification>
     <grid_event>oninsertrow</grid_event>
     <related_id keyed_name="QS Analysis OnInsert" type="Method">
      <Item type="Method" action="get" select="id">

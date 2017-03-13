@@ -1,6 +1,7 @@
 ﻿<AML>
  <Item type="Sequence" id="173ABF20904042C69628187A1AE3BBB2" action="add">
-  <current_value>80</current_value>
+  <classification>/*</classification>
+  <current_value>4243</current_value>
   <name>Quality Action Plan</name>
   <pad_to>5</pad_to>
   <pad_with>0</pad_with>

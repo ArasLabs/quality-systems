@@ -2,20 +2,19 @@
  <Item type="ItemType" id="F01DF964747F4F0E8021E724B9F6D7AF" action="add">
   <allow_private_permission>0</allow_private_permission>
   <auto_search>1</auto_search>
-  <default_lifecycle keyed_name="QS Audit" type="Life Cycle Map">272BB74747A64AE188421D00054AD45E</default_lifecycle>
+  <enforce_discovery>1</enforce_discovery>
   <hide_where_used>0</hide_where_used>
   <implementation_type>table</implementation_type>
   <instance_data>AUDIT</instance_data>
   <is_dependent>0</is_dependent>
   <is_relationship>0</is_relationship>
   <is_versionable>0</is_versionable>
-  <label>Audits</label>
+  <label xml:lang="en">Audits</label>
   <large_icon>../images/Icons/32x32/32x32_itemViews.gif</large_icon>
   <manual_versioning>0</manual_versioning>
   <name>Audit</name>
   <open_icon>../images/Icons/16x16/16x16_itemViews.gif</open_icon>
   <revisions keyed_name="Default" type="Revision">7FE395DD8B9F4E1090756A34B733D75E</revisions>
-  <save_history>0</save_history>
   <show_parameters_tab>1</show_parameters_tab>
   <structure_view>tab view</structure_view>
   <unlock_on_logout>0</unlock_on_logout>
@@ -27,7 +26,9 @@
     <sort_order>128</sort_order>
     <source_id keyed_name="Audit" type="ItemType" name="Audit">F01DF964747F4F0E8021E724B9F6D7AF</source_id>
    </Item>
+  
    <Item type="Allowed Workflow" id="C60247E3366645038746C9D877121DA9" action="add">
+    <classification>/*</classification>
     <is_default>1</is_default>
     <related_id keyed_name="QS Audit Workflow map" type="Workflow Map">7F5BB28F82294D4AA0FB9CAF71849930</related_id>
     <sort_order>128</sort_order>
@@ -43,7 +44,13 @@
     <sort_order>128</sort_order>
     <source_id keyed_name="Audit" type="ItemType" name="Audit">F01DF964747F4F0E8021E724B9F6D7AF</source_id>
    </Item>
+   <Item type="ItemType Life Cycle" id="ADB942F9CE6E4D768D4550AD59EBA5F5" action="add">
+    <related_id keyed_name="QS Audit" type="Life Cycle Map">272BB74747A64AE188421D00054AD45E</related_id>
+    <sort_order>128</sort_order>
+    <source_id keyed_name="Audit" type="ItemType" name="Audit">F01DF964747F4F0E8021E724B9F6D7AF</source_id>
+   </Item>
    <Item type="Property" id="BBB72F32EC50422794F67C8CE3CC0962" action="add">
+    <classification>/*</classification>
     <column_alignment>left</column_alignment>
     <column_width>100</column_width>
     <data_source keyed_name="QS Audit Type">B4A1E6B580004AB4A9104B59A4D5DC31</data_source>
@@ -54,14 +61,16 @@
     <is_keyed>0</is_keyed>
     <is_multi_valued>0</is_multi_valued>
     <is_required>0</is_required>
-    <label>Type</label>
+    <label xml:lang="en">Type</label>
     <name>audit_type</name>
     <range_inclusive>0</range_inclusive>
     <readonly>0</readonly>
     <sort_order>5</sort_order>
     <source_id keyed_name="Audit" type="ItemType" name="Audit">F01DF964747F4F0E8021E724B9F6D7AF</source_id>
+    <track_history>0</track_history>
    </Item>
    <Item type="Property" id="F0BD51EE64164DE5B2345A42682EB89F" action="add">
+    <classification>/*</classification>
     <column_alignment>left</column_alignment>
     <data_source keyed_name="Corporate Plants - not filter">B0AD8FBF9E86489788A0B3ABAA2CC027</data_source>
     <data_type>list</data_type>
@@ -71,14 +80,16 @@
     <is_keyed>0</is_keyed>
     <is_multi_valued>0</is_multi_valued>
     <is_required>0</is_required>
-    <label>Location</label>
+    <label xml:lang="en">Location</label>
     <name>corp_plant</name>
     <range_inclusive>0</range_inclusive>
     <readonly>0</readonly>
     <sort_order>40</sort_order>
     <source_id keyed_name="Audit" type="ItemType" name="Audit">F01DF964747F4F0E8021E724B9F6D7AF</source_id>
+    <track_history>0</track_history>
    </Item>
    <Item type="Property" id="2E5DD71E9DF74A66B8904B0184691E76" action="add">
+    <classification>/*</classification>
     <column_alignment>left</column_alignment>
     <column_width>200</column_width>
     <data_type>string</data_type>
@@ -88,15 +99,17 @@
     <is_keyed>0</is_keyed>
     <is_multi_valued>0</is_multi_valued>
     <is_required>0</is_required>
-    <label>Description</label>
+    <label xml:lang="en">Description</label>
     <name>description</name>
     <range_inclusive>0</range_inclusive>
     <readonly>0</readonly>
     <sort_order>8</sort_order>
     <source_id keyed_name="Audit" type="ItemType" name="Audit">F01DF964747F4F0E8021E724B9F6D7AF</source_id>
     <stored_length>128</stored_length>
+    <track_history>0</track_history>
    </Item>
    <Item type="Property" id="D7B0040BD4AC4BDD8A0359393C026E13" action="add">
+    <classification>/*</classification>
     <column_alignment>left</column_alignment>
     <column_width>80</column_width>
     <data_source keyed_name="QS Audit">894E98760F0245729E87D6749FD22AA3</data_source>
@@ -108,15 +121,17 @@
     <is_multi_valued>0</is_multi_valued>
     <is_required>0</is_required>
     <keyed_name_order>1</keyed_name_order>
-    <label>Audit ID</label>
+    <label xml:lang="en">Audit ID</label>
     <name>item_number</name>
     <order_by>1</order_by>
     <range_inclusive>0</range_inclusive>
     <readonly>0</readonly>
     <sort_order>1</sort_order>
     <source_id keyed_name="Audit" type="ItemType" name="Audit">F01DF964747F4F0E8021E724B9F6D7AF</source_id>
+    <track_history>0</track_history>
    </Item>
    <Item type="Property" id="70C011DEECA340DDB794E4EE63F5E55A" action="add">
+    <classification>/*</classification>
     <column_alignment>left</column_alignment>
     <data_source keyed_name="Manufacturer" type="ItemType" name="Manufacturer">3E71E373FC2940B288760C915120AABE</data_source>
     <data_type>item</data_type>
@@ -127,14 +142,16 @@
     <is_multi_valued>0</is_multi_valued>
     <is_required>0</is_required>
     <item_behavior>float</item_behavior>
-    <label>Supplier</label>
+    <label xml:lang="en">Supplier</label>
     <name>manufacturer</name>
     <range_inclusive>0</range_inclusive>
     <readonly>0</readonly>
     <sort_order>50</sort_order>
     <source_id keyed_name="Audit" type="ItemType" name="Audit">F01DF964747F4F0E8021E724B9F6D7AF</source_id>
+    <track_history>0</track_history>
    </Item>
    <Item type="Property" id="495FF893F74E434CAE0E8BEC37E29B81" action="add">
+    <classification>/*</classification>
     <column_alignment>left</column_alignment>
     <column_width>100</column_width>
     <data_type>date</data_type>
@@ -144,15 +161,17 @@
     <is_keyed>0</is_keyed>
     <is_multi_valued>0</is_multi_valued>
     <is_required>0</is_required>
-    <label>Performed On</label>
+    <label xml:lang="en">Performed On</label>
     <name>performed_on</name>
     <pattern>MM/dd/yyyy</pattern>
     <range_inclusive>0</range_inclusive>
     <readonly>0</readonly>
     <sort_order>80</sort_order>
     <source_id keyed_name="Audit" type="ItemType" name="Audit">F01DF964747F4F0E8021E724B9F6D7AF</source_id>
+    <track_history>0</track_history>
    </Item>
    <Item type="Property" id="8ED7DF2F73CA438ABF6704E70C682BC9" action="add">
+    <classification>/*</classification>
     <column_alignment>left</column_alignment>
     <data_type>text</data_type>
     <is_hidden>1</is_hidden>
@@ -161,14 +180,16 @@
     <is_keyed>0</is_keyed>
     <is_multi_valued>0</is_multi_valued>
     <is_required>0</is_required>
-    <label>Summary Findings</label>
+    <label xml:lang="en">Summary Findings</label>
     <name>result</name>
     <range_inclusive>0</range_inclusive>
     <readonly>0</readonly>
     <sort_order>100</sort_order>
     <source_id keyed_name="Audit" type="ItemType" name="Audit">F01DF964747F4F0E8021E724B9F6D7AF</source_id>
+    <track_history>0</track_history>
    </Item>
    <Item type="Property" id="99DA123993D84541A77D5B978DB20F67" action="add">
+    <classification>/*</classification>
     <column_alignment>left</column_alignment>
     <column_width>75</column_width>
     <data_source keyed_name="Vendor" type="ItemType" name="Vendor">9F23A02D1E464F44A3A93A1EFB732B5C</data_source>
@@ -180,24 +201,30 @@
     <is_multi_valued>0</is_multi_valued>
     <is_required>0</is_required>
     <item_behavior>float</item_behavior>
-    <label>Vendor</label>
+    <label xml:lang="en">Vendor</label>
     <name>vendor</name>
     <range_inclusive>0</range_inclusive>
     <readonly>0</readonly>
     <sort_order>3080</sort_order>
     <source_id keyed_name="Audit" type="ItemType" name="Audit">F01DF964747F4F0E8021E724B9F6D7AF</source_id>
+    <track_history>0</track_history>
    </Item>
-   <Item type="TOC Access" id="DF6C44140DDA4B1695647834FE490B03" action="add">
+   <Item type="TOC Access" id="323E70D6B4B74F53936871C76EA83E53" action="add">
     <category>Quality</category>
-    <related_id keyed_name="World" type="Identity">
-     <Item type="Identity" action="get" select="id">
-      <name>World</name>
-     </Item>
-    </related_id>
+    <classification>/*</classification>
+    <related_id keyed_name="Engineering Manager" type="Identity">0139E7EAF90B4CECB20F6152E3B1F48A</related_id>
     <sort_order>128</sort_order>
     <source_id keyed_name="Audit" type="ItemType" name="Audit">F01DF964747F4F0E8021E724B9F6D7AF</source_id>
    </Item>
+   <Item type="TOC Access" id="B18CCED8291244B3926FAA18F535C6C2" action="add">
+    <category>Quality</category>
+    <classification>/*</classification>
+    <related_id keyed_name="Quality" type="Identity">6A7D911555614B8BB16CD8195CDB3B2A</related_id>
+    <sort_order>256</sort_order>
+    <source_id keyed_name="Audit" type="ItemType" name="Audit">F01DF964747F4F0E8021E724B9F6D7AF</source_id>
+   </Item>
    <Item type="View" id="47331022EEEC49B1BA06421B8E950521" action="add">
+    <classification>/*</classification>
     <client>js</client>
     <related_id keyed_name="Audit" type="Form">992166D2077B40CB92FC3DE1F05F76C4</related_id>
     <role keyed_name="World" type="Identity">
@@ -208,12 +235,12 @@
     <sort_order>128</sort_order>
     <source_id keyed_name="Audit" type="ItemType" name="Audit">F01DF964747F4F0E8021E724B9F6D7AF</source_id>
     <type>default</type>
-   </Item>
-  </Relationships>
+   </Item></Relationships>
  </Item>
  <Item type="ItemType" id="F01DF964747F4F0E8021E724B9F6D7AF" action="edit">
   <Relationships>
    <Item type="Property" action="edit" where="source_id='F01DF964747F4F0E8021E724B9F6D7AF' and name='created_on'">
+    <classification>/*</classification>
     <column_alignment>left</column_alignment>
     <column_width>100</column_width>
     <data_type>date</data_type>
@@ -223,15 +250,17 @@
     <is_keyed>0</is_keyed>
     <is_multi_valued>0</is_multi_valued>
     <is_required>1</is_required>
-    <label>Date Requested</label>
+    <label xml:lang="en">Date Requested</label>
     <name>created_on</name>
     <pattern>MM/dd/yyyy</pattern>
     <range_inclusive>0</range_inclusive>
     <readonly>1</readonly>
     <sort_order>20</sort_order>
     <source_id keyed_name="Audit" type="ItemType" name="Audit">F01DF964747F4F0E8021E724B9F6D7AF</source_id>
+    <track_history>0</track_history>
    </Item>
    <Item type="Property" action="edit" where="source_id='F01DF964747F4F0E8021E724B9F6D7AF' and name='managed_by_id'">
+    <classification>/*</classification>
     <column_alignment>left</column_alignment>
     <column_width>100</column_width>
     <data_source keyed_name="Identity" type="ItemType" name="Identity">E582AB17663F4EF28460015B2BE9E094</data_source>
@@ -243,14 +272,16 @@
     <is_multi_valued>0</is_multi_valued>
     <is_required>0</is_required>
     <item_behavior>float</item_behavior>
-    <label>Responsible</label>
+    <label xml:lang="en">Responsible</label>
     <name>managed_by_id</name>
     <range_inclusive>0</range_inclusive>
     <readonly>0</readonly>
     <sort_order>7</sort_order>
     <source_id keyed_name="Audit" type="ItemType" name="Audit">F01DF964747F4F0E8021E724B9F6D7AF</source_id>
+    <track_history>0</track_history>
    </Item>
    <Item type="Property" action="edit" where="source_id='F01DF964747F4F0E8021E724B9F6D7AF' and name='owned_by_id'">
+    <classification>/*</classification>
     <column_alignment>left</column_alignment>
     <column_width>100</column_width>
     <data_source keyed_name="Identity" type="ItemType" name="Identity">E582AB17663F4EF28460015B2BE9E094</data_source>
@@ -262,12 +293,13 @@
     <is_multi_valued>0</is_multi_valued>
     <is_required>0</is_required>
     <item_behavior>float</item_behavior>
-    <label>Performed By</label>
+    <label xml:lang="en">Performed By</label>
     <name>owned_by_id</name>
     <range_inclusive>0</range_inclusive>
     <readonly>0</readonly>
     <sort_order>66</sort_order>
     <source_id keyed_name="Audit" type="ItemType" name="Audit">F01DF964747F4F0E8021E724B9F6D7AF</source_id>
+    <track_history>0</track_history>
    </Item>
   </Relationships>
  </Item>

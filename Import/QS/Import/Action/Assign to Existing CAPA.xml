@@ -1,5 +1,6 @@
 ﻿<AML>
  <Item type="Action" id="C09F6228A1A24EFA856134ADFBD163EE" action="add">
+  <classification>/*</classification>
   <item_query>___is_new___</item_query>
   <location>client</location>
   <method keyed_name="QS Add Issue to Existing QAP" type="Method">

@@ -1,6 +1,7 @@
 ﻿<AML>
  <Item type="Workflow Map" id="7F5BB28F82294D4AA0FB9CAF71849930" action="add">
-  <description>Workflow map for the quality audits</description>
+  <classification>/*</classification>
+  <description xml:lang="en">Workflow map for the quality audits</description>
   <name>QS Audit Workflow map</name>
   <node_bg_color></node_bg_color>
   <node_label1_color></node_label1_color>
@@ -19,7 +20,7 @@
   <transition_name_color></transition_name_color>
   <transition_name_font></transition_name_font>
   <Relationships>
-   <Item type="Workflow Map Activity" id="C6D1258CF7BA433A8827300EE3A55CE8" action="add">
+   <Item type="Workflow Map Activity" id="DC4208856A9849F59D64A43E1CBBF8F3" action="add">
     <related_id keyed_name="Complete" type="Activity Template">
      <Item type="Activity Template" id="86382CAF7FEF4F92B9EA22DFFB0C6C1F" action="add">
       <can_delegate>0</can_delegate>
@@ -30,7 +31,7 @@
       <is_auto>1</is_auto>
       <is_end>1</is_end>
       <is_start>0</is_start>
-      <message>Workflow End</message>
+      <message xml:lang="en">Workflow End</message>
       <name>Complete</name>
       <priority>1</priority>
       <reminder_count>0</reminder_count>
@@ -45,7 +46,7 @@
     <sort_order>128</sort_order>
     <source_id keyed_name="QS Audit Workflow map" type="Workflow Map">7F5BB28F82294D4AA0FB9CAF71849930</source_id>
    </Item>
-   <Item type="Workflow Map Activity" id="AF10BA342EDC485DAC990857677374A5" action="add">
+   <Item type="Workflow Map Activity" id="90565F9D501849F9A9E4B6BDCEEE325D" action="add">
     <related_id keyed_name="Define Audit Requirements" type="Activity Template">
      <Item type="Activity Template" id="D4A563B5769343DD9369EE1C6BEF9501" action="add">
       <can_delegate>1</can_delegate>
@@ -55,7 +56,7 @@
       <is_auto>0</is_auto>
       <is_end>0</is_end>
       <is_start>0</is_start>
-      <message>Please Review...</message>
+      <message xml:lang="en">Please Review...</message>
       <name>Define Audit Requirements</name>
       <wait_for_all_inputs>0</wait_for_all_inputs>
       <wait_for_all_votes>0</wait_for_all_votes>
@@ -85,7 +86,7 @@
     <sort_order>384</sort_order>
     <source_id keyed_name="QS Audit Workflow map" type="Workflow Map">7F5BB28F82294D4AA0FB9CAF71849930</source_id>
    </Item>
-   <Item type="Workflow Map Activity" id="66A85600B82F4537BBBA301E39CA0D9B" action="add">
+   <Item type="Workflow Map Activity" id="BADB8681364F43139DB3B5638C13681D" action="add">
     <related_id keyed_name="Initiate Audit" type="Activity Template">
      <Item type="Activity Template" id="3B630F2A44C247AC98503269D8F334AD" action="add">
       <can_delegate>1</can_delegate>
@@ -95,7 +96,7 @@
       <is_auto>0</is_auto>
       <is_end>0</is_end>
       <is_start>0</is_start>
-      <message>Please Review...</message>
+      <message xml:lang="en">Please Review...</message>
       <name>Initiate Audit</name>
       <wait_for_all_inputs>0</wait_for_all_inputs>
       <wait_for_all_votes>0</wait_for_all_votes>
@@ -125,7 +126,7 @@
     <sort_order>256</sort_order>
     <source_id keyed_name="QS Audit Workflow map" type="Workflow Map">7F5BB28F82294D4AA0FB9CAF71849930</source_id>
    </Item>
-   <Item type="Workflow Map Activity" id="C0FA0766C58449BBB5B6C9C6F1A7CB58" action="add">
+   <Item type="Workflow Map Activity" id="0DE5233F7B6E49919E8ED69E8904A0AC" action="add">
     <related_id keyed_name="Perform Audit" type="Activity Template">
      <Item type="Activity Template" id="22A9B34017D3445691BBC340E683F7FB" action="add">
       <can_delegate>1</can_delegate>
@@ -135,7 +136,7 @@
       <is_auto>0</is_auto>
       <is_end>0</is_end>
       <is_start>0</is_start>
-      <message>Please Review...</message>
+      <message xml:lang="en">Please Review...</message>
       <name>Perform Audit</name>
       <wait_for_all_inputs>0</wait_for_all_inputs>
       <wait_for_all_votes>0</wait_for_all_votes>
@@ -168,7 +169,7 @@
     <sort_order>512</sort_order>
     <source_id keyed_name="QS Audit Workflow map" type="Workflow Map">7F5BB28F82294D4AA0FB9CAF71849930</source_id>
    </Item>
-   <Item type="Workflow Map Activity" id="5DA31A9F29FB47ECB6B2D88717F99C1B" action="add">
+   <Item type="Workflow Map Activity" id="C8B0B1919E904B77AE1A77FC4120B3B6" action="add">
     <related_id keyed_name="Release Audit Results" type="Activity Template">
      <Item type="Activity Template" id="71CD63C2FFE7401FA593EA450CD77EB6" action="add">
       <can_delegate>1</can_delegate>
@@ -178,7 +179,7 @@
       <is_auto>0</is_auto>
       <is_end>0</is_end>
       <is_start>0</is_start>
-      <message>Please Review...</message>
+      <message xml:lang="en">Please Review...</message>
       <name>Release Audit Results</name>
       <wait_for_all_inputs>0</wait_for_all_inputs>
       <wait_for_all_votes>0</wait_for_all_votes>
@@ -209,7 +210,7 @@
     <source_id keyed_name="QS Audit Workflow map" type="Workflow Map">7F5BB28F82294D4AA0FB9CAF71849930</source_id>
    </Item>
   
-   <Item type="Workflow Map Activity" id="7CC430A6F1154186AE229D1451590608" action="add">
+   <Item type="Workflow Map Activity" id="E939FB89B7EE4B74828B215656921A3E" action="add">
     <related_id keyed_name="Review Audit Results" type="Activity Template">
      <Item type="Activity Template" id="7D03D9B9872F4D679628EC340BE4281D" action="add">
       <can_delegate>1</can_delegate>
@@ -219,7 +220,7 @@
       <is_auto>0</is_auto>
       <is_end>0</is_end>
       <is_start>0</is_start>
-      <message>Please Review...</message>
+      <message xml:lang="en">Please Review...</message>
       <name>Review Audit Results</name>
       <wait_for_all_inputs>0</wait_for_all_inputs>
       <wait_for_all_votes>0</wait_for_all_votes>
@@ -261,7 +262,7 @@
     <sort_order>640</sort_order>
     <source_id keyed_name="QS Audit Workflow map" type="Workflow Map">7F5BB28F82294D4AA0FB9CAF71849930</source_id>
    </Item>
-   <Item type="Workflow Map Activity" id="59A88CD422364A549FCE2A44A6C53148" action="add">
+   <Item type="Workflow Map Activity" id="3A0E26A34DB041FCB6D9C555F6320371" action="add">
     <related_id keyed_name="Start" type="Activity Template">
      <Item type="Activity Template" id="8751F59DC9B543B7A6C6B52788C3534A" action="add">
       <can_delegate>0</can_delegate>
@@ -272,7 +273,7 @@
       <is_auto>1</is_auto>
       <is_end>0</is_end>
       <is_start>1</is_start>
-      <message>Workflow Start</message>
+      <message xml:lang="en">Workflow Start</message>
       <name>Start</name>
       <priority>2</priority>
       <reminder_count>0</reminder_count>

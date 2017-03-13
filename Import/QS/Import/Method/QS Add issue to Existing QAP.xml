@@ -1,5 +1,6 @@
 ﻿<AML>
  <Item type="Method" id="CF25D749858A458094DBA303225C3998" action="add">
+  <classification>/*</classification>
   <method_code><![CDATA[var myItem = this;
 var param = {aras:top.aras,itemtypeName:'QAP'};
 var res = showModalDialog('../scripts/searchDialog.html', param, 'dialogHeight:450px; dialogWidth:700px; status:0; help:0; resizable:1');

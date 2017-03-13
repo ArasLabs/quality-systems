@@ -1,5 +1,6 @@
 ﻿<AML>
  <Item type="Method" id="05FA36A07B9B411A877E1D6BC339DDE8" action="add">
+  <classification>/*</classification>
   <method_code><![CDATA[document.all.viewer.src="about:blank";]]></method_code>
   <method_type>JavaScript</method_type>
   <name>QS FishBone Clear Viewer</name>

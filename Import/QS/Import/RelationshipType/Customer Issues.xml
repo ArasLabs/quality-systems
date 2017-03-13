@@ -2,13 +2,14 @@
  <Item type="RelationshipType" id="E98B1C0A5C7747AEA03A13511E95D99A" action="add" dependencyLevel="0">
   <auto_search>1</auto_search>
   <behavior>float</behavior>
+  <classification>/*</classification>
   <copy_permissions>0</copy_permissions>
   <create_related>0</create_related>
   <hide_in_all>0</hide_in_all>
   <inc_rel_key_name>1</inc_rel_key_name>
   <inc_related_key_name>1</inc_related_key_name>
   <is_list_type>0</is_list_type>
-  <label>Issues</label>
+  <label xml:lang="en">Issues</label>
   <name>Customer Issues</name>
   <new_show_related>0</new_show_related>
   <related_notnull>0</related_notnull>
@@ -17,20 +18,19 @@
    <Item type="ItemType" id="EC2462B2C48643229F69537EB574E18C" action="add">
     <allow_private_permission>1</allow_private_permission>
     <auto_search>0</auto_search>
-    <default_lifecycle keyed_name="Default" type="Life Cycle Map">2F3B75E17C4E4F2D9599579A965BFA64</default_lifecycle>
+    <enforce_discovery>1</enforce_discovery>
     <hide_where_used>0</hide_where_used>
     <implementation_type>table</implementation_type>
     <instance_data>CUSTOMER_ISSUES</instance_data>
     <is_dependent>0</is_dependent>
     <is_relationship>1</is_relationship>
     <is_versionable>0</is_versionable>
-    <label>Customer Issues</label>
+    <label xml:lang="en">Customer Issues</label>
     <large_icon>../images/Icons/32x32/32x32_users.gif</large_icon>
     <manual_versioning>0</manual_versioning>
     <name>Customer Issues</name>
     <open_icon>../images/Icons/16x16/16x16_users.gif</open_icon>
     <revisions keyed_name="Default" type="Revision">7FE395DD8B9F4E1090756A34B733D75E</revisions>
-    <save_history>0</save_history>
     <show_parameters_tab>1</show_parameters_tab>
     <unlock_on_logout>0</unlock_on_logout>
     <use_src_access>1</use_src_access>
@@ -41,6 +41,7 @@
       <sort_order>128</sort_order>
       <source_id keyed_name="Customer Issues" type="ItemType" name="Customer Issues">EC2462B2C48643229F69537EB574E18C</source_id>
      </Item>
+    
      <Item type="Can Add" id="4E1BF0DA5D724CB999F2024FC3D61E30" action="add">
       <can_add>1</can_add>
       <related_id keyed_name="World" type="Identity">
@@ -51,13 +52,18 @@
       <sort_order>128</sort_order>
       <source_id keyed_name="Customer Issues" type="ItemType" name="Customer Issues">EC2462B2C48643229F69537EB574E18C</source_id>
      </Item>
-    </Relationships>
+     <Item type="ItemType Life Cycle" id="B95C949E767B4A6D9446C655DD762D6B" action="add">
+      <related_id keyed_name="Default" type="Life Cycle Map">2F3B75E17C4E4F2D9599579A965BFA64</related_id>
+      <sort_order>128</sort_order>
+      <source_id keyed_name="Customer Issues" type="ItemType" name="Customer Issues">EC2462B2C48643229F69537EB574E18C</source_id>
+     </Item></Relationships>
    </Item>
   </relationship_id>
   <sort_order>384</sort_order>
   <source_id keyed_name="Customer" type="ItemType" name="Customer">E4847F4A706B4285A395C0228A867E0F</source_id>
   <Relationships>
    <Item type="Relationship View" id="D673765CE6FA407EAD75FD5D00707731" action="add">
+    <classification>/*</classification>
     <grid keyed_name="Customer Issues" type="Grid">D887C695F5CC476EA59724B55975AFA5</grid>
     <related_id keyed_name="World" type="Identity">
      <Item type="Identity" action="get" select="id">

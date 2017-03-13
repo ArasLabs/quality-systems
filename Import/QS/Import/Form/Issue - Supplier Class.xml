@@ -1,5 +1,6 @@
 ﻿<AML>
  <Item type="Form" id="C75B3FD4D9A74FEABF7316D845699B65" action="add">
+  <classification>/*</classification>
   <height>650</height>
   <name>QS Issue - Supplier Class</name>
   <stylesheet><![CDATA[../styles/default.css]]></stylesheet>
@@ -10,18 +11,20 @@
     <bg_color>#FFFFFF</bg_color>
     <bg_image>../images/Backgrounds/wvleft.gif</bg_image>
     <bg_repeat>no-repeat</bg_repeat>
+    <classification>/*</classification>
     <sort_order>128</sort_order>
     <source_id keyed_name="QS Issue - Supplier Class" type="Form">C75B3FD4D9A74FEABF7316D845699B65</source_id>
     <Relationships>
      <Item type="Field" id="95F73943CAD740C8AA2E986D08372BC7" action="add">
       <bg_color>#FFFFFF</bg_color>
       <border_width>2</border_width>
+      <classification>/*</classification>
       <field_type>html</field_type>
       <font_color>#000000</font_color>
       <font_family>arial, helvetica, sans-serif</font_family>
       <font_size>8pt</font_size>
       <font_weight>bold</font_weight>
-      <html_code><![CDATA[<img src='../images/icons/other/1x1.gif' width='610' height='220'>]]></html_code>
+      <html_code><![CDATA[<img src='../images/icons/other/1x1.gif' width='610' height='240'>]]></html_code>
       <is_disabled>0</is_disabled>
       <is_visible>1</is_visible>
       <label_position>top</label_position>
@@ -38,6 +41,7 @@
      <Item type="Field" id="E31DD816ED054A34885DF2DCBADB8D84" action="add">
       <bg_color>#FFFFFF</bg_color>
       <border_width>2</border_width>
+      <classification>/*</classification>
       <field_type>html</field_type>
       <font_color>#000000</font_color>
       <font_family>arial, helvetica, sans-serif</font_family>
@@ -46,7 +50,6 @@
       <html_code><![CDATA[<img src='../images/icons/other/1x1.gif' width='610' height='70'>]]></html_code>
       <is_disabled>0</is_disabled>
       <is_visible>1</is_visible>
-      <legend></legend>
       <list_no_blank>0</list_no_blank>
       <name>border_2</name>
       <positioning>absolute</positioning>
@@ -59,6 +62,7 @@
      <Item type="Field" id="95FEEC9E028845C884BAC96EBA84CC9C" action="add">
       <bg_color>#FFFFFF</bg_color>
       <border_width>2</border_width>
+      <classification>/*</classification>
       <field_type>html</field_type>
       <font_color>#000000</font_color>
       <font_family>arial, helvetica, sans-serif</font_family>
@@ -67,7 +71,7 @@
       <html_code><![CDATA[<img src='../images/icons/other/1x1.gif' width='610' height='110'>]]></html_code>
       <is_disabled>0</is_disabled>
       <is_visible>1</is_visible>
-      <legend>Supplier Specific Issue Data</legend>
+      <legend xml:lang="en">Supplier Specific Issue Data</legend>
       <list_no_blank>0</list_no_blank>
       <name>border_3</name>
       <positioning>absolute</positioning>
@@ -80,6 +84,7 @@
      <Item type="Field" id="192CEDE8769D4D7F91582BD86BBCC4C2" action="add">
       <bg_color>#FFFFFF</bg_color>
       <border_width>0</border_width>
+      <classification>/*</classification>
       <field_type>class structure</field_type>
       <font_color>#000000</font_color>
       <font_family>arial, helvetica, sans-serif</font_family>
@@ -87,7 +92,7 @@
       <font_weight>bold</font_weight>
       <is_disabled>0</is_disabled>
       <is_visible>1</is_visible>
-      <label>Issue Origin</label>
+      <label xml:lang="en">Issue Origin</label>
       <label_position>top</label_position>
       <list_no_blank>0</list_no_blank>
       <name>classification</name>
@@ -101,6 +106,7 @@
       <z_index>2</z_index>
       <Relationships>
        <Item type="Field Event" id="4BD4396236374A21A9AF89A5FA023D94" action="add">
+        <classification>/*</classification>
         <field_event>onchange</field_event>
         <related_id keyed_name="QS Issue ClassNumbering" type="Method">
          <Item type="Method" action="get" select="id">
@@ -115,6 +121,7 @@
      <Item type="Field" id="A4FBA5E5005C4674966451FA12515B94" action="add">
       <bg_color>#FFFFFF</bg_color>
       <border_width>0</border_width>
+      <classification>/*</classification>
       <field_type>dropdown</field_type>
       <font_color>#000000</font_color>
       <font_family>arial, helvetica, sans-serif</font_family>
@@ -122,7 +129,7 @@
       <font_weight>bold</font_weight>
       <is_disabled>0</is_disabled>
       <is_visible>1</is_visible>
-      <label>Business Unit</label>
+      <label xml:lang="en">Business Unit</label>
       <label_position>top</label_position>
       <list_no_blank>0</list_no_blank>
       <name>corp_bu</name>
@@ -139,6 +146,7 @@
      <Item type="Field" id="2B829BDA618B43DBA51ABFC0BEDABE47" action="add">
       <bg_color>#FFFFFF</bg_color>
       <border_width>0</border_width>
+      <classification>/*</classification>
       <field_type>item</field_type>
       <font_color>#000000</font_color>
       <font_family>arial, helvetica, sans-serif</font_family>
@@ -146,7 +154,7 @@
       <font_weight>bold</font_weight>
       <is_disabled>0</is_disabled>
       <is_visible>1</is_visible>
-      <label>Champion</label>
+      <label xml:lang="en">Champion</label>
       <label_position>top</label_position>
       <list_no_blank>0</list_no_blank>
       <name>corp_champion</name>
@@ -163,6 +171,7 @@
      <Item type="Field" id="9193B51F56A749BCB5E351EEB2AB3C86" action="add">
       <bg_color>beige  </bg_color>
       <border_width>0</border_width>
+      <classification>/*</classification>
       <field_type>item</field_type>
       <font_color>#000000</font_color>
       <font_family>arial, helvetica, sans-serif</font_family>
@@ -170,7 +179,7 @@
       <font_weight>bold</font_weight>
       <is_disabled>0</is_disabled>
       <is_visible>1</is_visible>
-      <label>Created By User</label>
+      <label xml:lang="en">Created By User</label>
       <label_position>top</label_position>
       <list_no_blank>0</list_no_blank>
       <name>created_by_id</name>
@@ -186,6 +195,7 @@
      <Item type="Field" id="C57E0D3F63E34C698D5E9D446866C674" action="add">
       <bg_color>beige  </bg_color>
       <border_width>0</border_width>
+      <classification>/*</classification>
       <field_type>date</field_type>
       <font_color>#000000</font_color>
       <font_family>arial, helvetica, sans-serif</font_family>
@@ -193,7 +203,7 @@
       <font_weight>bold</font_weight>
       <is_disabled>0</is_disabled>
       <is_visible>1</is_visible>
-      <label>Date Initiated</label>
+      <label xml:lang="en">Date Initiated</label>
       <label_position>top</label_position>
       <list_no_blank>0</list_no_blank>
       <name>created_on</name>
@@ -209,6 +219,7 @@
      <Item type="Field" id="B56DDEF9E72841359481FB2CAA054231" action="add">
       <bg_color>#FFFFFF</bg_color>
       <border_width>0</border_width>
+      <classification>/*</classification>
       <field_type>item</field_type>
       <font_color>#000000</font_color>
       <font_family>arial, helvetica, sans-serif</font_family>
@@ -216,7 +227,7 @@
       <font_weight>bold</font_weight>
       <is_disabled>0</is_disabled>
       <is_visible>1</is_visible>
-      <label>Cust/Sup Contact</label>
+      <label xml:lang="en">Cust/Sup Contact</label>
       <label_position>top</label_position>
       <list_no_blank>0</list_no_blank>
       <name>customer_contact</name>
@@ -233,6 +244,7 @@
      <Item type="Field" id="47E153FF7EFF4D838D1FBBEE43DA022E" action="add">
       <bg_color>#ffffff</bg_color>
       <border_width>0</border_width>
+      <classification>/*</classification>
       <field_type>textarea</field_type>
       <font_color>#030303</font_color>
       <font_family>arial, helvetica, sans-serif</font_family>
@@ -240,7 +252,7 @@
       <font_weight>bold</font_weight>
       <is_disabled>0</is_disabled>
       <is_visible>1</is_visible>
-      <label>Issue:</label>
+      <label xml:lang="en">Issue:</label>
       <label_position>top</label_position>
       <list_no_blank>0</list_no_blank>
       <name>description</name>
@@ -259,6 +271,7 @@
      <Item type="Field" id="AD8ABBEB6F4F4DCFB577723EB7F43CC4" action="add">
       <bg_color>#FFFFFF</bg_color>
       <border_width>0</border_width>
+      <classification>/*</classification>
       <field_type>html</field_type>
       <font_color>#000000</font_color>
       <font_family>arial, helvetica, sans-serif</font_family>
@@ -293,6 +306,7 @@ if (DocItem != null) {
      <Item type="Field" id="0E5627A3AA714A21A69793F5867012D7" action="add">
       <bg_color>#ffffff</bg_color>
       <border_width>0</border_width>
+      <classification>/*</classification>
       <field_type>text</field_type>
       <font_color>#000000</font_color>
       <font_family>arial, helvetica, sans-serif</font_family>
@@ -300,7 +314,7 @@ if (DocItem != null) {
       <font_weight>bold</font_weight>
       <is_disabled>0</is_disabled>
       <is_visible>1</is_visible>
-      <label>Issue Number</label>
+      <label xml:lang="en">Issue Number</label>
       <label_position>top</label_position>
       <list_no_blank>0</list_no_blank>
       <name>item_number</name>
@@ -317,6 +331,7 @@ if (DocItem != null) {
      <Item type="Field" id="B3E1E906C85042E2A70D96C069EF1820" action="add">
       <bg_color>#FFFFFF</bg_color>
       <border_width>0</border_width>
+      <classification>/*</classification>
       <field_type>item</field_type>
       <font_color>#000000</font_color>
       <font_family>arial, helvetica, sans-serif</font_family>
@@ -324,7 +339,7 @@ if (DocItem != null) {
       <font_weight>bold</font_weight>
       <is_disabled>0</is_disabled>
       <is_visible>1</is_visible>
-      <label>Problem Owner</label>
+      <label xml:lang="en">Problem Owner</label>
       <label_position>top</label_position>
       <list_no_blank>0</list_no_blank>
       <name>owned_by_id</name>
@@ -339,6 +354,7 @@ if (DocItem != null) {
      <Item type="Field" id="D86BF0CC1DDE47628541FBBBC8C48F0C" action="add">
       <bg_color>#FFFFFF</bg_color>
       <border_width>0</border_width>
+      <classification>/*</classification>
       <field_type>item</field_type>
       <font_color>#030303</font_color>
       <font_family>arial, helvetica, sans-serif</font_family>
@@ -346,7 +362,7 @@ if (DocItem != null) {
       <font_weight>bold</font_weight>
       <is_disabled>0</is_disabled>
       <is_visible>1</is_visible>
-      <label>Part Number</label>
+      <label xml:lang="en">Part Number</label>
       <label_position>top</label_position>
       <list_no_blank>0</list_no_blank>
       <name>part</name>
@@ -363,6 +379,7 @@ if (DocItem != null) {
      <Item type="Field" id="43280ED218804607A50303655EB35CBF" action="add">
       <bg_color>#ffffff</bg_color>
       <border_width>0</border_width>
+      <classification>/*</classification>
       <field_type>textarea</field_type>
       <font_color>#000000</font_color>
       <font_family>arial, helvetica, sans-serif</font_family>
@@ -370,7 +387,7 @@ if (DocItem != null) {
       <font_weight>bold</font_weight>
       <is_disabled>0</is_disabled>
       <is_visible>1</is_visible>
-      <label>Part Description</label>
+      <label xml:lang="en">Part Description</label>
       <label_position>top</label_position>
       <list_no_blank>0</list_no_blank>
       <name>part_description</name>
@@ -389,6 +406,7 @@ if (DocItem != null) {
      <Item type="Field" id="332BB3ACC9404BCC9DDFC37E1C53BEA3" action="add">
       <bg_color>#FFFFFF</bg_color>
       <border_width>0</border_width>
+      <classification>/*</classification>
       <field_type>dropdown</field_type>
       <font_color>#000000</font_color>
       <font_family>arial, helvetica, sans-serif</font_family>
@@ -396,7 +414,7 @@ if (DocItem != null) {
       <font_weight>bold</font_weight>
       <is_disabled>0</is_disabled>
       <is_visible>1</is_visible>
-      <label>Issue Priority</label>
+      <label xml:lang="en">Issue Priority</label>
       <label_position>top</label_position>
       <list_no_blank>0</list_no_blank>
       <name>priority</name>
@@ -413,6 +431,7 @@ if (DocItem != null) {
      <Item type="Field" id="C78ED980C8FF4B5EBCBD028E76CDBBB9" action="add">
       <bg_color>#FFFFFF</bg_color>
       <border_width>0</border_width>
+      <classification>/*</classification>
       <field_type>text</field_type>
       <font_color>#000000</font_color>
       <font_family>arial, helvetica, sans-serif</font_family>
@@ -420,7 +439,7 @@ if (DocItem != null) {
       <font_weight>bold</font_weight>
       <is_disabled>0</is_disabled>
       <is_visible>1</is_visible>
-      <label>Product Quantity</label>
+      <label xml:lang="en">Product Quantity</label>
       <label_position>top</label_position>
       <list_no_blank>0</list_no_blank>
       <name>quantity</name>
@@ -437,6 +456,7 @@ if (DocItem != null) {
      <Item type="Field" id="01AD829045E64CC3980A28B53EE1FFAC" action="add">
       <bg_color>#FFFFFF</bg_color>
       <border_width>0</border_width>
+      <classification>/*</classification>
       <field_type>dropdown</field_type>
       <font_color>#000000</font_color>
       <font_family>arial, helvetica, sans-serif</font_family>
@@ -444,7 +464,7 @@ if (DocItem != null) {
       <font_weight>bold</font_weight>
       <is_disabled>0</is_disabled>
       <is_visible>1</is_visible>
-      <label>Response Req'd</label>
+      <label xml:lang="en">Response Req'd</label>
       <label_position>top</label_position>
       <list_no_blank>0</list_no_blank>
       <name>response_req</name>
@@ -462,6 +482,7 @@ if (DocItem != null) {
      <Item type="Field" id="7ADE6BBD407947FFBBB2022B9E88D820" action="add">
       <bg_color>#FFFFFF</bg_color>
       <border_width>0</border_width>
+      <classification>/*</classification>
       <field_type>text</field_type>
       <font_color>#000000</font_color>
       <font_family>arial, helvetica, sans-serif</font_family>
@@ -469,7 +490,7 @@ if (DocItem != null) {
       <font_weight>bold</font_weight>
       <is_disabled>0</is_disabled>
       <is_visible>1</is_visible>
-      <label>Status</label>
+      <label xml:lang="en">Status</label>
       <label_position>top</label_position>
       <list_no_blank>0</list_no_blank>
       <name>state</name>
@@ -485,6 +506,7 @@ if (DocItem != null) {
      <Item type="Field" id="5755CD16A93F44A99AD28750706647D8" action="add">
       <bg_color>#FFFFFF</bg_color>
       <border_width>0</border_width>
+      <classification>/*</classification>
       <field_type>dropdown</field_type>
       <font_color>#000000</font_color>
       <font_family>arial, helvetica, sans-serif</font_family>
@@ -492,7 +514,7 @@ if (DocItem != null) {
       <font_weight>bold</font_weight>
       <is_disabled>0</is_disabled>
       <is_visible>1</is_visible>
-      <label>3rd Party Containment</label>
+      <label xml:lang="en">3rd Party Containment</label>
       <label_position>top</label_position>
       <list_no_blank>0</list_no_blank>
       <name>supplier_3rd_party_contain</name>
@@ -510,6 +532,7 @@ if (DocItem != null) {
      <Item type="Field" id="2358F2BC725944C2A3BEC4F797458D7D" action="add">
       <bg_color>#FFFFFF</bg_color>
       <border_width>0</border_width>
+      <classification>/*</classification>
       <field_type>date</field_type>
       <font_color>#000000</font_color>
       <font_family>arial, helvetica, sans-serif</font_family>
@@ -517,7 +540,7 @@ if (DocItem != null) {
       <font_weight>bold</font_weight>
       <is_disabled>0</is_disabled>
       <is_visible>1</is_visible>
-      <label>C/A Receive Date</label>
+      <label xml:lang="en">C/A Receive Date</label>
       <label_position>top</label_position>
       <list_no_blank>0</list_no_blank>
       <name>supplier_c_a_rec_date</name>
@@ -534,6 +557,7 @@ if (DocItem != null) {
      <Item type="Field" id="0717D39968D5428F89DC79EC56060B5F" action="add">
       <bg_color>#FFFFFF</bg_color>
       <border_width>0</border_width>
+      <classification>/*</classification>
       <field_type>date</field_type>
       <font_color>#000000</font_color>
       <font_family>arial, helvetica, sans-serif</font_family>
@@ -541,7 +565,7 @@ if (DocItem != null) {
       <font_weight>bold</font_weight>
       <is_disabled>0</is_disabled>
       <is_visible>1</is_visible>
-      <label>Date Notified</label>
+      <label xml:lang="en">Date Notified</label>
       <label_position>top</label_position>
       <list_no_blank>0</list_no_blank>
       <name>supplier_date_notified</name>
@@ -558,6 +582,7 @@ if (DocItem != null) {
      <Item type="Field" id="89FE1D174EED4BC0AC47512503312405" action="add">
       <bg_color>#FFFFFF</bg_color>
       <border_width>0</border_width>
+      <classification>/*</classification>
       <field_type>item</field_type>
       <font_color>#000000</font_color>
       <font_family>arial, helvetica, sans-serif</font_family>
@@ -565,7 +590,7 @@ if (DocItem != null) {
       <font_weight>bold</font_weight>
       <is_disabled>0</is_disabled>
       <is_visible>1</is_visible>
-      <label>Supplier</label>
+      <label xml:lang="en">Supplier</label>
       <label_position>top</label_position>
       <list_no_blank>0</list_no_blank>
       <name>supplier_id</name>
@@ -582,6 +607,7 @@ if (DocItem != null) {
      <Item type="Field" id="77EE0F2819464C5180259985FE9F5879" action="add">
       <bg_color>#FFFFFF</bg_color>
       <border_width>0</border_width>
+      <classification>/*</classification>
       <field_type>text</field_type>
       <font_color>#000000</font_color>
       <font_family>arial, helvetica, sans-serif</font_family>
@@ -589,7 +615,7 @@ if (DocItem != null) {
       <font_weight>bold</font_weight>
       <is_disabled>0</is_disabled>
       <is_visible>1</is_visible>
-      <label>Supplier Location</label>
+      <label xml:lang="en">Supplier Location</label>
       <label_position>top</label_position>
       <list_no_blank>0</list_no_blank>
       <name>supplier_location</name>
@@ -605,6 +631,7 @@ if (DocItem != null) {
      <Item type="Field" id="F43734484C1542AB833EBE77E6F991AF" action="add">
       <bg_color>#FFFFFF</bg_color>
       <border_width>0</border_width>
+      <classification>/*</classification>
       <field_type>dropdown</field_type>
       <font_color>#000000</font_color>
       <font_family>arial, helvetica, sans-serif</font_family>
@@ -612,7 +639,7 @@ if (DocItem != null) {
       <font_weight>bold</font_weight>
       <is_disabled>0</is_disabled>
       <is_visible>1</is_visible>
-      <label>Notified Via</label>
+      <label xml:lang="en">Notified Via</label>
       <label_position>top</label_position>
       <list_no_blank>0</list_no_blank>
       <name>supplier_notified_via</name>
@@ -630,6 +657,7 @@ if (DocItem != null) {
      <Item type="Field" id="EFB432F5CADD4D1096A9312098F8B3A2" action="add">
       <bg_color>#FFFFFF</bg_color>
       <border_width>0</border_width>
+      <classification>/*</classification>
       <field_type>text</field_type>
       <font_color>#000000</font_color>
       <font_family>arial, helvetica, sans-serif</font_family>
@@ -637,7 +665,7 @@ if (DocItem != null) {
       <font_weight>bold</font_weight>
       <is_disabled>0</is_disabled>
       <is_visible>1</is_visible>
-      <label>RMA #</label>
+      <label xml:lang="en">RMA #</label>
       <label_position>top</label_position>
       <list_no_blank>0</list_no_blank>
       <name>supplier_rma</name>
@@ -654,6 +682,7 @@ if (DocItem != null) {
      <Item type="Field" id="992CF8D2A2BE4402AC94369FBF21C583" action="add">
       <bg_color>#FFFFFF</bg_color>
       <border_width>0</border_width>
+      <classification>/*</classification>
       <field_type>html</field_type>
       <font_color>#000000</font_color>
       <font_family>arial, helvetica, sans-serif</font_family>
@@ -661,7 +690,7 @@ if (DocItem != null) {
       <font_weight>bold</font_weight>
       <is_disabled>0</is_disabled>
       <is_visible>1</is_visible>
-      <label>Supplier</label>
+      <label xml:lang="en">Supplier</label>
       <label_position>top</label_position>
       <list_no_blank>0</list_no_blank>
       <name>title 1</name>
@@ -675,6 +704,7 @@ if (DocItem != null) {
      <Item type="Field" id="3CF8B85B7CF24DF7B038157C2DAC495B" action="add">
       <bg_color>#FFFFFF</bg_color>
       <border_width>0</border_width>
+      <classification>/*</classification>
       <field_type>html</field_type>
       <font_color>#000000</font_color>
       <font_family>arial, helvetica, sans-serif</font_family>
@@ -683,7 +713,7 @@ if (DocItem != null) {
       <html_code></html_code>
       <is_disabled>0</is_disabled>
       <is_visible>1</is_visible>
-      <label>Issue</label>
+      <label xml:lang="en">Issue</label>
       <list_no_blank>0</list_no_blank>
       <name>title_2</name>
       <positioning>absolute</positioning>

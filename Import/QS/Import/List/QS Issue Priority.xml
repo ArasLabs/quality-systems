@@ -1,22 +1,26 @@
 ﻿<AML>
  <Item type="List" id="46DCDDBE61AB4D85AC2CBD472A87779A" action="add">
+  <classification>/*</classification>
   <name>QS Issue Priority</name>
   <Relationships>
    <Item type="Value" id="FD10010AB403424781970D9F90CE17BE" action="add">
-    <label>Important</label>
+    <classification>/*</classification>
+    <label xml:lang="en">Important</label>
     <sort_order>384</sort_order>
     <source_id keyed_name="QS Issue Priority" type="List">46DCDDBE61AB4D85AC2CBD472A87779A</source_id>
     <value>Important</value>
    </Item>
   
    <Item type="Value" id="BBAA5EBA2A124947AD04429ED04C26A8" action="add">
-    <label>Stop Work</label>
+    <classification>/*</classification>
+    <label xml:lang="en">Stop Work</label>
     <sort_order>256</sort_order>
     <source_id keyed_name="QS Issue Priority" type="List">46DCDDBE61AB4D85AC2CBD472A87779A</source_id>
     <value>Stop Work</value>
    </Item>
    <Item type="Value" id="EDAA365F8B27463C9783FDD0BFEF959D" action="add">
-    <label>Urgent</label>
+    <classification>/*</classification>
+    <label xml:lang="en">Urgent</label>
     <sort_order>128</sort_order>
     <source_id keyed_name="QS Issue Priority" type="List">46DCDDBE61AB4D85AC2CBD472A87779A</source_id>
     <value>Urgent</value>

@@ -6,13 +6,16 @@
    <Item type="Access" id="D5853F9A1BCD4B8AADA1CC3CC7111680" action="add">
     <can_change_access>1</can_change_access>
     <can_delete>1</can_delete>
+    <can_discover>0</can_discover>
     <can_get>1</can_get>
     <can_update>1</can_update>
+    <classification>/*</classification>
     <related_id keyed_name="World" type="Identity">
      <Item type="Identity" action="get" select="id">
       <name>World</name>
      </Item>
     </related_id>
+    <show_permissions_warning>0</show_permissions_warning>
     <sort_order>128</sort_order>
     <source_id keyed_name="QS Logbooks" type="Permission">9B7FF656FCAE46138B3375A4A64C6C25</source_id>
    </Item>

@@ -1,5 +1,6 @@
 ﻿<AML>
  <Item type="Method" id="997B184824E64B8D82E830461F3E1C83" action="add">
+  <classification>/*</classification>
   <method_code><![CDATA[var fishItem = document.thisItem;
 var fileID = fishItem.getProperty("fishbone_file","");
 if (fileID!="") {   

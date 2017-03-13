@@ -1,22 +1,26 @@
 ﻿<AML>
  <Item type="List" id="DB0C0798BA02427DB727566ACB723A01" action="add">
+  <classification>/*</classification>
   <description>Shift for forms</description>
   <name>Plant Shift</name>
   <Relationships>
    <Item type="Value" id="C8D39303C82E40618C7D363D76E1BDD0" action="add">
-    <label>First</label>
+    <classification>/*</classification>
+    <label xml:lang="en">First</label>
     <sort_order>1</sort_order>
     <source_id keyed_name="Plant Shift" type="List">DB0C0798BA02427DB727566ACB723A01</source_id>
     <value>First</value>
    </Item>
    <Item type="Value" id="16DCFCB3B3F04D818C1EEB268C477A18" action="add">
-    <label>Second</label>
+    <classification>/*</classification>
+    <label xml:lang="en">Second</label>
     <sort_order>2</sort_order>
     <source_id keyed_name="Plant Shift" type="List">DB0C0798BA02427DB727566ACB723A01</source_id>
     <value>Second</value>
    </Item>
    <Item type="Value" id="65A1ED2A84D642358CC21DF6207C13F4" action="add">
-    <label>Third</label>
+    <classification>/*</classification>
+    <label xml:lang="en">Third</label>
     <sort_order>3</sort_order>
     <source_id keyed_name="Plant Shift" type="List">DB0C0798BA02427DB727566ACB723A01</source_id>
     <value>Third</value>

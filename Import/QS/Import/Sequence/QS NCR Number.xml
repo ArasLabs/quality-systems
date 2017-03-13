@@ -1,5 +1,6 @@
 ﻿<AML>
  <Item type="Sequence" id="47E6B29F9117458886F720F84B1F32A6" action="add">
+  <classification>/*</classification>
   <current_value>31</current_value>
   <name>QS NCR Number</name>
   <pad_to>4</pad_to>

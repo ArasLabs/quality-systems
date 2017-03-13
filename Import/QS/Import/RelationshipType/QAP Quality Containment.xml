@@ -2,6 +2,7 @@
  <Item type="RelationshipType" id="795395F0607A49E5853E7A4E951300A9" action="add" dependencyLevel="0">
   <auto_search>1</auto_search>
   <behavior>float</behavior>
+  <classification>/*</classification>
   <copy_permissions>0</copy_permissions>
   <create_related>0</create_related>
   <grid_view>intermix</grid_view>
@@ -9,17 +10,17 @@
   <inc_rel_key_name>1</inc_rel_key_name>
   <inc_related_key_name>1</inc_related_key_name>
   <is_list_type>0</is_list_type>
-  <label>Containment</label>
+  <label xml:lang="en">Containment</label>
   <name>QAP Quality Containment</name>
   <new_show_related>1</new_show_related>
-  <related_id keyed_name="Quality Containment" type="ItemType" name="ItemType">E62DFA545B264E1DBE6EBEBC790A7723</related_id>
+  <related_id keyed_name="Quality Containment" type="ItemType" name="Quality Containment">E62DFA545B264E1DBE6EBEBC790A7723</related_id>
   <related_notnull>1</related_notnull>
   <related_option>2</related_option>
   <relationship_id keyed_name="QAP Quality Containment" type="ItemType" name="QAP Quality Containment">
    <Item type="ItemType" id="3784C9761A85429999DD601984706C08" action="add">
     <allow_private_permission>1</allow_private_permission>
     <auto_search>0</auto_search>
-    <default_lifecycle keyed_name="Default" type="Life Cycle Map">2F3B75E17C4E4F2D9599579A965BFA64</default_lifecycle>
+    <enforce_discovery>1</enforce_discovery>
     <hide_where_used>0</hide_where_used>
     <implementation_type>table</implementation_type>
     <instance_data>QAP_QUALITY_CONTAINMENT</instance_data>
@@ -29,7 +30,6 @@
     <manual_versioning>0</manual_versioning>
     <name>QAP Quality Containment</name>
     <revisions keyed_name="Default" type="Revision">7FE395DD8B9F4E1090756A34B733D75E</revisions>
-    <save_history>0</save_history>
     <show_parameters_tab>1</show_parameters_tab>
     <unlock_on_logout>0</unlock_on_logout>
     <use_src_access>1</use_src_access>
@@ -40,6 +40,7 @@
       <sort_order>128</sort_order>
       <source_id keyed_name="QAP Quality Containment" type="ItemType" name="QAP Quality Containment">3784C9761A85429999DD601984706C08</source_id>
      </Item>
+    
      <Item type="Can Add" id="86F26783FE3F42E79F6A4867B6E57D02" action="add">
       <can_add>1</can_add>
       <related_id keyed_name="World" type="Identity">
@@ -50,7 +51,13 @@
       <sort_order>128</sort_order>
       <source_id keyed_name="QAP Quality Containment" type="ItemType" name="QAP Quality Containment">3784C9761A85429999DD601984706C08</source_id>
      </Item>
+     <Item type="ItemType Life Cycle" id="742087C5530C4C7EA5A9E9BC9F90F7DD" action="add">
+      <related_id keyed_name="Default" type="Life Cycle Map">2F3B75E17C4E4F2D9599579A965BFA64</related_id>
+      <sort_order>128</sort_order>
+      <source_id keyed_name="QAP Quality Containment" type="ItemType" name="QAP Quality Containment">3784C9761A85429999DD601984706C08</source_id>
+     </Item>
      <Item type="Property" id="E5F39B5FCE8E4562A5ED52C3F95B83CA" action="add">
+      <classification>/*</classification>
       <column_alignment>left</column_alignment>
       <data_type>date</data_type>
       <is_hidden>0</is_hidden>
@@ -59,15 +66,17 @@
       <is_keyed>0</is_keyed>
       <is_multi_valued>0</is_multi_valued>
       <is_required>0</is_required>
-      <label>Date Implemented</label>
+      <label xml:lang="en">Date Implemented</label>
       <name>date_implemented</name>
       <pattern>MM/dd/yyyy</pattern>
       <range_inclusive>0</range_inclusive>
       <readonly>0</readonly>
       <sort_order>60</sort_order>
       <source_id keyed_name="QAP Quality Containment" type="ItemType" name="QAP Quality Containment">3784C9761A85429999DD601984706C08</source_id>
+      <track_history>0</track_history>
      </Item>
      <Item type="Property" id="F39903EC0ED4462BAAB8E11C2CBA7E0D" action="add">
+      <classification>/*</classification>
       <column_alignment>left</column_alignment>
       <data_type>integer</data_type>
       <is_hidden>0</is_hidden>
@@ -76,14 +85,16 @@
       <is_keyed>0</is_keyed>
       <is_multi_valued>0</is_multi_valued>
       <is_required>0</is_required>
-      <label>% Effective</label>
+      <label xml:lang="en">% Effective</label>
       <name>percent_effective</name>
       <range_inclusive>0</range_inclusive>
       <readonly>0</readonly>
       <sort_order>50</sort_order>
       <source_id keyed_name="QAP Quality Containment" type="ItemType" name="QAP Quality Containment">3784C9761A85429999DD601984706C08</source_id>
+      <track_history>0</track_history>
      </Item>
      <Item type="Property" id="C610B3F862D747759A6B5A846AF0B79C" action="add">
+      <classification>/*</classification>
       <column_alignment>left</column_alignment>
       <data_type>string</data_type>
       <is_hidden>0</is_hidden>
@@ -92,21 +103,22 @@
       <is_keyed>0</is_keyed>
       <is_multi_valued>0</is_multi_valued>
       <is_required>0</is_required>
-      <label>Verification</label>
+      <label xml:lang="en">Verification</label>
       <name>verification</name>
       <range_inclusive>0</range_inclusive>
       <readonly>0</readonly>
       <sort_order>2500</sort_order>
       <source_id keyed_name="QAP Quality Containment" type="ItemType" name="QAP Quality Containment">3784C9761A85429999DD601984706C08</source_id>
       <stored_length>512</stored_length>
-     </Item>
-    </Relationships>
+      <track_history>0</track_history>
+     </Item></Relationships>
    </Item>
   </relationship_id>
   <sort_order>30</sort_order>
   <source_id keyed_name="QAP" type="ItemType" name="QAP">11D2FEA6F58E47ADA0CFBF63122FA02E</source_id>
   <Relationships>
    <Item type="Relationship Grid Event" id="0360E26E4E7649A8BD99604FA07B89A1" action="add">
+    <classification>/*</classification>
     <grid_event>oninsertrow</grid_event>
     <related_id keyed_name="QS Containment OnInsert" type="Method">
      <Item type="Method" action="get" select="id">
@@ -121,6 +133,7 @@
  <Item type="ItemType" id="3784C9761A85429999DD601984706C08" action="edit">
   <Relationships>
    <Item type="Property" action="edit" where="source_id='3784C9761A85429999DD601984706C08' and name='sort_order'">
+    <classification>/*</classification>
     <column_alignment>left</column_alignment>
     <data_type>integer</data_type>
     <is_hidden>1</is_hidden>
@@ -129,12 +142,13 @@
     <is_keyed>0</is_keyed>
     <is_multi_valued>0</is_multi_valued>
     <is_required>0</is_required>
-    <label>Step</label>
+    <label xml:lang="en">Step</label>
     <name>sort_order</name>
     <range_inclusive>0</range_inclusive>
     <readonly>0</readonly>
     <sort_order>1</sort_order>
     <source_id keyed_name="QAP Quality Containment" type="ItemType" name="QAP Quality Containment">3784C9761A85429999DD601984706C08</source_id>
+    <track_history>0</track_history>
    </Item>
   </Relationships>
  </Item>

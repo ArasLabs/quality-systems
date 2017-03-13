@@ -2,18 +2,17 @@
  <Item type="ItemType" id="0C71FA3C21764DF891DC7BBA724D7CCB" action="add">
   <allow_private_permission>0</allow_private_permission>
   <auto_search>0</auto_search>
-  <default_lifecycle keyed_name="Default" type="Life Cycle Map">2F3B75E17C4E4F2D9599579A965BFA64</default_lifecycle>
+  <enforce_discovery>1</enforce_discovery>
   <hide_where_used>0</hide_where_used>
   <implementation_type>polymorphic</implementation_type>
   <instance_data>QUALITY_PREVENTIVE_ACTION</instance_data>
   <is_dependent>0</is_dependent>
   <is_relationship>0</is_relationship>
   <is_versionable>1</is_versionable>
-  <label>Preventive Action</label>
+  <label xml:lang="en">Preventive Action</label>
   <manual_versioning>0</manual_versioning>
   <name>Quality Preventive Action</name>
   <revisions keyed_name="Default" type="Revision">7FE395DD8B9F4E1090756A34B733D75E</revisions>
-  <save_history>0</save_history>
   <show_parameters_tab>1</show_parameters_tab>
   <unlock_on_logout>0</unlock_on_logout>
   <use_src_access>0</use_src_access>
@@ -28,7 +27,14 @@
     <sort_order>128</sort_order>
     <source_id keyed_name="Quality Preventive Action" type="ItemType" name="Quality Preventive Action">0C71FA3C21764DF891DC7BBA724D7CCB</source_id>
    </Item>
+  
+   <Item type="ItemType Life Cycle" id="49D67054FF90451BB9C0C11409AD8919" action="add">
+    <related_id keyed_name="Default" type="Life Cycle Map">2F3B75E17C4E4F2D9599579A965BFA64</related_id>
+    <sort_order>128</sort_order>
+    <source_id keyed_name="Quality Preventive Action" type="ItemType" name="Quality Preventive Action">0C71FA3C21764DF891DC7BBA724D7CCB</source_id>
+   </Item>
    <Item type="Server Event" id="48C98E68842449959FBA916E09DF1A65" action="add">
+    <classification>/*</classification>
     <related_id keyed_name="polymorphic_item_onBeforeAdd" type="Method">
      <Item type="Method" action="get" select="id">
       <name>polymorphic_item_onBeforeAdd</name>
@@ -39,6 +45,7 @@
     <source_id keyed_name="Quality Preventive Action" type="ItemType" name="Quality Preventive Action">0C71FA3C21764DF891DC7BBA724D7CCB</source_id>
    </Item>
    <Item type="Server Event" id="88EFB3BC54B64AAE96873286DC5EFDCD" action="add">
+    <classification>/*</classification>
     <related_id keyed_name="polymorphic_item_onBeforeCopy" type="Method">
      <Item type="Method" action="get" select="id">
       <name>polymorphic_item_onBeforeCopy</name>
@@ -49,6 +56,7 @@
     <source_id keyed_name="Quality Preventive Action" type="ItemType" name="Quality Preventive Action">0C71FA3C21764DF891DC7BBA724D7CCB</source_id>
    </Item>
    <Item type="Server Event" id="18BCA55CADA04C3E85DE86C70F6E81D5" action="add">
+    <classification>/*</classification>
     <related_id keyed_name="polymorphic_item_onBeforeDelete" type="Method">
      <Item type="Method" action="get" select="id">
       <name>polymorphic_item_onBeforeDelete</name>
@@ -59,6 +67,7 @@
     <source_id keyed_name="Quality Preventive Action" type="ItemType" name="Quality Preventive Action">0C71FA3C21764DF891DC7BBA724D7CCB</source_id>
    </Item>
    <Item type="Server Event" id="802D0F20861140E584D5E673FC0355C9" action="add">
+    <classification>/*</classification>
     <related_id keyed_name="polymorphic_item_onBeforeLock" type="Method">
      <Item type="Method" action="get" select="id">
       <name>polymorphic_item_onBeforeLock</name>
@@ -69,6 +78,7 @@
     <source_id keyed_name="Quality Preventive Action" type="ItemType" name="Quality Preventive Action">0C71FA3C21764DF891DC7BBA724D7CCB</source_id>
    </Item>
    <Item type="Server Event" id="DBF839BD6F5B4CB2A1C13A912118B256" action="add">
+    <classification>/*</classification>
     <related_id keyed_name="polymorphic_item_onBeforeUnlock" type="Method">
      <Item type="Method" action="get" select="id">
       <name>polymorphic_item_onBeforeUnlock</name>
@@ -79,6 +89,7 @@
     <source_id keyed_name="Quality Preventive Action" type="ItemType" name="Quality Preventive Action">0C71FA3C21764DF891DC7BBA724D7CCB</source_id>
    </Item>
    <Item type="Server Event" id="B3547153C66D4E68B9A822AA1247835F" action="add">
+    <classification>/*</classification>
     <related_id keyed_name="polymorphic_item_onBeforeUpdate" type="Method">
      <Item type="Method" action="get" select="id">
       <name>polymorphic_item_onBeforeUpdate</name>
@@ -89,6 +100,7 @@
     <source_id keyed_name="Quality Preventive Action" type="ItemType" name="Quality Preventive Action">0C71FA3C21764DF891DC7BBA724D7CCB</source_id>
    </Item>
    <Item type="Server Event" id="D37EA4F7F8544A97AE66507A478DFA48" action="add">
+    <classification>/*</classification>
     <related_id keyed_name="polymorphic_item_onBeforeVersion" type="Method">
      <Item type="Method" action="get" select="id">
       <name>polymorphic_item_onBeforeVersion</name>
@@ -97,12 +109,12 @@
     <server_event>onBeforeVersion</server_event>
     <sort_order>640</sort_order>
     <source_id keyed_name="Quality Preventive Action" type="ItemType" name="Quality Preventive Action">0C71FA3C21764DF891DC7BBA724D7CCB</source_id>
-   </Item>
-  </Relationships>
+   </Item></Relationships>
  </Item>
  <Item type="ItemType" id="0C71FA3C21764DF891DC7BBA724D7CCB" action="edit">
   <Relationships>
    <Item type="Property" action="edit" where="source_id='0C71FA3C21764DF891DC7BBA724D7CCB' and name='itemtype'">
+    <classification>/*</classification>
     <column_alignment>left</column_alignment>
     <data_source keyed_name="Quality Preventive Action"><Item type="List" action="get" select="id" page="1" pagesize="1"><name>Quality Preventive Action</name></Item></data_source>
     <data_type>list</data_type>
@@ -112,14 +124,16 @@
     <is_keyed>0</is_keyed>
     <is_multi_valued>0</is_multi_valued>
     <is_required>0</is_required>
-    <label>ItemType</label>
+    <label xml:lang="en">ItemType</label>
     <name>itemtype</name>
     <range_inclusive>0</range_inclusive>
     <readonly>1</readonly>
     <sort_order>134</sort_order>
     <source_id keyed_name="Quality Preventive Action" type="ItemType" name="Quality Preventive Action">0C71FA3C21764DF891DC7BBA724D7CCB</source_id>
+    <track_history>0</track_history>
    </Item>
    <Item type="Property" action="edit" where="source_id='0C71FA3C21764DF891DC7BBA724D7CCB' and name='keyed_name'">
+    <classification>/*</classification>
     <column_alignment>left</column_alignment>
     <column_width>100</column_width>
     <data_type>string</data_type>
@@ -129,15 +143,17 @@
     <is_keyed>0</is_keyed>
     <is_multi_valued>0</is_multi_valued>
     <is_required>0</is_required>
-    <label>Number</label>
+    <label xml:lang="en">Number</label>
     <name>keyed_name</name>
     <range_inclusive>0</range_inclusive>
     <readonly>0</readonly>
     <sort_order>2</sort_order>
     <source_id keyed_name="Quality Preventive Action" type="ItemType" name="Quality Preventive Action">0C71FA3C21764DF891DC7BBA724D7CCB</source_id>
     <stored_length>128</stored_length>
+    <track_history>0</track_history>
    </Item>
    <Item type="Property" action="edit" where="source_id='0C71FA3C21764DF891DC7BBA724D7CCB' and name='state'">
+    <classification>/*</classification>
     <column_alignment>center</column_alignment>
     <column_width>100</column_width>
     <data_type>string</data_type>
@@ -147,15 +163,17 @@
     <is_keyed>0</is_keyed>
     <is_multi_valued>0</is_multi_valued>
     <is_required>0</is_required>
-    <label>Status</label>
+    <label xml:lang="en">Status</label>
     <name>state</name>
     <range_inclusive>0</range_inclusive>
     <readonly>1</readonly>
     <sort_order>4</sort_order>
     <source_id keyed_name="Quality Preventive Action" type="ItemType" name="Quality Preventive Action">0C71FA3C21764DF891DC7BBA724D7CCB</source_id>
     <stored_length>32</stored_length>
+    <track_history>0</track_history>
    </Item>
    <Item type="Property" action="edit" where="source_id='0C71FA3C21764DF891DC7BBA724D7CCB' and name='superseded_date'">
+    <classification>/*</classification>
     <column_alignment>left</column_alignment>
     <data_type>date</data_type>
     <is_hidden>1</is_hidden>
@@ -164,20 +182,21 @@
     <is_keyed>0</is_keyed>
     <is_multi_valued>0</is_multi_valued>
     <is_required>0</is_required>
-    <label>Superseded Date</label>
+    <label xml:lang="en">Superseded Date</label>
     <name>superseded_date</name>
     <pattern>MM/dd/yyyy hh:mm:ss a</pattern>
     <range_inclusive>0</range_inclusive>
     <readonly>0</readonly>
     <sort_order>3462</sort_order>
     <source_id keyed_name="Quality Preventive Action" type="ItemType" name="Quality Preventive Action">0C71FA3C21764DF891DC7BBA724D7CCB</source_id>
+    <track_history>0</track_history>
    </Item>
   </Relationships>
  </Item>
  <Item type="ItemType" id="0C71FA3C21764DF891DC7BBA724D7CCB" action="edit">
   <Relationships>
    <Item type="Morphae" id="A66E5CAF271B477F857CE95776E5C2A4" action="add">
-    <related_id keyed_name="Document" type="ItemType" name="ItemType">B88C14B99EF449828C5D926E39EE8B89</related_id>
+    <related_id keyed_name="Document" type="ItemType" name="Document">B88C14B99EF449828C5D926E39EE8B89</related_id>
     <sort_order>128</sort_order>
     <source_id keyed_name="Quality Preventive Action" type="ItemType" name="Quality Preventive Action">0C71FA3C21764DF891DC7BBA724D7CCB</source_id>
    </Item>
@@ -186,7 +205,7 @@
  <Item type="ItemType" id="0C71FA3C21764DF891DC7BBA724D7CCB" action="edit">
   <Relationships>
    <Item type="Morphae" id="D26F5C3A84CD4887859028FBED0DAB9A" action="add">
-    <related_id keyed_name="ECR" type="ItemType" name="ItemType">2D4799413792453DA08C1EDE6AA22A76</related_id>
+    <related_id keyed_name="ECR" type="ItemType" name="ECR">2D4799413792453DA08C1EDE6AA22A76</related_id>
     <sort_order>256</sort_order>
     <source_id keyed_name="Quality Preventive Action" type="ItemType" name="Quality Preventive Action">0C71FA3C21764DF891DC7BBA724D7CCB</source_id>
    </Item>
@@ -195,7 +214,7 @@
  <Item type="ItemType" id="0C71FA3C21764DF891DC7BBA724D7CCB" action="edit">
   <Relationships>
    <Item type="Morphae" id="897286F702344867B86C8B949C73B026" action="add">
-    <related_id keyed_name="Process Planner" type="ItemType" name="ItemType">CB90BE75A6AC424283DE74C7D0406FF8</related_id>
+    <related_id keyed_name="Process Planner" type="ItemType" name="Process Planner">CB90BE75A6AC424283DE74C7D0406FF8</related_id>
     <sort_order>384</sort_order>
     <source_id keyed_name="Quality Preventive Action" type="ItemType" name="Quality Preventive Action">0C71FA3C21764DF891DC7BBA724D7CCB</source_id>
    </Item>

@@ -6,7 +6,7 @@
    <Item type="Grid Column" id="419B1633D55F41408D33F052F3C2E323" action="add">
     <align>center</align>
     <datatype>default</datatype>
-    <label>Status</label>
+    <label xml:lang="en">Status</label>
     <property>state</property>
     <sort_order>30</sort_order>
     <source_id keyed_name="Customer Issues" type="Grid">D887C695F5CC476EA59724B55975AFA5</source_id>
@@ -18,7 +18,7 @@
    <Item type="Grid Column" id="6460264AEF164ED591CA28D70C5A6F3A" action="add">
     <align>left</align>
     <datatype>default</datatype>
-    <label>Hidden</label>
+    <label xml:lang="en">Hidden</label>
     <property>id</property>
     <sort_order>10</sort_order>
     <source_id keyed_name="Customer Issues" type="Grid">D887C695F5CC476EA59724B55975AFA5</source_id>
@@ -30,7 +30,7 @@
    <Item type="Grid Column" id="A116302FB68D4587B2685DB7A1F0E29D" action="add">
     <align>left</align>
     <datatype>default</datatype>
-    <label>Description</label>
+    <label xml:lang="en">Description</label>
     <property>description</property>
     <sort_order>40</sort_order>
     <source_id keyed_name="Customer Issues" type="Grid">D887C695F5CC476EA59724B55975AFA5</source_id>
@@ -43,7 +43,7 @@
    <Item type="Grid Column" id="E8F9DD0FB1A140AFA4EAECBBAAC3BF19" action="add">
     <align>left</align>
     <datatype>default</datatype>
-    <label>Number</label>
+    <label xml:lang="en">Number</label>
     <property>item_number</property>
     <sort_order>20</sort_order>
     <source_id keyed_name="Customer Issues" type="Grid">D887C695F5CC476EA59724B55975AFA5</source_id>

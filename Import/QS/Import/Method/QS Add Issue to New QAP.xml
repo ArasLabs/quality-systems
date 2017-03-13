@@ -1,5 +1,6 @@
 ﻿<AML>
  <Item type="Method" id="B6C1B3B6B4454AA3A8FDB65D92107151" action="add">
+  <classification>/*</classification>
   <method_code><![CDATA[var myItem = this;
 
 var newQAP = myItem.newItem('QAP','add');

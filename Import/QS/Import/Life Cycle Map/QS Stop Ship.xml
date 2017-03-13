@@ -1,9 +1,11 @@
 ﻿<AML>
  <Item type="Life Cycle Map" id="5669A47C6EDC4FE88B5AC96406BAEE79" action="add">
+  <classification>/*</classification>
   <name>QS Stop Ship</name>
   <start_state keyed_name="Initiate Stop Ship" type="Life Cycle State">93579FC587074B5993A0A8D36D99EB94</start_state>
   <Relationships>
    <Item type="Life Cycle State" id="E6FE550BEA1F4EB5BD7CCB38DC48D833" action="add">
+    <classification>/*</classification>
     <image>../images/icons/20x20/20x15_lifecycle.gif</image>
     <name>Expired</name>
     <set_is_released>0</set_is_released>
@@ -14,6 +16,7 @@
     <y>61</y>
    </Item>
    <Item type="Life Cycle State" id="93579FC587074B5993A0A8D36D99EB94" action="add">
+    <classification>/*</classification>
     <image>../images/icons/20x20/20x15_lifecycle.gif</image>
     <name>Initiate Stop Ship</name>
     <set_is_released>0</set_is_released>
@@ -24,6 +27,7 @@
     <y>61</y>
    </Item>
    <Item type="Life Cycle State" id="3FF947C5C6134A40B401DB1884D59F52" action="add">
+    <classification>/*</classification>
     <image>../images/icons/20x20/20x15_lifecycle.gif</image>
     <name>Stop Ship Issued</name>
     <set_is_released>0</set_is_released>
@@ -34,6 +38,7 @@
     <y>61</y>
    </Item>
    <Item type="Life Cycle Transition" id="CBF8DF95AA1F439DB11D9D66715A7006" action="add">
+    <classification>/*</classification>
     <from_state keyed_name="Initiate Stop Ship" type="Life Cycle State">93579FC587074B5993A0A8D36D99EB94</from_state>
     <get_comment>0</get_comment>
     <role keyed_name="World" type="Identity">
@@ -50,6 +55,7 @@
    </Item>
   
    <Item type="Life Cycle Transition" id="F7113C42AFEB42788D1446E61FA13017" action="add">
+    <classification>/*</classification>
     <from_state keyed_name="Stop Ship Issued" type="Life Cycle State">3FF947C5C6134A40B401DB1884D59F52</from_state>
     <get_comment>0</get_comment>
     <role keyed_name="World" type="Identity">
